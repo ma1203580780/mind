@@ -284,7 +284,9 @@
     "d6b89e170f01ba6656353b9ab53e49a1ae84436b293fa837a6dd89fb4d0736af": "在科学研究任务上评价人工智能代理人受到基础实验或计算所需的时间和资源的限制。在计算材料研究中,重复同样昂贵的跨代理和试验模拟会使评价变得不切实际.我们引入了CompMat-Bench,这是最近公布的计算材料研究得出的94项任务的基准,每个参与者都要求完成一个步骤,以实现研究的科学目标。我们事先复制研究步骤,并评估编制投入和分析产出的代理人,以便支出。",
     "5799a3c380470ee853123fe42cd5a50b32745b7a6323ee29beb765bd3d6ec71e": "在一个有很多卖家的平台上,一个定价算法是否应该在学习需求时明确模拟竞争者的价格?古典论点表明,忽视竞争者会导致模型的错位和效率低下,然而,从算法串通中得出的结论表明,忽视竞争者价格可能会令人惊讶地助长串通的结果并增加利润。我们在一个需求不为人知的竞争性市场中研究这一问题,在这个市场中,销售商反复确定价格,或者在了解其需求模式时纳入竞争者价格(知情),或者无视价格(忽略)。我们",
     "196fbe6089c74a24dd3e4eb91cde00f4899d2c34f5c6e99dc7347d94fcf5112f": "AI编码代理在行业和学术界的工程工作流程中无处不在。然而,尽管它们被用于应用编码,但对它们在生产事件应对方面执行能力的关注相对较少。这个新兴领域称为代理站点可靠性-工程(SRE),包含以下基准:(1)不切实际的环境,通常是玩具储存库(2)非标准框架执行和(3) 简单的静态核查器。我们引入了事件-Arena, 由20项精心选择的任务构成的人类基准, 以现实世界部署的开源软件为基础。",
-    "7f5f36467682caba327bafe9bf1746b3bc21c28056701002b1d8480062108196": "代理评价越来越多地用于比较有限责任和为部署决定提供信息,但排名不仅能够反映模式,而且能够反映评价条件的影响,如脚手架或任务。这使得可靠性要求具有依赖性:可靠地对部署的系统进行排名的评价可能无法可靠地对基本模型进行排名。我们询问哪些结论是可靠的支持当前代理人评价,以及哪些评估会改进这些结论。我们开发了一个Bayesian差异分解框架,用于稀疏、不平衡的代理主板,并将其应用于H的22个基准"
+    "7f5f36467682caba327bafe9bf1746b3bc21c28056701002b1d8480062108196": "代理评价越来越多地用于比较有限责任和为部署决定提供信息,但排名不仅能够反映模式,而且能够反映评价条件的影响,如脚手架或任务。这使得可靠性要求具有依赖性:可靠地对部署的系统进行排名的评价可能无法可靠地对基本模型进行排名。我们询问哪些结论是可靠的支持当前代理人评价,以及哪些评估会改进这些结论。我们开发了一个Bayesian差异分解框架,用于稀疏、不平衡的代理主板,并将其应用于H的22个基准",
+    "48b1cb7d83b74533e0fbfbdb820eee3fb956f8431752a9778eb4ae832821dc36": "朗链-文本-散页=1.1.3",
+    "446987bb49fcaa8032b38740a9ea1d6f18730ece08f113d043c673cb6067107b": "自 langchain-text-splitters = 1.1.2 释放(text-splitters): 1.1.3 (# 41001) chore(deps): 将小和patch群划过3个目录,并附有4个更新(# 40969) chore(deps):在 /libs/text-splitters (# 40971) 中从 6.5.9 撞到 6.5.10 ;在 /libs/text-splits (# 40940) 中从 /libs/t-spliters (# 40645) 撞到4.15.1 。chore(deps):在/libs/text-spliters(#40624)中从4.11.0到4.1.4.2的凸起的任意音(deps): bu"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -1167,6 +1169,13 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.eeo.com.cn/2026/1002/1055567.shtml"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3": {
+      "checkedAt": "2026-10-02T15:55:30.799501+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3"
     }
   }
 }

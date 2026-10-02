@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-02T15:36:03.551152+00:00",
-  "newItems": 35,
+  "checkedAt": "2026-10-02T15:55:25.893334+00:00",
+  "newItems": 1,
   "issueDate": "2026-10-02",
-  "totalItems": 135,
+  "totalItems": 136,
   "sources": [
     {
       "id": "openai",
@@ -12,7 +12,7 @@
       "language": "en",
       "ok": true,
       "items": 1243,
-      "sha256": "65de343874531794bc0cc6cc22a17f5d854f178fbb36d1c244b1b0ecd5218268"
+      "sha256": "1b8ce509d10e052b96e749f70145e098748ee9d80a5672044b6e1bc7da4ce0e5"
     },
     {
       "id": "huggingface",
@@ -100,9 +100,9 @@
       "url": "https://www.bls.gov/feed/bls_latest.rss",
       "domain": "经济",
       "language": "en",
-      "ok": true,
-      "items": 1,
-      "sha256": "4283688e5e2d3d5c93893cd8f739fb83f1558f3976d404e3d77a62cbe7bb5e1e"
+      "ok": false,
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "bis",
@@ -132,7 +132,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "00ea9d611a5e5af5bfb6d00b0e508da07d5e0b49aa28b97b8fb5840e33a9873c"
+      "sha256": "2fcb35aba4ebb7785d75098a4b872f63b561994d0e584b7faa3e59100871e2f1"
     },
     {
       "id": "ollama",
@@ -152,7 +152,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "7bae4ead3ce30c30f78fe2c597ba5a3e151fbce09a6dae14f89753a0eff4ae43"
+      "sha256": "a5a807d5176a4d163e6a5d41ca6d451ddfb718bc26a1bb91543da23be4aa6a49"
     },
     {
       "id": "sglang",
@@ -182,7 +182,7 @@
       "language": "zh",
       "ok": true,
       "items": 60,
-      "sha256": "41a697192b492496e9c9190bbc2a842a267c1723dee5b5d0114dcc569a66f95d"
+      "sha256": "cfd230e7943cf815fbc408c6e650d74abf0dbd1f23c4908f3258dec533ae9faa"
     },
     {
       "id": "eeo",
@@ -191,17 +191,17 @@
       "domain": "经济",
       "language": "zh",
       "ok": true,
-      "items": 15,
-      "sha256": "4b95dcb0292790eac56b25ae2a805bc3e744ddbc8d39996d056cc3eda8b8263e"
+      "items": 14,
+      "sha256": "62c92de3dbc3ebf11d9ecd90e939eb2ae12cf2ab811abb8eb131fdcbae9ff608"
     }
   ],
   "enrichment": {
-    "checkedAt": "2026-10-02T15:49:23.763367+00:00",
+    "checkedAt": "2026-10-02T15:55:30.799501+00:00",
     "translationModel": "argos-en-zh-1.9-ct2-v1",
-    "translated": 107,
-    "english": 107,
+    "translated": 108,
+    "english": 108,
     "images": 66,
-    "stories": 135,
+    "stories": 136,
     "error": null
   }
 }

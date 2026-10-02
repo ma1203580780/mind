@@ -1,12 +1,12 @@
 {
   "date": "2026-10-02",
-  "checkedAt": "2026-10-02T15:36:03.551152+00:00",
+  "checkedAt": "2026-10-02T15:55:25.893334+00:00",
   "automated": true,
   "title": "AI 与经济 · 原始信息流",
   "intro": "直接采集公开 RSS / Atom：机构公告、经济数据、论文与开源项目更新。中文源与英文源分区，英文标题与摘要提供中文机译和原文对照；每期最多 200 条。",
   "briefing": [
-    "本期 135 条，中文资讯与英文对照分区阅读。",
-    "19 / 19 个订阅源本次读取成功。",
+    "本期 136 条；本次新增 1 条。",
+    "18 / 19 个订阅源本次读取成功。",
     "仅收录近 72 小时未收录内容；不足数量不补旧闻。",
     "论文预印本与项目发布并非媒体新闻，已单独标注。"
   ],
@@ -169,7 +169,7 @@
       "summaryTruncated": true,
       "author": "Ali Zeytoon-Nejad",
       "titleZh": "市场、道德和道德",
-      "summaryZh": "本文为市场和政府等经济和社会机构内人类行为守则提供了明确哲学。它将这些守则分为伦理与道德:伦理涉及不伤害原则(避免伤害),道德涉及仁爱(做好事)。伦理,例如诚实、尊重财产和信守诺言,是普遍接受的社会机构运作所必需的最低限度准则。相反,道德,包括利他主义、自我牺牲和慷慨,是主观的,是环境依赖的,与个人的美德有关,并受到ch的影响。",
+      "summaryZh": "本文为市场和政府等经济和社会机构内人类行为守则提供了明确哲学。它将这些守则分为伦理与道德:道德涉及不伤害原则(避免伤害),道德涉及仁爱(做好事)。伦理,例如诚实、尊重财产和信守诺言,是普遍接受的社会机构运作所必需的最低限度准则。相反,道德,包括利他主义、自我牺牲和慷慨,是主观的,是环境依赖的,与个人的美德有关,并受到ch的影响。",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -3858,6 +3858,34 @@
       "imageAlt": "原文配图：刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！",
       "imageKind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/09/499493.html"
+    },
+    {
+      "id": "feed-80045661ac99ba741eea",
+      "eventKey": "feed-80045661ac99ba741eea",
+      "category": "开源工具",
+      "kind": "版本发布",
+      "title": "langchain-text-splitters==1.1.3",
+      "summary": "Changes since langchain-text-splitters==1.1.2 release(text-splitters): 1.1.3 ( #41001 ) chore(deps): bump the minor-and-patch group across 3 directories with 4 updates ( #40969 ) chore(deps): bump tornado from 6.5.9 to 6.5.10 in /libs/text-splitters ( #40971 ) chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/text-splitters ( #40938 ) chore(deps): bump tornado from 6.5.8 to 6.5.9 in /libs/text-splitters ( #40940 ) chore(deps): bump anyio from 4.14.2 to 4.15.1 in /libs/text-splitters ( #40645 ) chore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/text-splitters ( #40624 ) chore(deps): bu",
+      "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
+      "action": "打开发布者原文，核对完整背景与适用条件。",
+      "sourceName": "langchain-ai/langchain",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.3",
+      "publishedDate": "2026-10-02",
+      "publishedAt": "2026-10-02T15:46:51+00:00",
+      "fetchedAt": "2026-10-02T15:55:25.893334+00:00",
+      "feedUrl": "https://github.com/langchain-ai/langchain/releases.atom",
+      "sourceId": "langchain",
+      "domain": "AI",
+      "automated": true,
+      "sourceLanguage": "en",
+      "summaryTruncated": true,
+      "author": "github-actions[bot]",
+      "contentLanguage": "en",
+      "titleZh": "朗链-文本-散页=1.1.3",
+      "summaryZh": "自 langchain-text-splitters = 1.1.2 释放(text-splitters): 1.1.3 (# 41001) chore(deps): 将小和patch群划过3个目录,并附有4个更新(# 40969) chore(deps):在 /libs/text-splitters (# 40971) 中从 6.5.9 撞到 6.5.10 ;在 /libs/text-splits (# 40940) 中从 /libs/t-spliters (# 40645) 撞到4.15.1 。chore(deps):在/libs/text-spliters(#40624)中从4.11.0到4.1.4.2的凸起的任意音(deps): bu",
+      "translationStatus": "ready",
+      "translationProvider": "Argos 英中离线模型",
+      "translationModel": "argos-en-zh-1.9-ct2-v1"
     }
   ]
 }
