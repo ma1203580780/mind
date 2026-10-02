@@ -1,0 +1,146 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "https://openai.com/news/rss.xml",
+    "domain": "AI",
+    "category": "AI 动态",
+    "kind": "机构公告",
+    "maxItems": 25
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "domain": "AI",
+    "category": "AI 动态",
+    "kind": "技术博客",
+    "maxItems": 25
+  },
+  {
+    "id": "arxiv-ai",
+    "name": "arXiv · AI",
+    "url": "https://rss.arxiv.org/rss/cs.AI",
+    "domain": "AI",
+    "category": "AI 研究",
+    "kind": "论文预印本",
+    "maxItems": 40
+  },
+  {
+    "id": "arxiv-cl",
+    "name": "arXiv · 语言模型",
+    "url": "https://rss.arxiv.org/rss/cs.CL",
+    "domain": "AI",
+    "category": "AI 研究",
+    "kind": "论文预印本",
+    "maxItems": 20
+  },
+  {
+    "id": "arxiv-econ-gn",
+    "name": "arXiv · econ.GN",
+    "url": "https://rss.arxiv.org/rss/econ.GN",
+    "domain": "经济",
+    "category": "经济研究",
+    "kind": "论文预印本",
+    "maxItems": 20
+  },
+  {
+    "id": "arxiv-econ-em",
+    "name": "arXiv · econ.EM",
+    "url": "https://rss.arxiv.org/rss/econ.EM",
+    "domain": "经济",
+    "category": "经济研究",
+    "kind": "论文预印本",
+    "maxItems": 20
+  },
+  {
+    "id": "arxiv-econ-th",
+    "name": "arXiv · econ.TH",
+    "url": "https://rss.arxiv.org/rss/econ.TH",
+    "domain": "经济",
+    "category": "经济研究",
+    "kind": "论文预印本",
+    "maxItems": 20
+  },
+  {
+    "id": "fed",
+    "name": "美联储",
+    "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+    "domain": "经济",
+    "category": "宏观经济",
+    "kind": "机构公告",
+    "maxItems": 25
+  },
+  {
+    "id": "ecb",
+    "name": "欧洲央行",
+    "url": "https://www.ecb.europa.eu/rss/press.html",
+    "domain": "经济",
+    "category": "宏观经济",
+    "kind": "机构公告",
+    "maxItems": 25
+  },
+  {
+    "id": "bls",
+    "name": "美国劳工统计局",
+    "url": "https://www.bls.gov/feed/bls_latest.rss",
+    "domain": "经济",
+    "category": "经济数据",
+    "kind": "数据发布",
+    "maxItems": 25
+  },
+  {
+    "id": "bis",
+    "name": "国际清算银行",
+    "url": "https://www.bis.org/doclist/all_pressrels.rss",
+    "domain": "经济",
+    "category": "宏观经济",
+    "kind": "机构公告",
+    "maxItems": 25
+  },
+  {
+    "id": "vllm",
+    "name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm/releases.atom",
+    "domain": "AI",
+    "category": "开源工具",
+    "kind": "版本发布",
+    "maxItems": 5
+  },
+  {
+    "id": "transformers",
+    "name": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers/releases.atom",
+    "domain": "AI",
+    "category": "开源工具",
+    "kind": "版本发布",
+    "maxItems": 5
+  },
+  {
+    "id": "ollama",
+    "name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama/releases.atom",
+    "domain": "AI",
+    "category": "开源工具",
+    "kind": "版本发布",
+    "maxItems": 5
+  },
+  {
+    "id": "langchain",
+    "name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain/releases.atom",
+    "domain": "AI",
+    "category": "开源工具",
+    "kind": "版本发布",
+    "maxItems": 5
+  },
+  {
+    "id": "sglang",
+    "name": "sgl-project/sglang",
+    "url": "https://github.com/sgl-project/sglang/releases.atom",
+    "domain": "AI",
+    "category": "开源工具",
+    "kind": "版本发布",
+    "maxItems": 5
+  }
+]

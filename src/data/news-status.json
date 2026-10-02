@@ -1,0 +1,152 @@
+{
+  "checkedAt": "2026-10-02T10:08:03.962689+00:00",
+  "newItems": 103,
+  "issueDate": "2026-10-02",
+  "totalItems": 109,
+  "sources": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "domain": "AI",
+      "ok": true,
+      "items": 1243,
+      "sha256": "6242d717c53f9735d18ebe2d3f44982753fc5ae9f59cd3deabf836df8ad71edf"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "domain": "AI",
+      "ok": true,
+      "items": 872,
+      "sha256": "cbc891109b865f66a3259d5f2eeef652338f428245344e13099c4a8a2064baf5"
+    },
+    {
+      "id": "arxiv-ai",
+      "name": "arXiv · AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "domain": "AI",
+      "ok": true,
+      "items": 568,
+      "sha256": "d1b5d142020389f0dd6285f373761afb1f55a449257a46f80d636cf6cad5129b"
+    },
+    {
+      "id": "arxiv-cl",
+      "name": "arXiv · 语言模型",
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "domain": "AI",
+      "ok": true,
+      "items": 280,
+      "sha256": "aecd880c941d437c0f99d325fba901fb42a863834f487a9dbd8d2a1b711e70a8"
+    },
+    {
+      "id": "arxiv-econ-gn",
+      "name": "arXiv · econ.GN",
+      "url": "https://rss.arxiv.org/rss/econ.GN",
+      "domain": "经济",
+      "ok": true,
+      "items": 13,
+      "sha256": "cce42ac20891b5801e31a2d0abd96e9c714997bb96180b051e1e991286621914"
+    },
+    {
+      "id": "arxiv-econ-em",
+      "name": "arXiv · econ.EM",
+      "url": "https://rss.arxiv.org/rss/econ.EM",
+      "domain": "经济",
+      "ok": true,
+      "items": 10,
+      "sha256": "542b1ff240235383c57ce541613002d5bca0060f487f430201095ba4bb958939"
+    },
+    {
+      "id": "arxiv-econ-th",
+      "name": "arXiv · econ.TH",
+      "url": "https://rss.arxiv.org/rss/econ.TH",
+      "domain": "经济",
+      "ok": true,
+      "items": 12,
+      "sha256": "e265a51bb857e63b15b4c15ab57d0d066ec621995b46c61e418c0d59948605a1"
+    },
+    {
+      "id": "fed",
+      "name": "美联储",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "domain": "经济",
+      "ok": true,
+      "items": 20,
+      "sha256": "f216afb03d2abd0dffbfab6f2657229c6c6be55c52e1d1cb331c2acc6b3d077b"
+    },
+    {
+      "id": "ecb",
+      "name": "欧洲央行",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "domain": "经济",
+      "ok": true,
+      "items": 15,
+      "sha256": "d47d00e78ff2eede77c44a6ca4dcd4c97c3c849861d0a3a6c41a1949d1818873"
+    },
+    {
+      "id": "bls",
+      "name": "美国劳工统计局",
+      "url": "https://www.bls.gov/feed/bls_latest.rss",
+      "domain": "经济",
+      "ok": true,
+      "items": 1,
+      "sha256": "0415631fbecbd50853c400259d357a93c06a059717392f5a9379822ff515ed4a"
+    },
+    {
+      "id": "bis",
+      "name": "国际清算银行",
+      "url": "https://www.bis.org/doclist/all_pressrels.rss",
+      "domain": "经济",
+      "ok": true,
+      "items": 10,
+      "sha256": "358d33ab95f27dba30e00b0b4090333217eb63d6ca1f89ffb23d85ded64f386d"
+    },
+    {
+      "id": "vllm",
+      "name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm/releases.atom",
+      "domain": "AI",
+      "ok": true,
+      "items": 10,
+      "sha256": "7c695503edd59946da5bac3a3e06a326de4b22bfb4cc010ecd6bb113f66527be"
+    },
+    {
+      "id": "transformers",
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers/releases.atom",
+      "domain": "AI",
+      "ok": true,
+      "items": 10,
+      "sha256": "0b1253c75339d588c8d3c11b72f6f9bc505d0d1bcbb32c2571db9cefce3542f2"
+    },
+    {
+      "id": "ollama",
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama/releases.atom",
+      "domain": "AI",
+      "ok": true,
+      "items": 10,
+      "sha256": "d8127233a39b18a74ab9abbb1854bb9cbbdb60a7056c0968a23ebc230cae4c94"
+    },
+    {
+      "id": "langchain",
+      "name": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain/releases.atom",
+      "domain": "AI",
+      "ok": true,
+      "items": 10,
+      "sha256": "7bae4ead3ce30c30f78fe2c597ba5a3e151fbce09a6dae14f89753a0eff4ae43"
+    },
+    {
+      "id": "sglang",
+      "name": "sgl-project/sglang",
+      "url": "https://github.com/sgl-project/sglang/releases.atom",
+      "domain": "AI",
+      "ok": true,
+      "items": 10,
+      "sha256": "21e7d45c6ca96b44e2367edfb3fd3a9029d52b3cab429a754ba0ef0eb09bd3ce"
+    }
+  ]
+}

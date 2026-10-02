@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import {path} from '../../site';
+import status from '../../data/news-status.json';
+---
+<Base title="数据源与采集状态 · 海波东">
+<section class="page-head"><p class="eyebrow">OPEN SOURCES</p><h1>每条消息，都有来处。</h1><p>直接读取发布者的公开 RSS / Atom。AI 与经济分流收录，每期最多 200 条；只接收近 72 小时的新增内容，不补造数量。</p><a href={path('news/')}>← 回到新闻</a></section>
+<p>最近尝试：{new Date(status.checkedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间） · {status.sources.filter(s=>s.ok).length}/{status.sources.length} 个源成功</p>
+<p>北京时间每日 08:17、14:17、20:17 自动运行；GitHub 定时任务可能延迟。原文标题和摘要保留原语言。抓取成功仅表示订阅源可读取，不代表对原文事实背书；预印本未经同行评审。少于几十条时如实展示。</p>
+<div class="note-feed">{status.sources.map(s=><article class="note-card"><div class="note-content"><div class="note-meta">{s.domain} · {s.ok?'读取成功':'本次失败'}</div><h2><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name} ↗</a></h2><p>{s.ok?`源返回 ${s.items} 条；经过时效、跨期去重与配额筛选后收录。`:s.error}</p></div></article>)}</div>
+<p>数据及采集代码公开：<a href="https://github.com/ma1203580780/mind/blob/main/scripts/collect-news.py">查看采集实现 ↗</a>。不依赖第三方聚合服务或付费 API；失效源不影响其他源，全部失败时保留历史期刊。</p>
+</Base>

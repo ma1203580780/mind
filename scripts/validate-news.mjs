@@ -2,7 +2,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 
-export const categories = ['AI 动态', '开源工具', '工程实践', '产品观察', '创作设计'];
+export const categories = ['AI 动态', '开源工具', '工程实践', '产品观察', '创作设计', 'AI 研究', '宏观经济', '经济研究', '经济数据'];
 const day = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
 const text = (value, max, label) => assert(typeof value === 'string' && value.trim().length > 0 && value.length <= max && !/[<>]/.test(value), `Invalid ${label}`);
 export function validateIssue(issue, filename, now = Date.now()) {
@@ -15,15 +15,15 @@ export function validateIssue(issue, filename, now = Date.now()) {
   text(issue.title, 70, 'issue title'); text(issue.intro, 250, 'intro');
   assert(Array.isArray(issue.briefing) && issue.briefing.length >= 1 && issue.briefing.length <= 4, 'Use 1–4 briefing lines');
   issue.briefing.forEach(v => text(v, 140, 'briefing'));
-  assert(Array.isArray(issue.stories) && issue.stories.length >= 1 && issue.stories.length <= 10, 'Use 1–10 sourced stories; never fill a quota');
+  assert(Array.isArray(issue.stories) && issue.stories.length >= 1 && issue.stories.length <= 200, 'Use 1–200 sourced stories; never fill a quota');
   const ids = new Set(), events = new Set(), urls = new Set();
   for (const s of issue.stories) {
     for (const key of ['id', 'eventKey']) assert(typeof s[key] === 'string' && /^[a-z0-9-]{3,100}$/.test(s[key]), `Invalid ${key}`);
     assert(!ids.has(s.id) && !events.has(s.eventKey), 'Duplicate story or event'); ids.add(s.id); events.add(s.eventKey);
     assert(categories.includes(s.category), 'Unknown category');
-    for (const [key, max] of [['kind',20],['title',90],['summary',350],['why',200],['action',150],['sourceName',60]]) text(s[key], max, key);
+    for (const [key, max] of [['kind',20],['title',240],['summary',350],['why',200],['action',150],['sourceName',60]]) text(s[key], max, key);
     const url = new URL(s.sourceUrl);
-    assert(url.protocol === 'https:' && !url.username && !url.password && !url.hash && !url.search, 'Use canonical HTTPS source URL');
+    assert(url.protocol === 'https:' && !url.username && !url.password && !url.hash, 'Use canonical HTTPS source URL');
     const canonical = url.href.replace(/\/$/, '');
     assert(!urls.has(canonical), 'Duplicate source'); urls.add(canonical);
     assert(day(s.publishedDate) && s.publishedDate <= issue.date, 'Invalid or future source date');
