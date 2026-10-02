@@ -86,6 +86,6 @@ B 站播放器仅点击加载后才连接第三方；没有媒体时显示明确
 
 ## 访问统计
 
-`/mind/stats/` 是统一数据入口：真实 Vercount 累计计数、内容状态、8 个分析分区、渠道链接生成器、站长设备排除和埋点字典。详细报表在登录后的 Umami / Clarity 查看。两边尚需绑定真实项目 ID，不生成虚构趋势。
+`/mind/stats/` 是统一数据入口：真实 Vercount 累计计数、内容状态、8 个分析分区、渠道链接生成器、站长设备排除和埋点字典。详细报表在登录后的 Umami / Clarity 查看。Umami 已绑定并验证真实访问与测试事件入库；Clarity 尚待绑定。已建立十模块私有总览看板，不生成虚构趋势。
 
 配置在 `src/config/analytics.json`。Umami 与 Clarity 独立加载，保留既有 Vercount。Clarity 需访客明确同意，支持撤回；DNT、全局关闭与站长排除阻止采集。阅读、原生媒体进度、新闻和搜索数量等事件已实现。接入和验收见 [docs/ANALYTICS.md](docs/ANALYTICS.md)。

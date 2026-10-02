@@ -42,7 +42,7 @@ const events=[
   <p id="stats-status" role="status">正在获取累计访问数据…</p><p class="small-note">PV / UV 按域名累计，可能包含同域的其他路径和自己的访问，不等于精确人数。其余两项来自本站内容，不是访客数据。</p>
  </section>
  <section class="private-services" aria-label="私有分析后台">
-  <a href={umami} target="_blank" rel="noopener noreferrer"><span class="service-monogram">u.</span><div><span class="eyebrow">流量 · 内容 · 事件</span><h2>Umami Analytics <span>↗</span></h2><p>{analytics.umamiWebsiteId?'已填写站点 ID · 需登录查看数据':'待绑定账号 · 埋点代码已准备'}</p></div><span class="service-state" data-service="umami">检查中</span></a>
+  <a href={analytics.umamiBoardUrl||umami} target="_blank" rel="noopener noreferrer"><span class="service-monogram">u.</span><div><span class="eyebrow">流量 · 内容 · 事件</span><h2>Umami Analytics <span>↗</span></h2><p>{analytics.umamiWebsiteId?'已填写站点 ID · 需登录查看数据':'待绑定账号 · 埋点代码已准备'}</p></div><span class="service-state" data-service="umami">检查中</span></a>
   <a href={clarity} target="_blank" rel="noopener noreferrer"><span class="service-monogram clarity-mark">c.</span><div><span class="eyebrow">热图 · 回放 · 体验</span><h2>Microsoft Clarity <span>↗</span></h2><p>{analytics.clarityProjectId?'已填写项目 ID · 访客同意后采集':'待绑定账号 · 回放默认关闭'}</p></div><span class="service-state" data-service="clarity">检查中</span></a>
  </section>
  <p class="private-note">这页是公开的统计入口。详细访客报表在各自的登录后台查看，未开放数据共享；本站不存放后台密钥。Umami 免费云服务不包含 API 访问，因此这里没有自动同步的私有趋势图。</p>

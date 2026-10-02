@@ -1,7 +1,7 @@
 # Analytics operations
 
 ## Current deployment
-The public `/mind/stats/` page provides real Vercount totals, a build-time content inventory, private provider entry points, instrumentation documentation, local campaign builder, and device exclusion. **No Umami website or Clarity project is bound until the two IDs are supplied.** It is not a private dashboard protected by its noindex tag. No secret or private visitor data may be published here.
+The public `/mind/stats/` page provides real Vercount totals, a build-time content inventory, private provider entry points, instrumentation documentation, local campaign builder, and device exclusion. **Umami is bound and verified: the provider received one real test visit and `analytics_test` on 2026-10-02. Clarity remains unbound.** It is not a private dashboard protected by its noindex tag. No secret or private visitor data may be published here.
 
 ## Bind the free services
 1. In Umami Cloud, create a Hobby website named 海波东 · mind for `ma1203580780.github.io`. Leave sharing disabled. Copy Website ID, tracking script URL and private dashboard URL.
@@ -27,3 +27,6 @@ DNT / local opt-out / owner exclusion prevent all scripts and custom events. Cla
 
 ## Validation
 `node --test scripts/analytics.test.mjs` checks privacy gates and event payload schema. `npm run test:news` and `npm run build` retain existing release checks. On the live site test report filters, link generation/copy, consent/exclusion toggles, script states and actual provider ingestion after account binding.
+
+## Private board
+A private board named 海波东 · 内容与读者总览 contains ten modules: metrics, visitor trend, top paths, events chart, referrers, devices, UTM sources, world map, weekly traffic and realtime metrics. Its login-required URL is in `umamiBoardUrl`; the website analytics URL stays in `umamiDashboardUrl`. No public sharing was enabled. Test traffic is real QA traffic, not organic audience growth.
