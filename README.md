@@ -86,20 +86,6 @@ B 站播放器仅点击加载后才连接第三方；没有媒体时显示明确
 
 ## 访问统计
 
-`/mind/stats/` 展示 Vercount 公共服务返回的站点浏览次数和访客计数。按域名累计，通过浏览器标识去重，不是精确人数，包含自己的访问；网络或隐私拦截时显示「—」。基础服务不提供每日趋势和来源明细。
+`/mind/stats/` 是统一数据入口：真实 Vercount 累计计数、内容状态、8 个分析分区、渠道链接生成器、站长设备排除和埋点字典。详细报表在登录后的 Umami / Clarity 查看。两边尚需绑定真实项目 ID，不生成虚构趋势。
 
-详细统计可在 `src/config/analytics.json` 中把 `provider` 改为 `umami`，并填写真实的 `umamiWebsiteId`、脚本地址，以及可选的后台地址。文章模式、播放开始/结束、原文链接事件已接好，只有启用 Umami 后才发送。没有填写账号时不会伪造趋势或事件数据。站点尊重浏览器 DNT，访客也可在隐私页关闭当前设备统计。
-
-## 跨平台
-
-博客是完整版。公众号可以使用 Doocs 排版，知乎和B站专栏可以使用 Wechatsync 同步草稿后检查；这些是独立工具，本项目没有内置账号登录和自动跨平台发布。
-
-## 后续适合添加
-
-有正式内容后，可以继续接入评论（如 giscus）和独立域名。当前不显示虚构阅读量、点赞或粉丝数据。
-
-## 新闻站点
-
-顶栏“新闻站点”进入 `/mind/news/`，支持本期搜索、分类筛选、卡片/列表、日期归档与独立 RSS。数据在 `src/data/news/YYYY-MM-DD.json`；更新规则和字段约定见 [编辑规则](docs/NEWS_EDITORIAL.md)。
-
-云端编辑任务搜集与核验来源，提交 JSON 后由 GitHub Actions 构建发布。运行 `npm run test:news` 检查数据防护逻辑，`npm run build` 会校验整个新闻归档。模板不依赖付费模型 API。定时任务在 ChatGPT 管理，仓库中的 Actions 负责校验和部署。
+配置在 `src/config/analytics.json`。Umami 与 Clarity 独立加载，保留既有 Vercount。Clarity 需访客明确同意，支持撤回；DNT、全局关闭与站长排除阻止采集。阅读、原生媒体进度、新闻和搜索数量等事件已实现。接入和验收见 [docs/ANALYTICS.md](docs/ANALYTICS.md)。

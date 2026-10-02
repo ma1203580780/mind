@@ -24,6 +24,7 @@ jobs:
         uses: actions/configure-pages@v5
       - run: npm ci
       - run: npm run test:news
+      - run: node --test scripts/analytics.test.mjs
       - run: npm run build
         env:
           SITE_URL: ${{ steps.pages.outputs.origin }}

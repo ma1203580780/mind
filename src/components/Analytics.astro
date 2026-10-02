@@ -1,19 +1,61 @@
 ---
 import analytics from '../config/analytics.json';
+import {path} from '../site';
 ---
-<div id="analytics-config" data-provider={analytics.provider} data-website-id={analytics.umamiWebsiteId} data-script-url={analytics.umamiScriptUrl} hidden></div>
+<div id="analytics-config" data-provider={analytics.provider} data-website-id={analytics.umamiWebsiteId} data-script-url={analytics.umamiScriptUrl} data-clarity-id={analytics.clarityProjectId} hidden></div>
+{analytics.clarityProjectId&&<aside id="replay-consent" class="replay-consent" hidden aria-label="访问体验分析"><p>愿意帮助改善阅读体验吗？允许后，将使用 Microsoft Clarity 记录页面点击、滚动和访问回放。<a href={path('privacy/')}>了解详情</a></p><div><button class="quiet-button" data-replay="denied">暂不允许</button><button class="quiet-button" data-replay="granted">允许体验分析</button></div></aside>}
 <script>
-import { track } from '../scripts/analytics';
+import {track,isExcluded,replayAllowed,cleanUrl} from '../scripts/analytics';
 const config=document.querySelector<HTMLElement>('#analytics-config')!;
-const optedOut=()=>{try{return localStorage.getItem('analytics-opt-out')==='true'||navigator.doNotTrack==='1'}catch{return navigator.doNotTrack==='1'}};
-const report=(state:string)=>{document.documentElement.dataset.analyticsState=state;document.dispatchEvent(new CustomEvent('analytics:state',{detail:state}))};
-if(optedOut()) report('disabled');
-else if(config.dataset.provider==='umami' && config.dataset.websiteId){
- const s=document.createElement('script');s.defer=true;s.src=config.dataset.scriptUrl!;s.dataset.websiteId=config.dataset.websiteId;s.onload=()=>report('umami');s.onerror=()=>report('unavailable');document.head.appendChild(s);
-}else if(['busuanzi','vercount'].includes(config.dataset.provider||'')){
- report('loading');const s=document.createElement('script');s.src=config.dataset.provider==='vercount'?'https://events.vercount.one/js':'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';s.async=true;s.onerror=()=>report('unavailable');document.head.appendChild(s);
- const value=document.querySelector('#busuanzi_value_site_pv');
- if(value){const observer=new MutationObserver(()=>{if(/^\d+$/.test(value.textContent?.trim()||'')){report('ready');observer.disconnect()}});observer.observe(value,{childList:true,subtree:true,characterData:true});setTimeout(()=>{if(document.documentElement.dataset.analyticsState==='loading')report('unavailable');},12000);window.addEventListener('pagehide',()=>observer.disconnect(),{once:true})}
-}else report('unconfigured');
-document.addEventListener('click',event=>{const el=(event.target as Element).closest<HTMLElement>('[data-track]');if(el)track(el.dataset.track!,{path:location.pathname})});
+const root=document.documentElement;
+const state=(service:string,value:string)=>{root.dataset[service+'State']=value;document.dispatchEvent(new CustomEvent('analytics:state'))};
+const w=window as any;
+const load=(src:string,onload:()=>void,onerror:()=>void)=>{const script=document.createElement('script');script.src=src;script.async=true;script.onload=onload;script.onerror=onerror;return script};
+state('umami',config.dataset.websiteId?'loading':'unconfigured');
+state('clarity',config.dataset.clarityId?'consent':'unconfigured');
+if(isExcluded()) {for(const p of ['analytics','umami','clarity'])state(p,'disabled');}
+else {
+  // Keep the existing public counters, independently of the two private services.
+  if(config.dataset.provider==='vercount') {
+    state('analytics','loading');
+    const value=document.querySelector('#busuanzi_value_site_pv');
+    if(value){const observer=new MutationObserver(()=>{if(/^\d+$/.test(value.textContent?.trim()||'')){state('analytics','ready');observer.disconnect()}});observer.observe(value,{childList:true,subtree:true,characterData:true});window.addEventListener('pagehide',()=>observer.disconnect(),{once:true});}
+    document.head.append(load('https://events.vercount.one/js',()=>{},()=>state('analytics','unavailable')));
+    setTimeout(()=>{if(root.dataset.analyticsState==='loading')state('analytics','unavailable')},12000);
+  } else state('analytics','unconfigured');
+  if(config.dataset.websiteId) {
+    w.mindBeforeSend=(_type:string,payload:any)=>{
+      if(isExcluded())return false;
+      return {...payload,url:cleanUrl(payload.url||location.href),referrer:payload.referrer?cleanUrl(payload.referrer):''};
+    };
+    const s=load(config.dataset.scriptUrl!,()=>state('umami','loaded'),()=>state('umami','unavailable'));
+    s.dataset.websiteId=config.dataset.websiteId;s.dataset.doNotTrack='true';s.dataset.excludeHash='true';s.dataset.beforeSend='mindBeforeSend';s.dataset.performance='true';
+    document.head.append(s);
+  }
+  const startReplay=()=>{
+    if(!config.dataset.clarityId||!replayAllowed())return;
+    // Search pages and arbitrary query strings are excluded from replay entirely.
+    const keys=[...new URLSearchParams(location.search).keys()];
+    if(location.pathname.includes('/search/')||keys.some(k=>!['mode','utm_source','utm_medium','utm_campaign'].includes(k))){state('clarity','excluded-page');return;}
+    w.clarity=w.clarity||function(...args:any[]){(w.clarity.q=w.clarity.q||[]).push(args)};
+    w.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'granted'});
+    document.querySelectorAll('input,textarea,[contenteditable]').forEach(el=>el.setAttribute('data-clarity-mask','true'));
+    const s=load('https://www.clarity.ms/tag/'+encodeURIComponent(config.dataset.clarityId),()=>state('clarity','loaded'),()=>state('clarity','unavailable'));
+    document.head.append(s);
+  };
+  if(config.dataset.clarityId){
+    let choice='';try{choice=localStorage.getItem('analytics-replay')||''}catch{}
+    const banner=document.querySelector<HTMLElement>('#replay-consent');
+    if(banner)banner.hidden=!!choice;
+    if(choice==='granted')startReplay();else if(choice==='denied')state('clarity','disabled');
+    document.querySelectorAll<HTMLElement>('[data-replay]').forEach(b=>b.addEventListener('click',()=>{try{localStorage.setItem('analytics-replay',b.dataset.replay!)}catch{}if(banner)banner.hidden=true;if(b.dataset.replay==='granted')startReplay();else state('clarity','disabled')}));
+  }
+}
+// Delegate only named events, never link text, free-form input or arbitrary URLs.
+document.addEventListener('click',event=>{
+ const el=(event.target as Element)?.closest<HTMLElement>('[data-track]');if(!el)return;
+ const data:Record<string,string>={};for(const key of ['story','source','category','issue','feed'])if(el.dataset[key])data[key]=el.dataset[key]!;
+ track(el.dataset.track!,data);
+});
 </script>
+<style>.replay-consent{position:fixed;bottom:18px;right:18px;z-index:40;max-width:370px;margin-left:18px;padding:20px;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:var(--lift);font-size:12px;line-height:1.8}.replay-consent p{margin:0 0 13px}.replay-consent a{text-decoration:underline}.replay-consent>div{display:flex;gap:10px}</style>

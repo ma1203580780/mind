@@ -1,0 +1,15 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {track,isExcluded,cleanUrl} from '../src/scripts/analytics.ts';
+const saved=new Map(),sent=[],events=[];
+const config={dataset:{websiteId:'test-id',clarityId:'test-clarity'}};
+Object.defineProperty(globalThis,'navigator',{value:{doNotTrack:'0'},configurable:true});
+globalThis.localStorage={getItem:k=>saved.get(k)??null};
+globalThis.location={origin:'https://example.test',pathname:'/mind/posts/test/'};
+globalThis.document={querySelector:s=>s==='#analytics-config'?config:s==='.article-media'?{dataset:{postId:'test'}}:null,dispatchEvent:e=>events.push(e.detail)};
+globalThis.window={umami:{track:(name,data)=>sent.push({name,data})},clarity:(...args)=>sent.push({clarity:args})};
+test('URLs discard search text, unknown parameters and fragments',()=>{assert.equal(cleanUrl('/mind/search/?q=secret&email=private#secret'),'https://example.test/mind/search/');assert.equal(cleanUrl('/mind/?utm_source=zhihu&utm_campaign=weekly_01'),'https://example.test/mind/?utm_source=zhihu&utm_campaign=weekly_01');assert.equal(cleanUrl('/?utm_source=a%40b.com'),'https://example.test/')});
+test('DNT, owner and opt-out each prevent all event transmission',()=>{for(const key of ['analytics-opt-out','analytics-owner']){saved.set(key,'true');const n=sent.length;assert.ok(isExcluded());track('analytics_test');assert.equal(sent.length,n);saved.clear()}navigator.doNotTrack='1';const n=sent.length;track('analytics_test');assert.equal(sent.length,n);navigator.doNotTrack='0'});
+test('event schema rejects unknown events and raw query fields',()=>{let n=sent.length;track('secret-event',{query:'private'});assert.equal(sent.length,n);track('search_used',{area:'news',results:3,query:'private'});assert.deepEqual(sent.at(-1),{name:'search_used',data:{area:'news',results:3,article:'test'}})});
+test('Clarity custom events require explicit replay consent',()=>{let n=sent.filter(x=>x.clarity).length;track('analytics_test');assert.equal(sent.filter(x=>x.clarity).length,n);saved.set('analytics-replay','granted');track('analytics_test');assert.equal(sent.filter(x=>x.clarity).length,n+1);saved.clear()});
+test('missing services report not connected rather than fabricated delivery',()=>{const old=window.umami;window.umami=undefined;track('analytics_test');assert.equal(events.at(-1).state,'not-connected');window.umami=old});

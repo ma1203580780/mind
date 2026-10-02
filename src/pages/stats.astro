@@ -1,9 +1,74 @@
 ---
 import Base from '../layouts/Base.astro';
 import analytics from '../config/analytics.json';
-import {path} from '../site';
+import {getPosts,path} from '../site';
+import {issues} from '../lib/news';
+import '../styles/stats.css';
+const posts=await getPosts();const latest=issues[0];
+const umami=analytics.umamiDashboardUrl||'https://cloud.umami.is/';
+const clarity=analytics.clarityDashboardUrl||'https://clarity.microsoft.com/';
+const reports=[
+ ['01','traffic','流量与趋势','浏览量、访客、会话、跳出率、访问时长。','比较今天、近 7 天与近 30 天，观察内容发布后的变化。','Umami',umami],
+ ['02','traffic','读者从哪里来','来源网站、渠道活动、地区、设备、浏览器。','用下方渠道链接区分 B 站、知乎、微信和直接访问。','Umami',umami],
+ ['03','content','哪些文章值得继续写','页面排名、文章访问、阅读深度、有效停留。','按文章路径和事件筛选。深度表示看到的位置，不等于读懂或读完。','Umami',umami],
+ ['04','content','图文 · 音频 · 视频','阅读方式切换、播放开始、进度里程碑、到达结尾。','原生音视频记录实际播放区间；系统朗读和 B 站的能力分别标注。','Umami',umami],
+ ['05','content','新闻的阅读与行动','原文点击、来源站点、分类筛选、展开解读。','按 story / issue / category 区分新闻，找出读者愿意继续看的选题。','Umami',umami],
+ ['06','experience','热力图与滚动','点击分布、滚动范围、不同设备的页面表现。','只包含同意体验分析的访问，样本范围与流量报表不同。','Clarity',clarity],
+ ['07','experience','回放与体验问题','会话回放、无效点击、愤怒点击、快速返回。','按页面和自定义事件筛选，找到导航或播放器中的阻碍。','Clarity',clarity],
+ ['08','experience','加载表现与搜索','Core Web Vitals、媒体加载错误、搜索结果数。','性能由支持它的 Umami 版本采集；搜索只发送数量，不发送关键词。','Umami',umami],
+];
+const events=[
+ ['文章','article_open / article_mode','文章与初始模式、主动切换','按文章或模式比较事件次数'],
+ ['文章','read_depth','25 / 50 / 75 / 100%','正文可见且有效停留至少 3 秒；每档每页一次'],
+ ['文章','read_active','30 / 60 / 180 秒','前台正文可见，最近 60 秒有交互；每档一次'],
+ ['音视频','audio_play / video_play','播放开始','原生播放器每页一次；系统朗读每次重新开始'],
+ ['音视频','audio_progress / video_progress','25 / 50 / 75 / 90%','仅原生播放器；按实际播放区间，拖动不直接算观看'],
+ ['音视频','audio_complete / video_complete','到达播放器或朗读末尾','可包含跳播；不是全程消费完成率'],
+ ['音视频','video_load / bilibili_open','B 站播放器加载、外部打开','无法跨域读取 B 站观看时长或完成率'],
+ ['音视频','media_error','音频 / 视频加载错误','用于排查资源故障，不收集原始错误内容'],
+ ['新闻','news_source_open','新闻、日期、来源、分类','点击次数不等于原站阅读次数'],
+ ['新闻','news_filter / news_view / news_expand','分类、布局、解读展开','展开每条每页一次'],
+ ['行动','search_used','文章 / 新闻、结果数量','停输 1.2 秒后记录；不收集搜索词'],
+ ['行动','article_share / code_copy / subscribe','复制按钮、RSS 订阅入口点击','只代表操作意图，不代表分享成功或订阅成功'],
+];
 ---
-<Base title="访问记录 · 海波东" noindex><header class="page-heading"><span class="eyebrow">这个小站</span><h1>留下来的访问。</h1><p>真实数据，从接入统计时开始累积。</p></header><section class="stats-page"><div class="stats-grid"><div><span>本站访问次数</span><strong id="busuanzi_value_site_pv">—</strong><small>页面浏览次数</small></div><div><span>本站访客计数</span><strong id="busuanzi_value_site_uv">—</strong><small>第三方统计口径</small></div></div><p id="stats-status" class="stats-status" role="status">正在获取访问记录…</p><div class="stats-note"><h2>这些数字说明什么</h2><p>基础统计由开源项目 Vercount 的公共服务提供，按本站域名累计，包括站长自己的访问；访客通过浏览器标识去重，计数不等于精确人数。它不提供本页中的每日趋势、来源地区或播放完成率。</p><p>广告拦截、网络问题和浏览器的隐私设置都可能让数据缺失。加载失败时显示“—”，不会用示例数字填充。</p>{analytics.umamiWebsiteId ? <p>详细统计已配置 Umami。{analytics.umamiDashboardUrl && <a href={analytics.umamiDashboardUrl} target="_blank" rel="noopener noreferrer">打开统计后台 ↗</a>}</p>:<p>更详细的来源、热门文章及音视频事件，可接入 Umami；目前尚未绑定统计账号。</p>}<a href={path('privacy/')}>统计与隐私说明 ↗</a></div></section></Base>
+<Base title="数据仪表盘 · 海波东" noindex wide>
+<div class="insights">
+ <header class="insights-heading"><div><span class="eyebrow">MIND / OBSERVATORY</span><h1>看看，内容抵达了哪里。</h1><p>从一次访问，到一篇被认真读过的文章。</p></div><a class="insight-home" href={path()}>回到小站 ↗</a></header>
+ <nav class="insight-nav" aria-label="仪表盘分区"><a href="#overview">总览</a><a href="#reports">分析报表</a><a href="#content-health">内容状态</a><a href="#tools">运营工具</a><a href="#connection">接入管理</a></nav>
+ <section id="overview" class="insight-overview">
+  <div class="overview-title"><div><span class="status-dot"></span><strong>站点概览</strong><span>ma1203580780.github.io / mind</span></div><small>基础累计 · Vercount</small></div>
+  <div class="insight-kpis"><article><span>累计浏览次数</span><strong id="busuanzi_value_site_pv">—</strong><small>PV · 公共服务返回值</small></article><article><span>累计访客计数</span><strong id="busuanzi_value_site_uv">—</strong><small>UV · 浏览器标识去重</small></article><article><span>正式文章</span><strong>{posts.filter(p=>!p.data.demo).length}<em>篇</em></strong><small>另有 {posts.filter(p=>p.data.demo).length} 篇示例稿</small></article><article><span>最新新闻日刊</span><strong>{latest?.stories.length||0}<em>条</em></strong><small>{latest?.date||'尚未发布'} · 编辑精选</small></article></div>
+  <p id="stats-status" role="status">正在获取累计访问数据…</p><p class="small-note">PV / UV 按域名累计，可能包含同域的其他路径和自己的访问，不等于精确人数。其余两项来自本站内容，不是访客数据。</p>
+ </section>
+ <section class="private-services" aria-label="私有分析后台">
+  <a href={umami} target="_blank" rel="noopener noreferrer"><span class="service-monogram">u.</span><div><span class="eyebrow">流量 · 内容 · 事件</span><h2>Umami Analytics <span>↗</span></h2><p>{analytics.umamiWebsiteId?'已填写站点 ID · 需登录查看数据':'待绑定账号 · 埋点代码已准备'}</p></div><span class="service-state" data-service="umami">检查中</span></a>
+  <a href={clarity} target="_blank" rel="noopener noreferrer"><span class="service-monogram clarity-mark">c.</span><div><span class="eyebrow">热图 · 回放 · 体验</span><h2>Microsoft Clarity <span>↗</span></h2><p>{analytics.clarityProjectId?'已填写项目 ID · 访客同意后采集':'待绑定账号 · 回放默认关闭'}</p></div><span class="service-state" data-service="clarity">检查中</span></a>
+ </section>
+ <p class="private-note">这页是公开的统计入口。详细访客报表在各自的登录后台查看，未开放数据共享；本站不存放后台密钥。Umami 免费云服务不包含 API 访问，因此这里没有自动同步的私有趋势图。</p>
+ <section id="reports" class="insight-section"><div class="insight-section-head"><div><span class="eyebrow">01 / EXPLORE</span><h2>一张完整的观察地图。</h2></div><div class="report-filters" role="group" aria-label="筛选分析报表"><button aria-pressed="true" data-report-filter="all">全部</button><button aria-pressed="false" data-report-filter="traffic">流量</button><button aria-pressed="false" data-report-filter="content">内容</button><button aria-pressed="false" data-report-filter="experience">体验</button></div></div>
+ <div class="report-grid">{reports.map(([num,group,title,metrics,description,provider,url])=><article class="report-card" data-report-group={group}><div class="report-number">{num}<span>{provider}</span></div><h3>{title}</h3><p>{metrics}</p><small>{description}</small><a href={url} target="_blank" rel="noopener noreferrer">{(provider==='Umami'?analytics.umamiWebsiteId:analytics.clarityProjectId)?'前往后台筛选':'绑定后查看'} ↗</a></article>)}</div>
+ </section>
+ <section id="content-health" class="insight-section"><div class="insight-section-head"><div><span class="eyebrow">02 / LIBRARY</span><h2>内容也值得定期体检。</h2></div><span class="small-note">当前发布版本 · 非实时访问量</span></div><div class="table-shell"><table><thead><tr><th>文章</th><th>发布状态</th><th>收听</th><th>观看</th></tr></thead><tbody>{posts.map(p=><tr><td><a href={path(`posts/${p.id}/`)}>{p.data.title} ↗</a></td><td>{p.data.demo?'示例稿':'正式文章'}</td><td>{p.data.audio?'原生音频':'设备朗读'}</td><td>{p.data.video?.src?'原生视频':p.data.video?.bvid?'B 站':'待补充'}</td></tr>)}</tbody></table></div><p class="small-note">设备朗读依赖浏览器中文语音。示例稿与正式内容应分别分析，避免将测试访问当作内容增长。</p></section>
+ <section id="tools" class="insight-section"><div class="insight-section-head"><div><span class="eyebrow">03 / WORKBENCH</span><h2>把传播和测量做好。</h2></div></div><div class="tool-grid">
+  <form id="campaign-builder" class="tool-card"><h3>渠道链接生成器</h3><p>为 B 站简介、知乎回答或微信分享生成独立链接。</p><label>落地页面<select id="campaign-path"><option value={path()}>博客首页</option><option value={path('news/')}>新闻站点</option>{posts.map(p=><option value={path(`posts/${p.id}/`)}>{p.data.title}</option>)}</select></label><div class="field-pair"><label>来源<select id="campaign-source"><option>bilibili</option><option>zhihu</option><option>wechat</option><option>newsletter</option><option>github</option></select></label><label>活动名称<input id="campaign-name" placeholder="weekly_01" pattern="[a-zA-Z0-9_-]{1,64}" maxlength="64" value="blog_share" required data-clarity-mask="true"/></label></div><button class="quiet-button" type="submit">生成链接</button><label class="campaign-output" hidden>分享链接<textarea id="campaign-result" readonly rows="3" data-clarity-mask="true"></textarea></label><button class="quiet-button" type="button" id="campaign-copy" hidden>复制链接</button><p id="campaign-status" role="status"></p></form>
+  <div class="tool-card"><h3>排除自己的访问</h3><p>在你用于管理博客的设备上开启。之后这台浏览器的流量和事件不再发送给统计服务。</p><button type="button" id="owner-toggle" class="quiet-button" aria-pressed="false">排除这台设备</button><p id="owner-status" role="status"></p><hr/><h3>检查事件接线</h3><p>发送一条标为 analytics_test 的测试事件。脚本已加载不等于后台已经收到，需要在后台核对。</p><button type="button" id="analytics-test" class="quiet-button">发送测试事件</button><p id="event-status" role="status">尚未发送测试。</p><a href={path('privacy/')}>查看统计与回放设置 ↗</a></div>
+ </div></section>
+ <section id="connection" class="insight-section"><div class="insight-section-head"><div><span class="eyebrow">04 / CONNECTION</span><h2>接通之后，再让数据说话。</h2></div></div><div class="connection-card"><ol><li><strong>建立 Umami 免费站点</strong><p>站点名：海波东 · mind；域名：ma1203580780.github.io。保留默认私有可见性，获取 Website ID 和后台地址。</p></li><li><strong>建立 Clarity 项目</strong><p>站点地址：https://ma1203580780.github.io/mind/。获取 Project ID；回放在访客同意后启动。</p></li><li><strong>绑定并核验真实事件</strong><p>填写项目 ID 后发布。在非排除设备上访问文章、切换模式并点击新闻原文，核对两个后台是否收到了数据。</p></li></ol><p class="small-note">当前：Umami {analytics.umamiWebsiteId?'已配置，等待后台验证':'尚未绑定'} · Clarity {analytics.clarityProjectId?'已配置，等待后台验证':'尚未绑定'}。不会生成或补填虚构历史数据。</p></div>
+ <details class="event-dictionary"><summary>埋点字典与统计口径 <span>{events.length} 组</span></summary><div class="table-shell"><table><thead><tr><th>场景</th><th>事件</th><th>记录内容</th><th>解读限制</th></tr></thead><tbody>{events.map(([group,name,content,note])=><tr><td>{group}</td><td><code>{name}</code></td><td>{content}</td><td>{note}</td></tr>)}</tbody></table></div></details>
+ </section><p class="insight-end">认真创作，也认真理解读者。<span>海波东</span></p>
+</div>
+</Base>
 <script>
-const update=()=>{const state=document.documentElement.dataset.analyticsState;const el=document.querySelector('#stats-status');if(!el)return;el.textContent=({ready:'已获取统计服务返回的数据。',unavailable:'统计服务暂时无法连接，请稍后再看。',disabled:'此浏览器已关闭访问统计。',umami:'详细统计由 Umami 提供，请在配置的统计后台查看。',unconfigured:'尚未配置访问统计。',loading:'正在获取访问记录…'} as Record<string,string>)[state||'loading'];};document.addEventListener('analytics:state',update);update();
+import {track} from '../scripts/analytics';
+const statuses:Record<string,string>={ready:'已取得累计数据',loading:'正在连接',loaded:'脚本已加载',unavailable:'连接未成功',disabled:'此设备未采集',consent:'等待访客同意',unconfigured:'尚未绑定','excluded-page':'本页不录制'};
+const reflect=()=>{const r=document.documentElement.dataset;document.querySelector('#stats-status')!.textContent=statuses[r.analyticsState||'loading'];for(const service of ['umami','clarity']){const el=document.querySelector<HTMLElement>(`[data-service="${service}"]`)!;const s=r[service+'State']||'unconfigured';el.textContent=statuses[s]||s;el.dataset.state=s}};document.addEventListener('analytics:state',reflect);reflect();
+const filters=[...document.querySelectorAll<HTMLButtonElement>('[data-report-filter]')];filters.forEach(b=>b.addEventListener('click',()=>{filters.forEach(f=>f.setAttribute('aria-pressed',String(f===b)));document.querySelectorAll<HTMLElement>('[data-report-group]').forEach(c=>c.hidden=b.dataset.reportFilter!=='all'&&c.dataset.reportGroup!==b.dataset.reportFilter)}));
+const owner=document.querySelector<HTMLButtonElement>('#owner-toggle')!;const ownerStatus=document.querySelector('#owner-status')!;
+try{const excluded=localStorage.getItem('analytics-owner')==='true';owner.textContent=excluded?'重新统计这台设备':'排除这台设备';owner.setAttribute('aria-pressed',String(excluded));ownerStatus.textContent=excluded?'已排除。只影响这台浏览器，可随时恢复。':'尚未排除。开启前的历史数据仍保留。'}catch{owner.disabled=true;ownerStatus.textContent='浏览器无法保存设置。'}
+owner.addEventListener('click',()=>{try{localStorage.setItem('analytics-owner',String(localStorage.getItem('analytics-owner')!=='true'));location.reload()}catch{ownerStatus.textContent='设置保存失败。'}});
+const testStatus=document.querySelector('#event-status')!;document.querySelector('#analytics-test')!.addEventListener('click',()=>{testStatus.textContent='未发送：服务尚未连接，或此设备已排除。';track('analytics_test')});document.addEventListener('analytics:event',((e:CustomEvent)=>{if(e.detail.name==='analytics_test')testStatus.textContent=e.detail.state==='queued'?'已交给统计脚本，请在后台核对 analytics_test；这不代表服务端已确认入库。':'未发送：尚未加载统计服务。'}) as EventListener);
+const form=document.querySelector<HTMLFormElement>('#campaign-builder')!,output=document.querySelector<HTMLTextAreaElement>('#campaign-result')!,copy=document.querySelector<HTMLButtonElement>('#campaign-copy')!,status=document.querySelector('#campaign-status')!;
+form.addEventListener('submit',e=>{e.preventDefault();const landing=(document.querySelector('#campaign-path') as HTMLSelectElement).value;const source=(document.querySelector('#campaign-source') as HTMLSelectElement).value;const campaign=(document.querySelector('#campaign-name') as HTMLInputElement).value.trim();if(!/^[a-z0-9_-]{1,64}$/i.test(campaign))return;const u=new URL(landing,'https://ma1203580780.github.io');u.searchParams.set('utm_source',source);u.searchParams.set('utm_medium',source==='newsletter'?'email':'social');u.searchParams.set('utm_campaign',campaign);output.value=u.href;output.parentElement!.hidden=false;copy.hidden=false;status.textContent='链接已生成；接通 Umami 后可按活动归因。'});
+copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(output.value);status.textContent='已复制。'}catch{output.select();status.textContent='请手动复制选中的链接。'}});
 </script>
