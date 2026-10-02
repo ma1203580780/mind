@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ai-engineering",
+    "start": 0,
+    "duration": 24
+  },
+  {
+    "id": "interface-design",
+    "start": 24,
+    "duration": 24
+  },
+  {
+    "id": "creative-work",
+    "start": 48,
+    "duration": 24
+  },
+  {
+    "id": "long-term",
+    "start": 72,
+    "duration": 24
+  }
+]

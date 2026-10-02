@@ -3,7 +3,11 @@
   "checkedAt": "2026-10-02T12:31:00+08:00",
   "title": "Agent 开始走进真实工作流",
   "intro": "从操作桌面到选择模型，AI 的进展正在落到具体流程。本期精选 6 条近期动态，关注能力边界，也关注实际用法。",
-  "briefing": ["看能力：Copilot 将桌面应用纳入自动化。", "看成本：决策模型与模型路由给出两条工程路径。", "看落地：企业部署计划需要与已实现效果分开看。"],
+  "briefing": [
+    "看能力：Copilot 将桌面应用纳入自动化。",
+    "看成本：决策模型与模型路由给出两条工程路径。",
+    "看落地：企业部署计划需要与已实现效果分开看。"
+  ],
   "stories": [
     {
       "id": "copilot-computer-use",
@@ -16,7 +20,9 @@
       "action": "挑一个可撤销的小流程试跑，先明确应用范围与验收结果。",
       "sourceName": "GitHub Changelog",
       "sourceUrl": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/",
-      "publishedDate": "2026-10-01"
+      "publishedDate": "2026-10-01",
+      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+      "imageAlt": "GitHub 产品更新栏目封面"
     },
     {
       "id": "cloudflare-clef",
@@ -42,7 +48,9 @@
       "action": "记录你自己的任务类型、成本与完成率，建立可比较的基线。",
       "sourceName": "LangChain Blog",
       "sourceUrl": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
-      "publishedDate": "2026-10-01"
+      "publishedDate": "2026-10-01",
+      "image": "https://cdn.prod.website-files.com/65c81e88c254bb0f97633a71/6abdc9fb7390b9da2726672e_model-router-webflow-dark-1200x675.png",
+      "imageAlt": "LangChain 模型路由实践文章封面"
     },
     {
       "id": "barclays-claude-rollout",
@@ -81,7 +89,9 @@
       "action": "升级前查看发行说明；在测试仓库里确认新命令的行为。",
       "sourceName": "GitHub Blog",
       "sourceUrl": "https://github.blog/open-source/git/highlights-from-git-2-56/",
-      "publishedDate": "2026-09-28"
+      "publishedDate": "2026-09-28",
+      "image": "https://github.blog/wp-content/uploads/2026/09/657850737-00bb8fbf-181f-4dda-a8a0-36d61aff24d3.png",
+      "imageAlt": "Git 2.56 更新介绍封面"
     }
   ]
 }

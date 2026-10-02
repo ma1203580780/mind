@@ -6,6 +6,11 @@ category: "AI 工程"
 tags: ["AI工程", "智能体"]
 featured: true
 demo: true
+video:
+  src: "media/ai-engineering.mp4"
+  poster: "media/ai-engineering.jpg"
+  duration: "0:24"
+  label: "字幕短片 · 内容概览（无声）"
 ---
 调用模型很容易。让它在真实工作中稳定地完成任务，却需要另一套工程思路。
 

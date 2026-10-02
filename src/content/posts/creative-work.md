@@ -5,6 +5,11 @@ date: 2026-09-29
 category: "创作实践"
 tags: ["创作", "内容管理"]
 demo: true
+video:
+  src: "media/creative-work.mp4"
+  poster: "media/creative-work.jpg"
+  duration: "0:24"
+  label: "字幕短片 · 内容概览（无声）"
 ---
 创作的困难，经常来自每次都要重新开始。
 

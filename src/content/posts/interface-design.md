@@ -5,6 +5,11 @@ date: 2026-10-01
 category: "交互设计"
 tags: ["交互设计", "动态界面"]
 demo: true
+video:
+  src: "media/interface-design.mp4"
+  poster: "media/interface-design.jpg"
+  duration: "0:24"
+  label: "字幕短片 · 内容概览（无声）"
 ---
 当回答越来越长，问题往往并不在信息数量，而在信息组织。
 

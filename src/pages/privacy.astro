@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="隐私说明 · 海波东"><header class="page-heading"><span class="eyebrow">站点说明</span><h1>阅读与隐私。</h1></header><article class="prose about"><h2>访问统计</h2><p>本站使用不蒜子记录页面浏览和访客计数。浏览器会向该服务发出请求，服务可能处理 IP、浏览器请求信息与页面地址。数据以累计数字展示，本站不要求注册或填写个人资料。</p><p>若以后启用 Umami，将用于统计页面访问、阅读方式切换和播放器交互，不发送文章搜索词或表单内容。本站尊重浏览器的“不跟踪”设置，你也可以在这台设备关闭统计。</p><button class="quiet-button" id="privacy-toggle" aria-pressed="false">关闭这台设备的访问统计</button><p id="privacy-status" role="status"></p><h2>播放音视频</h2><p>系统朗读使用设备或浏览器提供的语音能力，语音是否联网取决于设备配置。本站托管的音视频由 GitHub Pages 加载；B 站视频仅在你点击加载播放器后连接 B 站。第三方服务适用各自的隐私规则。</p><h2>本地偏好</h2><p>深浅色、新闻列表方式和统计开关只保存在浏览器本地。文章正文、图片与媒体来源以各页面说明为准。</p></article></Base>
+<script>
+const b=document.querySelector<HTMLButtonElement>('#privacy-toggle')!;const s=document.querySelector('#privacy-status')!;
+function refresh(){try{const disabled=localStorage.getItem('analytics-opt-out')==='true';b.textContent=disabled?'重新开启这台设备的访问统计':'关闭这台设备的访问统计';b.setAttribute('aria-pressed',String(disabled));s.textContent=disabled?'访问统计已关闭。':'可以随时关闭。'}catch{b.disabled=true;s.textContent='此浏览器不允许保存设置，可使用浏览器的“不跟踪”选项。'}}
+b.addEventListener('click',()=>{try{localStorage.setItem('analytics-opt-out',String(localStorage.getItem('analytics-opt-out')!=='true'));location.reload()}catch{refresh()}});refresh();
+</script>

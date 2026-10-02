@@ -1,5 +1,6 @@
 ---
 import {path,dateLabel,reading} from '../site';
+import StoryArt from './StoryArt.astro';
 const {post,index=0} = Astro.props;
 ---
-<article class="post-row"><div class="post-number">{String(index+1).padStart(2,'0')}</div><div class="post-main"><div class="meta"><span class="category">{post.data.category}</span><time datetime={post.data.date.toISOString()}>{dateLabel(post.data.date)}</time><span>{reading(post.body)} 分钟阅读</span>{post.data.demo&&<span class="demo-label">示例稿</span>}</div><h2><a href={path(`posts/${post.id}/`)}>{post.data.title}</a></h2><p>{post.data.description}</p><div class="tags">{post.data.tags.map(tag=><a href={path(`tags/${encodeURIComponent(tag)}/`)}>#{tag}</a>)}</div></div></article>
+<article class="post-row"><div class="post-main"><div class="meta"><span class="category">{post.data.category}</span><time datetime={post.data.date.toISOString()}>{dateLabel(post.data.date)}</time>{post.data.demo&&<span class="demo-label">示例稿</span>}</div><h2><a href={path(`posts/${post.id}/`)}>{post.data.title}</a></h2><p>{post.data.description}</p><div class="post-bottom"><span>{reading(post.body)} 分钟阅读</span><div class="post-formats" aria-label="文章消费方式"><a href={path(`posts/${post.id}/`)}>读</a><a href={path(`posts/${post.id}/?mode=audio`)}>听</a><a href={path(`posts/${post.id}/?mode=video`)}>看</a></div></div></div><a class="post-cover" href={path(`posts/${post.id}/`)} tabindex="-1" aria-hidden="true"><StoryArt kind={post.id}/></a></article>

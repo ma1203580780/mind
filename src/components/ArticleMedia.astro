@@ -1,0 +1,48 @@
+---
+import {path} from '../site';
+import StoryArt from './StoryArt.astro';
+import '../styles/media.css';
+const {post}=Astro.props;
+const mediaPath=(s:string)=>s.startsWith('https://')?s:path(s.replace(/^\//,''));
+const video=post.data.video;const audio=post.data.audio;
+const bili=video?.bvid?`https://player.bilibili.com/player.html?bvid=${encodeURIComponent(video.bvid)}&autoplay=0&danmaku=0`:'';
+---
+<div class="article-media" data-post-id={post.id}>
+<div class="media-navigation"><div class="media-tabs" role="tablist" aria-label="选择阅读方式"><button type="button" id="tab-read" role="tab" data-mode="read" aria-selected="true" aria-controls="panel-read" tabindex="0"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 4h5l2 1 2-1h5v12h-5l-2 1-2-1H3V4Zm7 1v12"/></svg>阅读</button><button type="button" id="tab-audio" role="tab" data-mode="audio" aria-selected="false" aria-controls="panel-audio" tabindex="-1"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 11V9a7 7 0 0 1 14 0v2M3 10h3v7H3v-7Zm11 0h3v7h-3v-7Z"/></svg>收听</button><button type="button" id="tab-video" role="tab" data-mode="video" aria-selected="false" aria-controls="panel-video" tabindex="-1"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="3" width="16" height="14" rx="3"/><path d="m8 7 5 3-5 3V7Z"/></svg>观看</button></div><span class="media-hint">一篇文章，三种打开方式</span></div>
+<section class="audio-panel" id="panel-audio" role="tabpanel" aria-labelledby="tab-audio" tabindex="0" hidden><div class="audio-scene"><div class="audio-jacket"><StoryArt kind={post.id}/><span>{post.data.category}</span></div><div class="audio-disc" aria-hidden="true"><span>海</span></div></div><div class="audio-content"><span class="eyebrow">{audio?'文章音频':'全文 · 系统朗读'}</span><h2>{post.data.title}</h2><p>暂时放下屏幕，听完这一篇。</p>{audio?<audio id="article-audio" controls preload="none" src={mediaPath(audio.src)}>你的浏览器不支持音频播放。</audio>:<div class="speech-player"><div class="speech-controls"><button type="button" id="speech-toggle" class="listen-button" aria-label="开始朗读"><span id="speech-icon" aria-hidden="true">▶</span><span id="speech-label">开始朗读</span></button><button type="button" id="speech-stop" class="speech-stop" aria-label="停止并回到开头" disabled>重来</button><label class="speech-speed">语速<select id="speech-rate" aria-label="朗读语速"><option value="0.85">0.85×</option><option value="1" selected>1.0×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label></div><input id="speech-position" type="range" min="0" max="1" value="0" aria-label="选择朗读段落"/><p id="speech-status" role="status">点击播放，使用此设备的中文语音。</p></div>}</div></section>
+<section class="video-panel" id="panel-video" role="tabpanel" aria-labelledby="tab-video" tabindex="0" hidden>
+{video?.src?<><video id="article-video" controls playsinline preload="none" poster={video.poster?mediaPath(video.poster):undefined} src={mediaPath(video.src)}>{video.captions&&<track kind="captions" src={mediaPath(video.captions)} srclang="zh" label="中文字幕" default/>}你的浏览器不支持视频播放。</video><div class="video-caption"><span>{video.label||'文章视频'}{video.duration?' · '+video.duration:''}</span><a href={mediaPath(video.src)} download>下载视频 ↗</a></div></>:bili?<><div class="bili-placeholder" id="bili-placeholder"><StoryArt kind={post.id}/><button class="listen-button" type="button" id="bili-load" data-player-url={bili}>加载 B 站视频</button><p>点击后连接 B 站，播放不自动开始。</p></div><div id="bili-container"></div><a class="video-external" href={`https://www.bilibili.com/video/${video.bvid}/`} target="_blank" rel="noopener noreferrer" data-track="bilibili_open">在 B 站打开 ↗</a></>:<div class="video-waiting"><StoryArt kind={post.id}/><h2>视频版还在准备</h2><p>先读正文，或切到收听继续这一篇。</p></div>}
+</section>
+</div>
+<script>
+import {track} from '../scripts/analytics';
+const tabs=[...document.querySelectorAll<HTMLButtonElement>('.media-tabs [role=tab]')];
+const audio=document.querySelector<HTMLAudioElement>('#article-audio');const video=document.querySelector<HTMLVideoElement>('#article-video');
+const synth='speechSynthesis' in window?window.speechSynthesis:null;
+let index=0, playing=false, paused=false, generation=0;
+const speechButton=document.querySelector<HTMLButtonElement>('#speech-toggle');
+const stopButton=document.querySelector<HTMLButtonElement>('#speech-stop');
+const rate=document.querySelector<HTMLSelectElement>('#speech-rate');
+const position=document.querySelector<HTMLInputElement>('#speech-position');
+const status=document.querySelector<HTMLElement>('#speech-status');
+const chunks=[...document.querySelectorAll('#article .article-body h2,#article .article-body h3,#article .article-body p,#article .article-body li,#article .article-body tr')].flatMap(el=>(el.textContent||'').trim().match(/[^。！？.!?]{1,160}[。！？.!?]?/g)||[]).filter(Boolean);
+const reflect=()=>{if(speechButton){speechButton.setAttribute('aria-label',playing&&!paused?'暂停朗读':paused?'继续朗读':'开始朗读');document.querySelector('#speech-label')!.textContent=playing&&!paused?'暂停':paused?'继续':'开始朗读';document.querySelector('#speech-icon')!.textContent=playing&&!paused?'Ⅱ':'▶'}if(stopButton)stopButton.disabled=!playing&&!paused&&index===0;document.querySelector('.audio-panel')?.classList.toggle('is-playing',playing&&!paused);if(position)position.value=String(index)};
+const stopSpeech=(reset=false)=>{generation++;synth?.cancel();playing=false;paused=false;if(reset)index=0;reflect();};
+const speak=()=>{if(!synth||!chunks.length)return;const token=++generation;synth.cancel();playing=true;paused=false;reflect();
+ const next=()=>{if(token!==generation)return;if(index>=chunks.length){index=0;playing=false;paused=false;if(status)status.textContent='这一篇听完了。';track('audio_complete',{type:'system'});reflect();return;}
+ const utter=new SpeechSynthesisUtterance(chunks[index]);utter.lang='zh-CN';utter.rate=Number(rate?.value||1);const voice=synth.getVoices().find(v=>/^zh[-_]CN/i.test(v.lang))||synth.getVoices().find(v=>/^zh/i.test(v.lang));if(voice)utter.voice=voice;
+ if(status)status.textContent=`第 ${index+1} / ${chunks.length} 段 · ${chunks[index].slice(0,34)}${chunks[index].length>34?'…':''}`;reflect();
+ utter.onend=()=>{if(token===generation){index++;next()}};utter.onerror=e=>{if(token!==generation||e.error==='interrupted'||e.error==='canceled')return;playing=false;paused=false;reflect();if(status)status.textContent='朗读暂时不可用，请检查设备中文语音，或切换图文阅读。'};synth.speak(utter);};next();};
+if(position){position.max=String(Math.max(0,chunks.length-1));position.addEventListener('input',()=>{const wasPlaying=playing;const chosen=Number(position.value);stopSpeech();index=chosen;if(wasPlaying)speak();else{reflect();if(status)status.textContent=`将从第 ${index+1} 段开始。`}})}
+if(speechButton){if(!synth||!chunks.length){speechButton.disabled=true;if(status)status.textContent='此浏览器暂不支持朗读，请使用图文或视频模式。'}else speechButton.addEventListener('click',()=>{if(playing&&!paused){synth.pause();paused=true;reflect()}else if(paused){synth.resume();paused=false;reflect()}else{speak();track('audio_play',{type:'system'})}})}
+stopButton?.addEventListener('click',()=>{stopSpeech(true);if(status)status.textContent='已回到开头。'});rate?.addEventListener('change',()=>{if(playing)speak()});
+const setMode=(mode:string,updateUrl=true)=>{const selected=tabs.find(t=>t.dataset.mode===mode)||tabs[0];mode=selected.dataset.mode!;audio?.pause();video?.pause();stopSpeech();
+ const iframe=document.querySelector<HTMLIFrameElement>('#bili-container iframe');if(iframe&&mode!=='video'){iframe.remove();document.querySelector<HTMLElement>('#bili-placeholder')!.hidden=false}
+ tabs.forEach(t=>{const active=t===selected;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;const panel=document.getElementById(t.getAttribute('aria-controls')!);if(panel)panel.hidden=!active});
+ if(updateUrl){const url=new URL(location.href);if(mode==='read')url.searchParams.delete('mode');else url.searchParams.set('mode',mode);history.replaceState(null,'',url);track('article_mode',{mode})}};
+tabs.forEach((t,i)=>{t.addEventListener('click',()=>setMode(t.dataset.mode!));t.addEventListener('keydown',e=>{let next=i;if(e.key==='ArrowRight')next=(i+1)%tabs.length;else if(e.key==='ArrowLeft')next=(i+tabs.length-1)%tabs.length;else if(e.key==='Home')next=0;else if(e.key==='End')next=tabs.length-1;else return;e.preventDefault();tabs[next].focus();setMode(tabs[next].dataset.mode!)});});
+setMode(new URLSearchParams(location.search).get('mode')||'read',false);
+document.querySelector<HTMLButtonElement>('#bili-load')?.addEventListener('click',event=>{const b=event.currentTarget as HTMLButtonElement;const frame=document.createElement('iframe');frame.src=b.dataset.playerUrl!;frame.title='B站视频播放器';frame.allowFullscreen=true;frame.allow='fullscreen; picture-in-picture';frame.referrerPolicy='strict-origin-when-cross-origin';document.querySelector('#bili-container')!.append(frame);document.querySelector<HTMLElement>('#bili-placeholder')!.hidden=true;track('video_load',{provider:'bilibili'})});
+for(const [el,type] of [[audio,'audio'],[video,'video']] as const){if(el){el.addEventListener('play',()=>{track(type+'_play',{type:'file'});if(type==='audio')document.querySelector('.audio-panel')?.classList.add('is-playing')});el.addEventListener('pause',()=>{if(type==='audio')document.querySelector('.audio-panel')?.classList.remove('is-playing')});el.addEventListener('ended',()=>track(type+'_complete',{type:'file'}));el.addEventListener('error',()=>{const p=document.createElement('p');p.className='media-error';p.textContent='媒体暂时无法加载，可以切换到图文阅读。';if(!el.parentElement?.querySelector('.media-error'))el.after(p)})}}
+window.addEventListener('pagehide',()=>{stopSpeech();audio?.pause();video?.pause()});
+</script>

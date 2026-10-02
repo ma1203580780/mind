@@ -28,6 +28,7 @@ export function validateIssue(issue, filename, now = Date.now()) {
     assert(!urls.has(canonical), 'Duplicate source'); urls.add(canonical);
     assert(day(s.publishedDate) && s.publishedDate <= issue.date, 'Invalid or future source date');
     assert(Date.parse(issue.date) - Date.parse(s.publishedDate) <= 7 * 86400000, 'Source older than 7 days');
+    if (s.image) { const image = new URL(s.image); assert(image.protocol === 'https:' && !image.username && !image.password, 'Invalid cover URL'); text(s.imageAlt, 140, 'image description'); }
     if (s.updateOf) assert(/^\d{4}-\d{2}-\d{2}#[a-z0-9-]+$/.test(s.updateOf), 'updateOf must identify original story');
   }
 }
