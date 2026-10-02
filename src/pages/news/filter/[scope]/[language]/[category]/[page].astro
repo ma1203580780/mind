@@ -1,0 +1,9 @@
+---
+import NewsEdition from '../../../../../../components/NewsEdition.astro';
+import {issues} from '../../../../../../lib/news';
+import {newsFilterPaths} from '../../../../../../lib/news-navigation';
+export const getStaticPaths=newsFilterPaths;
+const {scope,language,category,page}=Astro.props;
+const issue=scope==='history'?issues[0]:issues.find(i=>i.date===scope)!;
+---
+<NewsEdition issue={issue} scope={scope} language={language} category={category} page={page} archive={scope!=='history'}/>

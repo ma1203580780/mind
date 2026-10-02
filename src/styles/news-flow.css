@@ -1,0 +1,70 @@
+/* DOM order stays newest first. Unlike CSS columns, the next item moves across
+   the row before moving down; grid-auto-flow deliberately never uses dense. */
+.daily-board .news-grid,
+.daily-board .news-grid[data-view=list] {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-auto-flow: row;
+  align-items: start;
+  gap: 18px 16px;
+  columns: initial;
+  column-count: auto;
+  max-width: none;
+  margin: 0;
+}
+
+.daily-board .news-grid.masonry-ready {
+  grid-auto-rows: 8px;
+}
+
+.daily-board .news-grid > .news-card,
+.daily-board .news-grid[data-view=list] > .news-card {
+  display: block;
+  align-self: start;
+  min-width: 0;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+}
+
+.daily-board .news-grid > .news-card[hidden],
+.daily-board .news-grid[data-view=list] > .news-card[hidden],
+.daily-board .news-grid > dialog:not([open]) {
+  display: none;
+}
+
+/* An open native dialog is in the top layer and remains fixed, so it never
+   participates in card placement or measurement. */
+.daily-board .news-grid > dialog[open] {
+  position: fixed;
+}
+
+@media (max-width: 850px) {
+  .daily-board .news-grid,
+  .daily-board .news-grid[data-view=list] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 12px;
+    columns: initial;
+  }
+}
+
+@media (max-width: 560px) {
+  .daily-board .news-grid,
+  .daily-board .news-grid[data-view=list] {
+    gap: 14px 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .daily-board .news-grid,
+  .daily-board .news-grid[data-view=list] {
+    column-gap: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .daily-board .news-grid > .news-card {
+    animation: none !important;
+    transition: none !important;
+  }
+}

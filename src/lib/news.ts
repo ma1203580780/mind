@@ -1,3 +1,5 @@
+import {collectNewsHistory} from './news-feed.mjs';
+export {collectNewsHistory,filterNews,paginateNews,newsPublishedTime} from './news-feed.mjs';
 export interface NewsStory {
   id: string; eventKey: string; category: string; kind: string;
   title: string; summary: string; why: string; action: string;
@@ -7,12 +9,14 @@ export interface NewsStory {
   sourceLanguage?: 'zh'|'en'; contentLanguage?: 'zh'|'en'; titleZh?: string; summaryZh?: string;
   translationStatus?: string; translationProvider?: string; translationModel?: string; summaryTruncated?: boolean; author?: string;
 }
+export interface NewsEntry extends NewsStory { issueDate: string; }
 export interface NewsIssue {
   automated?: boolean; date: string; checkedAt: string; title: string; intro: string;
   briefing: string[]; stories: NewsStory[];
 }
 const files = import.meta.glob('../data/news/*.json', { eager: true, import: 'default' });
 export const issues = Object.values(files).sort((a: any, b: any) => b.date.localeCompare(a.date)) as NewsIssue[];
+export const allNews = collectNewsHistory(issues) as NewsEntry[];
 export const newsDate = (date: string) => date.replaceAll('-', '.');
 export const sourceHost = (url: string) => new URL(url).hostname.replace(/^www\./, '');
 export const displayTitle = (s:NewsStory) => s.titleZh || s.title;
