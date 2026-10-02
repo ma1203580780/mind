@@ -24,10 +24,25 @@ jobs:
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/translation-requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/mind-translation
+          key: mind-argos-en-zh-1.9-433e7c4f
+      - name: Install offline translation runtime
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect-news]')
+        run: pip install -r scripts/translation-requirements.txt
       - name: Collect public news feeds
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect-news]')
         run: python3 scripts/collect-news.py
-      - run: python3 -m unittest discover -s scripts -p 'test_collect_news.py'
+      - name: Enrich bilingual excerpts and publisher images
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect-news]')
+        run: python3 scripts/enrich-news.py
+      - run: python3 -m unittest discover -s scripts -p 'test_*news.py'
       - run: npm ci
       - run: npm run test:news
       - run: node --test scripts/analytics.test.mjs
@@ -40,7 +55,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add src/data/news src/data/news-status.json
+          git add src/data/news src/data/news-status.json src/data/news-enrichment-cache.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update sourced AI and economics news'
             git push

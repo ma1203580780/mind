@@ -2,11 +2,14 @@
 import Base from '../../layouts/Base.astro';
 import {path} from '../../site';
 import status from '../../data/news-status.json';
+import configured from '../../config/news-sources.json';
+import '../../styles/news-reader.css';
+const sources=status.sources.map(s=>({...s,language:configured.find(c=>c.id===s.id)?.language||'en'}));
+const enriched=(status as any).enrichment;
 ---
-<Base title="数据源与采集状态 · 海波东">
-<section class="page-head"><p class="eyebrow">OPEN SOURCES</p><h1>每条消息，都有来处。</h1><p>直接读取发布者的公开 RSS / Atom。AI 与经济分流收录，每期最多 200 条；只接收近 72 小时的新增内容，不补造数量。</p><a href={path('news/')}>← 回到新闻</a></section>
-<p>最近尝试：{new Date(status.checkedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间） · {status.sources.filter(s=>s.ok).length}/{status.sources.length} 个源成功</p>
-<p>北京时间每日 08:17、14:17、20:17 自动运行；GitHub 定时任务可能延迟。原文标题和摘要保留原语言。抓取成功仅表示订阅源可读取，不代表对原文事实背书；预印本未经同行评审。少于几十条时如实展示。</p>
-<div class="note-feed">{status.sources.map(s=><article class="note-card"><div class="note-content"><div class="note-meta">{s.domain} · {s.ok?'读取成功':'本次失败'}</div><h2><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name} ↗</a></h2><p>{s.ok?`源返回 ${s.items} 条；经过时效、跨期去重与配额筛选后收录。`:s.error}</p></div></article>)}</div>
-<p>数据及采集代码公开：<a href="https://github.com/ma1203580780/mind/blob/main/scripts/collect-news.py">查看采集实现 ↗</a>。不依赖第三方聚合服务或付费 API；失效源不影响其他源，全部失败时保留历史期刊。</p>
+<Base title="中英信息源与采集状态 · 海波东">
+<section class="page-head"><p class="eyebrow">信息源与更新记录</p><h1>知道来处，读得更明白。</h1><p>中文媒体直接阅读；英文机构、研究与开源项目提供中文机译和原文对照。每条都保留原始链接。</p><a href={path('news/')}>← 回到新闻日刊</a></section>
+<div class="source-stat-bar">最近采集：{new Date(status.checkedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间）<br/>{sources.filter(s=>s.ok).length}/{sources.length} 个源成功{enriched&&<> · {enriched.translated}/{enriched.english} 条英文内容已译 · {enriched.images} 条有原图</>}</div>
+{[{code:'zh',title:'中文信息源',description:'本土 AI 媒体与经济报道。综合媒体经过主题关键词筛选，来源属性标注为媒体报道。'},{code:'en',title:'英文信息源',description:'模型厂商、研究预印本、央行与开源项目。标题和摘要优先显示中文，点开卡片可看英文对照。'}].map(group=><section class="source-language-section"><h2>{group.title} <small>{sources.filter(s=>s.language===group.code).length}</small></h2><p>{group.description}</p><div class="note-feed">{sources.filter(s=>s.language===group.code).map(s=><article class="note-card"><div class="note-content"><div class="note-meta">{s.domain} · {s.ok?'读取成功':'本次未成功'}</div><h3><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name} ↗</a></h3><p>{s.ok?`源返回 ${s.items} 条；按时效、主题和去重规则收录。`:'本次读取失败，保留此前内容，等待下次更新。'}</p>{!s.ok&&<details><summary>查看失败原因</summary><p>{s.error}</p></details>}</div></article>)}</div></section>)}
+<section class="source-language-section"><h2>免费的中英对照，怎样更新？</h2><p>GitHub 云端用 Argos 英中离线模型生成译文，浏览时直接读取已缓存的结果。无需翻译 API 密钥；没有按调用次数收费的服务。译文为机器翻译，数字、专有名词与研究结论请对照原文。</p><p>配图来自订阅源或发布者文章页面，包括原文封面、正文图及可获取的论文图。图片注明出处；无法获取时保留文字卡，不用装饰图代替。</p><p>北京时间每日 08:17、14:17、20:17 抓取，GitHub 定时可能延迟。每期最多 200 条，只接收近 72 小时的新内容；论文预印本、机构公告和版本发布均明确标注。</p><a href="https://github.com/ma1203580780/mind/blob/main/scripts/enrich-news.py">查看翻译与配图实现 ↗</a></section>
 </Base>

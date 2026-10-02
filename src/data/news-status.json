@@ -1,32 +1,35 @@
 {
-  "checkedAt": "2026-10-02T10:10:30.146948+00:00",
-  "newItems": 0,
+  "checkedAt": "2026-10-02T15:36:03.551152+00:00",
+  "newItems": 35,
   "issueDate": "2026-10-02",
-  "totalItems": 109,
+  "totalItems": 135,
   "sources": [
     {
       "id": "openai",
       "name": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 1243,
-      "sha256": "31be04c8fd3d13b78cfd77cb523973e09125b93b3569ab34c07d0b7bb8c9f9a2"
+      "sha256": "65de343874531794bc0cc6cc22a17f5d854f178fbb36d1c244b1b0ecd5218268"
     },
     {
       "id": "huggingface",
       "name": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 872,
-      "sha256": "cbc891109b865f66a3259d5f2eeef652338f428245344e13099c4a8a2064baf5"
+      "sha256": "e6582f475c83921adceaef8987e84c8f9578fa0f19dd3f14111a184c87b99df8"
     },
     {
       "id": "arxiv-ai",
       "name": "arXiv · AI",
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 568,
       "sha256": "d1b5d142020389f0dd6285f373761afb1f55a449257a46f80d636cf6cad5129b"
@@ -36,6 +39,7 @@
       "name": "arXiv · 语言模型",
       "url": "https://rss.arxiv.org/rss/cs.CL",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 280,
       "sha256": "aecd880c941d437c0f99d325fba901fb42a863834f487a9dbd8d2a1b711e70a8"
@@ -45,6 +49,7 @@
       "name": "arXiv · econ.GN",
       "url": "https://rss.arxiv.org/rss/econ.GN",
       "domain": "经济",
+      "language": "en",
       "ok": true,
       "items": 13,
       "sha256": "cce42ac20891b5801e31a2d0abd96e9c714997bb96180b051e1e991286621914"
@@ -54,6 +59,7 @@
       "name": "arXiv · econ.EM",
       "url": "https://rss.arxiv.org/rss/econ.EM",
       "domain": "经济",
+      "language": "en",
       "ok": true,
       "items": 10,
       "sha256": "542b1ff240235383c57ce541613002d5bca0060f487f430201095ba4bb958939"
@@ -63,6 +69,7 @@
       "name": "arXiv · econ.TH",
       "url": "https://rss.arxiv.org/rss/econ.TH",
       "domain": "经济",
+      "language": "en",
       "ok": true,
       "items": 12,
       "sha256": "e265a51bb857e63b15b4c15ab57d0d066ec621995b46c61e418c0d59948605a1"
@@ -72,42 +79,47 @@
       "name": "美联储",
       "url": "https://www.federalreserve.gov/feeds/press_all.xml",
       "domain": "经济",
+      "language": "en",
       "ok": true,
       "items": 20,
-      "sha256": "f216afb03d2abd0dffbfab6f2657229c6c6be55c52e1d1cb331c2acc6b3d077b"
+      "sha256": "17c2cbb8692342c6b35e458bbabd4a2fbf439a1a7fb9194c8618e574fd3c1f51"
     },
     {
       "id": "ecb",
       "name": "欧洲央行",
       "url": "https://www.ecb.europa.eu/rss/press.html",
       "domain": "经济",
+      "language": "en",
       "ok": true,
       "items": 15,
-      "sha256": "d47d00e78ff2eede77c44a6ca4dcd4c97c3c849861d0a3a6c41a1949d1818873"
+      "sha256": "6ee5930df785c451911d508e8b697e1a6b1452d622b2e81478b1e250d66b4f6d"
     },
     {
       "id": "bls",
       "name": "美国劳工统计局",
       "url": "https://www.bls.gov/feed/bls_latest.rss",
       "domain": "经济",
-      "ok": false,
-      "items": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "language": "en",
+      "ok": true,
+      "items": 1,
+      "sha256": "4283688e5e2d3d5c93893cd8f739fb83f1558f3976d404e3d77a62cbe7bb5e1e"
     },
     {
       "id": "bis",
       "name": "国际清算银行",
       "url": "https://www.bis.org/doclist/all_pressrels.rss",
       "domain": "经济",
+      "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "2b25699faacf75c4039ad8564ff8c0f208b74978b2de34a1dfd22c7d76c42a62"
+      "sha256": "358d33ab95f27dba30e00b0b4090333217eb63d6ca1f89ffb23d85ded64f386d"
     },
     {
       "id": "vllm",
       "name": "vllm-project/vllm",
       "url": "https://github.com/vllm-project/vllm/releases.atom",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 10,
       "sha256": "7c695503edd59946da5bac3a3e06a326de4b22bfb4cc010ecd6bb113f66527be"
@@ -117,15 +129,17 @@
       "name": "huggingface/transformers",
       "url": "https://github.com/huggingface/transformers/releases.atom",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "1a6cf7c7388a5558753db83a15c41f0aa48ec65bbcfcbb3e5f10b2ac96acc961"
+      "sha256": "00ea9d611a5e5af5bfb6d00b0e508da07d5e0b49aa28b97b8fb5840e33a9873c"
     },
     {
       "id": "ollama",
       "name": "ollama/ollama",
       "url": "https://github.com/ollama/ollama/releases.atom",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 10,
       "sha256": "d8127233a39b18a74ab9abbb1854bb9cbbdb60a7056c0968a23ebc230cae4c94"
@@ -135,6 +149,7 @@
       "name": "langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain/releases.atom",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 10,
       "sha256": "7bae4ead3ce30c30f78fe2c597ba5a3e151fbce09a6dae14f89753a0eff4ae43"
@@ -144,9 +159,49 @@
       "name": "sgl-project/sglang",
       "url": "https://github.com/sgl-project/sglang/releases.atom",
       "domain": "AI",
+      "language": "en",
       "ok": true,
       "items": 10,
       "sha256": "21e7d45c6ca96b44e2367edfb3fd3a9029d52b3cab429a754ba0ef0eb09bd3ce"
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "url": "https://www.qbitai.com/feed",
+      "domain": "AI",
+      "language": "zh",
+      "ok": true,
+      "items": 10,
+      "sha256": "8429b0a4416733e2fbdb51b86c12a278cd0c22ae6aad38fff3575bf965065329"
+    },
+    {
+      "id": "ithome-ai",
+      "name": "IT之家 · AI",
+      "url": "https://www.ithome.com/rss/",
+      "domain": "AI",
+      "language": "zh",
+      "ok": true,
+      "items": 60,
+      "sha256": "41a697192b492496e9c9190bbc2a842a267c1723dee5b5d0114dcc569a66f95d"
+    },
+    {
+      "id": "eeo",
+      "name": "经济观察网",
+      "url": "https://www.eeo.com.cn/rss.xml",
+      "domain": "经济",
+      "language": "zh",
+      "ok": true,
+      "items": 15,
+      "sha256": "4b95dcb0292790eac56b25ae2a805bc3e744ddbc8d39996d056cc3eda8b8263e"
     }
-  ]
+  ],
+  "enrichment": {
+    "checkedAt": "2026-10-02T15:49:23.763367+00:00",
+    "translationModel": "argos-en-zh-1.9-ct2-v1",
+    "translated": 107,
+    "english": 107,
+    "images": 66,
+    "stories": 135,
+    "error": null
+  }
 }

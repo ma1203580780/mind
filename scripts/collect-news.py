@@ -2,6 +2,7 @@
 import concurrent.futures, datetime as dt, email.utils, hashlib, html, json, re, sys
 import urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from pathlib import Path
+from html.parser import HTMLParser
 ROOT = Path(__file__).resolve().parents[1]
 UTC = dt.timezone.utc
 CN = dt.timezone(dt.timedelta(hours=8))
@@ -20,6 +21,20 @@ def canonical(raw):
     q=[(k,v) for k,v in q if not k.lower().startswith('utm_') and k not in ('fbclid','gclid')]
     return urllib.parse.urlunsplit(('https',u.netloc,u.path,urllib.parse.urlencode(sorted(q)),''))
 def local(tag): return tag.rsplit('}',1)[-1]
+class FeedImages(HTMLParser):
+    def __init__(self): super().__init__();self.urls=[]
+    def handle_starttag(self,tag,attrs):
+        if tag=='img':
+            a=dict(attrs);self.urls.append(a.get('data-src') or a.get('src') or '')
+def feed_image(fields,base):
+    parser=FeedImages();parser.feed(fields.get('description','')+fields.get('encoded',''))
+    candidates=[fields.get('mediaImage',''),fields.get('image','')]+parser.urls
+    for raw in candidates:
+        u=urllib.parse.urljoin(base,html.unescape(raw));p=urllib.parse.urlsplit(u)
+        if not raw or p.scheme not in ('https','http') or not p.hostname:continue
+        if re.search(r'(logo|icon|avatar|default|l_common|placeholder|qrcode)',p.path,re.I) or p.path.lower().endswith('.svg'):continue
+        return urllib.parse.urlunsplit(('https',p.netloc,p.path,p.query,''))
+    return None
 def parse_feed(raw):
     if b'<!ENTITY' in raw.upper() or b'<!DOCTYPE' in raw.upper(): raise ValueError('Not a safe XML feed')
     root=ET.fromstring(raw)
@@ -31,11 +46,15 @@ def parse_feed(raw):
         for el in item:
             key=local(el.tag)
             if key=='link' and el.get('href') and el.get('rel','alternate')=='alternate': fields['link']=el.get('href')
+            elif key in ('thumbnail','content','enclosure') and el.get('url') and (key!='enclosure' or el.get('type','').startswith('image/')):fields['mediaImage']=el.get('url')
             elif key not in fields: fields[key]=''.join(el.itertext())
         date=timestamp(fields.get('pubDate') or fields.get('published') or fields.get('date') or fields.get('updated') or '')
         url=canonical(fields.get('link') or fields.get('guid') or '')
         if date and url and fields.get('title'):
-            rows.append({'title':clean(fields['title'],240),'url':url,'published':date,'excerpt':clean(fields.get('description') or fields.get('summary') or '',240)})
+            description=fields.get('description') or fields.get('summary') or fields.get('content') or ''
+            description=re.sub(r'^arXiv:.*?Abstract:\s*','',description,flags=re.S)
+            excerpt=clean(description,600)
+            rows.append({'title':clean(fields['title'],240),'url':url,'published':date,'excerpt':excerpt,'excerptTruncated':len(clean(description,10000))>600,'image':feed_image(fields,url),'author':clean(fields.get('creator') or fields.get('author') or '',100)})
     return rows
 
 def fetch(source):
@@ -59,7 +78,9 @@ def select(candidates, seen, now, limit=200, existing=None):
         for g in groups.values():
             if g: ordered.append(g.pop(0))
     for x in ordered:
-        s=x['source']; key=re.sub(r'\W+','',x['title'].casefold())
+        s=x['source']
+        if s.get('keywords') and not any(word.casefold() in (x['title'] if s.get('titleOnly') else x['title']+' '+x['excerpt']).casefold() for word in s['keywords']):continue
+        key=re.sub(r'\W+','',x['title'].casefold())
         if x['url'] in urls or key in titles or not dt.timedelta(0)<=now-x['published']<=dt.timedelta(hours=72): continue
         if counts.get(s['id'],0)>=s.get('maxItems',25): continue
         if s['kind']=='论文预印本' and research>=70: continue
@@ -81,8 +102,8 @@ def main():
     def work(s):
         try:
             rows,digest=fetch(s)
-            return s,rows,{'id':s['id'],'name':s['name'],'url':s['url'],'domain':s['domain'],'ok':True,'items':len(rows),'sha256':digest}
-        except Exception as e:return s,[],{'id':s['id'],'name':s['name'],'url':s['url'],'domain':s['domain'],'ok':False,'items':0,'error':str(e)[:180]}
+            return s,rows,{'id':s['id'],'name':s['name'],'url':s['url'],'domain':s['domain'],'language':s.get('language','en'),'ok':True,'items':len(rows),'sha256':digest}
+        except Exception as e:return s,[],{'id':s['id'],'name':s['name'],'url':s['url'],'domain':s['domain'],'language':s.get('language','en'),'ok':False,'items':0,'error':str(e)[:180]}
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
         for s,rows,status in pool.map(work,sources):
             statuses.append(status)
@@ -90,11 +111,12 @@ def main():
     picked=select(candidates,seen,now,max(0,200-len(existing)),existing) if len(existing)<200 else []
     for x in picked:
         s=x['source']; key=hashlib.sha256(x['url'].encode()).hexdigest()[:20]
-        existing.append(dict(id='feed-'+key,eventKey='feed-'+key,category=s['category'],kind=s['kind'],title=x['title'],summary=x['excerpt'] or '订阅源未提供摘要，请阅读原文。',why='本条由公开订阅源自动收录，未作事实背书或人工解读。',action='打开发布者原文，核对完整背景与适用条件。',sourceName=s['name'],sourceUrl=x['url'],publishedDate=x['published'].astimezone(CN).date().isoformat(),publishedAt=x['published'].isoformat(),fetchedAt=now.isoformat(),feedUrl=s['url'],sourceId=s['id'],domain=s['domain'],automated=True))
+        existing.append(dict(id='feed-'+key,eventKey='feed-'+key,category=s['category'],kind=s['kind'],title=x['title'],summary=x['excerpt'] or '订阅源未提供摘要，请阅读原文。',why='本条由公开订阅源自动收录，未作事实背书或人工解读。',action='打开发布者原文，核对完整背景与适用条件。',sourceName=s['name'],sourceUrl=x['url'],publishedDate=x['published'].astimezone(CN).date().isoformat(),publishedAt=x['published'].isoformat(),fetchedAt=now.isoformat(),feedUrl=s['url'],sourceId=s['id'],domain=s['domain'],automated=True,sourceLanguage=s.get('language','en'),summaryTruncated=x.get('excerptTruncated',False),author=x.get('author','')))
+        if x.get('image'):existing[-1].update(image=x['image'],imageAlt='原文配图：'+x['title'][:100],imageSourceUrl=x['url'],imageKind='订阅源配图')
     status={'checkedAt':now.isoformat(),'newItems':len(picked),'issueDate':day,'totalItems':len(existing),'sources':statuses}
     (ROOT/'src/data/news-status.json').write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n')
     if existing:
-        issue=dict(date=day,checkedAt=now.isoformat(),automated=True,title='AI 与经济 · 原始信息流',intro='直接采集公开 RSS / Atom：机构公告、经济数据、论文与开源项目更新。保留原文标题与源摘要，不生成新闻；每期最多 200 条。',briefing=[f'本期 {len(existing)} 条；本次新增 {len(picked)} 条。',f'{sum(s["ok"] for s in statuses)} / {len(statuses)} 个订阅源本次读取成功。','仅收录近 72 小时未收录内容；不足数量不补旧闻。','论文预印本与项目发布并非媒体新闻，已单独标注。'],stories=existing)
+        issue=dict(date=day,checkedAt=now.isoformat(),automated=True,title='AI 与经济 · 原始信息流',intro='直接采集公开 RSS / Atom：机构公告、经济数据、论文与开源项目更新。中文源与英文源分区，英文标题与摘要提供中文机译和原文对照；每期最多 200 条。',briefing=[f'本期 {len(existing)} 条；本次新增 {len(picked)} 条。',f'{sum(s["ok"] for s in statuses)} / {len(statuses)} 个订阅源本次读取成功。','仅收录近 72 小时未收录内容；不足数量不补旧闻。','论文预印本与项目发布并非媒体新闻，已单独标注。'],stories=existing)
         dest.write_text(json.dumps(issue,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(status,ensure_ascii=False))
     if not any(s['ok'] for s in statuses): sys.exit('All sources failed; previous editions retained')

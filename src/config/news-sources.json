@@ -6,7 +6,8 @@
     "domain": "AI",
     "category": "AI 动态",
     "kind": "机构公告",
-    "maxItems": 25
+    "maxItems": 25,
+    "language": "en"
   },
   {
     "id": "huggingface",
@@ -15,7 +16,8 @@
     "domain": "AI",
     "category": "AI 动态",
     "kind": "技术博客",
-    "maxItems": 25
+    "maxItems": 25,
+    "language": "en"
   },
   {
     "id": "arxiv-ai",
@@ -24,7 +26,8 @@
     "domain": "AI",
     "category": "AI 研究",
     "kind": "论文预印本",
-    "maxItems": 40
+    "maxItems": 40,
+    "language": "en"
   },
   {
     "id": "arxiv-cl",
@@ -33,7 +36,8 @@
     "domain": "AI",
     "category": "AI 研究",
     "kind": "论文预印本",
-    "maxItems": 20
+    "maxItems": 20,
+    "language": "en"
   },
   {
     "id": "arxiv-econ-gn",
@@ -42,7 +46,8 @@
     "domain": "经济",
     "category": "经济研究",
     "kind": "论文预印本",
-    "maxItems": 20
+    "maxItems": 20,
+    "language": "en"
   },
   {
     "id": "arxiv-econ-em",
@@ -51,7 +56,8 @@
     "domain": "经济",
     "category": "经济研究",
     "kind": "论文预印本",
-    "maxItems": 20
+    "maxItems": 20,
+    "language": "en"
   },
   {
     "id": "arxiv-econ-th",
@@ -60,7 +66,8 @@
     "domain": "经济",
     "category": "经济研究",
     "kind": "论文预印本",
-    "maxItems": 20
+    "maxItems": 20,
+    "language": "en"
   },
   {
     "id": "fed",
@@ -69,7 +76,8 @@
     "domain": "经济",
     "category": "宏观经济",
     "kind": "机构公告",
-    "maxItems": 25
+    "maxItems": 25,
+    "language": "en"
   },
   {
     "id": "ecb",
@@ -78,7 +86,8 @@
     "domain": "经济",
     "category": "宏观经济",
     "kind": "机构公告",
-    "maxItems": 25
+    "maxItems": 25,
+    "language": "en"
   },
   {
     "id": "bls",
@@ -87,7 +96,8 @@
     "domain": "经济",
     "category": "经济数据",
     "kind": "数据发布",
-    "maxItems": 25
+    "maxItems": 25,
+    "language": "en"
   },
   {
     "id": "bis",
@@ -96,7 +106,8 @@
     "domain": "经济",
     "category": "宏观经济",
     "kind": "机构公告",
-    "maxItems": 25
+    "maxItems": 25,
+    "language": "en"
   },
   {
     "id": "vllm",
@@ -105,7 +116,8 @@
     "domain": "AI",
     "category": "开源工具",
     "kind": "版本发布",
-    "maxItems": 5
+    "maxItems": 5,
+    "language": "en"
   },
   {
     "id": "transformers",
@@ -114,7 +126,8 @@
     "domain": "AI",
     "category": "开源工具",
     "kind": "版本发布",
-    "maxItems": 5
+    "maxItems": 5,
+    "language": "en"
   },
   {
     "id": "ollama",
@@ -123,7 +136,8 @@
     "domain": "AI",
     "category": "开源工具",
     "kind": "版本发布",
-    "maxItems": 5
+    "maxItems": 5,
+    "language": "en"
   },
   {
     "id": "langchain",
@@ -132,7 +146,8 @@
     "domain": "AI",
     "category": "开源工具",
     "kind": "版本发布",
-    "maxItems": 5
+    "maxItems": 5,
+    "language": "en"
   },
   {
     "id": "sglang",
@@ -141,6 +156,79 @@
     "domain": "AI",
     "category": "开源工具",
     "kind": "版本发布",
-    "maxItems": 5
+    "maxItems": 5,
+    "language": "en"
+  },
+  {
+    "id": "qbitai",
+    "name": "量子位",
+    "url": "https://www.qbitai.com/feed",
+    "domain": "AI",
+    "category": "AI 动态",
+    "kind": "媒体报道",
+    "maxItems": 25,
+    "language": "zh"
+  },
+  {
+    "id": "ithome-ai",
+    "name": "IT之家 · AI",
+    "url": "https://www.ithome.com/rss/",
+    "domain": "AI",
+    "category": "AI 动态",
+    "kind": "媒体报道",
+    "maxItems": 25,
+    "language": "zh",
+    "keywords": [
+      "人工智能",
+      "大模型",
+      "智能体",
+      "chatgpt",
+      "claude",
+      "openai",
+      "deepseek",
+      "生成式",
+      "AI ",
+      "AI超算",
+      "生图模型",
+      "内置模型",
+      "AI显示",
+      "AI眼镜",
+      "AI声优"
+    ],
+    "titleOnly": true
+  },
+  {
+    "id": "eeo",
+    "name": "经济观察网",
+    "url": "https://www.eeo.com.cn/rss.xml",
+    "domain": "经济",
+    "category": "宏观经济",
+    "kind": "媒体报道",
+    "maxItems": 25,
+    "language": "zh",
+    "keywords": [
+      "经济",
+      "金融",
+      "货币",
+      "央行",
+      "美联储",
+      "通胀",
+      "财政",
+      "利率",
+      "债券",
+      "GDP",
+      "就业",
+      "非农",
+      "黄金",
+      "美元",
+      "银行",
+      "资本",
+      "消费",
+      "贸易",
+      "关税",
+      "市场",
+      "投资",
+      "产业"
+    ]
   }
 ]

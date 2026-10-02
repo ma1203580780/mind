@@ -21,13 +21,16 @@ export function validateIssue(issue, filename, now = Date.now()) {
     for (const key of ['id', 'eventKey']) assert(typeof s[key] === 'string' && /^[a-z0-9-]{3,100}$/.test(s[key]), `Invalid ${key}`);
     assert(!ids.has(s.id) && !events.has(s.eventKey), 'Duplicate story or event'); ids.add(s.id); events.add(s.eventKey);
     assert(categories.includes(s.category), 'Unknown category');
-    for (const [key, max] of [['kind',20],['title',240],['summary',350],['why',200],['action',150],['sourceName',60]]) text(s[key], max, key);
+    for (const [key, max] of [['kind',20],['title',240],['summary',650],['why',200],['action',150],['sourceName',60]]) text(s[key], max, key);
     const url = new URL(s.sourceUrl);
     assert(url.protocol === 'https:' && !url.username && !url.password && !url.hash, 'Use canonical HTTPS source URL');
     const canonical = url.href.replace(/\/$/, '');
     assert(!urls.has(canonical), 'Duplicate source'); urls.add(canonical);
     assert(day(s.publishedDate) && s.publishedDate <= issue.date, 'Invalid or future source date');
     assert(Date.parse(issue.date) - Date.parse(s.publishedDate) <= 7 * 86400000, 'Source older than 7 days');
+    if(s.sourceLanguage) assert(['zh','en'].includes(s.sourceLanguage),'Invalid source language');
+    if(s.titleZh) text(s.titleZh,700,'translated title');
+    if(s.summaryZh) text(s.summaryZh,2000,'translated summary');
     if (s.image) { const image = new URL(s.image); assert(image.protocol === 'https:' && !image.username && !image.password, 'Invalid cover URL'); text(s.imageAlt, 140, 'image description'); }
     if (s.updateOf) assert(/^\d{4}-\d{2}-\d{2}#[a-z0-9-]+$/.test(s.updateOf), 'updateOf must identify original story');
   }
