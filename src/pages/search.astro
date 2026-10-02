@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';import {path} from '../site';
 ---
-<Base title="搜索 · 海波东" noindex><section class="page-heading"><span class="eyebrow">全文搜索</span><h1>找到那段值得重读的内容。</h1><label class="searchbox"><span class="sr-only" style="position:absolute;clip:rect(0,0,0,0)">搜索文章</span><input id="query" type="search" placeholder="搜索标题、主题或正文…" autocomplete="off"/></label><p id="search-status" class="search-status" role="status">输入关键词开始搜索。</p></section><section id="results" class="search-results" aria-label="搜索结果" data-index={path('search-index.json')}></section></Base>
+<Base title="搜索 · 海波东" noindex><section class="page-heading"><span class="eyebrow">全文搜索</span><h1>找到那段值得重读的内容。</h1><label class="searchbox"><span class="sr-only" style="position:absolute;clip:rect(0,0,0,0)">搜索文章</span><input id="query" type="search" placeholder="搜索标题、主题或正文…" autocomplete="off"/></label><p id="search-status" class="search-status" role="status">输入关键词开始搜索。</p></section><section id="results" class="search-results note-feed" aria-label="搜索结果" data-index={path('search-index.json')}></section></Base>
 <script>
 import {track} from '../scripts/analytics';
 const q=document.querySelector<HTMLInputElement>('#query')!;const results=document.querySelector<HTMLElement>('#results')!;const status=document.querySelector<HTMLElement>('#search-status')!;let posts:any[]=[];let loaded=false,failed=false;

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/notebook.css';
 import Analytics from '../components/Analytics.astro';
 import {site,path} from '../site';
 const {title=site.title,description=site.description,noindex=false,wide=false} = Astro.props;
@@ -15,6 +16,7 @@ const activeNav = (url) => url === 'news/' ? Astro.url.pathname.startsWith(path(
 <Analytics/>
 <script>
 import '../scripts/engagement';
+document.querySelectorAll<HTMLImageElement>('.note-image img,.news-cover img').forEach(img=>{const fallback=()=>{const figure=img.closest<HTMLElement>('.note-image,.news-cover');if(figure)figure.hidden=true};img.addEventListener('error',fallback);if(img.complete&&!img.naturalWidth)fallback()});
 const themeButton=document.querySelector<HTMLButtonElement>('#theme');
 const reflectTheme=()=>themeButton?.setAttribute('aria-pressed',String(document.documentElement.dataset.theme==='dark'));
 reflectTheme();themeButton?.addEventListener('click',()=>{const t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;try{localStorage.setItem('theme',t)}catch{}reflectTheme()});

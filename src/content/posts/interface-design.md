@@ -7,7 +7,6 @@ tags: ["交互设计", "动态界面"]
 demo: true
 video:
   src: "media/interface-design.mp4"
-  poster: "media/interface-design.jpg"
   duration: "0:24"
   label: "字幕短片 · 内容概览（无声）"
 ---

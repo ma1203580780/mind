@@ -20,9 +20,7 @@
       "action": "挑一个可撤销的小流程试跑，先明确应用范围与验收结果。",
       "sourceName": "GitHub Changelog",
       "sourceUrl": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/",
-      "publishedDate": "2026-10-01",
-      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
-      "imageAlt": "GitHub 产品更新栏目封面"
+      "publishedDate": "2026-10-01"
     },
     {
       "id": "cloudflare-clef",

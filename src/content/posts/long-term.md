@@ -7,7 +7,6 @@ tags: ["成长", "创作"]
 demo: true
 video:
   src: "media/long-term.mp4"
-  poster: "media/long-term.jpg"
   duration: "0:24"
   label: "字幕短片 · 内容概览（无声）"
 ---
