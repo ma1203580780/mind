@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import { path } from '../site';
+import { issues, newsDate, sourceHost, type NewsIssue } from '../lib/news';
+import '../styles/news.css';
+const { issue, archive = false } = Astro.props as { issue: NewsIssue; archive?: boolean };
+const categories = [...new Set(issue.stories.map(s => s.category))];
+const sourceCount = new Set(issue.stories.map(s => sourceHost(s.sourceUrl))).size;
+const reviewed = new Intl.DateTimeFormat('zh-CN', {timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(issue.checkedAt));
+const edition = issues.length - issues.findIndex(i => i.date === issue.date);
+const [lead, ...rest] = issue.stories;
+---
+<Base title={`${newsDate(issue.date)} 新闻日刊 · 海波东`} description={issue.intro}>
+  <div class="news-page" data-issue-date={issue.date} data-checked-at={issue.checkedAt} data-archive={String(archive)}>
+    <section class="news-masthead" aria-labelledby="news-title">
+      <div>
+        <div class="news-kicker"><span class="news-dot"></span> 海波东的每日信息精选</div>
+        <h1 id="news-title">读懂变化。<br/><span>找到下一步。</span></h1>
+        <p class="news-subtitle">AI · 工程 · 产品 · 创作<br/>值得读的信息，以及值得做的事。</p>
+      </div>
+      <div class="edition-stamp">
+        <div class="stamp-top"><span>新闻站点</span><span>第 {String(edition).padStart(3,'0')} 期</span></div>
+        <div class="stamp-day">{issue.date.slice(8)}<span> / {issue.date.slice(5,7)}</span></div>
+        <div class="stamp-bottom"><span>{issue.date.slice(0,4)} · {archive ? '往期归档' : '最新一期'}</span><a href={path('news/rss.xml')} aria-label="订阅新闻 RSS">RSS ↗</a></div>
+      </div>
+    </section>
+    <div class="news-status"><span><span class="status-dot"></span><span id="news-freshness">{archive ? '历史记录' : '已发布'} · <time datetime={issue.checkedAt}>{reviewed}</time>（北京时间）</span></span><span>AI 整理 · 原始来源可查</span></div>
+    <p class="news-stale" id="news-stale" hidden>这一期距今已超过 36 小时，新的内容尚未发布。以下保留最近一次核验的内容。</p>
+    <nav class="news-dates" aria-label="新闻日期"><a href={path('news/')} class:list={{chosen:!archive}}>最新</a>{issues.slice(0,7).map(i=><a href={path(`news/${i.date}/`)} aria-current={archive && i.date===issue.date ? 'page':undefined} class:list={{chosen:archive && i.date===issue.date}}>{i.date.slice(5).replace('-',' / ')}<small>{i.stories.length}</small></a>)}<a class="all-dates" href={path('news/archive/')}>全部日期 ↗</a></nav>
+    <section class="news-brief" aria-labelledby="brief-title"><div><span class="news-section-label">本期导读</span><h2 id="brief-title">{issue.title}</h2><p>{issue.intro}</p></div><ol>{issue.briefing.map((line,i)=><li><span>0{i+1}</span>{line}</li>)}</ol></section>
+    <section class="news-stories" aria-labelledby="stories-title">
+      <div class="news-section-heading"><h2 id="stories-title">精选动态 <span>{String(issue.stories.length).padStart(2,'0')}</span></h2><p>{sourceCount} 个来源站点 · 每条保留原始发布日期</p></div>
+      <div class="news-controls" data-news-controls hidden>
+        <div class="news-categories" role="group" aria-label="筛选新闻分类"><button type="button" class="chosen" data-category="全部" aria-pressed="true">全部</button>{categories.map(c=><button type="button" data-category={c} aria-pressed="false">{c}</button>)}</div>
+        <div class="news-toolbar"><label class="news-search"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="news-query" type="search" placeholder="搜索本期内容" aria-label="搜索本期新闻" autocomplete="off"/></label><div class="news-view" role="group" aria-label="新闻展示方式"><button type="button" data-view="cards" aria-pressed="true">卡片</button><button type="button" data-view="list" aria-pressed="false">列表</button></div></div>
+      </div>
+      <p class="news-result" id="news-result" aria-live="polite" hidden></p>
+      <div class="news-grid" id="news-grid" data-view="cards">
+        {[lead,...rest].map((story,index)=><article class:list={['news-card',{ 'news-lead':index===0 }]} id={story.id} data-category={story.category} data-search={`${story.title} ${story.summary} ${story.why} ${story.sourceName} ${story.category}`.toLowerCase()}>
+          <div class="card-top"><span class="news-category">{story.category}</span><span class="news-kind">{story.kind}</span><span class="news-number">{String(index+1).padStart(2,'0')}</span></div>
+          <h3><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer">{story.title}<span class="headline-arrow" aria-hidden="true">↗</span></a></h3>
+          <p class="story-summary">{story.summary}</p>
+          <div class="story-insight"><span>为什么值得看 <small>· 编辑判断</small></span><p>{story.why}</p></div>
+          <details class="story-action"><summary>可以做的一件事 <span aria-hidden="true">＋</span></summary><p>{story.action}</p></details>
+          {story.updateOf && <p class="story-update">后续进展 · <a href={path(`news/${story.updateOf.split('#')[0]}/#${story.updateOf.split('#')[1]}`)}>查看此前报道 ↗</a></p>}
+          <div class="story-source"><div><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer">{story.sourceName} <span aria-hidden="true">↗</span></a><small>{sourceHost(story.sourceUrl)}</small></div><span>原文发布<time datetime={story.publishedDate}>{newsDate(story.publishedDate)}</time></span></div>
+        </article>)}
+      </div>
+      <div class="news-empty" id="news-empty" hidden><h3>本期没有匹配内容</h3><p>换个关键词，或清除分类筛选。</p><button type="button" id="news-reset">显示全部新闻</button></div>
+    </section>
+    <section class="news-principles" aria-labelledby="principles-title"><div><span class="news-section-label">少一点噪声，多一点判断</span><h2 id="principles-title">信息有出处，判断有边界。</h2></div><div><p>优先阅读官方公告、原始研究和项目文档。事实摘要与编辑判断分开呈现，实验与案例标明范围，不把计划写成成果。</p><p>由 AI 搜索、整理并生成摘要，可能存在遗漏；完整条件以原始来源为准。发现错误可通过仓库反馈，修订记录公开可查。</p><div class="news-principle-links"><a href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">编辑规则 ↗</a><a href="https://github.com/ma1203580780/mind/issues" target="_blank" rel="noopener noreferrer">反馈与纠错 ↗</a><a href={path('news/rss.xml')}>订阅 RSS ↗</a></div></div></section>
+  </div>
+  <script>
+    const page = document.querySelector<HTMLElement>('.news-page');
+    const grid = document.querySelector<HTMLElement>('#news-grid');
+    if (page && grid) {
+      document.querySelector<HTMLElement>('[data-news-controls]')!.hidden = false;
+      const cards = [...grid.querySelectorAll<HTMLElement>('.news-card')];
+      const input = document.querySelector<HTMLInputElement>('#news-query')!;
+      const categories = [...document.querySelectorAll<HTMLButtonElement>('button[data-category]')];
+      const result = document.querySelector<HTMLElement>('#news-result')!;
+      let category = '全部';
+      const filter = () => {
+        const words = input.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+        let count = 0;
+        for (const card of cards) {
+          const match = (category === '全部' || card.dataset.category === category) && words.every(w => card.dataset.search!.includes(w));
+          card.hidden = !match; if (match) count++;
+        }
+        result.hidden = !words.length && category === '全部';
+        result.textContent = `找到 ${count} 条内容`;
+        document.querySelector<HTMLElement>('#news-empty')!.hidden = count > 0;
+      };
+      categories.forEach(button => button.addEventListener('click', () => {
+        category = button.dataset.category!;
+        categories.forEach(b => {b.classList.toggle('chosen', b === button);b.setAttribute('aria-pressed', String(b === button));});filter();
+      }));
+      input.addEventListener('input', filter);
+      document.querySelector('#news-reset')?.addEventListener('click', () => {input.value = '';categories[0].click();input.focus();});
+      const views = [...document.querySelectorAll<HTMLButtonElement>('button[data-view]')];
+      const setView = (view: string) => {grid.dataset.view = view === 'list' ? 'list' : 'cards';views.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.view === grid.dataset.view)));};
+      try {setView(localStorage.getItem('news-view') || 'cards');} catch {}
+      views.forEach(b => b.addEventListener('click', () => {setView(b.dataset.view!);try {localStorage.setItem('news-view', grid.dataset.view!);} catch {}}));
+      if (page.dataset.archive !== 'true' && Date.now() - Date.parse(page.dataset.checkedAt!) > 36 * 60 * 60 * 1000) document.querySelector<HTMLElement>('#news-stale')!.hidden = false;
+    }
+  </script>
+</Base>

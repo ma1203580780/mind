@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-02",
+  "checkedAt": "2026-10-02T12:31:00+08:00",
+  "title": "Agent 开始走进真实工作流",
+  "intro": "从操作桌面到选择模型，AI 的进展正在落到具体流程。本期精选 6 条近期动态，关注能力边界，也关注实际用法。",
+  "briefing": ["看能力：Copilot 将桌面应用纳入自动化。", "看成本：决策模型与模型路由给出两条工程路径。", "看落地：企业部署计划需要与已实现效果分开看。"],
+  "stories": [
+    {
+      "id": "copilot-computer-use",
+      "eventKey": "github-copilot-desktop-computer-use-2026-10",
+      "category": "AI 动态",
+      "kind": "公开预览",
+      "title": "Copilot 开始操作桌面应用：工作流不再止于编辑器",
+      "summary": "GitHub 宣布，Copilot CLI 和 Copilot 应用在 macOS、Windows 上开放 computer use 公开预览，可读取界面、点击、输入并跨应用执行步骤。操作应用前需获得授权，组织设置也可以关闭该功能。",
+      "why": "没有 API 的老软件也有了自动化入口。真正值得评估的是整段工作流能否可靠完成，而不只是单次点击。",
+      "action": "挑一个可撤销的小流程试跑，先明确应用范围与验收结果。",
+      "sourceName": "GitHub Changelog",
+      "sourceUrl": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/",
+      "publishedDate": "2026-10-01"
+    },
+    {
+      "id": "cloudflare-clef",
+      "eventKey": "cloudflare-clef-release-2026-10",
+      "category": "开源工具",
+      "kind": "产品发布",
+      "title": "Cloudflare 发布 Clef：把分类与决策交给专用模型",
+      "summary": "Cloudflare 发布 Clef、Clef-flash 决策模型，提供带概率的结构化结果，已在 Workers AI 托管，并以 Apache 2.0 许可证发布模型。官方同时介绍了面向特定场景的强化学习微调服务。",
+      "why": "分类、路由与长文本生成可以采用不同模型。对个人开发者来说，这提供了拆分 AI 工作流的新选择。",
+      "action": "先用自己的分类样本比较准确率与延迟，再决定是否接入。",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/clef-decision-models/",
+      "publishedDate": "2026-10-01"
+    },
+    {
+      "id": "langchain-model-routing",
+      "eventKey": "langchain-open-swe-router-2026-10",
+      "category": "工程实践",
+      "kind": "团队实验",
+      "title": "LangChain 的路由实验：先理解任务，再选择模型",
+      "summary": "LangChain 公开 Open SWE 模型路由实践：根据任务上下文选择模型。在团队报告的 973 个线程 A/B 实验中，相比始终使用最强模型，路由组的单线程成本中位数降低 64%，PR 合并率未出现统计显著差异。",
+      "why": "这是特定工作负载下的实验结果，不能直接当作通用节省比例。可借鉴的是先分析任务、再用业务指标验证路由。",
+      "action": "记录你自己的任务类型、成本与完成率，建立可比较的基线。",
+      "sourceName": "LangChain Blog",
+      "sourceUrl": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+      "publishedDate": "2026-10-01"
+    },
+    {
+      "id": "barclays-claude-rollout",
+      "eventKey": "barclays-claude-expansion-2026-10",
+      "category": "产品观察",
+      "kind": "厂商案例",
+      "title": "Barclays 扩大 Claude 合作，重点在开发与旧系统改造",
+      "summary": "据 Anthropic 公告，Barclays 将扩大 Claude 在软件开发、旧系统现代化等环节的应用，预计到 2026 年底让 Claude Code 覆盖一半开发者。这是部署目标，并非已经达到的使用规模。",
+      "why": "企业 AI 落地越来越强调接入现有流程。评估案例时，需要区分采用计划、真实使用和可验证的业务收益。",
+      "action": "读案例时单独列出“已发生”和“计划中”，再判断是否适合借鉴。",
+      "sourceName": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/barclays-scales-claude",
+      "publishedDate": "2026-10-01"
+    },
+    {
+      "id": "openai-dots",
+      "eventKey": "openai-dots-launch-2026-09",
+      "category": "产品观察",
+      "kind": "逐步推出",
+      "title": "OpenAI 推出 dots，将云端电脑与持续任务放到一起",
+      "summary": "OpenAI 于 9 月 29 日介绍 dots：具备独立云端电脑、可连接应用并持续执行任务的 Agent。官方表示从符合条件市场的部分订阅计划开始逐步推出，访问权限与重要操作受授权机制约束。",
+      "why": "对创作者而言，值得观察的是素材整理、网站维护等持续任务能否形成稳定流程；是否可用仍取决于账号与地区。",
+      "action": "从一个有明确产物和检查标准的重复任务开始，而不是交付模糊目标。",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/index/introducing-dots/",
+      "publishedDate": "2026-09-29"
+    },
+    {
+      "id": "git-2-56",
+      "eventKey": "git-2-56-release",
+      "category": "工程实践",
+      "kind": "版本更新",
+      "title": "Git 2.56：让解决冲突后的暂存更精准",
+      "summary": "GitHub 的 Git 2.56 更新解读介绍了 git add --resolved：仅处理仍在索引中标记为冲突的路径，并检查常规文件是否残留冲突标记。无关的本地修改不会被一起暂存。",
+      "why": "日常维护中的细节改进同样值得关注，尤其是合并分支时还有其他未完成修改的场景。",
+      "action": "升级前查看发行说明；在测试仓库里确认新命令的行为。",
+      "sourceName": "GitHub Blog",
+      "sourceUrl": "https://github.blog/open-source/git/highlights-from-git-2-56/",
+      "publishedDate": "2026-09-28"
+    }
+  ]
+}

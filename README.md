@@ -68,3 +68,9 @@ demo: false
 ## 后续适合添加
 
 有正式内容后，再接评论（如 giscus）、独立域名和访问统计。当前不显示虚构阅读量、点赞或粉丝数据。
+
+## 新闻站点
+
+顶栏“新闻站点”进入 `/mind/news/`，支持本期搜索、分类筛选、卡片/列表、日期归档与独立 RSS。数据在 `src/data/news/YYYY-MM-DD.json`；更新规则和字段约定见 [编辑规则](docs/NEWS_EDITORIAL.md)。
+
+云端编辑任务搜集与核验来源，提交 JSON 后由 GitHub Actions 构建发布。运行 `npm run test:news` 检查数据防护逻辑，`npm run build` 会校验整个新闻归档。模板不依赖付费模型 API。定时任务在 ChatGPT 管理，仓库中的 Actions 负责校验和部署。
