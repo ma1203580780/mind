@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-02T15:55:25.893334+00:00",
-  "newItems": 1,
-  "issueDate": "2026-10-02",
-  "totalItems": 136,
+  "checkedAt": "2026-10-02T17:53:08.024768+00:00",
+  "newItems": 63,
+  "issueDate": "2026-10-03",
+  "totalItems": 63,
   "sources": [
     {
       "id": "openai",
@@ -11,8 +11,8 @@
       "domain": "AI",
       "language": "en",
       "ok": true,
-      "items": 1243,
-      "sha256": "1b8ce509d10e052b96e749f70145e098748ee9d80a5672044b6e1bc7da4ce0e5"
+      "items": 1245,
+      "sha256": "c1a7085c254a8afefbe91b8518131e53b4e38dedd283f04f32bf165bcb85e792"
     },
     {
       "id": "huggingface",
@@ -132,7 +132,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "2fcb35aba4ebb7785d75098a4b872f63b561994d0e584b7faa3e59100871e2f1"
+      "sha256": "2e0478ae88c9de7905bed7150e9fcca0058017494d72c01fd0f487df79f03129"
     },
     {
       "id": "ollama",
@@ -142,7 +142,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "d8127233a39b18a74ab9abbb1854bb9cbbdb60a7056c0968a23ebc230cae4c94"
+      "sha256": "b1ed190765e52235ce32ea5b8dcf245510f11dc4afba05d5619cb6a092dd3dca"
     },
     {
       "id": "langchain",
@@ -182,7 +182,7 @@
       "language": "zh",
       "ok": true,
       "items": 60,
-      "sha256": "cfd230e7943cf815fbc408c6e650d74abf0dbd1f23c4908f3258dec533ae9faa"
+      "sha256": "7921bc920931ea647e2a33ba1817214526ad9c98a064bef36720b98df96749e9"
     },
     {
       "id": "eeo",
@@ -196,12 +196,12 @@
     }
   ],
   "enrichment": {
-    "checkedAt": "2026-10-02T15:55:30.799501+00:00",
+    "checkedAt": "2026-10-02T17:53:11.551084+00:00",
     "translationModel": "argos-en-zh-1.9-ct2-v1",
-    "translated": 108,
-    "english": 108,
-    "images": 66,
-    "stories": 136,
+    "translated": 171,
+    "english": 171,
+    "images": 99,
+    "stories": 199,
     "error": null
   }
 }
