@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-02T10:08:03.962689+00:00",
-  "newItems": 103,
+  "checkedAt": "2026-10-02T10:10:30.146948+00:00",
+  "newItems": 0,
   "issueDate": "2026-10-02",
   "totalItems": 109,
   "sources": [
@@ -11,7 +11,7 @@
       "domain": "AI",
       "ok": true,
       "items": 1243,
-      "sha256": "6242d717c53f9735d18ebe2d3f44982753fc5ae9f59cd3deabf836df8ad71edf"
+      "sha256": "31be04c8fd3d13b78cfd77cb523973e09125b93b3569ab34c07d0b7bb8c9f9a2"
     },
     {
       "id": "huggingface",
@@ -90,9 +90,9 @@
       "name": "美国劳工统计局",
       "url": "https://www.bls.gov/feed/bls_latest.rss",
       "domain": "经济",
-      "ok": true,
-      "items": 1,
-      "sha256": "0415631fbecbd50853c400259d357a93c06a059717392f5a9379822ff515ed4a"
+      "ok": false,
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "bis",
@@ -101,7 +101,7 @@
       "domain": "经济",
       "ok": true,
       "items": 10,
-      "sha256": "358d33ab95f27dba30e00b0b4090333217eb63d6ca1f89ffb23d85ded64f386d"
+      "sha256": "2b25699faacf75c4039ad8564ff8c0f208b74978b2de34a1dfd22c7d76c42a62"
     },
     {
       "id": "vllm",
@@ -119,7 +119,7 @@
       "domain": "AI",
       "ok": true,
       "items": 10,
-      "sha256": "0b1253c75339d588c8d3c11b72f6f9bc505d0d1bcbb32c2571db9cefce3542f2"
+      "sha256": "1a6cf7c7388a5558753db83a15c41f0aa48ec65bbcfcbb3e5f10b2ac96acc961"
     },
     {
       "id": "ollama",
