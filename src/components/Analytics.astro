@@ -10,10 +10,10 @@ const report=(state:string)=>{document.documentElement.dataset.analyticsState=st
 if(optedOut()) report('disabled');
 else if(config.dataset.provider==='umami' && config.dataset.websiteId){
  const s=document.createElement('script');s.defer=true;s.src=config.dataset.scriptUrl!;s.dataset.websiteId=config.dataset.websiteId;s.onload=()=>report('umami');s.onerror=()=>report('unavailable');document.head.appendChild(s);
-}else if(config.dataset.provider==='busuanzi'){
- report('loading');const s=document.createElement('script');s.src='https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';s.async=true;s.onerror=()=>report('unavailable');document.head.appendChild(s);
+}else if(['busuanzi','vercount'].includes(config.dataset.provider||'')){
+ report('loading');const s=document.createElement('script');s.src=config.dataset.provider==='vercount'?'https://events.vercount.one/js':'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';s.async=true;s.onerror=()=>report('unavailable');document.head.appendChild(s);
  const value=document.querySelector('#busuanzi_value_site_pv');
- if(value){const observer=new MutationObserver(()=>{if(/^\d+$/.test(value.textContent?.trim()||'')){report('ready');observer.disconnect()}});observer.observe(value,{childList:true,subtree:true,characterData:true});setTimeout(()=>{if(document.documentElement.dataset.analyticsState==='loading')report('unavailable');observer.disconnect()},12000)}
+ if(value){const observer=new MutationObserver(()=>{if(/^\d+$/.test(value.textContent?.trim()||'')){report('ready');observer.disconnect()}});observer.observe(value,{childList:true,subtree:true,characterData:true});setTimeout(()=>{if(document.documentElement.dataset.analyticsState==='loading')report('unavailable');},12000);window.addEventListener('pagehide',()=>observer.disconnect(),{once:true})}
 }else report('unconfigured');
 document.addEventListener('click',event=>{const el=(event.target as Element).closest<HTMLElement>('[data-track]');if(el)track(el.dataset.track!,{path:location.pathname})});
 </script>

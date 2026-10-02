@@ -1,5 +1,5 @@
 {
-  "provider": "busuanzi",
+  "provider": "vercount",
   "umamiWebsiteId": "",
   "umamiScriptUrl": "https://cloud.umami.is/script.js",
   "umamiDashboardUrl": ""
