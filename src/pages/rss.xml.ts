@@ -1,0 +1,2 @@
+import rss from '@astrojs/rss';import {getPosts,site,path} from '../site';
+export async function GET(context){const posts=await getPosts();return rss({title:site.title,description:site.description,site:new URL(path(),context.site).href,items:posts.filter(p=>!p.data.demo).map(p=>({title:p.data.title,pubDate:p.data.date,description:p.data.description,link:path(`posts/${p.id}/`)})),customData:'<language>zh-CN</language>'})}
