@@ -1,18 +1,11 @@
 ---
-import Base from '../layouts/Base.astro';
-import PostCard from '../components/PostCard.astro';
-import SourceCard from '../components/SourceCard.astro';
-import {getPosts,path} from '../site';
-import {issues,newsDate} from '../lib/news';
-const posts=await getPosts();const issue=issues[0];
-const stories=[...issue.stories].sort((a,b)=>Number(!!b.image)-Number(!!a.image)).slice(0,12);
-const feed=[];for(let i=0;i<Math.max(posts.length,stories.length);i++){if(stories[i])feed.push({kind:'source',value:stories[i]});if(posts[i])feed.push({kind:'note',value:posts[i]});}
+import Base from '../layouts/Base.astro';import PostCard from '../components/PostCard.astro';import SourceCard from '../components/SourceCard.astro';
+import {getPosts,path} from '../site';import {allNews} from '../lib/news';import {readingCandidates,latestNewsDate,topics,storiesForTopic} from '../lib/discovery';
+const posts=(await getPosts()).filter(p=>!p.data.demo);const candidates=readingCandidates(allNews,latestNewsDate,5);
 ---
-<Base>
-<header class="notebook-intro"><div class="notebook-caption"><span>海波东 / 个人笔记</span><a href={path('about/')}>关于我 ↗</a></div><h1>把值得想的，留下来。</h1><p>AI 工程、交互设计，和正在做的事。</p><div class="notebook-links"><a href={path('archive/')}>我的笔记</a><span>·</span><a href={path('news/')}>新闻与来源摘读</a><span>·</span><a href={path('rss.xml')}>RSS 订阅 ↗</a></div></header>
-<section class="notebook-stream" aria-label="笔记与一手资料"><div class="stream-toolbar"><div class="filters stream-filters" role="group" aria-label="筛选内容类型"><button class="selected" data-kind="all" aria-pressed="true">全部</button><button data-kind="note" aria-pressed="false">笔记 <small>{posts.length}</small></button><button data-kind="source" aria-pressed="false">来源摘读 <small>{stories.length}</small></button></div><a href={path('news/')}>{newsDate(issue.date).slice(5)} 摘读 ↗</a></div><p class="stream-status sr-only" aria-live="polite" id="feed-status">共 {feed.length} 条内容</p><div class="note-feed home-feed" id="posts">{feed.map(item=><div class="feed-item" data-feed-kind={item.kind}>{item.kind==='note'?<PostCard post={item.value}/>:<SourceCard story={item.value} issue={issue.date}/>}</div>)}</div></section>
-<section class="notebook-bottom"><div><span class="eyebrow">继续阅读</span><h2>沿着兴趣，往深处走。</h2></div><div><a href={path('tags/AI工程/')}>AI 工程 ↗</a><a href={path('tags/交互设计/')}>交互设计 ↗</a><a href={path('tags/创作/')}>创作实践 ↗</a><a href={path('news/archive/')}>往期新闻 ↗</a></div></section>
-</Base>
-<script>
-const filters=[...document.querySelectorAll<HTMLButtonElement>('[data-kind]')];filters.forEach(button=>button.addEventListener('click',()=>{filters.forEach(b=>{b.classList.toggle('selected',b===button);b.setAttribute('aria-pressed',String(b===button))});let count=0;document.querySelectorAll<HTMLElement>('[data-feed-kind]').forEach(el=>{el.hidden=button.dataset.kind!=='all'&&el.dataset.feedKind!==button.dataset.kind;if(!el.hidden)count++});document.querySelector('#feed-status')!.textContent=`共 ${count} 条内容`}));
-</script>
+<Base><header class="discovery-intro"><div class="eyebrow"><span>海波东 / 工程与思考</span><a href={path('about/')}>关于我 ↗</a></div><h1>观察变化，<br/>把想法做成作品。</h1><p>关注 AI 工程与产品体验。在这里整理值得读的资料，记录可以验证的实现。</p><div class="discovery-links"><a href={path('picks/')}>值得一读 ↗</a><a href={path('lab/')}>作品与实验 ↗</a><a href={path('reading/')}>我的阅读 ↗</a></div></header>
+<section class="work-feature" aria-label="正在做的事"><div><span class="eyebrow">正在运行 · 本站项目</span><h2>从消息，走向理解。</h2><p>这个新闻站持续收集公开资料，保留中文对照与来源。现在，可以沿着专题读下去。</p></div><a href={path('posts/building-mind/')} aria-label="阅读新闻站的实现记录">↗</a></section>
+{posts.length>0&&<section class="collection-section"><div class="section-title"><h2>写下来的记录</h2><a href={path('archive/')}>文章归档 ↗</a></div><div class="note-feed home-writing-feed">{posts.slice(0,6).map(post=><PostCard post={post}/>)}</div></section>}
+<section class="collection-section"><div class="section-title"><h2>沿着兴趣，往深处走</h2><a href={path('topics/')}>全部专题 ↗</a></div><div class="topic-grid">{topics.map(topic=><a class="topic-tile" href={path(`topics/${topic.slug}/`)}><small>{storiesForTopic(topic).length} 条来源资料</small><h3>{topic.name}</h3><p>{topic.question}</p><span>进入专题 ↗</span></a>)}</div></section>
+<section class="collection-section"><div class="section-title"><h2>今天，从这几条开始</h2><a href={path('news/')}>全部资讯 ↗</a></div><p class="collection-note">{latestNewsDate} · 自动阅读候选，按时效、摘要完整度与来源分散筛选。<a href={path('picks/')}>查看规则 ↗</a></p><div class="note-feed">{candidates.map(story=><SourceCard story={story} issue={story.issueDate}/>)}</div></section>
+<section class="notebook-bottom"><div><span class="eyebrow">保持联系</span><h2>按自己的节奏，继续阅读。</h2></div><div><a href={path('subscribe/')}>选择订阅 ↗</a><a href={path('lab/stream/')}>体验交互实验 ↗</a><a href={path('search/')}>搜索全部历史 ↗</a><a href={path('news/sources/')}>查看信息源 ↗</a></div></section></Base>

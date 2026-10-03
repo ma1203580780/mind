@@ -6,7 +6,7 @@ export const eventFields: Record<string, string[]> = {
   media_error: ['type'], video_load: ['provider'], bilibili_open: [],
   news_source_open: ['story','source','category','issue'], news_filter: ['category'], news_view: ['view'],
   news_expand: ['story'], search_used: ['area','results'], article_share: [], code_copy: [],
-  subscribe: ['feed'], outbound: ['source'], analytics_test: [],
+  reading_save: ['kind','saved'], lab_interact: ['mode'], topic_open: ['topic'], subscribe: ['feed'], outbound: ['source'], analytics_test: [],
 };
 export function isExcluded() {
   try { return navigator.doNotTrack === '1' || localStorage.getItem('analytics-opt-out') === 'true' || localStorage.getItem('analytics-owner') === 'true'; }

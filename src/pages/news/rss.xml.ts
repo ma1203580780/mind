@@ -1,6 +1,2 @@
-import rss from '@astrojs/rss';
-import { issues } from '../../lib/news';
-import { path } from '../../site';
-export function GET(context) {
-  return rss({title:'海波东 · 新闻日刊',description:'AI 与经济，公开订阅源自动采集。',site:new URL(path('news/'),context.site).href,items:issues.map(issue=>({title:`${issue.date}｜${issue.title}`,description:issue.intro,pubDate:new Date(issue.checkedAt),link:new URL(path(`news/${issue.date}/`),context.site).href}))});
-}
+import rss from '@astrojs/rss';import {allNews,displayTitle,displaySummary,newsPublishedTime} from '../../lib/news';import {storyUrl} from '../../lib/discovery';import {path} from '../../site';
+export function GET(context){return rss({title:'海波东 · 全部资讯',description:'AI、独立创业、设计、营销与经济的真实来源摘读。',site:new URL(path('news/'),context.site).href,items:allNews.slice(0,200).map(s=>({title:displayTitle(s),description:`${s.sourceName} · ${s.titleZh?'中文机译 · ':''}${displaySummary(s)} 原文：${s.sourceUrl}`,pubDate:new Date(newsPublishedTime(s)),link:new URL(storyUrl(s),context.site).href})),customData:'<language>zh-CN</language>'});}

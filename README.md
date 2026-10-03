@@ -92,3 +92,7 @@ B 站播放器仅点击加载后才连接第三方；没有媒体时显示明确
 
 ## 卡片与图片
 手机端首页、归档、主题、搜索、新闻均采用双列卡片。文章配图必须包含 `cover.src / alt / sourceUrl / sourceName`；无一手图片时采用文字卡，不生成占位插画。编辑要求见 [docs/VISUAL_EDITORIAL.md](docs/VISUAL_EDITORIAL.md)。
+
+## 阅读与作品升级
+
+新增完整历史搜索、稳定资讯阅读页、本地收藏与已读、自动阅读候选、作者精选配置、三个持续专题、作品与交互实验、分类型 RSS。维护方式和内容边界见 [docs/DISCOVERY.md](docs/DISCOVERY.md)。
