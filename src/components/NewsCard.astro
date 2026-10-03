@@ -1,6 +1,6 @@
 ---
 import {sourceHost,displayTitle,displaySummary,sourceLanguage,type NewsStory} from '../lib/news';
-import SaveButton from './SaveButton.astro';
+
 import {topics} from '../lib/discovery';
 import {path} from '../site';
 const {story,issue,index=9}=Astro.props as {story:NewsStory;issue:string;index?:number};
@@ -15,12 +15,12 @@ const english=sourceLanguage(story)==='en';const translated=!!story.summaryZh;co
   <p class="story-summary"><button class="summary-button reader-trigger" type="button" data-reader={readerId} aria-haspopup="dialog" aria-controls={readerId} aria-label={`展开正文：${displayTitle(story)}`}>{displaySummary(story)}</button></p>
   <div class="story-labels"><span>{story.kind}</span>{translated&&<span>中文机译</span>}</div>
   <div class="card-reading-actions"><button class="reader-trigger" type="button" data-reader={readerId} aria-haspopup="dialog" aria-controls={readerId}>{translated?'中英对照':'展开阅读'} <span aria-hidden="true">↗</span></button><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer" data-track="news_source_open" data-story={story.id} data-source={sourceHost(story.sourceUrl)} data-category={story.category} data-issue={issue}>原文 ↗</a></div>
-  <div class="reading-actions"><small data-read-badge hidden>已读</small><SaveButton id={`news:${story.id}`}/></div>
+
   </div>
 </article>
 <dialog class="news-reader" id={readerId} aria-labelledby={`reader-title-${story.id}`}>
   <div class="reader-top"><div><span>{story.category} · {story.kind}</span><p>{english?'英文来源':'中文来源'} / <strong class="source-badge">{story.sourceName}</strong></p></div><button type="button" class="reader-close" aria-label="关闭阅读" data-close-reader>×</button></div>
-  <div class="reader-scroll"><div class="reading-actions"><SaveButton id={`news:${story.id}`}/>{topics.filter(t=>t.categories.includes(story.category)).map(t=><a class="collection-note" href={path(`topics/${t.slug}/`)}>{t.name} ↗</a>)}</div>
+  <div class="reader-scroll"><div class="reading-actions">{topics.filter(t=>t.categories.includes(story.category)).map(t=><a class="collection-note" href={path(`topics/${t.slug}/`)}>{t.name} ↗</a>)}</div>
     <h2 id={`reader-title-${story.id}`}>{displayTitle(story)}</h2>
     <div class="reader-meta"><time class="date-badge" datetime={story.publishedAt||story.publishedDate}>发布 {story.publishedDate}</time>{story.author&&<span>作者 {story.author}</span>}{translated&&<span class="translation-badge">{story.translationProvider?.startsWith('AI 辅助校译')?'AI 辅助校译':'免费离线机译'}</span>}</div>
     {story.image&&<figure class="reader-image"><img src={story.image} alt={story.imageAlt||'原文配图'} loading="lazy" referrerpolicy="no-referrer"/><figcaption>{story.imageKind||'原文配图'} · <a href={story.imageSourceUrl||story.sourceUrl} target="_blank" rel="noopener noreferrer">查看图片出处 ↗</a></figcaption></figure>}

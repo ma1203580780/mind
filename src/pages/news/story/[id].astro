@@ -1,11 +1,11 @@
 ---
-import Base from '../../../layouts/Base.astro';import SaveButton from '../../../components/SaveButton.astro';
+import Base from '../../../layouts/Base.astro';
 import {allNews,displayTitle,displaySummary} from '../../../lib/news';import {topics} from '../../../lib/discovery';import {path} from '../../../site';
 export function getStaticPaths(){return allNews.map(story=>({params:{id:story.id},props:{story}}));}
 const {story}=Astro.props;const translated=!!story.summaryZh;const related=allNews.filter(s=>s.id!==story.id&&s.eventKey===story.eventKey).slice(0,5);
 ---
 <Base title={`${displayTitle(story)} · 海波东`} description={displaySummary(story)} noindex>
-<header class="article-header"><a class="back" href={path('news/')}>← 全部资讯</a><div class="meta"><span class="category">{story.category} · {story.kind}</span><time datetime={story.publishedAt||story.publishedDate}>{story.publishedDate}</time><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer">{story.sourceName} ↗</a></div><h1>{displayTitle(story)}</h1><div class="reading-actions"><SaveButton id={`news:${story.id}`}/><a class="collection-note" href={path('reading/')}>我的阅读 ↗</a></div></header>
+<header class="article-header"><a class="back" href={path('news/')}>← 全部资讯</a><div class="meta"><span class="category">{story.category} · {story.kind}</span><time datetime={story.publishedAt||story.publishedDate}>{story.publishedDate}</time><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer">{story.sourceName} ↗</a></div><h1>{displayTitle(story)}</h1></header>
 <article class="prose about" data-news-reading-id={`news:${story.id}`}>
 {story.image&&<figure class="note-image"><img src={story.image} alt={story.imageAlt||'发布者原文配图'} referrerpolicy="no-referrer"/><figcaption><a href={story.imageSourceUrl||story.sourceUrl} target="_blank" rel="noopener noreferrer">图片出处 · {story.sourceName} ↗</a></figcaption></figure>}
 <p class="notice">{story.automated?'公开订阅源自动收录':'编辑摘读'} · {translated?(story.translationProvider?.startsWith('AI 辅助校译')?'AI 辅助校译，未经作者人工复核':'中文机译，原文可核对'):story.sourceLanguage==='en'?'中文译文暂不完整，保留来源原文':'来源摘要'}。完整论证、数据和条件请阅读发布者原文。</p>
@@ -16,11 +16,3 @@ const {story}=Astro.props;const translated=!!story.summaryZh;const related=allNe
 {related.length>0&&<section><h2>同一事件的其他来源</h2>{related.map(s=><p><a href={path(`news/story/${s.id}/`)}>{displayTitle(s)} · {s.sourceName}</a></p>)}</section>}
 <div class="discovery-links">{topics.filter(t=>t.categories.includes(story.category)).map(t=><a href={path(`topics/${t.slug}/`)}>{t.name} · 持续专题 ↗</a>)}</div>
 </article></Base>
-<script>
-import {changeState} from '../../../scripts/reading-store';
-import {onPageLoad} from '../../../scripts/page-lifecycle';
-onPageLoad((signal,onCleanup)=>{
-if(!document.querySelector('[data-news-reading-id]'))return;
-const entry=document.querySelector<HTMLElement>('[data-news-reading-id]');if(entry)changeState('read',entry.dataset.newsReadingId!,true);
-});
-</script>

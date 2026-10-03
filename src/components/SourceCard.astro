@@ -1,10 +1,10 @@
 ---
 import {sourceHost,displayTitle,displaySummary} from '../lib/news';
 import {storyUrl} from '../lib/discovery';
-import SaveButton from './SaveButton.astro';
+
 const {story,issue}=Astro.props;
 ---
 <article data-reading-id={`news:${story.id}`} class:list={['note-card','source-note',{'text-source':!story.image}]}>
 {story.image&&<figure class="note-image"><a href={storyUrl(story)} tabindex="-1" aria-hidden="true"><img src={story.image} alt={story.imageAlt} loading="lazy" decoding="async" referrerpolicy="no-referrer"/></a><figcaption>原图 · {story.sourceName}</figcaption></figure>}
-<div class="note-content"><div class="note-meta"><span>{story.category}</span><span class="source-label">来源可查</span></div><h2><a href={storyUrl(story)}>{displayTitle(story)}</a></h2><p class="note-excerpt"><a href={storyUrl(story)}>{displaySummary(story)}</a></p><div class="source-citation"><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer" data-track="news_source_open" data-story={story.id} data-source={sourceHost(story.sourceUrl)} data-category={story.category} data-issue={issue}>{story.sourceName} <span>↗</span></a><time datetime={story.publishedDate}>{story.publishedDate.replaceAll('-','.').slice(5)}</time></div><small class="source-caption">{story.automated?'订阅源摘录 · 原文请见来源':'编辑摘读 · 原文请见来源'}{story.summaryZh&&' · 中文机译'}</small><div class="reading-actions"><small data-read-badge hidden>已读</small><SaveButton id={`news:${story.id}`}/></div></div>
+<div class="note-content"><div class="note-meta"><span>{story.category}</span><span class="source-label">来源可查</span></div><h2><a href={storyUrl(story)}>{displayTitle(story)}</a></h2><p class="note-excerpt"><a href={storyUrl(story)}>{displaySummary(story)}</a></p><div class="source-citation"><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer" data-track="news_source_open" data-story={story.id} data-source={sourceHost(story.sourceUrl)} data-category={story.category} data-issue={issue}>{story.sourceName} <span>↗</span></a><time datetime={story.publishedDate}>{story.publishedDate.replaceAll('-','.').slice(5)}</time></div><small class="source-caption">{story.automated?'订阅源摘录 · 原文请见来源':'编辑摘读 · 原文请见来源'}{story.summaryZh&&' · 中文机译'}</small></div>
 </article>

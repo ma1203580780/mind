@@ -40,11 +40,9 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
     <div class="sidebar-bottom"><p>最近采集 {reviewed}<br/>北京时间 · 原文可查</p><div class="sidebar-actions"><a href={path('news/rss.xml')}>订阅 RSS ↗</a><a href={path('news/sources/')}>信息源 ↗</a></div><a class="editorial-link" href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">编辑规则 ↗</a></div>
   </aside>
   <section class="daily-board" aria-labelledby="news-title">
-    <h1 id="news-title" class="sr-only">资讯</h1><div class="daily-board-top"><div class="news-toolbar" data-news-controls hidden><form class="news-search" action={path('search/')} role="search"><input type="hidden" name="kind" value="news"/><input type="hidden" name="language" value={language}/><input type="hidden" name="category" value={category}/><input type="hidden" name="scope" value={scope}/><label class="sr-only" for="news-query">搜索全部历史新闻</label><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="news-query" name="q" type="search" placeholder="搜全部历史 · 回车" aria-label="搜索全部历史新闻" autocomplete="off"/><button type="submit" aria-label="提交新闻搜索" class="search-go">↵</button></form><div class="news-view" role="group" aria-label="新闻展示方式"><button type="button" data-view="cards" aria-pressed="true">图文</button><button type="button" data-view="list" aria-pressed="false">紧凑</button></div></div>
-    </div>
-    <div class="news-browse-meta"><div class="news-filter-panel">
+    <h1 id="news-title" class="sr-only">资讯</h1><div class="news-browse-meta"><div class="news-filter-panel">
       <nav class="news-language-tabs" aria-label="按来源语言筛选">{['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)} aria-current={language===lang?'page':undefined} aria-label={`${i===0?'全部资讯':i===1?'中文资讯':'英文对照'}，${langCounts[i]}条`}>{i===0?'全部语言':i===1?'中文':'英文对照'}<small>{langCounts[i]}</small></a>)}</nav>
-      <a class="topic-subscriptions" href={path('news/sources/')}>{subscriptions.length} 个订阅源 <span aria-hidden="true">↗</span></a>
+      <div class="news-view" role="group" aria-label="新闻展示方式" data-news-controls hidden><button type="button" data-view="cards" aria-pressed="true">图文</button><button type="button" data-view="list" aria-pressed="false">紧凑</button></div>
     </div>
     <div class="news-list-context"><p><span>时间倒序</span><strong>{first}–{last} / {total} 条</strong></p><NewsPagination scope={scope} language={language} category={category} page={page} pageCount={pageCount} total={total} compact/></div></div>
     {category!=='全部'&&<p class="news-topic-description">{description}</p>}
@@ -52,7 +50,7 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
     <p class="news-result" id="news-result" aria-live="polite" hidden></p>
     <div class="news-grid" id="news-grid" data-view="cards">{stories.map((story,index)=><NewsCard story={story} issue={story.issueDate} index={index}/>)}</div>
     {total===0&&<div class="news-empty"><h2>这个板块暂无内容</h2><p>{subscriptions.length?`已接入 ${subscriptions.map(s=>s.name).join("、")}。当前日期与语言组合暂无收录，下一次采集会继续检查。`:'这个语言分区暂时没有对应订阅源，可以切换全部语言查看。'}</p><a href={newsListPath('history','all',category)}>查看该分类全部历史 ↗</a></div>}
-    <div class="news-empty" id="news-empty" hidden><h2>本页没有匹配内容</h2><p>试试其他关键词，或清空搜索后翻到下一页。</p><button type="button" id="news-reset">清空搜索</button></div>
+
     <NewsPagination scope={scope} language={language} category={category} page={page} pageCount={pageCount} total={total}/>
     <div class="news-edition-note"><p>历史持续累计，每页 30 条。按原文发布时间排序，日期与来源可核对；只有日期的内容按当日记录排序。</p><p>每天北京时间 08:17、14:17、20:17 计划采集。同一日多次运行追加新内容，每天最多 200 条。</p><a href={path('news/sources/')}>查看中英信息源与更新状态 ↗</a></div>
   </section>
@@ -60,7 +58,7 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
 </Base>
 <script>
 import {track} from '../scripts/analytics';
-import {changeState} from '../scripts/reading-store';
+
 import {initNewsFlow} from '../scripts/news-flow';
 import {onPageLoad} from '../scripts/page-lifecycle';
 onPageLoad((signal,onCleanup)=>{
@@ -80,7 +78,7 @@ if(workspace&&grid){
  const activeTopic=document.querySelector<HTMLElement>('.news-topic-tabs [aria-current="page"]');const topicRail=activeTopic?.parentElement;if(activeTopic&&topicRail)topicRail.scrollLeft=Math.max(0,activeTopic.offsetLeft-topicRail.offsetLeft-topicRail.clientWidth/2+activeTopic.clientWidth/2);
  document.querySelectorAll<HTMLImageElement>('.news-figure img,.reader-image img').forEach(img=>{const hide=()=>{const figure=img.closest<HTMLElement>('figure');if(figure)figure.hidden=true;flow.refresh();};img.addEventListener('error',hide);if(img.complete&&!img.naturalWidth)hide();});
  let opener:HTMLButtonElement|null=null;
- document.querySelectorAll<HTMLButtonElement>('[data-reader]').forEach(button=>button.addEventListener('click',()=>{const dialog=document.getElementById(button.dataset.reader!) as HTMLDialogElement|null;if(!dialog)return;opener=button;dialog.showModal();changeState('read','news:'+dialog.id.replace('reader-',''),true);document.documentElement.classList.add('reader-is-open');track('news_expand',{story:dialog.id.replace('reader-','')});}));
+ document.querySelectorAll<HTMLButtonElement>('[data-reader]').forEach(button=>button.addEventListener('click',()=>{const dialog=document.getElementById(button.dataset.reader!) as HTMLDialogElement|null;if(!dialog)return;opener=button;dialog.showModal();document.documentElement.classList.add('reader-is-open');track('news_expand',{story:dialog.id.replace('reader-','')});}));
  document.querySelectorAll<HTMLDialogElement>('.news-reader').forEach(dialog=>{const close=()=>dialog.close();dialog.querySelector('[data-close-reader]')?.addEventListener('click',close);dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)close();}});dialog.addEventListener('close',()=>{document.documentElement.classList.remove('reader-is-open');opener?.focus({preventScroll:true});});});
  const openHash=()=>{const id=location.hash.slice(1);if(!id.startsWith('reader-'))return;const dialog=document.getElementById(id);if(dialog instanceof HTMLDialogElement&&!dialog.open){opener=[...document.querySelectorAll<HTMLButtonElement>('[data-reader]')].find(b=>b.dataset.reader===id)||null;opener?.click();}};openHash();window.addEventListener('hashchange',openHash,{signal});
  if(workspace.dataset.archive!=='true'&&Date.now()-Date.parse(workspace.dataset.checkedAt!)>36*60*60*1000)document.querySelector<HTMLElement>('#news-stale')!.hidden=false;
