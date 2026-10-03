@@ -32,14 +32,27 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
 <Base title={title} description="累计阅读 AI、设计、独立创业、营销与经济资讯，按发布时间倒序排列，每页 30 条。英文来源提供中文机译和中英对照。" noindex={language!=='all'||category!=='全部'} wide newsScope={scope} newsLanguage={language} newsCategory={category}>
 <div class="news-workspace" data-issue-date={scope} data-checked-at={checkedAt} data-archive={String(!cumulative)}>
   <aside class="daily-sidebar">
-    <section class="view-picker" aria-labelledby="view-title"><h2 id="view-title">展示方式</h2><div class="news-view" role="group" aria-label="新闻展示方式" data-news-controls hidden><button type="button" data-view="cards" aria-pressed="true">图文</button><button type="button" data-view="list" aria-pressed="false">紧凑</button></div><p class="sidebar-count">{first}–{last} / {total} 条 · 时间倒序</p></section>
-    <section class="language-picker" aria-labelledby="language-title"><h2 id="language-title">来源语言</h2><nav class="news-language-tabs" aria-label="按来源语言筛选">{['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)} aria-current={language===lang?'page':undefined} aria-label={`${i===0?'全部资讯':i===1?'中文资讯':'英文对照'}，${langCounts[i]}条`}>{i===0?'全部语言':i===1?'中文':'英文对照'}<small>{langCounts[i]}</small></a>)}</nav></section>
-    <details class="date-picker" open><summary>收录日期 <span aria-hidden="true">⌄</span></summary><nav class="news-dates" aria-label="新闻日期">
-      <a href={newsListPath('history',language,category)} aria-current={cumulative?'page':undefined} class:list={{chosen:cumulative}}><span>全部日期</span><span>{dateCount('history')}</span></a>
-      {issues.slice(0,14).map(i=><a href={newsListPath(i.date,language,category)} aria-current={!cumulative&&i.date===issue.date?'page':undefined} class:list={{chosen:!cumulative&&i.date===issue.date}}><time datetime={i.date}>{Number(i.date.slice(5,7))}月{Number(i.date.slice(8))}日</time><span>{dateCount(i.date)}</span></a>)}
-      <a href={path('news/archive/')}>更多日期 ↗</a>
-    </nav></details>
-    <div class="sidebar-bottom"><p>最近采集 {reviewed}<br/>北京时间 · 原文可查</p><div class="sidebar-actions"><a href={path('news/rss.xml')}>订阅 RSS ↗</a><a href={path('news/sources/')}>信息源 ↗</a></div><a class="editorial-link" href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">编辑规则 ↗</a></div>
+    <section class="view-picker" aria-labelledby="view-title">
+      <h2 id="view-title">展示方式</h2>
+      <div class="news-view" role="group" aria-label="新闻展示方式" data-news-controls hidden>
+        <button type="button" data-view="cards" aria-pressed="true"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="2" width="4" height="5" rx="1"/><rect x="10" y="2" width="4" height="5" rx="1"/><rect x="2" y="10" width="4" height="4" rx="1"/><rect x="10" y="10" width="4" height="4" rx="1"/></svg>图文</button>
+        <button type="button" data-view="list" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 3h12M2 8h12M2 13h12"/></svg>紧凑</button>
+      </div>
+    </section>
+    <div class="sidebar-filter">
+      <label for="news-language">来源语言</label>
+      <div class="sidebar-select"><select id="news-language" data-news-filter disabled>{['all','zh','en'].map((lang,i)=><option value={newsListPath(scope,lang,category,1)} selected={language===lang}>{i===0?'全部语言':i===1?'中文':'英文对照'} · {langCounts[i]}</option>)}</select><span aria-hidden="true">⌄</span></div>
+    </div>
+    <div class="sidebar-filter">
+      <label for="news-date">收录日期</label>
+      <div class="sidebar-select"><select id="news-date" data-news-filter disabled>
+        <option value={newsListPath('history',language,category)} selected={cumulative}>全部日期 · {dateCount('history')}</option>
+        {issues.map(i=><option value={newsListPath(i.date,language,category)} selected={scope===i.date}>{i.date.replaceAll('-','/')} · {dateCount(i.date)}</option>)}
+      </select><span aria-hidden="true">⌄</span></div>
+    </div>
+    <p class="sidebar-count">{first}–{last} / {total} 条 · 时间倒序</p>
+    <noscript><nav class="sidebar-fallback" aria-label="来源语言">{['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)}>{['全部语言','中文','英文对照'][i]}</a>)}<a href={path('news/archive/')}>按日期浏览 ↗</a></nav></noscript>
+    <div class="sidebar-bottom"><p>更新于 {reviewed}</p><div class="sidebar-actions"><a href={path('news/rss.xml')}>RSS ↗</a><a href={path('news/sources/')}>信息源 ↗</a><a class="editorial-link" href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">收录规则 ↗</a></div></div>
   </aside>
   <section class="daily-board" aria-labelledby="news-title">
     <h1 id="news-title" class="sr-only">资讯</h1>    {category!=='全部'&&<p class="news-topic-description">{description}</p>}
@@ -55,6 +68,7 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
 </Base>
 <script>
 import {track} from '../scripts/analytics';
+import {navigate} from 'astro:transitions/client';
 
 import {initNewsFlow} from '../scripts/news-flow';
 import {onPageLoad} from '../scripts/page-lifecycle';
@@ -67,6 +81,10 @@ if(!document.querySelector('.news-workspace'))return;
 const workspace=document.querySelector<HTMLElement>('.news-workspace'),grid=document.querySelector<HTMLElement>('#news-grid');
 if(workspace&&grid){
  document.querySelectorAll<HTMLElement>('[data-news-controls]').forEach(el=>el.hidden=false);
+ document.querySelectorAll<HTMLSelectElement>('[data-news-filter]').forEach(select=>{
+   select.disabled=false;
+   select.addEventListener('change',()=>{void navigate(select.value);},{signal});
+ });
 
  const flow=initNewsFlow(grid);onCleanup(()=>flow.destroy());
  const views=[...document.querySelectorAll<HTMLButtonElement>('button[data-view]')];const setView=(view:string)=>{grid.dataset.view=view==='list'?'list':'cards';views.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===grid.dataset.view)));flow.refresh();};
