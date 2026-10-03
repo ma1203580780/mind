@@ -75,3 +75,5 @@ body.site-shell .rule-panel{margin:16px 0}
  body.site-shell .page-heading h1,body.site-shell .page-head h1,body.site-shell .discovery-intro h1{font-size:18px}
  .topic-grid .topic-tile p{font-size:11px}.reading-progress{top:108px}
 }
+
+.archive-date-strip{display:flex;align-items:center;gap:8px;overflow-x:auto;white-space:nowrap;margin:0 0 16px;font-size:11px;color:var(--muted)}.archive-date-strip>a{padding:6px 12px;border:1px solid var(--line);border-radius:9px;background:var(--paper)}
