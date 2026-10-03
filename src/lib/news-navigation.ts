@@ -1,6 +1,7 @@
 import {allNews,issues,filterNews,paginateNews,collectNewsHistory,type NewsEntry} from './news';
 import {path} from '../site';
-export const NEWS_PAGE_SIZE=100;
+import {NEWS_TOPICS,LEGACY_TOPICS} from './news-topics.mjs';
+export const NEWS_PAGE_SIZE=30;
 export const entriesForScope=(scope:string):NewsEntry[]=>scope==='history'?allNews:collectNewsHistory(issues.filter(issue=>issue.date===scope));
 export const newsListPath=(scope='history',language='all',category='全部',page=1)=>{
   if(language==='all'&&category==='全部')return scope==='history'?path(page===1?'news/':`news/page/${page}/`):path(page===1?`news/${scope}/`:`news/${scope}/page/${page}/`);
@@ -9,7 +10,7 @@ export const newsListPath=(scope='history',language='all',category='全部',page
 export const newsFilterPaths=()=>{
   const result=[];
   for(const scope of ['history',...issues.map(i=>i.date)]){
-    const entries=entriesForScope(scope),categories=['全部',...new Set(entries.map(s=>s.category))];
+    const entries=entriesForScope(scope),categories=[...NEWS_TOPICS,...Object.keys(LEGACY_TOPICS)];
     for(const language of ['all','zh','en'])for(const category of categories){
       if(language==='all'&&category==='全部')continue;
       const {pageCount}=paginateNews(filterNews(entries,{language,category}),1,NEWS_PAGE_SIZE);

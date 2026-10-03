@@ -1,4 +1,5 @@
 /** Pure archive helpers shared by the generated pages and browser controls. */
+import {newsTopic} from './news-topics.mjs';
 const trackingKeys = new Set(['fbclid', 'gclid', 'dclid', 'msclkid', 'mc_cid', 'mc_eid']);
 
 export function canonicalNewsUrl(raw) {
@@ -56,7 +57,7 @@ export function collectNewsHistory(issues) {
   const unique = new Map();
   for (const issue of issues || []) {
     for (const story of issue.stories || []) {
-      const entry = { ...story, issueDate: issue.date };
+      const entry = { ...story, category: newsTopic(story.category), issueDate: issue.date };
       const url = canonicalNewsUrl(entry.sourceUrl);
       const key = url ? `url:${url}` : `id:${entry.id}`;
       const previous = unique.get(key);
@@ -76,7 +77,7 @@ export function filterNews(entries, { language = 'all', category = '全部', que
   const words = normalize(query).trim().split(/\s+/).filter(Boolean);
   return entries.filter(entry => {
     if (language !== 'all' && language && (entry.sourceLanguage || 'en') !== language) return false;
-    if (category && category !== '全部' && category !== 'all' && entry.category !== category) return false;
+    if (category && category !== '全部' && category !== 'all' && newsTopic(entry.category) !== newsTopic(category)) return false;
     if (!words.length) return true;
     const searchable = normalize([
       entry.title, entry.titleZh, entry.summary, entry.summaryZh,
@@ -87,8 +88,8 @@ export function filterNews(entries, { language = 'all', category = '全部', que
   });
 }
 
-export function paginateNews(entries, page = 1, pageSize = 100) {
-  const size = Number.isFinite(Number(pageSize)) && Number(pageSize) > 0 ? Math.max(1, Math.floor(Number(pageSize))) : 100;
+export function paginateNews(entries, page = 1, pageSize = 30) {
+  const size = Number.isFinite(Number(pageSize)) && Number(pageSize) > 0 ? Math.max(1, Math.floor(Number(pageSize))) : 30;
   const total = entries.length;
   const pageCount = Math.max(1, Math.ceil(total / size));
   const requested = Number.isFinite(Number(page)) ? Math.floor(Number(page)) : 1;

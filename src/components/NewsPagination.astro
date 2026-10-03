@@ -8,5 +8,5 @@ const numbers=[...new Set([1,page-1,page,page+1,pageCount].filter(n=>n>0&&n<=pag
   {page>1?<a class="page-step" rel="prev" href={newsListPath(scope,language,category,page-1)} aria-label="上一页">← <span>上一页</span></a>:<span class="page-step is-disabled" aria-disabled="true">← <span>上一页</span></span>}
   {!compact&&<div class="page-numbers">{numbers.map((n,i)=><>{i>0&&n-numbers[i-1]>1&&<span class="page-gap" aria-hidden="true">…</span>}<a href={newsListPath(scope,language,category,n)} aria-current={n===page?'page':undefined} aria-label={`第 ${n} 页`}>{n}</a></>)}</div>}
   {page<pageCount?<a class="page-step" rel="next" href={newsListPath(scope,language,category,page+1)} aria-label="下一页"><span>下一页</span> →</a>:<span class="page-step is-disabled" aria-disabled="true"><span>下一页</span> →</span>}
-  {!compact&&<small>共 {total} 条 · 每页 100 条</small>}
+  {!compact&&<small>共 {total} 条 · 每页 30 条</small>}
 </nav>

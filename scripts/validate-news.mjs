@@ -2,7 +2,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 
-export const categories = ['AI 动态', '开源工具', '工程实践', '产品观察', '创作设计', 'AI 研究', '宏观经济', '经济研究', '经济数据'];
+import {NEWS_TOPICS} from '../src/lib/news-topics.mjs';
+export const categories = [...NEWS_TOPICS.filter(c=>c!=='全部'),'AI 动态', '开源工具', '工程实践', '产品观察', '创作设计', 'AI 研究', '宏观经济', '经济研究', '经济数据'];
 const day = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
 const text = (value, max, label) => assert(typeof value === 'string' && value.trim().length > 0 && value.length <= max && !/[<>]/.test(value), `Invalid ${label}`);
 export function validateIssue(issue, filename, now = Date.now()) {

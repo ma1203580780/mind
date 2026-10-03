@@ -36,7 +36,13 @@ def feed_image(fields,base):
         return urllib.parse.urlunsplit(('https',p.netloc,p.path,p.query,''))
     return None
 def parse_feed(raw):
-    if b'<!ENTITY' in raw.upper() or b'<!DOCTYPE' in raw.upper(): raise ValueError('Not a safe XML feed')
+    # A quoted HTML document inside CDATA is text, not an XML DTD. Some
+    # publisher feeds (e.g. GitHub Blog) legitimately use this representation.
+    markup=re.sub(rb'<!\[CDATA\[.*?\]\]>',b'',raw,flags=re.S)
+    if b'<!ENTITY' in markup.upper() or b'<!DOCTYPE' in markup.upper(): raise ValueError('Not a safe XML feed')
+    # Squarespace feeds occasionally contain HTML named entities outside CDATA.
+    # Convert only known HTML entities to numeric XML references; never load a DTD.
+    raw=re.sub(rb'&([A-Za-z][A-Za-z0-9]+);',lambda m: ('&#%d;'%html.entities.name2codepoint[m[1].decode()]).encode() if m[1].decode() in html.entities.name2codepoint and m[1] not in (b'amp',b'lt',b'gt',b'quot',b'apos') else m[0],raw)
     root=ET.fromstring(raw)
     if local(root.tag) not in ('rss','feed','RDF'): raise ValueError('Not RSS/Atom')
     rows=[]
@@ -66,27 +72,36 @@ def fetch(source):
         return rows,hashlib.sha256(raw).hexdigest()
 
 def select(candidates, seen, now, limit=200, existing=None):
-    selected=[]; urls=set(seen); titles=set(); counts={}; research=0
+    if limit<=0:return []
+    selected=[]; urls=set(seen); titles=set(); counts={}; research=0; releases=0; topics={}
+    legacy={'AI 动态':'AI 资讯','AI 研究':'AI 资讯','开源工具':'AI 协作','工程实践':'AI 协作','宏观经济':'经济观察','经济研究':'经济观察','经济数据':'经济观察'}
     for old in existing or []:
         titles.add(re.sub(r'\W+','',old['title'].casefold()))
         sid=old.get('sourceId'); counts[sid]=counts.get(sid,0)+1
         if old.get('kind')=='论文预印本': research+=1
-    # Interleave domains, so a busy AI feed cannot crowd out economics.
-    groups={d:sorted([x for x in candidates if x['source']['domain']==d],key=lambda x:x['published'],reverse=True) for d in ('AI','经济')}
-    ordered=[]
-    while any(groups.values()):
-        for g in groups.values():
-            if g: ordered.append(g.pop(0))
-    for x in ordered:
+        if old.get('kind')=='版本发布': releases+=1
+        topic=legacy.get(old.get('category'),old.get('category','AI 资讯'));topics[topic]=topics.get(topic,0)+1
+    # Pick the least represented topic first, including records already collected
+    # today. New subscriptions can join without being drowned out by busy feeds.
+    groups={}
+    for x in sorted(candidates,key=lambda x:(x['published'],x['url']),reverse=True):
+        s=x['source'];topic=s.get('category',s['domain'])
+        groups.setdefault(topic,[]).append(x)
+    while any(groups.values()) and len(selected)<limit:
+        topic=min((t for t,g in groups.items() if g),key=lambda t:(topics.get(t,0),t))
+        x=groups[topic].pop(0)
         s=x['source']
         if s.get('keywords') and not any(word.casefold() in (x['title'] if s.get('titleOnly') else x['title']+' '+x['excerpt']).casefold() for word in s['keywords']):continue
         key=re.sub(r'\W+','',x['title'].casefold())
-        if x['url'] in urls or key in titles or not dt.timedelta(0)<=now-x['published']<=dt.timedelta(hours=72): continue
+        horizon=min(168,max(1,s.get('maxAgeHours',72)))
+        if x['url'] in urls or key in titles or not dt.timedelta(0)<=now-x['published']<=dt.timedelta(hours=horizon): continue
         if counts.get(s['id'],0)>=s.get('maxItems',25): continue
-        if s['kind']=='论文预印本' and research>=70: continue
+        if s['kind']=='论文预印本' and research>=30: continue
+        if s['kind']=='版本发布' and releases>=12: continue
         if s['kind']=='论文预印本': research+=1
+        if s['kind']=='版本发布': releases+=1
+        topics[topic]=topics.get(topic,0)+1
         urls.add(x['url']); titles.add(key); counts[s['id']]=counts.get(s['id'],0)+1;selected.append(x)
-        if len(selected)>=limit: break
     return selected
 
 def main():
@@ -116,7 +131,7 @@ def main():
     status={'checkedAt':now.isoformat(),'newItems':len(picked),'issueDate':day,'totalItems':len(existing),'sources':statuses}
     (ROOT/'src/data/news-status.json').write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n')
     if existing:
-        issue=dict(date=day,checkedAt=now.isoformat(),automated=True,title='AI 与经济 · 原始信息流',intro='直接采集公开 RSS / Atom：机构公告、经济数据、论文与开源项目更新。中文源与英文源分区，英文标题与摘要提供中文机译和原文对照；每期最多 200 条。',briefing=[f'本期 {len(existing)} 条；本次新增 {len(picked)} 条。',f'{sum(s["ok"] for s in statuses)} / {len(statuses)} 个订阅源本次读取成功。','仅收录近 72 小时未收录内容；不足数量不补旧闻。','论文预印本与项目发布并非媒体新闻，已单独标注。'],stories=existing)
+        issue=dict(date=day,checkedAt=now.isoformat(),automated=True,title='新闻与观察 · 原始信息流',intro='直接采集公开 RSS / Atom：AI、独立创业、设计、营销、协作与经济。中文源与英文源分区，英文标题与摘要提供中文机译和原文对照；每期最多 200 条。',briefing=[f'本期 {len(existing)} 条；本次新增 {len(picked)} 条。',f'{sum(s["ok"] for s in statuses)} / {len(statuses)} 个订阅源本次读取成功。','快讯收录近 72 小时；部分低频专题收录近 7 天未收录内容，保留原发布日期。','论文预印本与项目发布并非媒体新闻，已单独标注。'],stories=existing)
         dest.write_text(json.dumps(issue,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(status,ensure_ascii=False))
     if not any(s['ok'] for s in statuses): sys.exit('All sources failed; previous editions retained')

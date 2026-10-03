@@ -8,18 +8,18 @@ const story = (id, overrides = {}) => ({
 });
 const issue = (date, stories) => ({ date, stories });
 
-test('history accumulates more than a daily cap and pages 100/100/remainder without loss', () => {
+test('history accumulates more than a daily cap and pages 30 at a time without loss', () => {
   const records = Array.from({ length: 237 }, (_, i) => story(`story-${i}`));
   const history = collectNewsHistory([
     issue('2026-10-03', records.slice(0, 37)),
     issue('2026-10-02', records.slice(37, 137)),
     issue('2026-10-01', records.slice(137)),
   ]);
-  const pages = [1, 2, 3].map(page => paginateNews(history, page));
+  const pages = Array.from({length:8},(_,i)=>i+1).map(page => paginateNews(history, page));
   assert.equal(history.length, 237);
-  assert.deepEqual(pages.map(page => page.entries.length), [100, 100, 37]);
+  assert.deepEqual(pages.map(page => page.entries.length), [30,30,30,30,30,30,30,27]);
   assert.equal(new Set(pages.flatMap(page => page.entries.map(entry => entry.id))).size, 237);
-  assert.equal(pages[0].pageCount, 3);
+  assert.equal(pages[0].pageCount, 8);
   assert.equal(pages[1].total, 237);
   assert.equal(history.find(entry => entry.id === 'story-150').issueDate, '2026-10-01');
 });
@@ -88,7 +88,7 @@ test('filters all accumulated history before pagination and searches Chinese plu
   const filtered = filterNews(history, { language: 'en', category: '宏观经济', query: '央行 MARKETS' });
   assert.equal(filtered.length, 11);
   assert.ok(filtered.every(entry => Number(entry.id.slice(5)) > 180));
-  assert.equal(paginateNews(filterNews(history, { language: 'en' }), 2).entries.length, 22);
+  assert.equal(paginateNews(filterNews(history, { language: 'en' }), 5).entries.length, 2);
   assert.equal(filterNews([story('fallback', { sourceLanguage: undefined })], { language: 'en' }).length, 1);
   assert.equal(filterNews(history, { query: '不存在' }).length, 0);
   assert.equal(history.length, 245, 'filtering must not alter the archive');
@@ -96,12 +96,20 @@ test('filters all accumulated history before pagination and searches Chinese plu
 
 test('empty archives and invalid pages clamp to a consistent valid page', () => {
   assert.deepEqual(collectNewsHistory([]), []);
-  assert.deepEqual(paginateNews([]), { entries: [], pageCount: 1, total: 0, page: 1, pageSize: 100 });
+  assert.deepEqual(paginateNews([]), { entries: [], pageCount: 1, total: 0, page: 1, pageSize: 30 });
   const entries = Array.from({ length: 205 }, (_, i) => story(String(i)));
   for (const page of [-5, 0, NaN, 'invalid']) assert.equal(paginateNews(entries, page).page, 1);
-  assert.equal(paginateNews(entries, 99).page, 3);
-  assert.equal(paginateNews(entries, '2').entries[0].id, '100');
+  assert.equal(paginateNews(entries, 99).page, 7);
+  assert.equal(paginateNews(entries, '2').entries[0].id, '30');
   assert.equal(paginateNews(entries, 2.9).page, 2);
-  assert.equal(paginateNews(entries, 1, 0).pageSize, 100);
+  assert.equal(paginateNews(entries, 1, 0).pageSize, 30);
   assert.equal(paginateNews(entries, 1, 2.9).pageSize, 2);
+});
+
+test('old categories remain reachable under the new reading topics', () => {
+ const history=collectNewsHistory([issue('2026-10-02',[story('paper',{category:'AI 研究'}),story('tool',{category:'开源工具'}),story('econ',{category:'经济数据'})])]);
+ assert.equal(filterNews(history,{category:'AI 资讯'})[0].id,'paper');
+ assert.equal(filterNews(history,{category:'AI 研究'})[0].id,'paper');
+ assert.equal(filterNews(history,{category:'AI 协作'})[0].id,'tool');
+ assert.equal(filterNews(history,{category:'经济观察'})[0].id,'econ');
 });
