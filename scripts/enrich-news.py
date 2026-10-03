@@ -9,9 +9,12 @@ UA='MindNews/1.0 (+https://ma1203580780.github.io/mind/)'
 def clean(s,limit=600):
     return re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',html.unescape(s or ''))).replace('<','').replace('>','').strip()[:limit]
 def language(text): return 'zh' if len(re.findall(r'[\u3400-\u9fff]',text or ''))>=3 else 'en'
+# Verified publisher-wide column banners, not article-specific illustrations.
+GENERIC_IMAGE_FILES={'02560DCCC0336D1EFC7A62BB5EEFF8E7.jpg','BF3FFD4CC4BD3331A55AD1DCE56D9C81.png'}
 def image_url(raw,base):
     u=urllib.parse.urljoin(base,html.unescape(raw or ''));p=urllib.parse.urlsplit(u)
     if p.scheme not in ('https','http') or not p.hostname or p.username or p.password:return None
+    if p.path.rsplit('/',1)[-1] in GENERIC_IMAGE_FILES or (p.hostname=='img.eeo.com.cn' and p.path.startswith('/pc/images/')):return None
     if 'private-user-images.githubusercontent.com' in p.hostname or re.search(r'(jwt|X-Amz-Signature|token)=',p.query,re.I):return None
     if 'arxiv.org' in p.hostname and '/static/' in p.path:return None
     if p.hostname in ('www.federalreserve.gov','www.bls.gov') and p.path.startswith('/images/'):return None

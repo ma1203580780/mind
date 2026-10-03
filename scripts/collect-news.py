@@ -59,8 +59,13 @@ def parse_feed(raw):
         if date and url and fields.get('title'):
             description=fields.get('description') or fields.get('summary') or fields.get('content') or ''
             description=re.sub(r'^arXiv:.*?Abstract:\s*','',description,flags=re.S)
-            excerpt=clean(description,600)
-            rows.append({'title':clean(fields['title'],240),'url':url,'published':date,'excerpt':excerpt,'excerptTruncated':len(clean(description,10000))>600,'image':feed_image(fields,url),'author':clean(fields.get('creator') or fields.get('author') or '',100)})
+            excerpt_text=clean(description,10000)
+            # Strip publisher subscription/footer boilerplate before truncating or
+            # translating. Preserve the actual article excerpt verbatim.
+            excerpt_text=re.sub(r'Do stories and artists like this matter to you\?.*$', '',excerpt_text)
+            excerpt_text=re.sub(r'\s+The (?:post|article) .+? appeared first on .+?\.?\s*$', '',excerpt_text)
+            excerpt=excerpt_text.strip()[:600]
+            rows.append({'title':clean(fields['title'],240),'url':url,'published':date,'excerpt':excerpt,'excerptTruncated':len(excerpt_text)>600,'image':feed_image(fields,url),'author':clean(fields.get('creator') or fields.get('author') or '',100)})
     return rows
 
 def fetch(source):

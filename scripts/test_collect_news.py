@@ -34,4 +34,7 @@ class CollectorTest(unittest.TestCase):
   feed=b'<rss><channel><item><title>UX &nbsp; Research</title><link>https://example.org/story</link><pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate><description><![CDATA[<!DOCTYPE html><p>Actual excerpt</p>]]></description></item></channel></rss>'
   self.assertEqual(c.parse_feed(feed)[0]['excerpt'],'Actual excerpt')
   with self.assertRaises(ValueError):c.parse_feed(b'<!DOCTYPE rss [<!ENTITY x SYSTEM "file:///etc/passwd">]><rss/>')
+ def test_publisher_footer_does_not_become_news_summary(self):
+  feed=b'<rss><channel><item><title>Art study</title><link>https://example.org/art</link><pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate><description>Actual art excerpt. Do stories and artists like this matter to you? Become a Colossal Member today for $7 per month. The article Art study appeared first on Colossal.</description></item></channel></rss>'
+  self.assertEqual(c.parse_feed(feed)[0]['excerpt'],'Actual art excerpt.')
 if __name__=='__main__':unittest.main()
