@@ -32,6 +32,7 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
 <Base title={title} description="累计阅读 AI、设计、独立创业、营销与经济资讯，按发布时间倒序排列，每页 30 条。英文来源提供中文机译和中英对照。" noindex={language!=='all'||category!=='全部'} wide newsScope={scope} newsLanguage={language} newsCategory={category}>
 <div class="news-workspace" data-issue-date={scope} data-checked-at={checkedAt} data-archive={String(!cumulative)}>
   <aside class="daily-sidebar">
+    <section class="view-picker" aria-labelledby="view-title"><h2 id="view-title">展示方式</h2><div class="news-view" role="group" aria-label="新闻展示方式" data-news-controls hidden><button type="button" data-view="cards" aria-pressed="true">图文</button><button type="button" data-view="list" aria-pressed="false">紧凑</button></div><p class="sidebar-count">{first}–{last} / {total} 条 · 时间倒序</p></section>
     <section class="language-picker" aria-labelledby="language-title"><h2 id="language-title">来源语言</h2><nav class="news-language-tabs" aria-label="按来源语言筛选">{['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)} aria-current={language===lang?'page':undefined} aria-label={`${i===0?'全部资讯':i===1?'中文资讯':'英文对照'}，${langCounts[i]}条`}>{i===0?'全部语言':i===1?'中文':'英文对照'}<small>{langCounts[i]}</small></a>)}</nav></section>
     <details class="date-picker" open><summary>收录日期 <span aria-hidden="true">⌄</span></summary><nav class="news-dates" aria-label="新闻日期">
       <a href={newsListPath('history',language,category)} aria-current={cumulative?'page':undefined} class:list={{chosen:cumulative}}><span>全部日期</span><span>{dateCount('history')}</span></a>
@@ -41,12 +42,7 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
     <div class="sidebar-bottom"><p>最近采集 {reviewed}<br/>北京时间 · 原文可查</p><div class="sidebar-actions"><a href={path('news/rss.xml')}>订阅 RSS ↗</a><a href={path('news/sources/')}>信息源 ↗</a></div><a class="editorial-link" href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">编辑规则 ↗</a></div>
   </aside>
   <section class="daily-board" aria-labelledby="news-title">
-    <h1 id="news-title" class="sr-only">资讯</h1><div class="news-browse-meta"><div class="news-filter-panel">
-
-      <div class="news-view" role="group" aria-label="新闻展示方式" data-news-controls hidden><button type="button" data-view="cards" aria-pressed="true">图文</button><button type="button" data-view="list" aria-pressed="false">紧凑</button></div>
-    </div>
-    <div class="news-list-context"><p><span>时间倒序</span><strong>{first}–{last} / {total} 条</strong></p><NewsPagination scope={scope} language={language} category={category} page={page} pageCount={pageCount} total={total} compact/></div></div>
-    {category!=='全部'&&<p class="news-topic-description">{description}</p>}
+    <h1 id="news-title" class="sr-only">资讯</h1>    {category!=='全部'&&<p class="news-topic-description">{description}</p>}
     <p class="news-stale" id="news-stale" hidden>最近一次成功采集距今超过 36 小时，可在信息源页查看状态。</p>
     <p class="news-result" id="news-result" aria-live="polite" hidden></p>
     <div class="news-grid" id="news-grid" data-view="cards">{stories.map((story,index)=><NewsCard story={story} issue={story.issueDate} index={index}/>)}</div>
