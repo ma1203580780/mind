@@ -32,6 +32,7 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
 <Base title={title} description="累计阅读 AI、设计、独立创业、营销与经济资讯，按发布时间倒序排列，每页 30 条。英文来源提供中文机译和中英对照。" noindex={language!=='all'||category!=='全部'} wide newsScope={scope} newsLanguage={language} newsCategory={category}>
 <div class="news-workspace" data-issue-date={scope} data-checked-at={checkedAt} data-archive={String(!cumulative)}>
   <aside class="daily-sidebar">
+    <section class="language-picker" aria-labelledby="language-title"><h2 id="language-title">来源语言</h2><nav class="news-language-tabs" aria-label="按来源语言筛选">{['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)} aria-current={language===lang?'page':undefined} aria-label={`${i===0?'全部资讯':i===1?'中文资讯':'英文对照'}，${langCounts[i]}条`}>{i===0?'全部语言':i===1?'中文':'英文对照'}<small>{langCounts[i]}</small></a>)}</nav></section>
     <details class="date-picker" open><summary>收录日期 <span aria-hidden="true">⌄</span></summary><nav class="news-dates" aria-label="新闻日期">
       <a href={newsListPath('history',language,category)} aria-current={cumulative?'page':undefined} class:list={{chosen:cumulative}}><span>全部日期</span><span>{dateCount('history')}</span></a>
       {issues.slice(0,14).map(i=><a href={newsListPath(i.date,language,category)} aria-current={!cumulative&&i.date===issue.date?'page':undefined} class:list={{chosen:!cumulative&&i.date===issue.date}}><time datetime={i.date}>{Number(i.date.slice(5,7))}月{Number(i.date.slice(8))}日</time><span>{dateCount(i.date)}</span></a>)}
@@ -41,7 +42,7 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
   </aside>
   <section class="daily-board" aria-labelledby="news-title">
     <h1 id="news-title" class="sr-only">资讯</h1><div class="news-browse-meta"><div class="news-filter-panel">
-      <nav class="news-language-tabs" aria-label="按来源语言筛选">{['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)} aria-current={language===lang?'page':undefined} aria-label={`${i===0?'全部资讯':i===1?'中文资讯':'英文对照'}，${langCounts[i]}条`}>{i===0?'全部语言':i===1?'中文':'英文对照'}<small>{langCounts[i]}</small></a>)}</nav>
+
       <div class="news-view" role="group" aria-label="新闻展示方式" data-news-controls hidden><button type="button" data-view="cards" aria-pressed="true">图文</button><button type="button" data-view="list" aria-pressed="false">紧凑</button></div>
     </div>
     <div class="news-list-context"><p><span>时间倒序</span><strong>{first}–{last} / {total} 条</strong></p><NewsPagination scope={scope} language={language} category={category} page={page} pageCount={pageCount} total={total} compact/></div></div>
