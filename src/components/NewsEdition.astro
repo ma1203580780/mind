@@ -22,7 +22,7 @@ const subscriptions=configured.filter(s=>category==='全部'||newsTopic(s.catego
 const description=TOPIC_DESCRIPTIONS[category]||TOPIC_DESCRIPTIONS['全部'];
 const dateCount=(date:string)=>filterNews(entriesForScope(date),{language,category}).length;
 const langCounts=['all','zh','en'].map(lang=>filterNews(entries,{language:lang,category}).length);
-const categoryCounts=categories.map(c=>filterNews(entries,{language,category:c}).length);
+const visibleDates=Math.max(10,Math.ceil((issues.findIndex(i=>i.date===scope)+1)/10)*10);
 const sourceCount=new Set(selected.map(s=>sourceHost(s.sourceUrl))).size;
 const checkedAt=cumulative?collectionStatus.checkedAt:issue.checkedAt;
 const reviewed=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(checkedAt));
@@ -32,33 +32,30 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
 <Base title={title} description="累计阅读 AI、设计、独立创业、营销与经济资讯，按发布时间倒序排列，每页 30 条。英文来源提供中文机译和中英对照。" noindex={language!=='all'||category!=='全部'} wide newsScope={scope} newsLanguage={language} newsCategory={category}>
 <div class="news-workspace" data-issue-date={scope} data-checked-at={checkedAt} data-archive={String(!cumulative)}>
   <aside class="daily-sidebar">
-    <section class="view-picker" aria-labelledby="view-title">
-      <h2 id="view-title">展示方式</h2>
-      <div class="news-view" role="group" aria-label="新闻展示方式" data-news-controls hidden>
-        <button type="button" data-view="cards" aria-pressed="true"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="2" width="4" height="5" rx="1"/><rect x="10" y="2" width="4" height="5" rx="1"/><rect x="2" y="10" width="4" height="4" rx="1"/><rect x="10" y="10" width="4" height="4" rx="1"/></svg>图文</button>
-        <button type="button" data-view="list" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 3h12M2 8h12M2 13h12"/></svg>紧凑</button>
-      </div>
+    <section class="sidebar-language" aria-labelledby="language-title">
+      <h2 id="language-title">来源语言</h2>
+      <nav class="language-slider" aria-label="来源语言" style={`--language-index:${Math.max(0,['all','zh','en'].indexOf(language))}`}>
+        <span class="language-thumb" aria-hidden="true" transition:name="language-thumb"></span>
+        {['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)} aria-current={language===lang?'page':undefined} aria-label={`${['全部语言','中文','英文对照'][i]}，${langCounts[i]}条`}><span>{['全部','中文','英文对照'][i]}</span><small>{langCounts[i]}</small></a>)}
+      </nav>
     </section>
-    <div class="sidebar-filter">
-      <label for="news-language">来源语言</label>
-      <div class="sidebar-select"><select id="news-language" data-news-filter disabled>{['all','zh','en'].map((lang,i)=><option value={newsListPath(scope,lang,category,1)} selected={language===lang}>{i===0?'全部语言':i===1?'中文':'英文对照'} · {langCounts[i]}</option>)}</select><span aria-hidden="true">⌄</span></div>
-    </div>
-    <div class="sidebar-filter">
-      <label for="news-date">收录日期</label>
-      <div class="sidebar-select"><select id="news-date" data-news-filter disabled>
-        <option value={newsListPath('history',language,category)} selected={cumulative}>全部日期 · {dateCount('history')}</option>
-        {issues.map(i=><option value={newsListPath(i.date,language,category)} selected={scope===i.date}>{i.date.replaceAll('-','/')} · {dateCount(i.date)}</option>)}
-      </select><span aria-hidden="true">⌄</span></div>
-    </div>
+    <section class="sidebar-calendar" aria-labelledby="date-title">
+      <h2 id="date-title">收录日期</h2>
+      <nav class="date-list" aria-label="收录日期">
+        <a href={newsListPath('history',language,category)} aria-current={cumulative?'page':undefined}><span>全部日期</span><small>{dateCount('history')}</small></a>
+        <div id="news-date-items">{issues.map((i,index)=><a data-date-item href={newsListPath(i.date,language,category)} aria-current={scope===i.date?'page':undefined} hidden={index>=visibleDates}><time datetime={i.date}>{i.date.replaceAll('-','/')}</time><small>{dateCount(i.date)}</small></a>)}</div>
+        {issues.length>visibleDates&&<button type="button" class="date-more" aria-label="展开更早的 10 天" aria-controls="news-date-items" title="展开更早的 10 天" data-date-more hidden><span aria-hidden="true">…</span><span class="sr-only">展开更早的 10 天</span></button>}
+      </nav>
+      <noscript><a class="date-archive" href={path('news/archive/')}>更多日期 ↗</a></noscript>
+    </section>
     <p class="sidebar-count">{first}–{last} / {total} 条 · 时间倒序</p>
-    <noscript><nav class="sidebar-fallback" aria-label="来源语言">{['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)}>{['全部语言','中文','英文对照'][i]}</a>)}<a href={path('news/archive/')}>按日期浏览 ↗</a></nav></noscript>
     <div class="sidebar-bottom"><p>更新于 {reviewed}</p><div class="sidebar-actions"><a href={path('news/rss.xml')}>RSS ↗</a><a href={path('news/sources/')}>信息源 ↗</a><a class="editorial-link" href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">收录规则 ↗</a></div></div>
   </aside>
   <section class="daily-board" aria-labelledby="news-title">
     <h1 id="news-title" class="sr-only">资讯</h1>    {category!=='全部'&&<p class="news-topic-description">{description}</p>}
     <p class="news-stale" id="news-stale" hidden>最近一次成功采集距今超过 36 小时，可在信息源页查看状态。</p>
     <p class="news-result" id="news-result" aria-live="polite" hidden></p>
-    <div class="news-grid" id="news-grid" data-view="cards">{stories.map((story,index)=><NewsCard story={story} issue={story.issueDate} index={index}/>)}</div>
+    <div class="news-grid" id="news-grid" data-view="list">{stories.map((story,index)=><NewsCard story={story} issue={story.issueDate} index={index}/>)}</div>
     {total===0&&<div class="news-empty"><h2>这个板块暂无内容</h2><p>{subscriptions.length?`已接入 ${subscriptions.map(s=>s.name).join("、")}。当前日期与语言组合暂无收录，下一次采集会继续检查。`:'这个语言分区暂时没有对应订阅源，可以切换全部语言查看。'}</p><a href={newsListPath('history','all',category)}>查看该分类全部历史 ↗</a></div>}
 
     <NewsPagination scope={scope} language={language} category={category} page={page} pageCount={pageCount} total={total}/>
@@ -68,7 +65,7 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
 </Base>
 <script>
 import {track} from '../scripts/analytics';
-import {navigate} from 'astro:transitions/client';
+import {initDateExpansion} from '../scripts/news-sidebar';
 
 import {initNewsFlow} from '../scripts/news-flow';
 import {onPageLoad} from '../scripts/page-lifecycle';
@@ -80,15 +77,8 @@ if(!document.querySelector('.news-workspace'))return;
 
 const workspace=document.querySelector<HTMLElement>('.news-workspace'),grid=document.querySelector<HTMLElement>('#news-grid');
 if(workspace&&grid){
- document.querySelectorAll<HTMLElement>('[data-news-controls]').forEach(el=>el.hidden=false);
- document.querySelectorAll<HTMLSelectElement>('[data-news-filter]').forEach(select=>{
-   select.disabled=false;
-   select.addEventListener('change',()=>{void navigate(select.value);},{signal});
- });
-
+ initDateExpansion(document.querySelector<HTMLElement>('.date-list'),signal);
  const flow=initNewsFlow(grid);onCleanup(()=>flow.destroy());
- const views=[...document.querySelectorAll<HTMLButtonElement>('button[data-view]')];const setView=(view:string)=>{grid.dataset.view=view==='list'?'list':'cards';views.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===grid.dataset.view)));flow.refresh();};
- try{setView(localStorage.getItem('news-view')||'cards')}catch{}views.forEach(b=>b.addEventListener('click',()=>{setView(b.dataset.view!);track('news_view',{view:grid.dataset.view!});try{localStorage.setItem('news-view',grid.dataset.view!)}catch{}}));
  document.querySelectorAll<HTMLAnchorElement>('.news-topic-tabs a').forEach(a=>a.addEventListener('click',()=>track('news_filter',{category:a.dataset.category||'全部'})));
  const activeTopic=document.querySelector<HTMLElement>('.news-topic-tabs [aria-current="page"]');const topicRail=activeTopic?.parentElement;if(activeTopic&&topicRail)topicRail.scrollLeft=Math.max(0,activeTopic.offsetLeft-topicRail.offsetLeft-topicRail.clientWidth/2+activeTopic.clientWidth/2);
  document.querySelectorAll<HTMLImageElement>('.news-figure img,.reader-image img').forEach(img=>{const hide=()=>{const figure=img.closest<HTMLElement>('figure');if(figure)figure.hidden=true;flow.refresh();};img.addEventListener('error',hide);if(img.complete&&!img.naturalWidth)hide();});
