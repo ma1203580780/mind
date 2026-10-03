@@ -251,7 +251,7 @@
     "kind": "用户体验研究",
     "maxItems": 12,
     "language": "en",
-    "maxAgeHours": 168
+    "maxAgeHours": 720
   },
   {
     "id": "smashing",
@@ -262,7 +262,7 @@
     "kind": "设计实践",
     "maxItems": 12,
     "language": "en",
-    "maxAgeHours": 168
+    "maxAgeHours": 720
   },
   {
     "id": "colossal",
@@ -348,21 +348,27 @@
   },
   {
     "id": "woshipm-design",
-    "name": "人人都是产品经理 · 设计",
+    "name": "人人都是产品经理 · 产品洞察",
     "url": "https://www.woshipm.com/feed",
-    "domain": "设计",
+    "domain": "产品设计",
     "category": "产品设计",
     "kind": "社区作者文章",
-    "maxItems": 8,
+    "maxItems": 6,
     "language": "zh",
     "keywords": [
+      "产品",
       "设计",
       "体验",
       "交互",
-      "用户研究",
-      "原型"
+      "用户",
+      "原型",
+      "需求",
+      "商业模式",
+      "增长",
+      "定价"
     ],
-    "titleOnly": true
+    "titleOnly": false,
+    "maxAgeHours": 168
   },
   {
     "id": "sspai-workflows",
@@ -385,5 +391,236 @@
       "ChatGPT"
     ],
     "titleOnly": true
+  },
+  {
+    "id": "ezindie",
+    "name": "独立开发变现周刊",
+    "url": "https://www.ezindie.com/feed/rss.xml",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "创业案例",
+    "maxItems": 4,
+    "language": "zh",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "v2ex-isv",
+    "name": "V2EX · 独立开发者",
+    "url": "https://www.v2ex.com/feed/isv.xml",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "社区讨论",
+    "maxItems": 4,
+    "language": "zh",
+    "maxAgeHours": 168
+  },
+  {
+    "id": "solo",
+    "name": "Solo 独立开发者社区",
+    "url": "https://solo.xin/rss.xml",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "社区讨论",
+    "maxItems": 4,
+    "language": "zh",
+    "maxAgeHours": 168,
+    "keywords": [
+      "独立",
+      "创业",
+      "收入",
+      "用户",
+      "出海",
+      "获客",
+      "定价",
+      "变现",
+      "复盘",
+      "商业",
+      "MRR",
+      "SaaS",
+      "开源",
+      "产品",
+      "做了"
+    ],
+    "titleOnly": true
+  },
+  {
+    "id": "w2solo",
+    "name": "w2solo · 独立作品",
+    "url": "https://w2solo.com/topics/feed",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "社区作品",
+    "maxItems": 3,
+    "language": "zh",
+    "maxAgeHours": 168
+  },
+  {
+    "id": "decohack",
+    "name": "Decohack · 新产品发现",
+    "url": "https://www.decohack.com/feed/",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "产品发现",
+    "maxItems": 2,
+    "language": "zh",
+    "maxAgeHours": 72
+  },
+  {
+    "id": "microconf",
+    "name": "MicroConf On Air",
+    "url": "https://feeds.castos.com/8vqr",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "创业者访谈",
+    "maxItems": 4,
+    "language": "en",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "bootstrapped",
+    "name": "The Bootstrapped Founder",
+    "url": "https://thebootstrappedfounder.com/feed/",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "创业者复盘",
+    "maxItems": 4,
+    "language": "en",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "justinjackson",
+    "name": "Justin Jackson · SaaS 经营",
+    "url": "https://justinjackson.ca/feed",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "创始人实践",
+    "maxItems": 4,
+    "language": "en",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "jasoncohen",
+    "name": "A Smart Bear · Jason Cohen",
+    "url": "https://longform.asmartbear.com/index.xml",
+    "domain": "一人公司",
+    "category": "一人公司",
+    "kind": "创始人实践",
+    "maxItems": 4,
+    "language": "en",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "woshipm-pd",
+    "name": "人人都是产品经理 · 产品设计",
+    "url": "https://www.woshipm.com/pd/feed",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "社区作者文章",
+    "maxItems": 6,
+    "language": "zh",
+    "maxAgeHours": 168
+  },
+  {
+    "id": "woshipm-ucd",
+    "name": "人人都是产品经理 · 交互体验",
+    "url": "https://www.woshipm.com/ucd/feed",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "社区作者文章",
+    "maxItems": 6,
+    "language": "zh",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "ftium4",
+    "name": "龙爪槐守望者 · 体验碎周报",
+    "url": "https://www.ftium4.com/rss.xml",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "设计师周报",
+    "maxItems": 4,
+    "language": "zh",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "uxdesign",
+    "name": "UX Collective",
+    "url": "https://uxdesign.cc/feed",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "设计社区文章",
+    "maxItems": 6,
+    "language": "en",
+    "maxAgeHours": 168
+  },
+  {
+    "id": "baymard",
+    "name": "Baymard · 电商体验研究",
+    "url": "https://baymard.com/blog/feed.xml",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "用户体验研究",
+    "maxItems": 4,
+    "language": "en",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "lenny",
+    "name": "Lenny’s Newsletter",
+    "url": "https://www.lennysnewsletter.com/feed",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "产品实践与访谈",
+    "maxItems": 6,
+    "language": "en",
+    "maxAgeHours": 168,
+    "keywords": [
+      "product",
+      "design",
+      "discovery",
+      "customer",
+      "user",
+      "growth",
+      "pricing",
+      "research",
+      "interview",
+      "founder",
+      "retention",
+      "UX"
+    ],
+    "titleOnly": false
+  },
+  {
+    "id": "svpg",
+    "name": "SVPG · 产品管理",
+    "url": "https://www.svpg.com/feed/",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "产品方法",
+    "maxItems": 4,
+    "language": "en",
+    "maxAgeHours": 720
+  },
+  {
+    "id": "uxplanet",
+    "name": "UX Planet",
+    "url": "https://uxplanet.org/feed",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "设计社区文章",
+    "maxItems": 4,
+    "language": "en",
+    "maxAgeHours": 168
+  },
+  {
+    "id": "intercom",
+    "name": "Intercom · 产品实践",
+    "url": "https://www.intercom.com/blog/feed/",
+    "domain": "产品设计",
+    "category": "产品设计",
+    "kind": "厂商实践",
+    "maxItems": 4,
+    "language": "en",
+    "maxAgeHours": 720
   }
 ]

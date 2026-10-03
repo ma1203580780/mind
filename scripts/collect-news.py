@@ -57,7 +57,7 @@ def parse_feed(raw):
         date=timestamp(fields.get('pubDate') or fields.get('published') or fields.get('date') or fields.get('updated') or '')
         url=canonical(fields.get('link') or fields.get('guid') or '')
         if date and url and fields.get('title'):
-            description=fields.get('description') or fields.get('summary') or fields.get('content') or ''
+            description=fields.get('description') or fields.get('summary') or fields.get('content') or fields.get('encoded') or ''
             description=re.sub(r'^arXiv:.*?Abstract:\s*','',description,flags=re.S)
             excerpt_text=clean(description,10000)
             # Strip publisher subscription/footer boilerplate before truncating or
@@ -98,7 +98,7 @@ def select(candidates, seen, now, limit=200, existing=None):
         s=x['source']
         if s.get('keywords') and not any(word.casefold() in (x['title'] if s.get('titleOnly') else x['title']+' '+x['excerpt']).casefold() for word in s['keywords']):continue
         key=re.sub(r'\W+','',x['title'].casefold())
-        horizon=min(168,max(1,s.get('maxAgeHours',72)))
+        horizon=min(720,max(1,s.get('maxAgeHours',72)))
         if x['url'] in urls or key in titles or not dt.timedelta(0)<=now-x['published']<=dt.timedelta(hours=horizon): continue
         if counts.get(s['id'],0)>=s.get('maxItems',25): continue
         if s['kind']=='论文预印本' and research>=30: continue
@@ -136,7 +136,7 @@ def main():
     status={'checkedAt':now.isoformat(),'newItems':len(picked),'issueDate':day,'totalItems':len(existing),'sources':statuses}
     (ROOT/'src/data/news-status.json').write_text(json.dumps(status,ensure_ascii=False,indent=2)+'\n')
     if existing:
-        issue=dict(date=day,checkedAt=now.isoformat(),automated=True,title='新闻与观察 · 原始信息流',intro='直接采集公开 RSS / Atom：AI、独立创业、设计、营销、协作与经济。中文源与英文源分区，英文标题与摘要提供中文机译和原文对照；每期最多 200 条。',briefing=[f'本期 {len(existing)} 条；本次新增 {len(picked)} 条。',f'{sum(s["ok"] for s in statuses)} / {len(statuses)} 个订阅源本次读取成功。','快讯收录近 72 小时；部分低频专题收录近 7 天未收录内容，保留原发布日期。','论文预印本与项目发布并非媒体新闻，已单独标注。'],stories=existing)
+        issue=dict(date=day,checkedAt=now.isoformat(),automated=True,title='新闻与观察 · 原始信息流',intro='直接采集公开 RSS / Atom：AI、独立创业、设计、营销、协作与经济。中文源与英文源分区，英文标题与摘要提供中文机译和原文对照；每期最多 200 条。',briefing=[f'本期 {len(existing)} 条；本次新增 {len(picked)} 条。',f'{sum(s["ok"] for s in statuses)} / {len(statuses)} 个订阅源本次读取成功。','快讯收录近 72 小时；低频深度源按配置收录近 7–30 天未收录内容，保留原发布日期。','论文预印本与项目发布并非媒体新闻，已单独标注。'],stories=existing)
         dest.write_text(json.dumps(issue,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(status,ensure_ascii=False))
     if not any(s['ok'] for s in statuses): sys.exit('All sources failed; previous editions retained')

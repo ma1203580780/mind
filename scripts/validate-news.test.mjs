@@ -14,6 +14,13 @@ test('rejects stale sources and unreviewed timestamps', () => {
   const i = copy();i.stories[0].publishedDate = '2026-09-01';assert.throws(() => validateIssue(i, '2026-10-02.json', now));
   const j = copy();j.checkedAt = '2026-10-02';assert.throws(() => validateIssue(j, '2026-10-02.json', now));
 });
+test('allows monthly research only for a matching configured feed', () => {
+  const i = copy();const story = i.stories[0];
+  Object.assign(story,{automated:true,sourceId:'baymard',feedUrl:'https://baymard.com/blog/feed.xml',category:'产品设计',publishedDate:'2026-09-10'});
+  validateIssue(i,'2026-10-02.json',now);
+  story.feedUrl='https://example.org/fake';assert.throws(()=>validateIssue(i,'2026-10-02.json',now));
+  story.feedUrl='https://baymard.com/blog/feed.xml';story.publishedDate='2026-09-01';assert.throws(()=>validateIssue(i,'2026-10-02.json',now));
+});
 test('blocks unsafe URLs, empty summaries, and duplicate stories', () => {
   for (const patch of [{sourceUrl:'javascript:alert(1)'},{sourceUrl:'https://user:secret@example.com/'},{summary:''}]) {
     const i = copy();Object.assign(i.stories[0], patch);assert.throws(() => validateIssue(i, '2026-10-02.json', now));

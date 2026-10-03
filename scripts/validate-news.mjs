@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 
 import {NEWS_TOPICS} from '../src/lib/news-topics.mjs';
+const configuredSources = JSON.parse(readFileSync(new URL('../src/config/news-sources.json', import.meta.url), 'utf8'));
 export const categories = [...NEWS_TOPICS.filter(c=>c!=='全部'),'AI 动态', '开源工具', '工程实践', '产品观察', '创作设计', 'AI 研究', '宏观经济', '经济研究', '经济数据'];
 const day = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
 const text = (value, max, label) => assert(typeof value === 'string' && value.trim().length > 0 && value.length <= max && !/[<>]/.test(value), `Invalid ${label}`);
@@ -28,7 +29,9 @@ export function validateIssue(issue, filename, now = Date.now()) {
     const canonical = url.href.replace(/\/$/, '');
     assert(!urls.has(canonical), 'Duplicate source'); urls.add(canonical);
     assert(day(s.publishedDate) && s.publishedDate <= issue.date, 'Invalid or future source date');
-    assert(Date.parse(issue.date) - Date.parse(s.publishedDate) <= 7 * 86400000, 'Source older than 7 days');
+    const source = s.automated && configuredSources.find(c => c.id === s.sourceId && c.url === s.feedUrl && c.category === s.category);
+    const ageDays = source ? Math.ceil(Math.min(720, Math.max(1, source.maxAgeHours || 72)) / 24) : 7;
+    assert(Date.parse(issue.date) - Date.parse(s.publishedDate) <= ageDays * 86400000, 'Source exceeds its configured freshness window');
     if(s.sourceLanguage) assert(['zh','en'].includes(s.sourceLanguage),'Invalid source language');
     if(s.titleZh) text(s.titleZh,700,'translated title');
     if(s.summaryZh) text(s.summaryZh,2000,'translated summary');
