@@ -1,1 +1,2 @@
-setup-writing.cmd text eol=crlf
+# Preserve CRLF even when the launcher is downloaded directly from GitHub.
+setup-writing.cmd -text

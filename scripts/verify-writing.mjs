@@ -1,7 +1,6 @@
 // Run in an isolated checkout: temporary articles must never be committed or deployed.
 import assert from 'node:assert/strict';
-import {mkdtemp,writeFile,readFile,rm,readdir,access} from 'node:fs/promises';
-import {tmpdir} from 'node:os';
+import {mkdtemp,mkdir,writeFile,readFile,rm,readdir,access} from 'node:fs/promises';
 import {join} from 'node:path';
 import {pathToFileURL,fileURLToPath} from 'node:url';
 import {randomUUID} from 'node:crypto';
@@ -13,7 +12,9 @@ const id=`writing-check-${randomUUID()}`;
 const marker=`WritingSmoke${id}`;
 const post=new URL(`src/content/posts/${id}.md`,root);
 const image=new URL(`public/uploads/${id}.svg`,root);
-const temporary=await mkdtemp(join(tmpdir(),'mind-writing-'));
+// Astro moves build assets by rename; output must stay on the checkout's drive.
+await mkdir(new URL('.astro/',root),{recursive:true});
+const temporary=await mkdtemp(fileURLToPath(new URL('.astro/writing-check-',root)));
 const outDir=pathToFileURL(join(temporary,'dist')+'/');
 let server;
 const article=draft=>`---
