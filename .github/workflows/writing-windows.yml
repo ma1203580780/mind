@@ -1,0 +1,57 @@
+name: Windows writing check
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'setup-writing.cmd'
+      - 'scripts/*writing*'
+      - 'scripts/remark-uploads*'
+      - 'frontmatter.json'
+      - '.frontmatter/**'
+      - 'astro.config.mjs'
+      - 'src/site.ts'
+      - 'src/pages/posts/**'
+      - 'package*.json'
+      - '.github/workflows/writing-windows.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  writing:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm.cmd ci
+      - name: Check the Windows launcher and command availability
+        shell: cmd
+        run: setup-writing.cmd --check
+      - name: Create a starter and verify repeated setup preserves edits
+        shell: pwsh
+        run: |
+          $testRoot = Join-Path $env:RUNNER_TEMP ('mind-starter-' + [guid]::NewGuid())
+          New-Item -ItemType Directory -Path (Join-Path $testRoot 'scripts') | Out-Null
+          Copy-Item scripts/init-writing.mjs (Join-Path $testRoot 'scripts/init-writing.mjs')
+          try {
+            node (Join-Path $testRoot 'scripts/init-writing.mjs')
+            if ($LASTEXITCODE -ne 0) { throw 'Starter creation failed' }
+            $article = Join-Path $testRoot 'src/content/posts/my-first-post.md'
+            Add-Content $article 'PreserveMyWriting'
+            node (Join-Path $testRoot 'scripts/init-writing.mjs')
+            if ($LASTEXITCODE -ne 0) { throw 'Repeated setup failed' }
+            if (!(Get-Content $article -Raw).Contains('PreserveMyWriting')) { throw 'Existing writing was overwritten' }
+          } finally { Remove-Item $testRoot -Recurse -Force }
+      - run: npm.cmd run test:writing
+      - name: Verify preview, images, drafts, publication, search and feeds
+        run: node scripts/verify-writing.mjs
+      - name: Ensure temporary test articles were removed
+        shell: pwsh
+        run: |
+          $changes = git status --porcelain -- src/content/posts public/uploads
+          if ($changes) { throw "Temporary content was not cleaned: $changes" }

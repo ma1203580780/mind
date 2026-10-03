@@ -4,6 +4,10 @@
 
 ## 首次准备（只做一次）
 
+**推荐用自动入口：**下载仓库根目录的 [setup-writing.cmd](../setup-writing.cmd) 后双击运行。它会检查 Git、Node.js、VS Code，使用 WinGet 安装缺少的工具，克隆到 `%USERPROFILE%\Projects\mind`，安装扩展和依赖，创建入门草稿，检查构建并打开写作窗口。若从已有 Git 仓库内运行，则使用当前仓库；已有文章不会覆盖，有未提交修改时会跳过自动拉取。
+
+系统安装确认、VS Code 工作区信任和首次 GitHub 登录需要你本人完成。如果报错，保留窗口里的错误信息；可以重新运行脚本。脚本不会自动提交或发布，也不会修改 Git 作者身份。没有 WinGet 时，可按下面的手动步骤准备。
+
 1. 安装 [VS Code](https://code.visualstudio.com/)、[Git for Windows](https://git-scm.com/downloads/win) 和 [Node.js 24 LTS](https://nodejs.org/en/download)。Git 安装时保留 Git Credential Manager，用浏览器登录 GitHub，无需把令牌写进项目。
 2. 重启 VS Code。按 `Ctrl+Shift+P`，执行 `Git: Clone`，输入 `https://github.com/ma1203580780/mind.git`，选择本地目录并打开。若已有这个仓库，直接打开它，不必重复克隆。
 3. 用 VS Code 打开仓库中的 `mind-writing.code-workspace`，安装工作区推荐的 **Front Matter CMS**（扩展 ID：`eliostruyf.vscode-front-matter`）和 Astro 扩展。Front Matter 建议使用支持图片粘贴的 10.12.0 或更新版本。
