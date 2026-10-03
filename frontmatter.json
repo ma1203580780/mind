@@ -1,0 +1,134 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "astro",
+  "frontMatter.framework.startCommand": "npm run write",
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "博客",
+      "path": "[[workspace]]/src/content/posts",
+      "contentTypes": [
+        "default"
+      ],
+      "previewPath": "/mind/posts",
+      "trailingSlash": true
+    }
+  ],
+  "frontMatter.content.publicFolder": {
+    "path": "public",
+    "relative": false
+  },
+  "frontMatter.content.defaultFileType": "md",
+  "frontMatter.content.autoUpdateDate": false,
+  "frontMatter.preview.host": "http://127.0.0.1:4321",
+  "frontMatter.preview.pathName": "/mind/posts",
+  "frontMatter.preview.trailingSlash": true,
+  "frontMatter.website.host": "https://ma1203580780.github.io",
+  "frontMatter.taxonomy.slugTemplate": "{{fileName}}",
+  "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd",
+  "frontMatter.taxonomy.tags": [
+    "AI工程",
+    "独立开发",
+    "产品设计",
+    "一人公司",
+    "交互设计",
+    "创作",
+    "长期成长"
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fileType": "md",
+      "template": "[[workspace]]/.frontmatter/templates/article.md",
+      "fields": [
+        {
+          "title": "标题",
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "title": "摘要",
+          "name": "description",
+          "type": "string",
+          "description": "用一两句话说明这篇文章值得读什么。",
+          "required": true,
+          "default": ""
+        },
+        {
+          "title": "发布日期",
+          "name": "date",
+          "type": "datetime",
+          "dateFormat": "yyyy-MM-dd",
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "required": true
+        },
+        {
+          "title": "栏目",
+          "name": "category",
+          "type": "choice",
+          "choices": [
+            "AI 工程",
+            "交互设计",
+            "创作实践",
+            "长期成长"
+          ],
+          "default": "创作实践",
+          "required": true
+        },
+        {
+          "title": "标签",
+          "name": "tags",
+          "type": "tags",
+          "default": []
+        },
+        {
+          "title": "创作方式",
+          "name": "authorship",
+          "type": "choice",
+          "choices": [
+            {
+              "id": "author",
+              "title": "本人原创"
+            },
+            {
+              "id": "assisted",
+              "title": "AI 辅助"
+            }
+          ],
+          "default": "author"
+        },
+        {
+          "title": "草稿",
+          "name": "draft",
+          "type": "draft",
+          "default": true,
+          "description": "开启时只可本地预览；关闭并推送后公开发布。"
+        },
+        {
+          "title": "精选",
+          "name": "featured",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "示例稿",
+          "name": "demo",
+          "type": "boolean",
+          "default": false,
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.media.pasteBehavior": "auto",
+  "frontMatter.media.pasteFolder": "[[workspace]]/public/uploads",
+  "frontMatter.media.pasteFileName": "{filename}-{date}-{time}",
+  "frontMatter.git.enabled": true,
+  "frontMatter.git.requiresCommitMessage": [
+    "main"
+  ]
+}

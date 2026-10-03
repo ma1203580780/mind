@@ -1,0 +1,7 @@
+{
+  "folders": [{"path":"."}],
+  "settings": {
+    "[markdown]": {"editor.wordWrap":"on","editor.lineNumbers":"off","editor.minimap.enabled":false},
+    "files.trimTrailingWhitespace":false
+  }
+}

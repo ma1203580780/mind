@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"写作：启动本地预览","type":"npm","script":"write","problemMatcher":[],"presentation":{"reveal":"always","panel":"dedicated"}},
+    {"label":"写作：发布前检查","type":"npm","script":"build","problemMatcher":[],"group":"build"}
+  ]
+}
