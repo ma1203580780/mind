@@ -456,7 +456,14 @@
     "64f0b2c825e03940fc1135b79ae86335dd98a4031ccecb8c04bf8ea70e0a5a15": "2026年11个最佳社交媒体管理工具——试玩+试玩.",
     "14a689cca0f7210b6f6cd4dd498ae8358928834875d4d1e28ce7f71455fd0f28": "2026年的11个最佳社交媒体管理工具,由社交媒体营销者+创造者尝试并测试——从自由创造者取而代之到企业平台,定价和各自为谁服务.",
     "52cd25a215f07fe2f8e2171dafe3ec873f222cd6b0191f89c0dc36597e593843": "你能安排Substack笔记吗?",
-    "4932ac78f20aa09d74f59cae0b18b4bbaf6fcd36a4481a137d10df7b4155a8c2": "是的,你可以安排Substack Notes。学习两种方法;通过Substack和Buffer."
+    "4932ac78f20aa09d74f59cae0b18b4bbaf6fcd36a4481a137d10df7b4155a8c2": "是的,你可以安排Substack Notes。学习两种方法;通过Substack和Buffer.",
+    "6691fbecfebb8e34003cab6b1ee12865737d39d65fb1b021a71adc84fbeeab2b": "美化植物形态,地心舞蹈,和被打扫的鸟类会汇入流体环.",
+    "e49b1de1c56fc3fa13ece4db2bf0878026591172dd7e9014440b33e23b2697fb": "在慕尼黑,Saraceno的生态与合作项目占据了中心位置, 以一个题为“祖先未来”的全方位演讲。",
+    "0ca7cc4c9a7cb885b53ad8e59eb0adb04ea5b0db8eb9db5b3f95175194a64c23": "学会指导AI代理,批判性地审查他们的输出,并将技术判断保持在你工作流程的中心.",
+    "4c4b71df0fb1d0863db8c98ab5ce6261ed172acfe916db9aecf90f983b04c3c2": "这场比赛欢迎来自112个国家的摄影师今年收录的作品数量之多。",
+    "e53a0f205e1486628fe953d5997f362b6c6a98aaa90d93bb3e54b19a2760c29d": "年度时装-meets-表演比赛是国际视觉盛会.",
+    "f3912d591d61f1b6c209f192973e5245f5082bf6c97d30208570a267969f3711": "由数百名合作者组成 利用艺术、科学和技术的交汇点",
+    "3ad149a7b673d84836914b25fff9a9d6e7dcee13ab63247c915d5b2d417da4ba": "以蒙特利尔为基地的多科艺术家对殖民的历史和政治有着浓厚的兴趣."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -1820,13 +1827,6 @@
       "kind": "原文封面",
       "imageSourceUrl": "https://ahrefs.com/blog/marketers-ai-content-creation/"
     },
-    "https://www.eeo.com.cn/2026/1003/1055809.shtml": {
-      "checkedAt": "2026-10-03T02:43:12.063323+00:00",
-      "description": "",
-      "image": "https://img.eeo.com.cn/pc/images/xd-smg.png",
-      "kind": "原文配图",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055809.shtml"
-    },
     "https://ahrefs.com/blog/ai-visibility-workflow/": {
       "checkedAt": "2026-10-03T02:43:12.063323+00:00",
       "description": "Too much AI visibility data and no clear next step? Here's the workflow I use at Ahrefs to find where your brand is weak in AI answers and decide what to fix.",
@@ -1875,6 +1875,27 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/009/381.htm"
+    },
+    "https://www.eeo.com.cn/2026/1003/1055817.shtml": {
+      "checkedAt": "2026-10-03T02:48:02.758987+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055817.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1003/1055816.shtml": {
+      "checkedAt": "2026-10-03T02:48:02.758987+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055816.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1003/1055809.shtml": {
+      "checkedAt": "2026-10-03T02:48:02.758987+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055809.shtml"
     }
   }
 }

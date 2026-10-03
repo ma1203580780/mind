@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-03T02:43:06.056200+00:00",
-  "newItems": 33,
+  "checkedAt": "2026-10-03T02:47:56.753412+00:00",
+  "newItems": 0,
   "issueDate": "2026-10-03",
   "totalItems": 96,
   "sources": [
@@ -12,7 +12,7 @@
       "language": "en",
       "ok": true,
       "items": 1245,
-      "sha256": "f9b6dcf9669e58b9914fadf612859d6d17479cd254c63f7aa471771cc62fabe8"
+      "sha256": "21224bfb55171266d011c9265467db46ee269e3607528ec6eb3f1c0547cf1df5"
     },
     {
       "id": "huggingface",
@@ -132,7 +132,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "8fad99e3d26d27567d4449eb73200c57102ea3b392235ac8c62366a6a2163459"
+      "sha256": "b0abdcc4bd46b7094cf98c9d9860441b248eaa424c4cd794e79bc4ad19bfc6eb"
     },
     {
       "id": "ollama",
@@ -182,7 +182,7 @@
       "language": "zh",
       "ok": true,
       "items": 60,
-      "sha256": "b8f86ecdc0e6fe99b2d4a86e17483765a0c7d86302c99bbf3114134a780662cb"
+      "sha256": "f7ed2cf941856d01e9b32762ac950de19d6cf2fad33b4f652db1f7cf7d5ff112"
     },
     {
       "id": "eeo",
@@ -222,7 +222,7 @@
       "language": "en",
       "ok": true,
       "items": 40,
-      "sha256": "7e745cddc472324a420dffbfa4e9340fcd5713fe69724df16d5c39d962444483"
+      "sha256": "b1a582c23ad5a3f00c079243775d83668b94b4fb2cf204205765f8dc58c4f4da"
     },
     {
       "id": "colossal",
@@ -282,7 +282,7 @@
       "language": "zh",
       "ok": true,
       "items": 20,
-      "sha256": "07b739f2be980f9610d8e6c3c9d092b1b2b251dcacc7e3e57bb78b156d43d3ca"
+      "sha256": "be54f75c61bdf5864579376ac9608e4a3f2deef91000b8ea1eeea330cccf8706"
     },
     {
       "id": "woshipm-design",
@@ -306,11 +306,11 @@
     }
   ],
   "enrichment": {
-    "checkedAt": "2026-10-03T02:43:12.063323+00:00",
+    "checkedAt": "2026-10-03T02:48:02.758987+00:00",
     "translationModel": "argos-en-zh-1.9-ct2-v1",
     "translated": 194,
     "english": 194,
-    "images": 126,
+    "images": 123,
     "stories": 232,
     "error": null
   }

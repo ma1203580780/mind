@@ -1,11 +1,11 @@
 {
   "date": "2026-10-03",
-  "checkedAt": "2026-10-03T02:43:06.056200+00:00",
+  "checkedAt": "2026-10-03T02:47:56.753412+00:00",
   "automated": true,
   "title": "新闻与观察 · 原始信息流",
   "intro": "直接采集公开 RSS / Atom：AI、独立创业、设计、营销、协作与经济。中文源与英文源分区，英文标题与摘要提供中文机译和原文对照；每期最多 200 条。",
   "briefing": [
-    "本期 96 条；本次新增 33 条。",
+    "本期 96 条；本次新增 0 条。",
     "29 / 30 个订阅源本次读取成功。",
     "快讯收录近 72 小时；部分低频专题收录近 7 天未收录内容，保留原发布日期。",
     "论文预印本与项目发布并非媒体新闻，已单独标注。"
@@ -2009,7 +2009,7 @@
       "category": "审美提升",
       "kind": "艺术与视觉",
       "title": "Gaia Alari’s Lilting Animations are Drawn Frame by Frame",
-      "summary": "Meandering botanical forms, gestural dancing, and sweeping birds converge into fluid loops. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Gaia Alari’s Lilting Animations are Drawn Frame by Frame appeared first on Colossal .",
+      "summary": "Meandering botanical forms, gestural dancing, and sweeping birds converge into fluid loops.",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "Colossal",
@@ -2030,7 +2030,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "Gaia Alari 的 Lliting 动画按框架绘制框架",
-      "summaryZh": "美化植物形态,地心舞蹈,和被打扫的鸟类会汇入流体环.故事和艺术家 喜欢这件事情?今天成为财团成员,支持独立艺术出版,每月仅7美元。Gaia Alari的\"Lilting动画\"由\"Framle\"所绘出,",
+      "summaryZh": "美化植物形态,地心舞蹈,和被打扫的鸟类会汇入流体环.",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2056,10 +2056,6 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "",
-      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/02560DCCC0336D1EFC7A62BB5EEFF8E7.jpg",
-      "imageAlt": "原文配图：商务部新闻发言人就对原产于欧盟的进口对硝基甲苯发起反倾销调查答记者问",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055817.shtml",
-      "imageKind": "订阅源配图",
       "contentLanguage": "zh"
     },
     {
@@ -2160,7 +2156,7 @@
       "category": "审美提升",
       "kind": "艺术与视觉",
       "title": "Tomás Saraceno Returns to the Past to Envision a More Just Future",
-      "summary": "In Munich, Saraceno's ecological and collaborative projects take center stage for a sweeping presentation titled 'Ancestral Futures.' Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Tomás Saraceno Returns to the Past to Envision a More Just Future appeared first on Colossal .",
+      "summary": "In Munich, Saraceno's ecological and collaborative projects take center stage for a sweeping presentation titled 'Ancestral Futures.'",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "Colossal",
@@ -2181,7 +2177,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "托马斯·萨拉塞诺回归过去,展望更公正的未来",
-      "summaryZh": "在慕尼黑,萨拉塞诺的生态和协作项目占据了题为\"祖先未来\"(Anstratoral Futures)的一席之地。 这样的故事和艺术家对于你来说是否重要?今天成为财团成员,支持独立艺术出版,每月仅7美元。Tomás Saraceno回想过去,",
+      "summaryZh": "在慕尼黑,Saraceno的生态与合作项目占据了中心位置, 以一个题为“祖先未来”的全方位演讲。",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2207,10 +2203,6 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "",
-      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/BF3FFD4CC4BD3331A55AD1DCE56D9C81.png",
-      "imageAlt": "原文配图：【环球财经】美国9月新增非农就业岗位大幅减少",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055816.shtml",
-      "imageKind": "订阅源配图",
       "contentLanguage": "zh"
     },
     {
@@ -2219,7 +2211,7 @@
       "category": "AI 协作",
       "kind": "官方技术博客",
       "title": "AI is changing developer work. Here are three skills to strengthen.",
-      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
+      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "GitHub Blog · AI",
@@ -2240,7 +2232,7 @@
       "imageKind": "原文封面",
       "imageSourceUrl": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
       "titleZh": "AI正在改变开发者的工作.这里有三个技能需要加强。",
-      "summaryZh": "学会指导AI代理,批判性地审查他们的输出,并将技术判断保持在你工作流程的中心.后AI正在改变开发者的工作.这里有三个技能需要加强。GitHub Blog上首次出现。",
+      "summaryZh": "学会指导AI代理,批判性地审查他们的输出,并将技术判断保持在你工作流程的中心.",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2315,7 +2307,7 @@
       "category": "审美提升",
       "kind": "艺术与视觉",
       "title": "Wild Hijinx and Hilarious Happenstance Reign in the 2026 Comedy Wildlife Awards",
-      "summary": "The competition welcomed its largest ever number of entries this year from photographers in 112 countries. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Wild Hijinx and Hilarious Happenstance Reign in the 2026 Comedy Wildlife Awards appeared first on Colossal .",
+      "summary": "The competition welcomed its largest ever number of entries this year from photographers in 112 countries.",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "Colossal",
@@ -2336,7 +2328,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "2026年喜剧《野生野生生物奖》中的野生希金克和喜剧剧情",
-      "summaryZh": "这场比赛欢迎来自112个国家的摄影师今年收录的作品数量之多。故事和艺术家 喜欢这件事情?今天成为财团成员,支持独立艺术出版,每月仅7美元。2026年喜剧野生生物奖中的文章\"野生平\"(Wild Hijinx)和\"喜剧事件\"(Hillarious Happenstance Reign)首先出现在Colossal上.",
+      "summaryZh": "这场比赛欢迎来自112个国家的摄影师今年收录的作品数量之多。",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2362,11 +2354,7 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "",
-      "contentLanguage": "zh",
-      "image": "https://img.eeo.com.cn/pc/images/xd-smg.png",
-      "imageAlt": "原文配图：【环球财经】七国集团将释放1亿桶战略石油储备 初期集中释放柴油",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055809.shtml"
+      "contentLanguage": "zh"
     },
     {
       "id": "feed-9577abc3cff9b239f8f3",
@@ -2406,7 +2394,7 @@
       "category": "审美提升",
       "kind": "艺术与视觉",
       "title": "World of WearableArt’s ‘GLO!’ Is a Celebration of Culture, Nature, and Whimsy",
-      "summary": "The annual fashion-meets-performance competition is an international visual feast. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article World of WearableArt’s ‘GLO!’ Is a Celebration of Culture, Nature, and Whimsy appeared first on Colossal .",
+      "summary": "The annual fashion-meets-performance competition is an international visual feast.",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "Colossal",
@@ -2427,7 +2415,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "全球之声(GLO!",
-      "summaryZh": "年度时装-meets-表演比赛是国际视觉盛会.故事和艺术家 喜欢这件事情?今天成为财团成员,支持独立艺术出版,每月仅7美元。这篇文章是「GLO!",
+      "summaryZh": "年度时装-meets-表演比赛是国际视觉盛会.",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2498,7 +2486,7 @@
       "category": "审美提升",
       "kind": "艺术与视觉",
       "title": "In Chicago, teamLab Expands Our Perceptions Through Boundary-Breaking Installations",
-      "summary": "teamLab consists of hundreds of collaborators who tap into the provocative intersection of art, science, and technology. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article In Chicago, teamLab Expands Our Perceptions Through Boundary-Breaking Installations appeared first on Colossal .",
+      "summary": "teamLab consists of hundreds of collaborators who tap into the provocative intersection of art, science, and technology.",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "Colossal",
@@ -2519,7 +2507,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "在芝加哥,Lab团队通过边界断裂装置 扩展我们的认识",
-      "summaryZh": "由数百名合作者组成 利用艺术、科学和技术的交汇点故事和艺术家 喜欢这件事情?今天成为财团成员,支持独立艺术出版,每月仅7美元。这篇文章在芝加哥,",
+      "summaryZh": "由数百名合作者组成 利用艺术、科学和技术的交汇点",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2590,7 +2578,7 @@
       "category": "审美提升",
       "kind": "艺术与视觉",
       "title": "Eddy Firmin Interrogates History and Colonizing Forces in Provocative Sculptures",
-      "summary": "The Montréal-based multi-disciplinary artist is deeply interested in the history and politics of colonization. Do stories and artists like this matter to you? Become a Colossal Member today and support independent arts publishing for as little as $7 per month. The article Eddy Firmin Interrogates History and Colonizing Forces in Provocative Sculptures appeared first on Colossal .",
+      "summary": "The Montréal-based multi-disciplinary artist is deeply interested in the history and politics of colonization.",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "Colossal",
@@ -2611,7 +2599,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "Eddy Firmin 审问挑衅性雕塑中的历史和殖民力量",
-      "summaryZh": "以蒙特利尔为基地的多科艺术家对殖民的历史和政治有着浓厚的兴趣.故事和艺术家 喜欢这件事情?今天成为财团成员,支持独立艺术出版,每月仅7美元。Eddy Firmin 审问历史和煽动性雕塑的殖民力量的文章首先出现在Colossal上。",
+      "summaryZh": "以蒙特利尔为基地的多科艺术家对殖民的历史和政治有着浓厚的兴趣.",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
