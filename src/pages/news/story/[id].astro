@@ -2,15 +2,15 @@
 import Base from '../../../layouts/Base.astro';import SaveButton from '../../../components/SaveButton.astro';
 import {allNews,displayTitle,displaySummary} from '../../../lib/news';import {topics} from '../../../lib/discovery';import {path} from '../../../site';
 export function getStaticPaths(){return allNews.map(story=>({params:{id:story.id},props:{story}}));}
-const {story}=Astro.props;const related=allNews.filter(s=>s.id!==story.id&&s.eventKey===story.eventKey).slice(0,5);
+const {story}=Astro.props;const translated=!!story.summaryZh;const related=allNews.filter(s=>s.id!==story.id&&s.eventKey===story.eventKey).slice(0,5);
 ---
 <Base title={`${displayTitle(story)} · 海波东`} description={displaySummary(story)} noindex>
 <header class="article-header"><a class="back" href={path('news/')}>← 全部资讯</a><div class="meta"><span class="category">{story.category} · {story.kind}</span><time datetime={story.publishedAt||story.publishedDate}>{story.publishedDate}</time><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer">{story.sourceName} ↗</a></div><h1>{displayTitle(story)}</h1><div class="reading-actions"><SaveButton id={`news:${story.id}`}/><a class="collection-note" href={path('reading/')}>我的阅读 ↗</a></div></header>
 <article class="prose about" data-news-reading-id={`news:${story.id}`}>
 {story.image&&<figure class="note-image"><img src={story.image} alt={story.imageAlt||'发布者原文配图'} referrerpolicy="no-referrer"/><figcaption><a href={story.imageSourceUrl||story.sourceUrl} target="_blank" rel="noopener noreferrer">图片出处 · {story.sourceName} ↗</a></figcaption></figure>}
-<p class="notice">{story.automated?'公开订阅源自动收录':'编辑摘读'} · {story.titleZh?'中文机译，原文可核对':'来源摘要'}。完整论证、数据和条件请阅读发布者原文。</p>
-<h2>{story.titleZh?'中文摘要':'来源摘要'}</h2><p>{displaySummary(story)}</p>
-{story.titleZh&&<details class="rule-panel"><summary>展开英文对照</summary><section lang="en"><h3>{story.title}</h3><p>{story.summary}</p></section></details>}
+<p class="notice">{story.automated?'公开订阅源自动收录':'编辑摘读'} · {translated?'中文机译，原文可核对':story.sourceLanguage==='en'?'中文译文暂不完整，保留来源原文':'来源摘要'}。完整论证、数据和条件请阅读发布者原文。</p>
+<h2>{story.summaryZh?'中文摘要':'来源摘要'}</h2><p>{displaySummary(story)}</p>
+{translated&&<details class="rule-panel"><summary>展开英文对照</summary><section lang="en"><h3>{story.title}</h3><p>{story.summary}</p></section></details>}
 <p><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer" data-track="news_source_open" data-story={story.id} data-source={new URL(story.sourceUrl).hostname} data-category={story.category} data-issue={story.issueDate}>阅读发布者原文 ↗</a></p>
 <details class="rule-panel"><summary>来源与采集记录</summary><p>来源：{story.sourceName}；原文发布：{story.publishedDate}；收录日：{story.issueDate}。</p>{story.author&&<p>原文作者：{story.author}</p>}{story.fetchedAt&&<p>采集时间：{new Date(story.fetchedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间）</p>}{story.feedUrl&&<a href={story.feedUrl} target="_blank" rel="noopener noreferrer">原始 RSS / Atom ↗</a>}</details>
 {related.length>0&&<section><h2>同一事件的其他来源</h2>{related.map(s=><p><a href={path(`news/story/${s.id}/`)}>{displayTitle(s)} · {s.sourceName}</a></p>)}</section>}

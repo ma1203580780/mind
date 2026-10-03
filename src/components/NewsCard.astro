@@ -4,7 +4,7 @@ import SaveButton from './SaveButton.astro';
 import {topics} from '../lib/discovery';
 import {path} from '../site';
 const {story,issue,index=9}=Astro.props as {story:NewsStory;issue:string;index?:number};
-const english=sourceLanguage(story)==='en';const translated=!!story.titleZh;const readerId=`reader-${story.id}`;
+const english=sourceLanguage(story)==='en';const translated=!!story.summaryZh;const readerId=`reader-${story.id}`;
 ---
 <article data-reading-id={`news:${story.id}`} class="news-card" id={story.id} data-category={story.category} data-language={sourceLanguage(story)} data-search={`${displayTitle(story)} ${displaySummary(story)} ${story.title} ${story.summary} ${story.sourceName} ${story.category}`.toLowerCase()}>
   {story.image&&<figure class="news-figure"><button class="news-cover reader-trigger" type="button" data-reader={readerId} aria-haspopup="dialog" aria-controls={readerId} aria-label={`阅读：${displayTitle(story)}`}><img src={story.image} alt={story.imageAlt||'原文配图'} loading={index<4?'eager':'lazy'} decoding="async" referrerpolicy="no-referrer"/></button><figcaption>{story.imageKind||'原文配图'} · {story.sourceName}</figcaption></figure>}

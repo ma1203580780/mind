@@ -1,4 +1,5 @@
 import {newsPublishedTime, canonicalNewsUrl} from './news-feed.mjs';
+import {usableTranslation,isReleaseNote} from './news-quality.mjs';
 
 export const topics = [
   {slug:'ai-engineering',name:'AI 工程实践',intro:'从工具和论文出发，追踪智能体、评测与真实工程问题。',categories:['AI 资讯','AI 协作'],tags:['AI工程'],question:'如何把 AI 能力接进可用的产品？'},
@@ -23,7 +24,7 @@ export function groupStories(entries) {
  * Anchor on latest captured edition so builds remain deterministic. */
 export function readingCandidates(entries, anchorDate, limit=5) {
   const end=Date.parse(`${anchorDate}T23:59:59+08:00`), start=end-7*86400000;
-  const eligible=entries.filter(e=>newsPublishedTime(e)>=start&&newsPublishedTime(e)<=end&&(e.summaryZh||e.summary||'').length>=80&&((e.sourceLanguage||'en')==='zh'||e.titleZh));
+  const eligible=entries.filter(e=>newsPublishedTime(e)>=start&&newsPublishedTime(e)<=end&&!isReleaseNote(e)&&(e.summaryZh||e.summary||'').length>=80&&((e.sourceLanguage||'en')==='zh'||(usableTranslation(e.titleZh,e.title)&&usableTranslation(e.summaryZh,e.summary))));
   const sorted=groupStories(eligible).map(g=>g[0]).sort((a,b)=>newsPublishedTime(b)-newsPublishedTime(a)||a.id.localeCompare(b.id));
   const chosen=[],sources=new Set(),categories=new Set();
   for(const varied of [true,false]) for(const e of sorted){

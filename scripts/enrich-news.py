@@ -9,6 +9,13 @@ UA='MindNews/1.0 (+https://ma1203580780.github.io/mind/)'
 def clean(s,limit=600):
     return re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',html.unescape(s or ''))).replace('<','').replace('>','').strip()[:limit]
 def language(text): return 'zh' if len(re.findall(r'[\u3400-\u9fff]',text or ''))>=3 else 'en'
+def usable_translation(value,original=''):
+    """Screen decoding failures; this does not verify semantic accuracy."""
+    if not isinstance(value,str) or not re.search(r'[\u3400-\u9fff]',value):return False
+    compact=re.sub(r'[\W_]+','',value)
+    if re.search(r'([\u3400-\u9fff]{1,20})\1{5,}',compact):return False
+    if original and len(value)>max(160,len(original)*3):return False
+    return True
 # Verified publisher-wide column banners, not article-specific illustrations.
 GENERIC_IMAGE_FILES={'02560DCCC0336D1EFC7A62BB5EEFF8E7.jpg','BF3FFD4CC4BD3331A55AD1DCE56D9C81.png'}
 def image_url(raw,base):
@@ -77,7 +84,8 @@ def translate_texts(texts,cache):
     output={};pending=[]
     for text in dict.fromkeys(texts):
         key=hashlib.sha256((MODEL_VERSION+'\n'+text).encode()).hexdigest()
-        if key in cache['translations']:output[text]=cache['translations'][key];continue
+        if usable_translation(cache['translations'].get(key),text):output[text]=cache['translations'][key];continue
+        cache['translations'].pop(key,None)
         # Sentence-sized batches keep generation bounded without silently truncating inputs.
         chunks=[]
         for sentence in re.split(r'(?<=[.!?])\s+',text):
@@ -90,7 +98,7 @@ def translate_texts(texts,cache):
         decoded=[clean(sp.decode(r.hypotheses[0]).replace('▁',''),1600) for r in results];at=0
         for original,key,parts in batch:
             translated=''.join(decoded[at:at+len(parts)]);at+=len(parts)
-            if not re.search(r'[\u3400-\u9fff]',translated):continue
+            if not usable_translation(translated,original):continue
             cache['translations'][key]=translated;output[original]=translated
     return output
 
@@ -171,7 +179,9 @@ def main():
             elif language(s['summary'])=='zh':s['summaryZh']=s['summary']
             if s.get('titleZh'):s['titleZh']=terminology(s['titleZh'],s['title'])
             if s.get('summaryZh'):s['summaryZh']=terminology(s['summaryZh'],s['summary'])
-            s['translationStatus']='ready' if s.get('titleZh') and s.get('summaryZh') else 'unavailable'
+            for field in ('title','summary'):
+                if s.get(field+'Zh') and not usable_translation(s[field+'Zh'],s[field]):s.pop(field+'Zh',None)
+            s['translationStatus']='ready' if s.get('titleZh') and s.get('summaryZh') else 'partial' if s.get('titleZh') or s.get('summaryZh') else 'unavailable'
             if s['translationStatus']=='ready':s['translationProvider']='Argos 英中离线模型';s['translationModel']=MODEL_VERSION
     for p,i in issues:p.write_text(json.dumps(i,ensure_ascii=False,indent=2)+'\n')
     cachepath.write_text(json.dumps(cache,ensure_ascii=False,indent=2)+'\n')
