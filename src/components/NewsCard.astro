@@ -22,7 +22,7 @@ const english=sourceLanguage(story)==='en';const translated=!!story.summaryZh;co
   <div class="reader-top"><div><span>{story.category} · {story.kind}</span><p>{english?'英文来源':'中文来源'} / <strong class="source-badge">{story.sourceName}</strong></p></div><button type="button" class="reader-close" aria-label="关闭阅读" data-close-reader>×</button></div>
   <div class="reader-scroll"><div class="reading-actions"><SaveButton id={`news:${story.id}`}/>{topics.filter(t=>t.categories.includes(story.category)).map(t=><a class="collection-note" href={path(`topics/${t.slug}/`)}>{t.name} ↗</a>)}</div>
     <h2 id={`reader-title-${story.id}`}>{displayTitle(story)}</h2>
-    <div class="reader-meta"><time class="date-badge" datetime={story.publishedAt||story.publishedDate}>发布 {story.publishedDate}</time>{story.author&&<span>作者 {story.author}</span>}{translated&&<span class="translation-badge">免费离线机译</span>}</div>
+    <div class="reader-meta"><time class="date-badge" datetime={story.publishedAt||story.publishedDate}>发布 {story.publishedDate}</time>{story.author&&<span>作者 {story.author}</span>}{translated&&<span class="translation-badge">{story.translationProvider?.startsWith('AI 辅助校译')?'AI 辅助校译':'免费离线机译'}</span>}</div>
     {story.image&&<figure class="reader-image"><img src={story.image} alt={story.imageAlt||'原文配图'} loading="lazy" referrerpolicy="no-referrer"/><figcaption>{story.imageKind||'原文配图'} · <a href={story.imageSourceUrl||story.sourceUrl} target="_blank" rel="noopener noreferrer">查看图片出处 ↗</a></figcaption></figure>}
     <div class:list={['reader-columns',{'is-bilingual':translated}]}>
       <section class="reader-chinese"><h3>{translated?'中文译文':'内容摘读'}</h3><p>{displaySummary(story)}</p></section>

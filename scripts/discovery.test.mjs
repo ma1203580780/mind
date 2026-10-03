@@ -18,4 +18,9 @@ test('release notes stay out of the shortlist',()=>{
  assert.equal(isReleaseNote(release),true);assert.equal(readingCandidates([release],'2026-10-03').length,0);
  assert.equal(isReleaseNote(story('major',{kind:'版本发布',title:'v2.0 stable: a new architecture'})),true);
 });
+test('translation revisions expire when the source excerpt changes',()=>{
+ const s=story('revision',{sourceLanguage:'en'}),edits=[{id:s.id,originalTitle:s.title,originalSummary:s.summary,titleZh:'修订标题',summaryZh:'修订摘要'}];
+ assert.equal(cleanStoryTranslation(s,edits).summaryZh,'修订摘要');
+ assert.equal(cleanStoryTranslation({...s,summary:'Updated source excerpt'},edits).summaryZh,undefined);
+});
 test('explicit shared event keys group coverage; candidates cap at five',()=>{assert.equal(groupStories([story('a',{eventKey:'same-event'}),story('b',{eventKey:'same-event'})]).length,1);assert.equal(readingCandidates(Array.from({length:12},(_,i)=>story('story'+i)),'2026-10-03').length,5);});

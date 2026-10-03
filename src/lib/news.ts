@@ -1,5 +1,6 @@
 import {collectNewsHistory} from './news-feed.mjs';
 import {cleanStoryTranslation} from './news-quality.mjs';
+import translationEdits from '../config/translation-edits.json';
 export {collectNewsHistory,filterNews,paginateNews,newsPublishedTime} from './news-feed.mjs';
 export interface NewsStory {
   id: string; eventKey: string; category: string; kind: string;
@@ -16,7 +17,7 @@ export interface NewsIssue {
   briefing: string[]; stories: NewsStory[];
 }
 const files = import.meta.glob('../data/news/*.json', { eager: true, import: 'default' });
-export const issues = (Object.values(files) as NewsIssue[]).map(issue=>({...issue,stories:issue.stories.map(cleanStoryTranslation)})).sort((a,b)=>b.date.localeCompare(a.date)) as NewsIssue[];
+export const issues = (Object.values(files) as NewsIssue[]).map(issue=>({...issue,stories:issue.stories.map(story=>cleanStoryTranslation(story,translationEdits))})).sort((a,b)=>b.date.localeCompare(a.date)) as NewsIssue[];
 export const allNews = collectNewsHistory(issues) as NewsEntry[];
 export const newsDate = (date: string) => date.replaceAll('-', '.');
 export const sourceHost = (url: string) => new URL(url).hostname.replace(/^www\./, '');

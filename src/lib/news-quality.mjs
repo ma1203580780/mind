@@ -8,8 +8,10 @@ export function usableTranslation(value, original='') {
   return true;
 }
 
-export function cleanStoryTranslation(story) {
+export function cleanStoryTranslation(story, edits=[]) {
   const result={...story};
+  const edit=edits.find(e=>e.id===story.id&&e.originalTitle===story.title&&e.originalSummary===story.summary);
+  if(edit)Object.assign(result,{titleZh:edit.titleZh,summaryZh:edit.summaryZh,translationProvider:'AI 辅助校译 · 未经作者人工复核',translationModel:'editorial-ai-revision-2026-10-03'});
   for(const key of ['title','summary'])if(result[`${key}Zh`]&&!usableTranslation(result[`${key}Zh`],result[key]))delete result[`${key}Zh`];
   if(result.sourceLanguage==='en')result.translationStatus=result.titleZh&&result.summaryZh?'ready':result.titleZh||result.summaryZh?'partial':'unavailable';
   return result;

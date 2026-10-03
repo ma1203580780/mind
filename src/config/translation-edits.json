@@ -1,0 +1,23 @@
+[
+  {
+    "id": "feed-e1e6e4d692aaa64a129c",
+    "originalTitle": "Episode 852 | Getting Big Name Customer Case Studies and More Listener Questions (with Ruben Gamez)",
+    "originalSummary": "Should you be worried that another founder will steal your idea if you ask them for advice? In this episode, Rob is joined by Ruben Gamez to answer four listener questions: whether reaching out to more advanced founders puts your idea at risk, how to convince big name customers to agree to a case study, what to do when a platform ecosystem (like Shopify's app store) turns hostile, and how to sell a B2G SaaS product when your sales cycle only runs during the hours you're already at a day job. Want to get your question answered? Submit your question for an upcoming episode. Topics we cover: (1:5",
+    "titleZh": "第 852 期：如何获得知名客户的案例授权，以及其他创业问题",
+    "summaryZh": "向其他创始人请教，会不会导致自己的想法被拿走？本期 Rob 与 Ruben Gamez 回答四个听众问题：向更有经验的创始人求助是否有风险；如何说服知名客户参与案例研究；当平台生态（例如 Shopify 应用商店）对开发者变得不友好时如何应对；以及在保留日间工作的同时，如何销售需要在相同工作时段接洽客户的 B2G（面向政府）SaaS 产品。"
+  },
+  {
+    "id": "feed-0abddbec6008e2e7a6ac",
+    "originalTitle": "SEO for Static Sites: 8 Problems to Watch For",
+    "originalSummary": "But easier to build doesn’t necessarily mean easier to optimize. WordPress and other CMSs quietly handle many SEO basics through plugins and built-in functionality, from canonicals and sitemaps to redirects, metadata, schema, and 404 handling. With a static site, much … Read more ›",
+    "titleZh": "静态网站的 SEO：需要留意的 8 个问题",
+    "summaryZh": "更容易搭建，并不一定意味着更容易优化。WordPress 等内容管理系统通过插件和内置功能，处理了许多 SEO 基础事项，包括规范网址（canonical）、站点地图、重定向、元数据、结构化数据标记和 404 页面。原订阅摘要在此处截断，完整说明请阅读来源文章。"
+  },
+  {
+    "id": "feed-0060b9afd2690df9900e",
+    "originalTitle": "Identifying Panel Conditioning with Refreshment Samples: Sharp Bounds and Design Assumptions",
+    "originalSummary": "Refreshment samples are the standard remedy for panel attrition, and the identification results behind them maintain that participation does not change measurement. We characterize what a refreshment sample identifies about panel conditioning, modelled as a deterministic monotone map at reinterview, when attrition is unrestricted. A candidate map is consistent with the data if and only if the retention-scaled distribution of the stayers' implied latent outcomes is setwise dominated by the refreshment distribution; every such map is rationalized by an explicit attrition process. Without attriti",
+    "titleZh": "用补充样本识别重复调查效应：紧界限与设计假设",
+    "summaryZh": "补充样本通常用于应对面板调查中的样本流失，但相关识别结果通常假设：参与调查本身不会改变测量结果。本文研究在不限制样本流失机制的情况下，补充样本能够识别哪些重复调查效应，并将这一效应建模为再次访问时的确定性单调映射。候选映射与数据一致的充要条件是：留存者隐含潜在结果的分布，经留存率缩放后，在各可测集合上都不超过补充样本的分布；每个满足条件的映射都可由一个明确的样本流失过程实现。原订阅摘要后续内容已截断。"
+  }
+]
