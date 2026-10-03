@@ -1,9 +1,13 @@
+import {onPageLoad} from './page-lifecycle';
 import {readState,changeState} from './reading-store';
 import {track} from './analytics';
 function announce(message:string){let box=document.getElementById('reading-feedback');if(!box){box=document.createElement('p');box.id='reading-feedback';box.className='reading-feedback';box.setAttribute('role','status');document.body.append(box);}box.textContent=message;box.style.animation='none';void box.offsetWidth;box.style.animation='';}
 function refresh(){const state=readState();document.querySelectorAll<HTMLButtonElement>('[data-save]').forEach(button=>{const saved=!!state.saved[button.dataset.save!];button.hidden=false;button.textContent=saved?'已收藏':'收藏';button.setAttribute('aria-pressed',String(saved));});document.querySelectorAll<HTMLElement>('[data-reading-id]').forEach(card=>{const read=!!state.read[card.dataset.readingId!];card.classList.toggle('was-read',read);const badge=card.querySelector<HTMLElement>('[data-read-badge]');if(badge)badge.hidden=!read;});}
 document.addEventListener('click',e=>{const button=(e.target as Element).closest<HTMLButtonElement>('[data-save]');if(!button)return;const id=button.dataset.save!,next=!readState().saved[id];if(changeState('saved',id,next)){announce(next?'已收藏到「我的阅读」':'已取消收藏');track('reading_save',{kind:id.split(':')[0],saved:Number(next)});}else announce('浏览器无法保存收藏，请检查本地存储设置。');});
-document.addEventListener('reading:change',refresh);window.addEventListener('storage',refresh);window.addEventListener('pageshow',refresh);refresh();
+document.addEventListener('reading:change',refresh);window.addEventListener('storage',refresh);window.addEventListener('pageshow',refresh);document.addEventListener('astro:page-load',refresh);
+onPageLoad((signal,onCleanup)=>{
 // A visited article is marked "read" after an explicit reading interaction.
 const article=document.querySelector<HTMLElement>('[data-article-reading-id]');
-if(article){let timer:ReturnType<typeof setTimeout>|undefined;const mark=()=>{if(document.hidden||document.querySelector<HTMLElement>('#panel-read')?.hidden)return;changeState('read',article.dataset.articleReadingId!,true);};const begin=()=>{if(!timer)timer=setTimeout(mark,8000);};document.addEventListener('pointerdown',begin,{once:true});document.addEventListener('scroll',begin,{once:true,passive:true});document.addEventListener('keydown',begin,{once:true});}
+if(article){let timer:ReturnType<typeof setTimeout>|undefined;const mark=()=>{if(document.hidden||document.querySelector<HTMLElement>('#panel-read')?.hidden)return;changeState('read',article.dataset.articleReadingId!,true);};onCleanup(()=>clearTimeout(timer));const begin=()=>{if(!timer)timer=setTimeout(mark,8000);};document.addEventListener('pointerdown',begin,{once:true,signal});document.addEventListener('scroll',begin,{once:true,passive:true,signal});document.addEventListener('keydown',begin,{once:true,signal});}
+
+});

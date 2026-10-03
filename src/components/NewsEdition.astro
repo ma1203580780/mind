@@ -29,13 +29,10 @@ const reviewed=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'
 const first=total?(page-1)*NEWS_PAGE_SIZE+1:0,last=Math.min(page*NEWS_PAGE_SIZE,total);
 const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'}${language==='zh'?' · 中文':language==='en'?' · 英文对照':''}${category!=='全部'?' · '+category:''}${page>1?' · 第 '+page+' 页':''} · 海波东`;
 ---
-<Base title={title} description="累计阅读 AI、设计、独立创业、营销与经济资讯，按发布时间倒序排列，每页 30 条。英文来源提供中文机译和中英对照。" noindex={language!=='all'||category!=='全部'} wide>
+<Base title={title} description="累计阅读 AI、设计、独立创业、营销与经济资讯，按发布时间倒序排列，每页 30 条。英文来源提供中文机译和中英对照。" noindex={language!=='all'||category!=='全部'} wide newsScope={scope} newsLanguage={language} newsCategory={category}>
 <div class="news-workspace" data-issue-date={scope} data-checked-at={checkedAt} data-archive={String(!cumulative)}>
   <aside class="daily-sidebar">
-    <a class="daily-wordmark" href={path('news/')}>翻阅日刊<span>每一天，都有新的发现。</span></a>
-    <p class="sidebar-intro">日期按收录日归档<br/>内容按原文发布时间倒序</p>
-    
-    <details class="date-picker" open><summary>{cumulative?'全部日期':newsDate(issue.date)} <span aria-hidden="true">⌄</span></summary><nav class="news-dates" aria-label="新闻日期">
+    <details class="date-picker" open><summary>收录日期 <span aria-hidden="true">⌄</span></summary><nav class="news-dates" aria-label="新闻日期">
       <a href={newsListPath('history',language,category)} aria-current={cumulative?'page':undefined} class:list={{chosen:cumulative}}><span>全部日期</span><span>{dateCount('history')}</span></a>
       {issues.slice(0,14).map(i=><a href={newsListPath(i.date,language,category)} aria-current={!cumulative&&i.date===issue.date?'page':undefined} class:list={{chosen:!cumulative&&i.date===issue.date}}><time datetime={i.date}>{Number(i.date.slice(5,7))}月{Number(i.date.slice(8))}日</time><span>{dateCount(i.date)}</span></a>)}
       <a href={path('news/archive/')}>更多日期 ↗</a>
@@ -43,10 +40,8 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
     <div class="sidebar-bottom"><p>最近采集 {reviewed}<br/>北京时间 · 原文可查</p><div class="sidebar-actions"><a href={path('news/rss.xml')}>订阅 RSS ↗</a><a href={path('news/sources/')}>信息源 ↗</a></div><a class="editorial-link" href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">编辑规则 ↗</a></div>
   </aside>
   <section class="daily-board" aria-labelledby="news-title">
-    <div class="daily-board-top"><div><p class="edition-eyebrow">{cumulative?'持续记录':'按日回看'} <time class="date-badge" datetime={issue.date}>{cumulative?'累计 '+issues.length+' 天':newsDate(issue.date)}</time></p><h1 id="news-title">新闻与观察<span>从消息，走向理解。</span></h1><p>{allNews.length} 条历史资讯 · {configured.length} 个订阅源 · <a href={path('news/sources/')}>采集状态 ↗</a></p></div>
-      <div class="news-toolbar" data-news-controls hidden><form class="news-search" action={path('search/')} role="search"><input type="hidden" name="kind" value="news"/><input type="hidden" name="language" value={language}/><input type="hidden" name="category" value={category}/><input type="hidden" name="scope" value={scope}/><label class="sr-only" for="news-query">搜索全部历史新闻</label><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="news-query" name="q" type="search" placeholder="搜全部历史 · 回车" aria-label="搜索全部历史新闻" autocomplete="off"/><button type="submit" aria-label="提交新闻搜索" class="search-go">↵</button></form><div class="news-view" role="group" aria-label="新闻展示方式"><button type="button" data-view="cards" aria-pressed="true">图文</button><button type="button" data-view="list" aria-pressed="false">紧凑</button></div></div>
+    <h1 id="news-title" class="sr-only">资讯</h1><div class="daily-board-top"><div class="news-toolbar" data-news-controls hidden><form class="news-search" action={path('search/')} role="search"><input type="hidden" name="kind" value="news"/><input type="hidden" name="language" value={language}/><input type="hidden" name="category" value={category}/><input type="hidden" name="scope" value={scope}/><label class="sr-only" for="news-query">搜索全部历史新闻</label><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="news-query" name="q" type="search" placeholder="搜全部历史 · 回车" aria-label="搜索全部历史新闻" autocomplete="off"/><button type="submit" aria-label="提交新闻搜索" class="search-go">↵</button></form><div class="news-view" role="group" aria-label="新闻展示方式"><button type="button" data-view="cards" aria-pressed="true">图文</button><button type="button" data-view="list" aria-pressed="false">紧凑</button></div></div>
     </div>
-    <nav class="news-topic-tabs" aria-label="新闻分类">{categories.map((c,i)=><a href={newsListPath(scope,language,c,1)} data-category={c} aria-current={category===c?'page':undefined}><span>{c}</span><small>{categoryCounts[i]}</small></a>)}</nav>
     <div class="news-browse-meta"><div class="news-filter-panel">
       <nav class="news-language-tabs" aria-label="按来源语言筛选">{['all','zh','en'].map((lang,i)=><a href={newsListPath(scope,lang,category,1)} aria-current={language===lang?'page':undefined} aria-label={`${i===0?'全部资讯':i===1?'中文资讯':'英文对照'}，${langCounts[i]}条`}>{i===0?'全部语言':i===1?'中文':'英文对照'}<small>{langCounts[i]}</small></a>)}</nav>
       <a class="topic-subscriptions" href={path('news/sources/')}>{subscriptions.length} 个订阅源 <span aria-hidden="true">↗</span></a>
@@ -67,11 +62,18 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
 import {track} from '../scripts/analytics';
 import {changeState} from '../scripts/reading-store';
 import {initNewsFlow} from '../scripts/news-flow';
+import {onPageLoad} from '../scripts/page-lifecycle';
+onPageLoad((signal,onCleanup)=>{
+if(!document.querySelector('.news-workspace'))return;
+
+
+
+
 const workspace=document.querySelector<HTMLElement>('.news-workspace'),grid=document.querySelector<HTMLElement>('#news-grid');
 if(workspace&&grid){
  document.querySelectorAll<HTMLElement>('[data-news-controls]').forEach(el=>el.hidden=false);
- const picker=document.querySelector<HTMLDetailsElement>('.date-picker');if(picker&&matchMedia('(max-width:850px)').matches)picker.open=false;
- const flow=initNewsFlow(grid);
+
+ const flow=initNewsFlow(grid);onCleanup(()=>flow.destroy());
  const views=[...document.querySelectorAll<HTMLButtonElement>('button[data-view]')];const setView=(view:string)=>{grid.dataset.view=view==='list'?'list':'cards';views.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===grid.dataset.view)));flow.refresh();};
  try{setView(localStorage.getItem('news-view')||'cards')}catch{}views.forEach(b=>b.addEventListener('click',()=>{setView(b.dataset.view!);track('news_view',{view:grid.dataset.view!});try{localStorage.setItem('news-view',grid.dataset.view!)}catch{}}));
  document.querySelectorAll<HTMLAnchorElement>('.news-topic-tabs a').forEach(a=>a.addEventListener('click',()=>track('news_filter',{category:a.dataset.category||'全部'})));
@@ -80,7 +82,9 @@ if(workspace&&grid){
  let opener:HTMLButtonElement|null=null;
  document.querySelectorAll<HTMLButtonElement>('[data-reader]').forEach(button=>button.addEventListener('click',()=>{const dialog=document.getElementById(button.dataset.reader!) as HTMLDialogElement|null;if(!dialog)return;opener=button;dialog.showModal();changeState('read','news:'+dialog.id.replace('reader-',''),true);document.documentElement.classList.add('reader-is-open');track('news_expand',{story:dialog.id.replace('reader-','')});}));
  document.querySelectorAll<HTMLDialogElement>('.news-reader').forEach(dialog=>{const close=()=>dialog.close();dialog.querySelector('[data-close-reader]')?.addEventListener('click',close);dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)close();}});dialog.addEventListener('close',()=>{document.documentElement.classList.remove('reader-is-open');opener?.focus({preventScroll:true});});});
- const openHash=()=>{const id=location.hash.slice(1);if(!id.startsWith('reader-'))return;const dialog=document.getElementById(id);if(dialog instanceof HTMLDialogElement&&!dialog.open){opener=[...document.querySelectorAll<HTMLButtonElement>('[data-reader]')].find(b=>b.dataset.reader===id)||null;opener?.click();}};openHash();window.addEventListener('hashchange',openHash);
+ const openHash=()=>{const id=location.hash.slice(1);if(!id.startsWith('reader-'))return;const dialog=document.getElementById(id);if(dialog instanceof HTMLDialogElement&&!dialog.open){opener=[...document.querySelectorAll<HTMLButtonElement>('[data-reader]')].find(b=>b.dataset.reader===id)||null;opener?.click();}};openHash();window.addEventListener('hashchange',openHash,{signal});
  if(workspace.dataset.archive!=='true'&&Date.now()-Date.parse(workspace.dataset.checkedAt!)>36*60*60*1000)document.querySelector<HTMLElement>('#news-stale')!.hidden=false;
 }
+
+});
 </script>

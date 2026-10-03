@@ -2,4 +2,4 @@
 import Base from '../../layouts/Base.astro';import PostCard from '../../components/PostCard.astro';import {getPosts} from '../../site';
 export async function getStaticPaths(){const posts=await getPosts();return [...new Set(posts.flatMap(p=>p.data.tags))].map(tag=>({params:{tag},props:{tag,posts:posts.filter(p=>p.data.tags.includes(tag))}}))};const {tag,posts}=Astro.props;
 ---
-<Base title={`${tag} · 海波东`}><section class="page-heading"><span class="eyebrow">主题索引</span><h1>{tag}</h1><p>{posts.length} 篇相关记录</p></section><section class="archive note-feed">{posts.map((p,i)=><PostCard post={p} index={i}/>)}</section></Base>
+<Base title={`${tag} · 海波东`}><h1 class="sr-only">{tag}</h1><div class="content-toolbar"><span>{posts.length} 篇文章</span></div><section class="archive note-feed">{posts.map((p,i)=><PostCard post={p} index={i}/>)}</section></Base>

@@ -1,4 +1,4 @@
 ---
 import Base from '../layouts/Base.astro';import PostCard from '../components/PostCard.astro';import {getPosts} from '../site';const posts=await getPosts();const years=[...new Set(posts.map(p=>p.data.date.getFullYear()))];
 ---
-<Base title="文章归档 · 海波东"><section class="page-heading"><span class="eyebrow">文章归档</span><h1>留下来的思考。</h1><p>按时间回看，也沿着主题继续探索。</p></section><section class="archive">{years.map(year=><div><h2 class="year">{year}</h2><div class="note-feed">{posts.filter(p=>p.data.date.getFullYear()===year).map((p,i)=><PostCard post={p} index={i}/>)}</div></div>)}</section></Base>
+<Base title="文章归档 · 海波东"><h1 class="sr-only">全部文章</h1><section class="archive">{years.map(year=><div><h2 class="year">{year}</h2><div class="note-feed">{posts.filter(p=>p.data.date.getFullYear()===year).map((p,i)=><PostCard post={p} index={i}/>)}</div></div>)}</section></Base>

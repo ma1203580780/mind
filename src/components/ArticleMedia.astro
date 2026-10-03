@@ -15,6 +15,11 @@ const bili=video?.bvid?`https://player.bilibili.com/player.html?bvid=${encodeURI
 </div>
 <script>
 import {track} from '../scripts/analytics';
+import {onPageLoad} from '../scripts/page-lifecycle';
+onPageLoad((signal,onCleanup)=>{
+if(!document.querySelector('.article-media'))return;
+
+
 const tabs=[...document.querySelectorAll<HTMLButtonElement>('.media-tabs [role=tab]')];
 const audio=document.querySelector<HTMLAudioElement>('#article-audio');const video=document.querySelector<HTMLVideoElement>('#article-video');
 const synth='speechSynthesis' in window?window.speechSynthesis:null;
@@ -38,10 +43,12 @@ stopButton?.addEventListener('click',()=>{stopSpeech(true);if(status)status.text
 const setMode=(mode:string,updateUrl=true)=>{const selected=tabs.find(t=>t.dataset.mode===mode)||tabs[0];mode=selected.dataset.mode!;audio?.pause();video?.pause();stopSpeech();
  const iframe=document.querySelector<HTMLIFrameElement>('#bili-container iframe');if(iframe&&mode!=='video'){iframe.remove();document.querySelector<HTMLElement>('#bili-placeholder')!.hidden=false}
  tabs.forEach(t=>{const active=t===selected;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;const panel=document.getElementById(t.getAttribute('aria-controls')!);if(panel)panel.hidden=!active});
- if(updateUrl){const url=new URL(location.href);if(mode==='read')url.searchParams.delete('mode');else url.searchParams.set('mode',mode);history.replaceState(null,'',url);track('article_mode',{mode})}};
+ if(updateUrl){const url=new URL(location.href);if(mode==='read')url.searchParams.delete('mode');else url.searchParams.set('mode',mode);history.replaceState(history.state,'',url);track('article_mode',{mode})}};
 tabs.forEach((t,i)=>{t.addEventListener('click',()=>setMode(t.dataset.mode!));t.addEventListener('keydown',e=>{let next=i;if(e.key==='ArrowRight')next=(i+1)%tabs.length;else if(e.key==='ArrowLeft')next=(i+tabs.length-1)%tabs.length;else if(e.key==='Home')next=0;else if(e.key==='End')next=tabs.length-1;else return;e.preventDefault();tabs[next].focus();setMode(tabs[next].dataset.mode!)});});
 setMode(new URLSearchParams(location.search).get('mode')||'read',false);
 document.querySelector<HTMLButtonElement>('#bili-load')?.addEventListener('click',event=>{const b=event.currentTarget as HTMLButtonElement;const frame=document.createElement('iframe');frame.src=b.dataset.playerUrl!;frame.title='B站视频播放器';frame.allowFullscreen=true;frame.allow='fullscreen; picture-in-picture';frame.referrerPolicy='strict-origin-when-cross-origin';document.querySelector('#bili-container')!.append(frame);document.querySelector<HTMLElement>('#bili-placeholder')!.hidden=true;track('video_load',{provider:'bilibili'})});
 for(const [el,type] of [[audio,'audio'],[video,'video']] as const){if(el){let started=false;el.addEventListener('play',()=>{if(!started){started=true;track(type+'_play',{type:'file'});}if(type==='audio')document.querySelector('.audio-panel')?.classList.add('is-playing')});el.addEventListener('pause',()=>{if(type==='audio')document.querySelector('.audio-panel')?.classList.remove('is-playing')});el.addEventListener('ended',()=>track(type+'_complete',{type:'file'}));el.addEventListener('error',()=>{const p=document.createElement('p');p.className='media-error';p.textContent='媒体暂时无法加载，可以切换到图文阅读。';if(!el.parentElement?.querySelector('.media-error'))el.after(p)})}}
-window.addEventListener('pagehide',()=>{stopSpeech();audio?.pause();video?.pause()});
+onCleanup(()=>{stopSpeech();audio?.pause();video?.pause()});
+
+});
 </script>

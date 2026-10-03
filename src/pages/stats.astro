@@ -34,7 +34,7 @@ const events=[
 ---
 <Base title="数据仪表盘 · 海波东" noindex wide>
 <div class="insights">
- <header class="insights-heading"><div><span class="eyebrow">MIND / OBSERVATORY</span><h1>看看，内容抵达了哪里。</h1><p>从一次访问，到一篇被认真读过的文章。</p></div><a class="insight-home" href={path()}>回到小站 ↗</a></header>
+ <h1 class="sr-only">数据仪表盘</h1>
  <nav class="insight-nav" aria-label="仪表盘分区"><a href="#overview">总览</a><a href="#reports">分析报表</a><a href="#content-health">内容状态</a><a href="#tools">运营工具</a><a href="#connection">接入管理</a></nav>
  <section id="overview" class="insight-overview">
   <div class="overview-title"><div><span class="status-dot"></span><strong>站点概览</strong><span>ma1203580780.github.io / mind</span></div><small>基础累计 · Vercount</small></div>
@@ -61,14 +61,21 @@ const events=[
 </Base>
 <script>
 import {track} from '../scripts/analytics';
+import {onPageLoad} from '../scripts/page-lifecycle';
+onPageLoad((signal,onCleanup)=>{
+if(!document.querySelector('#stats-status'))return;
+
+
 const statuses:Record<string,string>={ready:'已取得累计数据',loading:'正在连接',loaded:'脚本已加载',unavailable:'连接未成功',disabled:'此设备未采集',consent:'等待访客同意',unconfigured:'尚未绑定','excluded-page':'本页不录制'};
-const reflect=()=>{const r=document.documentElement.dataset;document.querySelector('#stats-status')!.textContent=statuses[r.analyticsState||'loading'];for(const service of ['umami','clarity']){const el=document.querySelector<HTMLElement>(`[data-service="${service}"]`)!;const s=r[service+'State']||'unconfigured';el.textContent=statuses[s]||s;el.dataset.state=s}};document.addEventListener('analytics:state',reflect);reflect();
+const reflect=()=>{const r=document.documentElement.dataset;document.querySelector('#stats-status')!.textContent=statuses[r.analyticsState||'loading'];for(const service of ['umami','clarity']){const el=document.querySelector<HTMLElement>(`[data-service="${service}"]`)!;const s=r[service+'State']||'unconfigured';el.textContent=statuses[s]||s;el.dataset.state=s}};document.addEventListener('analytics:state',reflect,{signal});reflect();
 const filters=[...document.querySelectorAll<HTMLButtonElement>('[data-report-filter]')];filters.forEach(b=>b.addEventListener('click',()=>{filters.forEach(f=>f.setAttribute('aria-pressed',String(f===b)));document.querySelectorAll<HTMLElement>('[data-report-group]').forEach(c=>c.hidden=b.dataset.reportFilter!=='all'&&c.dataset.reportGroup!==b.dataset.reportFilter)}));
 const owner=document.querySelector<HTMLButtonElement>('#owner-toggle')!;const ownerStatus=document.querySelector('#owner-status')!;
 try{const excluded=localStorage.getItem('analytics-owner')==='true';owner.textContent=excluded?'重新统计这台设备':'排除这台设备';owner.setAttribute('aria-pressed',String(excluded));ownerStatus.textContent=excluded?'已排除。只影响这台浏览器，可随时恢复。':'尚未排除。开启前的历史数据仍保留。'}catch{owner.disabled=true;ownerStatus.textContent='浏览器无法保存设置。'}
 owner.addEventListener('click',()=>{try{localStorage.setItem('analytics-owner',String(localStorage.getItem('analytics-owner')!=='true'));location.reload()}catch{ownerStatus.textContent='设置保存失败。'}});
-const testStatus=document.querySelector('#event-status')!;document.querySelector('#analytics-test')!.addEventListener('click',()=>{testStatus.textContent='未发送：服务尚未连接，或此设备已排除。';track('analytics_test')});document.addEventListener('analytics:event',((e:CustomEvent)=>{if(e.detail.name==='analytics_test')testStatus.textContent=e.detail.state==='queued'?'已交给统计脚本，请在后台核对 analytics_test；这不代表服务端已确认入库。':'未发送：尚未加载统计服务。'}) as EventListener);
+const testStatus=document.querySelector('#event-status')!;document.querySelector('#analytics-test')!.addEventListener('click',()=>{testStatus.textContent='未发送：服务尚未连接，或此设备已排除。';track('analytics_test')});document.addEventListener('analytics:event',((e:CustomEvent)=>{if(e.detail.name==='analytics_test')testStatus.textContent=e.detail.state==='queued'?'已交给统计脚本，请在后台核对 analytics_test；这不代表服务端已确认入库。':'未发送：尚未加载统计服务。'}) as EventListener,{signal});
 const form=document.querySelector<HTMLFormElement>('#campaign-builder')!,output=document.querySelector<HTMLTextAreaElement>('#campaign-result')!,copy=document.querySelector<HTMLButtonElement>('#campaign-copy')!,status=document.querySelector('#campaign-status')!;
 form.addEventListener('submit',e=>{e.preventDefault();const landing=(document.querySelector('#campaign-path') as HTMLSelectElement).value;const source=(document.querySelector('#campaign-source') as HTMLSelectElement).value;const campaign=(document.querySelector('#campaign-name') as HTMLInputElement).value.trim();if(!/^[a-z0-9_-]{1,64}$/i.test(campaign))return;const u=new URL(landing,'https://ma1203580780.github.io');u.searchParams.set('utm_source',source);u.searchParams.set('utm_medium',source==='newsletter'?'email':'social');u.searchParams.set('utm_campaign',campaign);output.value=u.href;output.parentElement!.hidden=false;copy.hidden=false;status.textContent='链接已生成；接通 Umami 后可按活动归因。'});
 copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(output.value);status.textContent='已复制。'}catch{output.select();status.textContent='请手动复制选中的链接。'}});
+
+});
 </script>

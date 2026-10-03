@@ -45,7 +45,7 @@ jobs:
       - run: python3 -m unittest discover -s scripts -p 'test_*news.py'
       - run: npm ci
       - run: npm run test:news
-      - run: node --test scripts/discovery.test.mjs
+      - run: node --test scripts/discovery.test.mjs scripts/navigation.test.mjs
       - run: node --test scripts/analytics.test.mjs
       - run: npm run build
         env:

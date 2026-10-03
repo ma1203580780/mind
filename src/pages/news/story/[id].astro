@@ -16,4 +16,11 @@ const {story}=Astro.props;const translated=!!story.summaryZh;const related=allNe
 {related.length>0&&<section><h2>同一事件的其他来源</h2>{related.map(s=><p><a href={path(`news/story/${s.id}/`)}>{displayTitle(s)} · {s.sourceName}</a></p>)}</section>}
 <div class="discovery-links">{topics.filter(t=>t.categories.includes(story.category)).map(t=><a href={path(`topics/${t.slug}/`)}>{t.name} · 持续专题 ↗</a>)}</div>
 </article></Base>
-<script>import {changeState} from '../../../scripts/reading-store';const entry=document.querySelector<HTMLElement>('[data-news-reading-id]');if(entry)changeState('read',entry.dataset.newsReadingId!,true);</script>
+<script>
+import {changeState} from '../../../scripts/reading-store';
+import {onPageLoad} from '../../../scripts/page-lifecycle';
+onPageLoad((signal,onCleanup)=>{
+if(!document.querySelector('[data-news-reading-id]'))return;
+const entry=document.querySelector<HTMLElement>('[data-news-reading-id]');if(entry)changeState('read',entry.dataset.newsReadingId!,true);
+});
+</script>

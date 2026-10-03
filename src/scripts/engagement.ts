@@ -1,12 +1,14 @@
 import {track} from './analytics';
+import {onPageLoad} from './page-lifecycle';
+onPageLoad((signal,onCleanup)=>{
 const article=document.querySelector<HTMLElement>('#article .article-body');
 const readPanel=document.querySelector<HTMLElement>('#panel-read');
 if(article && readPanel){
   let active=0,last=Date.now(),interaction=Date.now(),opened=false;
   const depths=new Set<number>(),times=new Set<number>();
   const open=()=>{if(opened)return;opened=true;track('article_open',{mode:document.querySelector<HTMLElement>('.media-tabs [aria-selected=true]')?.dataset.mode||'read'})};
-  if(document.querySelector<HTMLElement>('#analytics-config')?.dataset.websiteId){document.addEventListener('analytics:state',()=>{if(document.documentElement.dataset.umamiState==='loaded')open()});if(document.documentElement.dataset.umamiState==='loaded')open()}else open();
-  for(const event of ['scroll','pointerdown','keydown'])window.addEventListener(event,()=>{interaction=Date.now()},{passive:true});
+  if(document.querySelector<HTMLElement>('#analytics-config')?.dataset.websiteId){document.addEventListener('analytics:state',()=>{if(document.documentElement.dataset.umamiState==='loaded')open()},{signal});if(document.documentElement.dataset.umamiState==='loaded')open()}else open();
+  for(const event of ['scroll','pointerdown','keydown'])window.addEventListener(event,()=>{interaction=Date.now()},{passive:true,signal});
   const timer=setInterval(()=>{
     const now=Date.now(),delta=Math.min(2,(now-last)/1000);last=now;
     if(document.hidden||readPanel.hidden||now-interaction>60000)return;
@@ -17,7 +19,7 @@ if(article && readPanel){
     const depth=Math.min(100,Math.max(0,(innerHeight-r.top)/r.height*100));
     for(const percent of [25,50,75,100])if(depth>=percent&&!depths.has(percent)){depths.add(percent);track('read_depth',{percent})}
   },1000);
-  window.addEventListener('pagehide',()=>clearInterval(timer),{once:true});
+  onCleanup(()=>clearInterval(timer));
 }
 for(const media of document.querySelectorAll<HTMLMediaElement>('#article-audio,#article-video')){
   const seen=new Set<number>();const type=media.tagName.toLowerCase();
@@ -33,4 +35,6 @@ for(const d of document.querySelectorAll<HTMLDetailsElement>('.story-detail')){
   let seen=false;d.addEventListener('toggle',()=>{if(d.open&&!seen){seen=true;track('news_expand',{story:d.closest('.news-card')?.id||''})}});
 }
 document.querySelector('#copy-link')?.addEventListener('click',()=>track('article_share'));
-document.addEventListener('click',e=>{if((e.target as Element).closest('.copy-code'))track('code_copy')});
+document.addEventListener('click',e=>{if((e.target as Element).closest('.copy-code'))track('code_copy')},{signal});
+
+});
