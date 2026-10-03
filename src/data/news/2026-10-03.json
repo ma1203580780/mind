@@ -34,9 +34,10 @@
       "author": "github-actions[bot]",
       "contentLanguage": "en",
       "titleZh": "ollama 版本更新 · v0.35.1",
-      "translationStatus": "partial",
+      "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
-      "translationModel": "argos-en-zh-1.9-ct2-v1"
+      "translationModel": "argos-en-zh-1.9-ct2-v1",
+      "summaryZh": "Clef决定模型 Ollama现在支持Clef和Clef Flash, Cloudflare新的开源决定模型,通过/v1/systemone.Clef(27B)和Clef Flash(9B)是多模态:请求现在可以包含文本状态旁边的图像,由所有问题共享,并与它共同打分.\"],\"问题\":{\"has_ollama\":{\"型号\":\"noul\",\"指示\":\"这个图像是否包含Ollama?\"}}}}\" 卷曲 http://localhost:11434/v1/systemone -d' {\"模型\":\"clef-flash\",\"状态\":\"用户拿了这个截图\",\"图像\",\"问题\":[\"has_ollama\",\"#\"问题\":\"noul\",\"训导\",\"是这样吗?"
     },
     {
       "id": "feed-c38af6e5cae43e23a64c",
@@ -177,9 +178,10 @@
       "imageKind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2610.00682",
       "titleZh": "《科学认识》中的本体学、理性-验证评价LLM理由的基准",
-      "translationStatus": "partial",
+      "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
-      "translationModel": "argos-en-zh-1.9-ct2-v1"
+      "translationModel": "argos-en-zh-1.9-ct2-v1",
+      "summaryZh": "从生物医学问题回答到材料信息学,大型语言模型日益成为科学AI应用的基础,而科学AI应用是结构化知识之外的原因。然而,它们的逻辑推理往往不够准确,造成事实不准确,在这些环境下是不可接受的。可靠的评价仍然具有挑战性:人工数据集的构建尺度差,基于LLM的生成有可能嵌入它所要衡量的缺陷。高质量基准必须以明确的背景知识作为正确和不正确的标注例子的依据,并由一个站点正式核实"
     },
     {
       "id": "feed-a49a886f9ccb9e58390b",
@@ -816,9 +818,10 @@
       "author": "Yifan Zhang, Liang Zheng",
       "contentLanguage": "en",
       "titleZh": "受控世界模型适应的校准-风险路径",
-      "translationStatus": "partial",
+      "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
-      "translationModel": "argos-en-zh-1.9-ct2-v1"
+      "translationModel": "argos-en-zh-1.9-ct2-v1",
+      "summaryZh": "基于模型的加固学习(MBRL)可以利用模拟经验,但模拟器对目标的移位会产生模型选择问题:在有限的目标数据下,直接修正模拟器和安装目标可以各自失败.我们引入了 \" 模型校正世界模型 \" (MC-WM),它将初始目标数据分为不匹配、选择和校准分区,并部署标准化校准风险较低的家庭。学会了信心信号和确定性有效性,就预示着一步一步地对所想象的政策进行更新,而不改写实际报酬。我们ev"
     },
     {
       "id": "feed-a64ccfd4fcbf64f7efa7",
@@ -1179,9 +1182,10 @@
       "imageKind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2610.01124",
       "titleZh": "Cortex Bridge: EEG Montages为基础模型的对接",
-      "translationStatus": "partial",
+      "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
-      "translationModel": "argos-en-zh-1.9-ct2-v1"
+      "translationModel": "argos-en-zh-1.9-ct2-v1",
+      "summaryZh": "电脑学(EEG)基础模型往往会预先使用固定通道词汇或有限的一组蒙塔格来进行训练,在电极布局变化时,转移困难.我们提出Cortex Bridge,一种轻量级适配器,将EEG特征与电极和地图集坐标相结合,将任意的蒙太基映射成一个共享的皮层潜伏空间.通过对来自所有BCI基准之母(MOABB)的5个脑-计算机接口数据集的3个冻结基模型进行评价,CortexBridge在15项评价中的13项改进了绩效。平衡准确度平均收益"
     },
     {
       "id": "feed-505ead9dccd7adf515f9",
@@ -3798,10 +3802,6 @@
       "summaryTruncated": true,
       "author": "ethanjamescolez",
       "contentLanguage": "en",
-      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
-      "imageAlt": "原文配图：ArtDo",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://w2solo.com/topics/8564",
       "titleZh": "艺术行为",
       "summaryZh": "最近把 ArtDo 的主要 AI 图片编辑流程放到了首页，想解决一个很直接的问题：手上已经有图片，也知道大概想改什么时，能不能不先学习复杂的桌面软件，就把一次修改完整做完？ 现在我先把这几步连成了一条路径： 上传 JPG、PNG 或 WebP 图片，单文件不超过 24 MB。 用自然语言说明希望修改什么，也写清楚需要保留的主体或细节。 确认当前模型支持的生成模式、比例和分辨率后提交。 查看生成进度，完成后复核提示词匹配、主体和瑕疵。 需要时调整请求，再下载最终采用的结果。 目前公开的使用方向包括移除物体、移除或替换背景、增强或放大图片、给旧照片上色、扩展画布、做矢量风格转换，以及根据参考图生成变化。 这次更在意的是 “生成后还要复核” AI 图片任务很容易把 “已经生成” 误当成 “可以直接采用”。我更希望用户在下载前重新检查提示词是否实现、需要保留的主体有没有变化，以及画面里是否出现明显瑕疵；不满意时继续调整请求，而不是只追求一次生成结束。 当前边界 ArtDo 目前只处理图片。部分模型和账号功能需要 Google 登录。多图输入和最高 4K 输出取决于所选模型、模式、比例和任务；模型、设置、积分要求和可用性也可能变化。生成结果仍需要人工复核，处理第三方素材前也要先确认授权。 想听听大家一个具体建议：对提示词修图工具来说，你更希望产品加强 “生成前的修改引导”，还是 “生成后的前",
       "translationStatus": "ready",
