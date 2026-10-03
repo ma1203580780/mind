@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-02T17:53:08.024768+00:00",
-  "newItems": 63,
+  "checkedAt": "2026-10-03T02:43:06.056200+00:00",
+  "newItems": 33,
   "issueDate": "2026-10-03",
-  "totalItems": 63,
+  "totalItems": 96,
   "sources": [
     {
       "id": "openai",
@@ -12,7 +12,7 @@
       "language": "en",
       "ok": true,
       "items": 1245,
-      "sha256": "c1a7085c254a8afefbe91b8518131e53b4e38dedd283f04f32bf165bcb85e792"
+      "sha256": "f9b6dcf9669e58b9914fadf612859d6d17479cd254c63f7aa471771cc62fabe8"
     },
     {
       "id": "huggingface",
@@ -82,7 +82,7 @@
       "language": "en",
       "ok": true,
       "items": 20,
-      "sha256": "17c2cbb8692342c6b35e458bbabd4a2fbf439a1a7fb9194c8618e574fd3c1f51"
+      "sha256": "8474ef479802f613e1dc8188a1478039a4d5a2d1a6a1bbc919a303fc48ec3757"
     },
     {
       "id": "ecb",
@@ -122,7 +122,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "7c695503edd59946da5bac3a3e06a326de4b22bfb4cc010ecd6bb113f66527be"
+      "sha256": "bc40b31bfd68bb7637fbdc5898c50ff762d3afdbc16af83fb524d69363fcd21d"
     },
     {
       "id": "transformers",
@@ -132,7 +132,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "2e0478ae88c9de7905bed7150e9fcca0058017494d72c01fd0f487df79f03129"
+      "sha256": "8fad99e3d26d27567d4449eb73200c57102ea3b392235ac8c62366a6a2163459"
     },
     {
       "id": "ollama",
@@ -142,7 +142,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "b1ed190765e52235ce32ea5b8dcf245510f11dc4afba05d5619cb6a092dd3dca"
+      "sha256": "3acf7b45256f88cfb93f2f6cc0a252a5b0f6a71cb6fac1639587562c7db25448"
     },
     {
       "id": "langchain",
@@ -162,7 +162,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "21e7d45c6ca96b44e2367edfb3fd3a9029d52b3cab429a754ba0ef0eb09bd3ce"
+      "sha256": "36246e2c6e69ac96a50c98f8f910aa2450c440cfcca9471388714c634b90ba7a"
     },
     {
       "id": "qbitai",
@@ -182,7 +182,7 @@
       "language": "zh",
       "ok": true,
       "items": 60,
-      "sha256": "7921bc920931ea647e2a33ba1817214526ad9c98a064bef36720b98df96749e9"
+      "sha256": "b8f86ecdc0e6fe99b2d4a86e17483765a0c7d86302c99bbf3114134a780662cb"
     },
     {
       "id": "eeo",
@@ -191,17 +191,127 @@
       "domain": "经济",
       "language": "zh",
       "ok": true,
-      "items": 14,
-      "sha256": "62c92de3dbc3ebf11d9ecd90e939eb2ae12cf2ab811abb8eb131fdcbae9ff608"
+      "items": 9,
+      "sha256": "31332595763dacdcdddd830161ab686da92b3302698ed14f3f0885eb533a3c08"
+    },
+    {
+      "id": "startups-rest",
+      "name": "Startups for the Rest of Us",
+      "url": "https://www.startupsfortherestofus.com/feed",
+      "domain": "一人公司",
+      "language": "en",
+      "ok": true,
+      "items": 329,
+      "sha256": "f7bef4b8e9693a12e5178172ebd32a07416d116fc6f3857b7cc6c5c21930cb0d"
+    },
+    {
+      "id": "nngroup",
+      "name": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/feed/rss/",
+      "domain": "产品设计",
+      "language": "en",
+      "ok": true,
+      "items": 20,
+      "sha256": "e5eee6c9c43b36cc0859b5d4add20358d4d61a6cfdcabaeadb8c17e902f02a6c"
+    },
+    {
+      "id": "smashing",
+      "name": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/feed/",
+      "domain": "产品设计",
+      "language": "en",
+      "ok": true,
+      "items": 40,
+      "sha256": "7e745cddc472324a420dffbfa4e9340fcd5713fe69724df16d5c39d962444483"
+    },
+    {
+      "id": "colossal",
+      "name": "Colossal",
+      "url": "https://www.thisiscolossal.com/feed/",
+      "domain": "审美提升",
+      "language": "en",
+      "ok": true,
+      "items": 10,
+      "sha256": "08806f345a756a20d8b497c2ed0d1f9502b8124a5641bba17586c2c1d5f3c0dc"
+    },
+    {
+      "id": "buffer",
+      "name": "Buffer",
+      "url": "https://buffer.com/resources/rss/",
+      "domain": "产品营销",
+      "language": "en",
+      "ok": true,
+      "items": 15,
+      "sha256": "790fd946833d193a1a6c86630cc565685258dda1f1ea1722e881dc3772a2eef7"
+    },
+    {
+      "id": "ahrefs",
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com/blog/feed/",
+      "domain": "产品营销",
+      "language": "en",
+      "ok": true,
+      "items": 10,
+      "sha256": "5c0572ff890800ace98a36e9480810666e4bc5b478399b093a5f3b9edc0e4010"
+    },
+    {
+      "id": "n8n-blog",
+      "name": "n8n Blog",
+      "url": "https://blog.n8n.io/rss/",
+      "domain": "AI 协作",
+      "language": "en",
+      "ok": true,
+      "items": 15,
+      "sha256": "9d881e9fd15522f1e79b0fb0e6ba80e395a799e9153b15033e825e80ef22c7a3"
+    },
+    {
+      "id": "github-blog-ai",
+      "name": "GitHub Blog · AI",
+      "url": "https://github.blog/ai-and-ml/feed/",
+      "domain": "AI",
+      "language": "en",
+      "ok": true,
+      "items": 10,
+      "sha256": "b68bead903e4f07d268daee127c356ec2a05f201ca32b6668e7666050038eb17"
+    },
+    {
+      "id": "toodaylab",
+      "name": "理想生活实验室 · 设计",
+      "url": "https://www.toodaylab.com/feed",
+      "domain": "设计",
+      "language": "zh",
+      "ok": true,
+      "items": 20,
+      "sha256": "07b739f2be980f9610d8e6c3c9d092b1b2b251dcacc7e3e57bb78b156d43d3ca"
+    },
+    {
+      "id": "woshipm-design",
+      "name": "人人都是产品经理 · 设计",
+      "url": "https://www.woshipm.com/feed",
+      "domain": "设计",
+      "language": "zh",
+      "ok": true,
+      "items": 15,
+      "sha256": "674ff30ad734cf1beaa91af383adf63b3c19a749b11e8d352b2950691b369843"
+    },
+    {
+      "id": "sspai-workflows",
+      "name": "少数派 · AI 工作流",
+      "url": "https://sspai.com/feed",
+      "domain": "AI",
+      "language": "zh",
+      "ok": true,
+      "items": 10,
+      "sha256": "941fe678801dcc7fa5dadceb5a91832ba410a00663fd74cbe14f0f44f3819ab0"
     }
   ],
   "enrichment": {
-    "checkedAt": "2026-10-02T17:53:11.551084+00:00",
+    "checkedAt": "2026-10-03T02:43:12.063323+00:00",
     "translationModel": "argos-en-zh-1.9-ct2-v1",
-    "translated": 171,
-    "english": 171,
-    "images": 99,
-    "stories": 199,
+    "translated": 194,
+    "english": 194,
+    "images": 126,
+    "stories": 232,
     "error": null
   }
 }
