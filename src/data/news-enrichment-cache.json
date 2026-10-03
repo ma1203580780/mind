@@ -1896,6 +1896,34 @@
       "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055809.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1003/1055837.shtml": {
+      "checkedAt": "2026-10-03T05:20:20.511940+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055837.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1003/1055835.shtml": {
+      "checkedAt": "2026-10-03T05:20:20.511940+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1003/1055835.shtml"
+    },
+    "https://www.qbitai.com/2026/10/501368.html": {
+      "checkedAt": "2026-10-03T05:20:20.511940+00:00",
+      "description": "又咋啦。。。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/截屏2026-10-03-10.34.50.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/501368.html"
+    },
+    "https://www.qbitai.com/2026/10/500148.html": {
+      "checkedAt": "2026-10-03T05:20:20.511940+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/500148.html"
     }
   }
 }
