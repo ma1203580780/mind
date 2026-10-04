@@ -54,7 +54,7 @@ onPageLoad((signal, onCleanup) => {
     '.lab-project', '.discover-intro', '.explore-now', '.explore-build', '.explore-connect',
     '.network-heading', '.network-column', '.network-communities', '.network-contribute',
     '.connection-heading', '.connection-section', '.page-heading', '.page-head',
-    '.discovery-intro', '.topic-tile', '.work-tile', '.about', '.stats-page', '.article-header',
+    '.discovery-intro', '.work-tile', '.about', '.stats-page', '.article-header',
   ].join(',');
   const targets = [...main.querySelectorAll<HTMLElement>(selectors)].filter(el => !el.parentElement?.closest(selectors));
   // New sections enter once as they become visible. Nothing is hidden before JS loads.

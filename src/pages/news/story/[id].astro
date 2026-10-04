@@ -1,6 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import {allNews,displayTitle,displaySummary} from '../../../lib/news';import {topics} from '../../../lib/discovery';import {path} from '../../../site';
+import {allNews,displayTitle,displaySummary} from '../../../lib/news';import {path} from '../../../site';
 export function getStaticPaths(){return allNews.map(story=>({params:{id:story.id},props:{story}}));}
 const {story}=Astro.props;const translated=!!story.summaryZh;const related=allNews.filter(s=>s.id!==story.id&&s.eventKey===story.eventKey).slice(0,5);
 ---
@@ -14,5 +14,5 @@ const {story}=Astro.props;const translated=!!story.summaryZh;const related=allNe
 <p><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer" data-track="news_source_open" data-story={story.id} data-source={new URL(story.sourceUrl).hostname} data-category={story.category} data-issue={story.issueDate}>阅读发布者原文 ↗</a></p>
 <details class="rule-panel"><summary>来源与采集记录</summary><p>来源：{story.sourceName}；原文发布：{story.publishedDate}；收录日：{story.issueDate}。</p>{story.author&&<p>原文作者：{story.author}</p>}{story.fetchedAt&&<p>采集时间：{new Date(story.fetchedAt).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})}（北京时间）</p>}{story.feedUrl&&<a href={story.feedUrl} target="_blank" rel="noopener noreferrer">原始 RSS / Atom ↗</a>}</details>
 {related.length>0&&<section><h2>同一事件的其他来源</h2>{related.map(s=><p><a href={path(`news/story/${s.id}/`)}>{displayTitle(s)} · {s.sourceName}</a></p>)}</section>}
-<div class="discovery-links">{topics.filter(t=>t.categories.includes(story.category)).map(t=><a href={path(`topics/${t.slug}/`)}>{t.name} · 持续专题 ↗</a>)}</div>
+
 </article></Base>

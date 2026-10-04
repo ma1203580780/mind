@@ -13,7 +13,7 @@ async page => {
   const input=page.getByRole('searchbox');await input.fill('AI');await page.getByRole('button',{name:'搜索',exact:true}).click();await page.waitForFunction(()=>document.querySelector('#results')?.children.length>0);
   const result=await page.locator('#results').evaluate(el=>({height:el.clientHeight,total:el.scrollHeight}));assert(result.height>45&&result.total>result.height,'结果区域不够用 '+JSON.stringify({viewport,result}));
   await page.locator('#results').evaluate(el=>el.scrollTop=300);assert(await page.locator('#results').evaluate(el=>el.scrollTop>0),'结果无法滚动');
-  await input.fill('mind');await page.waitForFunction(()=>document.querySelector('#results h2 a[href*="/lab/"]'));
+  await input.fill('mind');await page.waitForFunction(()=>document.querySelector('#results h3 a[href*="/lab/"]'));
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'长项目结果撑宽页面');
   assert(await page.locator('#results').evaluate(el=>el.scrollWidth<=el.clientWidth),'结果内容横向溢出');
   await input.fill('zzzz-nothing-95384');await page.getByText('没有找到相关内容，试试更短的关键词。').waitFor();

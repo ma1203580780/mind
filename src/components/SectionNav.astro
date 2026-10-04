@@ -1,14 +1,14 @@
 ---
 import {path} from '../site';
-import {topics} from '../lib/discovery';
+import {blogCategories,blogCategoryRoute} from '../lib/blog-categories';
 import {NEWS_TOPICS} from '../lib/news-topics.mjs';
 import {newsListPath} from '../lib/news-navigation';
-const {section,scope='history',language='all',category='全部'}=Astro.props;
+const {section,scope='history',language='all',category='全部',blogCategory}=Astro.props;
 const route=decodeURI(Astro.url.pathname),home=route===path()||route===path('picks/');
 let links: {label:string;href:string;active:boolean}[]=[];
 const item=(label,href,active=route===decodeURI(href))=>({label,href,active});
 if(section==='news')links=[item('精选',path(),home),...NEWS_TOPICS.map(c=>item(c==='全部'?'全部资讯':c,newsListPath(scope,language,c),!home&&!route.includes('/sources/')&&!route.includes('/archive/')&&category===c))];
-if(section==='articles')links=[item('全部博客',path('archive/'),route===path('archive/')||route.includes('/posts/')||route.includes('/tags/')),item('全部专题',path('topics/')),...topics.map(t=>item(t.name,path(`topics/${t.slug}/`)))];
+if(section==='articles')links=[item('全部博客',path('archive/'),!blogCategory),...blogCategories.map(c=>item(c.name,path(blogCategoryRoute(c.name)),blogCategory===c.name))];
 if(section==='site')links=[item('订阅',path('subscribe/')),item('关于',path('about/')),item('隐私',path('privacy/')),item('数据',path('stats/'))];
 ---
 {links.length>0&&<div class="section-rail"><nav class="section-nav" aria-label="二级导航">{links.map(link=><a href={link.href} aria-current={link.active?'page':undefined}>{link.label}</a>)}</nav></div>}

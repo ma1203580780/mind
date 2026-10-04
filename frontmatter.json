@@ -67,16 +67,16 @@
           "required": true
         },
         {
-          "title": "栏目",
+          "title": "分类",
           "name": "category",
           "type": "choice",
           "choices": [
             "AI 工程",
-            "交互设计",
-            "创作实践",
-            "长期成长"
+            "产品与交互",
+            "独立创造",
+            "思考与成长"
           ],
-          "default": "创作实践",
+          "default": "独立创造",
           "required": true
         },
         {
@@ -113,13 +113,6 @@
           "name": "featured",
           "type": "boolean",
           "default": false
-        },
-        {
-          "title": "示例稿",
-          "name": "demo",
-          "type": "boolean",
-          "default": false,
-          "hidden": true
         }
       ]
     }

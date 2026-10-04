@@ -72,8 +72,7 @@ body.site-shell .rule-panel{margin:16px 0}
  body.site-shell .news-dates a.chosen{background:var(--soft);border-color:var(--blue);color:var(--blue);box-shadow:none}
  body.site-shell .daily-board{padding:0;width:100%}.content-toolbar h1{font-size:14px}
  body.site-shell .article-header h1{font-size:22px}.article-header .tags{margin-top:10px}
- body.site-shell .page-heading h1,body.site-shell .page-head h1,body.site-shell .discovery-intro h1{font-size:18px}
- .topic-grid .topic-tile p{font-size:11px}.reading-progress{top:108px}
+ body.site-shell .page-heading h1,body.site-shell .page-head h1,body.site-shell .discovery-intro h1{font-size:18px}.reading-progress{top:108px}
 }
 
 .archive-date-strip{display:flex;align-items:center;gap:8px;overflow-x:auto;white-space:nowrap;margin:0 0 16px;font-size:11px;color:var(--muted)}.archive-date-strip>a{padding:6px 12px;border:1px solid var(--line);border-radius:9px;background:var(--paper)}
@@ -84,7 +83,7 @@ body.site-shell .rule-panel{margin:16px 0}
 .blog-card{min-width:0;border:1px solid var(--line);border-radius:17px;padding:18px;background:var(--paper);box-shadow:var(--shadow)}
 .blog-tags,.project-tags{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
 .blog-tags a,.blog-tags span,.project-tags>a,.project-tags>span{font-size:10px;padding:4px 8px;line-height:1.5;border-radius:7px;background:var(--surface);color:var(--ink);border:1px solid var(--line)}
-.blog-tags a{background:var(--soft);color:var(--blue);border-color:transparent;font-weight:550}.blog-tags .blog-demo{color:var(--muted);background:transparent}
+.blog-tags a{background:var(--soft);color:var(--blue);border-color:transparent;font-weight:550}
 .blog-card h2{font-size:16px;font-weight:550;line-height:1.6;margin:13px 0 8px}.blog-card>p{font-size:12px;line-height:1.8;color:var(--muted);margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .blog-meta{display:flex;gap:10px;align-items:center;margin-top:17px;font-size:10px;color:var(--muted)}.blog-meta>a{margin-left:auto;white-space:nowrap}
 .project-tags{margin-top:18px}.work-tile h2{overflow-wrap:anywhere}.work-tile .project-tags+ .discovery-links{margin-top:16px}
@@ -146,3 +145,5 @@ body.site-shell .daily-sidebar:has([data-date-item]:nth-child(n+11):not([hidden]
  .daily-board .news-grid[data-view=list] .news-card h2{font-size:14px}
 }
 @media(prefers-reduced-motion:reduce){::view-transition-group(language-thumb){animation-duration:0s}}
+
+@media(max-width:560px){.blog-grid{grid-template-columns:minmax(0,1fr)}}

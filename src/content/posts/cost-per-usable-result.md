@@ -11,7 +11,6 @@ tags:
 authorship: assisted
 draft: false
 featured: false
-demo: false
 ---
 
 <!-- a2ui:Thesis -->

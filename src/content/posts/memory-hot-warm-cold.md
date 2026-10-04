@@ -2,7 +2,7 @@
 title: Agent 记忆的难点：旧信息怎样退出，经验怎样变成方法
 description: 从 Memora 的遗忘评测和 Evo-Memory 的任务流出发，把记忆拆成来源、当前状态与经验规则，用一串可重放事件检查更新、例外、删除和迁移。
 date: '2026-10-04'
-category: AI 方法论
+category: AI 工程
 tags:
 - Agent记忆
 - 上下文工程
@@ -11,7 +11,6 @@ tags:
 authorship: assisted
 draft: false
 featured: false
-demo: false
 ---
 
 <!-- a2ui:Thesis -->

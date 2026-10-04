@@ -17,7 +17,7 @@ for(const [slug,article] of Object.entries(articles))test(`published reading pag
  }
  const ids=new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]));
  for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.has(anchor),`missing anchor ${anchor}`);
- for(const path of ['archive/index.html','index.html','search-index.json','rss.xml','feed.xml','sitemap.xml']){
+ for(const path of ['archive/index.html','index.html','search-index.json','rss.xml','sitemap.xml']){
   const index=readFileSync('dist/'+path,'utf8');assert.ok(index.includes('/posts/'+slug+'/'),`${slug} absent from ${path}`);
  }
 });

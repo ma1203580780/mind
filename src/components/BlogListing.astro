@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from './PostCard.astro';
+import {path} from '../site';
+const {posts,title='博客',category,years=[]}=Astro.props;
+---
+<Base title={`${title} · 海波东`} blogCategory={category}>
+<section class="archive blog-home">
+  <header class="content-toolbar"><h1>{title}</h1><span>{posts.length} 篇</span></header>
+  {posts.length>0?<div class="blog-grid">{posts.map(post=><PostCard post={post}/>)}</div>:<p class="collection-note">暂无文章。</p>}
+  {years.length>0&&<details class="blog-years"><summary>按年份归档</summary><nav aria-label="博客年份归档">{years.map(year=><a href={path(`archive/year/${year}/`)}>{year}</a>)}</nav></details>}
+</section>
+</Base>
+<style>
+.blog-home{padding-top:18px}.blog-home h1{font-size:22px;font-weight:550;margin:0}.blog-years{margin-top:36px;color:var(--muted);font-size:12px}.blog-years summary{cursor:pointer}.blog-years nav{display:flex;gap:20px;flex-wrap:wrap;padding:16px 0}.blog-years a:hover{color:var(--ink)}
+</style>

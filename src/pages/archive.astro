@@ -1,4 +1,7 @@
 ---
-import Base from '../layouts/Base.astro';import PostCard from '../components/PostCard.astro';import {getPosts} from '../site';const posts=await getPosts();const years=[...new Set(posts.map(p=>p.data.date.getFullYear()))];
+import BlogListing from '../components/BlogListing.astro';
+import {getPosts} from '../site';
+const posts=await getPosts();
+const years=[...new Set(posts.map(post=>post.data.date.getUTCFullYear()))];
 ---
-<Base title="博客 · 海波东"><h1 class="sr-only">博客</h1><section class="archive">{years.map(year=><div><h2 class="year">{year}</h2><div class="blog-grid">{posts.filter(p=>p.data.date.getFullYear()===year).map((p,i)=><PostCard post={p} index={i}/>)}</div></div>)}</section></Base>
+<BlogListing posts={posts} years={years}/>

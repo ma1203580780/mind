@@ -21,7 +21,7 @@ const article=draft=>`---
 title: "${marker}"
 description: "Temporary automated writing verification"
 date: 2026-10-03
-category: "创作实践"
+category: "独立创造"
 tags: ["WritingSmokeTag"]
 draft: ${draft}
 ---
@@ -60,7 +60,7 @@ try {
   assert.match(html,/<meta[^>]+name="robots"[^>]+content="[^"]*noindex/);
   assert.ok(html.includes(`/mind/uploads/${id}.svg`));
   assert.equal((await fetch(`${base}/uploads/${id}.svg`)).status,200);
-  for(const route of ['/archive/','/search-index.json','/rss.xml','/feed.xml']) {
+  for(const route of ['/archive/','/search-index.json','/rss.xml']) {
     const res=await fetch(base+route);
     assert.equal(res.status,200,route);
     assert.ok(!(await res.text()).includes(marker),route);
@@ -79,8 +79,18 @@ try {
   assert.ok(published.includes(marker));
   assert.ok(!published.includes('本地草稿预览'));
   assert.ok(published.includes(`/mind/uploads/${id}.svg`));
-  for(const file of ['archive/index.html','search-index.json','rss.xml','feed.xml']) assert.ok((await output(file)).includes(marker),file);
+  for(const file of ['archive/index.html','search-index.json','rss.xml']) assert.ok((await output(file)).includes(marker),file);
   console.log('PASS: published article appears in blog, search and RSS with the correct image URL');
+  for(const invalid of [
+    article(false).replace('category: "独立创造"','category: "AI 资讯"'),
+    article(false).replace('category: "独立创造"','category: ["AI 工程", "独立创造"]'),
+    article(false).replace('draft: false','draft: false\ndemo: true'),
+  ]) {
+    await writeFile(post,invalid);
+    await assert.rejects(productionBuild(),/Build exited/);
+  }
+  console.log('PASS: news categories, multiple blog categories and demo metadata are rejected');
+
 } catch(error) {
   console.error(error);
   process.exitCode=1;

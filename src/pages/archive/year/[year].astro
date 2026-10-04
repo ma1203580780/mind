@@ -1,0 +1,10 @@
+---
+import BlogListing from '../../../components/BlogListing.astro';
+import {getPosts} from '../../../site';
+export async function getStaticPaths(){
+ const posts=await getPosts();
+ return [...new Set(posts.map(post=>post.data.date.getUTCFullYear()))].map(year=>({params:{year:String(year)},props:{year,posts:posts.filter(post=>post.data.date.getUTCFullYear()===year)}}));
+}
+const {year,posts}=Astro.props;
+---
+<BlogListing posts={posts} title={`${year} 年博客`}/>

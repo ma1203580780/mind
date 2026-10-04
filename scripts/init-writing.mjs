@@ -10,12 +10,11 @@ try {
 title: "我的第一篇博客"
 description: "写下这篇文章希望带给读者的价值。"
 date: ${date}
-category: "创作实践"
+category: "独立创造"
 tags: []
 authorship: author
 featured: false
 draft: true
-demo: false
 ---
 
 从这里开始写。保存后，在 Front Matter 中点击预览即可看到真实页面。

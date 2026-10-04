@@ -28,7 +28,7 @@ mind 将公开资讯、个人文章与作品入口放在同一个站点中。首
 
 | 发现资讯 | 阅读文章 | 看见作品 |
 | --- | --- | --- |
-| 主题、语言与日期筛选；历史分页；中英对照；保留原文出处。 | Markdown 正文、章节目录、代码复制与阅读进度；阅读／收听／观看切换。 | GitHub 项目与看云专栏入口；三个持续专题连接文章、资讯与作品。 |
+| 主题、语言与日期筛选；历史分页；中英对照；保留原文出处。 | Markdown 正文、章节目录、代码复制与阅读进度；阅读／收听／观看切换。 | GitHub 项目与看云专栏入口；博客、资讯独立分类，搜索按内容类型分区。 |
 | [浏览资讯 ↗](https://ma1203580780.github.io/mind/news/) | [浏览博客 ↗](https://ma1203580780.github.io/mind/archive/) | [浏览作品 ↗](https://ma1203580780.github.io/mind/lab/) |
 
 ### 从浏览，到深入
@@ -45,7 +45,7 @@ mind 将公开资讯、个人文章与作品入口放在同一个站点中。首
 </table>
 
 - **有出处的资讯**：公开 RSS / Atom 采集，保留原始标题、摘要、链接与时间；英文内容提供标注来源的中文译文。每条资讯有独立阅读地址。
-- **可持续的内容组织**：分类、标签、归档与持续专题；正式文章、资讯、阅读候选及全站更新的 RSS 入口集中在[订阅页](https://ma1203580780.github.io/mind/subscribe/)。
+- **可持续的内容组织**：博客固定四个分类、独立标签与年份归档；博客与资讯两个 RSS 入口集中在[订阅页](https://ma1203580780.github.io/mind/subscribe/)。
 - **适应不同阅读习惯**：深浅色切换、移动端布局、键盘操作与减少动态效果；未配置音频时可使用浏览器系统朗读，B 站播放器按需加载。
 - **可检查的发布链路**：新闻数据校验、自动化测试与静态构建接入 GitHub Actions；信息源状态可在站点查看。
 
@@ -88,11 +88,10 @@ date: 2026-10-03
 category: "AI 工程"
 tags: ["AI工程"]
 draft: false
-demo: false
 ---
 ```
 
-`draft: true` 不生成生产文章页面，也不进入列表、搜索、RSS 或 sitemap；本地开发模式可通过文章地址预览草稿。`demo: true` 用于公开的排版示例。草稿文件仍在公开仓库中，请勿存放私人资料。
+`draft: true` 不生成生产文章页面，也不进入列表、搜索、RSS 或 sitemap；本地开发模式可通过文章地址预览草稿。博客只收录作者原创；分类只能选择 AI 工程、产品与交互、独立创造、思考与成长之一。旧示例稿已删除，不再接受 `demo` 字段。草稿文件仍在公开仓库中，请勿存放私人资料。
 
 Windows 用户也可打开 [`mind-writing.code-workspace`](mind-writing.code-workspace)，使用 Front Matter CMS 在 VS Code 内填写文章字段、插入图片并预览。完整流程见 [Windows 写作指南](docs/WRITING_WINDOWS.md)。
 
@@ -142,7 +141,7 @@ flowchart LR
 | 写文章、配封面或音视频 | [写作与媒体](docs/AUTHORING.md) · [内容提纲](docs/WRITING_TEMPLATES.md) |
 | 在 Windows 上可视化写作与预览 | [VS Code + Front Matter](docs/WRITING_WINDOWS.md) |
 | 维护资讯来源与翻译 | [新闻编辑规则](docs/NEWS_EDITORIAL.md) · [来源扩展](docs/SOURCE_EXPANSION.md) |
-| 调整导航、专题与阅读候选 | [导航规范](docs/NAVIGATION.md) · [阅读与作品维护](docs/DISCOVERY.md) |
+| 调整导航、博客分类与阅读候选 | [导航规范](docs/NAVIGATION.md) · [阅读与作品维护](docs/DISCOVERY.md) |
 | 核对图片、排版与统计 | [视觉编辑规范](docs/VISUAL_EDITORIAL.md) · [统计接入](docs/ANALYTICS.md) |
 | 维护本页的设计与截图 | [README 设计记录](docs/README_DESIGN.md) · [截图说明](docs/assets/readme/README.md) |
 

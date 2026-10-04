@@ -15,7 +15,7 @@ Umami Cloud free Hobby does not include API access as of 2026-10-02. The custom 
 ## Recommended views to create after login
 - Overview: pageviews, visitors, sessions, bounce rate, duration; 7 / 30 day comparisons.
 - Acquisition: referrer, country, device, browser, UTM source and campaign. Filter path prefix `/mind/` to isolate other same-domain Pages projects.
-- Content: URL starts `/mind/posts/`, split by article and mode, exclude demo posts for editorial decisions.
+- Content: URL starts `/mind/posts/`, split by article and mode, only published original posts are available.
 - Reading: `read_depth`, `read_active`, article dimension. Depth is viewport reach, not comprehension. Foreground visible-body time pauses after 60 seconds without interaction.
 - Native media: `_play` once/page, progress milestones from `HTMLMediaElement.played`. `_complete` means reaching the end and can include seeking. Do not present event-count ratios as unique-person conversion rates.
 - News: `news_source_open`, split by issue/story/source/category; filter/view/expand; original-source clicks are not views at that source.

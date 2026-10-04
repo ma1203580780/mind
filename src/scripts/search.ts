@@ -1,7 +1,7 @@
 import {onPageLoad} from './page-lifecycle';
 import {track} from './analytics';
 import {animateMotion,reducedMotion} from './motion';
-type Entry={id:string;kind:string;title:string;description:string;category:string;tags:string[];demo:boolean;url:string;body:string;date:string;source:string;language:string;issue:string};
+type Entry={id:string;kind:string;title:string;description:string;category:string;tags:string[];url:string;body:string;date:string;source:string;language:string;issue:string};
 onPageLoad((signal,onCleanup)=>{
  const root=document.querySelector<HTMLElement>('#site-search');if(!root)return;
  const panel=root.querySelector<HTMLElement>('.search-panel')!;
@@ -37,22 +37,30 @@ onPageLoad((signal,onCleanup)=>{
   }
   const oldResults=results.textContent;
   results.replaceChildren();
-  const pages=Math.max(1,Math.ceil(matches.length/20));page=Math.min(pages,Math.max(1,Math.floor(page)));
-  status.textContent=`找到 ${matches.length} 条${scope&&scope!=='history'?' · 收录日期 '+scope:''}`;pager.hidden=matches.length<=20;
-  for(const entry of matches.slice((page-1)*20,page*20)){
+  const kinds=['post','news','work'];
+  const groups=kinds.map(value=>({kind:value,entries:matches.filter(entry=>entry.kind===value)})).filter(group=>group.entries.length);
+  const pages=Math.max(1,...groups.map(group=>Math.ceil(group.entries.length/20)));page=Math.min(pages,Math.max(1,Math.floor(page)));
+  status.textContent=`找到 ${matches.length} 条${scope&&scope!=='history'?' · 收录日期 '+scope:''}`;pager.hidden=pages<=1;
+  for(const group of groups){
+   const visible=group.entries.slice((page-1)*20,page*20);if(!visible.length)continue;
+   const section=node('section','','search-group');section.dataset.kind=group.kind;
+   const label=group.kind==='post'?'博客':group.kind==='news'?'资讯':'项目';
+   const heading=node('h2',`${label} · ${group.entries.length}`,'search-group-title');heading.id=`results-${group.kind}`;section.setAttribute('aria-labelledby',heading.id);section.append(heading);results.append(section);
+   for(const entry of visible){
    const card=node('article','','search-result'),meta=node('div','','search-result-meta');
-   meta.append(node('span',entry.kind==='news'?'资讯':entry.kind==='work'?'项目':entry.category==='专题'?'专题':'博客','result-kind'),node('span',[entry.source,entry.date,entry.demo?'示例稿':''].filter(Boolean).join(' · ')));
-   const h=node('h2',''),link=document.createElement('a');link.href=entry.url;link.textContent=entry.title;if(new URL(entry.url,location.href).origin!==location.origin){link.target='_blank';link.rel='noopener noreferrer';link.append(node('span',' ↗'));}h.append(link);
+   meta.append(node('span',entry.kind==='news'?'资讯':entry.kind==='work'?'项目':'博客','result-kind'),node('span',[entry.source,entry.date].filter(Boolean).join(' · ')));
+   const h=node('h3',''),link=document.createElement('a');link.href=entry.url;link.textContent=entry.title;if(new URL(entry.url,location.href).origin!==location.origin){link.target='_blank';link.rel='noopener noreferrer';link.append(node('span',' ↗'));}h.append(link);
    let excerpt=entry.description;
    if(!terms.every(t=>normalized(entry.title+' '+excerpt).includes(t))){const at=normalized(entry.body).indexOf(terms[0]);if(at>=0)excerpt=(at>45?'…':'')+entry.body.slice(Math.max(0,at-45),at+140).replace(/[#*_`>]/g,'')+'…';}
-   card.append(meta,h,node('p',excerpt));results.append(card);
+   card.append(meta,h,node('p',excerpt));section.append(card);
+   }
   }
   if(!matches.length)results.append(node('div','没有找到相关内容，试试更短的关键词。','reading-empty'));
   if(wasActive&&oldResults!==results.textContent){resultAnimation?.cancel();resultAnimation=animateMotion(results,[{opacity:.65,translate:'0 4px'},{opacity:1,translate:'0 0'}],{duration:220},'search-results');}
   root!.querySelector<HTMLButtonElement>('#previous-page')!.disabled=page<=1;root!.querySelector<HTMLButtonElement>('#next-page')!.disabled=page>=pages;root!.querySelector('#page-label')!.textContent=`${page} / ${pages}`;syncUrl();
  }
  const reset=()=>{page=1;render();};let timer:ReturnType<typeof setTimeout>;
- input.addEventListener('input',()=>{reset();clearTimeout(timer);timer=setTimeout(()=>{if(input.value.trim())track('search_used',{area:kind,results:results.childElementCount});},1000);},{signal});
+ input.addEventListener('input',()=>{reset();clearTimeout(timer);timer=setTimeout(()=>{if(input.value.trim())track('search_used',{area:kind,results:results.querySelectorAll('.search-result').length});},1000);},{signal});
  root.querySelector('form')!.addEventListener('submit',e=>{e.preventDefault();reset();},{signal});
  root.querySelectorAll<HTMLButtonElement>('[data-search-kind]').forEach(b=>b.addEventListener('click',()=>{kind=b.dataset.searchKind!;language.value='all';category.value='全部';scope='';reset();},{signal}));
  root.querySelectorAll<HTMLButtonElement>('[data-search-suggestion]').forEach(b=>b.addEventListener('click',()=>{input.value=b.dataset.searchSuggestion!;reset();input.focus();},{signal}));

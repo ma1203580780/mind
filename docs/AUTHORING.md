@@ -5,7 +5,8 @@
 ## 内容状态
 
 - `draft: true`：不生成生产页面、不进入列表、搜索、RSS 或 sitemap；本地开发模式可直接访问文章地址预览。文件仍然随仓库公开。
-- `demo: true`：标注为示例稿，不进入正式文章 RSS、全站更新 RSS 或 sitemap，文章页带 `noindex`；仍可在站内浏览和搜索。
+- 仅收录作者原创内容；`category` 必须且只能选择 AI 工程、产品与交互、独立创造、思考与成长之一，`tags` 是博客内部的细粒度标签。
+- 不支持 `demo` 字段，旧示例稿已删除；包含该字段的文章会构建失败。
 - `authorship: assisted`：文章页显示「本站记录 · AI 辅助」。正文应说明依据与边界，不代替作者陈述个人经历。
 
 站名、描述与社交链接在 [`src/site.ts`](../src/site.ts) 中修改。空的社交链接不会显示；关于页及其他硬编码文字需另行检查。
@@ -46,7 +47,7 @@ video:
 
 B 站视频用仅含 `bvid` 的 `video` 对象替代上述视频配置，填写实际的 `BV` 加 10 位字母数字的视频号。播放器只在点击加载后连接 B 站。
 
-小型媒体可放在 [`public/media/`](../public/media/)，大视频优先使用外部托管。现有四篇示例稿配有 24 秒无声字幕概览，属于示例内容；可编辑源工程在 [`videos/mind-reading-films/`](../videos/mind-reading-films/)。
+小型媒体可放在 [`public/media/`](../public/media/)，大视频优先使用外部托管。旧排版媒体工程在 [`videos/mind-reading-films/`](../videos/mind-reading-films/)。
 
 ## 发布前
 

@@ -1,12 +1,6 @@
 import {newsPublishedTime, canonicalNewsUrl} from './news-feed.mjs';
 import {usableTranslation,isReleaseNote} from './news-quality.mjs';
 
-export const topics = [
-  {slug:'ai-engineering',name:'AI 工程实践',intro:'从工具和论文出发，追踪智能体、评测与真实工程问题。',categories:['AI 资讯','AI 协作'],tags:['AI工程'],question:'如何把 AI 能力接进可用的产品？'},
-  {slug:'product-experience',name:'AI 产品与交互',intro:'研究信息如何呈现，交互怎样帮助人理解和行动。',categories:['产品设计','审美提升'],tags:['交互设计'],question:'一个好界面，如何让复杂的事情变简单？'},
-  {slug:'independent-building',name:'一个人做产品',intro:'连接创作、发布、经营与复盘，积累可以复用的方法。',categories:['一人公司','产品营销','经济观察'],tags:['创作','独立开发'],question:'怎样把一个想法，做成持续运转的作品？'},
-];
-
 /** Conservative grouping: explicit shared event key or exactly equal meaningful
  * titles. Never infer that two stories describe the same event from keywords. */
 export function groupStories(entries) {

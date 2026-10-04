@@ -1,4 +1,0 @@
----
-import Base from '../../layouts/Base.astro';import {topics,storiesForTopic} from '../../lib/discovery';import {path} from '../../site';
----
-<Base title="持续专题 · 海波东"><h1 class="sr-only">全部专题</h1><div class="topic-grid">{topics.map(topic=><a class="topic-tile" href={path(`topics/${topic.slug}/`)}><small>{storiesForTopic(topic).length} 条来源资料 · 持续更新</small><h2>{topic.name}</h2><p>{topic.question}</p><span>进入专题 ↗</span></a>)}</div><p class="collection-note">资料按明确分类归入专题，保留出处。个人实践与自动收录分别标注。</p></Base>
