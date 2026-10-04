@@ -1,0 +1,8 @@
+---
+import source from '../../scripts/reading-kit/sky-clouds.svg?raw';
+// Different IDs from article heroes, including during Astro's synchronous swap.
+const sky=source.replaceAll('id="sc-','id="ns-sc-').replaceAll('url(#sc-','url(#ns-sc-');
+---
+<div id="navigation-sky" class="navigation-sky blog-sky" aria-hidden="true" transition:persist="navigation-sky" transition:name="navigation-sky" transition:animate="none">
+ <div class="rk-clouds" data-sky-motion><Fragment set:html={sky}/></div>
+</div>

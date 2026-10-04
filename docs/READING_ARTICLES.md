@@ -5,9 +5,10 @@
 ## 正文与生成
 
 - 正文：`src/content/posts/rag-retrieval-evidence.md`、`memory-hot-warm-cold.md`、`cost-per-usable-result.md`。
-- 共用样式：`src/styles/reading-kit/`，与获准版本逐字节相同。
+- 共用样式：`src/styles/reading-kit/`。原有四份阅读组件样式保持获准版本；`site-adapter.css` 连接全站主题与蓝天白云标题区。
 - 标记式内容组件：`scripts/reading_components.py`，对应 `scripts/reading-kit/components.json`。
 - 公开阅读布局：`scripts/reading_layout.py`；站内导航取代草稿管理入口。
+- 页面外壳：`ReadingArticle.astro` 共用 `Base.astro` 的标识、导航、页脚和深浅色切换；云层源文件为 `scripts/reading-kit/sky-clouds.svg`。适配边界见 `READING_THEME_ADAPTER.md`。
 - 生成缓存：`src/data/reading-articles.json`。不要手工改正文 HTML。
 - 图片与练习：`public/articles/`。图片是 AI 生成的概念说明；JSON/CSV 是自造教学数据，不能称作真实模型测试。
 

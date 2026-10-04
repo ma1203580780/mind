@@ -1,0 +1,83 @@
+/* Common materials. Scene-specific decoration lives in site-scenes.css. */
+body.site-shell[data-page-family] {
+  --bg:#f8fbfd;--paper:#fff;--surface:#edf4f8;--ink:#293d4a;
+  --muted:#61717c;--line:#e3edf3;--blue:#0969a2;--soft:#e9f4fc;--code:#1c2b36;
+  --status-active:#4f8576;--status-exploring:#4785a8;
+  --shadow:0 1px 2px #1d567807,0 4px 10px #1d567807,0 16px 32px -16px #1d56781c;
+  --lift:0 2px 4px #1d567809,0 8px 18px #1d56780b,0 24px 42px -18px #1d567826;
+  --ui-small:12px;--ui-body:14px;--type-body:16px;--type-subhead:18px;--type-section:22px;--type-title:26px;
+  --site-header-height:72px;--shell-width:1160px;
+  position:relative;isolation:isolate;
+}
+html[data-theme=dark] body.site-shell[data-page-family] {
+  --bg:#152029;--paper:#1f2c35;--surface:#263640;--ink:#e4eef3;
+  --muted:#a0b2bf;--line:#31444f;--blue:#8ecdf2;--soft:#243c4c;--code:#101b23;
+  --status-active:#9bc9b5;--status-exploring:#9acae4;
+  --shadow:0 2px 5px #0002,0 14px 30px -18px #0005;
+  --lift:0 4px 9px #0003,0 22px 40px -20px #0007;
+}
+body.site-shell[data-page-family] #site-header {
+  height:var(--site-header-height);min-height:var(--site-header-height);
+  background:color-mix(in srgb,var(--paper) 88%,transparent);
+  border-bottom:1px solid color-mix(in srgb,var(--line) 55%,transparent);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+}
+body.site-shell[data-page-family] #site-header .header-inner {height:var(--site-header-height);min-height:var(--site-header-height)}
+body.site-shell[data-page-family] #site-header nav {height:44px;padding:4px;gap:3px;border-radius:24px;background:var(--surface);border:0}
+body.site-shell[data-page-family] #site-header nav a {min-width:58px;padding:6px 14px;font-size:var(--ui-body);border-radius:20px;font-weight:400}
+body.site-shell[data-page-family] #site-header nav a.active {background:var(--paper);color:var(--blue);box-shadow:var(--shadow);font-weight:550}
+body.site-shell[data-page-family] #site-header nav a.active:after {display:none}
+body.site-shell[data-page-family] #site-header .brand {font-size:var(--ui-body);color:var(--ink)}
+body.site-shell[data-page-family] #site-header .brand-symbol {color:var(--blue)}
+body.site-shell[data-page-family] .section-rail {top:var(--site-header-height);background:color-mix(in srgb,var(--bg) 95%,transparent);border-bottom:0}
+body.site-shell[data-page-family] .section-nav a {font-size:var(--ui-small);border-radius:12px}
+body.site-shell[data-page-family] .section-nav a[aria-current=page] {background:var(--soft);color:var(--blue)}
+body.site-shell[data-page-family] .site-footer {border-top-color:color-mix(in srgb,var(--line) 65%,transparent);margin-top:24px;padding-block:32px}
+body.site-shell[data-page-family] .footer-group,body.site-shell[data-page-family] .footer-group h2 {font-size:var(--ui-small)}
+body.site-shell[data-page-family] :is(.page-heading,.page-head,.connection-heading,.discovery-intro) h1 {
+  font-size:var(--type-title);line-height:1.5;font-weight:600;letter-spacing:-.02em;color:var(--ink);
+}
+body.site-shell[data-page-family] :is(.page-heading,.page-head,.connection-heading) p {font-size:var(--ui-body);line-height:1.9}
+body.site-shell[data-page-family] .article-header h1 {font-size:var(--type-title);line-height:1.55;font-weight:600}
+body.site-shell[data-page-family] .article-deck {font-size:var(--type-body);line-height:1.85;max-width:680px}
+body.site-shell[data-page-family] .prose {font-size:var(--type-body);line-height:1.95}
+body.site-shell[data-page-family] .prose h2 {font-size:var(--type-section);line-height:1.6}
+body.site-shell[data-page-family] .prose h3 {font-size:var(--type-subhead);line-height:1.65}
+body.site-shell[data-page-family] :is(.meta,.tags,.back,.content-toolbar,.blog-meta,.project-tags,.status,.interest-tags,.note-meta,.collection-note) {font-size:var(--ui-small)}
+body.site-shell[data-page-family] .content-toolbar :is(h1,h2) {font-size:var(--type-subhead);font-weight:550}
+body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card,.work-tile,.conversation-grid>div,.report-card,.tool-card,.connection-card,.insight-overview,.private-services>a) {
+  border:0;border-radius:20px;background:var(--paper);box-shadow:var(--shadow);
+}
+body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card,.report-card) {transition:box-shadow 180ms ease-out,transform 180ms ease-out}
+body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.project-card) h2 {font-size:var(--type-subhead);line-height:1.65}
+body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card)>p {font-size:var(--ui-body);line-height:1.85}
+body.site-shell[data-page-family] :is(.blog-tags a,.blog-tags span,.project-tags>a,.project-tags>span,.tech-tags span) {font-size:var(--ui-small);border:0;border-radius:8px}
+body.site-shell[data-page-family] .blog-tags a {background:var(--soft);color:var(--blue)}
+body.site-shell[data-page-family] .quiet-button {font-size:var(--ui-body);border:1px solid var(--line);border-radius:12px;background:var(--paper);box-shadow:var(--shadow)}
+body.site-shell[data-page-family] .notice {font-size:var(--ui-body);border-radius:12px;padding:14px 18px;background:var(--surface);color:var(--muted)}
+body.site-shell[data-page-family] .media-tabs {border:0;border-radius:14px;background:var(--surface)}
+body.site-shell[data-page-family] .media-tabs button {font-size:var(--ui-body);border-radius:10px}
+body.site-shell[data-page-family] .media-tabs button[aria-selected=true] {color:var(--blue);box-shadow:var(--shadow)}
+body.site-shell[data-page-family] .audio-panel {border:0;border-radius:22px;box-shadow:var(--shadow)}
+body.site-shell[data-page-family] .listen-button {font-size:var(--ui-body);background:var(--soft);color:var(--blue);border:0;box-shadow:var(--shadow)}
+body.site-shell[data-page-family] .video-panel :is(video,iframe) {background:var(--surface);border-radius:18px}
+body.site-shell[data-page-family] .reading-controls {gap:12px;font-size:var(--ui-body)}
+body.site-shell[data-page-family] .reading-controls :is(button,select) {font-size:var(--ui-body);border-radius:10px;background:var(--paper);border:1px solid var(--line)}
+body.site-shell[data-page-family] :is(.search-form button,.search-scope button[aria-pressed=true],.stream-filters button[aria-pressed=true]) {background:var(--soft);color:var(--blue);border-color:transparent}
+body.site-shell[data-page-family] :is(input,select,textarea):focus-visible {outline:2px solid var(--blue);outline-offset:3px}
+@media(hover:hover) and (pointer:fine) {
+  body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card,.report-card,.private-services>a):hover {transform:translateY(-2px);box-shadow:var(--lift)}
+}
+@media(max-width:760px) {
+  body.site-shell[data-page-family] {--site-header-height:108px}
+  body.site-shell[data-page-family] #site-header nav {height:42px;background:transparent;padding:0;gap:2px}
+  body.site-shell[data-page-family] #site-header nav a {min-width:0;padding:6px 5px;font-size:var(--ui-small)}
+  body.site-shell[data-page-family] #site-header nav a.active {background:var(--soft);box-shadow:none}
+  body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card) {border-radius:18px}
+  body.site-shell[data-page-family] :is(.blog-card,.topic-tile) h2 {font-size:var(--type-body)}
+  body.site-shell[data-page-family] .blog-card>p {font-size:var(--ui-body)}
+}
+@media(prefers-reduced-motion:reduce) {
+  body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card,.report-card,.private-services>a) {transition:none}
+  body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card,.report-card,.private-services>a):hover {transform:none}
+}

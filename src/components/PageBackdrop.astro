@@ -1,0 +1,21 @@
+---
+const {scene}=Astro.props;
+---
+<div class="page-backdrop" data-backdrop={scene} aria-hidden="true">
+ <svg viewBox="0 0 1600 560" preserveAspectRatio="none" fill="none" focusable="false">
+  <defs>
+   <linearGradient id="scene-sheer" x1="0" y1="0" x2="0" y2="1"><stop stop-color="var(--scene-cloud)" stop-opacity=".7"/><stop offset="1" stop-color="var(--scene-cloud)" stop-opacity="0"/></linearGradient>
+   <linearGradient id="scene-fade" x1="0" y1="390" x2="0" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="var(--bg)" stop-opacity="0"/><stop offset="1" stop-color="var(--bg)"/></linearGradient>
+  </defs>
+  {scene==='horizon'&&<>
+   <path d="M-50 374C80 298 244 330 404 422C584 525 795 510 968 449C1200 367 1408 250 1650 327V560H-50Z" fill="url(#scene-sheer)"/>
+   <path d="M-70 420C219 341 392 542 691 519C1051 491 1235 400 1680 436" stroke="var(--scene-line)" stroke-opacity=".15" stroke-width="1"/>
+  </>}
+  {scene==='tide'&&<>
+   <path d="M-60 345C291 461 572 351 854 408C1139 466 1309 282 1660 329V560H-60Z" fill="url(#scene-sheer)"/>
+   <path d="M-80 446C169 391 332 517 536 491C866 449 1116 300 1680 458" stroke="var(--scene-line)" stroke-opacity=".12" stroke-width="1"/>
+  </>}
+  {scene==='dawn'&&<ellipse cx="1520" cy="570" rx="650" ry="260" fill="url(#scene-sheer)"/>}
+  <path d="M0 390H1600V560H0Z" fill="url(#scene-fade)"/>
+ </svg>
+</div>

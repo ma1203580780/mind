@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 540" preserveAspectRatio="none" fill="none" aria-hidden="true" focusable="false">
+ <defs>
+  <linearGradient id="sc-distance" x1="0" y1="310" x2="0" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="var(--sky-cloud-light, #fff)" stop-opacity=".68"/><stop offset="1" stop-color="var(--sky-cloud-distance, #eaf6fd)" stop-opacity=".25"/></linearGradient>
+  <linearGradient id="sc-middle" x1="0" y1="350" x2="0" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="var(--sky-cloud-light, #fff)" stop-opacity=".92"/><stop offset=".65" stop-color="var(--sky-cloud-shade, #e1f1fb)" stop-opacity=".65"/><stop offset="1" stop-color="var(--sky-cloud-light, #fff)"/></linearGradient>
+  <linearGradient id="sc-front" x1="0" y1="425" x2="0" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="var(--sky-cloud-front, #f7fbfe)"/><stop offset="1" stop-color="var(--sky-cloud-light, #fff)"/></linearGradient>
+  <linearGradient id="sc-haze" x1="0" y1="430" x2="0" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="var(--sky-cloud-floor, #f8f8f7)" stop-opacity="0"/><stop offset=".7" stop-color="var(--sky-cloud-floor, #f8f8f7)" stop-opacity=".8"/><stop offset="1" stop-color="var(--sky-cloud-floor, #f8f8f7)"/></linearGradient>
+  <linearGradient id="sc-wisp" x1="0" x2="1"><stop stop-color="var(--sky-cloud-light, #fff)" stop-opacity="0"/><stop offset=".45" stop-color="var(--sky-cloud-light, #fff)" stop-opacity=".6"/><stop offset="1" stop-color="var(--sky-cloud-light, #fff)" stop-opacity="0"/></linearGradient>
+  <filter id="sc-soft" x="-10%" y="-30%" width="120%" height="160%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="3"/></filter>
+ </defs>
+ <!-- Thin, asymmetric wisps frame an entirely open title area. -->
+ <g class="sc-cloud sc-cloud--wisps" fill="url(#sc-wisp)" filter="url(#sc-soft)" opacity=".65">
+  <path d="M-80 126C-9 122 15 104 76 108C131 82 163 91 202 105C237 111 274 112 306 118C244 135 153 141 73 136C9 134-29 136-80 126Z"/>
+  <path d="M1250 176C1320 167 1372 149 1416 155C1456 129 1497 141 1528 150C1580 152 1627 161 1690 169C1544 192 1393 189 1250 176Z"/>
+ </g>
+ <!-- Broad contours sit low; fine curvature replaces repeated round humps. -->
+ <path class="sc-cloud sc-cloud--far" fill="url(#sc-distance)" filter="url(#sc-soft)" d="M-70 347C15 330 63 294 132 317C184 283 249 305 273 341C347 329 396 377 421 399C497 388 560 445 623 461C740 496 820 503 908 472C1000 446 1060 407 1131 422C1182 371 1234 352 1282 371C1331 324 1403 314 1452 343C1504 305 1580 316 1670 332V570H-70Z"/>
+ <path class="sc-cloud sc-cloud--middle" fill="url(#sc-middle)" d="M-70 415C13 405 70 365 130 380C177 353 236 373 269 410C336 396 380 427 424 447C483 438 527 474 581 487C699 519 838 531 960 505C1027 495 1094 454 1156 464C1201 423 1260 413 1314 433C1370 388 1432 379 1488 405C1541 376 1607 391 1670 401V570H-70Z"/>
+ <path class="sc-cloud sc-cloud--front" fill="url(#sc-front)" d="M-70 469C28 449 91 425 152 441C205 414 259 439 302 461C369 451 435 480 481 489C554 481 600 511 669 520C794 541 902 530 987 512C1051 513 1107 484 1161 482C1223 454 1292 456 1333 466C1393 435 1466 437 1513 453C1566 427 1625 446 1670 450V570H-70Z"/>
+ <path fill="url(#sc-haze)" d="M0 430H1600V540H0Z"/>
+</svg>

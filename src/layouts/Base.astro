@@ -5,25 +5,35 @@ import '../styles/discovery.css';
 import '../styles/shell.css';
 import '../styles/connections.css';
 import '../styles/motion.css';
+import '../styles/blog-sky.css';
+import '../styles/site-theme.css';
+import '../styles/site-scenes.css';
 import {ClientRouter} from 'astro:transitions';
 import SectionNav from '../components/SectionNav.astro';
+import PageBackdrop from '../components/PageBackdrop.astro';
+import NavigationSky from '../components/NavigationSky.astro';
+import skyStyles from '../styles/sky-atmosphere.css?raw';
+import {presentationForPath} from '../lib/site-presentation.mjs';
 import {sectionForPath} from '../lib/site-navigation.mjs';
 import Analytics from '../components/Analytics.astro';
 import {site,path} from '../site';
-const {title=site.title,description=site.description,noindex=false,wide=false} = Astro.props;
+const {title=site.title,description=site.description,noindex=false,wide=false,reading=false,blogArchive=false,ogType='website',publishedTime} = Astro.props;
 const canonical = new URL(Astro.url.pathname,Astro.site);
 const nav=[['资讯','news/','news'],['博客','archive/','articles'],['项目','lab/','lab'],['发现','discover/','discover'],['搜索','search/','search']];
 const section=sectionForPath(Astro.url.pathname,path());
+const presentation=presentationForPath(Astro.url.pathname,path(),{reading,blogArchive});
 ---
-<!doctype html><html lang="zh-CN" transition:animate="none"><head><ClientRouter fallback="swap"/><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#f8f8f7"/><title>{title}</title><meta name="description" content={description}/>{noindex&&<meta name="robots" content="noindex"/>}<link rel="canonical" href={canonical}/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><link rel="icon" href={path('favicon.svg')}/><link rel="alternate" type="application/rss+xml" title="海波东 · 博客" href={path('rss.xml')}/><link rel="alternate" type="application/rss+xml" title="海波东 · 资讯" href={path('news/rss.xml')}/><script is:inline>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch{}</script></head><body class:list={['site-shell',{'wide-layout':wide}]}>
+<!doctype html><html lang="zh-CN" transition:animate="none"><head><ClientRouter fallback="swap"/><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content={reading?'#c5eafc':'#f8f8f7'}/><title>{title}</title>{presentation.persistentSky&&<style is:inline transition:persist="navigation-sky-styles" set:html={skyStyles}/>}<meta name="description" content={description}/>{noindex&&<meta name="robots" content="noindex"/>}<link rel="canonical" href={canonical}/><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content={ogType}/>{reading&&<meta property="og:url" content={canonical}/>} {publishedTime&&<meta property="article:published_time" content={publishedTime}/>}<link rel="icon" href={path('favicon.svg')}/><link rel="alternate" type="application/rss+xml" title="海波东 · 博客" href={path('rss.xml')}/><link rel="alternate" type="application/rss+xml" title="海波东的新闻日刊" href={path('news/rss.xml')}/><script is:inline>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch{}</script></head><body class:list={['site-shell',{'wide-layout':wide,'reading-layout':reading,'blog-archive-layout':blogArchive}]} data-page-family={presentation.family} data-scene={presentation.scene}>
 <a class="skip" href="#main">跳到正文</a>
 <header id="site-header" class="header" transition:persist="site-header" transition:name="site-header"><div class="header-inner"><a class="brand" href={path()} aria-label="海波东，返回首页"><svg class="brand-symbol" viewBox="0 0 28 28" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.25" aria-hidden="true"><path d="M3 17c4-5 6 5 11 0s7 5 11 0M4 22c4-5 6 4 10 0s7 4 10 0M8 11l6-8 5 8H8Z"/></svg><span>海波东</span></a><nav aria-label="主导航">{nav.map(([label,url,key])=><a data-section={key} class:list={{active:section===key}} aria-current={section===key?'page':undefined} href={path(url)}>{label}</a>)}</nav><div class="header-tools"><button class="icon-button" id="theme" aria-label="切换深浅色"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20 13a8 8 0 0 1-9-9A8 8 0 1 0 20 13Z"/></svg></button></div></div></header>
+{presentation.persistentSky?<NavigationSky/>:!presentation.embedded&&<PageBackdrop scene={presentation.scene}/>}
 <SectionNav section={section} scope={Astro.props.newsScope} language={Astro.props.newsLanguage} category={Astro.props.newsCategory} blogCategory={Astro.props.blogCategory}/><main id="main" data-section={section} transition:animate="none"><slot/></main>
 <footer class="site-footer" aria-label="页脚导航"><div class="footer-group"><h2>站点</h2>{nav.map(([label,url])=><a href={path(url)}>{label}</a>)}</div><div class="footer-group"><h2>关注</h2><a href={path('subscribe/')}>RSS 订阅</a><a href={site.social.github} target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><div class="footer-group"><h2>关于</h2><a href={path('about/')}>关于我</a><a href={path('about-site/')}>关于本站</a><a href={path('stats/')}>数据</a><a href={path('privacy/')}>隐私</a></div></footer>
 <Analytics/>
 <script>
 import '../scripts/engagement';
 import '../scripts/motion';
+import '../scripts/sky-background';
 
 import {onPageLoad} from '../scripts/page-lifecycle';
 const reflectTheme=()=>document.querySelector('#theme')?.setAttribute('aria-pressed',String(document.documentElement.dataset.theme==='dark'));

@@ -1,7 +1,7 @@
 from pathlib import Path
 from html import escape as e
 from bs4 import BeautifulSoup
-CLOUDS=(Path(__file__).parent/"reading-kit/clouds.svg").read_text()
+CLOUDS=(Path(__file__).parent/"reading-kit/sky-clouds.svg").read_text()
 
 def focus_diagram(variant,content):
  s=BeautifulSoup(content,'html.parser')
@@ -18,15 +18,13 @@ def article_layout(slug,meta,content,toc,chars,all_samples):
     soup=BeautifulSoup(content,'html.parser');thesis=soup.select_one('.ed-thesis');thesis_html=str(thesis);thesis.decompose();content=str(soup)
     nav=''.join(f'<a href="#{a}"><span>{i+1:02d}</span>{e(t)}</a>' for i,(a,t) in enumerate(toc))
     links='<a href="__BASE__archive/">全部博客 ↗</a><a href="__BASE__articles/research/examples/README.md">练习材料说明 ↗</a>'
-    brand='<a class="brand" href="__BASE__">海波东<span>AI 与日常工作</span></a>'
-    topbar=f'<header class="ed-topbar">{brand}<nav aria-label="主导航"><a href="__BASE__archive/">博客</a><a href="__BASE__lab/">项目</a><a href="__BASE__search/">搜索</a></nav></header>'
     date=str(meta['date'])[:10]
-    top=f'<div class="ed-masthead">{topbar}<header class="ed-hero"><p class="ed-eyebrow">个人 AI 笔记 / {e(meta["topic"])}</p><h1>{e(meta["title"])}</h1><div class="ed-meta"><span>约 {max(3,round(chars/380))} 分钟</span><time datetime="{date}">{date.replace("-",".")}</time><span>AI 辅助整理</span></div></header><div class="rk-clouds" aria-hidden="true">{CLOUDS}</div></div>'
+    top=f'<div class="ed-masthead blog-sky"><header class="ed-hero"><p class="ed-eyebrow">个人 AI 笔记 / {e(meta["topic"])}</p><h1>{e(meta["title"])}</h1><p class="ed-deck">{e(meta["description"])}</p><div class="ed-meta"><span>约 {max(3,round(chars/380))} 分钟</span><time datetime="{date}">{date.replace("-",".")}</time><span>AI 辅助整理</span></div></header><div class="rk-clouds" data-sky-motion aria-hidden="true">{CLOUDS}</div></div>'
     route='<nav class="ed-route" aria-label="阅读路径">'+''.join(f'<a href="#{a}"><span>{i+1:02d}</span>{e(t)}</a>' for i,(a,t) in enumerate(toc[:3]))+'</nav>'
     tools=f'<div class="ed-toc-tools"><button class="ed-mode rk-button" type="button" data-variant="secondary" aria-pressed="false">只看图解与方法</button>{links}</div>'
     mobile=f'<details class="ed-mobile-toc rk-disclosure"><summary>阅读路线与练习材料</summary><nav>{nav}</nav>{tools}</details>'
     nxt=next((s,m) for s,m in all_samples.items() if s!=slug)
-    ending=f'<footer class="ed-article-footer"><a href="__BASE__archive/">← 全部博客</a><a href="__BASE__posts/{nxt[0]}/">接着读：{e(nxt[1]["title"])} →</a></footer>'
-    foot='<footer class="ed-footnote"><span>个人笔记与公开资料经 AI 辅助整理，研究来源和教学假设见文末。</span><a href="__BASE__rss.xml">订阅博客 RSS</a></footer>'
-    opening=f'<p class="ed-opening">{e(meta["description"])}</p>{thesis_html}{focus_diagram(meta["variant"],content)}{route}'
-    return f'<div class="ed-site reading-kit" data-variant="{meta["variant"]}"><a class="ed-skip" href="#article-content">跳到正文</a>{top}<div class="ed-progress" aria-hidden="true"></div><main class="ed-page" id="main"><div class="ed-grid"><article class="ed-article" id="article-content">{mobile}<p class="ed-mode-note" role="status">当前只显示图解与方法；可随时切回完整论证。</p>{opening}{content}{ending}</article><aside class="ed-toc"><p>本篇路线</p><nav aria-label="文章目录">{nav}</nav>{tools}</aside></div>{foot}</main></div>'
+    ending=f'<nav class="ed-article-footer" aria-label="文章导航"><a href="__BASE__archive/">← 全部博客</a><a href="__BASE__posts/{nxt[0]}/">接着读：{e(nxt[1]["title"])} →</a></nav>'
+    foot='<div class="ed-footnote"><span>个人笔记与公开资料经 AI 辅助整理，研究来源和教学假设见文末。</span><a href="__BASE__rss.xml">订阅博客 RSS</a></div>'
+    opening=f'{thesis_html}{focus_diagram(meta["variant"],content)}{route}'
+    return f'<div class="ed-site reading-kit" data-variant="{meta["variant"]}">{top}<div class="ed-progress" aria-hidden="true"></div><div class="ed-page"><div class="ed-grid"><article class="ed-article" id="article-content">{mobile}<p class="ed-mode-note" role="status">当前只显示图解与方法；可随时切回完整论证。</p>{opening}{content}{ending}</article><aside class="ed-toc"><p>本篇路线</p><nav aria-label="文章目录">{nav}</nav>{tools}</aside></div>{foot}</div></div>'

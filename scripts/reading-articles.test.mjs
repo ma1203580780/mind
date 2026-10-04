@@ -1,4 +1,4 @@
-import {readFileSync,existsSync} from 'node:fs';
+import {readFileSync,existsSync,readdirSync} from 'node:fs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {resolve} from 'node:path';
@@ -30,4 +30,37 @@ test('public articles keep their interactive controls and examples',()=>{
  assert.equal((cost.match(/type="number"/g)||[]).length,4);
  assert.ok(cost.includes('ed-preset')&&cost.includes('ed-reset'));
  assert.ok(existsSync('dist/articles/research/examples/cost-ledger.csv'));
+});
+
+test('reading pages share the project shell without duplicate landmarks',()=>{
+ const home=readFileSync('dist/index.html','utf8');
+ const footer=html=>html.match(/<footer class="site-footer"[\s\S]*?<\/footer>/)?.[0];
+ const navLinks=html=>[...html.match(/<header\b[^>]*id="site-header"[\s\S]*?<\/header>/)[0].matchAll(/<a data-section="([^"]+)"[^>]*href="([^"]+)"/g)].map(m=>[m[1],m[2]]);
+ for(const slug of Object.keys(articles)){
+  const html=readFileSync(`dist/posts/${slug}/index.html`,'utf8');
+  assert.match(html,/<body class="site-shell reading-layout"/);
+  assert.equal((html.match(/id="site-header"/g)||[]).length,1);
+  assert.equal((html.match(/id="main"/g)||[]).length,1);
+  assert.equal((html.match(/<h1\b/g)||[]).length,1);
+  assert.deepEqual(navLinks(html),navLinks(home));
+  assert.equal(footer(html),footer(home));
+  assert.match(html,/<a data-section="articles"[^>]*aria-current="page"/);
+  assert.equal((html.match(/id="theme"/g)||[]).length,1);
+  assert.doesNotMatch(html,/<header class="ed-topbar"/);
+  const hero=html.match(/<div class="rk-clouds"[\s\S]*?<\/svg>/)?.[0];
+  assert.ok(hero,'shared vector cloud hero');
+  assert.match(hero,/id="sc-front"/);
+  assert.doesNotMatch(hero,/<(?:image|feImage|text|foreignObject)\b|data:image/);
+ }
+});
+
+test('blog routes keep only blog content without secondary navigation',()=>{
+ const pages=[...['archive','posts','tags'].flatMap(section=>readdirSync('dist/'+section,{recursive:true}).filter(file=>file.endsWith('index.html')).map(file=>section+'/'+file))];
+ for(const page of pages){
+  const html=readFileSync('dist/'+page,'utf8');
+  assert.doesNotMatch(html,/class="section-(?:nav|rail)"/,`${page}: no secondary navigation`);
+  const main=html.match(/<main\b[\s\S]*?<\/main>/)?.[0];
+  assert.ok(main);
+  assert.doesNotMatch(main,/近期来源资料|\d+ 条历史资料|\d+ 条来源资料|source-note/);
+ }
 });

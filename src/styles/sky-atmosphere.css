@@ -1,0 +1,39 @@
+/* Shared sky for blog headers and the archive. Native vectors, no image assets.
+   Direction: Josh Comeau's layered, colour-matched shadows and restrained motion. */
+.blog-sky {
+  --sky-cloud-light:#fff;--sky-cloud-distance:#eaf6fd;
+  --sky-cloud-shade:#e1f1fb;--sky-cloud-front:#f7fbfe;
+  --sky-cloud-floor:var(--bg);
+  background:
+    radial-gradient(ellipse 38% 75% at 96% 0%,#fff2cbb8,transparent 85%),
+    radial-gradient(ellipse 65% 80% at 40% 10%,#e5f5ff70,transparent),
+    linear-gradient(180deg,#c5eafc 0%,#d9f0fc 65%,#eef8fd 100%);
+}
+.blog-sky .rk-clouds {position:absolute;inset:0;height:100%;pointer-events:none;z-index:0}
+.blog-sky .rk-clouds svg {display:block;width:100%;height:100%;max-width:none}
+.blog-sky .sc-cloud {
+  transform-box:view-box;transform-origin:center;
+  --cloud-from:-14px;--cloud-to:14px;--cloud-lift:-2px;
+  animation:blog-cloud-drift 48s ease-in-out -18s infinite alternate;
+}
+.blog-sky .sc-cloud--wisps {--cloud-from:-28px;--cloud-to:32px;animation-duration:56s;animation-delay:-28s}
+.blog-sky .sc-cloud--far {--cloud-from:-20px;--cloud-to:20px;animation-duration:64s;animation-delay:-12s}
+.blog-sky .sc-cloud--front {--cloud-from:-6px;--cloud-to:8px;--cloud-lift:0px;animation-duration:52s;animation-delay:-35s}
+.blog-sky .rk-clouds[data-paused=true] .sc-cloud {animation-play-state:paused}
+@keyframes blog-cloud-drift {
+  from {transform:translate(var(--cloud-from),1px)}
+  to {transform:translate(var(--cloud-to),var(--cloud-lift))}
+}
+html[data-theme=dark] .blog-sky {
+  --sky-cloud-light:#3a5665;--sky-cloud-distance:#294653;
+  --sky-cloud-shade:#233c49;--sky-cloud-front:#233742;
+  background:
+    radial-gradient(ellipse 38% 75% at 96% 0%,#aa92521c,transparent 85%),
+    linear-gradient(180deg,#102b3c,#18394b 65%,#233a46);
+}
+
+/* Persist the archive sky independently of page content. */
+.navigation-sky {position:absolute;top:var(--site-header-height,72px);inset-inline:0;height:640px;overflow:hidden;z-index:-1;pointer-events:none}
+@media(max-width:760px){.navigation-sky {height:540px}}
+@media(prefers-reduced-motion:reduce){.blog-sky .sc-cloud {animation:none;transform:none}}
+@media print {.navigation-sky {display:none}}

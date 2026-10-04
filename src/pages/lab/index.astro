@@ -15,20 +15,6 @@ const selected = projects.filter(({id}) => id in presentations);
 <Base title="项目 · 海波东" description="mind、看云与慕课网 SRE 课程：开发、写作与可靠性工程实践。">
   <div class="lab-gallery">
     <h1 class="sr-only">项目</h1>
-    <div class="lab-atmosphere" aria-hidden="true">
-      <div class="lab-halo lab-halo-cyan"></div>
-      <div class="lab-halo lab-halo-violet"></div>
-      <svg class="lab-contours" viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" fill="none" focusable="false">
-        <g class="lab-orbits" transform="rotate(-18 720 380)">
-          <ellipse cx="720" cy="380" rx="665" ry="248"/><ellipse cx="720" cy="380" rx="707" ry="270"/>
-          <ellipse cx="720" cy="380" rx="750" ry="292"/><ellipse cx="720" cy="380" rx="793" ry="314"/>
-        </g>
-        <g class="lab-floor">
-          <path d="M720 330 40 760M720 330 300 760M720 330 535 760M720 330 905 760M720 330 1140 760M720 330 1400 760"/>
-          <path d="M0 530H1440M0 586H1440M0 662H1440M0 758H1440"/>
-        </g>
-      </svg>
-    </div>
     <div class="lab-grid">
       {selected.map(project => {
         const presentation = presentations[project.id];

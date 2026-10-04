@@ -12,7 +12,6 @@ const sourceSites=people.sites.map(item=>{const source=sources.find(s=>s.id===it
 <div class="explore-page" data-connection-view="discover_view">
 <h1 class="sr-only">发现</h1>
 <section class="discover-intro" aria-labelledby="intro-name">
-  <svg class="intro-contours" viewBox="0 0 1040 220" preserveAspectRatio="none" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="0.7">{Array.from({length:12},(_,i)=><path d={`M ${330+i*15} -20 C ${380+i*15} 75 ${710+i*14} 70 ${730+i*17} 240`}/>)}</g></svg>
   <div class="discover-intro-copy"><h2 id="intro-name">我是{discover.name}</h2><p>{discover.profileIntro}</p><nav class="intro-links" aria-label="了解更多">{[['关于我','about/'],['关于站点','about-site/']].map(([label,href])=><a href={path(href)}>{label}<svg viewBox="0 0 16 16" width="14" height="14" fill="none" aria-hidden="true"><path d="M4 12 12 4M4 4h8v8" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></a>)}</nav></div>
   <div class="discover-focus"><h2><span aria-hidden="true"></span>Focus</h2><ul>{discover.focus.map(item=><li><a href={path(item.href)}><strong>{item.label}</strong><span>{item.description}</span><svg viewBox="0 0 16 16" width="13" height="13" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>)}</ul></div>
 </section>
