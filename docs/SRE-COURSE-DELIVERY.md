@@ -21,3 +21,11 @@
 - 搜索索引保留原 mind / 看云 来源，新增课程来源、完整名称及 URL 均正确。
 - 键盘可依次访问三个项目，站内页面运行时错误为 0。
 - 证据：output/playwright/course-check.txt、course-1440-light.png、course-1440-dark.png、course-768-light.png、course-390-light.png。
+
+## 线上缓存问题与修复
+
+首轮线上检查发现，旧浏览器能看到新课程卡片，但搜索仍返回旧数据。服务端的 search-index.json 已含新课程，而浏览器继续使用 GitHub Pages 允许缓存 600 秒的旧索引。
+
+通过本地真实 HTTP 缓存复现：先缓存不含课程的索引，再发布新索引并往返搜索页。修改前浏览器只请求一次旧索引，无法搜到新课程；修改后 fetch 使用 cache: no-cache 验证索引新鲜度，请求携带 max-age=0，第二次读取获得新课程。来源与课程路径检查保持通过。
+
+证据：output/playwright/course-cache-before.txt（passed: false）与 course-cache-after.txt（passed: true）。修复后重新构建和运行 37 项检查，全部通过。

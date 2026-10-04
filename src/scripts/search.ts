@@ -45,6 +45,7 @@ onPageLoad((signal,onCleanup)=>{
  root.querySelectorAll<HTMLButtonElement>('[data-search-suggestion]').forEach(b=>b.addEventListener('click',()=>{input.value=b.dataset.searchSuggestion!;reset();input.focus();},{signal}));
  [language,category].forEach(el=>el.addEventListener('change',reset,{signal}));clear.addEventListener('click',()=>{language.value='all';category.value='全部';scope='';reset();},{signal});
  for(const [id,direction] of [['previous-page',-1],['next-page',1]] as const)root.querySelector('#'+id)!.addEventListener('click',()=>{page+=direction;render();root!.scrollIntoView({block:'start',behavior:'instant'});},{signal});
- async function load(){retry.hidden=true;status.textContent='正在加载索引…';render();try{const response=await fetch(root!.dataset.index!,{signal});if(!response.ok)throw Error();const data=await response.json();if(!Array.isArray(data))throw Error();if(signal.aborted)return;entries=data;loaded=true;render();}catch{if(signal.aborted)return;status.textContent='暂时无法加载搜索，请重试。';retry.hidden=false;}}
+ // Revalidate the index so returning readers see newly published content.
+ async function load(){retry.hidden=true;status.textContent='正在加载索引…';render();try{const response=await fetch(root!.dataset.index!,{signal,cache:'no-cache'});if(!response.ok)throw Error();const data=await response.json();if(!Array.isArray(data))throw Error();if(signal.aborted)return;entries=data;loaded=true;render();}catch{if(signal.aborted)return;status.textContent='暂时无法加载搜索，请重试。';retry.hidden=false;}}
  retry.addEventListener('click',load,{signal});onCleanup(()=>clearTimeout(timer));load();
 });
