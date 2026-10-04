@@ -1,0 +1,53 @@
+/* One motion vocabulary. Atmospheres stay still; only deliberate actions move. */
+:root {
+  --motion-ease: cubic-bezier(.22, 1, .36, 1);
+  --motion-quick: 180ms;
+  --motion-surface: 360ms;
+  --motion-layout: 640ms;
+}
+#site-header nav { position: relative; }
+#site-header nav .nav-marker {
+  position: absolute; left: 0; bottom: 0; height: 2px;
+  background: var(--ink); pointer-events: none;
+}
+#site-header nav.motion-nav .nav-marker {
+  transition: transform var(--motion-surface) var(--motion-ease), width var(--motion-surface) var(--motion-ease);
+}
+#site-header nav.motion-nav a.active::after { opacity: 0; }
+#site-header nav a, .section-nav a, .footer-group a, .network-actions a {
+  transition: color var(--motion-quick) ease, background-color var(--motion-quick) ease;
+}
+body.site-shell .blog-card, body.site-shell .daily-board .news-card,
+body.site-shell .daily-board .news-grid[data-view=list] .news-card,
+.lab-gallery .lab-project, .explore-now, .explore-connect, .project-card {
+  transition: transform var(--motion-surface) var(--motion-ease),
+    box-shadow var(--motion-surface) var(--motion-ease), border-color var(--motion-surface) ease;
+}
+.intro-links svg, .discover-focus svg, .project-arrow, .lab-action-icon,
+.card-reading-actions button > span, .network-entry h4 a span, .network-communities b {
+  display: inline-block;
+  transition: transform var(--motion-surface) var(--motion-ease), color var(--motion-quick) ease;
+}
+.icon-button, .quiet-button, .result-footer button {
+  transition: transform var(--motion-quick) var(--motion-ease), background-color var(--motion-quick) ease, box-shadow var(--motion-surface) ease;
+}
+.icon-button:active, .quiet-button:active, .result-footer button:active { transform: scale(.96); }
+.icon-button svg { transition: transform 480ms var(--motion-ease); }
+.icon-button[aria-pressed=true] svg { transform: rotate(-18deg); }
+@media (hover:hover) and (pointer:fine) {
+  body.site-shell .blog-card:hover, .project-card:hover { transform: translateY(-3px); box-shadow: var(--lift); }
+  .explore-now:hover, .explore-connect:hover { border-color: color-mix(in srgb, var(--line) 70%, var(--muted)); box-shadow: var(--lift); }
+  .card-reading-actions button:hover > span, .network-entry h4 a:hover span,
+  .network-communities a:hover b { transform: translate(2px, -2px); }
+}
+/* Repeated clicks, Escape and the backdrop all share the same reader exit. */
+body.site-shell .news-reader[open] { animation: reader-enter 380ms var(--motion-ease) both; }
+body.site-shell .news-reader::backdrop { animation: backdrop-enter 300ms ease both; }
+body.site-shell .news-reader[data-closing]::backdrop { animation: motion-backdrop-out 180ms ease both; }
+@keyframes motion-backdrop-out { to { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  body.site-shell .news-reader[open], body.site-shell .news-reader::backdrop { animation: none !important; }
+  #site-header nav.motion-nav .nav-marker { transition: none; }
+  body.site-shell .blog-card:hover, .project-card:hover,
+  .icon-button:active, .quiet-button:active, .result-footer button:active { transform: none; }
+}

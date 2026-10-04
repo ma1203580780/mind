@@ -4,6 +4,7 @@ import '../styles/notebook.css';
 import '../styles/discovery.css';
 import '../styles/shell.css';
 import '../styles/connections.css';
+import '../styles/motion.css';
 import {ClientRouter} from 'astro:transitions';
 import SectionNav from '../components/SectionNav.astro';
 import {sectionForPath} from '../lib/site-navigation.mjs';
@@ -22,6 +23,7 @@ const section=sectionForPath(Astro.url.pathname,path());
 <Analytics/>
 <script>
 import '../scripts/engagement';
+import '../scripts/motion';
 
 import {onPageLoad} from '../scripts/page-lifecycle';
 const reflectTheme=()=>document.querySelector('#theme')?.setAttribute('aria-pressed',String(document.documentElement.dataset.theme==='dark'));

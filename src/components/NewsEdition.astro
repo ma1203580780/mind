@@ -76,6 +76,7 @@ import {track} from '../scripts/analytics';
 import {initDateExpansion} from '../scripts/news-sidebar';
 
 import {initNewsFlow} from '../scripts/news-flow';
+import {animateMotion,reducedMotion} from '../scripts/motion';
 import {onPageLoad} from '../scripts/page-lifecycle';
 onPageLoad((signal,onCleanup)=>{
 if(!document.querySelector('.news-workspace'))return;
@@ -92,7 +93,21 @@ if(workspace&&grid){
  document.querySelectorAll<HTMLImageElement>('.news-figure img,.reader-image img').forEach(img=>{const hide=()=>{const figure=img.closest<HTMLElement>('figure');if(figure)figure.hidden=true;flow.refresh();};img.addEventListener('error',hide);if(img.complete&&!img.naturalWidth)hide();});
  let opener:HTMLButtonElement|null=null;
  document.querySelectorAll<HTMLButtonElement>('[data-reader]').forEach(button=>button.addEventListener('click',()=>{const dialog=document.getElementById(button.dataset.reader!) as HTMLDialogElement|null;if(!dialog)return;opener=button;dialog.showModal();document.documentElement.classList.add('reader-is-open');track('news_expand',{story:dialog.id.replace('reader-','')});}));
- document.querySelectorAll<HTMLDialogElement>('.news-reader').forEach(dialog=>{const close=()=>dialog.close();dialog.querySelector('[data-close-reader]')?.addEventListener('click',close);dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)close();}});dialog.addEventListener('close',()=>{document.documentElement.classList.remove('reader-is-open');opener?.focus({preventScroll:true});});});
+ document.querySelectorAll<HTMLDialogElement>('.news-reader').forEach(dialog=>{
+  const close=()=>{
+   if(!dialog.open||dialog.hasAttribute('data-closing'))return;
+   if(reducedMotion()){dialog.close();return;}
+   const style=getComputedStyle(dialog),opacity=style.opacity,transform=style.transform;
+   dialog.setAttribute('data-closing','');
+   const animation=animateMotion(dialog,[{opacity,transform},{opacity:0,transform:'translateY(8px) scale(.992)'}],{duration:180,easing:'cubic-bezier(.4,0,1,1)',fill:'forwards'},'reader-exit');
+   const finish=()=>{if(signal.aborted)return;dialog.close();dialog.removeAttribute('data-closing');animation?.cancel();};
+   if(animation)animation.finished.then(finish,finish);else finish();
+  };
+  dialog.querySelector('[data-close-reader]')?.addEventListener('click',close,{signal});
+  dialog.addEventListener('cancel',event=>{event.preventDefault();close();},{signal});
+  dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)close();}},{signal});
+  dialog.addEventListener('close',()=>{dialog.removeAttribute('data-closing');document.documentElement.classList.remove('reader-is-open');opener?.focus({preventScroll:true});},{signal});
+ });
  const openHash=()=>{const id=location.hash.slice(1);if(!id.startsWith('reader-'))return;const dialog=document.getElementById(id);if(dialog instanceof HTMLDialogElement&&!dialog.open){opener=[...document.querySelectorAll<HTMLButtonElement>('[data-reader]')].find(b=>b.dataset.reader===id)||null;opener?.click();}};openHash();window.addEventListener('hashchange',openHash,{signal});
  if(workspace.dataset.archive!=='true'&&Date.now()-Date.parse(workspace.dataset.checkedAt!)>36*60*60*1000)document.querySelector<HTMLElement>('#news-stale')!.hidden=false;
 }

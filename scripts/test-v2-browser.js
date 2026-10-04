@@ -7,7 +7,7 @@ async (page) => {
  for(const viewport of [{width:1440,height:1000},{width:390,height:844},{width:320,height:740}]){
   await page.setViewportSize(viewport);await page.goto(base);await page.evaluate(()=>{localStorage.setItem('theme','light');document.documentElement.dataset.theme='light'});
   await check();assert(await page.locator('.home-status').count()===0,'精选页不应展示个人介绍');assert(await page.locator('.news-grid .news-card').count()===5,'精选未复用资讯卡片');assert(await page.locator('.recent-writing .text-entries a').count()>0,'首页缺少文章');
-  await page.locator('.news-grid .news-card .headline-button').first().click();await page.locator('dialog[open]').waitFor();await page.getByRole('button',{name:'关闭阅读'}).click();assert(await page.locator('dialog[open]').count()===0,'精选阅读弹窗未关闭');
+  await page.locator('.news-grid .news-card .headline-button').first().click();await page.locator('dialog[open]').waitFor();await page.getByRole('button',{name:'关闭阅读'}).click();await page.waitForFunction(()=>!document.querySelector('dialog[open]'));assert(await page.locator('dialog[open]').count()===0,'精选阅读弹窗未关闭');
   await nav().getByRole('link',{name:'发现',exact:true}).click();await page.waitForURL('**/discover/');await check();
   assert(await page.locator('.explore-project').count()===3,'项目近况缺失');assert(await page.locator('.explore-connect').count()===1,'连接入口缺失');assert(await nav().getByRole('link',{name:'发现',exact:true}).getAttribute('aria-current')==='page','发现选中态失效');
   await page.screenshot({path:`output/playwright/discover-${viewport.width}-light.png`,fullPage:true});

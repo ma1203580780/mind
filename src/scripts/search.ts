@@ -1,8 +1,11 @@
 import {onPageLoad} from './page-lifecycle';
 import {track} from './analytics';
+import {animateMotion,reducedMotion} from './motion';
 type Entry={id:string;kind:string;title:string;description:string;category:string;tags:string[];demo:boolean;url:string;body:string;date:string;source:string;language:string;issue:string};
 onPageLoad((signal,onCleanup)=>{
  const root=document.querySelector<HTMLElement>('#site-search');if(!root)return;
+ const panel=root.querySelector<HTMLElement>('.search-panel')!;
+ let clearTimer:ReturnType<typeof setTimeout>|undefined,resultAnimation:Animation|null=null;
  const input=root.querySelector<HTMLInputElement>('#query')!,results=root.querySelector<HTMLElement>('#results')!,status=root.querySelector<HTMLElement>('#search-status')!,retry=root.querySelector<HTMLButtonElement>('#retry-index')!,pager=root.querySelector<HTMLElement>('#result-pages')!;
  const language=root.querySelector<HTMLSelectElement>('#content-language')!,category=root.querySelector<HTMLSelectElement>('#content-category')!,clear=root.querySelector<HTMLButtonElement>('#clear-filters')!;
  const params=new URLSearchParams(location.search);let kind=['post','news','work'].includes(params.get('kind')||'')?params.get('kind')!:'all',page=Math.max(1,Number(params.get('page'))||1),scope=params.get('scope')||'',entries:Entry[]=[],loaded=false;
@@ -14,7 +17,10 @@ onPageLoad((signal,onCleanup)=>{
  const normalized=(value:string)=>value.normalize('NFKC').toLowerCase();
  function syncUrl(){const url=new URL(location.href);url.search='';if(input.value.trim())url.searchParams.set('q',input.value.trim());if(kind!=='all')url.searchParams.set('kind',kind);if(kind==='news'){if(language.value!=='all')url.searchParams.set('language',language.value);if(category.value!=='全部')url.searchParams.set('category',category.value);if(scope&&scope!=='history')url.searchParams.set('scope',scope);}if(page>1)url.searchParams.set('page',String(page));history.replaceState(history.state,'',url);}
  function render(){
-  root!.dataset.active=String(Boolean(input.value.trim()));
+  const wasActive=root!.dataset.active==='true',active=Boolean(input.value.trim());
+  clearTimeout(clearTimer);
+  root!.dataset.active=String(active);
+  panel.inert=!active&&root!.dataset.loadState!=='error';
   root!.querySelectorAll<HTMLButtonElement>('[data-search-kind]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.searchKind===kind)));
   root!.querySelector<HTMLElement>('#news-filters')!.hidden=kind!=='news';
   clear.hidden=language.value==='all'&&category.value==='全部'&&(!scope||scope==='history');
@@ -23,8 +29,14 @@ onPageLoad((signal,onCleanup)=>{
   const candidates=entries.filter(e=>terms.every(term=>normalized([e.title,e.description,e.body,e.source,e.category,...e.tags].join(' ')).includes(term)));
   root!.querySelectorAll<HTMLElement>('[data-count]').forEach(el=>el.textContent=q?String(candidates.filter(e=>el.dataset.count==='all'||e.kind===el.dataset.count).length):'');
   const matches=candidates.filter(e=>(kind==='all'||e.kind===kind)&&(kind!=='news'||((language.value==='all'||e.language===language.value)&&(category.value==='全部'||e.category===category.value)&&(!scope||scope==='history'||e.issue===scope))));
+  if(!q){
+   // Let the old result panel fade while the grid reverses toward its centre.
+   const empty=()=>{results.replaceChildren();status.textContent='';pager.hidden=true;};
+   if(wasActive&&!reducedMotion())clearTimer=setTimeout(empty,170);else empty();
+   page=1;syncUrl();return;
+  }
+  const oldResults=results.textContent;
   results.replaceChildren();
-  if(!q){status.textContent='';pager.hidden=true;page=1;syncUrl();return;}
   const pages=Math.max(1,Math.ceil(matches.length/20));page=Math.min(pages,Math.max(1,Math.floor(page)));
   status.textContent=`找到 ${matches.length} 条${scope&&scope!=='history'?' · 收录日期 '+scope:''}`;pager.hidden=matches.length<=20;
   for(const entry of matches.slice((page-1)*20,page*20)){
@@ -36,6 +48,7 @@ onPageLoad((signal,onCleanup)=>{
    card.append(meta,h,node('p',excerpt));results.append(card);
   }
   if(!matches.length)results.append(node('div','没有找到相关内容，试试更短的关键词。','reading-empty'));
+  if(wasActive&&oldResults!==results.textContent){resultAnimation?.cancel();resultAnimation=animateMotion(results,[{opacity:.65,translate:'0 4px'},{opacity:1,translate:'0 0'}],{duration:220},'search-results');}
   root!.querySelector<HTMLButtonElement>('#previous-page')!.disabled=page<=1;root!.querySelector<HTMLButtonElement>('#next-page')!.disabled=page>=pages;root!.querySelector('#page-label')!.textContent=`${page} / ${pages}`;syncUrl();
  }
  const reset=()=>{page=1;render();};let timer:ReturnType<typeof setTimeout>;
@@ -46,6 +59,6 @@ onPageLoad((signal,onCleanup)=>{
  [language,category].forEach(el=>el.addEventListener('change',reset,{signal}));clear.addEventListener('click',()=>{language.value='all';category.value='全部';scope='';reset();},{signal});
  for(const [id,direction] of [['previous-page',-1],['next-page',1]] as const)root.querySelector('#'+id)!.addEventListener('click',()=>{page+=direction;render();root!.scrollIntoView({block:'start',behavior:'instant'});},{signal});
  // Revalidate the index so returning readers see newly published content.
- async function load(){retry.hidden=true;status.textContent='正在加载索引…';render();try{const response=await fetch(root!.dataset.index!,{signal,cache:'no-cache'});if(!response.ok)throw Error();const data=await response.json();if(!Array.isArray(data))throw Error();if(signal.aborted)return;entries=data;loaded=true;render();}catch{if(signal.aborted)return;status.textContent='暂时无法加载搜索，请重试。';retry.hidden=false;}}
- retry.addEventListener('click',load,{signal});onCleanup(()=>clearTimeout(timer));load();
+ async function load(){root!.dataset.loadState='loading';retry.hidden=true;status.textContent='正在加载索引…';render();try{const response=await fetch(root!.dataset.index!,{signal,cache:'no-cache'});if(!response.ok)throw Error();const data=await response.json();if(!Array.isArray(data))throw Error();if(signal.aborted)return;entries=data;loaded=true;root!.dataset.loadState='ready';render();}catch{if(signal.aborted)return;root!.dataset.loadState='error';panel.inert=false;status.textContent='暂时无法加载搜索，请重试。';retry.hidden=false;}}
+ retry.addEventListener('click',load,{signal});onCleanup(()=>{clearTimeout(timer);clearTimeout(clearTimer);resultAnimation?.cancel();});load();
 });

@@ -95,8 +95,14 @@ body.site-shell:has(.search-canvas) .footer-bottom{padding-top:8px;line-height:1
 .search-canvas,.search-canvas:has(.search-list:not(:empty)){padding:24px 32px;background:radial-gradient(ellipse at 52% 50%,#719aaa0c,transparent 65%)}
 .search-canvas:before{content:'';position:absolute;z-index:-1;pointer-events:none;inset:12% 10%;background:radial-gradient(ellipse at 37% 49%,#8cbfc51b,transparent 42%),radial-gradient(ellipse at 65% 52%,#a3a5cf13,transparent 40%);filter:blur(22px)}
 .search-waves{color:#6e9ba7;opacity:.15}
-.search-canvas #site-search{justify-content:center;width:100%;max-width:720px}
-.search-canvas #site-search[data-active=true]{justify-content:flex-start}
+.search-canvas #site-search{display:grid;width:100%;max-width:720px;grid-template-rows:minmax(0,1fr) auto minmax(0,1fr);transition:grid-template-rows var(--motion-layout,640ms) var(--motion-ease,cubic-bezier(.22,1,.36,1))}
+.search-canvas #site-search:before{content:'';grid-row:1;min-height:0;pointer-events:none}
+.search-canvas #site-search[data-active=true]{grid-template-rows:minmax(0,0fr) auto minmax(0,2fr)}
+.search-canvas #site-search>.search-form{grid-row:2;min-width:0}
+.search-panel{grid-row:3;min-height:0;min-width:0;display:flex;flex-direction:column;overflow:hidden;opacity:0;translate:0 8px;visibility:hidden;pointer-events:none;transition:opacity 160ms ease,translate 320ms var(--motion-ease),visibility 0s 160ms}
+#site-search[data-active=true]>.search-panel,#site-search[data-load-state=error]>.search-panel{opacity:1;translate:0 0;visibility:visible;pointer-events:auto;transition:opacity 280ms ease 120ms,translate 440ms var(--motion-ease) 100ms,visibility 0s}
+.search-panel>#retry-index{align-self:flex-start;margin-top:12px}
+@media(prefers-reduced-motion:reduce){.search-canvas #site-search,.search-panel,#site-search[data-active=true]>.search-panel,#site-search[data-load-state=error]>.search-panel{transition:none;translate:none}}
 .search-canvas .search-list:empty{margin:0;padding:0}
 .search-canvas .search-form{position:relative;isolation:isolate;min-height:72px;padding:12px 16px 12px 28px;border:1px solid transparent;border-radius:14px;background:color-mix(in srgb,var(--paper) 52%,transparent);backdrop-filter:blur(14px);box-shadow:0 12px 48px #31536405,0 0 36px #88b9c207;transition:background .2s,box-shadow .2s}
 .search-canvas .search-form:before,.search-canvas .search-form:after{content:'';position:absolute;left:8%;right:8%;height:1px;pointer-events:none;background:linear-gradient(90deg,transparent,#8cacba38 30%,#94a6c72e 70%,transparent)}
