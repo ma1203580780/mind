@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "currency": "CNY",
+  "tail_costs": [
+    "0.10",
+    "0.10",
+    "0.10",
+    "0.10",
+    "0.10",
+    "0.10",
+    "0.10",
+    "0.10",
+    "0.10",
+    "5.00"
+  ],
+  "routing": {
+    "tasks": 1000,
+    "cheap_accuracy": "0.80",
+    "error_detection": "0.90",
+    "false_rejection": "0.05",
+    "cheap_cost": "0.10",
+    "verification_cost": "0.02",
+    "fallback_cost": "0.20",
+    "fallback_accuracy": "1.00",
+    "direct_cost": "0.20",
+    "direct_accuracy": "1.00"
+  },
+  "budget_curve": [
+    {
+      "config": "S1",
+      "cost": 30,
+      "accepted": 60
+    },
+    {
+      "config": "S2",
+      "cost": 50,
+      "accepted": 75
+    },
+    {
+      "config": "S3",
+      "cost": 90,
+      "accepted": 80
+    },
+    {
+      "config": "S4",
+      "cost": 110,
+      "accepted": 80
+    }
+  ]
+}

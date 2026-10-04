@@ -1,0 +1,122 @@
+{
+  "synthetic": true,
+  "scope": "固定快照，共8条记录；主题预先给定，仅验证枚举与版本去重，不测语义分类。",
+  "notes": [
+    {
+      "id": "N1",
+      "entity_id": "rag-01",
+      "revision": 1,
+      "topic": "RAG",
+      "text": "先合并关键词与语义检索，再检查版本。"
+    },
+    {
+      "id": "N2",
+      "entity_id": "rag-01",
+      "revision": 2,
+      "topic": "RAG",
+      "text": "修订 N1：融合增加候选，版本适用性仍需单独检查。"
+    },
+    {
+      "id": "N3",
+      "entity_id": "rag-02",
+      "revision": 1,
+      "topic": "RAG",
+      "text": "统计全部笔记时先枚举对象，不能只拿相似片段。"
+    },
+    {
+      "id": "N4",
+      "entity_id": "memory-01",
+      "revision": 1,
+      "topic": "Memory",
+      "text": "任务例外不应覆盖全局默认。"
+    },
+    {
+      "id": "N5",
+      "entity_id": "memory-02",
+      "revision": 1,
+      "topic": "Memory",
+      "text": "撤销偏好后，派生摘要也应失效。"
+    },
+    {
+      "id": "N6",
+      "entity_id": "memory-03",
+      "revision": 1,
+      "topic": "Memory",
+      "text": "经验只有在下一项不同任务中有用，才值得升级为规则。"
+    },
+    {
+      "id": "N7",
+      "entity_id": "cost-01",
+      "revision": 1,
+      "topic": "Cost",
+      "text": "保留失败尝试的费用。"
+    },
+    {
+      "id": "N8",
+      "entity_id": "cost-02",
+      "revision": 1,
+      "topic": "Cost",
+      "text": "错误放行可能让便宜流程看上去更便宜。"
+    }
+  ],
+  "documents": [
+    {
+      "id": "D1",
+      "version": "2.4",
+      "text": "离线可导出 Markdown 正文，导出文件不包含图片文件。"
+    },
+    {
+      "id": "D2",
+      "version": "3.1",
+      "text": "联网后可以生成包含附件的 ZIP。"
+    },
+    {
+      "id": "D3",
+      "version": "2.4",
+      "text": "图片位于 assets 目录；迁移时需要一并复制并保持相对路径。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "2.4 版离线能否导出正文？",
+      "required_evidence": [
+        "D1"
+      ],
+      "answer": "可以，但不包含图片文件。"
+    },
+    {
+      "id": "Q2",
+      "question": "2.4 版离线怎样带走正文和图片？",
+      "required_evidence": [
+        "D1",
+        "D3"
+      ],
+      "answer": "离线导出正文，并复制 assets 目录、保持相对路径。"
+    },
+    {
+      "id": "Q3",
+      "question": "D2 能否证明 2.4 版离线一键打包？",
+      "answer": "不能，版本与联网条件都不符合。"
+    },
+    {
+      "id": "Q4",
+      "question": "去除旧修订后有多少独立笔记？",
+      "answer": 7
+    },
+    {
+      "id": "Q5",
+      "question": "哪类独立笔记最多？",
+      "answer": {
+        "RAG": 2,
+        "Memory": 3,
+        "Cost": 2
+      }
+    },
+    {
+      "id": "Q6",
+      "question": "离线导出要几分钟？",
+      "answer": "材料未提供，不能给出分钟数。"
+    }
+  ]
+}

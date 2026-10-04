@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "style": "Josh Comeau tutorial + Macaron UI4A primitives",
+  "components": {
+    "Thesis": {
+      "class": "rk-callout",
+      "tone": "info"
+    },
+    "Experiment": {
+      "class": "rk-callout",
+      "tone": "info"
+    },
+    "Caveat": {
+      "class": "rk-callout",
+      "tone": "warning"
+    },
+    "FailureCase": {
+      "class": "rk-callout",
+      "tone": "warning"
+    },
+    "Takeaway": {
+      "class": "rk-callout",
+      "tone": "success"
+    },
+    "Formula": {
+      "class": "rk-callout",
+      "tone": "info"
+    },
+    "Flow": {
+      "class": "rk-playground"
+    },
+    "LayerStack": {
+      "class": "rk-playground"
+    },
+    "Tabs": {
+      "class": "rk-playground"
+    },
+    "MetricBars": {
+      "class": "rk-playground"
+    },
+    "Calculator": {
+      "class": "rk-playground"
+    },
+    "Checklist": {
+      "class": "rk-card"
+    },
+    "Chapter": {
+      "class": ""
+    },
+    "Prose": {
+      "class": ""
+    },
+    "Figure": {
+      "class": ""
+    },
+    "EvidenceTable": {
+      "class": ""
+    },
+    "SplitCompare": {
+      "class": ""
+    },
+    "SourceNotes": {
+      "class": ""
+    },
+    "Quote": {
+      "class": ""
+    },
+    "DecisionTree": {
+      "class": ""
+    }
+  }
+}

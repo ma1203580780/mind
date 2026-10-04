@@ -1,0 +1,118 @@
+{
+  "disclaimer": "确定性教学重算通过；不是模型或真实产品的评测结果。",
+  "rag": {
+    "raw_records": 8,
+    "unique_notes": 7,
+    "topic_counts": {
+      "RAG": 2,
+      "Memory": 3,
+      "Cost": 2
+    },
+    "excluded_old_revision": [
+      "N1"
+    ]
+  },
+  "memory": [
+    {
+      "event": "E1",
+      "state": {
+        "blog": 18,
+        "demo": null
+      },
+      "write": "applied"
+    },
+    {
+      "event": "E2",
+      "state": {
+        "blog": 16,
+        "demo": null
+      },
+      "write": "applied"
+    },
+    {
+      "event": "E3",
+      "state": {
+        "blog": 16,
+        "demo": 20
+      },
+      "write": "applied"
+    },
+    {
+      "event": "E4",
+      "state": {
+        "blog": 16,
+        "demo": null
+      },
+      "write": "applied"
+    },
+    {
+      "event": "E5",
+      "state": {
+        "blog": null,
+        "demo": null
+      },
+      "write": "applied"
+    },
+    {
+      "event": "E6",
+      "state": {
+        "blog": null,
+        "demo": null
+      },
+      "write": "rejected"
+    },
+    {
+      "event": "E7",
+      "state": {
+        "blog": 17,
+        "demo": null
+      },
+      "write": "applied"
+    }
+  ],
+  "cost": {
+    "ledger": {
+      "A": {
+        "cost": "18.00",
+        "accepted": 50,
+        "cost_per_accepted": "0.36",
+        "completion_cost_assuming_rescue": "28.00"
+      },
+      "B": {
+        "cost": "25.00",
+        "accepted": 95,
+        "cost_per_accepted": "0.2631578947368421052631578947",
+        "completion_cost_assuming_rescue": "26.00"
+      }
+    },
+    "routing": {
+      "fallbacks": 220,
+      "undetected_errors": 20,
+      "actual_correct": 980,
+      "cost_yuan": "164.000000",
+      "error_loss_break_even_yuan": "1.80"
+    },
+    "tail": {
+      "mean": "0.59",
+      "median": "0.10",
+      "largest_share": "0.8474576271186440677966101695"
+    },
+    "marginal": [
+      {
+        "to": "S2",
+        "extra_successes": 15,
+        "cost_per_extra_success": "1.333333333333333333333333333"
+      },
+      {
+        "to": "S3",
+        "extra_successes": 5,
+        "cost_per_extra_success": "8"
+      },
+      {
+        "to": "S4",
+        "extra_successes": 0,
+        "cost_per_extra_success": null
+      }
+    ]
+  }
+}

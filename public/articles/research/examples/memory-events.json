@@ -1,0 +1,83 @@
+{
+  "synthetic": true,
+  "warning": "预标注操作和作用范围；不是自然语言解析器。撤销仅演示当前状态，不声称实现存储物理擦除。",
+  "events": [
+    {
+      "id": "E1",
+      "op": "set",
+      "scope": "blog",
+      "value": 18,
+      "text": "博客正文以后默认用18px",
+      "expected": {
+        "blog": 18,
+        "demo": null
+      }
+    },
+    {
+      "id": "E2",
+      "op": "set",
+      "scope": "blog",
+      "value": 16,
+      "text": "博客正文以后改为16px",
+      "expected": {
+        "blog": 16,
+        "demo": null
+      }
+    },
+    {
+      "id": "E3",
+      "op": "exception",
+      "scope": "demo",
+      "value": 20,
+      "text": "本次演示页用20px",
+      "expected": {
+        "blog": 16,
+        "demo": 20
+      }
+    },
+    {
+      "id": "E4",
+      "op": "end",
+      "scope": "demo",
+      "text": "本次演示结束",
+      "expected": {
+        "blog": 16,
+        "demo": null
+      }
+    },
+    {
+      "id": "E5",
+      "op": "revoke",
+      "scope": "blog",
+      "text": "忘掉我的字号偏好",
+      "expected": {
+        "blog": null,
+        "demo": null
+      }
+    },
+    {
+      "id": "E6",
+      "op": "derived_write",
+      "scope": "blog",
+      "base_revision": 1,
+      "value": 18,
+      "text": "基于E1的旧摘要迟到",
+      "expected": {
+        "blog": null,
+        "demo": null
+      },
+      "expected_write": "rejected"
+    },
+    {
+      "id": "E7",
+      "op": "set",
+      "scope": "blog",
+      "value": 17,
+      "text": "博客正文以后用17px",
+      "expected": {
+        "blog": 17,
+        "demo": null
+      }
+    }
+  ]
+}

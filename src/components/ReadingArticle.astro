@@ -1,0 +1,30 @@
+---
+import '../styles/reading-kit/index.css';
+import Analytics from './Analytics.astro';
+import {path} from '../site';
+const {article,post}=Astro.props;
+const canonical=new URL(Astro.url.pathname,Astro.site);
+const html=article.html.replaceAll('__BASE__',path());
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={article.description} />
+    <meta name="theme-color" content="#c5eafc" />
+    <title>{article.title} · 海波东</title>
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={path('favicon.svg')} />
+    <link rel="alternate" type="application/rss+xml" title="海波东 · 博客" href={path('rss.xml')} />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content={article.title} />
+    <meta property="og:description" content={article.description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="article:published_time" content={post.data.date.toISOString()} />
+  </head>
+  <body style="margin:0"><Fragment set:html={html} /><Analytics/></body>
+</html>
+<script>
+import '../scripts/editorial-reader.js';
+</script>

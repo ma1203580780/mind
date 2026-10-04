@@ -1,0 +1,14 @@
+{
+  "rag-retrieval-evidence": {
+    "variant": "atlas",
+    "topic": "检索与证据"
+  },
+  "memory-hot-warm-cold": {
+    "variant": "notebook",
+    "topic": "记忆与上下文"
+  },
+  "cost-per-usable-result": {
+    "variant": "lab",
+    "topic": "工程、评测与成本"
+  }
+}
