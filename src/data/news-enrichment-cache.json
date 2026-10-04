@@ -2330,6 +2330,20 @@
       "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox"
+    },
+    "https://www.qbitai.com/2026/10/501605.html": {
+      "checkedAt": "2026-10-04T12:23:48.073367+00:00",
+      "description": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/e2984150ec85437b3bdb47545d79cc74.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/501605.html"
+    },
+    "https://www.qbitai.com/2026/10/501506.html": {
+      "checkedAt": "2026-10-04T12:23:48.073367+00:00",
+      "description": "什么是FDE？它会一直存在吗？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/2bd7f0d422ccc3ca5f1af6c019301bb1.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/501506.html"
     }
   }
 }
