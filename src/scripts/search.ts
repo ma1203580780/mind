@@ -6,7 +6,8 @@ onPageLoad((signal,onCleanup)=>{
  const input=root.querySelector<HTMLInputElement>('#query')!,results=root.querySelector<HTMLElement>('#results')!,status=root.querySelector<HTMLElement>('#search-status')!,retry=root.querySelector<HTMLButtonElement>('#retry-index')!,pager=root.querySelector<HTMLElement>('#result-pages')!;
  const language=root.querySelector<HTMLSelectElement>('#content-language')!,category=root.querySelector<HTMLSelectElement>('#content-category')!,clear=root.querySelector<HTMLButtonElement>('#clear-filters')!;
  const params=new URLSearchParams(location.search);let kind=['post','news','work'].includes(params.get('kind')||'')?params.get('kind')!:'all',page=Math.max(1,Number(params.get('page'))||1),scope=params.get('scope')||'',entries:Entry[]=[],loaded=false;
- input.value=params.get('q')||'';
+ // Keep text entered before the route script finishes loading.
+ if(!input.value)input.value=params.get('q')||'';
  language.value=['zh','en'].includes(params.get('language')||'')?params.get('language')!:'all';category.value=params.get('category')||'全部';if(!category.value)category.value='全部';
  if(kind!=='news'){scope='';language.value='all';category.value='全部';}
  const node=(tag:string,text:string,cls='')=>{const el=document.createElement(tag);el.textContent=text;el.className=cls;return el;};
