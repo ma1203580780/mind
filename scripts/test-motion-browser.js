@@ -69,23 +69,30 @@ async page => {
   await page.evaluate(() => {
     window.motionRoutes = [];
     document.addEventListener('astro:page-load', () => {
-      requestAnimationFrame(() => window.motionRoutes.push({path:location.pathname,
-        count:document.getAnimations().filter(a => a.id === 'mind:reveal').length}));
+      const path = location.pathname;
+      requestAnimationFrame(() => {
+        window.motionRoutes.push({path, count:document.getAnimations().filter(a => a.id === 'mind:reveal').length});
+        window.motionReadyPath = path;
+      });
     });
   });
   const routes = [['发现','discover'],['项目','lab'],['博客','archive'],['资讯','news'],['搜索','search']];
-  const shell = await page.locator('#site-header').evaluate(el => { el.dataset.motionTest = 'persistent'; return true; });
+  await page.locator('#site-header').evaluate(el => { el.dataset.motionTest = 'persistent'; });
   for (const [label, route] of routes) {
     await page.locator('#site-header').getByRole('link', {name:label,exact:true}).click();
-    await page.waitForURL('**/mind/' + route + '/'); await settle();
+    await page.waitForURL('**/mind/' + route + '/');
+    await page.waitForFunction(route => window.motionReadyPath === '/mind/' + route + '/', route);
+    await settle();
     assert(await page.locator('#site-header').getAttribute('data-motion-test') === 'persistent', '顶栏重新创建');
     assert(await page.locator('#site-header .nav-marker').count() === 1, '导航下划线重复');
     assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), '页面动画产生横向溢出');
   }
   const routeMotion = await page.evaluate(() => window.motionRoutes);
   for (const [,route] of routes.slice(0,4)) assert(routeMotion.some(r => r.path.endsWith('/'+route+'/') && r.count > 0), '缺少页面入场动效: '+route);
-  await page.goBack(); await page.waitForURL('**/mind/news/'); await settle();
-  await page.goForward(); await page.waitForURL('**/mind/search/'); await settle();
+  await page.goBack(); await page.waitForURL('**/mind/news/');
+  await page.waitForFunction(() => window.motionReadyPath === '/mind/news/'); await settle();
+  await page.goForward(); await page.waitForURL('**/mind/search/');
+  await page.waitForFunction(() => window.motionReadyPath === '/mind/search/'); await settle();
   await page.goto(base); await settle();
   const trigger = page.locator('.headline-button').first();
   for (const method of ['button','escape','backdrop']) {
