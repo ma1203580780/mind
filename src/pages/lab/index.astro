@@ -8,10 +8,11 @@ import '../../styles/project-gallery.css';
 const presentations: Record<string, {title: string; summary: string; action: string}> = {
   mind: {title: 'mind', summary: '个人博客与资讯阅读站', action: '查看源码'},
   kancloud: {title: '看云', summary: '技术知识与实践文档', action: '阅读专栏'},
+  'sre-course': {title: '0 基础吃透 SRE', summary: '慕课网 · 站点可靠性工程', action: '查看课程'},
 };
 const selected = projects.filter(({id}) => id in presentations);
 ---
-<Base title="项目 · 海波东" description="mind，个人博客与资讯阅读站；看云，技术知识与实践文档。">
+<Base title="项目 · 海波东" description="mind、看云与慕课网 SRE 课程：开发、写作与可靠性工程实践。">
   <div class="lab-gallery">
     <h1 class="sr-only">项目</h1>
     <div class="lab-atmosphere" aria-hidden="true">

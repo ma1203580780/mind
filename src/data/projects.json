@@ -12,7 +12,8 @@
       "TypeScript",
       "GitHub Pages"
     ],
-    "updatedAt": "2026-10-04"
+    "updatedAt": "2026-10-04",
+    "source": "GitHub"
   },
   {
     "id": "kancloud",
@@ -26,6 +27,24 @@
       "技术写作",
       "知识整理"
     ],
-    "updatedAt": null
+    "updatedAt": null,
+    "source": "看云"
+  },
+  {
+    "id": "sre-course",
+    "name": "0基础吃透SRE：技术深耕与职业跃迁新范式",
+    "status": "published",
+    "description": "围绕可观测性、故障治理与云原生，系统学习站点可靠性工程。",
+    "progress": "课程已完结，可在慕课网学习完整课程。",
+    "github": "",
+    "url": "https://coding.imooc.com/class/906.html",
+    "stack": [
+      "SRE",
+      "可观测性",
+      "云原生",
+      "AIOps"
+    ],
+    "updatedAt": null,
+    "source": "慕课网"
   }
 ]

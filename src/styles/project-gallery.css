@@ -10,7 +10,7 @@ body.site-shell main:has(> .lab-gallery) {
   --lab-card-top: #ffffffef; --lab-card-bottom: #eef4f8a6;
   --lab-card-edge: #ffffffd9; --lab-card-ink: #263641; --lab-card-muted: #677780;
   --lab-shadow: 0 2px 5px #263c4f04, 0 20px 44px -20px #2d4b6330, 0 48px 80px -54px #28476255;
-  width: 100%; max-width: 1040px; margin-inline: auto;
+  width: 100%; max-width: 1128px; margin-inline: auto;
 }
 .lab-atmosphere { position: absolute; z-index: -1; inset: 0; overflow: hidden; pointer-events: none; }
 .lab-atmosphere::after {
@@ -22,7 +22,7 @@ body.site-shell main:has(> .lab-gallery) {
 .lab-halo-violet { top: -18%; right: -15%; background: radial-gradient(ellipse, #d4d9eca3, #e2e5f436 50%, transparent 70%); }
 .lab-contours { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--lab-orbit); stroke: currentColor; stroke-width: .7; }
 .lab-orbits { opacity: .15; }.lab-floor { opacity: .075; }
-.lab-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; gap: 28px; }
+.lab-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch; gap: 22px; }
 .lab-project {
   position: relative; min-width: 0; border-radius: 26px;
   background: linear-gradient(155deg, var(--lab-card-top), var(--lab-card-bottom));
@@ -36,9 +36,11 @@ body.site-shell main:has(> .lab-gallery) {
 }
 .lab-project[data-project=kancloud] { --lab-card-bottom: #eef0faa6; --lab-accent: #66739a; }
 .lab-project[data-project=kancloud]::before { background: radial-gradient(ellipse at 52% 27%, #bec5ef2b, transparent 62%); }
+.lab-project[data-project=sre-course] { --lab-card-bottom: #f7f2e8a6; --lab-accent: #867654; }
+.lab-project[data-project=sre-course]::before { background: radial-gradient(ellipse at 52% 27%, #efe0b62b, transparent 62%); }
 .lab-project-link {
-  position: relative; display: flex; flex-direction: column; min-height: 490px;
-  padding: 27px 32px 24px; border-radius: inherit; color: var(--lab-card-ink); text-decoration: none;
+  position: relative; display: flex; flex-direction: column; min-height: 470px;
+  padding: 24px 26px 23px; border-radius: inherit; color: var(--lab-card-ink); text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
 .lab-project-meta { display: flex; justify-content: space-between; align-items: center; height: 24px; color: var(--lab-card-muted); }
@@ -46,13 +48,14 @@ body.site-shell main:has(> .lab-gallery) {
 .lab-status i { width: 5px; height: 5px; border-radius: 50%; background: #7582a8; box-shadow: 0 0 0 4px #7582a80a; }
 .lab-status[data-status=active] i { background: #679589; box-shadow: 0 0 0 4px #6795890c; }
 .lab-mark { width: 19px; height: 19px; opacity: .48; }
-.lab-project-visual { display: grid; place-items: center; flex: 1; min-height: 245px; margin: -8px -23px -5px; pointer-events: none; }
-.lab-project-visual svg { display: block; width: 100%; max-height: 285px; overflow: visible; }
+.lab-project-visual { display: grid; place-items: center; flex: 1; min-height: 225px; margin: -8px -20px -5px; pointer-events: none; }
+.lab-project-visual svg { display: block; width: 100%; max-height: 250px; overflow: visible; }
 .lab-art-shadow { opacity: .23; }.lab-art-guides { color: var(--lab-accent); opacity: .18; }
 .lab-art-object { transform-origin: 50% 52%; transition: transform .5s cubic-bezier(.2,.65,.3,1); }
 .lab-project-copy { position: relative; }
-.lab-project-copy h2 { margin: 0 0 9px; color: var(--lab-card-ink); font-size: 34px; font-weight: 550; line-height: 1.15; letter-spacing: -.045em; }
-.lab-project[data-project=kancloud] h2 { font-size: 30px; letter-spacing: -.035em; }
+.lab-project-copy h2 { margin: 0 0 9px; color: var(--lab-card-ink); font-size: 30px; font-weight: 550; line-height: 1.25; letter-spacing: -.045em; }
+.lab-project[data-project=kancloud] h2 { font-size: 28px; letter-spacing: -.035em; }
+.lab-project[data-project=sre-course] h2 { font-size: 24px; line-height: 1.46; letter-spacing: -.025em; }
 .lab-project-copy p { color: var(--lab-card-muted); margin: 0; font-size: 13px; line-height: 1.8; }
 .lab-project-action { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 22px; font-size: 12px; font-weight: 500; }
 .lab-action-icon {
@@ -77,6 +80,7 @@ html[data-theme=dark] .lab-halo-cyan { background: radial-gradient(ellipse, #447
 html[data-theme=dark] .lab-halo-violet { background: radial-gradient(ellipse, #4d568c99, #34365030 50%, transparent 70%); }
 html[data-theme=dark] .lab-project { box-shadow: var(--lab-shadow), inset 0 1px 0 #e2f3ff14; }
 html[data-theme=dark] .lab-project[data-project=kancloud] { --lab-card-top: #2c3042e8; --lab-card-bottom: #242939e8; --lab-accent: #bec7e4; }
+html[data-theme=dark] .lab-project[data-project=sre-course] { --lab-card-top: #36372ee8; --lab-card-bottom: #2e3029e8; --lab-accent: #d4c7a2; }
 html[data-theme=dark] .lab-project::before { opacity: .45; }
 html[data-theme=dark] .lab-art-shadow { fill: #050a14; opacity: .7; }
 html[data-theme=dark] .lab-art-guides { opacity: .23; }
@@ -92,6 +96,19 @@ html[data-theme=dark] .lab-action-icon { background: #bacfe50c; border-color: #b
   .lab-project-link { min-height: 420px; padding-top: 22px; padding-bottom: 20px; }
   .lab-project-visual { min-height: 190px; }.lab-project-visual svg { max-height: 225px; }
   .lab-project-action { margin-top: 15px; }
+}
+@media (min-width: 761px) and (max-width: 1000px) {
+  body.site-shell main:has(> .lab-gallery) { padding-block: 30px; }
+  .lab-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lab-project-link { min-height: 400px; }
+  .lab-project-visual { min-height: 195px; }.lab-project-visual svg { max-height: 225px; }
+  .lab-project[data-project=sre-course] { grid-column: 1 / -1; }
+  .lab-project[data-project=sre-course] .lab-project-link { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto 1fr auto; column-gap: 30px; min-height: 230px; }
+  .lab-project[data-project=sre-course] .lab-project-visual { grid-column: 1; grid-row: 1 / 4; min-height: 0; margin: -12px -8px; }
+  .lab-project[data-project=sre-course] .lab-project-visual svg { max-height: 210px; }
+  .lab-project[data-project=sre-course] .lab-project-meta { grid-column: 2; grid-row: 1; }
+  .lab-project[data-project=sre-course] .lab-project-copy { grid-column: 2; grid-row: 2; align-self: center; }
+  .lab-project[data-project=sre-course] .lab-project-action { grid-column: 2; grid-row: 3; margin-top: 0; }
 }
 @media (max-width: 760px) {
   body.site-shell main:has(> .lab-gallery) { padding: 28px 20px 40px; }
