@@ -102,7 +102,7 @@ body.site-shell[data-page-family=utility] #site-search[data-load-state=error]>.s
 body.site-shell[data-page-family=utility] .search-canvas .search-list:not(:empty) {padding:0 4px 12px;background:transparent}
 body.site-shell[data-page-family=utility]:has(.search-canvas) .site-footer {margin-top:0;padding-block:16px}
 /* A single glass surface carries focus; the text field never draws an inner box. */
-body.site-shell[data-page-family=utility] .search-form {
+body.site-shell[data-page-family=utility] .search-canvas .search-form {
   --search-surface:color-mix(in srgb,var(--paper) 76%,transparent);
   --search-focus-surface:color-mix(in srgb,var(--paper) 92%,transparent);
   --search-light:color-mix(in srgb,var(--blue) 15%,transparent);
@@ -111,13 +111,13 @@ body.site-shell[data-page-family=utility] .search-form {
   box-shadow:0 12px 36px -22px var(--search-light);padding:12px 16px 12px 24px;
   transition:background 180ms ease-out,box-shadow 180ms ease-out;
 }
-body.site-shell[data-page-family=utility] .search-form:focus-within {
+body.site-shell[data-page-family=utility] .search-canvas .search-form:focus-within {
   border:0;background:var(--search-focus-surface);
   box-shadow:0 12px 40px -18px var(--search-light),0 0 36px -12px var(--search-light);
 }
-body.site-shell[data-page-family=utility] .search-form input,
-body.site-shell[data-page-family=utility] .search-form input:focus,
-body.site-shell[data-page-family=utility] .search-form input:focus-visible {
+body.site-shell[data-page-family=utility] .search-canvas .search-form input,
+body.site-shell[data-page-family=utility] .search-canvas .search-form input:focus,
+body.site-shell[data-page-family=utility] .search-canvas .search-form input:focus-visible {
   border:0;outline:none;box-shadow:none;background:transparent;
   font-size:var(--type-body);caret-color:var(--blue);
 }
@@ -131,12 +131,12 @@ body.site-shell[data-page-family=utility] .search-canvas .search-form .search-su
 body.site-shell[data-page-family=utility] .search-canvas .search-form .search-submit:focus-visible {
   box-shadow:0 0 20px color-mix(in srgb,var(--blue) 18%,transparent);
 }
-html[data-theme=dark] body.site-shell[data-page-family=utility] .search-form {
+html[data-theme=dark] body.site-shell[data-page-family=utility] .search-canvas .search-form {
   --search-surface:color-mix(in srgb,var(--surface) 76%,transparent);
   --search-focus-surface:color-mix(in srgb,var(--surface) 94%,transparent);
 }
 @media(forced-colors:active) {
-  body.site-shell[data-page-family=utility] .search-form {outline:1px solid CanvasText}
+  body.site-shell[data-page-family=utility] .search-canvas .search-form {outline:1px solid CanvasText}
   body.site-shell[data-page-family=utility] .search-canvas .search-form :is(input,.search-submit):focus-visible {outline:2px solid Highlight;outline-offset:3px}
 }
 body.site-shell[data-page-family=utility] :is(.search-list .search-result,.source-stat-bar) {border:0;border-radius:18px;background:var(--paper);box-shadow:var(--shadow);padding:20px;margin-bottom:12px}
