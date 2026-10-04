@@ -101,10 +101,44 @@ body.site-shell[data-page-family=utility] #site-search[data-active=true]>.search
 body.site-shell[data-page-family=utility] #site-search[data-load-state=error]>.search-panel {translate:none;transition:opacity 140ms ease-out}
 body.site-shell[data-page-family=utility] .search-canvas .search-list:not(:empty) {padding:0 4px 12px;background:transparent}
 body.site-shell[data-page-family=utility]:has(.search-canvas) .site-footer {margin-top:0;padding-block:16px}
-body.site-shell[data-page-family=utility] .search-form {border:1px solid var(--line);border-radius:20px;background:var(--paper);box-shadow:var(--shadow);padding:12px 16px 12px 24px}
-body.site-shell[data-page-family=utility] .search-form:focus-within {border-color:var(--blue);box-shadow:var(--shadow),0 0 0 4px color-mix(in srgb,var(--blue) 8%,transparent)}
-body.site-shell[data-page-family=utility] .search-form input {font-size:var(--type-body)}
-body.site-shell[data-page-family=utility] .search-form button {border-radius:12px;color:var(--blue);background:var(--soft)}
+/* A single glass surface carries focus; the text field never draws an inner box. */
+body.site-shell[data-page-family=utility] .search-form {
+  --search-surface:color-mix(in srgb,var(--paper) 76%,transparent);
+  --search-focus-surface:color-mix(in srgb,var(--paper) 92%,transparent);
+  --search-light:color-mix(in srgb,var(--blue) 15%,transparent);
+  border:0;outline:none;border-radius:24px;background:var(--search-surface);
+  backdrop-filter:blur(20px) saturate(130%);-webkit-backdrop-filter:blur(20px) saturate(130%);
+  box-shadow:0 12px 36px -22px var(--search-light);padding:12px 16px 12px 24px;
+  transition:background 180ms ease-out,box-shadow 180ms ease-out;
+}
+body.site-shell[data-page-family=utility] .search-form:focus-within {
+  border:0;background:var(--search-focus-surface);
+  box-shadow:0 12px 40px -18px var(--search-light),0 0 36px -12px var(--search-light);
+}
+body.site-shell[data-page-family=utility] .search-form input,
+body.site-shell[data-page-family=utility] .search-form input:focus,
+body.site-shell[data-page-family=utility] .search-form input:focus-visible {
+  border:0;outline:none;box-shadow:none;background:transparent;
+  font-size:var(--type-body);caret-color:var(--blue);
+}
+body.site-shell[data-page-family=utility] .search-canvas .search-form .search-submit {
+  border:0;border-radius:50%;background:transparent;box-shadow:none;color:var(--blue);
+}
+body.site-shell[data-page-family=utility] .search-canvas .search-form .search-submit:hover,
+body.site-shell[data-page-family=utility] .search-canvas .search-form .search-submit:focus-visible {
+  border:0;outline:none;background:color-mix(in srgb,var(--blue) 9%,transparent);
+}
+body.site-shell[data-page-family=utility] .search-canvas .search-form .search-submit:focus-visible {
+  box-shadow:0 0 20px color-mix(in srgb,var(--blue) 18%,transparent);
+}
+html[data-theme=dark] body.site-shell[data-page-family=utility] .search-form {
+  --search-surface:color-mix(in srgb,var(--surface) 76%,transparent);
+  --search-focus-surface:color-mix(in srgb,var(--surface) 94%,transparent);
+}
+@media(forced-colors:active) {
+  body.site-shell[data-page-family=utility] .search-form {outline:1px solid CanvasText}
+  body.site-shell[data-page-family=utility] .search-canvas .search-form :is(input,.search-submit):focus-visible {outline:2px solid Highlight;outline-offset:3px}
+}
 body.site-shell[data-page-family=utility] :is(.search-list .search-result,.source-stat-bar) {border:0;border-radius:18px;background:var(--paper);box-shadow:var(--shadow);padding:20px;margin-bottom:12px}
 body.site-shell[data-page-family=utility] .search-list .search-result h2 {font-size:var(--type-subhead)}
 body.site-shell[data-page-family=utility] .search-list .search-result p {font-size:var(--ui-body)}
