@@ -5,9 +5,9 @@ import {resolve,relative} from 'node:path';
 import {presentationForPath} from '../src/lib/site-presentation.mjs';
 
 test('page roles work on nested paths and root or project deployment',()=>{
- const examples=[['','feed','sky'],['news/filter/2026-10-03/en/AI/1/','feed','air'],['news/story/example/','reading','horizon'],['posts/building-mind/','reading','horizon'],['archive/category/ai-engineering/','library','horizon'],['archive/year/2026/','library','horizon'],['tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/','library','horizon'],['news/archive/','library','horizon'],['lab/','studio','sky'],['lab/stream/','studio','tide'],['discover/','connection','sky'],['about/','connection','dawn'],['build/','connection','dawn'],['search/','utility','sky'],['news/sources/','utility','mist'],['stats/','utility','mist'],['privacy/','note','paper'],['subscribe/','note','paper'],['404/','note','paper']];
+ const examples=[['','feed','sky'],['news/filter/2026-10-03/en/AI/1/','feed','air'],['news/story/example/','reading','horizon'],['posts/building-mind/','reading','horizon'],['archive/category/ai-engineering/','library','horizon'],['archive/year/2026/','library','horizon'],['tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/','library','horizon'],['news/archive/','library','horizon'],['lab/','studio','sky'],['lab/stream/','studio','tide'],['discover/','connection','sky'],['about/','connection','dawn'],['build/','connection','dawn'],['search/','utility','pool'],['news/sources/','utility','mist'],['stats/','utility','mist'],['privacy/','note','paper'],['subscribe/','note','paper'],['404/','note','paper']];
  for(const base of ['/','/mind/','/preview/mind/'])for(const [route,family,scene] of examples){
-  const result=presentationForPath(base+route,base);assert.equal(result.family,family);assert.equal(result.scene,scene);assert.equal(result.embedded,scene==='sky');
+  const result=presentationForPath(base+route,base);assert.equal(result.family,family);assert.equal(result.scene,scene);assert.equal(result.embedded,['sky','pool'].includes(scene));
  }
  assert.equal(presentationForPath('/mind/posts/example/','/mind/',{reading:true}).embedded,true);
  assert.equal(presentationForPath('/mind/archive/').embedded,true);
@@ -23,6 +23,7 @@ test('every generated page receives one scene and the shared navigation landmark
   assert.ok(html.includes(`data-page-family="${expected.family}"`),file);assert.ok(html.includes(`data-scene="${expected.scene}"`),file);
   assert.equal((html.match(/class="page-backdrop"/g)||[]).length,expected.embedded?0:1,file);
   assert.equal((html.match(/id="navigation-sky"/g)||[]).length,expected.persistentSky?1:0,file);
+  assert.equal((html.match(/id="pool-backdrop"/g)||[]).length,expected.scene==='pool'?1:0,file);
   assert.equal((html.match(/<h1\b/g)||[]).length,1,`${file}: one page title`);
   assert.equal((html.match(/id="main"/g)||[]).length,1,file);assert.equal((html.match(/id="site-header"/g)||[]).length,1,file);
   assert.equal((html.match(/id="theme"/g)||[]).length,1,file);assert.equal((html.match(/<footer class="site-footer"/g)||[]).length,1,file);

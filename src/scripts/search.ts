@@ -1,10 +1,12 @@
 import {onPageLoad} from './page-lifecycle';
 import {track} from './analytics';
 import {animateMotion,reducedMotion} from './motion';
+import {createSearchPositioner} from '../lib/search-position.mjs';
 type Entry={id:string;kind:string;title:string;description:string;category:string;tags:string[];url:string;body:string;date:string;source:string;language:string;issue:string};
 onPageLoad((signal,onCleanup)=>{
  const root=document.querySelector<HTMLElement>('#site-search');if(!root)return;
  const panel=root.querySelector<HTMLElement>('.search-panel')!;
+ const positioner=createSearchPositioner(root,root.querySelector<HTMLFormElement>('.search-form')!,{animate:animateMotion,reducedMotion});
  let clearTimer:ReturnType<typeof setTimeout>|undefined,resultAnimation:Animation|null=null;
  const input=root.querySelector<HTMLInputElement>('#query')!,results=root.querySelector<HTMLElement>('#results')!,status=root.querySelector<HTMLElement>('#search-status')!,retry=root.querySelector<HTMLButtonElement>('#retry-index')!,pager=root.querySelector<HTMLElement>('#result-pages')!;
  const language=root.querySelector<HTMLSelectElement>('#content-language')!,category=root.querySelector<HTMLSelectElement>('#content-category')!,clear=root.querySelector<HTMLButtonElement>('#clear-filters')!;
@@ -19,7 +21,7 @@ onPageLoad((signal,onCleanup)=>{
  function render(){
   const wasActive=root!.dataset.active==='true',active=Boolean(input.value.trim());
   clearTimeout(clearTimer);
-  root!.dataset.active=String(active);
+  positioner.move(active,root!.dataset.loadState==='error');
   panel.inert=!active&&root!.dataset.loadState!=='error';
   root!.querySelectorAll<HTMLButtonElement>('[data-search-kind]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.searchKind===kind)));
   root!.querySelector<HTMLElement>('#news-filters')!.hidden=kind!=='news';
@@ -30,7 +32,7 @@ onPageLoad((signal,onCleanup)=>{
   root!.querySelectorAll<HTMLElement>('[data-count]').forEach(el=>el.textContent=q?String(candidates.filter(e=>el.dataset.count==='all'||e.kind===el.dataset.count).length):'');
   const matches=candidates.filter(e=>(kind==='all'||e.kind===kind)&&(kind!=='news'||((language.value==='all'||e.language===language.value)&&(category.value==='全部'||e.category===category.value)&&(!scope||scope==='history'||e.issue===scope))));
   if(!q){
-   // Let the old result panel fade while the grid reverses toward its centre.
+   // Retire old results after the outgoing panel is hidden.
    const empty=()=>{results.replaceChildren();status.textContent='';pager.hidden=true;};
    if(wasActive&&!reducedMotion())clearTimer=setTimeout(empty,170);else empty();
    page=1;syncUrl();return;
@@ -67,6 +69,6 @@ onPageLoad((signal,onCleanup)=>{
  [language,category].forEach(el=>el.addEventListener('change',reset,{signal}));clear.addEventListener('click',()=>{language.value='all';category.value='全部';scope='';reset();},{signal});
  for(const [id,direction] of [['previous-page',-1],['next-page',1]] as const)root.querySelector('#'+id)!.addEventListener('click',()=>{page+=direction;render();root!.scrollIntoView({block:'start',behavior:'instant'});},{signal});
  // Revalidate the index so returning readers see newly published content.
- async function load(){root!.dataset.loadState='loading';retry.hidden=true;status.textContent='正在加载索引…';render();try{const response=await fetch(root!.dataset.index!,{signal,cache:'no-cache'});if(!response.ok)throw Error();const data=await response.json();if(!Array.isArray(data))throw Error();if(signal.aborted)return;entries=data;loaded=true;root!.dataset.loadState='ready';render();}catch{if(signal.aborted)return;root!.dataset.loadState='error';panel.inert=false;status.textContent='暂时无法加载搜索，请重试。';retry.hidden=false;}}
- retry.addEventListener('click',load,{signal});onCleanup(()=>{clearTimeout(timer);clearTimeout(clearTimer);resultAnimation?.cancel();});load();
+ async function load(){root!.dataset.loadState='loading';retry.hidden=true;status.textContent='正在加载索引…';render();try{const response=await fetch(root!.dataset.index!,{signal,cache:'no-cache'});if(!response.ok)throw Error();const data=await response.json();if(!Array.isArray(data))throw Error();if(signal.aborted)return;entries=data;loaded=true;root!.dataset.loadState='ready';render();}catch{if(signal.aborted)return;root!.dataset.loadState='error';positioner.move(Boolean(input.value.trim()),true);panel.inert=false;status.textContent='暂时无法加载搜索，请重试。';retry.hidden=false;}}
+ retry.addEventListener('click',load,{signal});onCleanup(()=>{clearTimeout(timer);clearTimeout(clearTimer);resultAnimation?.cancel();positioner.dispose();});load();
 });

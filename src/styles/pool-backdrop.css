@@ -1,0 +1,32 @@
+body.site-shell[data-page-family][data-scene=pool] {--bg:#c9ecf4;--muted:#183b4e;--ink:#17394d}
+html[data-theme=dark] body.site-shell[data-page-family][data-scene=pool] {--bg:#102c3e;--muted:#b1cedd;--ink:#e4f1f8}
+body.site-shell[data-scene=pool] .navigation-sky {visibility:hidden;opacity:0}
+body.site-shell[data-scene=pool] .navigation-sky .sc-cloud {animation-play-state:paused}
+.pool-backdrop {
+ --pool-shallow:#93d9ec;--pool-deep:#5bafd7;--pool-light:#d5f8ff;
+ position:absolute;inset:var(--site-header-height,72px) 0 0;z-index:-1;
+ overflow:hidden;pointer-events:none;contain:layout paint;
+ background:var(--pool-shallow);
+}
+html[data-theme=dark] .pool-backdrop {--pool-shallow:#174659;--pool-deep:#0c2f46;--pool-light:#64bdd8}
+.pool-water,.pool-fallback,.pool-ripples {position:absolute;inset:0;width:100%;height:100%;display:block}
+.pool-water {opacity:0;transition:opacity 220ms ease}
+.pool-backdrop[data-ready=true] .pool-water {opacity:1}
+.pool-fallback-light {animation:pool-reflection-drift 28s ease-in-out infinite alternate}
+.pool-backdrop[data-ready=true] .pool-fallback-light {animation-play-state:paused}
+.pool-duck {position:absolute;left:84%;top:63%;width:clamp(68px,7vw,94px);transform:translate(-50%,-50%);transition:translate 450ms cubic-bezier(.22,1,.36,1);filter:drop-shadow(0 5px 8px #0c47600a)}
+.pool-duck svg {display:block;width:100%;overflow:visible}
+.pool-duck-body {transform-origin:72px 85px;animation:pool-duck-float 6.4s ease-in-out infinite}
+.pool-duck-wake {transform-origin:67px 97px;animation:pool-duck-wake 4.6s ease-out infinite}
+.pool-ripple {position:absolute;width:20px;height:20px;margin:-10px;border:1px solid var(--pool-light);border-radius:50%;opacity:0;animation:pool-ripple-spread 1400ms ease-out both}
+.pool-backdrop[data-paused=true] :is(.pool-fallback-light,.pool-duck-body,.pool-duck-wake,.pool-ripple) {animation-play-state:paused}
+@keyframes pool-reflection-drift {from{transform:translate(-10px,-6px) rotate(-1deg)}to{transform:translate(12px,8px) rotate(1deg)}}
+@keyframes pool-duck-float {0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-3px) rotate(2deg)}}
+@keyframes pool-duck-wake {0%{opacity:.18;transform:scale(.9)}80%,100%{opacity:0;transform:scale(1.2)}}
+@keyframes pool-ripple-spread {0%{opacity:.35;transform:scale(.5)}100%{opacity:0;transform:scale(11)}}
+@media(max-width:760px){.pool-duck {left:84%;top:76%;width:68px}}
+@media(prefers-reduced-motion:reduce){
+ .pool-backdrop :is(.pool-fallback-light,.pool-duck-body,.pool-duck-wake,.pool-ripple) {animation:none}
+ .pool-water,.pool-duck {transition:none}
+}
+@media print {.pool-backdrop {display:none}}

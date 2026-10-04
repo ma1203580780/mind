@@ -4,7 +4,7 @@ export function presentationForPath(pathname,base='/mind/',{reading=false,blogAr
  try{route=decodeURIComponent(route)}catch{}
  route=route.replace(/^\/+|\/+$/g,'');
  const persistentSky=['','picks','news','archive','lab','discover','search'].includes(route);
- const result=(family,scene,embedded=false)=>({family,scene:persistentSky?'sky':scene,embedded:embedded||persistentSky,persistentSky});
+ const result=(family,scene,embedded=false)=>({family,scene:route==='search'?'pool':persistentSky?'sky':scene,embedded:embedded||persistentSky,persistentSky});
  if(reading)return result('reading','sky',true);
  if(blogArchive||route==='archive')return result('library','sky',true);
  if(/^(posts|news\/story)\//.test(route))return result('reading','horizon');

@@ -10,7 +10,7 @@ const makeSky=()=>{
  return {dataset:{},keeper,cloud,closest:()=>keeper,querySelectorAll:()=>[cloud]};
 };
 
-test('the five primary tabs emit exactly the same persisted sky and stylesheet',()=>{
+test('the primary tabs retain the same sky and stylesheet beneath the search pool',()=>{
  const routes=['news','archive','lab','discover','search'];
  const skies=[],styles=[];
  for(const route of routes){
@@ -20,7 +20,7 @@ test('the five primary tabs emit exactly the same persisted sky and stylesheet',
   assert.ok(sky,route);assert.ok(style,route);
   assert.match(sky,/data-astro-transition-persist="navigation-sky"/);
   assert.match(html,/<header[^>]*data-astro-transition-persist="site-header"/);
-  assert.match(html,/data-scene="sky"/);
+  assert.ok(html.includes(`data-scene="${route==='search'?'pool':'sky'}"`),route);
   assert.doesNotMatch(html,/class="page-backdrop"|class="archive-sky"|class="search-waves"|class="lab-halo"/);
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
   assert.equal(new Set(ids).size,ids.length,`${route}: unique IDs`);

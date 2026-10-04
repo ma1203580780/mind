@@ -1,4 +1,4 @@
-/* Different compositions, one set of materials. No additional animation. */
+/* Different compositions, one set of materials. */
 .page-backdrop {
   --scene-cloud:#fff;--scene-line:#71a6c4;
   position:absolute;top:var(--site-header-height);inset-inline:0;height:480px;
@@ -90,15 +90,14 @@ body.site-shell[data-page-family=utility] .search-canvas {padding:24px 32px}
 body.site-shell[data-page-family=utility] .search-canvas #site-search {
   display:grid;grid-template-rows:minmax(0,1fr) auto minmax(0,1fr);transition:none;
 }
-body.site-shell[data-page-family=utility] .search-canvas #site-search[data-active=true],
-body.site-shell[data-page-family=utility] .search-canvas #site-search[data-load-state=error] {
+body.site-shell[data-page-family=utility] .search-canvas #site-search[data-layout=results] {
   grid-template-rows:minmax(0,0fr) auto minmax(0,2fr);
 }
 body.site-shell[data-page-family=utility] .search-canvas #site-search:before {content:'';display:block;grid-row:1;min-height:0;pointer-events:none}
-body.site-shell[data-page-family=utility] .search-canvas .search-form {grid-row:2}
-body.site-shell[data-page-family=utility] .search-panel {grid-row:3;translate:none;transition:opacity 140ms ease-out}
+body.site-shell[data-page-family=utility] .search-canvas .search-form {grid-row:2;z-index:1}
+body.site-shell[data-page-family=utility] .search-panel {grid-row:3;translate:none;opacity:0;visibility:hidden;transition:none}
 body.site-shell[data-page-family=utility] #site-search[data-active=true]>.search-panel,
-body.site-shell[data-page-family=utility] #site-search[data-load-state=error]>.search-panel {translate:none;transition:opacity 140ms ease-out}
+body.site-shell[data-page-family=utility] #site-search[data-load-state=error]>.search-panel {translate:none;opacity:1;visibility:visible;transition:opacity 240ms ease-out 240ms}
 body.site-shell[data-page-family=utility] .search-canvas .search-list:not(:empty) {padding:0 4px 12px;background:transparent}
 body.site-shell[data-page-family=utility]:has(.search-canvas) .site-footer {margin-top:0;padding-block:16px}
 /* A single glass surface carries focus; the text field never draws an inner box. */
@@ -174,6 +173,7 @@ html[data-theme=dark] body.site-shell[data-page-family=studio] .lab-project[data
   body.site-shell[data-page-family=library] .topic-grid .topic-tile:last-child {grid-column:auto}
 }
 @media(prefers-reduced-motion:reduce) {
+  body.site-shell[data-page-family=utility] .search-canvas #site-search>.search-panel {transition:none}
   body.site-shell[data-page-family=studio] .lab-project:hover,body.site-shell[data-page-family=studio] .lab-project:hover .lab-art-object {transform:none}
 }
 @media print {
