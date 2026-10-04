@@ -4024,7 +4024,7 @@
       "category": "产品设计",
       "kind": "设计社区文章",
       "title": "Stop blaming the model for slow AI. Using Doherty’s threshold as a guideline.",
-      "summary": "Two eras of computing, held to the same 400 millisecond standard. Doherty’s threshold set the rules and has now moved from the answer to the acknowledgment. The fix is a week of front-end work and a definition of done, not cheaper inference. Productivity soars when a computer and its users interact at a pace — under 400 milliseconds — that ensures neither has to wait on the other. Below the threshold, work feels like a conversation; above it, each pause breaks the user’s train of thought and errors climb. — Walter Doherty Ask a product team why their AI feature feels slow and you get a shrug w",
+      "summary": "Two eras of computing, held to the same 400 millisecond standard. Stop blaming the model for slow AI. Use Doherty’s threshold as a guideline. Doherty’s threshold set the rules and has now moved from the answer to the acknowledgment. The fix is a week of front-end work and a definition of done, not cheaper inference. Productivity soars when a computer and its users interact at a pace — under 400 milliseconds — that ensures neither has to wait on the other. Below the threshold, work feels like a conversation; above it, each pause breaks the user’s train of thought and errors climb. — Walter Dohe",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "UX Collective",
@@ -4045,7 +4045,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "停止指责模型 慢AI。以Doherty的门槛作为准则。",
-      "summaryZh": "两个时代的计算,维持在相同的400毫秒标准.多赫蒂的门槛确定了规则,现在从答案转向承认。修补是一周前期工作,并定义已完成,而不是更便宜的推论.当一台计算机及其用户以不到400毫秒的速度相互作用时,生产力就会飞涨,这既不能保证不需等待。在阈值以下,工作感觉就像对话;在它之上,每次暂停都会打破用户的思维和错误攀升之道.- Walter Doherty 问一个产品团队为什么他们的AI特性感觉很慢,你得到一个shraug w",
+      "summaryZh": "两个时代的计算,维持在相同的400毫秒标准.停止指责模型 慢AI。用Doherty的门槛作为准则。多赫蒂的门槛确定了规则,现在从答案转向承认。修补是一周前期工作,并定义已完成,而不是更便宜的推论.当一台计算机与其用户以400毫秒以下的速度相互作用,确保两者都不必等待时,生产力就会飞涨。在门槛以下,工作感觉就像对话;在它之上,每次暂停都会打破用户的思维和错误攀升。- 沃尔特·多赫",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"

@@ -540,7 +540,10 @@
     "3d8684c6278a54e13638c9746644e442d7f9f1a92dbe3fd2a1e75200d29b21ae": "Clef决定模型 Ollama现在支持Clef和Clef Flash, Cloudflare新的开源决定模型,通过/v1/systemone.Clef(27B)和Clef Flash(9B)是多式联运:请求现在可以包含文本状态旁边的图像,由所有问题共享,并与它共同打分.\"],\"问题\":{\"has_ollama\":{\"型号\":\"noul\",\"指示\":\"这个图像是否包含Ollama?\"}}}}\" 卷曲 http://localhost:11434/v1/systemone -d' {\"模型\":\"clef-flash\",\"状态\":\"用户拿了这个截图\",\"图像\",\"问题\":[\"has_ollama\",\"#\"问题\":\"noul\",\"训导\",\"是这样吗?",
     "99897d58ee069da666c99fd16dfd8b1adfbb6e924515108a6035a33a10541b9e": "从生物医学问题回答到材料信息学,大型语言模型日益成为科学AI应用的基础,而科学AI应用是结构化知识之外的原因。然而,它们的逻辑推理往往不够准确,造成事实不准确,在这些环境下是不可接受的。可靠的评价仍然具有挑战性:人工数据集的构建尺度差,基于LLM的生成有可能嵌入它所要衡量的缺陷。高质量基准必须以明确的背景知识作为正确和不正确的标注例子的依据,并由一个站点正式核实",
     "86cdfddb404d8aebfede60f6bea8d3a40ef7e65adb0eed7ec2ab186170ce48ad": "基于模型的加固学习(MBRL)可以利用模拟经验,但模拟器对目标的移位会产生模型选择问题:在有限的目标数据下,直接修正模拟器和安装目标可以各自失败.我们引入了 \" 模型校正世界模型 \" (MC-WM),它将初始目标数据分为不匹配、选择和校准分区,并部署标准化校准风险较低的家庭。学会了信心信号和确定性有效性,就预示着一步一步地对所想象的政策进行更新,而不改写实际报酬。我们ev",
-    "81d825aaa340214e8125e027ccade90090b178987dcf9d2526f71c943644acbb": "电脑学(EEG)基础模型往往会预先使用固定通道词汇或有限的一组蒙塔格来进行训练,在电极布局变化时,转移困难.我们提出Cortex Bridge,一种轻量级适配器,将EEG特征与电极和地图集坐标相结合,将任意的蒙太基映射成一个共享的皮层潜伏空间.通过对来自所有BCI基准之母(MOABB)的5个脑-计算机接口数据集的3个冻结基模型进行评价,CortexBridge在15项评价中的13项改进了绩效。平衡准确度平均收益"
+    "81d825aaa340214e8125e027ccade90090b178987dcf9d2526f71c943644acbb": "电脑学(EEG)基础模型往往会预先使用固定通道词汇或有限的一组蒙塔格来进行训练,在电极布局变化时,转移困难.我们提出Cortex Bridge,一种轻量级适配器,将EEG特征与电极和地图集坐标相结合,将任意的蒙太基映射成一个共享的皮层潜伏空间.通过对来自所有BCI基准之母(MOABB)的5个脑-计算机接口数据集的3个冻结基模型进行评价,CortexBridge在15项评价中的13项改进了绩效。平衡准确度平均收益",
+    "73193a43097e7a00c8e873464c61208fbe1215d42b2a6331b757048d899e5249": "探员说一切都结束了数据库已不同意。",
+    "799cab9b89309ce5ffe5dd8c27393461b70a4ad8ea12825d5ebbbfe6da3335ea": "微软在Hugging Face上的博客文章",
+    "1da5f72fa13e2049c7976c0c9fa0c744661e61375d02c14bc7cc769968a92b7b": "两个时代的计算,维持在相同的400毫秒标准.停止指责模型 慢AI。用Doherty的门槛作为准则。多赫蒂的门槛确定了规则,现在从答案转向承认。修补是一周前期工作,并定义已完成,而不是更便宜的推论.当一台计算机与其用户以400毫秒以下的速度相互作用,确保两者都不必等待时,生产力就会飞涨。在门槛以下,工作感觉就像对话;在它之上,每次暂停都会打破用户的思维和错误攀升。- 沃尔特·多赫"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -2288,6 +2291,45 @@
       "image": "https://i.v2ex.co/wq2q97Krl.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.v2ex.com/t/1244976"
+    },
+    "https://www.eeo.com.cn/2026/1004/1056052.shtml": {
+      "checkedAt": "2026-10-04T05:55:18.316191+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1004/1056052.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1004/1056042.shtml": {
+      "checkedAt": "2026-10-04T05:55:18.316191+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.qbitai.com/2026/10/501451.html": {
+      "checkedAt": "2026-10-04T05:55:18.316191+00:00",
+      "description": "专业3D模型反而更稀缺了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/e1c48b337aeaa0d3f226ad2bbf2a54d4.gif",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/501451.html"
+    },
+    "https://www.eeo.com.cn/2026/1004/1056028.shtml": {
+      "checkedAt": "2026-10-04T05:55:18.316191+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1004/1056028.shtml"
+    },
+    "https://www.v2ex.com/t/1246349": {
+      "checkedAt": "2026-10-04T05:55:18.316191+00:00",
+      "description": "独立开发者 👨‍💻 - @jiazhutianxiadiy - 模型用得比较杂：DeepSeek-V4-flash / V4.1-flash 占 60%，GLM5.3 flash 20%，Hy4 15%，剩下就是其他模型。最直观的感受就是快。常规需求基本可",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1246349"
+    },
+    "https://huggingface.co/blog/microsoft/thinkingbox": {
+      "checkedAt": "2026-10-04T05:55:18.316191+00:00",
+      "description": "A Blog post by Microsoft on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox"
     }
   }
 }
