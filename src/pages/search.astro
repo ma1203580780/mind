@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';import '../styles/explore.css';import {path} from '../site';import {NEWS_TOPICS} from '../lib/news-topics.mjs';
 ---
 <Base title="搜索 · 海波东" noindex><div class="search-canvas"><div id="site-search" data-index={path('search-index.json')}>
-<h1 class="search-heading">全站搜索</h1><form class="search-form" role="search"><label class="sr-only" for="query">搜索站内内容</label><input id="query" name="q" type="search" placeholder="搜索本站内容…" autocomplete="off"/><button type="submit" class="search-submit" aria-label="搜索" title="搜索"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.25" stroke="currentColor" stroke-width="1.5"/><path d="m15.15 15.15 4.6 4.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button></form>
+<h1 class="sr-only">搜索</h1><form class="search-form" role="search"><label class="sr-only" for="query">搜索站内内容</label><input id="query" name="q" type="search" placeholder="搜索本站内容…" autocomplete="off"/><button type="submit" class="search-submit" aria-label="搜索" title="搜索"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.25" stroke="currentColor" stroke-width="1.5"/><path d="m15.15 15.15 4.6 4.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button></form>
 
 <div class="search-panel">
 <div class="search-kinds" role="group" aria-label="搜索内容类型">{[['all','全部'],['post','博客'],['news','资讯'],['work','项目']].map(([kind,label])=><button type="button" data-search-kind={kind} aria-pressed={kind==='all'}>{label}<span data-count={kind}></span></button>)}</div>
