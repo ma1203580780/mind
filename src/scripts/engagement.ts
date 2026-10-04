@@ -1,6 +1,12 @@
 import {track} from './analytics';
 import {onPageLoad} from './page-lifecycle';
 onPageLoad((signal,onCleanup)=>{
+const connectionView=document.querySelector<HTMLElement>('[data-connection-view]')?.dataset.connectionView;
+if(connectionView)track(connectionView);
+document.addEventListener('click',event=>{
+ const link=event.target instanceof Element?event.target.closest<HTMLElement>('[data-connection-event]'):null;
+ if(link?.dataset.connectionEvent)track(link.dataset.connectionEvent);
+},{signal});
 const article=document.querySelector<HTMLElement>('#article .article-body');
 const readPanel=document.querySelector<HTMLElement>('#panel-read');
 if(article && readPanel){

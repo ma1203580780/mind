@@ -1,6 +1,8 @@
 ---
-import Base from '../layouts/Base.astro';import SourceCard from '../components/SourceCard.astro';
-import {path} from '../site';import {allNews} from '../lib/news';import {readingCandidates,latestNewsDate} from '../lib/discovery';
-const candidates=readingCandidates(allNews,latestNewsDate,5);
+import NewsEdition from '../components/NewsEdition.astro';
+import {path,getPosts,dateLabel,reading} from '../site';import {issues} from '../lib/news';
+const recent=(await getPosts()).filter(p=>!p.data.demo).slice(0,3);
 ---
-<Base title="精选资讯 · 海波东"><h1 class="sr-only">精选资讯</h1><section class="note-feed" aria-label="精选资讯">{candidates.map(story=><SourceCard story={story} issue={story.issueDate}/>)}</section><div class="discovery-links"><a href={path('news/')}>查看全部 {allNews.length} 条资讯 ↗</a><a href={path('news/sources/')}>信息源与采集状态 ↗</a></div></Base>
+<NewsEdition issue={issues[0]} scope="history" featured>
+<section class="recent-writing" aria-labelledby="recent-title"><div class="editorial-heading"><h2 id="recent-title">最近写的</h2><a href={path('archive/')}>全部博客 →</a></div><div class="text-entries">{recent.map(post=><a href={path(`posts/${post.id}/`)}><div><h3>{post.data.title}</h3><small>{post.data.category} · {reading(post.body)} 分钟{post.data.authorship==='assisted'?' · AI 辅助记录':''}</small></div><time datetime={post.data.date.toISOString()}>{dateLabel(post.data.date)}</time><span aria-hidden="true">→</span></a>)}</div>{recent.length===0&&<p class="muted">新文章正在整理，先看看正在构建的项目。</p>}</section>
+</NewsEdition>

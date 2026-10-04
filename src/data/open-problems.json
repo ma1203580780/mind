@@ -1,0 +1,44 @@
+[
+  {
+    "id": "agent-ui",
+    "question": "Agent 如何选择真正合适的 UI？",
+    "status": "持续研究",
+    "tags": [
+      "Agent Runtime",
+      "GenUI",
+      "A2UI"
+    ],
+    "background": "任务不同，适合的交互也不同。怎样在对话、表单与可编辑界面之间做选择，同时保留用户的修改？",
+    "progress": "先从任务边界、状态保留和可撤销操作梳理问题，欢迎带着具体场景交换方案。",
+    "projectId": null,
+    "discussionUrl": null
+  },
+  {
+    "id": "personal-network",
+    "question": "个人博客怎样产生高质量关系？",
+    "status": "正在验证",
+    "tags": [
+      "个人网站",
+      "长期写作",
+      "博客网络"
+    ],
+    "background": "读完一篇内容之后，怎样让有共同兴趣的人自然找到交流和一起做事的入口？",
+    "progress": "在 mind 中加入发现、项目进展和公开问题，观察这些入口是否有助于更具体的交流。",
+    "projectId": "mind",
+    "discussionUrl": null
+  },
+  {
+    "id": "interactive-video",
+    "question": "生成式视频如何走向可交互内容？",
+    "status": "探索中",
+    "tags": [
+      "AIGC",
+      "Video",
+      "交互设计"
+    ],
+    "background": "从线性播放走向可以选择、追问与参与的内容，哪些交互真正有助于理解？",
+    "progress": "从短内容和小型 Demo 的使用场景开始讨论，先验证交互价值。",
+    "projectId": null,
+    "discussionUrl": null
+  }
+]

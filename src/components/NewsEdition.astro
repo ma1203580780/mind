@@ -8,14 +8,15 @@ import {entriesForScope,newsListPath,NEWS_PAGE_SIZE} from '../lib/news-navigatio
 import {NEWS_TOPICS,newsTopic,TOPIC_DESCRIPTIONS} from '../lib/news-topics.mjs';
 import configured from '../config/news-sources.json';
 import collectionStatus from '../data/news-status.json';
+import {readingCandidates,latestNewsDate} from '../lib/discovery';
 import '../styles/news.css';
 import '../styles/news-reader.css';
 import '../styles/news-browser.css';
 import '../styles/news-flow.css';
-const {issue,archive=false,scope:requestedScope,language='all',category:requestedCategory='全部',page:requestedPage=1}=Astro.props as {issue:NewsIssue;archive?:boolean;scope?:string;language?:string;category?:string;page?:number};
+const {issue,archive=false,scope:requestedScope,language='all',category:requestedCategory='全部',page:requestedPage=1,featured=false}=Astro.props as {issue:NewsIssue;archive?:boolean;scope?:string;language?:string;category?:string;page?:number;featured?:boolean};
 const category=newsTopic(requestedCategory);
 const scope=requestedScope||(archive?issue.date:'history'),cumulative=scope==='history';
-const entries=entriesForScope(scope),selected=filterNews(entries,{language,category});
+const entries=featured?readingCandidates(allNews,latestNewsDate,5):entriesForScope(scope),selected=filterNews(entries,{language,category});
 const {entries:stories,page,pageCount,total}=paginateNews(selected,requestedPage,NEWS_PAGE_SIZE);
 const categories=NEWS_TOPICS;
 const subscriptions=configured.filter(s=>category==='全部'||newsTopic(s.category)===category).filter(s=>language==='all'||s.language===language);
@@ -27,11 +28,16 @@ const sourceCount=new Set(selected.map(s=>sourceHost(s.sourceUrl))).size;
 const checkedAt=cumulative?collectionStatus.checkedAt:issue.checkedAt;
 const reviewed=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(checkedAt));
 const first=total?(page-1)*NEWS_PAGE_SIZE+1:0,last=Math.min(page*NEWS_PAGE_SIZE,total);
-const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'}${language==='zh'?' · 中文':language==='en'?' · 英文对照':''}${category!=='全部'?' · '+category:''}${page>1?' · 第 '+page+' 页':''} · 海波东`;
+const title=featured?'海波东 · 资讯、工程与长期创造':`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'}${language==='zh'?' · 中文':language==='en'?' · 英文对照':''}${category!=='全部'?' · '+category:''}${page>1?' · 第 '+page+' 页':''} · 海波东`;
 ---
-<Base title={title} description="累计阅读 AI、设计、独立创业、营销与经济资讯，按发布时间倒序排列，每页 30 条。英文来源提供中文机译和中英对照。" noindex={language!=='all'||category!=='全部'} wide newsScope={scope} newsLanguage={language} newsCategory={category}>
-<div class="news-workspace" data-issue-date={scope} data-checked-at={checkedAt} data-archive={String(!cumulative)}>
-  <aside class="daily-sidebar">
+<Base title={title} description={featured?'从近期公开资讯中挑选阅读候选，保留来源与中英对照。':'累计阅读 AI、设计、独立创业、营销与经济资讯，按发布时间倒序排列，每页 30 条。英文来源提供中文机译和中英对照。'} noindex={language!=='all'||category!=='全部'} wide newsScope={scope} newsLanguage={language} newsCategory={category}>
+<div class="news-workspace" data-featured={featured?'true':undefined} data-issue-date={scope} data-checked-at={checkedAt} data-archive={String(!cumulative)}>
+  <aside class:list={['daily-sidebar',{'featured-sidebar':featured}]}>
+    {featured?<>
+    <div class="featured-summary"><span>近期阅读候选</span><p>{total} 条 · 近 7 天</p></div>
+    <details class="featured-rules"><summary>如何入选</summary><p>按发布时间选择，尽量覆盖不同主题，每个来源最多一条。排除版本日志及不完整译文；规则筛选不代表作者推荐。</p></details>
+    <a class="featured-all" href={path('news/')}>全部资讯 <span aria-hidden="true">↗</span></a>
+    </>:<>
     <section class="sidebar-language" aria-labelledby="language-title">
       <h2 id="language-title">来源语言</h2>
       <nav class="language-slider" aria-label="来源语言" style={`--language-index:${Math.max(0,['all','zh','en'].indexOf(language))}`}>
@@ -49,17 +55,19 @@ const title=`${cumulative?'新闻与观察':newsDate(issue.date)+' 新闻日刊'
       <noscript><a class="date-archive" href={path('news/archive/')}>更多日期 ↗</a></noscript>
     </section>
     <p class="sidebar-count">{first}–{last} / {total} 条 · 时间倒序</p>
+    </>}
     <div class="sidebar-bottom"><p>更新于 {reviewed}</p><div class="sidebar-actions"><a href={path('news/rss.xml')}>RSS ↗</a><a href={path('news/sources/')}>信息源 ↗</a><a class="editorial-link" href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">收录规则 ↗</a></div></div>
   </aside>
   <section class="daily-board" aria-labelledby="news-title">
-    <h1 id="news-title" class="sr-only">资讯</h1>    {category!=='全部'&&<p class="news-topic-description">{description}</p>}
+    <h1 id="news-title" class="sr-only">{featured?'精选资讯':'资讯'}</h1>    {category!=='全部'&&<p class="news-topic-description">{description}</p>}
     <p class="news-stale" id="news-stale" hidden>最近一次成功采集距今超过 36 小时，可在信息源页查看状态。</p>
     <p class="news-result" id="news-result" aria-live="polite" hidden></p>
     <div class="news-grid" id="news-grid" data-view="list">{stories.map((story,index)=><NewsCard story={story} issue={story.issueDate} index={index}/>)}</div>
-    {total===0&&<div class="news-empty"><h2>这个板块暂无内容</h2><p>{subscriptions.length?`已接入 ${subscriptions.map(s=>s.name).join("、")}。当前日期与语言组合暂无收录，下一次采集会继续检查。`:'这个语言分区暂时没有对应订阅源，可以切换全部语言查看。'}</p><a href={newsListPath('history','all',category)}>查看该分类全部历史 ↗</a></div>}
+    {total===0&&<div class="news-empty"><h2>{featured?'暂时没有合适的阅读候选':'这个板块暂无内容'}</h2><p>{featured?'可以先浏览全部资讯。':subscriptions.length?`已接入 ${subscriptions.map(s=>s.name).join("、")}。当前日期与语言组合暂无收录，下一次采集会继续检查。`:'这个语言分区暂时没有对应订阅源，可以切换全部语言查看。'}</p><a href={newsListPath('history','all',category)}>查看全部资讯 ↗</a></div>}
 
-    <NewsPagination scope={scope} language={language} category={category} page={page} pageCount={pageCount} total={total}/>
-    <div class="news-edition-note"><p>历史持续累计，每页 30 条。按原文发布时间排序，日期与来源可核对；只有日期的内容按当日记录排序。</p><p>每天北京时间 08:17、14:17、20:17 计划采集。同一日多次运行追加新内容，每天最多 200 条。</p><a href={path('news/sources/')}>查看中英信息源与更新状态 ↗</a></div>
+    {!featured&&<><NewsPagination scope={scope} language={language} category={category} page={page} pageCount={pageCount} total={total}/>
+    <div class="news-edition-note"><p>历史持续累计，每页 30 条。按原文发布时间排序，日期与来源可核对；只有日期的内容按当日记录排序。</p><p>每天北京时间 08:17、14:17、20:17 计划采集。同一日多次运行追加新内容，每天最多 200 条。</p><a href={path('news/sources/')}>查看中英信息源与更新状态 ↗</a></div></>}
+    <slot/>
   </section>
 </div>
 </Base>

@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/explore.css';
+import {path} from '../site';
+import {discover,statusLabels,discussionUrl} from '../lib/connections';
+import people from '../data/people.json';
+import sources from '../config/news-sources.json';
+import {allNews} from '../lib/news';
+const sourceSites=people.sites.map(item=>{const source=sources.find(s=>s.id===item.sourceId);if(!source)throw new Error(`Missing source: ${item.sourceId}`);return {...item,source,count:allNews.filter(story=>story.feedUrl===source.url).length}});
+---
+<Base title="发现 · 海波东" description="看看正在做的项目，找到值得读的原始资料、行业作者与开发者社区。">
+<div class="explore-page" data-connection-view="discover_view">
+<h1 class="sr-only">发现</h1>
+<section class="discover-intro" aria-labelledby="intro-name">
+  <svg class="intro-contours" viewBox="0 0 1040 220" preserveAspectRatio="none" fill="none" aria-hidden="true"><g stroke="currentColor" stroke-width="0.7">{Array.from({length:12},(_,i)=><path d={`M ${330+i*15} -20 C ${380+i*15} 75 ${710+i*14} 70 ${730+i*17} 240`}/>)}</g></svg>
+  <div class="discover-intro-copy"><h2 id="intro-name">我是{discover.name}</h2><p>{discover.profileIntro}</p><nav class="intro-links" aria-label="了解更多">{[['关于我','about/'],['关于站点','about-site/']].map(([label,href])=><a href={path(href)}>{label}<svg viewBox="0 0 16 16" width="14" height="14" fill="none" aria-hidden="true"><path d="M4 12 12 4M4 4h8v8" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg></a>)}</nav></div>
+  <div class="discover-focus"><h2><span aria-hidden="true"></span>Focus</h2><ul>{discover.focus.map(item=><li><a href={path(item.href)}><strong>{item.label}</strong><span>{item.description}</span><svg viewBox="0 0 16 16" width="13" height="13" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>)}</ul></div>
+</section>
+<div class="explore-grid">
+<section class="explore-now" id="now"><header><h2>最近在做</h2><time datetime={discover.updatedAt}>{discover.updatedAt.slice(0,7).replace('-',' / ')}</time></header>
+{discover.now.map((item,i)=><a class="explore-project" href={path(item.href)}><span class="project-number">0{i+1}</span><div><h3>{item.name}</h3><p>{['个人博客与资讯阅读站','Agent Runtime 与生成式界面','生成式视频与交互内容'][i]}</p><span class="status" data-status={item.status}><span aria-hidden="true"></span>{statusLabels[item.status]}</span></div><span class="project-arrow" aria-hidden="true">↗</span></a>)}
+</section>
+<aside class="explore-side">
+<section class="explore-build" id="together"><span class="explore-kicker">开放问题</span><h2>一起做<span aria-hidden="true">↗</span></h2><p>Agent · GenUI · AIGC</p><a href={path('build/')}>看看当前开放的问题 →</a></section>
+<section class="explore-connect" id="talk"><h2>保持连接</h2><div class="follow-links" id="follow">{discover.follow.map(item=><a href={item.external?item.href:path(item.href)} target={item.external?'_blank':undefined} rel={item.external?'noopener noreferrer':undefined} data-connection-event={item.event}>{item.label}<span aria-hidden="true">↗</span></a>)}</div><a href={discussionUrl()} target="_blank" rel="noopener noreferrer" data-connection-event="discover_discussion_click">交流与反馈<small>GitHub Issues ↗</small></a></section>
+</aside>
+</div>
+<section class="follow-network" id="people" aria-labelledby="network-title">
+<header class="network-heading"><div><h2 id="network-title">值得关注</h2><p>读一手内容，跟实践者学习，找到同路人。</p></div><a href={path('news/sources/')}>全部信息源 →</a></header>
+<div class="network-columns">
+<section class="network-column" aria-labelledby="source-title"><header><h3 id="source-title">核心站点</h3><span>来自本站订阅源</span></header>
+{sourceSites.map(item=><article class="network-entry"><div class="network-entry-top"><h4><a href={item.url} target="_blank" rel="noopener noreferrer" data-connection-event="discover_resource_click">{item.name}<span aria-hidden="true">↗</span></a></h4><span class="network-topic">{item.topic}</span></div><p>{item.value}</p><div class="network-actions"><a href={item.url} target="_blank" rel="noopener noreferrer" data-connection-event="discover_resource_click">{item.action} ↗</a>{item.count>0&&<a href={path(`search/?kind=news&q=${encodeURIComponent(item.source.name)}`)}>站内相关 →</a>}</div></article>)}
+</section>
+<section class="network-column" aria-labelledby="author-title"><header><h3 id="author-title">行业作者</h3><span>精选推荐</span></header>
+{people.authors.map(person=><article class="network-entry"><div class="network-entry-top"><h4><a href={person.url} target="_blank" rel="noopener noreferrer" data-connection-event="discover_resource_click">{person.name}<span aria-hidden="true">↗</span></a></h4><span class="network-topic">{person.topic}</span></div><p>{person.value}</p><div class="network-actions"><a href={person.url} target="_blank" rel="noopener noreferrer" data-connection-event="discover_resource_click">{person.action} ↗</a>{person.connection&&<a href={person.connection.url} target="_blank" rel="noopener noreferrer" data-connection-event="discover_resource_click">{person.connection.label} ↗</a>}</div></article>)}
+</section>
+</div>
+<section class="network-communities" aria-labelledby="community-title"><header><h3 id="community-title">找到同路人</h3><span>开发者社区</span></header><div>{people.communities.map(item=><a href={item.url} target="_blank" rel="noopener noreferrer" data-connection-event="discover_community_click"><strong>{item.name}</strong><span>{item.value}</span><b aria-hidden="true">↗</b></a>)}</div></section>
+<div class="network-contribute"><span>有值得关注的人或站点？</span><a href={discussionUrl('推荐一个人或站点','名称与链接：\n\n值得关注的原因：')} target="_blank" rel="noopener noreferrer" data-connection-event="discover_discussion_click">推荐给我 ↗</a></div>
+</section>
+</div></Base>

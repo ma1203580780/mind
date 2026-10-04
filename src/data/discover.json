@@ -1,0 +1,78 @@
+{
+  "name": "海波东",
+  "tagline": "AI 工程、产品与长期创造。",
+  "intro": "做过研发、SRE 和 AI 工程，现在主要关注 AI 工程、Agent、产品和个人长期创造。",
+  "profileIntro": "从研发、SRE 到 AI 工程，持续把想法做成产品。",
+  "focus": [
+    {"label": "Agent", "description": "智能体与运行时", "href": "build/#agent-ui"},
+    {"label": "GenUI", "description": "生成式界面", "href": "build/#agent-ui"},
+    {"label": "AIGC", "description": "视频与交互内容", "href": "build/#interactive-video"}
+  ],
+  "question": "一个人借助 AI，到底可以把事情做到什么程度。",
+  "updatedAt": "2026-10-04",
+  "interests": [
+    "AI 工程",
+    "Agent",
+    "GenUI",
+    "AIGC",
+    "独立开发",
+    "产品"
+  ],
+  "now": [
+    {
+      "name": "mind",
+      "status": "active",
+      "description": "把个人博客逐渐做成一个长期的个人网络节点。",
+      "tags": [
+        "产品",
+        "Astro"
+      ],
+      "href": "lab/#mind"
+    },
+    {
+      "name": "Agent / GenUI",
+      "status": "exploring",
+      "description": "研究 Agent Runtime 和动态 UI 的产品机会。",
+      "tags": [
+        "AI 工程",
+        "产品"
+      ],
+      "href": "build/#agent-ui"
+    },
+    {
+      "name": "AIGC Video",
+      "status": "exploring",
+      "description": "探索生成式视频与交互内容的可能性。",
+      "tags": [
+        "AIGC",
+        "Video"
+      ],
+      "href": "build/#interactive-video"
+    }
+  ],
+  "follow": [
+    {
+      "label": "RSS",
+      "description": "用你喜欢的阅读器，订阅博客与资讯。",
+      "href": "subscribe/",
+      "external": false,
+      "event": "discover_rss_click"
+    },
+    {
+      "label": "GitHub",
+      "description": "关注代码、项目与持续更新。",
+      "href": "https://github.com/ma1203580780",
+      "external": true,
+      "event": "discover_github_click"
+    }
+  ],
+  "github": "https://github.com/ma1203580780",
+  "repository": "https://github.com/ma1203580780/mind",
+  "discussionsUrl": null,
+  "collaboration": [
+    "交换方案",
+    "一起做 Demo",
+    "开源贡献",
+    "项目合作"
+  ]
+}

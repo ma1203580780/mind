@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-10-04",
+  "provenance": {
+    "authors": "按本站主题选择的公开作者推荐，不代表站长的关注记录或私人关系。",
+    "sites": "来自 src/config/news-sources.json 的现有订阅源。",
+    "communities": "来自现有订阅源；仅链接公开社区，不声称站长是成员。"
+  },
+  "authors": [
+    {
+      "id": "karpathy",
+      "name": "Andrej Karpathy",
+      "topic": "模型原理",
+      "value": "从课程与代码理解神经网络和大模型。",
+      "url": "https://karpathy.ai/",
+      "action": "课程与讲解",
+      "connection": {
+        "label": "开源项目",
+        "url": "https://github.com/karpathy"
+      },
+      "evidenceUrl": "https://karpathy.ai/"
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "topic": "AI 工程",
+      "value": "看工具实测、模型边界与可复现的小实验。",
+      "url": "https://simonwillison.net/",
+      "action": "读博客",
+      "connection": {
+        "label": "实验工具",
+        "url": "https://tools.simonwillison.net/"
+      },
+      "evidenceUrl": "https://simonwillison.net/"
+    },
+    {
+      "id": "lilian-weng",
+      "name": "Lilian Weng",
+      "topic": "研究综述",
+      "value": "沿着论文与推导，深入理解 Agent 和训练方法。",
+      "url": "https://lilianweng.github.io/",
+      "action": "读长文",
+      "connection": null,
+      "evidenceUrl": "https://lilianweng.github.io/"
+    },
+    {
+      "id": "swyx",
+      "name": "swyx",
+      "topic": "AI 产品",
+      "value": "看 AI 工程实践、开发者访谈与公开学习。",
+      "url": "https://swyx.io/",
+      "action": "读文章",
+      "connection": {
+        "label": "Latent Space",
+        "url": "https://www.latent.space/"
+      },
+      "evidenceUrl": "https://swyx.io/"
+    }
+  ],
+  "sites": [
+    {
+      "sourceId": "openai",
+      "name": "OpenAI",
+      "topic": "一手发布",
+      "value": "直接读模型发布、研究与能力说明。",
+      "url": "https://openai.com/news/",
+      "action": "看官方发布"
+    },
+    {
+      "sourceId": "huggingface",
+      "name": "Hugging Face",
+      "topic": "开源实践",
+      "value": "找开放模型、实现教程与可运行的 Demo。",
+      "url": "https://huggingface.co/blog",
+      "action": "读技术博客"
+    },
+    {
+      "sourceId": "nngroup",
+      "name": "Nielsen Norman Group",
+      "topic": "产品体验",
+      "value": "用研究与案例校准界面、交互和可用性。",
+      "url": "https://www.nngroup.com/articles/",
+      "action": "看体验研究"
+    },
+    {
+      "sourceId": "sspai-workflows",
+      "name": "少数派",
+      "topic": "工具与工作流",
+      "value": "从真实使用场景里找工具与工作方法。",
+      "url": "https://sspai.com/",
+      "action": "看实践文章"
+    }
+  ],
+  "communities": [
+    {
+      "sourceId": "v2ex-isv",
+      "name": "V2EX · 独立开发者",
+      "value": "看产品发布，交流开发与经营问题。",
+      "url": "https://www.v2ex.com/go/isv"
+    },
+    {
+      "sourceId": "w2solo",
+      "name": "w2solo",
+      "value": "分享独立作品，交换产品反馈。",
+      "url": "https://w2solo.com/"
+    }
+  ]
+}

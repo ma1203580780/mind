@@ -1,5 +1,7 @@
 // Only low-cardinality, explicitly allowed event fields leave the browser.
 export const eventFields: Record<string, string[]> = {
+  discover_view: [], discover_resource_click: [], discover_community_click: [], discover_github_click: [], discover_rss_click: [], discover_discussion_click: [],
+  build_view: [], build_problem_click: [], article_discussion_click: [], article_discover_click: [], project_github_click: [], home_discover_click: [],
   article_mode: ['mode'], article_open: ['mode'], read_depth: ['percent'], read_active: ['seconds'],
   audio_play: ['type'], audio_complete: ['type'], audio_progress: ['type','percent'],
   video_play: ['type'], video_complete: ['type'], video_progress: ['type','percent'],

@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';import ProjectCard from '../components/ProjectCard.astro';
+import {path} from '../site';import {discover,discussionUrl} from '../lib/connections';
+import problems from '../data/open-problems.json';import projects from '../data/projects.json';
+---
+<Base title="一起做 · 海波东" description="正在研究的开放问题、正在构建的项目，以及一起做点东西的方式。"><div class="connection-page" data-connection-view="build_view">
+<header class="connection-heading"><a class="back" href={path('discover/')}>← 回到发现</a><h1>一起做</h1><p>从一个真实问题开始，交换想法，也把想法做出来。</p></header>
+<section class="connection-section"><div class="section-label"><span>01</span><h2>当前开放问题</h2></div><div class="problem-list">{problems.map((problem,i)=><article id={problem.id}><div class="problem-meta"><span>QUESTION / {String(i+1).padStart(2,'0')}</span><span>{problem.status}</span></div><h3>{problem.question}</h3><p>{problem.background}</p><div class="interest-tags">{problem.tags.map(tag=><span>{tag}</span>)}</div><div class="problem-progress"><small>当前进展</small><p>{problem.progress}</p></div><div class="inline-links"><a href={problem.discussionUrl||discussionUrl(`一起讨论：${problem.question}`,`相关问题：${new URL(path(`build/#${problem.id}`),Astro.site).href}`)} target="_blank" rel="noopener noreferrer" data-connection-event="build_problem_click">一起讨论 ↗</a>{problem.projectId&&<a href={path(`lab/#${problem.projectId}`)}>相关项目 →</a>}</div></article>)}</div><p class="connection-note">{discover.discussionsUrl?'讨论由 GitHub Discussions 承接。':'讨论暂通过 GitHub Issue 承接，链接会带上问题标题；提交需要 GitHub 账号。'}</p></section>
+<section class="connection-section"><div class="section-label"><span>02</span><h2>正在做的项目</h2></div><div class="project-grid">{projects.filter(p=>p.status==='active').map(project=><ProjectCard project={project}/>)}</div><a class="text-link" href={path('lab/')}>查看全部项目 →</a></section>
+<section class="connection-section"><div class="section-label"><span>03</span><h2>欢迎的合作方式</h2></div><div class="collaboration-list">{discover.collaboration.map((mode,i)=><div><span>0{i+1}</span><h3>{mode}</h3><p>{['分享一个具体场景，对照彼此的思路与经验。','把范围缩小到一个可以动手验证的假设。','从一个 Issue、文档修正或小功能开始。','说明正在解决的问题、已有进展与需要的帮助。'][i]}</p></div>)}</div><a class="text-link" href={discussionUrl('一起做：一个项目想法')} target="_blank" rel="noopener noreferrer">从一个具体想法开始 ↗</a></section>
+</div></Base>

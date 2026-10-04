@@ -1,0 +1,31 @@
+[
+  {
+    "id": "mind",
+    "name": "mind",
+    "status": "active",
+    "description": "个人博客与资讯阅读站，记录工程实践、收录公开资讯。",
+    "progress": "完善发现页、公开问题与阅读后的交流路径，让内容连接到持续构建。",
+    "github": "https://github.com/ma1203580780/mind",
+    "url": "",
+    "stack": [
+      "Astro",
+      "TypeScript",
+      "GitHub Pages"
+    ],
+    "updatedAt": "2026-10-04"
+  },
+  {
+    "id": "kancloud",
+    "name": "看云 · 技术写作",
+    "status": "published",
+    "description": "把技术知识与实践经验整理成可以持续阅读的文档与专栏。",
+    "progress": "已发布内容可在看云阅读；本站保留专栏入口。",
+    "github": "",
+    "url": "https://www.kancloud.cn/@martist",
+    "stack": [
+      "技术写作",
+      "知识整理"
+    ],
+    "updatedAt": null
+  }
+]

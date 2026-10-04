@@ -10,7 +10,8 @@
     "news:validate": "node scripts/validate-news.mjs",
     "test:news": "node --test scripts/validate-news.test.mjs scripts/news-feed.test.mjs",
     "write": "astro dev --host 127.0.0.1 --port 4321",
-    "test:writing": "node --test scripts/remark-uploads.test.mjs"
+    "test:writing": "node --test scripts/remark-uploads.test.mjs",
+    "test:v2": "node --test scripts/v2.test.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.3.1",
