@@ -51,7 +51,7 @@ body.site-shell[data-page-family] :is(input,select,textarea):focus-visible {outl
   body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card,.report-card,.private-services>a):hover {transform:translateY(-2px);box-shadow:var(--lift)}
 }
 @media(max-width:760px) {
-  body.site-shell[data-page-family] {--site-header-height:108px}
+  body.site-shell[data-page-family] {--site-header-height:64px}
   body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card) {border-radius:18px}
   body.site-shell[data-page-family] :is(.blog-card,.topic-tile) h2 {font-size:var(--type-body)}
   body.site-shell[data-page-family] .blog-card>p {font-size:var(--ui-body)}

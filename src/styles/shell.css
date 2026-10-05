@@ -43,7 +43,7 @@ body.site-shell .rule-panel{margin:16px 0}
 ::view-transition-old(root),::view-transition-new(root),::view-transition-old(site-header),::view-transition-new(site-header){animation:none!important;mix-blend-mode:normal}
 @media(max-width:760px){
  body.site-shell main{padding:16px 14px 35px}
- html{scroll-padding-top:168px}.content-toolbar{margin-bottom:16px;font-size:11px;gap:8px}.content-toolbar .toolbar-links{gap:12px}
+ html{scroll-padding-top:124px}.content-toolbar{margin-bottom:16px;font-size:11px;gap:8px}.content-toolbar .toolbar-links{gap:12px}
  body.site-shell .news-workspace{display:flex;flex-direction:column;gap:0}
  body.site-shell .daily-sidebar{position:relative;top:0;display:block;border:0;padding:0;margin:0 0 14px;width:100%;max-height:none;overflow:visible}
  body.site-shell .daily-sidebar .sidebar-bottom{display:none}
@@ -53,7 +53,7 @@ body.site-shell .rule-panel{margin:16px 0}
  body.site-shell .news-dates a.chosen{background:var(--soft);border-color:var(--blue);color:var(--blue);box-shadow:none}
  body.site-shell .daily-board{padding:0;width:100%}.content-toolbar h1{font-size:14px}
  body.site-shell .article-header h1{font-size:22px}.article-header .tags{margin-top:10px}
- body.site-shell .page-heading h1,body.site-shell .page-head h1,body.site-shell .discovery-intro h1{font-size:18px}.reading-progress{top:108px}
+ body.site-shell .page-heading h1,body.site-shell .page-head h1,body.site-shell .discovery-intro h1{font-size:18px}.reading-progress{top:var(--site-header-height)}
 }
 
 .archive-date-strip{display:flex;align-items:center;gap:8px;overflow-x:auto;white-space:nowrap;margin:0 0 16px;font-size:11px;color:var(--muted)}.archive-date-strip>a{padding:6px 12px;border:1px solid var(--line);border-radius:9px;background:var(--paper)}

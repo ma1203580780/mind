@@ -32,7 +32,7 @@ html[data-theme='dark'] .explore-page{
   /* 半透明面板让背景布的颜色透上来，面板与背景不再是割裂的两层。 */
   background:linear-gradient(180deg,color-mix(in srgb,var(--paper) 88%,transparent),color-mix(in srgb,var(--paper) 76%,transparent));
   box-shadow:var(--dx-edge),var(--dx-shadow-lg);
-  backdrop-filter:var(--dx-glass);-webkit-backdrop-filter:var(--dx-glass);
+  -webkit-backdrop-filter:var(--dx-glass);backdrop-filter:var(--dx-glass);
 }
 .board-intro,.board-columns{border-bottom:1px solid var(--dx-hairline-soft)}
 

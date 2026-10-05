@@ -3,7 +3,11 @@
    页面之间的差异只剩背景与场景配色（--bg/--ink/... 由 site-theme + page backdrop 提供），
    外框的结构、尺寸、字号、圆角、间距在这里统一，不随 tab 或页面变化。
    组件：components/SiteHeader.astro、components/SiteFooter.astro、components/SectionNav.astro
-   数据：lib/site-chrome.mjs */
+   数据：lib/site-chrome.mjs
+
+   写带前缀的属性时，前缀在前、标准属性在后（-webkit-backdrop-filter 然后 backdrop-filter）。
+   Lightning CSS 会把「后写的那条」当成正式声明：顺序反过来时它只留下 -webkit- 版本，
+   而 Chrome 根本不认这个前缀，构建产物里的毛玻璃会整体失效（dev 里看不出来）。 */
 
 /* ---------- 层序：外框永远压在页面背景之上 ----------
    发现页的背景布是 position:fixed + z-index:-1 的 WebGL 画布，它和 body 的
@@ -13,23 +17,24 @@ body.site-shell > .content-layout,
 body.site-shell > footer.site-footer {position: relative;z-index: 1}
 
 /* ---------- 顶栏 ----------
-   顶栏是一条常驻的毛玻璃：blur 一直在，底色只在页面真的滑起来之后才补上。
-   静止在页首时背后只有一条平滑的天空渐变，模糊它看不出来，所以顶栏仍然是「透明」的，
-   天空不会被切出一条横带；一旦内容滑到顶栏底下，同一层玻璃就把文字挡成雾面，
-   内容不会再和品牌/tab 叠在一起读。 */
+   顶栏是一条「滑起来才出现的毛玻璃」。静止在页首时它必须完全透明：
+   背后是天空的径向高光，一旦对它做 backdrop-filter，那点高光会被抹平成一条纯色横带，
+   在顶栏下沿切出一道肉眼可见的边。所以模糊和底色一起等到页面真的下滑再加——
+   那时候背后已经是卡片文字，同一层玻璃正好把它挡成雾面，不再和品牌/tab 叠着读。 */
 body.site-shell #site-header {
   position: sticky;top: 0;z-index: 60;
   display: block;width: 100%;max-width: none;
   height: var(--site-header-height);min-height: var(--site-header-height);
   margin: 0;padding: 0;border: 0;
   background: transparent;box-shadow: none;
-  backdrop-filter: blur(22px) saturate(150%);
-  -webkit-backdrop-filter: blur(22px) saturate(150%);
-  transition: background-color 200ms ease-out, box-shadow 200ms ease-out;
+  -webkit-backdrop-filter:none;backdrop-filter:none;
+  transition: background-color 200ms ease-out, box-shadow 200ms ease-out, backdrop-filter 200ms ease-out;
 }
 html[data-header-scrolled] body.site-shell #site-header {
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   box-shadow: 0 1px 0 color-mix(in srgb, var(--line) 75%, transparent);
+  -webkit-backdrop-filter:blur(22px) saturate(150%);
+  backdrop-filter:blur(22px) saturate(150%);
 }
 @media(prefers-reduced-motion:reduce) {
   body.site-shell #site-header {transition: none}
@@ -55,8 +60,8 @@ html[data-header-scrolled] body.site-shell #site-header {
   border-radius: 24px;
   background: color-mix(in srgb, var(--surface) 82%, transparent);
   box-shadow: none;overflow: auto;
-  backdrop-filter: blur(12px) saturate(140%);
-  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter:blur(12px) saturate(140%);
+  backdrop-filter:blur(12px) saturate(140%);
 }
 #site-header nav a {
   display: flex;align-items: center;justify-content: center;
@@ -81,8 +86,8 @@ html[data-header-scrolled] body.site-shell #site-header {
   position: sticky;top: var(--site-header-height);z-index: 45;
   background: color-mix(in srgb, var(--bg) 72%, transparent);
   border-bottom: 1px solid color-mix(in srgb, var(--line) 55%, transparent);
-  backdrop-filter: blur(20px) saturate(145%);
-  -webkit-backdrop-filter: blur(20px) saturate(145%);
+  -webkit-backdrop-filter:blur(20px) saturate(145%);
+  backdrop-filter:blur(20px) saturate(145%);
 }
 .section-nav {
   display: flex;align-items: center;gap: 7px;
@@ -98,14 +103,36 @@ html[data-header-scrolled] body.site-shell #site-header {
 .section-nav a[aria-current="page"] {background: var(--soft);color: var(--blue)}
 .section-nav a:hover:not([aria-current]) {background: var(--surface);color: var(--ink)}
 
-/* 资讯页的二级导航贴在自己的内容流里，不重复顶栏那条底边。 */
-body.site-shell .news-content-layout > .section-rail {
-  background: transparent;border: 0;box-shadow: none;
-  backdrop-filter: none;-webkit-backdrop-filter: none;
+/* 二级导航和顶栏用同一条规则：滑动起来才补底色。
+   它静止时在文档流里、背后没东西，保持原样即可；一旦内容滑到它底下，
+   补上底色才不会出现「卡片文字穿过筛选条」这种叠读。 */
+html[data-header-scrolled] .section-rail {
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  border-bottom-color: color-mix(in srgb, var(--line) 70%, transparent);
+}
+
+/* 资讯页的二级导航横贴在顶栏下时（≤1100px）本来是全透明的：静止时维持这个原样，
+   滑动时再补上玻璃，否则卡片正文会直接穿筛选条而过。 */
+@media(max-width: 1100px) {
+  body.site-shell .news-content-layout > .section-rail {
+    background: transparent;border: 0;box-shadow: none;
+    -webkit-backdrop-filter:none;backdrop-filter:none;
+  }
+  html[data-header-scrolled] body.site-shell .news-content-layout > .section-rail {
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--line) 55%, transparent);
+    -webkit-backdrop-filter:blur(20px) saturate(145%);
+    backdrop-filter:blur(20px) saturate(145%);
+  }
 }
 
 /* 资讯页把同一条二级导航竖排进左栏；只是布局位置变化，样式仍来自上面这套。 */
 @media(min-width: 1101px) {
+  /* 竖排进左栏之后它是栏内元素，和正文左右并排、不压着内容，所以保持透明。 */
+  body.site-shell .news-content-layout > .section-rail {
+    background: transparent;border: 0;box-shadow: none;
+    -webkit-backdrop-filter:none;backdrop-filter:none;
+  }
   body.site-shell .news-content-layout {
     display: grid;grid-template-columns: 128px minmax(0, 1fr);gap: 18px;align-items: start;
     width: min(calc(100% - 48px), var(--shell-width));max-width: var(--shell-width);margin: 0 auto;
@@ -150,7 +177,7 @@ body.site-shell > footer.site-footer {
   #site-header .header-inner {
     grid-template-columns: auto minmax(0, 1fr) auto;
     grid-template-rows: var(--site-header-height);
-    align-items: center;gap: 8px;padding: 0 20px;
+    align-items: center;gap: 8px;padding: 0 16px;
   }
   #site-header .brand {grid-column: 1;grid-row: 1}
   #site-header .header-tools {grid-column: 3;grid-row: 1}
@@ -160,13 +187,18 @@ body.site-shell > footer.site-footer {
     margin: 0;padding: 3px;gap: 3px;
     justify-content: center;
   }
-  #site-header nav a {min-width: 0;padding: 6px 9px;border-radius: 18px;font-size: var(--ui-small)}
+  #site-header nav a {min-width: 0;padding: 6px 8px;border-radius: 18px;font-size: var(--ui-small)}
   #site-header nav a[aria-current="page"] {background: var(--soft);box-shadow: none}
 
   .section-nav {height: 48px;padding: 0 14px;gap: 3px}
   .section-nav a {padding: 0 12px;font-size: 11px}
 
   body.site-shell > footer.site-footer {grid-template-columns: repeat(3, minmax(0, 1fr));gap: 16px;padding: 32px 20px}
+}
+/* 小屏（≤400px）再收一点：品牌 + 五个 tab + 主题仍然一行放得下，不用滚。 */
+@media(max-width: 400px) {
+  #site-header .header-inner {gap: 6px;padding: 0 14px}
+  #site-header nav a {padding: 6px 6px}
 }
 /* 顶部那条 tab 轨道在窄屏会横向滚动，滚条藏掉，留一颗干净的胶囊。 */
 #site-header nav {scrollbar-width: none}

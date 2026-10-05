@@ -88,7 +88,7 @@ body.site-shell[data-page-family=utility] .search-canvas .search-form {
   --search-focus-surface:color-mix(in srgb,var(--paper) 92%,transparent);
   --search-light:color-mix(in srgb,var(--blue) 15%,transparent);
   border:0;outline:none;border-radius:24px;background:var(--search-surface);
-  backdrop-filter:blur(20px) saturate(130%);-webkit-backdrop-filter:blur(20px) saturate(130%);
+  -webkit-backdrop-filter:blur(20px) saturate(130%);backdrop-filter:blur(20px) saturate(130%);
   box-shadow:0 12px 36px -22px var(--search-light);padding:12px 16px 12px 24px;
   transition:background 180ms ease-out,box-shadow 180ms ease-out;
 }
@@ -140,7 +140,7 @@ html[data-theme=dark] body.site-shell[data-page-family=studio] .lab-project[data
   body.site-shell[data-page-family=studio] .lab-project:hover .lab-art-object {transform:translateY(-2px)}
 }
 @media(max-width:760px) {
-  .page-backdrop[data-backdrop] {height:calc(440px + var(--site-header-height,108px))}
+  .page-backdrop[data-backdrop] {height:calc(440px + var(--site-header-height,64px))}
   body.site-shell[data-page-family=feed] .daily-board .news-grid .news-card-body {padding:16px}
   body.site-shell[data-page-family=connection] main {padding-top:20px}
   body.site-shell[data-page-family=reading]:not(.reading-layout) main {padding-top:28px}
