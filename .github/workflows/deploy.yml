@@ -2,8 +2,12 @@ name: Publish blog
 on:
   push:
     branches: [main]
+  # GitHub 的 schedule 是尽力而为：实测会晚几小时、也会漏跑（一天 3 次大约命中一半）。
+  # 所以排得多一些（每 3 小时两个点，共 16 次机会），再用下面的新鲜度门控决定是否真采集：
+  # 只有距上次采集 ≥ 6 小时才付出采集与翻译的成本，其余运行只做构建部署（约 45 秒）。
+  # 这样每天实际采集 2–4 次，而定时机会多了 5 倍。
   schedule:
-    - cron: '17 0,6,12 * * *'
+    - cron: '7,37 */3 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -33,14 +37,41 @@ jobs:
         with:
           path: ~/.cache/mind-translation
           key: mind-argos-en-zh-1.9-433e7c4f
+      - name: Check news freshness
+        id: news
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect-news]') }}
+        run: |
+          if [ "$FORCE" = "true" ]; then
+            echo "collect=true" >> "$GITHUB_OUTPUT"
+            echo "手动触发或提交信息含 [collect-news]：本次强制采集"
+            exit 0
+          fi
+          age=$(python3 - <<'PY'
+          import datetime, json, pathlib
+          p = pathlib.Path('src/data/news-status.json')
+          if not p.exists():
+              print(9999)
+          else:
+              t = datetime.datetime.fromisoformat(json.loads(p.read_text())['checkedAt'])
+              now = datetime.datetime.now(datetime.timezone.utc)
+              print(int((now - t).total_seconds() // 3600))
+          PY
+          )
+          echo "距上次采集 ${age} 小时（阈值 6）"
+          if [ "$age" -ge 6 ]; then
+            echo "collect=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "collect=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Install offline translation runtime
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect-news]')
+        if: steps.news.outputs.collect == 'true'
         run: pip install -r scripts/translation-requirements.txt
       - name: Collect public news feeds
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect-news]')
+        if: steps.news.outputs.collect == 'true'
         run: python3 scripts/collect-news.py
       - name: Enrich bilingual excerpts and publisher images
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect-news]')
+        if: steps.news.outputs.collect == 'true'
         run: python3 scripts/enrich-news.py
       - run: python3 -m unittest discover -s scripts -p 'test_*news.py'
       - run: npm ci
@@ -59,7 +90,7 @@ jobs:
       - run: node --test scripts/reading-articles.test.mjs scripts/site-presentation.test.mjs scripts/sky-background.test.mjs scripts/search-position.test.mjs scripts/pool-background.test.mjs
       - run: npm run test:v2
       - name: Save collected editions
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[collect-news]')
+        if: steps.news.outputs.collect == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
