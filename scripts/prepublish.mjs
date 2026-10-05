@@ -47,6 +47,30 @@ const readField = (head, key) => {
   return m ? m[1].replace(/^['"]|['"]$/g, '').trim() : null;
 };
 
+// 有些草稿被测试显式保护（例如 v2.test.mjs 断言它不得进入搜索与 RSS）。
+// 只把「既是 mind 草稿、又出现在测试文件里」的 slug 视为受保护，避免误报普通字符串。
+const guardedSlugs = () => {
+  const guards = new Map();
+  let drafts = [];
+  try { drafts = readdirSync(mindPosts).filter(f => f.endsWith('.md')).map(f => f.replace(/\.md$/, '')); } catch { return guards; }
+  const draftOnly = drafts.filter(slug => {
+    try { return /^draft:\s*true\s*$/m.test(readFileSync(`${mindPosts}${slug}.md`, 'utf8')); } catch { return false; }
+  });
+  let files = [];
+  try { files = readdirSync(`${root}scripts`).filter(f => f.endsWith('.mjs')); } catch { return guards; }
+  for (const file of files) {
+    let text;
+    try { text = readFileSync(`${root}scripts/${file}`, 'utf8'); } catch { continue; }
+    if (!/test\(/.test(text)) continue;
+    for (const slug of draftOnly) {
+      const line = text.split('\n').findIndex(l => l.includes(`'${slug}'`) || l.includes(`"${slug}"`));
+      if (line >= 0 && !guards.has(slug)) guards.set(slug, {file, line: line + 1});
+    }
+  }
+  return guards;
+};
+const guards = guardedSlugs();
+
 let failures = 0;
 const plans = [];
 
@@ -54,6 +78,15 @@ for (const slug of slugs) {
   const source = `${mindPosts}${slug}.md`;
   const target = `${ourPosts}${slug}.md`;
   const notes = [];
+
+  // 被测试显式保护的草稿在写入之前就拦下，避免白跑一轮构建。
+  if (guards.has(slug) && !force) {
+    const {file, line} = guards.get(slug);
+    console.error(`✘ ${slug}：被测试保护，不能发布 —— scripts/${file}:${line} 显式断言它不在搜索/RSS 中。`);
+    console.error(`  若确实要发布，先改那条断言，或加 --force 跳过本检查。`);
+    failures++;
+    continue;
+  }
 
   if (!existsSync(source)) {
     // 允许直接编辑发布克隆里的文章（比如本就在仓库里的那几篇）
