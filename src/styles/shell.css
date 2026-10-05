@@ -40,7 +40,7 @@ body.site-shell .reading-controls{margin:0 0 16px}
 .content-toolbar details{position:relative}.content-toolbar details>summary{cursor:pointer;list-style:none}.content-toolbar details>div{position:absolute;right:0;top:30px;width:min(350px,82vw);padding:18px;background:var(--paper);border:1px solid var(--line);border-radius:14px;box-shadow:var(--lift);z-index:10}.content-toolbar details p{margin:0 0 8px}
 body.site-shell .news-workspace{display:grid;grid-template-columns:minmax(0,1fr) 156px;gap:28px}
 body.site-shell .daily-board{grid-column:1;grid-row:1;padding:0;min-width:0}
-body.site-shell .daily-sidebar{grid-column:2;grid-row:1;display:block;position:sticky;top:146px;height:auto;max-height:none;overflow:visible;padding:0 0 0 16px;border-left:1px solid var(--line);align-self:start}
+body.site-shell .daily-sidebar{grid-column:2;grid-row:1;display:block;position:sticky;top:calc(var(--site-header-height) + 18px);height:auto;max-height:none;overflow:visible;padding:0 0 0 16px;border-left:1px solid var(--line);align-self:start}
 body.site-shell .daily-sidebar .date-picker{margin:0;display:block}
 body.site-shell .date-picker>summary{font-size:12px;font-weight:500;margin:0 0 10px;padding:0;border:0;background:none;box-shadow:none;display:flex;justify-content:space-between;list-style:none}
 body.site-shell .date-picker .news-dates{position:static;display:block;max-height:none;padding:0;border:0;box-shadow:none;background:none;min-width:0}
