@@ -53,7 +53,7 @@ body.site-shell main:has(> .lab-gallery) {
 .lab-art-shadow { opacity: .23; }.lab-art-guides { color: var(--lab-accent); opacity: .18; }
 .lab-art-object { transform-origin: 50% 52%; transition: transform .5s cubic-bezier(.2,.65,.3,1); }
 .lab-project-copy { position: relative; }
-.lab-project-copy h2 { margin: 0 0 9px; color: var(--lab-card-ink); font-size: 30px; font-weight: 550; line-height: 1.25; letter-spacing: -.045em; }
+.lab-project-copy h2 { margin: 0 0 9px; color: var(--lab-card-ink); font-size: 30px; font-weight: 600; line-height: 1.25; letter-spacing: -.045em; }
 .lab-project[data-project=kancloud] h2 { font-size: 28px; letter-spacing: -.035em; }
 .lab-project[data-project=sre-course] h2 { font-size: 24px; line-height: 1.46; letter-spacing: -.025em; }
 .lab-project-copy p { color: var(--lab-card-muted); margin: 0; font-size: 13px; line-height: 1.8; }

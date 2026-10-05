@@ -33,7 +33,7 @@
 .daily-sidebar .news-dates a.chosen{border-color:var(--line);box-shadow:0 2px 3px #00000004,0 7px 18px #00000006}
 .daily-sidebar .news-dates a:hover{background:var(--paper);transform:translateX(-2px)}
 .daily-board-top{margin-bottom:22px;align-items:flex-end}
-.daily-board-top h1{font-size:25px;font-weight:550;letter-spacing:.015em;margin:10px 0}
+.daily-board-top h1{font-size:25px;font-weight:600;letter-spacing:.015em;margin:10px 0}
 .daily-board-top h1>span{font-size:11px;color:var(--muted);font-weight:400;letter-spacing:0;margin-left:16px}
 .daily-board-top p{font-size:10px;line-height:1.8}
 .daily-board-top .edition-eyebrow{font-size:9px;letter-spacing:.1em;display:flex;align-items:center;gap:10px}
@@ -46,7 +46,7 @@
 .daily-board .news-filter-panel{display:flex;align-items:center;justify-content:space-between;position:static;gap:12px;margin:15px 0 0;padding:0 1px;background:none;border:0;box-shadow:none;backdrop-filter:none}
 .news-filter-panel .news-language-tabs{display:flex;gap:15px;align-items:center;margin:0;padding:0;border:0}
 .news-language-tabs a{display:flex;align-items:center;gap:5px;padding:8px 0;font-size:11px;color:var(--muted);white-space:nowrap;border-bottom:2px solid transparent;transition:color 150ms,border-color 150ms}
-.news-language-tabs a[aria-current=page]{color:var(--ink);border-color:var(--ink);font-weight:550}
+.news-language-tabs a[aria-current=page]{color:var(--ink);border-color:var(--ink);font-weight:600}
 .news-language-tabs small{font:9px ui-monospace,monospace;opacity:.6}
 .topic-subscriptions{font-size:10px;color:var(--muted);white-space:nowrap}
 .news-topic-description{font-size:11px;line-height:1.8;color:var(--muted);padding:0 1px;margin:10px 0 0}
