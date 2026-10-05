@@ -20,9 +20,7 @@
 .daily-sidebar .news-dates a.chosen>span:first-child{font:inherit;color:inherit}
 
 /* An editorial reading wall with a quiet date rail on the right. */
-.wide-layout .header{position:relative;top:auto;background:var(--bg);backdrop-filter:none}
 .wide-layout main{padding:0 24px 60px}
-.wide-layout footer{margin-left:0;margin-right:184px}
 .news-workspace{grid-template-columns:minmax(0,1fr) 164px;gap:24px}
 .daily-board{grid-column:1;grid-row:1;padding-top:28px}
 .daily-sidebar{grid-column:2;grid-row:1;top:24px;height:calc(100dvh - 48px);padding:32px 0 20px 8px}
@@ -54,7 +52,7 @@
 .news-topic-tabs a:focus-visible,.news-dates a:focus-visible,.news-language-tabs a:focus-visible{outline:2px solid var(--blue);outline-offset:-2px}
 @media(max-width:1150px){.news-workspace{grid-template-columns:minmax(0,1fr) 148px;gap:20px}.news-topic-tabs a{padding:10px 11px;flex:none}.daily-board-top h1>span{display:none}.daily-wordmark{font-size:19px}}
 @media(max-width:850px){
- .wide-layout main{padding:0 18px 55px}.wide-layout footer{margin-right:0}
+ .wide-layout main{padding:0 18px 55px}
  .news-workspace{display:block}.daily-sidebar{position:static;height:auto;padding:22px 0 0;display:grid;grid-template-columns:1fr auto;gap:10px}
  .daily-wordmark{font-size:20px}.daily-wordmark>span{display:none}.sidebar-intro{display:none}
  .daily-sidebar .date-picker{margin:0;grid-column:2;grid-row:1}.date-picker summary{padding:9px 12px;border-radius:12px;font-size:11px}
@@ -73,7 +71,6 @@
 @media(prefers-reduced-motion:reduce){.news-topic-tabs a,.daily-sidebar .news-dates a,.news-language-tabs a{transition:none;transform:none}}
 
 /* Keep content near the top: browsing controls share one quiet baseline. */
-.wide-layout .header{height:62px}
 .daily-board{padding-top:22px}
 .daily-board-top{margin-bottom:18px}
 .daily-board-top .edition-eyebrow{display:none}
@@ -85,7 +82,7 @@
 .news-browse-meta .news-list-context{margin:0;padding:0;border:0;gap:18px}
 .news-browse-meta .news-list-context>p>strong{margin-left:0}
 .news-topic-description{margin:-8px 0 17px}
-@media(max-width:850px){.wide-layout .header{height:auto}.daily-sidebar{padding-top:20px}.daily-board{padding-top:20px}.news-browse-meta{gap:10px}.news-browse-meta .news-list-context{gap:10px}.news-browse-meta .news-list-context>p>span{display:none}.news-browse-meta .news-list-context>p{max-width:none}}
+@media(max-width:850px){.daily-sidebar{padding-top:20px}.daily-board{padding-top:20px}.news-browse-meta{gap:10px}.news-browse-meta .news-list-context{gap:10px}.news-browse-meta .news-list-context>p>span{display:none}.news-browse-meta .news-list-context>p{max-width:none}}
 @media(max-width:560px){.daily-board-top h1{font-size:22px}.news-browse-meta{flex-wrap:wrap;gap:7px;margin-bottom:15px}.news-browse-meta .news-filter-panel{flex:none;width:100%}.news-browse-meta .news-list-context{width:100%;justify-content:space-between}.news-browse-meta .news-list-context>p>span{display:inline}.news-browse-meta .news-list-context>p>strong{width:auto;margin-left:5px}.news-browse-meta .topic-subscriptions{display:block}.news-browse-meta .news-language-tabs a{padding:6px 0}.news-topic-description{margin:-5px 0 14px}}
 
 /* A quiet, unboxed filter list pairs with the news navigation column. */

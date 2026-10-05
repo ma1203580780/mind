@@ -19,12 +19,12 @@
 }
 body.site-shell .blog-card, body.site-shell .daily-board .news-card,
 body.site-shell .daily-board .news-grid[data-view=list] .news-card,
-.lab-gallery .lab-project, .explore-now, .explore-connect, .project-card {
+.lab-gallery .lab-project, .project-card {
   transition: transform var(--motion-surface) var(--motion-ease),
     box-shadow var(--motion-surface) var(--motion-ease), border-color var(--motion-surface) ease;
 }
-.intro-links svg, .discover-focus svg, .project-arrow, .lab-action-icon,
-.card-reading-actions button > span, .network-entry h4 a span, .network-communities b {
+.intro-links svg, .board-head a svg, .project-arrow, .lab-action-icon,
+.card-reading-actions button > span, .network-entry h4 a span {
   display: inline-block;
   transition: transform var(--motion-surface) var(--motion-ease), color var(--motion-quick) ease;
 }
@@ -36,9 +36,7 @@ body.site-shell .daily-board .news-grid[data-view=list] .news-card,
 .icon-button[aria-pressed=true] svg { transform: rotate(-18deg); }
 @media (hover:hover) and (pointer:fine) {
   body.site-shell .blog-card:hover, .project-card:hover { transform: translateY(-3px); box-shadow: var(--lift); }
-  .explore-now:hover, .explore-connect:hover { border-color: color-mix(in srgb, var(--line) 70%, var(--muted)); box-shadow: var(--lift); }
-  .card-reading-actions button:hover > span, .network-entry h4 a:hover span,
-  .network-communities a:hover b { transform: translate(2px, -2px); }
+  .card-reading-actions button:hover > span, .network-entry h4 a:hover span { transform: translate(2px, -2px); }
 }
 /* Repeated clicks, Escape and the backdrop all share the same reader exit. */
 body.site-shell .news-reader[open] { animation: reader-enter 380ms var(--motion-ease) both; }

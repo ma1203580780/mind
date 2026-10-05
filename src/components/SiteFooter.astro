@@ -1,0 +1,8 @@
+---
+// 公共页脚：站点 / 关注 / 关于三组，内容来自 lib/site-chrome.mjs。
+// 所有页面共用一份；背景随页面场景变化，但文案与样式不随页面变化。
+import {path, site} from '../site';
+import {footerGroups} from '../lib/site-chrome.mjs';
+const groups = footerGroups({github: site.social.github});
+---
+<footer class="site-footer" aria-label="页脚导航">{groups.map(group=><div class="footer-group" data-group={group.key}><h2>{group.title}</h2>{group.links.map(link=><a href={link.external ? link.url : path(link.url)} target={link.external ? '_blank' : undefined} rel={link.external ? 'noopener noreferrer' : undefined}>{link.label}</a>)}</div>)}</footer>

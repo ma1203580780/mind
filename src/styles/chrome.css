@@ -1,0 +1,140 @@
+/* 全站公共外框：顶栏（含主导航 tab）、二级导航、页脚。
+   这是 header / footer / section-rail 的唯一落点——页面级样式不要再碰它们。
+   页面之间的差异只剩背景与场景配色（--bg/--ink/... 由 site-theme + page backdrop 提供），
+   外框的结构、尺寸、字号、圆角、间距在这里统一，不随 tab 或页面变化。
+   组件：components/SiteHeader.astro、components/SiteFooter.astro、components/SectionNav.astro
+   数据：lib/site-chrome.mjs */
+
+/* ---------- 顶栏 ---------- */
+body.site-shell #site-header {
+  position: sticky;top: 0;z-index: 60;
+  display: block;width: 100%;max-width: none;
+  height: var(--site-header-height);min-height: var(--site-header-height);
+  margin: 0;padding: 0;border: 0;
+  background: transparent;box-shadow: none;
+  backdrop-filter: none;-webkit-backdrop-filter: none;
+}
+#site-header .header-inner {
+  display: grid;grid-template-columns: 160px minmax(0, 1fr) 160px;align-items: center;gap: 16px;
+  width: 100%;max-width: var(--shell-width);
+  height: var(--site-header-height);min-height: var(--site-header-height);
+  margin: 0 auto;padding: 0 24px;
+}
+#site-header .brand {
+  display: flex;align-items: center;gap: 8px;
+  font-size: var(--ui-body);font-weight: 600;letter-spacing: .03em;
+  white-space: nowrap;color: var(--ink);
+}
+#site-header .brand-symbol {color: var(--blue);opacity: .75}
+
+#site-header nav {
+  display: flex;justify-content: center;gap: 3px;
+  font-size: var(--ui-body);
+  min-width: 0;max-width: 100%;height: 44px;margin: 0 auto;padding: 4px;
+  border: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
+  border-radius: 24px;
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  box-shadow: none;overflow: auto;
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+}
+#site-header nav a {
+  display: flex;align-items: center;justify-content: center;
+  flex: none;min-width: 58px;margin: 0;padding: 6px 14px;
+  border-radius: 20px;
+  font-size: var(--ui-body);font-weight: 400;text-align: center;white-space: nowrap;
+  color: var(--muted);
+}
+#site-header nav a:hover {color: var(--ink);background: var(--paper)}
+#site-header nav a[aria-current="page"] {background: var(--paper);color: var(--blue);box-shadow: var(--shadow);font-weight: 600}
+
+#site-header .header-tools {display: flex;align-items: center;justify-self: end;gap: 5px;margin: 0}
+#site-header .icon-button {
+  display: grid;place-items: center;
+  width: 40px;height: 40px;padding: 0;
+  border: 0;border-radius: 50%;background: transparent;color: inherit;
+}
+#site-header .icon-button:hover {background: var(--paper);box-shadow: var(--shadow)}
+
+/* ---------- 二级导航 ---------- */
+.section-rail {
+  position: sticky;top: var(--site-header-height);z-index: 45;
+  background: color-mix(in srgb, var(--bg) 72%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--line) 55%, transparent);
+  backdrop-filter: blur(20px) saturate(145%);
+  -webkit-backdrop-filter: blur(20px) saturate(145%);
+}
+.section-nav {
+  display: flex;align-items: center;gap: 7px;
+  max-width: var(--shell-width);height: 52px;margin: auto;padding: 0 24px;
+  overflow-x: auto;scrollbar-width: none;white-space: nowrap;
+}
+.section-nav::-webkit-scrollbar {display: none}
+.section-nav a {
+  display: flex;align-items: center;justify-content: center;flex: none;
+  height: 34px;padding: 0 13px;border-radius: 12px;
+  font-size: var(--ui-small);color: var(--muted);
+}
+.section-nav a[aria-current="page"] {background: var(--soft);color: var(--blue)}
+.section-nav a:hover:not([aria-current]) {background: var(--surface);color: var(--ink)}
+
+/* 资讯页的二级导航贴在自己的内容流里，不重复顶栏那条底边。 */
+body.site-shell .news-content-layout > .section-rail {
+  background: transparent;border: 0;box-shadow: none;
+  backdrop-filter: none;-webkit-backdrop-filter: none;
+}
+
+/* 资讯页把同一条二级导航竖排进左栏；只是布局位置变化，样式仍来自上面这套。 */
+@media(min-width: 1101px) {
+  body.site-shell .news-content-layout {
+    display: grid;grid-template-columns: 128px minmax(0, 1fr);gap: 18px;align-items: start;
+    width: min(calc(100% - 48px), var(--shell-width));max-width: var(--shell-width);margin: 0 auto;
+  }
+  body.site-shell .news-content-layout > .section-rail {
+    position: sticky;top: calc(var(--site-header-height) + 18px);align-self: start;
+    width: auto;max-width: none;margin: 0 0 0 24px;
+  }
+  body.site-shell .news-content-layout .section-nav {
+    display: flex;flex-direction: column;align-items: stretch;gap: 4px;
+    max-width: none;height: auto;margin: 0;padding: 8px 0;
+    overflow: visible;white-space: normal;
+  }
+  body.site-shell .news-content-layout .section-nav a {
+    justify-content: flex-start;width: 100%;height: auto;min-height: 40px;padding: 9px 12px;border-radius: 12px;
+  }
+  body.site-shell .news-content-layout .section-nav a[aria-current="page"] {background: color-mix(in srgb, var(--blue) 10%, transparent);color: var(--blue);font-weight: 600}
+  body.site-shell .news-content-layout .section-nav a:hover:not([aria-current="page"]) {background: color-mix(in srgb, var(--surface) 70%, transparent);color: var(--ink)}
+  body.site-shell .news-content-layout main {width: auto;max-width: none;min-width: 0;margin: 0;padding: 22px 16px 48px}
+}
+
+/* ---------- 页脚 ---------- */
+body.site-shell > footer.site-footer {
+  display: grid;grid-template-columns: repeat(3, minmax(0, 180px));justify-content: center;
+  gap: clamp(20px, 6vw, 72px);
+  width: 100%;max-width: var(--shell-width);
+  margin: 24px auto 0;padding: 32px 24px;
+  border-top: 1px solid color-mix(in srgb, var(--line) 65%, transparent);
+  text-align: center;color: var(--muted);font-size: 11px;
+}
+.footer-group {display: flex;flex-direction: column;align-items: center;gap: 8px;font-size: var(--ui-small)}
+.footer-group h2 {margin: 0 0 8px;font-size: var(--ui-small);font-weight: 600;color: var(--ink)}
+.footer-group a {font-size: var(--ui-small);color: var(--muted)}
+.footer-group a:hover {color: var(--blue)}
+
+/* ---------- 窄屏：同一套外框换行，不换设计 ---------- */
+@media(max-width: 760px) {
+  #site-header .header-inner {
+    grid-template-columns: 1fr auto;grid-template-rows: 36px 44px;
+    gap: 8px;padding: 8px 20px 0;
+  }
+  #site-header .brand {grid-column: 1;grid-row: 1}
+  #site-header .header-tools {grid-column: 2;grid-row: 1}
+  #site-header nav {grid-column: 1 / -1;grid-row: 2;width: 100%;height: 42px;justify-content: space-between;gap: 2px}
+  #site-header nav a {flex: 1;min-width: 0;min-height: 34px;padding: 6px 5px;font-size: var(--ui-small)}
+  #site-header nav a[aria-current="page"] {background: var(--soft);box-shadow: none}
+
+  .section-nav {height: 48px;padding: 0 14px;gap: 3px}
+  .section-nav a {padding: 0 12px;font-size: 11px}
+
+  body.site-shell > footer.site-footer {grid-template-columns: repeat(3, minmax(0, 1fr));gap: 16px;padding: 32px 20px}
+}

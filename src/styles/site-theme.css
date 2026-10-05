@@ -16,32 +16,6 @@ html[data-theme=dark] body.site-shell[data-page-family] {
   --shadow:0 2px 5px #0002,0 14px 30px -18px #0005;
   --lift:0 4px 9px #0003,0 22px 40px -20px #0007;
 }
-body.site-shell[data-page-family] #site-header {
-  height:var(--site-header-height);min-height:var(--site-header-height);
-  background:transparent;border:0;backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:none;
-}
-body.site-shell[data-page-family] #site-header .header-inner {height:var(--site-header-height);min-height:var(--site-header-height)}
-body.site-shell[data-page-family] #site-header nav {height:44px;padding:4px;gap:3px;border-radius:24px;background:color-mix(in srgb,var(--surface) 82%,transparent);border:1px solid color-mix(in srgb,var(--line) 70%,transparent);backdrop-filter:blur(12px) saturate(140%);-webkit-backdrop-filter:blur(12px) saturate(140%)}
-body.site-shell[data-page-family] #site-header nav a {min-width:58px;padding:6px 14px;font-size:var(--ui-body);border-radius:20px;font-weight:400}
-body.site-shell[data-page-family] #site-header nav a.active {background:var(--paper);color:var(--blue);box-shadow:var(--shadow);font-weight:600}
-body.site-shell[data-page-family] #site-header nav a.active:after {display:none}
-body.site-shell[data-page-family] #site-header .brand {font-size:var(--ui-body);color:var(--ink)}
-body.site-shell[data-page-family] #site-header .brand-symbol {color:var(--blue)}
-body.site-shell[data-page-family] .section-rail {top:var(--site-header-height);background:color-mix(in srgb,var(--bg) 72%,transparent);border-bottom:1px solid color-mix(in srgb,var(--line) 55%,transparent);backdrop-filter:blur(20px) saturate(145%);-webkit-backdrop-filter:blur(20px) saturate(145%)}
-body.site-shell[data-page-family] .section-nav a {font-size:var(--ui-small);border-radius:12px}
-body.site-shell[data-page-family] .section-nav a[aria-current=page] {background:var(--soft);color:var(--blue)}
-body.site-shell[data-page-family] .news-content-layout>.section-rail {background:transparent;border:0;backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:none}
-@media(min-width:1101px) {
-  body.site-shell[data-page-family] .news-content-layout {display:grid;grid-template-columns:128px minmax(0,1fr);gap:18px;align-items:start;width:min(calc(100% - 48px),var(--shell-width));max-width:var(--shell-width);margin:0 auto}
-  body.site-shell[data-page-family] .news-content-layout>.section-rail {position:sticky;top:calc(var(--site-header-height) + 18px);align-self:start;width:auto;max-width:none;margin:0 0 0 24px}
-  body.site-shell[data-page-family] .news-content-layout .section-nav {display:flex;flex-direction:column;align-items:stretch;gap:4px;max-width:none;height:auto;margin:0;padding:8px 0;overflow:visible;white-space:normal}
-  body.site-shell[data-page-family] .news-content-layout .section-nav a {justify-content:flex-start;width:100%;height:auto;min-height:40px;padding:9px 12px;border-radius:12px}
-  body.site-shell[data-page-family] .news-content-layout .section-nav a[aria-current=page] {background:color-mix(in srgb,var(--blue) 10%,transparent);color:var(--blue);font-weight:600}
-  body.site-shell[data-page-family] .news-content-layout .section-nav a:hover:not([aria-current=page]) {background:color-mix(in srgb,var(--surface) 70%,transparent);color:var(--ink)}
-  body.site-shell[data-page-family] .news-content-layout main {width:auto;max-width:none;min-width:0;margin:0;padding:22px 16px 48px}
-}
-body.site-shell[data-page-family] .site-footer {border-top-color:color-mix(in srgb,var(--line) 65%,transparent);margin-top:24px;padding-block:32px}
-body.site-shell[data-page-family] .footer-group,body.site-shell[data-page-family] .footer-group h2 {font-size:var(--ui-small)}
 body.site-shell[data-page-family] :is(.page-heading,.page-head,.connection-heading,.discovery-intro) h1 {
   font-size:var(--type-title);line-height:1.5;font-weight:600;letter-spacing:-.02em;color:var(--ink);
 }
@@ -78,9 +52,6 @@ body.site-shell[data-page-family] :is(input,select,textarea):focus-visible {outl
 }
 @media(max-width:760px) {
   body.site-shell[data-page-family] {--site-header-height:108px}
-  body.site-shell[data-page-family] #site-header nav {height:42px;background:color-mix(in srgb,var(--surface) 82%,transparent);border:1px solid color-mix(in srgb,var(--line) 70%,transparent);border-radius:24px;padding:4px;gap:2px;backdrop-filter:blur(12px) saturate(140%);-webkit-backdrop-filter:blur(12px) saturate(140%)}
-  body.site-shell[data-page-family] #site-header nav a {min-width:0;padding:6px 5px;font-size:var(--ui-small)}
-  body.site-shell[data-page-family] #site-header nav a.active {background:var(--soft);box-shadow:none}
   body.site-shell[data-page-family] :is(.blog-card,.topic-tile,.note-card,.project-card) {border-radius:18px}
   body.site-shell[data-page-family] :is(.blog-card,.topic-tile) h2 {font-size:var(--type-body)}
   body.site-shell[data-page-family] .blog-card>p {font-size:var(--ui-body)}

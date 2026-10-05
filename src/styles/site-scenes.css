@@ -50,16 +50,10 @@ body.site-shell[data-page-family=feed] .daily-sidebar {border-left:0;padding-lef
 body.site-shell[data-page-family=feed] .daily-sidebar .sidebar-bottom {border-top:0}
 body.site-shell[data-page-family=feed] .news-reader[open],body.site-shell[data-page-family=feed] .news-reader::backdrop {animation-duration:220ms}
 body.site-shell[data-page-family=feed] .news-edition-note {color:var(--muted);border-top:0}
-body.site-shell[data-page-family=connection] main {padding-top:36px}
-body.site-shell[data-page-family=connection] .discover-intro {
-  border:0;border-radius:24px;padding:32px;background:color-mix(in srgb,var(--paper) 82%,transparent);box-shadow:var(--shadow);
-}
-body.site-shell[data-page-family=connection] .discover-intro h2 {font-size:var(--type-title)}
-body.site-shell[data-page-family=connection] .discover-intro p {font-size:var(--ui-body)}
-body.site-shell[data-page-family=connection] .intro-links {font-size:var(--ui-small)}
-body.site-shell[data-page-family=connection] .explore-build {border-radius:20px;background:color-mix(in srgb,var(--soft) 55%,var(--paper));color:var(--ink);box-shadow:var(--shadow)}
-body.site-shell[data-page-family=connection] .explore-connect {border:0;border-radius:20px;box-shadow:var(--shadow)}
-body.site-shell[data-page-family=connection] .network-communities {border-radius:20px;background:color-mix(in srgb,var(--surface) 65%,var(--paper))}
+body.site-shell[data-page-family=connection] main {padding-top:28px}
+/* 发现页整页只有一个面板，样式全部收在 explore.css 的 --dx-* 令牌里；
+   这里只保证面板顶部不再叠加额外留白。 */
+body.site-shell[data-page-family=connection] .explore-page {padding-top:0}
 body.site-shell[data-page-family=connection] :is(.connection-heading,.connection-section) {border:0}
 body.site-shell[data-page-family=connection] .connection-heading {padding:12px 0 28px}
 body.site-shell[data-page-family=connection] .problem-list h3 {font-size:var(--type-section)}
@@ -88,7 +82,6 @@ body.site-shell[data-page-family=utility] .search-form:before,
 body.site-shell[data-page-family=utility] .search-form:after {display:none}
 body.site-shell[data-page-family=utility] .search-canvas {padding:24px 32px}
 body.site-shell[data-page-family=utility] .search-canvas .search-list:not(:empty) {padding:0 4px 12px;background:transparent}
-body.site-shell[data-page-family=utility]:has(.search-canvas) .site-footer {margin-top:0;padding-block:16px}
 /* A single glass surface carries focus; the text field never draws an inner box. */
 body.site-shell[data-page-family=utility] .search-canvas .search-form {
   --search-surface:color-mix(in srgb,var(--paper) 76%,transparent);
@@ -149,7 +142,7 @@ html[data-theme=dark] body.site-shell[data-page-family=studio] .lab-project[data
 @media(max-width:760px) {
   .page-backdrop[data-backdrop] {height:calc(440px + var(--site-header-height,108px))}
   body.site-shell[data-page-family=feed] .daily-board .news-grid .news-card-body {padding:16px}
-  body.site-shell[data-page-family=connection] .discover-intro {padding:24px}
+  body.site-shell[data-page-family=connection] main {padding-top:20px}
   body.site-shell[data-page-family=reading]:not(.reading-layout) main {padding-top:28px}
   body.site-shell[data-page-family=reading] :is(.toc,.ed-toc) {top:140px}
   body.site-shell[data-page-family=reading] .prose :is(h2,h3)[id] {scroll-margin-top:140px}
