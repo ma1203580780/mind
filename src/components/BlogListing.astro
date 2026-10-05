@@ -6,9 +6,9 @@ import {blogCategories,blogCategoryRoute} from '../lib/blog-categories';
 const {posts,title='博客',category,years=[]}=Astro.props;
 const rootArchive=Astro.url.pathname===path('archive/');
 ---
-<Base title={`${title} · 海波东`} blogCategory={category} blogArchive={rootArchive}>
-<div class:list={{'archive-canvas':rootArchive}}>
-<section class:list={['archive blog-home',{'archive-content':rootArchive}]}>
+<Base title={`${title} · 海波东`} blogArchive={true}>
+<div class="archive-canvas">
+<section class="archive blog-home archive-content">
   {rootArchive?<h1 class="sr-only">{title}</h1>:<header class="archive-heading"><h1>{title}</h1></header>}
   {!rootArchive&&<nav class="blog-categories" aria-label="博客分类">{blogCategories.map(item=><a href={path(blogCategoryRoute(item.name))} aria-current={item.name===category?'page':undefined}>{item.name}</a>)}</nav>}
   {posts.length>0?<div class="blog-grid">{posts.map(post=><PostCard post={post}/>)}</div>:<p class="collection-note">暂无文章。</p>}
@@ -16,6 +16,16 @@ const rootArchive=Astro.url.pathname===path('archive/');
 </section>
 </div>
 </Base>
+<script>
+import {initNewsFlow} from '../scripts/news-flow';
+import {onPageLoad} from '../scripts/page-lifecycle';
+onPageLoad((_signal,onCleanup)=>{
+  const grid=document.querySelector<HTMLElement>('.blog-grid');
+  if(!grid)return;
+  const flow=initNewsFlow(grid,'.blog-card');
+  onCleanup(()=>flow.destroy());
+});
+</script>
 <style>
 .blog-categories{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 24px}.blog-categories a{padding:6px 12px;border-radius:12px;font-size:12px;background:var(--soft);color:var(--blue)}.blog-categories a[aria-current=page]{background:var(--paper);box-shadow:var(--shadow)}.blog-years{margin-top:36px;color:var(--muted);font-size:12px}.blog-years summary{cursor:pointer}.blog-years nav{display:flex;gap:20px;flex-wrap:wrap;padding:16px 0}.blog-years a:hover{color:var(--ink)}
 </style>

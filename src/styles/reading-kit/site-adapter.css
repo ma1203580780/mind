@@ -11,7 +11,14 @@ body.site-shell.reading-layout main {
   font-family:inherit;background:transparent;
 }
 .reading-layout .ed-site {min-height:0}
-.reading-layout .ed-masthead {position:relative;isolation:isolate;overflow:hidden}
+/* 顶栏是 sticky 且透明，文章头的天空要铺到顶栏后面才算沉浸：
+   负外边距把整块上移一个顶栏高度，再用等量内边距把正文推回原位，
+   于是天空从 y=0 开始，而标题位置不变。 */
+.reading-layout .ed-masthead {
+  position:relative;isolation:isolate;overflow:hidden;
+  margin-top:calc(-1 * var(--site-header-height,72px));
+  padding-top:var(--site-header-height,72px);
+}
 .reading-layout .ed-hero {max-width:820px;padding:38px 24px 112px}
 .reading-layout .ed-hero h1 {
   max-width:760px;margin-bottom:18px;font-size:var(--rk-font-title);
