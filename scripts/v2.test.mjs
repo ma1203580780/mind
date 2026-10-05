@@ -39,7 +39,8 @@ test('new pages expose only existing local routes, resources and anchors',()=>{
 });
 test('published search, RSS and home do not leak local drafts; project search uses shared data',()=>{
  const index=json('dist/search-index.json');
- for(const id of ['ai-engineering-four-layers','agent-stop-with-evidence']){
+ // agent-stop-with-evidence 已于 2026-10-05 正式发布，从这份“不得泄漏”的守卫名单移出。
+ for(const id of ['ai-engineering-four-layers']){
   assert.ok(!index.some(p=>p.id===`post:${id}`));assert.ok(!existsSync(`dist/posts/${id}/index.html`));assert.ok(!readFileSync('dist/rss.xml','utf8').includes(`/posts/${id}/`));
  }
  for(const p of json('src/data/projects.json')){const entry=index.find(e=>e.id===`work:${p.id}`);assert.ok(entry);assert.ok(entry.body.includes(p.progress));assert.equal(entry.url,`/mind/lab/#${p.id}`);}

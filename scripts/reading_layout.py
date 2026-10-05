@@ -9,6 +9,15 @@ def focus_diagram(variant,content):
   rows=s.select('.ed-flow li')
   steps=''.join(f'<li><span class="step-no">{i+1:02d}</span><div><b>{e(row.h3.get_text())}</b><small>{e(row.select_one(".step-check").get_text())}</small></div></li>' for i,row in enumerate(rows))
   return '<div class="ed-focus ed-focus-path rk-playground"><p class="ed-focus-label">这篇文章的主线</p><h2>答案需要覆盖哪些证据？</h2><ol class="rk-steps">'+steps+'</ol><p class="ed-focus-foot">按问题安排阅读，保留每一步的依据。</p></div>'
+ if variant=='path':
+  # 通用分支：复用已获准的 ed-focus-path / rk-steps 版式，只把内容换成该篇自己的 Flow 步骤，
+  # 不为单篇新造视觉语言；标题取该 Flow 区块自己的 ### 标题。
+  flow=s.select_one('.ed-flow');rows=flow.select('li') if flow else []
+  if not rows:raise ValueError('path variant needs a Flow block')
+  head=next((h for h in flow.find_all('h3') if h.find_parent('li') is None),None)
+  title=e(head.get_text()) if head else '按顺序看清每一步'
+  steps=''.join(f'<li><span class="step-no">{i+1:02d}</span><div><b>{e(row.h3.get_text())}</b><small>{e(row.select_one(".step-check").get_text())}</small></div></li>' for i,row in enumerate(rows))
+  return f'<div class="ed-focus ed-focus-path rk-playground"><p class="ed-focus-label">这篇文章的主线</p><h2>{title}</h2><ol class="rk-steps">{steps}</ol><p class="ed-focus-foot">每一步都留下可以核对的依据。</p></div>'
  if variant=='notebook':
   return '<div class="ed-focus ed-focus-memory rk-playground"><p class="ed-focus-label">一张图记住分工</p><div class="ed-memory-graphic"><div><span>冷区</span><b>原文保真</b><small>可回查的档案</small></div><div><span>温区</span><b>状态有效</b><small>标记替代与失效</small></div><div><span>热区</span><b>当前做事</b><small>只放本次必要材料</small></div></div><p class="ed-focus-foot">职责示意 · 面积不代表实际容量</p></div>'
  vals=[row.strong.get_text() for row in s.select('.ed-bar-row')]
