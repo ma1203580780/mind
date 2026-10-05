@@ -5,14 +5,34 @@
    组件：components/SiteHeader.astro、components/SiteFooter.astro、components/SectionNav.astro
    数据：lib/site-chrome.mjs */
 
-/* ---------- 顶栏 ---------- */
+/* ---------- 层序：外框永远压在页面背景之上 ----------
+   发现页的背景布是 position:fixed + z-index:-1 的 WebGL 画布，它和 body 的
+   isolation:isolate 一起会把滚动到视口里的页脚盖住——页脚在 DOM 里、位置也正确，
+   但画不出来。给页面骨架一个明确的层，任何页面背景都盖不住公共外框。 */
+body.site-shell > .content-layout,
+body.site-shell > footer.site-footer {position: relative;z-index: 1}
+
+/* ---------- 顶栏 ----------
+   顶栏是一条常驻的毛玻璃：blur 一直在，底色只在页面真的滑起来之后才补上。
+   静止在页首时背后只有一条平滑的天空渐变，模糊它看不出来，所以顶栏仍然是「透明」的，
+   天空不会被切出一条横带；一旦内容滑到顶栏底下，同一层玻璃就把文字挡成雾面，
+   内容不会再和品牌/tab 叠在一起读。 */
 body.site-shell #site-header {
   position: sticky;top: 0;z-index: 60;
   display: block;width: 100%;max-width: none;
   height: var(--site-header-height);min-height: var(--site-header-height);
   margin: 0;padding: 0;border: 0;
   background: transparent;box-shadow: none;
-  backdrop-filter: none;-webkit-backdrop-filter: none;
+  backdrop-filter: blur(22px) saturate(150%);
+  -webkit-backdrop-filter: blur(22px) saturate(150%);
+  transition: background-color 200ms ease-out, box-shadow 200ms ease-out;
+}
+html[data-header-scrolled] body.site-shell #site-header {
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--line) 75%, transparent);
+}
+@media(prefers-reduced-motion:reduce) {
+  body.site-shell #site-header {transition: none}
 }
 #site-header .header-inner {
   display: grid;grid-template-columns: 160px minmax(0, 1fr) 160px;align-items: center;gap: 16px;
@@ -121,16 +141,26 @@ body.site-shell > footer.site-footer {
 .footer-group a {font-size: var(--ui-small);color: var(--muted)}
 .footer-group a:hover {color: var(--blue)}
 
-/* ---------- 窄屏：同一套外框换行，不换设计 ---------- */
+/* ---------- 窄屏：一行放完，不换行 ----------
+   窄屏的顶栏和 PC 一样只有一行：品牌 | tab | 主题。
+   tab 保持 PC 的自然宽度和那 3px 小间距，不再用 flex:1 撑满整行——
+   撑满会让每个 tab 在 760px 宽时涨到 140px，也把品牌和图标挤去第二行。
+   放不下时由这条 tab 轨道自己横向滚动，顶栏高度不变。 */
 @media(max-width: 760px) {
   #site-header .header-inner {
-    grid-template-columns: 1fr auto;grid-template-rows: 36px 44px;
-    gap: 8px;padding: 8px 20px 0;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-rows: var(--site-header-height);
+    align-items: center;gap: 8px;padding: 0 20px;
   }
   #site-header .brand {grid-column: 1;grid-row: 1}
-  #site-header .header-tools {grid-column: 2;grid-row: 1}
-  #site-header nav {grid-column: 1 / -1;grid-row: 2;width: 100%;height: 42px;justify-content: space-between;gap: 2px}
-  #site-header nav a {flex: 1;min-width: 0;min-height: 34px;padding: 6px 5px;font-size: var(--ui-small)}
+  #site-header .header-tools {grid-column: 3;grid-row: 1}
+  #site-header nav {
+    grid-column: 2;grid-row: 1;justify-self: center;
+    width: fit-content;max-width: 100%;height: 42px;
+    margin: 0;padding: 3px;gap: 3px;
+    justify-content: center;
+  }
+  #site-header nav a {min-width: 0;padding: 6px 9px;border-radius: 18px;font-size: var(--ui-small)}
   #site-header nav a[aria-current="page"] {background: var(--soft);box-shadow: none}
 
   .section-nav {height: 48px;padding: 0 14px;gap: 3px}
@@ -138,3 +168,6 @@ body.site-shell > footer.site-footer {
 
   body.site-shell > footer.site-footer {grid-template-columns: repeat(3, minmax(0, 1fr));gap: 16px;padding: 32px 20px}
 }
+/* 顶部那条 tab 轨道在窄屏会横向滚动，滚条藏掉，留一颗干净的胶囊。 */
+#site-header nav {scrollbar-width: none}
+#site-header nav::-webkit-scrollbar {display: none}
