@@ -16,19 +16,19 @@
     "topic": "Agent 与工具"
   },
   "agent-stop-with-evidence": {
-    "variant": "path",
+    "variant": "plain",
     "topic": "Agent 与工具"
   },
   "when-to-recall-memory": {
-    "variant": "path",
+    "variant": "plain",
     "topic": "记忆与上下文"
   },
   "memory-correction-and-expiry": {
-    "variant": "path",
+    "variant": "plain",
     "topic": "记忆与交互"
   },
   "streaming-ui-action-readiness": {
-    "variant": "path",
+    "variant": "plain",
     "topic": "生成式界面"
   }
 }
