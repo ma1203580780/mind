@@ -614,7 +614,11 @@
     "c455576bd2e4ad88046d2f903b57e1daf11a63478bccde41e61e0f9817a7d4fc": "内生控制偏差和非参数方法校正",
     "9b5614213ec62ffc967b876a9d9b215b88d66b3b291708f16d10d13c24f3c2f1": "为了有条件地使治疗或仪器有效,往往需要控制,但这种控制可能与无法观察的结果决定因素有关。我们显示,限制性的参数调整即使正确指定了结构模型,也可能无法恢复结构平均响应.在有条件的独立性和充分的有条件待遇变异下,灵活的有条件的平均值方法在不可分离的模型中识别出结构平均响应,而控制函数扩展则能满足有条件有效的仪器的内生处理.我们开发一个Specif",
     "17a744b181b93ec39deffb68d9f0a4c8b59222af51bc307306441f3632f9054e": "世界嵌入基准",
-    "2d48173627d6337e70d6484288012d60078a0348f9ac109c3247b6d7903d4d46": "身体忠贞在世界模型和视频生成中受到越来越多的关注,然而视频表现如何编码物理信息仍然不为人所了解.我们引入了“世界嵌入基准 ” , 包括来自80个家庭的8000个受控模拟案例, 涉及流体力学、固体力学、动力学以及光学和电磁学。每个案例配对一个制作的视频并配有模拟生成的物理说明,支持三个互补任务:文本-视频检索、物理属性回归和多选择视频-描述配对分类。我们用TH"
+    "2d48173627d6337e70d6484288012d60078a0348f9ac109c3247b6d7903d4d46": "身体忠贞在世界模型和视频生成中受到越来越多的关注,然而视频表现如何编码物理信息仍然不为人所了解.我们引入了“世界嵌入基准 ” , 包括来自80个家庭的8000个受控模拟案例, 涉及流体力学、固体力学、动力学以及光学和电磁学。每个案例配对一个制作的视频并配有模拟生成的物理说明,支持三个互补任务:文本-视频检索、物理属性回归和多选择视频-描述配对分类。我们用TH",
+    "89e60c9689e487e861438c7bed6fec0f331a454467b1c815344db70226b70129": "飞利浦 R.莱恩:欧洲央行货币政策的诊断挑战",
+    "99dd853f9164d1a23ef6e70e2bf052357f4a8fd5b100ee08f342cd6495ea3fa4": "到2027年,《巴塞尔协议三》适用于几乎所有成员国的法域",
+    "cce96cb5c6582090549a093555b55f080e47e6f8e08ec90e151575e96a81d611": "巴塞尔委员会27个成员辖区中有四分之三已公布实施一整套巴塞尔III标准的条例。几乎所有成员法域都公开宣布,银行必须在2027年4月或更早之前适用巴塞尔III.委员会将继续密切监测和评估《巴塞尔协议三》标准的充分和一致执行情况。",
+    "3d1fe7535510cd9e23c2b3baeb35817596a257e1359d1b09daef7c31daa1e547": "v0.310. 突出此发布功能 307 贡献者承诺 717 !DeepSeek-V4.1-Flash性能:FlashMLA超大注意,V4.1 NVFP4压缩 KV缓存现在是SM100默认值(#56935);DeepGEMM稀疏的MQA对数,用于索引器(#56254)和Mega-Gate以专家选择的GEMM(#56266);解码器边界将TP全浓缩,mHC输入制备(#57643)和MOE最终定型(#58586);一个装有反转RoPE和反转的小型批WO-AMXFP8quant on SM100/SM103 (# 58634); MXFP8 wo_b GEMM 与序列平行还原-sc 结合"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -2691,6 +2695,76 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/009/754.htm"
+    },
+    "https://www.v2ex.com/t/1246490": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "独立开发者 👨‍💻 - @ok168168 - 工具叫 Ainexa：输入一句你的创业想法 → 60 秒出一份分析报告（市场信号 / 竞品 / 最大风险 / 前 100 客户怎么找）不是又一个 ChatGPT 套壳：· 后端接了 6",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1246490"
+    },
+    "https://www.eeo.com.cn/2026/1005/1056352.shtml": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1005/1056352.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1005/1056351.shtml": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/FCB7C4985AC264BC015C9D736BA9A753.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1005/1056351.shtml"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html"
+    },
+    "https://www.eeo.com.cn/2026/1005/1056340.shtml": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1005/1056340.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1005/1056332.shtml": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1005/1056332.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1005/1056322.shtml": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1005/1056322.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1005/1056323.shtml": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/524539CBFCD84D4C52DBDE84167D94E4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1005/1056323.shtml"
+    },
+    "https://www.bis.org/media-releases/20261005-basel-iii-applicable-almost-all-member-jurisdictions-2027": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "Three quarters of the Basel Committee’s 27 member jurisdictions have now published regulations implementing the full set of Basel III standards. Almost all member jurisdictions have publicly announced that banks must apply Basel III by April 2027 or earlier. The Committee will continue to closely monitor and assess the full and consistent implementation of Basel III standards.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.bis.org/media-releases/20261005-basel-iii-applicable-almost-all-member-jurisdictions-2027"
+    },
+    "https://www.qbitai.com/2026/10/501705.html": {
+      "checkedAt": "2026-10-05T09:49:09.676780+00:00",
+      "description": "AI已经开始真正进入「造下一代AI」的流水线",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/142c5d9dbafecd557b203832b4122607.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/501705.html"
     }
   }
 }
