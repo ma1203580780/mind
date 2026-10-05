@@ -7,7 +7,6 @@ tags: ["AI工程", "产品设计"]
 authorship: "assisted"
 draft: false
 featured: false
-demo: false
 ---
 
 一个 Agent 成功返回了工具调用，并不等于它完成了用户的任务。它可能选对工具却填错参数，也可能调用成功却重复执行，还可能根本不需要调用工具。

@@ -7,7 +7,6 @@ tags: ["AI工程"]
 authorship: "assisted"
 draft: false
 featured: false
-demo: false
 ---
 
 笔记里有一段自问自答，我很喜欢：把链路拆成阶段，再改成异步，为什么会降低 token？紧接着又提醒自己，这些做法本身并不会天然减少模型用量。

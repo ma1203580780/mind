@@ -2,12 +2,11 @@
 title: "把 AI 信息流变成学习闭环"
 description: "将一手资料、工程实现、二手解读与个人实验分工使用，用问题卡片减少收藏很多却无法复用的知识。"
 date: "2026-10-04"
-category: "长期成长"
+category: "思考与成长"
 tags: ["长期成长", "AI工程"]
 authorship: "assisted"
 draft: false
 featured: false
-demo: false
 ---
 
 AI 信息更新很快，但看过很多更新，不一定形成判断。真正困扰我的不是少一个消息来源，而是读完之后说不清：它解决了什么问题，我什么时候会用到，又有什么条件限制。

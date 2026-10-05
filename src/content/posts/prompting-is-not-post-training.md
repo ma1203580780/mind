@@ -7,7 +7,6 @@ tags: ["AI工程", "长期成长"]
 authorship: "assisted"
 draft: false
 featured: false
-demo: false
 ---
 
 我把 Prompt、SFT、RLHF、PPO、DPO 放在一页笔记里时，容易产生一种错觉：它们像从简单到复杂的五个台阶，按顺序走就能不断升级。

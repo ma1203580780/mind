@@ -7,7 +7,6 @@ tags: ["AI工程", "创作"]
 authorship: "assisted"
 draft: false
 featured: false
-demo: false
 ---
 
 “已经完成文章整理，下一步发布。”这句话很短，也可能完全错误。如果原来的要求是“只做本地草稿，先不要发布”，摘要少掉的不是一个细节，而是任务边界。

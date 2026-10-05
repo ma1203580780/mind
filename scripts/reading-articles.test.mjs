@@ -17,9 +17,18 @@ for(const [slug,article] of Object.entries(articles))test(`published reading pag
  }
  const ids=new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]));
  for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.has(anchor),`missing anchor ${anchor}`);
- for(const path of ['archive/index.html','index.html','search-index.json','rss.xml','sitemap.xml']){
+ // 首页只展示最近三篇（src/pages/index.astro 的 slice(0,3)），因此不要求每篇阅读文章都
+ // 出现在首页；归档、搜索、RSS、sitemap 必须收录全部已发布文章。
+ for(const path of ['archive/index.html','search-index.json','rss.xml','sitemap.xml']){
   const index=readFileSync('dist/'+path,'utf8');assert.ok(index.includes('/posts/'+slug+'/'),`${slug} absent from ${path}`);
  }
+});
+test('homepage keeps its three most recent posts',()=>{
+ const html=readFileSync('dist/index.html','utf8');
+ const section=html.slice(html.indexOf('recent-writing'));
+ const entries=section.slice(0,section.indexOf('</section>'));
+ assert.equal((entries.match(/href="\/mind\/posts\/[a-z0-9-]+\/"/g)||[]).length,3);
+ assert.ok(entries.includes('最近写的'));
 });
 test('public articles keep their interactive controls and examples',()=>{
  const rag=readFileSync('dist/posts/rag-retrieval-evidence/index.html','utf8');

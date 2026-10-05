@@ -3,7 +3,9 @@ export function presentationForPath(pathname,base='/mind/',{reading=false,blogAr
  let route=pathname.startsWith(base)?pathname.slice(base.length):pathname.replace(/^\//,'');
  try{route=decodeURIComponent(route)}catch{}
  route=route.replace(/^\/+|\/+$/g,'');
- const persistentSky=['','picks','news','archive','lab','discover','search'].includes(route)||route.startsWith('news/');
+ // 资讯列表、筛选与来源页保持常驻天空；单篇阅读页与资讯归档仍是各自的深读/资料场景。
+ const newsDeepRead=route.startsWith('news/story/')||route.startsWith('news/archive/');
+ const persistentSky=['','picks','news','archive','lab','discover','search'].includes(route)||(route.startsWith('news/')&&!newsDeepRead);
  const result=(family,scene,embedded=false)=>({family,scene:route==='search'?'pool':persistentSky?'sky':scene,embedded:embedded||persistentSky,persistentSky});
  if(reading)return result('reading','sky',true);
  if(blogArchive||route==='archive')return result('library','sky',true);

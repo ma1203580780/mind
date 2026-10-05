@@ -63,7 +63,7 @@ function runtimeFixture({fallback=false,reduce=false}={}){
  const canvas=new EventTarget();canvas.width=0;canvas.height=0;canvas.getBoundingClientRect=()=>({...rect});
  const rings={children:[],append(node){node.parent=this;this.children.push(node)},replaceChildren(){this.children=[]},get firstElementChild(){return this.children[0]}};
  doc.createElement=()=>{const node=new EventTarget();node.style={};node.remove=()=>{if(node.parent)node.parent.children=node.parent.children.filter(other=>other!==node)};return node};
- const host={dataset:{},querySelector:selector=>selector==='[data-pool-water]'?canvas:rings};
+ const host={dataset:{},style:{setProperty(){},removeProperty(){}},querySelector:selector=>selector==='[data-pool-water]'?canvas:rings};
  const win=new EventTarget();win.AbortController=AbortController;win.devicePixelRatio=2;win.matchMedia=()=>preference;
  win.requestAnimationFrame=callback=>{const id=++nextFrame;frames.set(id,callback);return id};
  win.cancelAnimationFrame=id=>frames.delete(id);
@@ -109,19 +109,21 @@ test('reduced motion draws a static water surface and reacts to theme changes wi
  f.preference.matches=true;f.preference.dispatchEvent(new Event('change'));assert.equal(f.frames.size,0);
  f.dispose();
 });
-test('water gestures ignore controls, map pointer coordinates correctly and cap the SVG fallback rings',()=>{
- const f=runtimeFixture();f.pointer('pointerdown',{target:{closest:()=>({})}});f.step(0);
+test('duck wake events map coordinates into the water buffer and reject invalid input',()=>{
+ const f=runtimeFixture();f.step(0);
  assert.ok(f.renders.at(-1).points.every(value=>value===0));
- f.pointer('pointerdown',{x:720,y:522});f.step(40);
+ // 水面波纹改由 pool-duck.js 派发的 pool-duck-wake 事件驱动，坐标按水体边界归一化。
+ f.win.dispatchEvent(new CustomEvent('pool-duck-wake',{detail:{x:720,y:522,strength:.7}}));f.step(40);
  assert.ok(Math.abs(f.renders.at(-1).points[0]-.5)<.00001);assert.ok(Math.abs(f.renders.at(-1).points[1]-.5)<.00001);
+ // 超出水体范围的点被忽略，不污染缓冲（换新实例，避免已注入的波纹参与判断）。
+ const out=runtimeFixture();out.step(0);
+ out.win.dispatchEvent(new CustomEvent('pool-duck-wake',{detail:{x:5000,y:522}}));out.step(40);
+ assert.ok(out.renders.at(-1).points.every(value=>value===0));
+ out.dispose();
  f.dispose();
  const svg=runtimeFixture({fallback:true});assert.equal(svg.frames.size,0);
- for(let i=0;i<100;i++)svg.pointer('pointerdown');
- assert.equal(svg.rings.children.length,8);
- svg.pointer('pointerdown',{x:2000});assert.equal(svg.rings.children.length,8);
- svg.rings.firstElementChild.dispatchEvent(new Event('animationend'));assert.equal(svg.rings.children.length,7);
- svg.dispose();assert.equal(svg.rings.children.length,0);
- svg.pointer('pointerdown');assert.equal(svg.rings.children.length,0);
+ svg.win.dispatchEvent(new CustomEvent('pool-duck-wake',{detail:{x:720,y:522}}));assert.equal(svg.frames.size,0);
+ svg.dispose();
 });
 test('context loss exposes the SVG backup and restored WebGL starts a fresh renderer',()=>{
  const f=runtimeFixture(),event=new Event('webglcontextlost',{cancelable:true});
