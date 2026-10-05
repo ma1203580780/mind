@@ -7,15 +7,12 @@
     inset: 0;
     z-index: -1;
     pointer-events: none;
-    background:
-      radial-gradient(ellipse 62% 48% at 84% 6%, #daeeffa8, transparent 72%),
-      radial-gradient(ellipse 52% 42% at 8% 92%, #e6f4f2a0, transparent 70%),
-      radial-gradient(ellipse 42% 34% at 62% 4%, #fffaf0b8, transparent 68%),
-      linear-gradient(180deg, #f4faff, #fbfcfb 55%, #f7faf6);
+    background: radial-gradient(ellipse at 80% 20%, #d6f5a4 0%, transparent 65%),
+      conic-gradient(from 80deg at 38% 52%, #f9ecc8, #f4a0b2, #faedb0, #d6f5a4, #f9ecc8);
   }
   .discovery-background canvas { display: block; width: 100%; height: 100%; }
   .discovery-background canvas[hidden] { display: none; }
-  html[data-theme='dark'] .discovery-background { opacity: .28; }
+  html[data-theme='dark'] .discovery-background { opacity: .24; }
 </style>
 
 <script>
@@ -23,7 +20,7 @@
   onPageLoad((signal, onCleanup) => {
     const canvas = document.querySelector<HTMLCanvasElement>('.discovery-background canvas');
     if (!canvas) return;
-    const gl = canvas.getContext('webgl', { alpha: true, premultipliedAlpha: false, antialias: false, depth: false, powerPreference: 'low-power' });
+    const gl = canvas.getContext('webgl', { alpha: false, antialias: false, depth: false, powerPreference: 'low-power' });
     if (!gl) return; // The CSS palette remains visible without WebGL.
     const vertex = `attribute vec2 position; void main(){gl_Position=vec4(position,0.,1.);}`;
     const fragment = `
@@ -33,24 +30,25 @@
       float hash(vec2 p) { return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453); }
       void main(){
         vec2 uv=gl_FragCoord.xy/resolution;
-        vec2 p=uv-vec2(.42+.05*sin(time*.13),.46+.05*cos(time*.11));
+        vec2 p=uv-vec2(.39+.07*sin(time*.17),.48+.08*cos(time*.13));
         p.x*=resolution.x/resolution.y;
         float angle=atan(p.y,p.x);
         float radius=length(p);
-        // 两组缓慢起伏的柔波：只做明暗与色温的推移，不做色相跳变。
-        float wave=sin(angle*2.+.9*radius+sin(p.y*2.4+time*.13)*.6+time*.10);
-        float drift=cos(angle*3.-1.2*radius-time*.07);
-        vec3 sky=vec3(.941,.973,.996);
-        vec3 mint=vec3(.925,.972,.964);
-        vec3 cream=vec3(.996,.977,.932);
-        vec3 color=mix(sky,cream,smoothstep(.10,.78,wave)*.46);
-        color=mix(color,mint,smoothstep(-.10,.72,drift)*.40);
-        // 一点朝向画面右上的光，避免整片均匀发闷
-        float light=1.-.07*smoothstep(.15,.95,length(uv-vec2(.82,.10)));
-        color*=light;
+        float wave=sin(angle*3.+radius*2.1+sin(p.y*3.+time*.23)*.8+time*.16);
+        float soft=sin(angle*2.-radius*1.8-time*.11);
+        vec3 cream=vec3(1.,.951,.866);
+        vec3 pink=vec3(.963,.474,.650);
+        vec3 yellow=vec3(.985,.875,.494);
+        vec3 green=vec3(.779,.948,.574);
+        vec3 color=mix(cream,pink,smoothstep(.10,.72,wave));
+        color=mix(color,yellow,smoothstep(.45,.92,soft)*.88);
+        float field=sin(p.x*1.45+p.y*.6+sin(time*.14)*.6);
+        color=mix(color,green,smoothstep(-.22,.62,field));
         float grain=hash(gl_FragCoord.xy)-.5;
-        color+=grain*.015;
-        gl_FragColor=vec4(color,.92);
+        float fleck=hash(floor(gl_FragCoord.xy/2.));
+        color+=grain*.13;
+        color-=smoothstep(.91,1.,fleck)*.075;
+        gl_FragColor=vec4(color,1.);
       }`;
     const shaders: WebGLShader[] = [];
     function compile(type: number, source: string) {
