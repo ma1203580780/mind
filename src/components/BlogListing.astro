@@ -9,8 +9,8 @@ const rootArchive=Astro.url.pathname===path('archive/');
 <Base title={`${title} · 海波东`} blogCategory={category} blogArchive={rootArchive}>
 <div class:list={{'archive-canvas':rootArchive}}>
 <section class:list={['archive blog-home',{'archive-content':rootArchive}]}>
-  <header class="archive-heading"><h1>{title}</h1><p>{posts.length} 篇文章</p></header>
-  <nav class="blog-categories" aria-label="博客分类">{blogCategories.map(item=><a href={path(blogCategoryRoute(item.name))} aria-current={item.name===category?'page':undefined}>{item.name}</a>)}</nav>
+  {rootArchive?<h1 class="sr-only">{title}</h1>:<header class="archive-heading"><h1>{title}</h1></header>}
+  {!rootArchive&&<nav class="blog-categories" aria-label="博客分类">{blogCategories.map(item=><a href={path(blogCategoryRoute(item.name))} aria-current={item.name===category?'page':undefined}>{item.name}</a>)}</nav>}
   {posts.length>0?<div class="blog-grid">{posts.map(post=><PostCard post={post}/>)}</div>:<p class="collection-note">暂无文章。</p>}
   {years.length>0&&<details class="blog-years"><summary>按年份归档</summary><nav aria-label="博客年份归档">{years.map(year=><a href={path(`archive/year/${year}/`)}>{year}</a>)}</nav></details>}
 </section>

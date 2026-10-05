@@ -4,29 +4,48 @@ body.site-shell[data-scene=pool] .navigation-sky {visibility:hidden;opacity:0}
 body.site-shell[data-scene=pool] .navigation-sky .sc-cloud {animation-play-state:paused}
 .pool-backdrop {
  --pool-shallow:#93d9ec;--pool-deep:#5bafd7;--pool-light:#d5f8ff;
- position:absolute;inset:var(--site-header-height,72px) 0 0;z-index:-1;
- overflow:hidden;pointer-events:none;contain:layout paint;
- background:var(--pool-shallow);
+ position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;contain:layout paint;
+ background:var(--pool-shallow)
 }
 html[data-theme=dark] .pool-backdrop {--pool-shallow:#174659;--pool-deep:#0c2f46;--pool-light:#64bdd8}
-.pool-water,.pool-fallback,.pool-ripples {position:absolute;inset:0;width:100%;height:100%;display:block}
+.pool-water,.pool-fallback {position:absolute;inset:0;width:100%;height:100%;display:block}
+.pool-duck-caustic {position:absolute;z-index:2;left:var(--duck-light-x,14%);top:var(--duck-light-y,57%);width:min(28vw,360px);aspect-ratio:1.8;translate:-50% -50%;pointer-events:none;opacity:var(--duck-light-strength,0);background:radial-gradient(ellipse,rgba(226,250,255,.54),rgba(181,239,250,.17) 33%,transparent 71%);filter:blur(10px);mix-blend-mode:screen;transition:left 180ms linear,top 180ms linear,opacity 240ms ease}
 .pool-water {opacity:0;transition:opacity 220ms ease}
 .pool-backdrop[data-ready=true] .pool-water {opacity:1}
 .pool-fallback-light {animation:pool-reflection-drift 28s ease-in-out infinite alternate}
 .pool-backdrop[data-ready=true] .pool-fallback-light {animation-play-state:paused}
-.pool-duck {position:absolute;left:84%;top:63%;width:clamp(68px,7vw,94px);transform:translate(-50%,-50%);transition:translate 450ms cubic-bezier(.22,1,.36,1);filter:drop-shadow(0 5px 8px #0c47600a)}
-.pool-duck svg {display:block;width:100%;overflow:visible}
-.pool-duck-body {transform-origin:72px 85px;animation:pool-duck-float 6.4s ease-in-out infinite}
-.pool-duck-wake {transform-origin:67px 97px;animation:pool-duck-wake 4.6s ease-out infinite}
-.pool-ripple {position:absolute;width:20px;height:20px;margin:-10px;border:1px solid var(--pool-light);border-radius:50%;opacity:0;animation:pool-ripple-spread 1400ms ease-out both}
-.pool-backdrop[data-paused=true] :is(.pool-fallback-light,.pool-duck-body,.pool-duck-wake,.pool-ripple) {animation-play-state:paused}
-@keyframes pool-reflection-drift {from{transform:translate(-10px,-6px) rotate(-1deg)}to{transform:translate(12px,8px) rotate(1deg)}}
-@keyframes pool-duck-float {0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-3px) rotate(2deg)}}
-@keyframes pool-duck-wake {0%{opacity:.18;transform:scale(.9)}80%,100%{opacity:0;transform:scale(1.2)}}
-@keyframes pool-ripple-spread {0%{opacity:.35;transform:scale(.5)}100%{opacity:0;transform:scale(11)}}
-@media(max-width:760px){.pool-duck {left:84%;top:76%;width:68px}}
-@media(prefers-reduced-motion:reduce){
- .pool-backdrop :is(.pool-fallback-light,.pool-duck-body,.pool-duck-wake,.pool-ripple) {animation:none}
- .pool-water,.pool-duck {transition:none}
+.pool-playground {position:fixed;inset:0;z-index:39;overflow:hidden;pointer-events:none;contain:layout style}
+.pool-duck {
+ position:absolute;left:0;top:57vh;width:clamp(66px,5.2vw,90px);aspect-ratio:144/130;
+ z-index:1;pointer-events:auto;touch-action:none;cursor:grab;user-select:none;
+ filter:drop-shadow(0 5px 8px #0c476014);animation:pool-duck-swim 46s linear infinite -12s;will-change:transform
 }
-@media print {.pool-backdrop {display:none}}
+.pool-duck.is-dragging {cursor:grabbing;filter:drop-shadow(0 10px 12px #0c476028)}
+.pool-duck svg {display:block;width:100%;height:100%;overflow:visible}
+.pool-duck-shadow {transform-origin:68px 102px;animation:pool-shadow-breathe 6.4s ease-in-out infinite}
+.pool-duck-wake {transform-origin:67px 97px;animation:pool-wake-breathe 4.6s ease-out infinite}
+.pool-duck-body {transform-origin:72px 85px;animation:pool-duck-float 6.4s ease-in-out infinite}
+.pool-duck-torso {transform-origin:68px 82px;animation:pool-torso-drift 8s ease-in-out infinite}
+.pool-duck-head {transform-origin:83px 59px;animation:pool-head-drift 6.4s ease-in-out infinite}
+@keyframes pool-reflection-drift {from{transform:translate(-10px,-6px) rotate(-1deg)}to{transform:translate(12px,8px) rotate(1deg)}}
+@keyframes pool-duck-swim {
+ from {transform:translate(-10rem,-50%)}
+ 23% {transform:translate(calc(23vw + 2rem),calc(-50% - 2px))}
+ 51% {transform:translate(calc(51vw + 5rem),calc(-50% + 1px))}
+ 77% {transform:translate(calc(77vw + 7rem),calc(-50% - 1px))}
+ to {transform:translate(calc(100vw + 10rem),-50%)}
+}
+@keyframes pool-shadow-breathe {0%,100%{transform:scaleX(.96);opacity:.15}50%{transform:scaleX(1.04);opacity:.2}}
+@keyframes pool-wake-breathe {0%,100%{opacity:.2;transform:scale(.97, .9)}50%{opacity:.45;transform:scale(1.02,1.06)}}
+@keyframes pool-duck-float {0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+@keyframes pool-torso-drift {0%,100%{transform:translateY(0)}50%{transform:translateY(-.5px)}}
+@keyframes pool-head-drift {0%,100%{transform:translateY(0)}50%{transform:translateY(-.8px)}}
+@media(max-width:760px) {
+ .pool-duck {top:65vh;width:58px;animation-duration:32s}
+}
+@media(prefers-reduced-motion:reduce) {
+ .pool-backdrop .pool-fallback-light,.pool-duck,.pool-duck :is(.pool-duck-shadow,.pool-duck-wake,.pool-duck-body,.pool-duck-torso,.pool-duck-head) {animation:none}
+ .pool-duck {transform:translate(14vw,-50%);will-change:auto}
+ .pool-water {transition:none}
+}
+@media print {.pool-backdrop,.pool-playground {display:none}}

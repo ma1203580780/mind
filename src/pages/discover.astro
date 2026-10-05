@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import DiscoveryBackground from '../components/DiscoveryBackground.astro';
 import '../styles/explore.css';
 import {path} from '../site';
 import {discover,statusLabels,discussionUrl} from '../lib/connections';
@@ -9,6 +10,7 @@ import {allNews} from '../lib/news';
 const sourceSites=people.sites.map(item=>{const source=sources.find(s=>s.id===item.sourceId);if(!source)throw new Error(`Missing source: ${item.sourceId}`);return {...item,source,count:allNews.filter(story=>story.feedUrl===source.url).length}});
 ---
 <Base title="发现 · 海波东" description="看看正在做的项目，找到值得读的原始资料、行业作者与开发者社区。">
+<DiscoveryBackground />
 <div class="explore-page" data-connection-view="discover_view">
 <h1 class="sr-only">发现</h1>
 <section class="discover-intro" aria-labelledby="intro-name">

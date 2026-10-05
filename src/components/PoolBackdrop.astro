@@ -15,8 +15,10 @@ import '../styles/pool-backdrop.css';
   <g filter="url(#pool-refraction)"><rect width="1440" height="900" fill="url(#pool-tiles)"/><rect x="-120" y="-120" width="1680" height="1140" fill="url(#pool-reflections)" class="pool-fallback-light"/></g>
  </svg>
  <canvas class="pool-water" data-pool-water></canvas>
- <div class="pool-ripples" data-pool-ripples></div>
- <div class="pool-duck" data-pool-duck>
+ <div class="pool-duck-caustic" data-pool-duck-caustic></div>
+ </div>
+<div class="pool-playground" aria-hidden="true">
+ <div class="pool-duck">
   <svg viewBox="0 0 144 130" focusable="false">
    <defs>
     <radialGradient id="pool-duck-gold" cx=".3" cy=".17" r=".9"><stop stop-color="#fff5a5"/><stop offset=".38" stop-color="#ffe262"/><stop offset="1" stop-color="#edb829"/></radialGradient>
@@ -24,18 +26,25 @@ import '../styles/pool-backdrop.css';
     <linearGradient id="pool-duck-beak" x2="0" y2="1"><stop stop-color="#ffb351"/><stop offset="1" stop-color="#ee842a"/></linearGradient>
     <filter id="pool-duck-shadow"><feGaussianBlur stdDeviation="4"/></filter>
    </defs>
-   <ellipse cx="68" cy="102" rx="50" ry="11" fill="#145e8a" opacity=".18" filter="url(#pool-duck-shadow)"/>
+   <ellipse class="pool-duck-shadow" cx="68" cy="102" rx="50" ry="11" fill="#145e8a" opacity=".18" filter="url(#pool-duck-shadow)"/>
    <g class="pool-duck-wake" fill="none" stroke="#e1faff" stroke-width=".9"><ellipse cx="67" cy="96" rx="61" ry="19"/><ellipse cx="67" cy="97" rx="51" ry="14"/></g>
    <g class="pool-duck-body">
-    <path d="M20 55C13 48 7 42 7 38C26 38 34 50 41 53C53 43 71 41 84 47C110 55 121 78 105 92C88 107 48 109 28 93C16 84 13 65 20 55Z" fill="url(#pool-duck-gold)"/>
-    <ellipse cx="56" cy="74" rx="28" ry="18" transform="rotate(-10 56 74)" fill="url(#pool-duck-wing)"/>
-    <path d="M34 66C43 60 57 59 66 62" fill="none" stroke="#fff9c2" stroke-width="3" stroke-linecap="round" opacity=".7"/>
-    <path d="M72 61C69 52 69 40 71 27C73 12 85 6 97 10C113 15 116 30 111 43C105 57 94 65 83 68Z" fill="url(#pool-duck-gold)"/>
-    <path d="M79 24C80 17 85 14 91 14" fill="none" stroke="#fff9c6" stroke-width="3" stroke-linecap="round" opacity=".76"/>
-    <path d="M107 34C116 34 123 31 129 35C136 39 128 47 116 48L105 44Z" fill="url(#pool-duck-beak)"/>
-    <circle cx="101" cy="29" r="2.7" fill="#4c4337"/><circle cx="100.3" cy="28.4" r=".8" fill="#fff"/>
+    <g class="pool-duck-torso">
+     <path d="M20 55C13 48 7 42 7 38C26 38 34 50 41 53C53 43 71 41 84 47C110 55 121 78 105 92C88 107 48 109 28 93C16 84 13 65 20 55Z" fill="url(#pool-duck-gold)"/>
+     <path d="M20 55C13 48 7 42 7 38C26 38 34 50 41 53" fill="none" stroke="#fff6c7" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+     <ellipse cx="56" cy="74" rx="28" ry="18" transform="rotate(-10 56 74)" fill="url(#pool-duck-wing)"/>
+     <path d="M34 66C43 60 57 59 66 62M39 72C47 67 56 67 63 69" fill="none" stroke="#fff9c2" stroke-width="2.4" stroke-linecap="round" opacity=".7"/>
+    </g>
+    <g class="pool-duck-head">
+     <path d="M72 61C69 52 69 40 71 27C73 12 85 6 97 10C113 15 116 30 111 43C105 57 94 65 83 68Z" fill="url(#pool-duck-gold)"/>
+     <path d="M79 24C80 17 85 14 91 14" fill="none" stroke="#fff9c6" stroke-width="3" stroke-linecap="round" opacity=".76"/>
+     <path d="M107 34C116 34 123 31 129 35C136 39 128 47 116 48L105 44Z" fill="url(#pool-duck-beak)"/>
+     <path d="M115 37C120 36 125 36 129 38" fill="none" stroke="#ffd28a" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+     <circle cx="101" cy="29" r="2.7" fill="#4c4337"/><circle cx="100.3" cy="28.4" r=".8" fill="#fff"/>
+     <ellipse cx="107" cy="39" rx="4" ry="2" fill="#f39b61" opacity=".26"/>
+    </g>
    </g>
   </svg>
  </div>
 </div>
-<script>import '../scripts/pool-background';</script>
+<script>import '../scripts/pool-background';import '../scripts/pool-duck';</script>

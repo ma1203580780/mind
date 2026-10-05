@@ -59,7 +59,7 @@ const title=featured?'海波东 · 资讯、工程与长期创造':`${cumulative
     <div class="sidebar-bottom"><p>更新于 {reviewed}</p><div class="sidebar-actions"><a href={path('news/rss.xml')}>RSS ↗</a><a href={path('news/sources/')}>信息源 ↗</a><a class="editorial-link" href="https://github.com/ma1203580780/mind/blob/main/docs/NEWS_EDITORIAL.md" target="_blank" rel="noopener noreferrer">收录规则 ↗</a></div></div>
   </aside>
   <section class="daily-board" aria-labelledby="news-title">
-    <h1 id="news-title" class="feed-title">{featured?'精选资讯':'资讯'}</h1>    {category!=='全部'&&<p class="news-topic-description">{description}</p>}
+    <h1 id="news-title" class="sr-only">{featured?'精选资讯':'资讯'}</h1>{category!=='全部'&&<p class="news-topic-description">{description}</p>}
     <p class="news-stale" id="news-stale" hidden>最近一次成功采集距今超过 36 小时，可在信息源页查看状态。</p>
     <p class="news-result" id="news-result" aria-live="polite" hidden></p>
     <div class="news-grid" id="news-grid" data-view="list">{stories.map((story,index)=><NewsCard story={story} issue={story.issueDate} index={index}/>)}</div>

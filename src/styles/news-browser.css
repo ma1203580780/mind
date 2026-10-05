@@ -87,3 +87,20 @@
 .news-topic-description{margin:-8px 0 17px}
 @media(max-width:850px){.wide-layout .header{height:auto}.daily-sidebar{padding-top:20px}.daily-board{padding-top:20px}.news-browse-meta{gap:10px}.news-browse-meta .news-list-context{gap:10px}.news-browse-meta .news-list-context>p>span{display:none}.news-browse-meta .news-list-context>p{max-width:none}}
 @media(max-width:560px){.daily-board-top h1{font-size:22px}.news-browse-meta{flex-wrap:wrap;gap:7px;margin-bottom:15px}.news-browse-meta .news-filter-panel{flex:none;width:100%}.news-browse-meta .news-list-context{width:100%;justify-content:space-between}.news-browse-meta .news-list-context>p>span{display:inline}.news-browse-meta .news-list-context>p>strong{width:auto;margin-left:5px}.news-browse-meta .topic-subscriptions{display:block}.news-browse-meta .news-language-tabs a{padding:6px 0}.news-topic-description{margin:-5px 0 14px}}
+
+/* A quiet, unboxed filter list pairs with the news navigation column. */
+@media(min-width:851px) {
+  body.site-shell[data-page-family=feed] .daily-sidebar {gap:0;padding:26px 0 16px}
+  body.site-shell[data-page-family=feed] .sidebar-language {margin:0 0 17px}
+  body.site-shell[data-page-family=feed] .sidebar-language h2,
+  body.site-shell[data-page-family=feed] .sidebar-calendar h2 {margin:0 0 8px;font-size:11px;font-weight:600;letter-spacing:.015em;color:var(--ink)}
+  body.site-shell[data-page-family=feed] .language-slider {position:static;isolation:auto;display:flex;flex-direction:column;gap:3px;padding:0;border:0;border-radius:0;background:transparent}
+  body.site-shell[data-page-family=feed] .language-thumb {display:none}
+  body.site-shell[data-page-family=feed] .language-slider a {display:flex;flex-direction:row;justify-content:space-between;min-height:34px;padding:7px 10px;border-radius:10px;font-size:11px;color:var(--muted)}
+  body.site-shell[data-page-family=feed] .language-slider a[aria-current=page] {background:color-mix(in srgb,var(--blue) 10%,transparent);color:var(--blue);font-weight:600}
+  body.site-shell[data-page-family=feed] .language-slider small {font-size:10px;opacity:.72;color:inherit}
+  body.site-shell[data-page-family=feed] .sidebar-calendar {margin:0 0 8px;padding-top:14px;border-top:1px solid color-mix(in srgb,var(--line) 62%,transparent)}
+  body.site-shell[data-page-family=feed] .date-list a {min-height:34px;padding:7px 10px;margin:2px 0;border-radius:10px;font-size:11px}
+  body.site-shell[data-page-family=feed] .date-list a[aria-current=page] {background:color-mix(in srgb,var(--blue) 10%,transparent);color:var(--blue)}
+  body.site-shell[data-page-family=feed] .sidebar-count {margin-top:8px;padding-top:12px;border-top:1px solid color-mix(in srgb,var(--line) 62%,transparent);font-size:10px}
+}

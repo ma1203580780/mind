@@ -3,7 +3,7 @@ export function presentationForPath(pathname,base='/mind/',{reading=false,blogAr
  let route=pathname.startsWith(base)?pathname.slice(base.length):pathname.replace(/^\//,'');
  try{route=decodeURIComponent(route)}catch{}
  route=route.replace(/^\/+|\/+$/g,'');
- const persistentSky=['','picks','news','archive','lab','discover','search'].includes(route);
+ const persistentSky=['','picks','news','archive','lab','discover','search'].includes(route)||route.startsWith('news/');
  const result=(family,scene,embedded=false)=>({family,scene:route==='search'?'pool':persistentSky?'sky':scene,embedded:embedded||persistentSky,persistentSky});
  if(reading)return result('reading','sky',true);
  if(blogArchive||route==='archive')return result('library','sky',true);
