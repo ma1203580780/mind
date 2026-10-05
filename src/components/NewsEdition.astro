@@ -75,10 +75,9 @@ const title=featured?'海波东 · 资讯、工程与长期创造':`${cumulative
 import {track} from '../scripts/analytics';
 import {initDateExpansion} from '../scripts/news-sidebar';
 
-import {initNewsFlow} from '../scripts/news-flow';
 import {animateMotion,reducedMotion} from '../scripts/motion';
 import {onPageLoad} from '../scripts/page-lifecycle';
-onPageLoad((signal,onCleanup)=>{
+onPageLoad(signal=>{
 if(!document.querySelector('.news-workspace'))return;
 
 
@@ -87,7 +86,6 @@ if(!document.querySelector('.news-workspace'))return;
 const workspace=document.querySelector<HTMLElement>('.news-workspace'),grid=document.querySelector<HTMLElement>('#news-grid');
 if(workspace&&grid){
  initDateExpansion(document.querySelector<HTMLElement>('.date-list'),signal);
- const flow=initNewsFlow(grid);onCleanup(()=>flow.destroy());
  document.querySelectorAll<HTMLAnchorElement>('.news-topic-tabs a').forEach(a=>a.addEventListener('click',()=>track('news_filter',{category:a.dataset.category||'全部'})));
  const activeTopic=document.querySelector<HTMLElement>('.news-topic-tabs [aria-current="page"]');const topicRail=activeTopic?.parentElement;if(activeTopic&&topicRail)topicRail.scrollLeft=Math.max(0,activeTopic.offsetLeft-topicRail.offsetLeft-topicRail.clientWidth/2+activeTopic.clientWidth/2);
  let opener:HTMLButtonElement|null=null;
