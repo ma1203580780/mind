@@ -13,31 +13,72 @@ body.site-shell.blog-archive-layout .blog-grid {grid-template-columns:repeat(3,m
    卡片高度自适应、不按行对齐，上下间距一致。没有脚本时退回普通网格，仍然可读。 */
 body.site-shell.blog-archive-layout .blog-grid.masonry-ready {grid-auto-rows:8px}
 body.site-shell.blog-archive-layout .blog-grid.masonry-ready .blog-card {align-self:start}
-body.site-shell.blog-archive-layout .blog-card {
-  border:0;border-radius:20px;padding:22px;background:var(--paper);
-  box-shadow:0 1px 2px #1d567809,0 4px 10px #1d567808,0 16px 32px -14px #1d567819;
-  transition:box-shadow 180ms ease-out,transform 180ms ease-out;
+/* ── 归档卡片：分色标签 + 浮起材质 ────────────────────────────────────────────
+   三件事：① 卡片 12px 圆角、三层阴影，hover 抬升 4px 并把阴影推远；
+   ② 标签颜色由分类决定（青蓝 / 紫 / 琥珀 / 绿），分类本身用同色系纯文字；
+   ③ 字号收敛：标题 19 / 摘要 13.5 / 元数据 13（等宽数字）。
+   只作用于博客归档（.blog-archive-layout），资讯与项目页的卡片不受影响。 */
+body.site-shell.blog-archive-layout .blog-grid .blog-card {
+  --tag-bg:#eef2f5;--tag-ink:#5b6b76;--cat-ink:#365e77;
+  border:0;border-radius:12px;padding:24px;background:var(--paper);
+  box-shadow:0 1px 2px #1d567812,0 8px 18px -6px #1d567824,0 28px 48px -20px #1d567840;
+  transition:transform var(--motion-surface) var(--motion-ease),
+    box-shadow var(--motion-surface) var(--motion-ease);
 }
-body.site-shell.blog-archive-layout .blog-tags a {background:#edf6fc;color:#365e77;border-radius:8px}
-body.site-shell.blog-archive-layout .blog-meta a {color:#0969a2}
-body.site-shell.blog-archive-layout .blog-card a:focus-visible {outline:2px solid #0969a2;outline-offset:4px}
+body.site-shell.blog-archive-layout .blog-grid .blog-card[data-category=ai-engineering] {--tag-bg:#e9f3fb;--tag-ink:#2c6389;--cat-ink:#1f5f8b}
+body.site-shell.blog-archive-layout .blog-grid .blog-card[data-category=product-interaction] {--tag-bg:#f1edfa;--tag-ink:#5a4a86;--cat-ink:#544584}
+body.site-shell.blog-archive-layout .blog-grid .blog-card[data-category=independent-creation] {--tag-bg:#fbf3e4;--tag-ink:#87682f;--cat-ink:#7d5f28}
+body.site-shell.blog-archive-layout .blog-grid .blog-card[data-category=thinking-growth] {--tag-bg:#e9f5ef;--tag-ink:#3d7360;--cat-ink:#366653}
+body.site-shell.blog-archive-layout .blog-grid .blog-card h2 {font-size:19px;line-height:1.6;font-weight:600;letter-spacing:0;margin:12px 0 8px}
+body.site-shell.blog-archive-layout .blog-grid .blog-card>p {font-size:13.5px;line-height:1.8}
+body.site-shell.blog-archive-layout .blog-grid .blog-tags {gap:6px}
+body.site-shell.blog-archive-layout .blog-grid .blog-tags a {
+  border:0;border-radius:999px;padding:3px 10px;font-size:12.5px;line-height:1.5;font-weight:400;
+  background:var(--tag-bg);color:var(--tag-ink);
+}
+body.site-shell.blog-archive-layout .blog-grid .blog-tags a.category {
+  background:transparent;padding:3px 2px;font-weight:500;letter-spacing:.06em;color:var(--cat-ink);
+}
+body.site-shell.blog-archive-layout .blog-grid .blog-meta {
+  font-size:13px;gap:10px;color:var(--muted);font-variant-numeric:tabular-nums;
+}
+body.site-shell.blog-archive-layout .blog-grid .blog-meta a {color:var(--muted);font-size:13px}
+body.site-shell.blog-archive-layout .blog-grid .blog-card a:focus-visible {outline:2px solid #0969a2;outline-offset:4px}
 @media(hover:hover) and (pointer:fine) {
-  body.site-shell.blog-archive-layout .blog-card:hover {
-    transform:translateY(-2px);
-    box-shadow:0 2px 3px #1d56780a,0 7px 16px #1d56780b,0 24px 40px -16px #1d567823;
+  body.site-shell.blog-archive-layout .blog-grid .blog-card:hover {
+    transform:translateY(-4px);
+    box-shadow:0 2px 4px #1d56781a,0 16px 30px -8px #1d567832,0 44px 72px -26px #1d567859;
   }
 }
 html[data-theme=dark] .archive-heading h1 {color:#c9e7f7}
 html[data-theme=dark] .archive-heading p,
 html[data-theme=dark] body.site-shell.blog-archive-layout .year {color:#bdd1dc}
-html[data-theme=dark] body.site-shell.blog-archive-layout .blog-card {box-shadow:var(--shadow)}
-html[data-theme=dark] body.site-shell.blog-archive-layout .blog-tags a {background:#243a47;color:#c8e6f4}
-html[data-theme=dark] body.site-shell.blog-archive-layout .blog-meta a {color:#8ecdf2}
+html[data-theme=dark] body.site-shell.blog-archive-layout .blog-grid .blog-card {
+  --tag-bg:#2a3740;--tag-ink:#a7bac6;--cat-ink:#9dbccd;
+  box-shadow:0 1px 2px #00000059,0 10px 22px -8px #0000008c,0 30px 52px -22px #000000b3;
+}
+html[data-theme=dark] body.site-shell.blog-archive-layout .blog-grid .blog-card[data-category=ai-engineering] {--tag-bg:#1e3a4d;--tag-ink:#a8cfe8;--cat-ink:#8ecdf2}
+html[data-theme=dark] body.site-shell.blog-archive-layout .blog-grid .blog-card[data-category=product-interaction] {--tag-bg:#322c47;--tag-ink:#c3b6e8;--cat-ink:#c3b6e8}
+html[data-theme=dark] body.site-shell.blog-archive-layout .blog-grid .blog-card[data-category=independent-creation] {--tag-bg:#3d3524;--tag-ink:#e0c68f;--cat-ink:#e0c68f}
+html[data-theme=dark] body.site-shell.blog-archive-layout .blog-grid .blog-card[data-category=thinking-growth] {--tag-bg:#24413a;--tag-ink:#a6d6c4;--cat-ink:#a6d6c4}
+html[data-theme=dark] body.site-shell.blog-archive-layout .blog-grid .blog-meta a,
+html[data-theme=dark] body.site-shell.blog-archive-layout .blog-grid .blog-meta {color:#8fa3b0}
+@media(hover:hover) and (pointer:fine) {
+  html[data-theme=dark] body.site-shell.blog-archive-layout .blog-grid .blog-card:hover {
+    box-shadow:0 2px 5px #00000066,0 18px 34px -10px #000000a6,0 46px 76px -30px #000000cc;
+  }
+}
 @media(max-width:760px) {
   .archive-content {padding:0 18px 32px}
   .archive-heading {padding:34px 0 30px;gap:14px}
   body.site-shell.blog-archive-layout .blog-grid {gap:14px}
-  body.site-shell.blog-archive-layout .blog-card {padding:18px;border-radius:18px}
+  body.site-shell.blog-archive-layout .blog-grid .blog-card {padding:18px;border-radius:12px}
+  body.site-shell.blog-archive-layout .blog-grid .blog-card h2 {font-size:17px;line-height:1.6;margin:10px 0 6px}
+  body.site-shell.blog-archive-layout .blog-grid .blog-card>p {font-size:13px;line-height:1.75}
+  body.site-shell.blog-archive-layout .blog-grid .blog-tags a {font-size:12px;padding:2px 8px}
+  body.site-shell.blog-archive-layout .blog-grid .blog-tags {gap:5px}
+  body.site-shell.blog-archive-layout .blog-grid .blog-meta {font-size:12.5px;margin-top:14px}
+  body.site-shell.blog-archive-layout .blog-grid .blog-meta a {font-size:12.5px}
 }
 @media(max-width:1100px) {
   body.site-shell.blog-archive-layout .blog-grid {grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -45,7 +86,7 @@ html[data-theme=dark] body.site-shell.blog-archive-layout .blog-meta a {color:#8
 @media(max-width:640px) {
   body.site-shell.blog-archive-layout .archive-content {width:100%;padding:0 18px 32px}
   body.site-shell.blog-archive-layout .blog-grid {grid-template-columns:repeat(2,minmax(0,1fr))}
-  body.site-shell.blog-archive-layout .blog-card {padding:12px;border-radius:16px}
+  body.site-shell.blog-archive-layout .blog-grid .blog-card {padding:16px;border-radius:12px}
 }
 @media(max-width:480px) {
   body.site-shell.blog-archive-layout[data-page-family=library] .blog-grid {gap:12px}
@@ -53,13 +94,13 @@ html[data-theme=dark] body.site-shell.blog-archive-layout .blog-meta a {color:#8
 @media(max-width:370px) {
   body.site-shell.blog-archive-layout .archive-content {width:100%;padding:0 14px 32px}
   body.site-shell.blog-archive-layout[data-page-family=library] .blog-grid {grid-template-columns:minmax(0,1fr)}
-  body.site-shell.blog-archive-layout .blog-card {padding:18px;border-radius:18px}
+  body.site-shell.blog-archive-layout .blog-grid .blog-card {padding:16px;border-radius:12px}
 }
 @media(prefers-reduced-motion:reduce) {
-  body.site-shell.blog-archive-layout .blog-card {transition:none}
-  body.site-shell.blog-archive-layout .blog-card:hover {transform:none}
+  body.site-shell.blog-archive-layout .blog-grid .blog-card {transition:none}
+  body.site-shell.blog-archive-layout .blog-grid .blog-card:hover {transform:none}
 }
 @media print {
   .archive-heading h1,.archive-heading p,body.site-shell.blog-archive-layout .year {color:black}
-  body.site-shell.blog-archive-layout .blog-card {box-shadow:none;break-inside:avoid}
+  body.site-shell.blog-archive-layout .blog-grid .blog-card {box-shadow:none;break-inside:avoid}
 }

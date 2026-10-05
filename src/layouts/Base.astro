@@ -5,8 +5,9 @@ import '../styles/discovery.css';
 import '../styles/shell.css';
 import '../styles/connections.css';
 import '../styles/motion.css';
-import '../styles/blog-sky.css';
 import '../styles/site-theme.css';
+/* 页面级样式排在主题之后：博客归档的卡片微调要能覆盖 site-theme 的通用卡片材质。 */
+import '../styles/blog-sky.css';
 import '../styles/site-scenes.css';
 import {ClientRouter} from 'astro:transitions';
 import SectionNav from '../components/SectionNav.astro';

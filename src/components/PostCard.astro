@@ -1,11 +1,13 @@
 ---
 import {path,dateLabel,reading} from '../site';
-import {blogCategoryRoute} from '../lib/blog-categories';
+import {blogCategoryRoute,blogCategories} from '../lib/blog-categories';
 const {post}=Astro.props;
+// 分类 slug 挂到卡片上，列表页据此给标签上色（见 styles/blog-sky.css）。
+const categorySlug=blogCategories.find(item=>item.name===post.data.category)?.slug;
 ---
-<article class="blog-card">
+<article class="blog-card" data-category={categorySlug}>
 <div class="blog-tags"><a class="category" href={path(blogCategoryRoute(post.data.category))}>{post.data.category}</a>{post.data.tags.slice(0,3).map(tag=><a href={path(`tags/${encodeURIComponent(tag)}/`)}>{tag}</a>)}</div>
 <h2><a href={path(`posts/${post.id}/`)}>{post.data.title}</a></h2>
 <p>{post.data.description}</p>
-<div class="blog-meta"><time datetime={post.data.date.toISOString()}>{dateLabel(post.data.date)}</time><span>{reading(post.body)} 分钟</span><a href={path(`posts/${post.id}/`)} aria-label={`阅读：${post.data.title}`}>阅读 ↗</a></div>
+<div class="blog-meta"><time datetime={post.data.date.toISOString()}>{dateLabel(post.data.date)}</time><span>{reading(post.body)} 分钟</span><a href={path(`posts/${post.id}/`)} aria-label={`阅读：${post.data.title}`}>阅读</a></div>
 </article>
