@@ -18,6 +18,10 @@ def focus_diagram(variant,content):
   title=e(head.get_text()) if head else '按顺序看清每一步'
   steps=''.join(f'<li><span class="step-no">{i+1:02d}</span><div><b>{e(row.h3.get_text())}</b><small>{e(row.select_one(".step-check").get_text())}</small></div></li>' for i,row in enumerate(rows))
   return f'<div class="ed-focus ed-focus-path rk-playground"><p class="ed-focus-label">这篇文章的主线</p><h2>{title}</h2><ol class="rk-steps">{steps}</ol><p class="ed-focus-foot">每一步都留下可以核对的依据。</p></div>'
+ if variant=='plain':
+  # 阅读体验优先：不加焦点图。正文以 Prose 为主，只在真正需要的地方用组件，
+  # 避免同一份内容在开头图解和正文里各出现一次。
+  return ''
  if variant=='notebook':
   return '<div class="ed-focus ed-focus-memory rk-playground"><p class="ed-focus-label">一张图记住分工</p><div class="ed-memory-graphic"><div><span>冷区</span><b>原文保真</b><small>可回查的档案</small></div><div><span>温区</span><b>状态有效</b><small>标记替代与失效</small></div><div><span>热区</span><b>当前做事</b><small>只放本次必要材料</small></div></div><p class="ed-focus-foot">职责示意 · 面积不代表实际容量</p></div>'
  vals=[row.strong.get_text() for row in s.select('.ed-bar-row')]

@@ -12,7 +12,7 @@
     "topic": "工程、评测与成本"
   },
   "actions-api-code-gui": {
-    "variant": "path",
+    "variant": "plain",
     "topic": "Agent 与工具"
   },
   "agent-stop-with-evidence": {
