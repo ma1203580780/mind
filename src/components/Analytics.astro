@@ -5,35 +5,35 @@ import {path} from '../site';
 <div id="analytics-config" data-provider={analytics.provider} data-website-id={analytics.umamiWebsiteId} data-script-url={analytics.umamiScriptUrl} data-clarity-id={analytics.clarityProjectId} hidden></div>
 {analytics.clarityProjectId&&<aside id="replay-consent" class="replay-consent" hidden aria-label="访问体验分析"><p>愿意帮助改善阅读体验吗？允许后，将使用 Microsoft Clarity 记录页面点击、滚动和访问回放。<a href={path('privacy/')}>了解详情</a></p><div><button class="quiet-button" data-replay="denied">暂不允许</button><button class="quiet-button" data-replay="granted">允许体验分析</button></div></aside>}
 <script>
-import {track,isExcluded,replayAllowed,cleanUrl} from '../scripts/analytics';
-import {onPageLoad} from '../scripts/page-lifecycle';
+import {track,isExcluded,analyticsAllowed,replayAllowed,cleanUrl} from '../scripts/analytics';
 const config=document.querySelector<HTMLElement>('#analytics-config')!;
 const root=document.documentElement;
 const state=(service:string,value:string)=>{root.dataset[service+'State']=value;document.dispatchEvent(new CustomEvent('analytics:state'))};
 const w=window as any;
 const load=(src:string,onload:()=>void,onerror:()=>void)=>{const script=document.createElement('script');script.src=src;script.async=true;script.onload=onload;script.onerror=onerror;return script};
-state('umami',config.dataset.websiteId?'loading':'unconfigured');
+state('umami',config.dataset.websiteId?'consent':'unconfigured');
 state('clarity',config.dataset.clarityId?'consent':'unconfigured');
+let umamiScript: HTMLScriptElement | null = null;
+const loadUmami = ()=>{
+  if(!config.dataset.websiteId || umamiScript || !analyticsAllowed()) return;
+  state('umami','loading');
+  w.mindBeforeSend=(_type:string,payload:any)=>{
+    if(isExcluded())return false;
+    return {...payload,url:cleanUrl(payload.url||location.href),referrer:payload.referrer?cleanUrl(payload.referrer):''};
+  };
+  const s=load(config.dataset.scriptUrl!,()=>state('umami','loaded'),()=>state('umami','unavailable'));
+  s.dataset.websiteId=config.dataset.websiteId;s.dataset.doNotTrack='true';s.dataset.excludeHash='true';s.dataset.beforeSend='mindBeforeSend';s.dataset.performance='true';
+  document.head.append(s);umamiScript=s;
+};
 if(isExcluded()) {for(const p of ['analytics','umami','clarity'])state(p,'disabled');}
 else {
-  // Counters bind to each new document; the private tracker loads once.
-  onPageLoad((signal,onCleanup)=>{
-    if(isExcluded()||config.dataset.provider!=='vercount')return;
-    state('analytics','loading');
-    const value=document.querySelector('#busuanzi_value_site_pv');
-    if(value){const observer=new MutationObserver(()=>{if(/^\d+$/.test(value.textContent?.trim()||'')){state('analytics','ready');observer.disconnect()}});observer.observe(value,{childList:true,subtree:true,characterData:true});onCleanup(()=>observer.disconnect());}
-    const script=load('https://events.vercount.one/js',()=>{},()=>state('analytics','unavailable'));document.head.append(script);onCleanup(()=>script.remove());
-    const timer=setTimeout(()=>{if(root.dataset.analyticsState==='loading')state('analytics','unavailable')},12000);onCleanup(()=>clearTimeout(timer));
+  // 站内默认不发起任何跨域第三方请求：只有访问者在隐私页主动允许后，Umami 才会加载。
+  // 隐私页切换许可后会派发 analytics:consent，这里就地响应，不整页刷新。
+  document.addEventListener('analytics:consent',()=>{
+    if(analyticsAllowed()) loadUmami();
+    else if(umamiScript){umamiScript.remove();umamiScript=null;state('umami','consent');}
   });
-  if(config.dataset.websiteId) {
-    w.mindBeforeSend=(_type:string,payload:any)=>{
-      if(isExcluded())return false;
-      return {...payload,url:cleanUrl(payload.url||location.href),referrer:payload.referrer?cleanUrl(payload.referrer):''};
-    };
-    const s=load(config.dataset.scriptUrl!,()=>state('umami','loaded'),()=>state('umami','unavailable'));
-    s.dataset.websiteId=config.dataset.websiteId;s.dataset.doNotTrack='true';s.dataset.excludeHash='true';s.dataset.beforeSend='mindBeforeSend';s.dataset.performance='true';
-    document.head.append(s);
-  }
+  loadUmami();
   const startReplay=()=>{
     if(!config.dataset.clarityId||!replayAllowed())return;
     // Search pages and arbitrary query strings are excluded from replay entirely.

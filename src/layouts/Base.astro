@@ -53,7 +53,6 @@ onPageLoad(()=>{
  reflectTheme();
  const selected=document.querySelector<HTMLElement>('.section-nav [aria-current="page"]'),rail=selected?.parentElement;
  if(selected&&rail)rail.scrollLeft=Math.max(0,selected.offsetLeft-rail.offsetLeft-rail.clientWidth/2+selected.clientWidth/2);
- document.querySelectorAll<HTMLImageElement>('.note-image img,.news-cover img').forEach(img=>{const fallback=()=>{const figure=img.closest<HTMLElement>('.note-image,.news-cover');if(figure)figure.hidden=true};img.addEventListener('error',fallback);if(img.complete&&!img.naturalWidth)fallback()});
-});
+ });
 </script>
 </body></html>

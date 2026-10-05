@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {track,isExcluded,cleanUrl} from '../src/scripts/analytics.ts';
+import {track,isExcluded,analyticsAllowed,cleanUrl} from '../src/scripts/analytics.ts';
 const saved=new Map(),sent=[],events=[];
 const config={dataset:{websiteId:'test-id',clarityId:'test-clarity'}};
 Object.defineProperty(globalThis,'navigator',{value:{doNotTrack:'0'},configurable:true});
@@ -12,4 +12,5 @@ test('URLs discard search text, unknown parameters and fragments',()=>{assert.eq
 test('DNT, owner and opt-out each prevent all event transmission',()=>{for(const key of ['analytics-opt-out','analytics-owner']){saved.set(key,'true');const n=sent.length;assert.ok(isExcluded());track('analytics_test');assert.equal(sent.length,n);saved.clear()}navigator.doNotTrack='1';const n=sent.length;track('analytics_test');assert.equal(sent.length,n);navigator.doNotTrack='0'});
 test('event schema rejects unknown events and raw query fields',()=>{let n=sent.length;track('secret-event',{query:'private'});assert.equal(sent.length,n);track('search_used',{area:'news',results:3,query:'private'});assert.deepEqual(sent.at(-1),{name:'search_used',data:{area:'news',results:3,article:'test'}})});
 test('Clarity custom events require explicit replay consent',()=>{let n=sent.filter(x=>x.clarity).length;track('analytics_test');assert.equal(sent.filter(x=>x.clarity).length,n);saved.set('analytics-replay','granted');track('analytics_test');assert.equal(sent.filter(x=>x.clarity).length,n+1);saved.clear()});
+test('third-party statistics stay off until the visitor allows them',()=>{saved.clear();assert.equal(analyticsAllowed(),false);saved.set('analytics-consent','granted');assert.equal(analyticsAllowed(),true);saved.set('analytics-opt-out','true');assert.equal(analyticsAllowed(),false);saved.clear();saved.set('analytics-consent','granted');navigator.doNotTrack='1';assert.equal(analyticsAllowed(),false);navigator.doNotTrack='0';saved.clear()});
 test('missing services report not connected rather than fabricated delivery',()=>{const old=window.umami;window.umami=undefined;track('analytics_test');assert.equal(events.at(-1).state,'not-connected');window.umami=old});

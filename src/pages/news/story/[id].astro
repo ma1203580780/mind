@@ -7,7 +7,6 @@ const {story}=Astro.props;const translated=!!story.summaryZh;const related=allNe
 <Base title={`${displayTitle(story)} · 海波东`} description={displaySummary(story)} noindex>
 <header class="article-header"><a class="back" href={path('news/')}>← 全部资讯</a><div class="meta"><span class="category">{story.category} · {story.kind}</span><time datetime={story.publishedAt||story.publishedDate}>{story.publishedDate}</time><a href={story.sourceUrl} target="_blank" rel="noopener noreferrer">{story.sourceName} ↗</a></div><h1>{displayTitle(story)}</h1></header>
 <article class="prose about" data-news-reading-id={`news:${story.id}`}>
-{story.image&&<figure class="note-image"><img src={story.image} alt={story.imageAlt||'发布者原文配图'} referrerpolicy="no-referrer"/><figcaption><a href={story.imageSourceUrl||story.sourceUrl} target="_blank" rel="noopener noreferrer">图片出处 · {story.sourceName} ↗</a></figcaption></figure>}
 <p class="notice">{story.automated?'公开订阅源自动收录':'编辑摘读'} · {translated?(story.translationProvider?.startsWith('AI 辅助校译')?'AI 辅助校译，未经作者人工复核':'中文机译，原文可核对'):story.sourceLanguage==='en'?'中文译文暂不完整，保留来源原文':'来源摘要'}。完整论证、数据和条件请阅读发布者原文。</p>
 <h2>{story.summaryZh?'中文摘要':'来源摘要'}</h2><p>{displaySummary(story)}</p>
 {translated&&<details class="rule-panel"><summary>展开英文对照</summary><section lang="en"><h3>{story.title}</h3><p>{story.summary}</p></section></details>}

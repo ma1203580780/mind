@@ -14,6 +14,12 @@ export function isExcluded() {
   try { return navigator.doNotTrack === '1' || localStorage.getItem('analytics-opt-out') === 'true' || localStorage.getItem('analytics-owner') === 'true'; }
   catch { return navigator.doNotTrack === '1'; }
 }
+// 访问统计默认关闭：只有访问者在隐私页主动允许后才加载任何第三方统计脚本，
+// 站内默认不向第三方域名发起请求。DNT 与站长排除始终优先。
+export function analyticsAllowed() {
+  try { return !isExcluded() && localStorage.getItem('analytics-consent') === 'granted'; }
+  catch { return false; }
+}
 export function replayAllowed() {
   try { return !isExcluded() && localStorage.getItem('analytics-replay') === 'granted'; } catch { return false; }
 }

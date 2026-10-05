@@ -90,7 +90,6 @@ if(workspace&&grid){
  const flow=initNewsFlow(grid);onCleanup(()=>flow.destroy());
  document.querySelectorAll<HTMLAnchorElement>('.news-topic-tabs a').forEach(a=>a.addEventListener('click',()=>track('news_filter',{category:a.dataset.category||'全部'})));
  const activeTopic=document.querySelector<HTMLElement>('.news-topic-tabs [aria-current="page"]');const topicRail=activeTopic?.parentElement;if(activeTopic&&topicRail)topicRail.scrollLeft=Math.max(0,activeTopic.offsetLeft-topicRail.offsetLeft-topicRail.clientWidth/2+activeTopic.clientWidth/2);
- document.querySelectorAll<HTMLImageElement>('.news-figure img,.reader-image img').forEach(img=>{const hide=()=>{const figure=img.closest<HTMLElement>('figure');if(figure)figure.hidden=true;flow.refresh();};img.addEventListener('error',hide);if(img.complete&&!img.naturalWidth)hide();});
  let opener:HTMLButtonElement|null=null;
  document.querySelectorAll<HTMLButtonElement>('[data-reader]').forEach(button=>button.addEventListener('click',()=>{const dialog=document.getElementById(button.dataset.reader!) as HTMLDialogElement|null;if(!dialog)return;opener=button;dialog.showModal();document.documentElement.classList.add('reader-is-open');track('news_expand',{story:dialog.id.replace('reader-','')});}));
  document.querySelectorAll<HTMLDialogElement>('.news-reader').forEach(dialog=>{
