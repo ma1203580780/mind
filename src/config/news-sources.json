@@ -90,16 +90,6 @@
     "language": "en"
   },
   {
-    "id": "bls",
-    "name": "美国劳工统计局",
-    "url": "https://www.bls.gov/feed/bls_latest.rss",
-    "domain": "经济",
-    "category": "经济观察",
-    "kind": "数据发布",
-    "maxItems": 25,
-    "language": "en"
-  },
-  {
     "id": "bis",
     "name": "国际清算银行",
     "url": "https://www.bis.org/doclist/all_pressrels.rss",
