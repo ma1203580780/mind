@@ -800,7 +800,13 @@
     "68a7324c478829394e94c04b8fd26b31f2a9381e75e337769feb06b120ed2320": "Jump Trading使用OpenAI来扩展定量研究.参见更长期运行的AI工作流程如何将多数据源与人文评论相结合.",
     "15a465057141758b05d326be90b208df7a574500f1fb1e8bf4dfb0457070993b": "用 Ironclad 推进计算机使用",
     "82c05b8f247aa2fbd4c9b7e0ca90b75449f624b08da7126ab937ae632b69d26c": "学习OpenAI和Ironclad如何培训和评价AI代理商复杂的订约工作流程,以推进计算机用于专业工作.",
-    "c5ed1b93095f308e9b5d10e3517903194e3eb5eb6905e980abbf2e9e54540db4": "从版本字符串中取出预放出,使RC能够为同版本取出模型."
+    "c5ed1b93095f308e9b5d10e3517903194e3eb5eb6905e980abbf2e9e54540db4": "从版本字符串中取出预放出,使RC能够为同版本取出模型.",
+    "7c28d3a9e17b279a865dfe25b518e409e0293a2d8eb38f3b4908e58356823b05": "(原始内容存档于2019-09-21). Langchain = 1.4.4",
+    "748346c92e15701c3f64c1e3c99be32eaabdf6c2b430f0bef34ef8f2a834d7a9": "自 langchain = = 1.4.3 释放(langchain): 1.4.4 (# 41163) 固定(langchain): (Summarization Middleware)在上下文溢出(# 41159) chore(deps): 2026.6.0到 2026.9.0在 /libs/langchain_v1 (# 41097) chore(deps): 6.7.0到 6.9.1在 /libs/langchain_v1 (# 41075) chore(deps): umpang-sdk从 0.4.2到 0.4在 /libs/langchain_v1 (# 41074) chore(deps): 2025.0.0到 2026.6.0在 /libs/langchain_v1 (# 1071) chine_v1 (langchain): rone(chain): : um: umb le: le: le: le: le: 最小 umb = 202. = = = 202.FastMCP至4.0.11(#41054) core(deps):从2.13.0到2.1.5.0.",
+    "bac060e52e7272195ec312f1f222e8a5a371a537f430f72644358a9fa23b838e": "自 langchain-openai = 1.6.7发布(openai): 1.7.0 (#41154) feat(openai):支持决定 api (#41125)chore(deps):在/libs/partners/openai (#41096)中,shum langgraph-sdk从0.4.4到0.4.6;在/libs/partners/openai (#41072)中,shum langgraph-sdk从0.4.2到0.4.4;在/libs/partners/openai (#40951)中,shum pyjwt从2.5.0到2.15.1;在/libs/partners/openai (#40951)chore(deps):在/libs/partners/opai (#40952)中,shum urb3从2.8.0到2.8.0到2.8.0:",
+    "8b816233296fa5f288c34b8a508243b9bb0afb4c08ed860b097b32a5e3494300": "自 langchain-fireworks == 1.7. 发布(fireworks): 1.7.1 (# 41137) 固定(fireworks):在流线和工具环路中保留推理(#41093) chore(deps):在/libs/partners/fireworks(#41100)中,凸线-sdk从0.4.4到0.4.6;在/libs/partners/fireworks(#41078)中,凸线-sdk:在/libs/partners/fireworks中,凸线-sdk从0.4.2到0.4.4;在/libs/partners/fireworks(#41078)中,chore(模型-profile):刷新模型配置数据(#40974)",
+    "2df2fad3c66964ae6e76a710bc9d3c9b61214391482fb7592a2c3545a1d2a8af": "索福斯在OpenAI Daybreak上将威胁调查时间缩短96%",
+    "4b667e84e9d281c6d0dbf56cbbfdddb9048b46a2926d1206f4605716d590b087": "找出索福斯如何利用OpenAI的\"黎明\"来缩短网络威胁调查时间,"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -3569,6 +3575,49 @@
     "https://openai.com/index/advancing-computer-use-with-ironclad": {
       "checkedAt": "2026-10-09T06:00:02.143625+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.eeo.com.cn/2026/1009/1058997.shtml": {
+      "checkedAt": "2026-10-09T13:08:02.793927+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1009/1058997.shtml"
+    },
+    "https://www.qbitai.com/2026/10/502426.html": {
+      "checkedAt": "2026-10-09T13:08:02.793927+00:00",
+      "description": "大写的方便",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/b0e3549f3a04b0dcfa1da7648e5b26e2.gif",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502426.html"
+    },
+    "https://www.qbitai.com/2026/10/502422.html": {
+      "checkedAt": "2026-10-09T13:08:02.793927+00:00",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    "https://www.qbitai.com/2026/10/502411.html": {
+      "checkedAt": "2026-10-09T13:08:02.793927+00:00",
+      "description": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/309b0d520c1e68bd6225e7cb13f728a3.gif",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502411.html"
+    },
+    "https://www.qbitai.com/2026/10/502364.html": {
+      "checkedAt": "2026-10-09T13:08:02.793927+00:00",
+      "description": "答不答得对，得看Token站位",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/f572e17eb0c11c5b19321caaf9b287f8.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502364.html"
+    },
+    "https://openai.com/index/sophos": {
+      "checkedAt": "2026-10-09T13:08:02.793927+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/502359.html": {
+      "checkedAt": "2026-10-09T13:08:02.793927+00:00",
+      "description": "Google 研究成果首次登上《柳叶刀》主刊",
+      "image": "https://i.qbitai.com/wp-content/uploads/2020/03/WX20200305-123937-e1583383359697-300x175.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502359.html"
     }
   }
 }
