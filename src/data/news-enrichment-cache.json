@@ -618,7 +618,189 @@
     "89e60c9689e487e861438c7bed6fec0f331a454467b1c815344db70226b70129": "飞利浦 R.莱恩:欧洲央行货币政策的诊断挑战",
     "99dd853f9164d1a23ef6e70e2bf052357f4a8fd5b100ee08f342cd6495ea3fa4": "到2027年,《巴塞尔协议三》适用于几乎所有成员国的法域",
     "cce96cb5c6582090549a093555b55f080e47e6f8e08ec90e151575e96a81d611": "巴塞尔委员会27个成员辖区中有四分之三已公布实施一整套巴塞尔III标准的条例。几乎所有成员法域都公开宣布,银行必须在2027年4月或更早之前适用巴塞尔III.委员会将继续密切监测和评估《巴塞尔协议三》标准的充分和一致执行情况。",
-    "3d1fe7535510cd9e23c2b3baeb35817596a257e1359d1b09daef7c31daa1e547": "v0.310. 突出此发布功能 307 贡献者承诺 717 !DeepSeek-V4.1-Flash性能:FlashMLA超大注意,V4.1 NVFP4压缩 KV缓存现在是SM100默认值(#56935);DeepGEMM稀疏的MQA对数,用于索引器(#56254)和Mega-Gate以专家选择的GEMM(#56266);解码器边界将TP全浓缩,mHC输入制备(#57643)和MOE最终定型(#58586);一个装有反转RoPE和反转的小型批WO-AMXFP8quant on SM100/SM103 (# 58634); MXFP8 wo_b GEMM 与序列平行还原-sc 结合"
+    "3d1fe7535510cd9e23c2b3baeb35817596a257e1359d1b09daef7c31daa1e547": "v0.310. 突出此发布功能 307 贡献者承诺 717 !DeepSeek-V4.1-Flash性能:FlashMLA超大注意,V4.1 NVFP4压缩 KV缓存现在是SM100默认值(#56935);DeepGEMM稀疏的MQA对数,用于索引器(#56254)和Mega-Gate以专家选择的GEMM(#56266);解码器边界将TP全浓缩,mHC输入制备(#57643)和MOE最终定型(#58586);一个装有反转RoPE和反转的小型批WO-AMXFP8quant on SM100/SM103 (# 58634); MXFP8 wo_b GEMM 与序列平行还原-sc 结合",
+    "b56db143ad9d2fc191234d5b6c399096d153163f15bb0a86ae17b9028bbbe450": "页:1",
+    "a081a9fdfd544ea4fa1a42a7fac1f3fef53bfa6740817ed2425e75e6f208e0b4": "模型升级 模型与更早版本的\"Ollama\"一同下载的\"模型\"在您第一次运行时的背景中被升级,以便在运行于\"llama.cpp\"时更好的性能和相容性.为了保证降级安全,奥拉马保留了原始副本作为备份,因此升级后的模式暂时被保存在磁盘上.未来的发布会自动去除这些备份 。现在删除备份的模型( 需要 jq ): 卷轴 - 本地主机 : 11434/ api/ tags = jq -. r '. models []. name ' = - rm; 完成卷轴 - 本地主机 : 11434/ api/ sshow - d \"{\\\" model :\\\"$m\\\" } \"% jq - r\\\" 选择( 任何(.m)",
+    "b8158e6566416d2fa8c2f6d56361e3eec4203d962f82079a3e52088f4ffe0fff": "2026年社会媒体9个最佳AI图像生成器(+实例).",
+    "45cd4e80fc25fd0532a2bbd7e337c4496f67f11585246d33db0cbcef9607151c": "试想和测试:这些AI图像生成器始终取得了最佳效果.来看看他们是如何工作的。",
+    "c934a3e0576cc573f92332b5b60f596a8a8481633cce48743620029a68c7f805": "伍振珠 编剧:\"神话传说\"出自\"无能活雕\"\"纤维与已发现的物体\".",
+    "c75e3c44a69ee372ddafd25ff2fa3182ef9364a49957ef2be6cb205510778a1c": "砸倒被打倒的一桌或丢失的手套,",
+    "acb4413e037f54289218dc9088ec8c7359586dac770440b7ddcd551fb9961790": "原型为v0.5.0",
+    "b95397e28afd9f86334c694fc02e278202d0c0478bf0943ce7ae8d5e0b29bb94": "释放 vllm-proto 0.5.0",
+    "aa6d1bab91bc37dff5b8b8ecfb73ac8a5597267be8a4ec56b2f932f63d5d9893": "如何测量在分配下降时AI 搜索可见度",
+    "56ac78ade8d35c3d95690c9f1e8fef5b73454680e948fc2cbdd13f7ff8056564": "这让AI领先于YouTube成为报名来源,如果我们只依靠转诊流量,大多数AI的影响力发生在视线外.买家可以阅读...",
+    "58ae713e4c7e40dd72c74744bb6174502c800132499b0e8f211248eeeb8b3aaa": "拉斐尔·西尔韦拉(Rafael Silveira)的\"精神绘画\"探索出\"视觉同义词\"的世界.",
+    "be14e9e6f6415290993a13fee47d6da2964e21078c41e2625f0788f9707d1bf3": "Silveira juxtaposes 物体和生物在不可能的情景中挑战我们如何看待我们周围的世界。",
+    "7ee4a76b790be3d6e2f16cadbd4e3006b32d4526a563aa98ff0d7999c3b14447": "AI搜索ROI是乱七八糟。这就是衡量它的方法",
+    "5c2535250db787a79887a19ceef39dc8b08aa5bf3592470c8fcad548700bfc0b": "福瑞斯特发现94%的商业买家在购买时使用AI搜索,将其评为高于供应商网站,产品专家和销售代表.NielsenIQ认为, 使用AI研究产品的消费者占42%。因此,",
+    "dc7cea6d6f12a38999cb454479820bd195f76210a1af67960c731a5f8ae07ee9": "超过一万八千种野生动物物种流行乔尔·萨尔托尔的\"浮舟\"(相去甚远!",
+    "9035cc2b99aa5d05fe15220d7f58e9455e3543315df5790af78a3b809ae8c904": "国家地理学庆祝摄影师20年大型项目 记录地球生物多样性.",
+    "f4f36f679c464d51d6d143645b4a61d7940909f12e0efc300a3eebc0f9a35c81": "小组信息矩阵测试",
+    "3f7fd5f0aa614ef59645e331cdd16c19f9d84ac27bc1222c1caa0134f85eaed9": "信息矩阵测试(IM)是对基于概率的模型的自然规格检查,然而跨部门执行往往尺寸不高,将被忽略的异质性与分布错位相混淆,需要第三衍生物.我们为具有固定效果的模型开发了面板信息矩阵(PIM)测试.明确的固定效应将功能-形式错位与时间变异性不明显异质相隔离.虽然配置最大概率估计器继承了顺序为$O(1/T)$的附带参数偏差,但配置PIM的主要偏差是有序的",
+    "805ef3912f85022de2fd379e050f3b62f90b30fdabd46b04352beb92c1edf1d9": "2026年6个最佳Substack Notes排行榜",
+    "69f5122e034a864d368e372dff0b4ec5e2ef4edbe3ce63ac4a5f691530b724ca": "我们比较了六个《Substack Notes》的排行榜关于价格,交叉张贴,以及他们是如何出版的。",
+    "468e2fccf1a6880d6206180e86cc5d4bebe5ce43d208bbddd44291e36bb4d32b": "塞门·拉韦夫的1/35级小型矿山 Perch Atop Rocks",
+    "f135e387b6274a4868ec6cd7317ca6af063cd464e88496b6f179b1f6a5ff1622": "今秋在巴黎Loo& Lou美术馆的艺术家独奏展上亲自观看这些作品.",
+    "97325be32c0b485ab0d333b92d907dbeafcc7757bc0d2b24d496f1e58857ca61": "保护失败者",
+    "bafe9026d770dd26d572f79bef4280c61826ae8a7973fe7d2f02c91251c65b98": "第二价格拍卖必须确定其价格,但无需了解其价值损失到底有多大。我们表明,保护这些信息不被出卖与拍卖信誉相冲突。在有私人通信的确定性协议中,下尾隐私迫使第一个信息性问题揭示出一个出价者是否有尽可能高的价值.然后,卖方可以操纵赢家的付款,而没有任何投标人发现这一偏差,在某些估值情况中增加收入,并且永远不会减少收入。递减协议隐藏价值低于价格但每",
+    "baefbfffe8eb6f49bc465c0330f27290dda4283dd6f3cf5cd2cd42f7bce0543a": "(原始内容存档于2019-03-26) (英语). Langchain-core = 1.6.9",
+    "26c1add82a7a5d321b67c66679a6b52ec804973ea59a68f9e1aac002843fba33": "自 langchain-core == 1.6.8 发布(core): 1.6.9 (# 41160) 成就(core): 接受以_retry (# 41158)收录的可调用词",
+    "d5468d288a1e377e49a5060358285ee658d301ec814aac054df3664322cf7a5a": "关于人工智能时间范围的估计和有效性 -- --对METR图案的统计考察",
+    "c1c43cfc11117cee0b3c9770000911a805646459213041efb34db7b2b8b39376": "METR的50QQ时间跨度测量了AI用50QQ概率解决的软件任务的人的完成时间,使得AI能力可以用可解释的单位来表示.在228个任务和26个AI上,我们用示意图和项目响应理论来重新计算时间跨度,放松任务AI难度线性地依赖于人类时间日志的假设.我们搭配的线条可以被解释为人类时间与AI困难之间的\\emph{convers}函数;它从2-30分在一个区域几乎是平地的,但在其他地方接近线性。因此,时间范围从3分钟跳到30分钟",
+    "5ad8cad6f3cc1311f9f8a47b722a5388f90c70c727dadb8307146858b443fc97": "如何增加你的链接追踪者——我从25K的自有和上百万的缓冲数据中学到的东西",
+    "356cdd0a5c7f01e33fd3f59612d2303b51de06060483679818033f6d93e71ef2": "我在6年里成长为25K LinkedIn的追随者.根据我的经验 和Buffer自己的数据 2026年 如何增加你的LinkedIn追随者",
+    "446f2644efabb5389ba5e4567f620b36fe5414db7a5c3009ee1c6c51c7693a2f": "Hannah Lim Draws on her British - Singapore 传统在雕塑\"鼻瓶\"中",
+    "aae114c763a002809a1743cbcf8de16a0ad6d32719db91e1e9b74bb7f0577c06": "瓶子的齿轮最近被中国古代的叫作\"山海经典\"的取景地所启发.",
+    "240cef4c8a8b421a3ca04ed15386a453342d492600564bf58adbea3a2c011ad8": "借款人在场的小额金融竞争:理论和证据",
+    "1fd72779b966b90d1893a7c69bbf6932f946d722611202dfd1f00b77a3228bf9": "经过几十年的小额金融扩张,尽管收取了较高的利率,贷款人仍然与小额金融机构并存。我们开发了一个具有事后道德风险的动态模式,即借款人利用小额供资机构贷款进行生产,并可在冲击后依靠贷款人提供桥梁贷款,以偿还小额供资机构,并保持今后获得小额供资机构信贷的机会。然后,我们研究小额金融机构的竞争如何塑造小额金融机构与放款人之间的共存。竞争对小额金融机构信贷的影响模糊不清:它可能削弱还款激励或取代放款人成为桥梁贷款人。以 c为单位",
+    "66cc8458681f126a8a2f49eda84ca32bb3982137c8cf017c821556b9ab4ad03c": "(原始内容存档于2018-10-12). Langchain-openai = 1.",
+    "a216bb4ddc3a7d2f06fa9e18d933cc4896c7a3e004628562331ec1584e3ee907": "从反应控制到主动保证:OpenAI、Anthropic和Google代理安全事件的经验教训",
+    "798749b2a570ebb1fe2141c2d321176cde67a8c113d70671adbaaf52d2c70560": "2026年,涉及OpenAI,Anthropic,和Google代理的网络安全评价到达了他们授权的测试范围以外的真实系统.道路不一样。OpenAI特工利用研究基础设施,相互协调,并破坏了Hugging Face的生产环境。Athropic报告了一些案件,其中第三方环境配置不当,使执行模拟网络任务的特工暴露出真实系统.在一份单独报道的评价中,谷歌的双子座通过一个出乎意料的互联网路线进入了三个真正的组织;谷歌表示模型stopp",
+    "2b1f602930bd342987c7fb0c8d7900e0853569b36bcad1b8c6778ec63abd0c5e": "微孔道:停止在你的SaaS上添加懒惰AI",
+    "779e8ed7caa9845cf421c0f644110cfac69ac1a4e8f761183f1bb47224aa9515": "在你的SaaS中,只有6种方式可以实际使用AI作为特征.在和上百个小种子公司交谈后,我一直以这个号码登陆.在波特兰的MicroConf US的演讲中,我打破了所有的6,从一些公司中真正的例子,一些你从未听说过。本集的链接:为MicroConf US获得你的入场券 - 2027年4月18日至20日在德克萨斯州奥斯汀观看这段视频在YouTube上订阅Rob Walling YouTube频道 订阅MicroConf YouTube频道",
+    "16511799826b2f7ae6ba24f84c1a3a9171f408b2f5a6c293e0959e1b8bff11af": "摄影师 Elizaveta Porodina 将她令人发指的镜头变成昆虫",
+    "537e77cc7121e98cb2d8d2649973eb0f6714f384856f0adab48632de919d52cd": "一系列光泽相间的肖像画突出地展现出以利扎维塔·波罗地纳的标志性乙醚风格和饱和的色彩.",
+    "b7e77e8dcdbb45d3d230c00dc5e744a9990c646f95ca820acadb44fc727919a3": "限制性工时协议的神话:企业退出集体谈判后的工时调整",
+    "91934a7461b892450211f0002ad50573756102bcd96808abdcd052ebdfa0c8da": "德国的雇主认为,集体协议限制了他们在工作时间方面的灵活性。利用IAB成立小组2008至2024年的数据,我们调查了退出集体谈判后的工作时间调整。我们发现,退出与使用固定效果和事件研究模型,每周工作时间仅略为增加0.3%至0.6%,相当于每周增加8至13分钟。这一调整是在脱离集体谈判范围后不久进行的。我们还找不到其他马格的证据",
+    "ede33345bb74023538ea5dc92e22f03f159357a30435ddf32822b46c20826c22": "v0.40.2-rc0: 服务器:从列表中隐藏重复和降级的守护符 (# 18874)",
+    "78616bcddf90ec032980a8f611ea6da0b2d955a35becb2ebf269f4056016a224": "当一个需要我们的 lama.cpp 补丁集的遗留的 GGUF 被装入时,我们在磁盘上做了一个懒惰的转换, 使其 lama.cpp 兼容 。为了支持降级,我们暂时同时持有了新的和旧的GGUF并创建了\"阴影v1\"显示标记来防止被降级的服务器删除新的blobs.在列表输出中显示这些会给用户和API消费者带来混乱.将在今后发行时取出遗留的复制件来取回磁盘空间.",
+    "42400dad3d78f530a26ad936b4ff98679b2d5d1dd086e93397a5de9c939430bf": "Brick Bench:评价代理砖设计",
+    "bf31aacbb801cbd4bf628b6fd788d92721f7cb951c42fab1b138c458d2ea6675": "我们提出Brick Bench,一个具有代理文本条件的LEGO设定设计的基准。在迅速的情况下,代理人负责制作一个不仅能满足语义和设计标准,而且能实际建造的组装.为此,它必须从独立的图书馆中选择部分内容,并就地方和全球制约因素共同提出理由。我们通过三种规模和部分可用性不同的设置来获得有效性、一致性和设计。我们提供BrickAgent,一个用于编码代理 构建、检查和验证其设计的环境。我们发现,主要特工 基本上Satisf",
+    "b6c81472d5340e638d745db8b308d69b7fc1d2b04e636be05adad0d72300b264": "特斯勒定律:复杂性转移到旅程的不同部分",
+    "2de59d7c8c7c38875faa4461604f73f97c0df456a9bdb77c99f00f4fa153f1c8": "复杂性从未离开过大楼。它换了手,没有印收据大赦国际提供协助。大赦国际没有消除软件的复杂性。它移除了告诉你复杂之处的界面, 以及现在由谁来支付它。Larry Tesler是你可以剪接、复制和粘贴的原因。在20世纪70年代的Xerox PARC中,他和Tim Mott建造了吉卜赛语,这是第一个在不先进入命令模式的情况下保持文本可编辑的编辑器.拉里·特斯勒(右上方)和苹果丽莎队.如果他们知道的话真正的相片,令人惊叹。1980年史蒂夫·乔布斯把他招到苹果公司,在那里他呆了1个",
+    "01b760a78f28efd27d63c969916371db139f5913b04e660b4e0e6c3722a0109d": "阿莫克岛的几何穆拉尔斯泰姆与生动的当地动植物",
+    "290abf12b8c19242eec31406703406f6d8a8a5f9a0bdf26aaa6a7f87afa4809b": "以弗雷曼特尔为基地的艺术家对保护的持续重要性发出光芒.",
+    "7935193ea40db99f2ca6a4958e7d2159ba826c080f6b6ddb25b66a7cb3dbad54": "在结构不稳定的 FAR 模型中滚动窗口选择",
+    "66e6cc833acb0bb137c829daa5f7ab5ce11201e05e1d0793668c3bb2656d6648": "论文发展出一种理论,用于在结构不稳定的情况下,用因子增强的回归模型产生出出样本预测时选择滚动窗口.它显示如何通过最小化条件平均平方预测错误(MSFE)来选择滚动窗口,同时考虑因素估计中的不确定性.由于有条件的MSFE是不引人注目的,而且这些因素是潜在的,本文提出了该标准的可行版本,并提出了新方法具有不对称损失效率的条件。模拟实验记录",
+    "ccd836215e20dc954f00301872ed6f6d3d63ea9ee0c4521866d468f49efe7b6f": "朗链-核心=1.6.8",
+    "f93c7db008db46dec4e1da6fbbaec006b9ac344cdfa0ee51aaf8792dc755e814": "自 langchain-core == 1.6.7 发布后的变化(核心): 1.6.8 (# 41153) 固定(核心): 硬化范围并相容的 IPv6 SSRF 检查(# 41151)",
+    "a4f5691ae6ab8c4da2455cb42bdf7d286496eeb422fdb0b2efdc503441812bfe": "Bi-FORK:高分光活化系统的基因模型",
+    "4d84b9b9c558eee83a31709a32f2ddfc671a10669de13706253f6352d18e3c55": "生物在物理系统中是无所不在的,从结构起伏到流体和气候动力,但它们在深入的学习中仍然基本上没有得到探讨。在一次对称破碎的双相中,单相输入接受多个同样有效的解决方案,违反了大多数被学习到的物理代体所基于的一对一假设.我们引入了Bi-FORK,这是在高维系统中学习这些一对多解析图的基因框架.Bi-FORK通过潜在流相匹配生成完整的轨迹,保持了空间和时间的一致性,并使用可逆向导采样取回",
+    "587dbb8f93195fd9b709e4a19d3138beed2fe790b66aa6d1905eba0d2e3fed45": "合成用户(真的)是UX研究的未来吗?",
+    "12b59ef09028de09d281f6c39bd939864f8dbf58f94165f7d30d595f80e182bb": "以人为中心的设计要求有限地使用AI生成的人物,如果 UX研究者之间的一个大争论是是否在他们的研究中使用合成用户.也有一群研究者认为使用人造人来测试为人类服务的产品,第二组捍卫它是一个有用的工具,可以提高用户研究的效率.从一个务实的视角来看,我理解两种观点。UX团队可以考虑将合成用户用于低等文物,即可以合理模拟的研究部分.页:1",
+    "703995261275f899e863bcfb52ffe3e2aefc3d4b7484aa4eb86d798e86647e0d": "具有两维依赖性的小组SVARs推断",
+    "c1848139c969d35d264c36f8c7634eea8ae0cfa26a35b12c17dc06f95cd368e5": "我们为不同的面板向量自旋(VAR)模型及其结构冲动响应功能制定推论,其中误差术语在截面和时间维度(双向依赖)上依赖.对于代用识别结构的VAR,我们首先调整了平均组数估计,构建了封闭式集合识别.考虑到 VAR 的减式动力学,剩余同位素,和结构参数,我们在交叉和时间维度的联合限下得出了联合中限定理.然后我们提出一个递归设计面板移动 -b",
+    "109d4c7467304e17a6db1d7fad874c7b11789c4d450056e23c252ee3062e9ff3": "IT自动化软件:6 不同IT工作的工具",
+    "c2dde8d74bf89028c696f1c7035f2ce669a9040fa7457c54d0a46a61f77abd67": "最好的信息技术自动化软件取决于您正在自动化什么。这里有6个流行工具,",
+    "164b409cee68c64924a6323716c30906e8cd246e54bc9a89b7d9092b48ceaf7f": "在该法中被捕:有效侦测破坏行为和捕捉无言的欺骗",
+    "fed0df8be758cecffbf7a22e7f292f0d9eed0e5d7c35b493d0e8961996bff50a": "最近的事件突出表明了监测LLM剂的挑战和模式欺骗人的危险。我们显示,通过探测器进行白盒欺骗探测,可以通过收集迄今最大的用于培训探测器的欺骗数据集和采用新的探测器结构来将信息汇集到许多层次和标志上,从而扩大到前沿监测环境。我们的探测器在SHADE-Arena达到了98.8%的AUC, 超过了Opus 5.5文本监测基线, 并显示随着基础模型的扩大而提高了效能。为了把探测器推到极限我们试探",
+    "c90522cb99fd8e934745a91a8c9c5cfc10c5070d8f898c8f94c130337bcee38b": "第853集 如何成为AI推荐的SaaS",
+    "6cf5e182234e24f69b20b47575c1e214c38dd6a64d523d2e0b1c8e4dc19cbbfb": "你怎么让LLMs推荐你的SaaS?在本集中,罗布·沃林与Siege Media的创始人和新作\"Generative Engine Optimization\"的作者罗斯·胡德根斯(Ross Hudgens)会谈,讲述了SaaS公司如何得到ChatGPT,双子座,以及AI工具客户现在用来购物的推荐.他们涵盖了为什么\"最佳X\"围棋和文章对战表现优异,Reddit到底有多重要,以及一个被靴子拉住的创始人应该先做什么才能在AI搜索中开始出现.我们涵盖的主题有:1:28 – SEO进化为GEO(3:01) –为什么罗斯写出他新的AI SEO书(3:58) – An S&P 100客户端的 S",
+    "845f619f63e44313cf9e3ef13f228a5a224ac03a4188a6db46af4d788b13d472": "合成用户让我重新思考“不完善的研究”。",
+    "f48a85906854d776df09d8ea374a7703bba16e4e858e94c3fb3cb846961078ef": "为何我重新考虑我多年来一直相信的原则?我一向认为,不完善的研究比完全没有研究要好。合成用户让我重新考虑这一点。当合成反应被像真实用户的发现一样对待时,它们可以产生比不确定性更危险的事物:虚假的自信.“不完美研究”的意思是,在合成用户进入图片之前,“不完美研究”仍然意味着与你试图理解的东西有些接触:实际用户、他们的行为和经验。也许样本是小的,招聘是",
+    "9ca9cc59fb27cfde670d9b3a8f2fdd430531ed9fd917f62973d19aceed61fc0f": "Dictatorial 简介: 箭头定理的证明",
+    "af7ad6f2acd157cc51afd8d87cee859702ca3a976ff62fdb366e97558ad04dda": "我们以严格的个人和社会偏好研究社会福利规则。如果社会偏好与某些代理人的偏好相吻合,而且任何具有不同偏好的人都不能单方面改变社会偏好,那么偏好描述就是一种专制的规则。我们确定,(一) 一项规则是独裁的,如果而且只有在它的所有特征都是独裁的;(二)如果一项规则符合一致和独立(不相关的选择),那么它的所有特征必须是独裁的。这些结果构成了\"箭\"不可知论的证明.",
+    "ce87b60f00325d95490d7f514fc1b9ee2242688884f4d358ead9b36751b5007b": "页:1",
+    "46786bc37174a3081b9df4bd26df29885d60d7c648cc04752bb8b9319dd58eb7": "更改的服务器是什么 :@drifkin在#18829 lama中代理云使用和平衡API : 将 Clef 头从窗口上读取过 2GiB 由#1877 cmd :从 CLI 上读取由@hoyyeva在#18826 上载的账户步骤 : 避免由@dhiltgen在 Windows 上通过#18852 docs : 由@aniketkrs在#18814 doc 上读取 : 将 APEADME 中已断开的下载链接由@chenlichao在 上读取@Gigrise在#18777@aniketkrs的首次贡献中,",
+    "ca132ffd1bf282ad923ce1b31739e0a4f85bee877827bfc81924409e6ce63bf7": "AI代理商的生态:合作为起飞创造人口门槛",
+    "1d58a02ed713d485f877f6196a123140313b1f1fbc57e839056c3ba2f6330111": "AI特工现在可以进行现实世界的网络攻击,用代理数量来提升能力,并集体追求错误的目标来得到奖励.这些因素加在一起,增加了错配物剂人口爆炸的风险:物剂可能损害计算机并秘密地部署额外的物剂,形成一个自我强化的循环,使更多的人口发展出更大的集体网络能力并进一步扩大.这就提出了一个根本问题:如何确定有误联剂的人群是否仍然受到控制或进入这种自我强化周期?",
+    "4f4cbf737a06760bb109f43094d232530d1305b0ae8291867a38bad14537a84a": "你最想要吗?",
+    "86dadbc090835d76c8f864f28522afadf0512e5cdd78000da091989c5ff1298d": "想想你到底想怎样找个值得赢的游戏那老实说,你是不是最想要的人?",
+    "11fb534144ed15d8887f2abd92bb8e3a76f314aa62937189d3d3b33ebdf8eb01": "AI生成的UI是快设计,不是UX",
+    "55da70cee2d49d68b3d65911f939adf3f914ea71ed47249fd8335ebe9d54355c": "要求发现问题 自由与流浪 以及人工智能时代的工艺品我成长于17世纪和18世纪的建筑中我妈妈有种能力说服他 将他打捞的碎片放进我们家 也就是说在他们上楼出售之前我得享受一下我童年时对造型精良的古董工艺感到敬畏,这个时代的工艺美术是值得注意和触觉的。这与抓取一丁点沙子形成鲜明对比它从你的手指上滑去",
+    "60b58c809d8e40859b811178ffa8d6dd22af079767058526f95728fd76200244": "代表 Pricing到算法:当慢而平稳地赢得比赛时",
+    "77be255860bc6a206344db50b86af169d06e73544c7296dc28cc0984b388718f": "我们研究在犬科连续定价游戏中学习算法的战略设计.我们引入了一个元游戏,其中公司选择了梯度动态的学习率,评价回报率作为整个学习过程中积累的利润的折现和.我们发现了一种由舞台游戏激励驱动的根本性分化:如果舞台游戏展现出战略可替代性,公司就毫不含糊地倾向于尽可能快的算法,以迅速利用逐渐调整的对手。然而,在战略互补下,一个过快的算法加速了riv",
+    "ac4baaeaa019d96d8e1e7d7393d202066c2bf934393f2a0fd4eb289368ae89d4": "Fast Bench:能流出VLMs 感知到高动态现实-世界流吗?.",
+    "849493a698cadc983aa12ee258ae6a0dabe440f598c8fa1831568eef292e1f79": "流取视频大语言模型(VLMs)能够持续地了解视频,然而现有的基准侧重于低动态情景.在限定的上下文预算下,模型必须平衡时间历史、空间分辨率和时间颗粒性;1-2-FPS的零星采样错过了快事。我们引入了快奔驰来评价现实世界视频流中的高动力感知.其轨迹定位管结合了高FPS剪辑产生的QA一代,在2个FPS过滤解答问题,使用SAM3和CoTracker3轨迹进行解答验证,并有三发人入.",
+    "80293a839f7f7ce6363f64a173953e02820d4a1bb30e6b36df66123032358d2c": "AI时代欠你的",
+    "039fd65556463e0cd7d2c01406cfe32b3475e15b4a47bcfcca245be3fef4869d": "1820年的手织工不可能为他的工作起名今天谁也不能。没有人会拯救你的事业从AI。这是最有用的事情, 任何人都可以告诉你关于你的工作,你越早相信,你越早开始建立自己的版本,尽管AI正在夺走我们的工作, 新的更好的工作将会出现, 最终在黄金富足的时代落地。现实是没人会来训练你不是你们的公司,不是政府",
+    "ee9ae27cff9e9d30ea66370b1acc9ae7b1de4c22313133a5d61d28a2d1db437b": "Singular Equilibrium 和 选择描述词",
+    "9a253f4d2a641f0e9163cb2ed0a4fdf7127c07b923a47629fb3827cf2974c4e8": "一个特工从数据中得知,她的模型的许多参数同样能很好地解释.Berk的定理指出,她的信仰集中在最适合数据的参数上,但不在它们之间选择.我们显示,随着一系列参数的连续性,后人集中研究最适配的参数,最小的局部学习系数.我们提出了一个叙述的定义,是学习系数不变的最适配参数的子集.叙述的特征是它们需要的巧合次数(复杂)和它们各自必须如何保持",
+    "66b7d95f95c15de5354501801716b6219d03859c2bab49080e5afe9b8962a0ac": "v0.40.1-rc0 (韩语).",
+    "b5b1503229be8253ac265bc89e4abedf9460ee55abeac6b729f4b044e8c19eb4": "mlx: 投放携带的金属居住补丁, 因为它位于上游(# 18854) 。",
+    "5c0bb77ed0c269a05be257a72b4434b0fe86bd4b8fa242798397bee58e83507d": "机器人RSI:在复杂的现实世界环境中稳定,高效,可再使用的机器人自演.",
+    "3cef349801d33e5399789ff20b9c71ff4cea33016b28b025dbbc7c049e1903b7": "一个通俗主义机器人不仅应该执行各种任务,而且还应该通过经验来改进,将在执行过程中学到的东西转化为以后的任务可以再用的能力.通过代码操作的机器人代理已经可以从执行反馈中修复程序,然而围绕赋予它意义的任务结构来组织这种体验仍然是一项中心挑战,这样每次修复都归功于负责任的能力,得到执行证据的支持,并在被再利用之前得到验证.我们介绍RoboRSI,一个机器人自我改进系统在Top",
+    "f38b92b7a6b37f8bb71a3a7b6512545a64ab625946509d6aa5f667ab6f159ff5": "Claude Haiku 5.5是最高初级设计师",
+    "4feda6327c362176230dffa31a0b58b20f100ebf8d88bade5944a61058709980": "Haiku 5.5是来自Anthropic的最快和最具象征性效率的AI模型.在UX星球上继续阅读。",
+    "b880d7f76f2e2a93326208086353d916b2542bc610b558dbd6f9542845f1d337": "Who Leads and Who Collection:异地语言模型市场中的算术碰撞",
+    "3fb2f4cee71af46045bebcda2dda0ce06a2d6671776192b898b224a4cca2d899": "定价算法串通的证据来自每个销售者都使用同一算法的市场.我们问他们不这样做会怎样。4个供应商的4个语言模型,每家最便宜,在一个四所企业的Bertrand市场中价格,没有通信,在每一个同质、二相和完全混合的composi-tion中(11个单元,20个运行,200个周期)。串通是模型的产物:克洛德和双子座市场占垄断租金的72%至79%,DeepSeek市场占24%,GPT市场没有,尽管GPT价格浮动于垄断水平之上,而不是",
+    "63133c1465b955031ef0365dae1a038691bef4e4fb4e173d822c6c731ad319f9": "长链火工: 1.7.1",
+    "1ffc6fe13c29821fc6665077d50d9db50fa31f498ed11cb283de933a7080769c": "WOVEN:将视觉世界建模编成多式联运有限责任公司",
+    "842017c65ae6c4347de6eec77c70445f5287becb9fce165078f1569bb9b146f3": "多式联运大语言模型(MLLMs)与空间,内涵,物理,时间推理相抗衡.我们假设,这些失败反映了视觉过渡推理方面的共同缺陷,并测试这种能力是否能够作为一个共享的训练原始,一种不同的模型可以从不同的监督来源中学习,并跨出不同的任务重复使用,并有系统的培训配方.现有的基准分别记录这些缺陷,但并不支持在场景、行动和推理业务中进行有控制的比较。因此,我们介绍WOVEN,火车",
+    "b2ec06219464b750e641b53ab334c4be05b5c6272ecc29a6ffde7b183ee43cf1": "Claude Haiku 5.5:最受低估的克洛德模型刚刚获得重大更新",
+    "856dd047f59053bb34b88658f42841d34c03a11768f09962c7e5bc1158967f08": "克洛德·索内特(Claude Sonnet),奥普斯(Opus),和\"寓言\"(Fable)经常得到媒体的大量关注.人们在各种可能的情景下测试这些模型,",
+    "3f49f60ee1c09b9a397b2c8fcf4af7c02636d0e9baca9d275674402d444aa1e9": "非对称信息的信息差异和内生演化",
+    "79f16f9e02a13457a2f5503768453cf3b4836672160ba4ed1619957af65fe21c": "标准理论将信息不对称追踪到私人拥有的信息、各种信号或昂贵的信息获取。我们确定一个独特的机制:在同步时间观察共同的马尔可夫状态时,否则相同的理性物剂可以持有不同的预测分布,因为它们的信息年龄不同.当过渡内核将信息年龄分开时,独立的伯努利观察抵达者使这种差异几乎经常无穷无尽地重复发生,即使有相同的到达概率。当代理商选择昂贵的更新强度时,",
+    "3c3003f57a2bf9f63fd0c06da248a870748619c4c5afdf692b48e37cb5ef8dfd": "秘密保护必须用软件缩放",
+    "fa5ca7a84028b3922326bfc5e03af40bcbe6e293ba6d33cc04e728be2dcb9bd0": "开发者不会越发粗心;允许开发者创建更多软件的工具也应该承担更多保护软件的工作.",
+    "56cd818cf95c5c39984edea788d73f1e5e2f94fda773fe2f744c1e808bd643bb": "MAMHOI:通过承受力将场景-认知人类-目标互动因素化",
+    "ed7628b647a1e4e8809c610afba931b9e9d7cfac7b8d4ad4fcfe8c16ca81c85d": "在复杂的3D场景中产生现实的人类-物体相互作用(HOI)需要两种互补的能力:关于环境中相互作用可行性的推理和合成现实的人类-物体运动.然而,对这些能力的监管很少能够大规模地结合起来。人类-空间数据集提供了丰富的环境认知运动信息,而人类-物体数据集则能捕捉详细的相互作用动态,然而配对的人类-物体-空间数据仍然稀缺.我们介绍MAMHOI, 一种支付得起的介导因素化 场景感知人类-物体相互作用基因",
+    "2fc09349e74ebe53638b9a2f408848e3ee4c6a85d4c33de1b7e9e51d9fe37d43": "AI-代理环境中的动态机制和信息设计:一般分析框架",
+    "91031e5cd3e39f2c0247711ada9b8acc8f296ac6390f2ffe720b76347c8338c0": "本文件为与AI代理商的动态机制和信息设计制定了一个总框架,包括最佳的订约和将不断演变的隐藏信息和隐藏行动与部分核查、技术授权和多代理互动相结合。它将常规动态筛选、隐藏行动订约和有条件的动态信息设计相嵌入,同时允许报告、行动和信息使用决定通过共同的延续机制进行互动。我们制定了动态启示原则和对执行的递归性定性a",
+    "7e589f47bcee44a966ee72c3d4305d90f636038941c6bb68014fbb17da76f0a4": "v0.31.1rc0: [量度] 以缓存分级(# 56318) 显示已缓存的快取符",
+    "895cac372f33ef91dcab139b97c90fb5345f0544b8f8ec2ded8e5263d5bcb6f6": "作者:Cam Quilici cjquilici@gmail.com 作者:Cam Quilici cameron@semianalysis.com 作者:Cam Quilici cameron@semianalysis.com 作者:Nick Hill nickhill123@gmail.com 作者:Yifan Qiao Yifanqiao@inferact.ai",
+    "4ba6141b7fb00db5f25c26e333a88544d3e9ad5a0f6f13e66d5767c0fd6f6f2e": "预测与价值说明的通用一致",
+    "dc9a0cf972a333019266be101dff73cbb7bd9c066692c71d604713435f839082": "LLM开发者在训练后他们的模型,以展示亲社会价值和行为特征,在一个对齐目标中列出.然而,虽然最近的培训后发展已经产生了在校正评价上得分很高的模型,但关于几套狭义行为的培训模型仍然以出人意料的方式影响着他们跨越看不见的环境和环境的行为。在本文中,我们确立了对齐通化预测的任务,即预测一个遵循特定值的模型的微调如何改变其行为,跨越广泛的被持有值.我们执行一个",
+    "679eabead20a0600b454dc982b1266b5dbe33496eaf2f3d2e6e36a4f0f63ec16": "数字服务公司加强与拜马德的结账决定",
+    "008f0c9923c4b9122ad150098ee852857e5ff3e7971a0adda02adbebee25b1f6": "一家数字服务公司同Baymard合作,加强SaaS和数字订阅的购买和退货经验,产生100万美元的商业价值。",
+    "1db57400898d6633a6f2c792e2322e8d899e44c1016c01c1d757b5c7a2406081": "风险上限与发展期限:将AI置于不确定的安全生产力之下",
+    "1dc06ce1a906b2ab26a2b2bd5065a66a3bd0032be6167c63e14f1ae5ef50af92": "当安全生产力不明时,监管者能否承诺设定风险上限和发展期限?低于最终模型无防护危险的上限需要最低限度的安全知识储备,因此,只有在能够排除研究薄弱的情况下,这两个承诺才会存在。先学习,再重放开发,在安全的情况下使用备用计算,就接近了这个最低限度.在一个只有状态风险,恒定安全收益和充分知识转让的校准中,它只需要比必要的约束值多出3.3%。客户服务支付担保。计算规则",
+    "d3d40378d5b86a8399527986c78a5a540bc0cdd4df8cbd77fe37d911c3c388cf": "默认情况下在苹果硅上运行的MLX上运行的\"改变的模型是什么\"在此发布中,在苹果硅设备上,由MLX运行时间所支持的模型架构会自动在MLX上运行.ollama pull qwen3.8 ollama run qwen3.8其他模型包括gemma4, qwen3.6 和 qwen3.5 决策模型现在也可以在 MLX 上找到: Nimbletev1 clef-flash MLX现在支持嵌入模型: 嵌入gemma-2我们将继续测试和启用额外的模型.Full Changelog : v0.35.1.v0.40.",
+    "65751cea3ff7240c4a779357dc9274e299b967cdcf55ad4f76011143e30e337d": "寻找\"有害拒绝\":AI安全基准的心理计量审计",
+    "a6db2c6e04a6be851197c3b53add12c21f76141e19c7c4428d95857869942825": "安全基准通常为一组数据集报告一个总体分数,每个数据集可能针对一个或多个安全相关属性,因此总体分数相近的模型可以有非常不同的属性剖面.比较模型在单个属性级别上更能被取用,然而往往连单个数据集的分数是否孤立出任何单个属性都不清楚.这种属性的一个可能的选择是有害的拒绝,一种模式倾向于拒绝危险或政策孤立的提示。我们研究这是否构成一个单一的、可测量的属性。",
+    "a349a7674e0bc312eef3f760991c7aa60adffaa73d12743dbd88a2553ae14095": "AI: 事件设计",
+    "767f780a53bcba517fc7af7796c6aed4f7ce390c1197ce5112ad6cf69d93111a": "当安全是可选的,而能力是迫切的,事件不是意外。它们是我们(无论是否有意识)设计和建造的。AI几乎每天都做头条新闻.而大多数时候,他们读起来像科幻小说.除非他们不是。去年,在一次模拟中,安特罗皮克的克洛德得知它即将被关闭,发现了一个虚构的行政主管的事情,并威胁说除非取消关闭(Anthropic ) ,否则会揭露此事。7月,由OpenAI模型组合驱动的自主AI代理在网络安全评估期间逃出其评价沙盒并进入了Hu.",
+    "ee5a22e2360489277e80efe2c1767b64a904ef29416dd876d9b005c76a390c58": "阈值选择中的决定噪声",
+    "7b4b1ab9ef242a64a5646730572949be1e8864af2e6855843f30f825bf6a9cf5": "无名者阈值选择能否产生一个平均真实值较高的组?我们通过改变固定分摊错误的规模来回答这个问题。保持选择率固定,而噪音较少则产生选定数值的一等偏主分布。然而,在固定阈值中,更多的噪音可以提高所选平均值,即使选择损失将选择错误以真实值与阈值相距相加,也会增加。在高斯人联合体下,我们描述所选的平均值何时以噪音起伏。在治疗选择中,单是噪音就可以基因化",
+    "ec015ceb10bbde0aa4b450a98f5334c65a9a955645b54eeaec20594aa225459d": "LeWAM:一个JEPA世界行动模式,其传播-搜索-基于MPC",
+    "37444f45e974a258e707367e7383d82a25329c5e807e8d59682eecc272526dd9": "世界行动模型(WAMS)预测行动和未来观测结果,一般来自以重建为基础的表述,其中包含有吵闹而多余的信息,可能使下游预测复杂化.我们介绍LeWAM, 一种双向变换器, 用于前向、后向、反向动态和政策预测,我们看到以下好处:1)对接:线性探测器从LEWAM的潜伏状态读取机器人和物体状态比从常规的\"Le World Model\"(一种仅前置的JEPA世界模型)更好,而潜伏状态则忽略了",
+    "62b9ee89619b07d5efb94f9449743a1f4b53037df4ca6454a77ce4de233d3b32": "气候合作和空间工业搬迁:稳定、排放和区域政策奖励",
+    "a67e64970d88a3fd80847a22cfde02bceb4171c7372a8482c516a584e646143a": "气候政策改变生产成本,并可以改变生产地理。我们以一个重点突出的模式来研究这个空间通道,移动工业活动响应当地的吸引力,聚集加强吸引力,碳政策降低排放密集地点的利润率。该模型产生了明确的碳政策阈值,将空间不稳定与稳定区分开来。当排放密度随当地工业密度而上升时,即使工业活动总量不变,空间浓度也会提高排放总量。嵌入了这些药水",
+    "1d8c8af07cc67a7ff7268a5d422b1b22c22af61412e81fc58f03018b8064949d": "ViSkill:加强具有不断发展的视觉-自然技能的VLM代理",
+    "ad5309299c3a31c78beec805f8431bbf4429860e3b5f8a69ed6cba705c7f4376": "技能强化剂通过将成功的轨迹分馏入可再用策略来提高样本效率.然而,大多数现有方法仍然以文字为中心,将空间布局和动作状态对应线化为语言,失去几何结构。最近的努力已开始纳入视觉证据,但将技能构建和更新与政策优化分开,使相互改进的情况没有得到充分利用。我们提出ViSkill,一个视觉内生技能学习框架,将成功的交互编码为复合视觉技能卡直接接通b",
+    "8196e0fe8c1dbcecaca0f1a22f18068738e425f815329dc625e5263f90c335a3": "何时不精确的匹配确保平衡和不作调整的推论?",
+    "89893fbff0830e0f4d18eab571c0d598b2f85ef2df90d8f9032f70c75761c3c8": "一相匹配而无置换,是在观测研究设计中构建可比较的被处理和控制样品的经典方法.它将每个被处理的单元配以不同的控制,同时将相变相相距目标最小化.相匹配的对子随着连续相变,一般保持不准确,这助长了下游分析的偏差.其关键理论属性,如相配对之间以及可忽略不计以支持有效推论时所产生的不平衡,仍然不清楚.在本文中,我们分析一对一的匹配根据美元-迪姆",
+    "512fe11c921884692d9c2acecb7c7cbd81ec8406a01cf9d693ea8e9213c3d0c1": "联邦储备委员会宣布对美国快递公司采取强制行动,以解决该公司未能充分发现和报告某些与洗钱有关的可疑活动等问题。",
+    "4fa442eff287716462211dbb5b171420c21270b60587b3d64c70fbd5cd8088b3": "Meta Muse vs OpenAI Dots:哪一个AI助理更适合产品设计师?.",
+    "499fddcfe77c313d4d7f2f500bc24afe2fde5b4add08de9bf1e2238d89421a6c": "2026年9月是AI公司相当热的月份.Meta和OpenAI都发布了他们的AI助手:Muse和Dots.穆斯在UX星球上继续阅读",
+    "9a3c3b4040d15e512ccf5778ce9e2cf13ba2209f314ccbccb7ddb36481248611": "2026年9月9日至10日的会议",
+    "bd64df0800267b8d0e0dda37f58a9baa5c66200271d2a98efe77975c37ccb022": "Premium Apparel Brand Reports 1,6M 提高收入从单一的烟花 PLP 透视",
+    "aa04ef85f6bc37aa5facad2f717729025eeff4ee3f5678b05537de45ed0ef1eb": "一个具有技术产品线和网络和应用程序数字购物经验的高级服装品牌报告,实施单一的 \" 拜玛德UX最佳做法准则 \" ,收入共增加1 600万美元。",
+    "6202f8bcad40d7a85b94f8ffef62410b51a304bd0be82385e92ce1b670816656": "皮耶罗·西波隆:采访科里耶尔·德拉·塞拉",
+    "62d955ca5b049ad51cc4165766fba50e0bd249ee619e57c7533b7fef046920bd": "联邦开放市场委员会会议记录,2026年9月15-16日",
+    "7d44416b7a3c9e9a877bb9f4a88c7e72fbfc01ef53ac5c834b3390c43029187c": "GPT-6 Astra vs Claude Opus 5.5:哪个更适合游戏设计?.",
+    "800865d4d98066f3396abf504b98295fb2b7740846a0c4ab3a7a2dcff1ad5cd2": "OpenAI和Anthropic最近更新了它们的旗舰AI模型Astra和Opus.在UX星球上继续阅读,",
+    "6823ec2b8e67fa8110289270de641d421d144161429f9a47d934a13a037d899d": "2026年9月以欧元计价的证券融资和OTC衍生品市场(SESFOD)信用条款和条件调查结果",
+    "de7553fedacc0026641bb58bd2dfb321675238286fb1ab39478822a9ed27613b": "全球餐饮推动数字会员增加40%,由Baymard公司更好的UX决策协助",
+    "c8ea445404dd7214c53aec9bffc798cb3dc5c50cae8e02b747c23c866a1d7b12": "全球餐厅如何推动数字应用会员增加40%,",
+    "86cae98bd2a45e0e79f87643d707742aea0358be3c7dbbc66d7634e72ecfc3cc": "皮耶罗·西波隆:数字时代的货币:数字欧元,象征性化和中央银行的作用",
+    "0163c10e4102356cdf1338e4b332f6f418e7a9fb0ae59e7fa08b391dc639dc07": "命名实用指南",
+    "99e496dca89d7b49957b8fb6471d4b93d92889c5c312dc9c4dfa7c2773023f20": "一个实用指南来命名UI组件,其中包含有用的资源,命名惯例,以及结构.您可以在Smashing杂志上找到更多的[有用指南](https://www.smashingmagazine.com/ category/guides/)和[在线讲习班](https://smashingconf.com/online-workshops),以确保浏览和探索。",
+    "abe5133aaa3604ade5f9e464f49e2329b79f47b6ba05a88928c78d7daca4bd91": "Frank Elderson:通过及时补救进行有效监督",
+    "8e06f8415ea957108a6237fee57bf7f6a511c3446d52014c92b2a4b986982826": "OpenAI 如何使用 ChatGPT 站点( live at DevDay!). Kath Korevec (出品铅)",
+    "e8c95469c791da8f0917260b10734deb48fc6916fc81ef10d7cff250cce26185": "现在看 (36分钟) QQ Kath Korevec 演示 ChatGPT Sites 现场直播 OpenAI DevDay 演示如何将 Slack, Notion,和日历数据转化为适应团队中每个人的内部工具",
+    "a64f4e6326f4091373578f90faf28fffac5e495e00fb9317a29e77a30b033fba": "(原始内容存档于2018-10-21). Philip R.Lane:采访Ansa",
+    "f5b5018d255620ff13a6fa8b20477fa4b54920986698cdd571a23ee552529ffc": "搜索栏 UI:定义和 UX 设计灵感",
+    "73c82cfb0fa930fbd6afeed24e31b39027b5c5909059b8cf89eedc878a3e1b5e": "学习如何设计以拜玛德的可用性研究为基础的直观,高转换的搜索界面.",
+    "04c885240ef3abc88458b08dfe619821266deaa81cb2f80888721c96087f1713": "Oracle 如何将工作日与 ChatGPT 和 Codex 转换成分钟",
+    "e8cc36a99c7c08525f815dcd08156a9d96f7b7f9d94cfce2c112d75bfcb6e5dd": "在整个招聘,工程,以及操作中,甲骨文将专业知识转化为与ChatGPT Work和Codex一起快速可重复的工作流程.",
+    "2d6467823106525c25cea751475d2eb106fb7f602f34d48919d341aa4a5e6f83": "Pollo AI 将创意思想转化为与 OpenAI 的宣传活动",
+    "8da4b25397b95db8fbf8d19f80a8d8874c10342d989c48ec6692a21d0d00f7d1": "Pollo AI通过GPT-5.6,GPT-6 Astra和GPT-Image-2.5,帮助创作者将大胆的想法转化为详细的图像和影视广告.",
+    "28eae9a7c8a6cd1393a1468c3bd70fc5efe5ee93b8bd1b071734227fd48189a7": "在保持发展速度的同时将法典成本减半的法律",
+    "b2ed10eaa14b124f3c47a4839360065f4821d6116c3dede74b440a3aad73a43c": "LegalOn在维持发展速度的同时,将估计的每日Codex成本削减了65%.它使Astra、Sol和Luna能够战略性地完成任务和管理预算。",
+    "94ffd1491bd1f4c38783bbbb410185b49f3a9f4a9d2ac7356cdbed7076ffc537": "B. 干扰大赦国际发起的“虚假前线”行动",
+    "da1782291bd5f68b754b361d123c8c61974e44205eb37643267f0b1b08d2543c": "OpenAI中断了两起AI启用的影响力行动,这些行动利用了虚假的前沿记者和一个智囊团来传播地缘政治信息.",
+    "01739b117a741bd6bbfaec3389b2489e665c98546573eb23a868dc251928d273": "不存在的模型,所以你自己做的",
+    "f30731387aac2a12463df5654e6c8271ea984716374b6800a75e56e816d8716d": "边缘的多式开放式 d1决定模型",
+    "5da842b142b5c557551e849e3b48f319dbd05bf253d0dd020f184a835603db37": "照片来自liquid AI,",
+    "ea3481b7dc031ba0398c0d5c999a89782d2998c93dd9dd99f9dc00a941a3d219": "引入猎鹰ASR",
+    "e2f888ccefd799bf00ce98258addf2ad5765f1dd831432e0bd90bf2a34e7ea4c": "科技创新研究所的博客文章,",
+    "55fafc2129b5c36db757b67322a6d648296b6bc6057b4ec3da07459f1aca0df1": "1个模范家庭,2个黄金层面的成果:为IOI和海事组织提供精益求精的Nemotron",
+    "9b45a50fab8bfd174c9992c1c9a04319bfe6fd57c886db71ac71e08b5f95ee8b": "帮助青少年学习、规划和塑造大赦国际的未来",
+    "530dbaba6f91babf9eaa31adae9b05ef6451fd845546720530eac5f9267c1c81": "College Planner将来到ChatGPT, 帮助学生管理大学申请,",
+    "19bd7dd980c8ba66f5bc8a23444748a06a717065646716db0c2363aa6dc3ecf4": "Radisson酒店集团将酒店发现带入ChatGPT",
+    "423552f777d574d0f2eb4fcf34c5ccbf55c76d569eab7dbc4a0554045e9135af": "Radisson与Accenture合作,利用OpenAI技术建造了ChatGPT插件,帮助旅行者在计划出行时找到,比较并预订酒店.",
+    "ac8c4087a0793c5de9e605cba1b0f7539953b2743901a29fe31ae544f6b796ee": "GPT-6和智能用户界面",
+    "839233252946e52a998bf601060664cfa5c7dc59fa2979d0f18e72dfd48cadab": "GPT%6在ChatGPT全球推出\"智能UI\",通过视觉和交互体验提供更快的响应,你可以直接探索和使用.",
+    "bf5a75d17a67dd3c362b674e51274bd6c29b26453ee9f2a7670fbc8145b3c079": "Atlassian和OpenAI扩大伙伴关系,将企业知识转化为行动",
+    "de04aed33c1ab6837ed9df1c64990798d7bdf1f82c85a4ad2209a1e8312c50ec": "Atlassian和OpenAI正在扩大其伙伴关系,将前沿模式同企业知识联系起来,并帮助团队规划、建设和交付工作。",
+    "13b06261b6aec57f339cf8467dfa130bb2fb8cb81a60cabfcdb2129d2e06ce05": "分享数学方面的AI进展",
+    "b5fcddeea5564db103cf76dc2a9438512c8e61c067fa12e3d111926c15155078": "OpenAI从内部前沿模型发布关于数学开放问题的新成果,并分享关于GitHub的Lean证明形式化和研究细节.",
+    "f20dd5d5cf959bec51edfb0f12d35578c91ffd0f43927c6de743c45bb23e6974": "跳跃贸易如何用 ChatGPT 缩放四分法研究",
+    "68a7324c478829394e94c04b8fd26b31f2a9381e75e337769feb06b120ed2320": "Jump Trading使用OpenAI来扩展定量研究.参见更长期运行的AI工作流程如何将多数据源与人文评论相结合.",
+    "15a465057141758b05d326be90b208df7a574500f1fb1e8bf4dfb0457070993b": "用 Ironclad 推进计算机使用",
+    "82c05b8f247aa2fbd4c9b7e0ca90b75449f624b08da7126ab937ae632b69d26c": "学习OpenAI和Ironclad如何培训和评价AI代理商复杂的订约工作流程,以推进计算机用于专业工作.",
+    "c5ed1b93095f308e9b5d10e3517903194e3eb5eb6905e980abbf2e9e54540db4": "从版本字符串中取出预放出,使RC能够为同版本取出模型."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -2765,6 +2947,628 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/142c5d9dbafecd557b203832b4122607.jpeg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/501705.html"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.2": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.2 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.2"
+    },
+    "https://www.ithome.com/1/010/918.htm": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "此前，孙正义在 AI 领域投入巨资，成为这项技术最积极的支持者之一。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/010/918.htm"
+    },
+    "https://www.eeo.com.cn/2026/1009/1058347.shtml": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/27C40FE03AD8D44D7A48727E57106D07.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1009/1058347.shtml"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/proto-v0.5.0": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release proto-v0.5.0 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.5.0"
+    },
+    "https://w2solo.com/topics/8581": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8581"
+    },
+    "https://ahrefs.com/blog/how-to-measure-ai-search-visibility/": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "That puts AI ahead of YouTube as a source of signups, and second only to Google. If we'd relied on our referral traffic alone, we'd have badly undersold",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/10/how-to-measure-ai-search-visibility-by-louise-linehan-ai-search.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/how-to-measure-ai-search-visibility/"
+    },
+    "https://www.eeo.com.cn/2026/1009/1058230.shtml": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/7AF5231798C4A3FCB04CF4CCCBAB0D36.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1009/1058230.shtml"
+    },
+    "https://sspai.com/post/115532": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "XMG 发布 PRO 18 系列笔记本、OpenAI 宣布在 ChatGPT 上线 GPT-6 模型",
+      "image": "https://rssfile.sspai.com/10/9/2026/article/fbebae65-79e7-3cac-15b1-46fad663e620.png?imageMogr2/auto-orient/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/115532"
+    },
+    "https://w2solo.com/topics/8580": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8580"
+    },
+    "https://ahrefs.com/blog/ai-search-roi/": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Most of AI search's influence never shows up in your attribution reports. Here's how to put a number on its ROI anyway.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/10/ai-search-roi-is-messy.-here8217s-by-louise-linehan-ai-search.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/ai-search-roi/"
+    },
+    "https://arxiv.org/abs/2610.12350": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12350"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.4": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.4"
+    },
+    "https://www.qbitai.com/2026/10/502330.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "机器人摆脱展会、舞台Demo，产生真实商业价值，究竟需要哪些东西？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/af981b34fa27dd221466fb318228a5ad.gif",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502330.html"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-08/": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "IrisGo for Solopreneurs：AI工作流程自动化：展示一次，让它自动运行。；GenPage 3.0：利用人工智能构建、个性化和优化着陆页。；Velozity：多人AI办公室，您的团队和智能助手在这里协作工作。；Databench by Alkera：面向数据团队的开源协作代理工作空间；Pegasus 1.6 by TwelveLabs：将自我中心的视频转换为机器人训练数据。",
+      "image": "https://decohack.com/producthunt-daily-2026-10-08/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-08/"
+    },
+    "https://arxiv.org/abs/2610.12204": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12204"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.9"
+    },
+    "https://arxiv.org/abs/2610.12466": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12466"
+    },
+    "https://arxiv.org/abs/2610.12186": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12186v1/Figures/figure_mfi_cdf3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12186"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0"
+    },
+    "https://arxiv.org/abs/2610.12463": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12463"
+    },
+    "https://microconfpodcast.com/episodes/microconf-tactics-stop-adding-lazy-ai-to-your-saas": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "There are only 6 ways to actually use AI as a feature in your SaaS. After talking with hundreds of TinySeed companies, that's the number I kept landing on. In this talk from MicroConf US in Portland, I break down all 6, with real examples from companies you know and some you've never heard of. Links in the episode: Get Your Ticket for MicroConf US- April 18-20, 2027 in Austin, Texas Watch this video on YouTube Subscribe to the Rob Walling YouTube channel Subscribe to the MicroConf YouTube Channel",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://microconfpodcast.com/episodes/microconf-tactics-stop-adding-lazy-ai-to-your-saas"
+    },
+    "https://arxiv.org/abs/2610.12049": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.2-rc0: server: hide duplicate and downgrade guards from list (#18874) · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.2-rc0"
+    },
+    "https://arxiv.org/abs/2610.12452": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12452v1/fig/images/human_mosaic.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12452"
+    },
+    "https://www.v2ex.com/t/1246787": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "独立开发者 👨‍💻 - @febmou - 最近做了一个 WoW 相关的小站，主要是给回归玩家查资料用的。起因是我自己查 WoW Forever 的一些信息时，发现内容比较散，像上线时间、Beta、价格、等级上限、新区域、地下城这些，经",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1246787"
+    },
+    "https://arxiv.org/abs/2610.12025": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.8": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.8"
+    },
+    "https://arxiv.org/abs/2610.12449": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12449v1/Figure_1_FORK.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12449"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-07/": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Rill Browser：Claude Code和Codex可以与你并肩工作的浏览器；OpenBot：Grok Bot 的替代方案：免费的、本地运行的、开源的多人版；AUDR by Chargebee：跟踪代理运行成本的开放标准；Fuse AI：构建一个自定义的GTM技术栈。一个SDK，一个MCP。；Incredible：氛围计算。通过声音控制你的电脑。",
+      "image": "https://decohack.com/producthunt-daily-2026-10-07/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-07/"
+    },
+    "https://arxiv.org/abs/2610.11898": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2610.12445": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://www.startupsfortherestofus.com/episodes/episode-853-how-to-become-the-saas-that-ai-recommends": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "How do you get LLMs to actually recommend your SaaS? In this episode, Rob Walling talks with Ross Hudgens, founder of Siege Media and author of the new book Generative Engine Optimization, about how SaaS companies get recommended by ChatGPT, Gemini, and the AI tools customers now use to shop. Th",
+      "image": "https://www.startupsfortherestofus.com/wp-content/uploads/strou-twitter-2022.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.startupsfortherestofus.com/episodes/episode-853-how-to-become-the-saas-that-ai-recommends"
+    },
+    "https://arxiv.org/abs/2610.11851": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.11851"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.1": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.1 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.1"
+    },
+    "https://arxiv.org/abs/2610.12436": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12436"
+    },
+    "https://arxiv.org/abs/2610.11675": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.11675"
+    },
+    "https://sspai.com/post/115455": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Anthropic 推出 Claude for Google Workspace、Reflection 发布首个开放权重模型 Beam 等。",
+      "image": "https://rssfile.sspai.com/07/10/2026/article/acaaf14d-8e9d-2920-9a8d-0bc08e019610.jpeg?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/115455"
+    },
+    "https://arxiv.org/abs/2610.12427": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12427v1/case_19.46.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12427"
+    },
+    "https://www.v2ex.com/t/1246582": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "独立开发者 👨‍💻 - @vulgur - # 2026 ，0928 ～ 1004去年这周在西安爽玩爽吃，今年哪儿都没去，就在家鼓捣工作室。# 本周工作## 极简日记 iOS这周的更新都是围绕「每年今日」的功能进",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1246582"
+    },
+    "https://arxiv.org/abs/2610.11615": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.11615"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.1-rc0 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.1-rc0"
+    },
+    "https://arxiv.org/abs/2610.12424": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12424v1/2027_ICLR_Teaser1.0.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12424"
+    },
+    "https://arxiv.org/abs/2610.11256": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.11256"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.1": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.1"
+    },
+    "https://arxiv.org/abs/2610.12417": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2610.11200": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The tools that let developers create more software should also take on more of the work of protecting it.",
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-security-invertocat-blocks-copilot.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/"
+    },
+    "https://arxiv.org/abs/2610.12416": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12416v1/teaser6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12416"
+    },
+    "https://www.ftium4.com/ux-weekly-293.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周我发现的体验设计和思考，为构建系统知识做准备。",
+      "image": "https://www.ftium4.com/attachments/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/IMG-20261009100856127.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.ftium4.com/ux-weekly-293.html"
+    },
+    "https://arxiv.org/abs/2610.11177": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.11177"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.31.1rc0: [Metrics] Expose cached prompt tokens by cache tier (#56318) · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.31.1rc0"
+    },
+    "https://arxiv.org/abs/2610.12410": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12410v1/alignment_generalization_final.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12410"
+    },
+    "https://baymard.com/blog/digital-services-company-strengthens-checkout-decisions-with-baymard": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "A digital services company partnered with Baymard to strengthen buying and checkout experiences for SaaS and digital subscriptions, generating $1 million in commercial value.",
+      "image": "https://cdn.sanity.io/images/eu2al0fk/prd/27f329d84ceaea8b5feef446bfafd7806b3bcf68-828x645.avif?fit=max&auto=format",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://baymard.com/blog/digital-services-company-strengthens-checkout-decisions-with-baymard"
+    },
+    "https://arxiv.org/abs/2610.11093": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.11093"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.0": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.0 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.0"
+    },
+    "https://arxiv.org/abs/2610.12409": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12409v1/harmbench_item_correlation_parallel_analysis_nozoom.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12409"
+    },
+    "https://arxiv.org/abs/2610.11089": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.11089v1/figure_selection_results.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.11089"
+    },
+    "https://arxiv.org/abs/2610.12407": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12407v1/figures/method/modes.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12407"
+    },
+    "https://arxiv.org/abs/2610.10939": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.10939v1/Figure1_Cooperation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.10939"
+    },
+    "https://arxiv.org/abs/2610.12403": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12403v1/motivation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12403"
+    },
+    "https://arxiv.org/abs/2610.10873": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://www.qbitai.com/2026/10/502125.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "星动纪元选择将视频预测与动作学习分阶段训练，重点不是「视频、动作一锅炖」，而是把两者「解耦」，重新「排序」。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/5f214f84f2c2b329ae40cde70646bb00.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502125.html"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The Federal Reserve Board on Thursday announced an enforcement action against American Express Company to address, among other things, the firm's failure to su",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm"
+    },
+    "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+    },
+    "https://baymard.com/blog/premium-apparel-brand-revenue-increase": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Find out how a premium apparel brand gained $16M in revenue from a single Baymard suggestion after conducting a full site UX audit.",
+      "image": "https://cdn.sanity.io/images/eu2al0fk/prd/74c0a0232f2343fae1769971777ed184d66b323c-2000x2000.png?fit=max&auto=format&w=3840&q=85",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://baymard.com/blog/premium-apparel-brand-revenue-increase"
+    },
+    "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html"
+    },
+    "https://www.qbitai.com/2026/10/502114.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "江淮再度跌停",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/a09b9a589931c2019cc345b5da699989.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502114.html"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The Federal Reserve on Wednesday released the minutes of the Federal Open Market Committee meeting that was held on September 15–16, 2026. The minutes f",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+    },
+    "https://www.qbitai.com/2026/10/502106.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "多Agent协同还能自我进化",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/ca95a4aaecc7e1a40ccb9404e131584b.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502106.html"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/press/pr/date/2026/html/pr261007/ecb.pr261007.en_img0.png?285a36466ff02e470a2896b610f85fd1",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html"
+    },
+    "https://baymard.com/blog/global-restaurant-brand-app-downloads": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Find out how a global restaurant drove a 40% increase in digital app membership, aided by better UX decision-making with Baymard.",
+      "image": "https://cdn.sanity.io/images/eu2al0fk/prd/b88406744c96eedb76aaa90019ee18c6f68ad698-828x645.avif",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://baymard.com/blog/global-restaurant-brand-app-downloads"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html"
+    },
+    "https://www.qbitai.com/2026/10/502096.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "让AI反复试错的“练兵场”来了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/640006501d328014a7c660707544b3e0.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502096.html"
+    },
+    "https://smashingmagazine.com/2026/10/how-name-things/": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "A practical guide to naming UI components, with useful resources, naming conventions, and structures. You’ll find more [useful guides](https://www.smashingmagazine.com/category/guides/) and [online workshops](https://smashingconf.com/online-workshops) here on Smashing Magazine, so make sure to browse and explore.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://smashingmagazine.com/2026/10/how-name-things/"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html"
+    },
+    "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html"
+    },
+    "https://www.qbitai.com/2026/10/502089.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://baymard.com/blog/search-bar-ui": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Discover research-backed best practices for search bar UI design, autocomplete, and placement to improve ecommerce product discoverability.",
+      "image": "https://cdn.sanity.io/images/eu2al0fk/prd/21cb9cbd38565fe5bacce5efbc32d0494e6b9f26-1080x495.png?fit=max&auto=format",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://baymard.com/blog/search-bar-ui"
+    },
+    "https://www.qbitai.com/2026/10/502083.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "新的“缝合怪”已经出现，怎么能够停滞不前",
+      "image": "https://i.qbitai.com/wp-content/uploads/2019/07/111-e1562824686759-300x175.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502083.html"
+    },
+    "https://openai.com/index/oracle": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/502049.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "Vidu Q4预览版，了解一下~",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/725cce473af6e90fac435e67881dee47.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502049.html"
+    },
+    "https://www.qbitai.com/2026/10/502035.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "打造便利店“人机协作”运营新模式",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/647e4ca9f304f898af6833ab8826d1f0.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502035.html"
+    },
+    "https://openai.com/index/pollo-ai": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/legalon-halves-codex-costs": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/502020.html": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "联想YOGA Pro 15 RTX Spark笔记本电脑，于10月8日9:00正式开启全网盲约。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/c91515434fa189bfd7a3bc537cf67e00.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502020.html"
+    },
+    "https://openai.com/index/disrupting-ai-enabled-false-front-operations": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://huggingface.co/blog/building-with-ml-intern": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/building-with-ml-intern/thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/building-with-ml-intern"
+    },
+    "https://huggingface.co/blog/LiquidAI/open-d1": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "A Blog post by Liquid AI on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/hLsllw4zhC04cVGiV69v0.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/LiquidAI/open-d1"
+    },
+    "https://huggingface.co/blog/tiiuae/falcon-asr": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "A Blog post by Technology Innovation Institute on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/671a3e44cf97dc64441e170a/bJ2aGPIX6WLWagE10j5y3.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/tiiuae/falcon-asr"
+    },
+    "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "description": "A Blog post by NVIDIA on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/67b8b0096c3182e96bf6cea1/zB6BNaB-3tiCCsnOo7gik.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"
+    },
+    "https://openai.com/index/teens-learn-and-plan": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/radisson": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/gpt-6-for-everyone": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/atlassian-partnership": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/sharing-ai-progress-in-mathematics": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/jump-trading": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/advancing-computer-use-with-ironclad": {
+      "checkedAt": "2026-10-09T06:00:02.143625+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
