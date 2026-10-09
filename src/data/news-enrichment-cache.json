@@ -806,7 +806,95 @@
     "bac060e52e7272195ec312f1f222e8a5a371a537f430f72644358a9fa23b838e": "自 langchain-openai = 1.6.7发布(openai): 1.7.0 (#41154) feat(openai):支持决定 api (#41125)chore(deps):在/libs/partners/openai (#41096)中,shum langgraph-sdk从0.4.4到0.4.6;在/libs/partners/openai (#41072)中,shum langgraph-sdk从0.4.2到0.4.4;在/libs/partners/openai (#40951)中,shum pyjwt从2.5.0到2.15.1;在/libs/partners/openai (#40951)chore(deps):在/libs/partners/opai (#40952)中,shum urb3从2.8.0到2.8.0到2.8.0:",
     "8b816233296fa5f288c34b8a508243b9bb0afb4c08ed860b097b32a5e3494300": "自 langchain-fireworks == 1.7. 发布(fireworks): 1.7.1 (# 41137) 固定(fireworks):在流线和工具环路中保留推理(#41093) chore(deps):在/libs/partners/fireworks(#41100)中,凸线-sdk从0.4.4到0.4.6;在/libs/partners/fireworks(#41078)中,凸线-sdk:在/libs/partners/fireworks中,凸线-sdk从0.4.2到0.4.4;在/libs/partners/fireworks(#41078)中,chore(模型-profile):刷新模型配置数据(#40974)",
     "2df2fad3c66964ae6e76a710bc9d3c9b61214391482fb7592a2c3545a1d2a8af": "索福斯在OpenAI Daybreak上将威胁调查时间缩短96%",
-    "4b667e84e9d281c6d0dbf56cbbfdddb9048b46a2926d1206f4605716d590b087": "找出索福斯如何利用OpenAI的\"黎明\"来缩短网络威胁调查时间,"
+    "4b667e84e9d281c6d0dbf56cbbfdddb9048b46a2926d1206f4605716d590b087": "找出索福斯如何利用OpenAI的\"黎明\"来缩短网络威胁调查时间,",
+    "c9fb295cf0ccce5f514cc67ab0b131e9590094f017c8b9a2fa8ff06227dfa17d": "长链-拥抱脸 = 1.2.3",
+    "2b9f6af73075a9cd42507df4c1543da032a2a943655c8805136e597157dd292d": "自 langchain-huggingface \\\\ 1.2.2 fix(huggingface):在流线测试中使用支持的Scalway模型(#41095)chore(deps):在/libs/partners/huggace(#41098)中从0.4.4到0.4.6的umgraph-sdk:在/libs/partners/huggingface(#41076)中从0.4.2到0.4.4的umgraph-sdk:在/libs/partners/huggingface(#41092)中从2025.9.0到2026.6.0的umfs:在/libs/partners/hggingface(#41077)chuggingface:更新锁文件(#41088)中从201088)发布(huggingface):1.2.3 (# 41058) 固定(拥抱面):隐藏",
+    "9f84f927e4b74037f0f59058843c63471272f7e4ffef27543a50b87be8f20d71": "GPU群集的有影响调度",
+    "4c0e6006ba34de9e52640fa690e72a9bf67dd3c9dd84c9ef074965ae3982c788": "克里特维尔",
+    "c70dd300063941928349e34605b657fca2dc4053d62499c879fc35cc29230e39": "乔纳森·奈特(Jonathan Knight)的思潮系列 \" 呼气 \"请我们慢下来并练习点名",
+    "5a4f7932bc60f993f645a6ff17c9d8f0f986c82c5e5cc5ce589943343f174912": "骑士构思的\"呼气\"是探索色彩和\"外观的情感体验\"的细微差别的一种方式.",
+    "647349f785578896b13c50508739bab95f7da179ba315cdd290bb2fb08f46629": "一筊",
+    "ff60886fbff4c5a9f42f51919c32fdcf051a6d048c11dca9ac5a1b01dc731583": "15 解决无人愿意处理的问题的图像工具",
+    "0924e8ab03d33d9050768f5fe88e9cec90e69ba874ebd31adc918761b41c5cb7": "5个强大的UX工作工具,还有10个小插件,可以从重复设计任务的几小时里拯救你.在 UX 星球上继续读取 。“",
+    "9f19a4c39fc62d44f63bfc36e9c535d62d2fe7b2316c99eb446aab8b8d929bea": "对称性在舒灵郭梦幻中与圣物相遇,",
+    "bb20b74f6a0ee09d156d55f3b0a81bb1d9e34d357bb41630dbe95ee15ee31e37": "郭在\"Temple II\"中的画作,下星期在霍利斯塔格特开幕,探索记忆,存在,损失.",
+    "d43f719e001386275bc2189380e35abd6e1c1436859c7a3fb2b22ccd64ee84b2": "Asana 剪切模型在使用 GPT-6.1 的浏览器测试中花费 76x Sol",
+    "033863f2eb571d72c30c09f6e2d6d32b786d187ff281cc69425729f60ea2ad3a": "Asana在Codex中使用了GPT-6 Astra,使其浏览器代理76x更便宜,在测试中更快地为客户提供更有能力的模型.",
+    "68cfa3e556a1709bdb9f78c8d997a3b034a22841b9b3919f15c3c644325e2f18": "简单点",
+    "4f6536645a68086e20668dbf1b8873f84fa596fdf03e8856ad5b53c69e4abba7": "我尝试过Claude和Figma在800+屏幕项目。它从来没有达到难的部分",
+    "76786d6001dc2e26539e75f3649615141007574e793f9fda544bfd2d0d7c664c": "我在设计800多个互联企业屏幕之前,测试了AI辅助接口生成.在UX星球上继续阅读,",
+    "172d29398c8633c7eb46441c7787ee5ec6c889780689824c498c19a43fbf8073": "SpaceCast-Bench:评价远景-语言模型中的预测空间理由",
+    "af5eddc63b6602f46e992168be68ba96fd20b9c90f9feb7fa684ba25e772f046": "现有的空间推理基准主要测试空间感知:读取输入中已经可见的关系.然而,现实世界的空间智能需要预测空间推理:从观测中构建一个场景,预测一个干预如何改变它,以及对看不见的结果进行推理.我们介绍了SpaceCast-Bench,这是直接和诊断性地评估这一能力的第一个基准。围绕观测-变形-推算框架,182个真实世界场景的3862个问题跨越16个任务类型,分三个层面:静态感知、局部预测、a",
+    "49bbb2cf00c83351f26564c059a7bc7260c96bf21d2dcb512ba2868020dfbb19": "SpaceFlow: 本地可控三维生成",
+    "89b234ecd9306957eb1c32c873f819eb0fb47960a959e6bfdf078b45a945de54": "目前3D生成方法缺乏明确的局部控制:几何坚持度常由全局控制强度定义,外观无法在局部指定.我们介绍SpaceFlow,这是用于本地可控3D生成的无训练管道,来自文本描述和几何原始物的集合.每个原始物都作为某个对象部分的代名词,并被分配到局部控制级别,使用户能够指定区域是应该严格遵循输入形状还是允许基因完成.在结构生成过程中,我们执行这些空间限制",
+    "6207266a7b7501ddb2eae26ca90ed43d89224ebb234a02b6530fefc428a18d44": "HRIL:通过高压天线模型学习多模式协同",
+    "3f0010220a87ba475f452678a10f6c5754852e922caf28ccc7a26f8b18a2af4f": "自行监督的多式联运代表性学习在不同的领域取得了显著成功,但由于跨模式互动的复杂性,获取协同信息仍然具有挑战性。与不同模式的共享信息不同,当与任务相关的信号仅来自多种模式的联合配置,无法孤立地从任何模式中恢复时,就会产生协同效应。这项工作的重点是如何在多式联运表述中保持这种协同信号的信息能力。关键的意见是:",
+    "a671f7cadaffd42fa5467d8f2f9c73bfe78ea7412979e1f2fabb7521c1794c69": "GeoReform:多式联运几何问题解决的反思性正规化演变",
+    "680278fd553e167b82a28e481eb5241534a7b843fea4e7e2dc3886c050bb8295": "多式联运大语言模型(MLLMs)在图中往往难以识别和使用几何关系.最近的方法通过将几何实体、关系和制约因素转化为明确的文字表述来应对这一挑战,使模型有理由。然而,有效的形式化是高度非三角化的:在几何3K上,结构注入修复了28个错误,但在200个例子中引入了13个新的错误.冗余关系可以分散模型的注意力,而模糊的提及图元素则会导致它错误地应用制约.这说明,关键",
+    "5994d4b60f1ee1a856fda5a65bcf01bb5f93f079de34de6fed058338c9791511": "长文本到预测特性: LLM- Guided Blockwise 特性工程通过可执行程序搜索",
+    "e09797a431ce6a53a2950e0ff6c6295af857826e20280a6c5a9676af7f4cda57": "工业风险控制系统通常依赖结构化数据模型进行高效率的预测,但大量有价值的信息仍然嵌入在无结构的长文本中。通过人工特性工程提取这些信息是劳动密集型的,同时要求大型语言模型(LLM)处理每一次实时输入可能无法满足实际部署要求.为了应对这一挑战,我们提议LLM-BlockFE,这是一个LLM导线的离线功能构建框架,将长文本转换成可执行的功能程序,从而避免在线 inferenc期间的LLM呼叫.",
+    "bd79e8f5353aaa47ae9ed6d07430924a9604041ea524f999bf4f09cb7a0fa214": "ARC:机器人基金会模型的理性配方",
+    "379e99efb07d3c9f38f142e20d079100bd2e31e5cc0dcf4315c09649911c9867": "改进机器人基础模型(RFMs)的普遍方法依赖于更大的模型,更多的机器人演示,以及规模上的昂贵训练.我们表明,存在着一种有效和高效的补充方法:正确的推理方法可以大大改进现有最先进的RFM的零镜头任务性能。我们将此食谱称为ARC。它由三种关键成分组成:推理追踪,可伸缩的自动标签管道,以及调整预先训练的RFM以利用这些痕迹进行控制的策略.首先,我们发现有效的推理 追踪S",
+    "bdc2812913ceb886e0a904538e73ce357abc585cb686c5760a292eb19738e888": "受约束的代表团:大赦国际应有多少权力?",
+    "f2bc7991fa3f3956899cf2b5447806d56b02bd51c5eda54de5e3d5fee0c35ce6": "一个实用模式,用以决定AI能做什么,人类必须仍然拥有什么,以及产品团队应该在哪里划定界限.由作者用 OpenAI 图像生成创建的图像 。一个AI工具将数百个客户的评论集中起来,并命名了最大的主题“定价摩擦”。标签听起来是合理的,所以团队要求它进行定价实验,比较它返回的选项,并开始讨论路线图的修改.到有人批准建议时,重要决定可能已经作出。该系统帮助定义了问题,选择了一个框架,并做了一些",
+    "b06937906f9412b57b9d196f14cfe487a0d68558070d75bad769b00f288a8069": "缓冲核心切除器:压缩,但有意义的",
+    "8402c9afc915b7b802ba0e47bac879f8656639cc97e2acfa41d09b6e91796670": "托肯化器通常被优化以进行压缩,但一个紧凑的词汇不一定在语言之间平均分配其容量.我们引入了Latent Core Tokenizer(LCT),一种语言不可知的方法,将结构发现与词汇构造区分开来.LCT在构建一个共享词汇之前,使用最小描述长度,基于 en的边界信号,以及形态约束来识别可重复使用的语言单位.在104种语言中,有200K-token词汇,LCT比BPE,Unigram和对等战的生育力和摩尔夫分数都更低",
+    "e3dc18b550e59be59dd3f53411c4bcdc2e8f38c07f003492dccd50cb4106a1d3": "超越积分和冲动:道德游戏和AI设计",
+    "9afcc63d7a995356d88b42b6b255da3948bafe8cc044e6e1ce8ba3f6478bf2e5": "设计激励而不是操纵的系统。继续阅读 UX 集体",
+    "a8ec6ab700bb6995be8c60a720b5e0eda137110afa5c9e091e6c94598db28b5b": "OnTrack:通过流式结构-智能优化运输对LLM代理线程进行实时监测和干预",
+    "46dda7c63560ff08973e661830287fc4042ff1b26ac5cb383f4545361c8d1b01": "特务部署在从旅行规划者和股票交易到信息技术事件分类的应用程序中。在大多数情况下,LLM代理人在最低限度的有章可循的保障下自主工作,导致不可逆行动带来的成本和安全问题。近期的作品解决了这个问题,要么使用保障剂来监测行为,要么评价浩克后日志.第一种会给每个步骤增加成本和耐久性;第二种会在跑完之后,当象征性物被烧毁和损坏时作出裁定。为了克服这一困难,我们提议在OnTrack上建立一个流动监测机制,以比较代理人的步骤和依赖性。",
+    "3fe4fb8f2004dfa44527fcd2921324c383680d4871f2cea8c913a03072ae9ece": "Jev:如何在UX中使用它来更好,更快,更便宜的用户决定",
+    "6930543e14347bbbd5c5683a3958bfc7687cbaeb2a27679071a5a061936adff6": "判决电话,像其他任何功能一样按键键速度键入的答案让界面动作,建议,或询问.UX设计师如何在今天的应用中将决策模型投入工作.2026年9月15日,一家名为TypeSafe AI的旧金山实验室运送了Jev,一个分类模型.你把它交给上下文,提问和可能的固定选择;它把一个选择,一个分数,或者一个是或否,每个有概率。非常聪明我用Jev来掌权,超过5000篇文章,我在哪里报名?无法真正争论ab",
+    "cd1104672a1329d49a434f48c4004d717bab1922b1f1c0004956d6f3455e8170": "哪个技能到迪斯蒂尔?SGUID:为模型技能共同演变选择一个契约技能库",
+    "507a3b2ce343bb8f93a9769ca2a0028061ddde43fcc509ce72f561a8812b1bcf": "技能,在推论中添加的可重复使用的程序指导,可以大大改善LLM下游的性能(Li等人,2026年)。之前的工作通过语义相关性从银行中回收技能,然后作为推论时间补丁或用于模型蒸馏.然而,每种技能的个人效用基本上被忽视。我们首先表明,在以技能为条件的政策作为教师的政策提炼中,不到25%的回收技能提供了有用的提炼信号。然后,我们提出SGUID,一种选择精密技能子集用于蒸馏的方法。SGUID 缩写",
+    "8bde3c1abc07e4c927f1d70f55027ab66a53596203127f5ce4a7c4c30ec11496": "为什么设计师需要停止报告 开始推荐工作",
+    "f97dfef98d78014a689b8a1311aa87f2a981c98132e63054ee138dab4738fc40": "粘贴的纸条对你的团队毫无帮助。他们需要你的指示 继续阅读UX集体",
+    "061f7d65e0d479f3ec61cdcbd93536fcb8998a79e34ba6ede7736e70a59c639b": "联邦储备委员会公布2025年消费融资调查结果,使公众和决策者详细了解美国家庭的经济状况",
+    "b995b427df65ad0ce8240af3d22ab68ec86d21415ba843226515e3445ddaa59b": "HANS: 用于噪声混合文档解析的手写答题表数据集",
+    "7410e6122c28581da1da1f052f11df14b1bf258260604fcbdf2921e07d0ebf5b": "智能分级和自动评分技术是智能教育的关键基础设施。然而,现有的文件解析和笔迹识别基准主要是为结构完善的印刷文件或孤立的数学表达式设计的,缺乏能够捕捉学生答题表所固有的复杂特征的数据集,包括多行推导过程,文字和数学公式的异样混合物,以及噪声文物,如断线等.为了弥补这一差距,我们引入了HANS,这是第一个明确集合的数据集。",
+    "26707cde3c864004d780c19f824c65b0bad3de6478df56a8420aaf788689b286": "Claude Code Mods是游戏更改器",
+    "8b2866a162a4c6ba355c504ffeb315570f42f4a2d01d6e4a861dfeaa1c1ccddc": "Mods让你定制Claude代码来适应你的具体需要.在文章中,我会解释你需要了解的关于Mods的一切,",
+    "4dd3cd59b7938c5c157b835d5d9d38a8132ce5280113a28ff84805d5b0e80667": "引用但未咨询:对法律信仰链的反事实审计",
+    "7d04181fd2bf7efe5a22c7a1a576908a5f00fe5ff574ef80487ae458e0cf8f35": "大型语言模式越来越证明法律决定是合理的,它们指明了判决背后的法规或先例,作为判决所依据的证据。我们直接检验一下: 将案件事实固定下来,我们用指定的法律权威来代替一个不相关的权威,从一个模型的隐形状态中解码一个模型不断演变的判决。7个开放式模型(8B-70B)和4个涵盖司法和合同推理的基准,如果明确要求通过指定管理机构来证明判决的合理性,则模型在66.7%-100%的几代人中都称正确。",
+    "d011c4ca4556dae1969ffd5023ecfe5ece32ed1d530e89bb14162a31222c9ba0": "准确但并非Humble:评估知识冲突下的LLM代理中的失常性",
+    "90410d1a9f2d80c5ac0cbb570eaeb389f438f0f2a537179a10c50a264689bd1c": "当检索到的证据与特工先前的信念相矛盾时,它是否修改了答案,承认不确定性,还是坚持作出错误的结论?对代理系统的现有评价主要侧重于任务的成功,对代理机构如何处理这种冲突提供了有限的见解。我们建议评价代理人在感知谦卑(EH):代理人在执行任务时是否愿意承认、采取行动和通报不确定性。我们通过三个轨迹层面的行为维度——识别、解决和Escalate(ISE)——实施EH。通过知识冲突,情况w",
+    "3bdc551c63e72eefd01fc4daeb547898aaf8c6a3d898c289e28787204cce8cd6": "外表皮肤色素的性别影响:1870-1940年非裔美国人兄弟提供的证据",
+    "43da4ba6f93879d8d012d636496fc22ca5f0966e9bd7c0f422b62dd7c6c60f80": "我们研究经济结果的差异通过美国黑人的皮肤色调19世纪晚期和20世纪初的十年一次人口普查数据.我们首先记录了非裔美国人在受教育程度和收入方面的巨大差距,为了消除这些差距的驱动因素,我们确定了所有35 992个家庭,其中统计员为同性别兄弟姐妹分配了不同的黑人/穆拉托族。",
+    "3a95edaceea61a75ab251784a99500016fb4a782000ae229b3f0ef25e4ec849a": "远景-语言模型中空间原因的分路3D特权",
+    "a67499708bdf758d34a70256bceef471872e3ec364d8907fb365b149b2f89008": "空间推理仍然是视觉语言模型(VLMs)的持久弱点,因为RGB输入不能直接提供几何证据.现有的补救措施要么在模型中注入3D,推论时支付建筑和耐久费用,要么进行只监督最后答案的结果奖励培训。空间误差起源于感知:误判的深度或方向只能通过场景的真实几何来纠正,3D扫描的空间训练来源corpora已经提供.我们提出GPD(Geometry-Priviled Distillation),使几何证据成为p.",
+    "a79582c4965dd0688af2538628d7c6a307e5efe80c770296721bea850dc985d4": "通过能力控制监管垄断者",
+    "02c7445b6766ecfedc0432a66781fb09889c143826327ee090122f50d44ec22a": "我们研究垄断管制,当能力可以缩小,但随后的产出却不能。一家公司在安装昂贵的产能然后选择产出之前私下观察其生产成本,而监管机构则不能使用转让。我们为单一能力最低标准在充分参与下实施最佳机制提供了充分的条件。下限通过改变投资增加产出,同时在安装费用沉没后将利用率留给公司。在其他条件下,拨款有三个区域:自由放任、充分利用最低比率和取消。",
+    "4d961a86ef0c13ca2217968413d6114024f22fdb1d1c2aace1578e249a616cae": "克服前期障碍:在长图发行下监督精细化",
+    "5dd44bd6fafe3321a497a1c5b3cdd97ab8d0accee8d1a9e7096a358ed73217de": "监督的微调(SFT)将预先训练的大型语言模型(LLMS)适应下游的任务,但所需的概念可以得到不同程度的预先训练的支持.经常使用的概念更有可能得到很好的学习,而很少使用的概念可能仍然很少。我们提出一个新概念,命名为先前的障碍,以量化预先训练过的模型在多大程度上支持与目标概念相竞争的概念。我们注意到,先前的障碍遵循长尾分布,将头和尾的概念置于SFT的不同起点:头的概念面朝下",
+    "61034b156f437478767fd2c9bd6ea3fc1d01e1e3d933853c7a2595b725b66265": "主权基层货币:CBDC信贷和货币政策架构(全面版)",
+    "8960455b233e79711a54dc492fbc8fc4a5a56b049aa29a29a54571e91a12f515": "中央银行数字货币(CBDC)是数字形式的中央银行货币,由公众持有.领先设计有两个限制:从银行存款转换为CBDC可以加速存款外逃,需要保障措施,CBDC留在信用创造和货币政策业务之外.在此,我们提出一个基于基层货币的CBDC架构,以克服这些限制。该架构有三个组成部分:(1) 货币:主权基层硬币,是中央银行发行的一单位无价货币的数字债务,构成直接的CBDC;(2) Cred",
+    "64a5fbcd59a48a218519fd20a2a6f1588bdc4870868ab4e7111ebc6852ff67f9": "AI特工们能学着如何登顶吗?在长跑游戏代理比赛中评价热力学习",
+    "0d911faeae14b1cec4434abb9db731b80bd9804673bc8700cd03306b2d8a6715": "逆境游戏驱动了从热力搜索到强化学习的进步,然而从有限的样本中学习和调整策略仍然具有挑战性.AI代理商通过将游戏体验转化为可执行政策的修改,提供了另一种选择.在Heuristic学习(HL)的基础上,我们将Aversarial Heuristic学习(AHL)正式化,这个范式使用AI代理作为学习引擎来完善游戏政策和支持软件,同时保持模型权重固定.我们引入了AArena, 包括12个真实对抗游戏和1 920个存档的人类程序的基准",
+    "838ce3474dd8580a49973a2598e91a77570e354c023379ca42717bde5e7ed325": "排名仍然重要吗?AI代理商在半身上购物时的偏执位置",
+    "75576f7cbd60548eab39a1770a9590da94b991bf7c03b813d563d33b74773904": "当购物权被下放给人工智能特工时,尚不清楚人类记录的排位优势是否继续存在.跨越7000个课程,有5个大语言模型(LLMs)和不同推理努力,我们比较AI代理与人类领域数据.AI代理搜索比人类消费者搜索范围更广.和人类一样,排名较低的列名不太可能被检查,尽管对AI特工的影响较小.与人类不同的是,AI特工显示的规律与中途失联效应一致,中间列名的检查概率最低.在选择阶段,",
+    "21f6378d08729a0d1dcca8bd347acd5730e567476efce0a5de016ac02bc8387b": "VFold:对称- 软件 跨莱尔值缓存压缩",
+    "4266db8518e93b3a0cb45f24213c0d25bd0889c2e19386f65133cd7a60a3d2fd": "虽然缓存键值(KV)状态可以加速大语言模型(LLM)解码,但这种缓存可以在长上下文长度时主导内存的使用.一个解决方案是通过利用层间缓存的相似性来压缩这个内存.然而,大多数现有技术都要求对有限责任公司进行建筑改造,并产生大量间接费用。在这项工作中,我们提出一个对称-意识值缓存合并策略,减少缓存内存,同时避免在解码过程中有害的性能退化和建筑间接费用.此外,我们表明,可以同时利用这种方法。",
+    "f3ad66346020f3ac9775989b999d315bef47412c175d3165c6f7e4ced47cfedb": "有限依赖变量模型的可扩展可能性推论",
+    "f776c3eef45af9b800c01101add20f75703a7b528e9213fc23bb9feb369b1e7b": "有限依赖的可变模型是经验经济学的核心,但当可能性涉及高维度的结合而不是潜在变量时,基于可能性的推论是不可行的。本文提出了Stochastical Groundient Ascent(SEGA),这是有限依赖性变量模型的一种可扩展估计方法.SEGA使用Fisher的身份,用一个在潜在变量的单一条件图中评价的不带偏见的增益数据分数来取代棘手概率分数,并将这一分数嵌入一个斜梯升算法中.足够多的意大利人",
+    "82a70390b539281e9c6a94bc076116c5f304225dbcf0a6c33ed74f26aa76a008": "ContiLNN:缓解切片取样断续续的液态神经网络用于医疗图像修复",
+    "e034a2afe2560a8bc763c9ac7512d030b529d974ca11a378611cefd56e02194e": "解剖连续性为医疗图像修复提供了补充信息,但其使用需要考虑局部解剖学和切片采样的变化.我们引入了ContiLNN,它用双向闭式连续时间(Bi-CfC)模块来增强二维恢复主干线,用于交叉切片模型,同时保留飞机中的特性提取.切片-索引间隔调节由本地特征和隐藏状态决定的门,使传播能够在没有数字ODE集成的情况下对取样变化作出反应。参考指导的一致性首先协调 --",
+    "dd5423139b1eeafb325607a3b3570a579d5564f03c50e1967a2357b0f0370f02": "打破锁链:部门规范和刑事威慑",
+    "7099e73c113e60b778d77fe16b089deaad0c68b6d196d8a2f92787c03616672c": "在有组织犯罪中,成员可以围绕执法进行调整,而分部准则则依然有效。我们以三个阶段为模式:划分规范确定每个可能的联盟如何划分其收益;当局在知道联盟将组成之前,先将威慑能力赋予指定的成员;成员最后调整,在未受威慑者中。在人口-莫诺一分区下,当一个联盟扩大时,没有现任者失去租金时,阻止每个联盟所需的最低预算是一条最短的拆解道路的成本,一次取消一个成员.高租金枢纽c",
+    "5ad35ec3f6a32e09925fb31ed2e1ecc8b922798e2706310e51f173bb5df83bcb": "RiCo:通过局部接触模拟刚性-Body相互作用的神经模拟",
+    "70050b9f55507dce249129e90a649b5077b33f52846491ce509d84ecd3bc6244": "精确模拟硬体相互作用对于预测物理世界模型至关重要。尽管最近在模拟物体动态方面取得了进展,但捕捉到表面形状物体运动之间的局部接触仍然具有挑战性。虽然端到端的世界模型预测整个场景或物体之间的相互作用,但实际上,刚性的身体接触本身是局部的,只有附近的表面才能直接交换接触力.基于这个观察,我们引入了 刚性体接触理性(RiCo),它代表物体之间的相互作用通过稀少的孔区",
+    "18906f681799b89093921b1bf6f6570971538410429b2ff06dd74f25fd4282fd": "可说明理由的优先违反行为",
+    "fb9f1f1f6766cf635c27b9c39ec6df004669fd24f25f7c51312e03a362226d36": "要使推迟接受更有效率,就必须有违反优先权的情况,但哪些情况是合理的?我们辩称,如果受影响学生(一) 直接受益于造成上述侵权行为的改善,或(二)在帕雷托占据地区的任何分配下无法改进,那么就有理由违反优先权。我们构建一个“即时淘汰”机制, 每当DA的结果效率低下时, 总是找到合理的DA改进, 并在此基础上构建一个算法, 以迭代方式扩展合理的改进,",
+    "8269f44b10cbbaaaba46a4a2518c0e15d6f59fc68ff3c2605bb0e5967e407f89": "治疗效果估计预测功率数据聚合",
+    "b336e1b6c50b265a32457455ec69c9e611a60113fd475ca455c48f27dea425bc": "随机控制试验(RCT)确定处理效果而不引起混淆,但往往很小,而观察研究(OBS)规模较大,但可能令人困惑。为平均治疗效果(ATE)和有条件的ATE(CATE),开发了将小的RCT与大OBS相结合的许多估计器.然而,现有的ATE估计器要么在OBS上做出假设,要么没有从它们身上借到足够的动力.对CATE的研究少于ATE.现有的CATE方法要么假设OBS是没有根据的,要么依赖混淆函数的模型,要么接受前作中的偏差.",
+    "56578a958b097fd9103b3afd8b62806b527b6fac8f2a11541f2c8a1c5b4b0db9": "贸易自由化和产品创新:出口的动态作用",
+    "9cfdd82e4f0ffe4a414c9cedbe627e18450401b7a6d0d40a6db7120e8fb71c61": "贸易自由化如何影响企业的创新激励?我们用中国加入世贸组织和公司联合出口和产品创新决定的动态模式来回答这个问题。我们发现,贸易自由化将空调制造业的冰山贸易成本降低了大约13.5%,这大大增加了出口和产品创新的可能性。此外,这种反应主要是由动态而不是静态的刺激推动的。两种动态机制是核心:出口和创新领头企业预测更有利的t",
+    "bd20b2aecd4f67178deab2e6a0df00a9a7c4a8ed68f2686c6c53b57a7d37cadc": "SparseDecoding:用于精确高效 LLM 推论的解码- Aware Pruning",
+    "905fe59b070ff48854a71625a0b9285af93ad3ba6e56fa3051259902c8cd53b0": "大型语言模型(LLM)推论的解码阶段的内存约束性具有很大的耐久性.由黑森人指导的无层训练网络穿梭方法一直是这个问题的突出解决方案,因为穿梭减少了解码时从内存读取的非零参数的数量.尽管如此,本行的典型方法还是使用预收集的自然序列来计算黑森人,而模型在解码过程中被喂食自生的令牌,在两个序列之间产生分布偏移.根据自然序列计算出的黑森河是双鱼座",
+    "70d54bb1785d0b024ebb66454264a124f963f3aee3227db5784d9420a1901e48": "混合均衡指数和稳健性:代数方法",
+    "0ebaa002b3afc1e0a3a92b2c17f21902ce24d49a0fb7b49d7dc4aec1d9d0d08a": "我们提出两个结果,分别涉及等值指数和固定点指数的关系,以及等值指数和报酬-波动指数:任何整数都可以是有限游戏中孤立的完全混合平衡的指数。在一类特定隔离的完全混合等离子体中,称为单源,指数只能是0,+1或−1.在这个等级中,非零指数相当于还本付息的-robustness.我们还讨论了将计算方法扩大到大格式游戏的问题,以及将等值位于战略集边界上的情况。这些",
+    "d6cb04f11f448bafed23cb373b6c582dec618b646ec99a25205628d58430eae3": "事前还是反馈?适应神经操作员时的 LLM 用途",
+    "5dcceb05068c04bbcf888cb9243f311aabd5541678bc7c6d885aa2fa0a753e9d": "LLM科学代理是只依赖其初始任务背景,还是根据实验反馈调整其决定?我们在神经操作员的适应中研究这个问题,一个大型语言模型(LLM)在有限的试验预算下选择微调配置.在整个部分微分方程(PDE)家族内部和之间的转移中,LLM实现的持有量测试nRMSE比随机搜索和巴耶西亚优化几乎每一次匹配的比较都低。仅凭端点性能无法区分结果,所以我们用控制来验证每个归属l",
+    "e82216559a75dfaa1cff9dd3ebadfee7ccf2958e37baa275faf226c36c153096": "发现问题的呼声 流浪的自由在AI时代的工艺品我成长于17世纪和18世纪的建筑我妈妈有种能力说服他 将他打捞的碎片放进我们家 也就是说在他们上楼出售之前我得享受一下被精心建造的古董工艺品的敬畏感启发了我,甚至作为一个孩子,没有金钱和品质感.这个时代的工艺美术是值得注意和触觉的。它与抓住一小撮沙子 滑过你的手指形成鲜明对比"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -3618,6 +3706,333 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2020/03/WX20200305-123937-e1583383359697-300x175.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/502359.html"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.3": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.2.3"
+    },
+    "https://huggingface.co/blog/allenai/impactful-scheduling": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "A Blog post by Ai2 on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/Kj0n5ea3ItoNIc2ha2SVL.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/allenai/impactful-scheduling"
+    },
+    "https://w2solo.com/topics/8586": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8586"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059118.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059118.shtml"
+    },
+    "https://www.ithome.com/1/011/142.htm": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "《意见》共提出 19 条重大发展改革任务，将科技创新列为首要任务，明确全面实施“人工智能 +”行动，推进人工智能对传统产业改造，并前瞻布局量子科技、具身智能、第六代移动通信等未来产业。#人工智能 +# #新质生产力#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/142.htm"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059117.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059117.shtml"
+    },
+    "https://openai.com/index/asana-browser-agent": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059116.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059116.shtml"
+    },
+    "https://arxiv.org/abs/2610.12402": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12402v1/teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12402"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-09/": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "OpenSwarm：一群代理人在你工作的地方聚集在一起。；OpenSEO：开源的Semrush替代品；Claude Haiku 5.5：Anthropic最新发布的Haiku是迄今为止速度最快、功能最强大的版本。；Cekura Bench：实时电话通话中的语音对语音模型评测；KloudMate 2.0：基于人工智能的全栈可观测性与智能化SRE运维",
+      "image": "https://decohack.com/producthunt-daily-2026-10-09/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-09/"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059115.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059115.shtml"
+    },
+    "https://arxiv.org/abs/2610.12399": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12399v1/pipeline_fig_v3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12399"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059114.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059114.shtml"
+    },
+    "https://arxiv.org/abs/2610.12393": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12393v1/flow_chart.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12393"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059113.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059113.shtml"
+    },
+    "https://arxiv.org/abs/2610.12391": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12391v1/math_failure.drawio.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12391"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059112.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059112.shtml"
+    },
+    "https://arxiv.org/abs/2610.12390": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12390v1/figs_framework.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12390"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059111.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059111.shtml"
+    },
+    "https://arxiv.org/abs/2610.12386": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12386v1/teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12386"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059110.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059110.shtml"
+    },
+    "https://arxiv.org/abs/2610.12376": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12376v1/udhr_multibenchmark_tokenizations_table.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12376"
+    },
+    "https://www.eeo.com.cn/2026/1009/1059063.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1009/1059063.shtml"
+    },
+    "https://arxiv.org/abs/2610.12375": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12375"
+    },
+    "https://www.eeo.com.cn/2026/1009/1059056.shtml": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1009/1059056.shtml"
+    },
+    "https://arxiv.org/abs/2610.12367": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12367v1/sguid_overview_cropped.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12367"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "The Federal Reserve Board on Friday released the results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insi",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm"
+    },
+    "https://arxiv.org/abs/2610.12363": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12363v1/1-datashow.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12363"
+    },
+    "https://arxiv.org/abs/2610.12361": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12361v1/architecture.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12361"
+    },
+    "https://arxiv.org/abs/2610.12360": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12360v1/motivation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12360"
+    },
+    "https://arxiv.org/abs/2610.10606": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.10606v1/census_examples.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.10606"
+    },
+    "https://arxiv.org/abs/2610.12355": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12355v1/method.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12355"
+    },
+    "https://arxiv.org/abs/2610.07189": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.07189"
+    },
+    "https://arxiv.org/abs/2610.12345": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12345v1/figs/illustrative_v2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12345"
+    },
+    "https://arxiv.org/abs/2609.27727": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2609.27727"
+    },
+    "https://arxiv.org/abs/2610.12341": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12341v1/assets_ahl-main-figure.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12341"
+    },
+    "https://arxiv.org/abs/2608.22697": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2608.22697v4/studies/data/results/study1-hotel-search-full-random-no-cost/figure_position_effect_effort.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2608.22697"
+    },
+    "https://arxiv.org/abs/2610.12338": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12338"
+    },
+    "https://arxiv.org/abs/2608.13851": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2608.13851v2/ped.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2608.13851"
+    },
+    "https://arxiv.org/abs/2610.12337": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12337v1/fig01_concept_20260912.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12337"
+    },
+    "https://arxiv.org/abs/2608.13327": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2608.13327"
+    },
+    "https://arxiv.org/abs/2610.12333": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12333v1/Figures/motivation_hopnet.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12333"
+    },
+    "https://arxiv.org/abs/2604.06396": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.12332": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12332"
+    },
+    "https://arxiv.org/abs/2603.23825": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.12327": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.12327"
+    },
+    "https://arxiv.org/abs/2603.04298": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2603.04298"
+    },
+    "https://arxiv.org/abs/2610.12325": {
+      "checkedAt": "2026-10-09T19:29:36.665812+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.12325v1/method_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.12325"
     }
   }
 }

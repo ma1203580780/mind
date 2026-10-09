@@ -1745,7 +1745,7 @@
       "category": "产品设计",
       "kind": "设计社区文章",
       "title": "AI-generated UI is fast design, not UX",
-      "summary": "The call for problem discovery, the freedom and wander, and craft in the age of AI I grew up surrounded by 17th- and 18th-century architecture my stepfather salvaged from around the world. My mother had a knack for convincing him to put some of his salvaged pieces in our house, which meant I got to enjoy them before they went up for sale. The awe of the well-built antique craft inspired me even as a child with no sense of money or quality. Craftsmanship from this era is something noticeable and tactile. It is in stark contrast to grabbing a handful of sand and it slipping through your fingers ",
+      "summary": "The call for problem discovery, the freedom to wander, and craft in the age of AI I grew up surrounded by 17th- and 18th-century architecture my stepfather salvaged from around the world. My mother had a knack for convincing him to put some of his salvaged pieces in our house, which meant I got to enjoy them before they went up for sale. The awe of the well-built antique craft inspired me even as a child with no sense of money or quality. Craftsmanship from this era is something noticeable and tactile. It is in stark contrast to grabbing a handful of sand and it slipping through your fingers —",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "UX Collective",
@@ -1766,7 +1766,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "AI生成的UI是快设计,不是UX",
-      "summaryZh": "要求发现问题 自由与流浪 以及人工智能时代的工艺品我成长于17世纪和18世纪的建筑中我妈妈有种能力说服他 将他打捞的碎片放进我们家 也就是说在他们上楼出售之前我得享受一下我童年时对造型精良的古董工艺感到敬畏,这个时代的工艺美术是值得注意和触觉的。这与抓取一丁点沙子形成鲜明对比它从你的手指上滑去",
+      "summaryZh": "发现问题的呼声 流浪的自由在AI时代的工艺品我成长于17世纪和18世纪的建筑我妈妈有种能力说服他 将他打捞的碎片放进我们家 也就是说在他们上楼出售之前我得享受一下被精心建造的古董工艺品的敬畏感启发了我,甚至作为一个孩子,没有金钱和品质感.这个时代的工艺美术是值得注意和触觉的。它与抓住一小撮沙子 滑过你的手指形成鲜明对比",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -4036,11 +4036,7 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "",
-      "contentLanguage": "zh",
-      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/DA3167D0495C6881BF64D7920EF41CE1.jpg",
-      "imageAlt": "原文配图：AI热潮推高美国旧金山房租 房东“逐客令”飙涨44%",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1009/1058997.shtml"
+      "contentLanguage": "zh"
     },
     {
       "id": "feed-212b2cc6f87ec5d0376c",
