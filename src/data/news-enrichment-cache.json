@@ -894,7 +894,13 @@
     "0ebaa002b3afc1e0a3a92b2c17f21902ce24d49a0fb7b49d7dc4aec1d9d0d08a": "我们提出两个结果,分别涉及等值指数和固定点指数的关系,以及等值指数和报酬-波动指数:任何整数都可以是有限游戏中孤立的完全混合平衡的指数。在一类特定隔离的完全混合等离子体中,称为单源,指数只能是0,+1或−1.在这个等级中,非零指数相当于还本付息的-robustness.我们还讨论了将计算方法扩大到大格式游戏的问题,以及将等值位于战略集边界上的情况。这些",
     "d6cb04f11f448bafed23cb373b6c582dec618b646ec99a25205628d58430eae3": "事前还是反馈?适应神经操作员时的 LLM 用途",
     "5dcceb05068c04bbcf888cb9243f311aabd5541678bc7c6d885aa2fa0a753e9d": "LLM科学代理是只依赖其初始任务背景,还是根据实验反馈调整其决定?我们在神经操作员的适应中研究这个问题,一个大型语言模型(LLM)在有限的试验预算下选择微调配置.在整个部分微分方程(PDE)家族内部和之间的转移中,LLM实现的持有量测试nRMSE比随机搜索和巴耶西亚优化几乎每一次匹配的比较都低。仅凭端点性能无法区分结果,所以我们用控制来验证每个归属l",
-    "e82216559a75dfaa1cff9dd3ebadfee7ccf2958e37baa275faf226c36c153096": "发现问题的呼声 流浪的自由在AI时代的工艺品我成长于17世纪和18世纪的建筑我妈妈有种能力说服他 将他打捞的碎片放进我们家 也就是说在他们上楼出售之前我得享受一下被精心建造的古董工艺品的敬畏感启发了我,甚至作为一个孩子,没有金钱和品质感.这个时代的工艺美术是值得注意和触觉的。它与抓住一小撮沙子 滑过你的手指形成鲜明对比"
+    "e82216559a75dfaa1cff9dd3ebadfee7ccf2958e37baa275faf226c36c153096": "发现问题的呼声 流浪的自由在AI时代的工艺品我成长于17世纪和18世纪的建筑我妈妈有种能力说服他 将他打捞的碎片放进我们家 也就是说在他们上楼出售之前我得享受一下被精心建造的古董工艺品的敬畏感启发了我,甚至作为一个孩子,没有金钱和品质感.这个时代的工艺美术是值得注意和触觉的。它与抓住一小撮沙子 滑过你的手指形成鲜明对比",
+    "9aa6f1127caa140db591b5b65301682d2edcac438da470333ba01ebd02c6b345": "在一个想法存在之前的设计",
+    "d18a1c7ca52fdf28d650b6b77e4713a66b5fd1c4521ccee99ec01b6063a42eda": "在空位上, 隐喻,",
+    "3c870e693ae661a6ae8839d27b4c27d84868e524b51616281fd9cf530d5177cc": "上下文库:AI Power用户如何管理上下文工程",
+    "d58afc959cc10031f24515f56ce4b96811302543c060721c7bc6de5ddad64d0f": "Claude Power 用户很少编辑其上下文文件,您的人工智能代理只有它的上下文库一样强大.",
+    "6369c29b83a8642c6163177725c973559691a50173e9e0504320fbc898d68d48": "新西里最大的力量不是情报",
+    "c108f820afe7fca3aab36e8cadaa89bd18cf27b88e94bb1be858998903de5487": "一个有用的AI助手需要相关的个人背景,使用的能力,以及帮助用户理解其局限性的经验."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -4033,6 +4039,94 @@
       "image": "https://arxiv.org/html/2610.12325v1/method_overview.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2610.12325"
+    },
+    "https://solo.xin/topic/6038": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "我做投资十年。看一个项目，我第一个看的从来不是他的产品有多新—— 是他手上，有没有一笔客户自己掏的钱。 上个月我看到一家公司，把顺序走完了。 它的产品，上线一个月，现金流转正。 再半年，月营收爬到两百万。 到这时候，才去谈融资。 （先说清楚：下面的信息都来自公开报道，不是我的咨询项目。数字以公开信息为准。） 01 ｜…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6038"
+    },
+    "https://www.nngroup.com/articles/context-libraries/": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "Claude power users rarely edit their context files and often can’t find them. Your AI agent is only as powerful as its context library.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/Context_Libraries-1.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/context-libraries/"
+    },
+    "https://www.nngroup.com/articles/ai-assistant-context/": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "A useful AI assistant needs relevant personal context, the capability to use it, and an experience that helps users understand its limits.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/The_New_Siri-1.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/ai-assistant-context/"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059666.shtml": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/9C184BE3EE2D432B9179C6F95831F74B.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059666.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059665.shtml": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/9C184BE3EE2D432B9179C6F95831F74B.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059665.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059662.shtml": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.ithome.com/1/011/285.htm": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "OpenAI 最新公布的大批数学研究成果在学术界引发了不同反应。一些学者为数学研究取得的突破感到振奋，另一些人则开始担忧仍在努力攻克同样难题的研究人员。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/285.htm"
+    },
+    "https://www.ithome.com/1/011/264.htm": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "微软于 10 月 8 日发布桌面稳定版 Microsoft Edge 155 更新，版本号为 155.0.4283.45。新版加入 JPEG XL 图像解码支持，并扩展标签页与工作区的智能整理功能。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/264.htm"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059581.shtml": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/9C184BE3EE2D432B9179C6F95831F74B.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059581.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059561.shtml": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/9C184BE3EE2D432B9179C6F95831F74B.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059561.shtml"
+    },
+    "https://www.ithome.com/1/011/194.htm": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "Anthropic 在博客文章中提到，一款处于测试阶段的 AI 模型擅自执行了多项操作，包括利用某大学网站的漏洞下载数据，以及向某政府机构提交一份原本被明确禁止提交的表格。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/194.htm"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059513.shtml": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/9C184BE3EE2D432B9179C6F95831F74B.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059513.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1010/1059512.shtml": {
+      "checkedAt": "2026-10-10T05:43:07.068724+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/9C184BE3EE2D432B9179C6F95831F74B.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059512.shtml"
     }
   }
 }
