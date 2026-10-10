@@ -1258,7 +1258,11 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "febmou https://www.v2ex.com/member/febmou",
-      "contentLanguage": "zh"
+      "contentLanguage": "zh",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "imageAlt": "原文配图：最近做了一个 WoW 回归玩家资料站，想听听大家意见",
+      "imageKind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1246787"
     },
     {
       "id": "feed-3b16739f4317ed8e40eb",
@@ -1879,7 +1883,11 @@
       "sourceLanguage": "zh",
       "summaryTruncated": true,
       "author": "vulgur https://www.v2ex.com/member/vulgur",
-      "contentLanguage": "zh"
+      "contentLanguage": "zh",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "imageAlt": "原文配图：独立开发周记 190：朝九晚五也挺好",
+      "imageKind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1246582"
     },
     {
       "id": "feed-58d752ac0c6de09e9699",
