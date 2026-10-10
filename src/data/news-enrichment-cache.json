@@ -4127,6 +4127,27 @@
       "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/9C184BE3EE2D432B9179C6F95831F74B.jpg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.eeo.com.cn/2026/1010/1059512.shtml"
+    },
+    "https://www.ithome.com/1/011/500.htm": {
+      "checkedAt": "2026-10-10T12:23:37.676727+00:00",
+      "description": "据央视新闻报道，市场监管总局研究起草了《中华人民共和国食品安全法（修订草案征求意见稿）》，并向社会公开征求意见。下一步，市场监管总局将根据公开征求意见反馈情况完善修订草案，并推动《中华人民共和国食品安全法》尽快修改出台，为规范食品生产经营活动、防范化解风险、强化监管执法提供坚实的法治保障。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/500.htm"
+    },
+    "https://www.ithome.com/1/011/394.htm": {
+      "checkedAt": "2026-10-10T12:23:37.676727+00:00",
+      "description": "违规服务商通过套取 AI 收录标准、编造虚假信息帮商家抢 AI 问答曝光，已被市场监管部门处罚，今年已有两地同类案件当事人各被罚 5 万元#GEO虚假宣传被罚#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/394.htm"
+    },
+    "https://www.qbitai.com/2026/10/502467.html": {
+      "checkedAt": "2026-10-10T12:23:37.676727+00:00",
+      "description": "马斯克反而发文道谢？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/1894be8d193dd457b51c0351f15fe631.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502467.html"
     }
   }
 }
