@@ -963,7 +963,11 @@
     "7ddfd608e4a5ec38911dd9519c8af09f41fdb28a26e23afd7623e0fb8d3fdd4f": "对模式一致性的调查:在复苏中相互矛盾的微小微调",
     "25119f8789e49b86b893eeb3e59fdd9185d15bddcd632ef73a34bd371560c3a4": "大量研究措施基于产出差异的协调一致模式,但没有充分考虑到相互竞争的原因。我们查明了两个这样的原因,即含糊不清和漠不关心,我们提出了一套175个问题,其中相互矛盾的答案也不容易被解释。然后,我们在重复回答同一问题时用矛盾来衡量不一致。与其他方法不同,我们的衡量标准具有高度的特异性,只有在问题明显时,模型才被评为不一致。即使如此,我们发现狭小的微调得分很低。检查标明的不一致之处",
     "43ab2f6611384fc688619765c4efd7eed4775f7d1f1ab8b4d0f378669a25738c": "LVS:通过重用先前的视图从相机 Pose 中合成本地视图",
-    "1d57ca8f1cd3fe3c17a47cdc8b642c3ded780d0a2232e043a3ac025df190c100": "互动场景探索需要频繁的取景更新,虽然小相机运动保留了大部分可见内容.然而,常规的3D高斯平板化使每个目标视图都变得不为所取,使这个图像重叠。重新使用已制作的图像提供了一个替代方案。仅靠几何warping无法恢复被新曝光的内容,仍然对深度错误敏感.我们提出一个场景框架,用相对可控的RGB-D图像再利用取代反复为相邻视图渲染的场景.几何分辨法使用深度和相对位置来表示运输源内容,"
+    "1d57ca8f1cd3fe3c17a47cdc8b642c3ded780d0a2232e043a3ac025df190c100": "互动场景探索需要频繁的取景更新,虽然小相机运动保留了大部分可见内容.然而,常规的3D高斯平板化使每个目标视图都变得不为所取,使这个图像重叠。重新使用已制作的图像提供了一个替代方案。仅靠几何warping无法恢复被新曝光的内容,仍然对深度错误敏感.我们提出一个场景框架,用相对可控的RGB-D图像再利用取代反复为相邻视图渲染的场景.几何分辨法使用深度和相对位置来表示运输源内容,",
+    "70c3b6b8ebae912167e653751db601fb92dd0a3cf20492e1c9afc8e74675770e": "页:1",
+    "9fb8c01c214cd8a5c54c65332d1f2a39c1c6cc3c628e051535809bab259a77ad": "@hoyyeva在#18878 ollyama的发射代码中,",
+    "194abef677a8cf428a34a233264a8e2464667c9ef153463a613e154c3b07c5b9": "v0.40.3-rc0 (韩语).",
+    "ff224be564e9c4013bf422dfbd156c27caf6ffc487a562d8f9fe17d58bc98ef1": "服务器: 跳过本地模型兼容性迁移 (# 18908)"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -4481,6 +4485,94 @@
       "image": "https://arxiv.org/html/2610.12127v1/task.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2610.12127"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.3": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.3 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.3"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.3-rc0": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.3-rc0 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.3-rc0"
+    },
+    "https://www.eeo.com.cn/2026/1011/1060909.shtml": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1060909.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1011/1060787.shtml": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.eeo.com.cn/2026/1011/1060650.shtml": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1060650.shtml"
+    },
+    "https://www.qbitai.com/2026/10/502584.html": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "",
+      "image": "https://pic4.zhimg.com/v2-c1db0b2ac563a065f2d518473af73227_1440w.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502584.html"
+    },
+    "https://www.qbitai.com/2026/10/502585.html": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "马斯克连横A社，硅谷VC开始囤GPU",
+      "image": "https://i.qbitai.com/wp-content/uploads/2022/11/-847105702749274236-e1669264262358-300x175.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502585.html"
+    },
+    "https://www.qbitai.com/2026/10/502550.html": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "初代4o的API快照进入停用倒计时",
+      "image": "https://i.qbitai.com/wp-content/uploads/2024/07/444-e1720177431968.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502550.html"
+    },
+    "https://www.qbitai.com/2026/10/502544.html": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2025/02/Xnip2025-02-03_11-53-59-e1738555175987.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502544.html"
+    },
+    "https://www.qbitai.com/2026/10/502541.html": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "西门子将以更集中、更场景化的方式，展示其工业全栈能力",
+      "image": "https://www.qbitai.com/wp-content/uploads/2019/06/200.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502541.html"
+    },
+    "https://www.qbitai.com/2026/10/502496.html": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "2026年9月28日，荣耀（HONOR）在北京举办荣耀Magic盛典暨荣耀Magic9 系列新品发布会",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3bb6e5cd1691a150459c0050a6e4147e.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502496.html"
+    },
+    "https://www.qbitai.com/2026/10/502492.html": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/replace/ca73343264a6de7facef321ab80c2fca-e1728955812271-300x175.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502492.html"
+    },
+    "https://www.qbitai.com/2026/10/502484.html": {
+      "checkedAt": "2026-10-11T08:43:07.009959+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2020/04/640.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/502484.html"
     }
   }
 }
