@@ -4665,6 +4665,48 @@
       "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061016.shtml"
+    },
+    "https://www.ithome.com/1/011/727.htm": {
+      "checkedAt": "2026-10-11T23:57:18.809311+00:00",
+      "description": "纳拉扬表示，英国绝不能完全依赖科技巨头对其模型进行“自我监管”，并强调英国本土必须构建更多自主可控的 AI 基础设施。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/727.htm"
+    },
+    "https://www.ithome.com/1/011/720.htm": {
+      "checkedAt": "2026-10-11T23:57:18.809311+00:00",
+      "description": "据知情人士透露，亚马逊正就收购人工智能初创公司 Decart 展开谈判，该笔交易的潜在估值约为 70 亿美元。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/720.htm"
+    },
+    "https://www.ithome.com/1/011/717.htm": {
+      "checkedAt": "2026-10-11T23:57:18.809311+00:00",
+      "description": "加入 Meta 后汪滔转变管理思路，因自身不直接覆盖所有专业领域，工作重心转为为 Meta 超级智能实验室招揽顶尖人才。#AI创业#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/011/717.htm"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-11/": {
+      "checkedAt": "2026-10-11T23:57:18.809311+00:00",
+      "description": "ReSO AI：当客户咨询人工智能时，让你的品牌被发现并推荐。；Onepin：AI语音合成，准确说出每个名字、价格和日期。；Claude Dashboards & Motion：请向Claude请求实时仪表盘和动画解说视频。；Microsoft-Decision-1：微软的代理和工作流程决策模型；Cue：把你的AirPods戴上，你的Mac就开始专注了。",
+      "image": "https://decohack.com/producthunt-daily-2026-10-11/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-11/"
+    },
+    "https://www.eeo.com.cn/2026/1012/1061226.shtml": {
+      "checkedAt": "2026-10-11T23:57:18.809311+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1012/1061226.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1012/1061207.shtml": {
+      "checkedAt": "2026-10-11T23:57:18.809311+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1012/1061207.shtml"
     }
   }
 }
