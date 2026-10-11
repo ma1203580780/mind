@@ -967,7 +967,11 @@
     "70c3b6b8ebae912167e653751db601fb92dd0a3cf20492e1c9afc8e74675770e": "页:1",
     "9fb8c01c214cd8a5c54c65332d1f2a39c1c6cc3c628e051535809bab259a77ad": "@hoyyeva在#18878 ollyama的发射代码中,",
     "194abef677a8cf428a34a233264a8e2464667c9ef153463a613e154c3b07c5b9": "v0.40.3-rc0 (韩语).",
-    "ff224be564e9c4013bf422dfbd156c27caf6ffc487a562d8f9fe17d58bc98ef1": "服务器: 跳过本地模型兼容性迁移 (# 18908)"
+    "ff224be564e9c4013bf422dfbd156c27caf6ffc487a562d8f9fe17d58bc98ef1": "服务器: 跳过本地模型兼容性迁移 (# 18908)",
+    "0941cb7b33fd1c6a84aba1c7dc9a5da05e8df1e073682cb0c25342be9125d345": "大赦国际",
+    "507037420c342a5db6dc27db5aa3b569ebeffcf104ea2177be039af268323392": "\"你做错了\"",
+    "75452cf2565e13edaa62356b771aad3c94a1e828ca15b8ff13eea72a4b974b8b": "赌博的未来",
+    "2eeeefd681ce3b4d1899c5f0ce13000f478737dc7d418830eace30208ffc5141": "游戏的未来将公开的游戏专利备案转化为对主要工作室正在建设的简单语言分析,通常是在发射前数年。每周深潜加上游戏商,开发商和投资者的月度和季度情报报告."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -4573,6 +4577,94 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2020/04/640.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/502484.html"
+    },
+    "https://www.v2ex.com/t/1247857": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "独立开发者 👨‍💻 - @charsunny - 2015 年 1 月，我在这里发了[《自己做的一个诗词阅读的 app ，大家给点意见》]( https://www.v2ex.com/t/162380)。后来它下架了，帖子底下最后一条回复是：「是下架",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1247857"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061171.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061171.shtml"
+    },
+    "https://w2solo.com/topics/8591": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8591"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061170.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061170.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061169.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061169.shtml"
+    },
+    "https://w2solo.com/topics/8587": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8587"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061138.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061138.shtml"
+    },
+    "https://w2solo.com/topics/8583": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8583"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061119.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061119.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061094.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061068.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061068.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061017.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061017.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1011/1061016.shtml": {
+      "checkedAt": "2026-10-11T16:17:28.819545+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E2035FA644217B8B0D3DF8148E99FC85.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1011/1061016.shtml"
     }
   }
 }
