@@ -1056,7 +1056,87 @@
     "a3a66404c7b8c0d13a226a05a4db0211ce04cc23c14519730dc19481bc15c961": "语言模型能学会何时沉睡吗?政策学习和校准答案选择",
     "773752cc660fc52cfb4884d7a7c21ae139d0a8ed425bbfda1f60307561d59b4f": "一个有用的语言模型应该知道什么时候回答,什么时候说“我不知道 ” 。我们可以通过训练模型本身或者通过训练一个单独的组件来检查它的答案来改进这个决定吗?我们研究对事实问题的Qune3-14B两种方法,使用奖励正确答案、惩罚错误和允许弃权的分数。在三个训练种子和两个坚守的置信阈值中,一个学习的答案选择器比原模型的校准置信滤波器提高了阈值平均效用.在TriviaQA方面,平均覆盖率从20.2%增至30.9%,而",
     "b773bf9fb18a2bffdefc3cc07e47264fc8e8d4186c13908753d5540746bf736c": "没有崩溃的危机:资本主义持久论",
-    "313883b62cc1a4bd539b24e5b1a706c2d31f4d5504020e67be08ef7f55afe7b0": "资本主义的末日危机从1848年起就定期预测.这还没有发生。我们把这个175年的预测记录当作一个需要模型的系统化事实,我们提供一个,从适应系统,机制设计和计算复杂度,行为决策理论,全球游戏, 以及再分配的政治经济中统一的结果。十个假设提供了12项正式结果和一个定理。经常性的冲击类具有几何衰减的崩溃危险:仅在银行类中,系统失灵就落后于全系统存款支持站 f"
+    "313883b62cc1a4bd539b24e5b1a706c2d31f4d5504020e67be08ef7f55afe7b0": "资本主义的末日危机从1848年起就定期预测.这还没有发生。我们把这个175年的预测记录当作一个需要模型的系统化事实,我们提供一个,从适应系统,机制设计和计算复杂度,行为决策理论,全球游戏, 以及再分配的政治经济中统一的结果。十个假设提供了12项正式结果和一个定理。经常性的冲击类具有几何衰减的崩溃危险:仅在银行类中,系统失灵就落后于全系统存款支持站 f",
+    "e4d1860209d115a69886f1cc3e0cde34b4a19d4cfc869cdf81fb6bbe2177ee59": "自 langchain \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\",
+    "392fe9cfdecec7de5d7163b681cc186f39914c9eab75488f7c352c71662f49e0": "QTest Bench: LLM - Generaled 量子代码评价试验框架",
+    "7dc03bb5a91b8fb96214a46b307ac5aed40696b0cf5e5e905e25a95ae9764222": "大型语言模型(LLMs)在古典代码生成中表现出了强大的成果,并越来越多地用于编写保护该代码的单元测试.对于量子软件,它们能否做同样的事情则不太明确,因为量子程序是概率性的,依赖于数值的耐受性,由特定域的检查器来判断,因此一个完善的测试仍然可以不同意基准的判断.现有的量子基准衡量一个模型是否产生一个正确的解决方案,而不是它的测试是否能够区分正确的执行和错误的应用.我们介绍QTestB",
+    "61eed034ebd058c7766717159639aa543d5e30196f621965c6d97e961d406d69": "EarlyStageStartups.com 互联网档案馆的存檔,存档日期2013-12-22.",
+    "4bb96055b0b81898837b3fa9cbb1f6484f7a8f9b660040de9ed7f6b7d520434e": "EarlyStageStartups.com是一款工作板,供那些想加入起步时仍然很早的人使用.它列出了在种子前、种子和A系列公司中具有工资透明度的公开角色。按类别,地点,工作场所(远程,混合,现场)和工作类型浏览.看看哪家早期的创业公司在雇用他们按类别、行业和国家比较工资中位数。每周和市场报告。免费的每周电子邮件.创业者可以发布一份工作。职业会员可以提前一天进入。标记:创业岗位,早期创业岗位,种子创业岗位,A系列岗位,远程岗位,工资透明,创业生涯.",
+    "de49772ab860f2a94a57dd0d2da673e2adb20edb3a2652037cac1612c8a9e995": "秘密特工机器人:即使你看不见, 特工们也能进入",
+    "cc8330f89875355772b1b9472b03f1841ccea298dfdbc4488126b204a36f1d77": "两个读者,一页.毒剂从不看见你设计的表面;它读懂下面的结构。大赦国际提供协助。语义结构的屏幕阅读器已经使用几十年了,现在也决定了ChatGPT,克劳德,双子座,格罗克,和Perplexity能否完全读取你的页面.2016年,我与联邦政府顶级无障碍专家作为设计团队的领导者接过一系列电话,我从这些谈话中学到的比读取规格的几年还要多。自2006年以来,我一直在建立可访问的网络应用程序,追逐AAA级,当时大多数团队不会承诺A级.",
+    "aa11fe37b3c37931f360a5ef893b1f822fe479b9c4bed2b61269631fd676d453": "提交配额作为手稿制作便宜时的自我筛选",
+    "ce2c0513423e7d26bc12785389514b30e4e9a44ac81a33bba297a04b0c53690a": "基因AI使作者能够以更低的成本制作更多的手稿.但是,专家编辑和裁判员的评价仍然很少。在这方面,作者提交权的价值可能会增加。主要的研究库和期刊正在作出反应,规定提交配额和收费。不可转让的作者配额将提交手稿转变为公开优先决定。作者们构筑了他们排名最高的手稿组合.每一份手稿都要向作者收费这两种方法都有缺点。配额不灵活分配 s",
+    "95572ef8ba4ea059872a0138c532c0951b948c5845c0e008c508804b7bcbbde5": "页:1",
+    "f6bbbd56a46925038d821d4e42c7873ac24424ac6d5306cdb60871d5d42f9a61": "What's Changed lama: updated lama.cpp to b11521 for decision models and EmbeddingGemma 2 by@jmorganca in#18917 服务器:再利用由@dhiltgen在#18947mlx中验证的列表和加载的模型推论路线: 由@dhiltgen在#18955发布时推测回滚后紧凑恢复了经常状态: 包含由@ParthSareen在#188887 MLX,MLX-C: 版本由@dhiltgen在#18956 Full Changelog:v0.40.3...v0.40.4-rc0.",
+    "77c89e57f55c14aadc096f451b477f65efeeb52796a8658883353387c81aa0f7": "通过子序列协会过滤和Breadth-Aware选择LLM查询扩展的跟踪和调制迷幻术语",
+    "752c9d8b27eed0d20838b57d24ec6956e1315badf482f840ac622b4b89e16e99": "大型语言模型(LLMs)现在是查询扩展术语的标准来源,但它们会产生幻觉.它们注入了不存在的实体和非主题术语,增加了排名噪声,并会伤害强大的检索器.现有补救办法,如建立实体基础、相互核查和优惠一致,将幻觉用语视为一种无差别的烦恼,需要通过协议提速加以过滤,而没有机械地说明为何出现某个用语,也没有说明要保留多少用语的原则标准。我们提议子序列协会过滤、广度-认识查询扩展(SAFE-QE),一种Tra",
+    "7bcec275300d90f4cd978df524e84ce962b83eb54533fbedaebf8d30d3dda6a9": "图像 Unblur",
+    "b4ffc47957488b36489ed28f21d147b09ca61f40534730d578d23cc55197cecb": "AI在设计中间空洞,留下一个小时的玻璃",
+    "be5827400f0a5468aa9f7bbe62e29191d2a900838aa20cc3312e00fbab91b1ec": "15年来,设计过程不断增长,而制作产品的时间却不断缩短。继续阅读 UX 集体",
+    "59d13fb576a1d693528356708ac358f2d27e4bb5e9d36b433cdbd0bc2a506674": "具有激励和学习的动态经济系统中的内生信息设计和信息演变",
+    "2ff8b632d2500cfffa3b09e2f5bb254014f41b7fedfce98135ae05dd1bc631fa": "本文研究了动态经济体系的内生信息演变.基于Hurwicz的概念框架,这种系统被定义为通过递归反馈将资源和信息分配联系起来的动态联合调整过程.经济理论通过隔离特定边际而获得精确度,但当信息制作、披露、学习、激励、行动和未来可行性在这两个过程中相互作用时,通过持有其他固定边际而得出的结论就不必幸存于共同的判断之中。论文开发了系统级火药",
+    "408a7b1b4d73de1a7099b9b65baf16816f7461cec6bd97b4cdf50d0100ddf0e0": "初学者的 GitHub 副驾驶应用: 如何向副驾驶教授您的代码库",
+    "b0e65dc2c5aafb32ae212295f92726877e1b29aeb444a49b11bc288952d1a7ce": "学习如何在您的仓库中添加自定义指令和技能,使用自定义代理,并连接像Playwright这样的MCP服务器.",
+    "726c24c3cc9ffb23ffab7fecc03ebe1d2905fbcdf64f8d3343bcb60d05f0be96": "错误率不够:低资源ASR中增加的费用",
+    "cd832192087c2f6f29f0df6d398c55271f633d46d39225a960cb423d7dc739dd": "数据增强是低资源自动语音识别(ASR)的标准做法,但其好处几乎总是被报告为总误差率,留下了一个方法帮助的原因和时间.在四种低资源语言和英语的5个数据大小上,我们用两种修改文本抄录和从中合成音频的方法,来跨越两个修改现有音频的增强(速度扰动和SpecAugment).我们分析电话一级的错误,发现这些错误有辅助作用。SpecAugment具有最可靠的整体改进,但增加了语气和",
+    "5e73b2bf3a63108f772bafe2bf97ee93b379f1e0dd7272347a9a9f0472365c8c": "5 最佳克劳德代码 Mods你应该尝试在2026年",
+    "4b9ecadd7aa7b52b036610d2e9b5fa781007bf6e1235ab3ff2b1a4addc7e77be": "Mods让你定制了你的Claude代码来适应你的具体需求.先前我已讨论过如何为克劳德密码创造新模式,",
+    "fb4d5687b318e0470a1bdb9eefa308bbae23bedfe187ab633c548ff3627771b0": "信息干扰下顺序执行的强性",
+    "562d07506c750952c41bbb48d4db3274f6ea81b3a3011179b9318eb015370ed0": "贝叶斯单调是贝叶斯-纳什均衡全面执行的必要条件.然而,在顺序均衡的完善下,多阶段机制可以扩大执行范围。我们显示,这种额外的执行能力是脆弱的。每当一个多阶段机制相继执行一个不是贝叶斯单酮的社会选择函文时,我们就会任意构建小的\"信息扰动\",并显示在这些扰动下有顺序的等效性,产生不可接受的决定,并且可能与zer隔绝.",
+    "988f3ca51130c923a7d327085bec8c4da8e4a1781a13412a2e38d6e4c29ecbde": "11 工程团队最佳DevOps自动化工具",
+    "3b446d5a360906405dbd0a4f157ecce3bb0abf826d1e6956d26dbc7bc5b7593e": "比较现代工程团队的11台DevOps自动化工具.学习如何为您的堆栈的每层选择合适的平台 。",
+    "11ef5a81bad09de5fc257141ad893601a2ab1fd14c381149e4a9acf8d168ec5c": "FORTE: 工业建议系统特性评价和折旧生产框架",
+    "8362049e0fa2571b4de64bffa3059dd64d9bd39faf837bb19ef52b351718afa9": "生产推荐器系统具有特性-生命周期不对称性:增加新的特性必须在某些度量标准上产生收益,而特性消除则不得倒退任何度量标准。在实践中,特征贬值很难确定优先顺序,因为如果特征与其他特征相互作用,其重要性每天发生变化,无法在生产模型发生变化或数据漂移发生前进行评估,对A/B测试空间与其他发射发生争议,导致在线A/B测试中的回归,或者被需要协调其贬值的多个模型所消耗,则无法删除.我们在此",
+    "3c949d870a19f2b98ae0c135c1db8e12550c8e99bdd385ab34bc9e228f7d577e": "弗林特技能管理器",
+    "442f0355eb6f9604685349ba1482a601b3cbd12e1c99947b43b83c85809a04d4": "可预测性与结果",
+    "37bcb5c1b9a8667a91e218c45bb6b820304dceeac915f52c8f6aa6fcd4f80168": "当我当工程师的时候,我第一次被告知结果的重要性 而不是产出的重要性, 那时我接受训练成为一名技术领头人,我被明确告知, 仅仅建造和运送已经不够了,我必须确保解决方案能真正解决根本问题。我有过...",
+    "ea4261de3b4cc99437d30716be28a66301e127a428aa38a02a22e74ca2b7a3af": "不可逆污染下的最佳增长:福斯特-拉姆西模式",
+    "e4239985d0ca2853a54079d45c97c1537a4e7d6de493b7fa83fd20ed67eafb1d": "我们研究拉姆齐经济中具有不可逆污染的优化增长,那里的自然吸收能力是非莫名的,非聚集的福斯特。在缺乏污染控制的情况下,资本动态与污染脱钩,我们把最大吸收能力的门槛说成是一个简单的门槛,在最大吸收能力的门槛上,最佳途径是可持续的,低于这一门槛的则是不可逆转的污染的最佳制度。然后,我们引入了最佳减排污染控制,以评估不可逆转的污染是否不再最佳。我们得到一个四维动态系统",
+    "7e8a6c41d469faaa2de70006173e5e0591e1fb2fe740330f8cbbb8903dd1fdf1": "REFLECT: 角色意识 感知、情感、礼貌和形式",
+    "3b287e02fe071cc28f4d34e1254d4edbd1db78b293ee08bcb69c41a80aab85c1": "发现对话中的沟通意义,不仅需要模拟词汇内容,还需要模拟参与者-作用结构,通过这种结构表达情绪、情感、礼貌和形式。现有办法依赖语境语言表述,而忽略语义作用。我们引入了一个角色意识变换器架构,将SEPF的四个维度映射到理论基础的语义角色标签(SRL)配置,把这些配置直接纳入变换器的自觉机制.注意角色的模式非定向",
+    "83282ee61f80b08444de1a4197bc6dc4fa0bf2ddee961214a87c95daefca1552": "为IV-LASO选择词典和惩罚",
+    "c5bed128d8bf5017398903361f58fc016f7b436b907fc5d7513fd7beed701088": "估计最小绝对缩水和选择操作员(LASSO)工具变量(IV)模型的第一阶段需要选择技术仪器词典和惩罚级别.第一顺序不对称理论对这些选择没有提供指导,因为任何一致的实施都会产生一个结构参数估计器,其分布也具有同样的限制。然而,在有限的样本中,这些选择可能对由此产生的结构参数估计产生重大影响。在一个模式中工作一个单一的内源性倒退器 和同源性高斯主义错误,我们",
+    "6c1dbcb1bbd5a1b6b9500cae5f9a95dc391104978c89e3c6ea451ab6681645dc": "不只是评价:语言模型的论文敏感性案例研究",
+    "074559d48d2e12b1c26543830e485dc9d7e55fb0b8abc6e1035cfefbffed9cae": "演讲颗粒通过反映对话背景和对话者的态度,潜伏地塑造了言论的流畅,往往使真相-条件意义未受影响.它们也常常是多功能的,有独特的感官,这些感官与其他粒子部分重叠;例如英语\"just\"和\"Only\"(\"John only/ just drinking water\")的专有使用.尽管这些词语在自然语言中频繁出现,但由于其效果的微妙性,它们基本上没有得到研究.我们调查LLM对\"正义\"和\"只有\"的敏感度在自然对话中使用行为a",
+    "196e916a42189c9af3885e4c8e2f28d240b305ab7d54e6933b915d6af6b72c78": "基于构造仪器的识别、估计和推论",
+    "a4ceae7b7d9235d316e1cf688cd20690dd7c5f4df369a7ec2926471948a12a3e": "我们提出一种结构预测方法,用于确定和估计与内源性倒退因素有关的回归模型中的结构参数。该方法将结构错误投射到递归器生成的sigma-field上,将其分解为有条件的平均值成分和正交残基.这种分解产生一个内部构造的仪器,只要条件的平均值位于已知的子空间中,就可以有效,从而避免了对外部仪器的需求.我们确定识别条件,得出一致性和不对称的正常性",
+    "70b9c0286fb14aaf02fef2cb38676da2c0d285c5110dccb8572ae67a104fd307": "Occlude Bench:VLMs能找到缺少的东西吗?",
+    "23278248888212c20994c0f06116398fdd806c7c1352244dc92f13bf2a6239a4": "视觉语言模型(VLMs)能在多大程度上解释图像中缺少什么?我们用Occulde Bench来研究这个问题,这是从留下的视觉证据中完全收回被占用物体的人工编制的基准。Occlude Bench区分了直接的案例,即隐藏对象必须从阴影或反射等特定物理提示中恢复,从推断案例中可以从更广泛的场景背景中推断.在5个VLM中,直接案例的准确度平均为42.7%,推论案例的准确度平均为62.7%,差距为20.0点。人类达到更高的水平a",
+    "b7cc85b6875dbe203efe07b3f54c58acfc292dab6c2dcb98abbe97ccbcccc19e": "内部持股拍卖",
+    "7138f1a794cc3f596f31aeea61d7c2ffb81732ba10c755fcc80b09c0a696611a": "我们为生产经济实行内生的持股拍卖,设计者必须吸引需求,以确定价格和数量。每项拍卖都有拍卖利润按照拍卖过程中确定的所有权份额在设计者和投标人之间分配的财产。我们的特征是这个阶级,一个更大的阶级,根据标准的轴线。最后,我们根据事先自由支配和主观预期福利来调查最佳拍卖。申请包括公共住房、自愿住房",
+    "06dce3f2c8d016b23d823d0f0f16063e0485586085f018acf463f5f34815f357": "您的解密图形扩散模型是秘密记忆",
+    "b07f7ba76ec48e362b4980f3716e5dc80a85dcf3b145686c13ca95c7a0eacff7": "discrete图扩散模型(GDMs)通过在马尔科维安噪声模型下将噪声独立加入节点和边缘来腐蚀图结构.在没有节点特征的无条件设置中,一个在单一图上训练的等效的denoiser能够生成新的图表和样本级的度量衡,如边缘重叠和WL内核相似性找不到记忆化的证据.在这部作品中,我们挑战这个观点,并首次显示图的传播模型确实表现出了记忆.分析在两块板块上训练的GDM的反向扩散轨迹",
+    "40b3bd40bbb7e634bb5c7c55a73ccada7c74cd443bad3c27d52e22a233195c9a": "市场什么时候起作用?多功能网络和效率",
+    "fcbae22254b473c368a85b7d0c4c8df245f37a3ba0f130d2abddc73990b8ba5a": "我们研究的是Arrow-Debreu经济,其外在作用是由多功能网络产生的。市场平衡价格不仅反映了偏好和商品稀缺,还反映了消费者因特定商品的外在因素和因内在预算限制而产生的商品之间的联系而形成的网络状况。我们通过基于公用事业的增效损失计量和资源利用系数,量化平衡分配偏离帕雷托效率的情况,从而将网络的多重性与平衡性能联系起来。这些措施还表明:",
+    "29c6d8fceec49e4e5c9fbf9bd9c3295677fc60eef35f9f4ae630560acdcaddfe": "UkrMeme:在乌克兰 Memes 中可解释的多式劝阻检测",
+    "f1984313064842e95276588b0c4752586ab7eec37bc3b7a1f003c1cc3f1aaa46": "Memes在现代在线通信中发挥着中心作用,特别是在视觉和文字提示结合传递说服力信息的政治冲突中。我们使用视觉语言模型(VLMs)研究在乌克兰元件中的说服力技术检测.我们介绍UkrMeme, 由200个有机生产的乌克兰战时迷因,我们用零镜头来评估VLM 横跨图像的提示设置 T",
+    "81b14c45a1744fd7e9b8c7babc32342f5e2948cdc9ab1d8861a661057e588fd2": "电力市场的真实生产不确定性:双步骤机制",
+    "47f8982f959380fb5ddb6ebe07e26d2261c6f088ff4cfd0d6acd46f83ec58103": "可再生能源的生产成本低,但由于固有的生产不确定性,可能导致较高的平衡成本。目前的日头市场只产生点生产情况,而忽略了与每个产生资产有关的不确定性程度,使市场经营者无法计算日头发送和辅助服务采购中如何平衡成本。这增加了系统总成本,损害了市场效率,特别是在可再生电力系统。为了解决这个问题,我们建议在两个阶段的中间阶段基础上建立一个新的市场清算模式。",
+    "0e0e0402f22dbe8cb9206eb79ebcc4a26731b18fae36116fe17bbea39823a61f": "重放SSM:快取 SSM 输入,不是状态",
+    "c43ef4577db826153db9c22183464d94951cc94fc6786fc16ad4838f0d490b6f": "状态-空间模型(SSM)维持固定大小的经常性状态,但在每一个解码步骤上读写都可能瓶颈混合模型.这种急切的状态管理导致数值强度低的大型状态I/O,使投机解码没有廉价的回滚,并将状态量化错误反馈到后续的反复更新中.我们引入 Replay SSM , 将重现解析为代表状态作为检查点和最近SSM输入的缓冲.这将输出计算与检查站更新区分开来.通过定期更新检查点, ReplaySSM 避免状态写入",
+    "0ef4fc246711f0f66d4fa9a1e77363b817344dcdda46d8d20ca21517194d0d4e": "学校选择中的智能彩票:前作的Pareto-Improvement with ex-poster Stability (前作稳定)",
+    "e020a48ba79885804c6378f51c3db18254b5d01d6bf1abaa17a1651059e7ea13": "在选择学校时,学生通常对学校有严格的偏好,而学校则根据学生的距离和注册的兄弟姐妹,对学生有粗糙的优先选择。然后,集中式录取机制的结果通常由任意解绑的延缓接受(DA)算法获得.因此,这种机制的每一项结果,如果出现积极的可能性,都是对粗糙的优先事项的一种稳定的解决办法。这意味着一项概率性的任务,规定每对学生入学的概率。在本文中,我们提议",
+    "e83aa091c6cb6584a2a055304908e9cb421248d7559e667782d486fe49ed9b92": "双量子:LLMS的双尺度校准无重量和激活量子",
+    "dd583cd188887933709c244ac68e88d62d9aeb9901e3ab5d6e44ba338fda5be8": "对具有原生4位支持的加速器进行低位推论,需要将重量和激活量量化,以实现这些格式所提供的全部吞吐量收益。虽然已广泛研究了训练后重量的量化,但激活量的量化仍然具有更大的挑战性,通常需要校准数据。在这部作品中,我们引入了DUALQUANT,一种双规模,无校准的训练后量化框架,直接将重力重建平均平方误差(MSE)降到最低,并作为即时副产品,每个通道的激活再缩放",
+    "1168eb6b708e9743d8156441ecacfa6e2169323c1833703c43c0b5a919a5b0e5": "美国气候变化的经济影响:综合和协调近期研究提供的证据",
+    "5bf516ac00e72d987580fd8e7b4e530d0c5d3df54f39283534218aff6f23e66f": "本文综合了美国特有的气候变化影响证据.人口数量。我们开发了一个苹果对苹果的经济计量研究比较,从经验上估计气候变化与国内生产总值之间的关系。我们表明,通过协调的概率社会经济和气候投入,这些文件预测的2100个GDP损失范围比所有公布的研究所报告的范围要窄和低,然而,美国温室气体的隐含社会成本仍然高于目前基于市场的损害估计。",
+    "d164223bc4df8ea4eeae0c5f0b4655081fe9376f34bb426685f5d1433a0651fa": "当边缘独立失败时:与后人社交能力前传联合分布图",
+    "d8eacc340ecdbb8007da52f903ac6dfc54a03d31670c5bd5ae5f2de6b2e1ab13": "discrete图扩散模型通过使用马尔科维安噪声模型的独立边缘更新来腐蚀图结构.结合输出分布的可交换性要求,终端前端必然是一个Erd\\H{o}s-R\\'enyi(E-R)随机图.这对没有节点特征的无条件图生成具有根本影响:在大图限中,任何GNN denoiser应用到E-R图上,大约输出一个E-R图,使得有效的去名困难.在实际操作中,生成的图无法恢复有意义的节点异质性和更高顺序的stru",
+    "bb0bf41371fbef33ef514b8a1e6b3980cc048ccb8feb189c1ca6f88f9fbac68b": "企业对企业贸易中的双边市场力量",
+    "6c42146c52c3c1e9ae9cc306834041720b7b400f966d8ddb9dee91615d0af628": "我们制定和估计一种双面市场力量模式,研究企业对企业贸易的关税过关问题。关税通过两个渠道使谈判价格发生波动:通过讨价还价确定的双边加价,以及供应商的边际成本,这些成本与收益下降下的数量并列。同样,收益的减少使买方的租金集中,以讨价还价,因此价格随买方在供应商产出中所占份额而下降。使用美国.海关数据,我们估计进口商的讨价还价能力很强,出口供应量也很大。在持续关系中,供应商吸收约30人",
+    "b4b06f7d181853d1522c6f985aab59f2f98e2ed65927b2aa1af775a6aab20d03": "匹配的 LLM 代理培训 Context Group 政策优化",
+    "de5b63d0e5b777ea9546f517440246d9c6cfa979ab77db5c3f7e96186e771fb5": "培训长视野语言模型代理商需要从有限的终端反馈中为中间决策提供信用。在数量有限的兄弟会活动范围内,有益的行动比较取决于其背景、两种替代品的证据以及这些证据如何进入学习阶段。我们提议匹配的文本组政策优化(MCGPO),这是从已经收集的轨迹中构建加权动作偏好的程序.MCGPO定义了与行动前状态摘要的比较背景和观察到的标点进展,附加了任务规则的说明.双行动支持选择阿蒙",
+    "a6a603d366285ae453929211f24151dcc35ecdf23da35205a37e20b34bc0f0e2": "谁和如何?不利的选择和灵活的道德危害",
+    "5396e81924933c0ba7a847b78c80960805a9ac772680c4cd7d6599655cc5b862": "我们把环境中的激励兼容机制定性为隐性类型和灵活隐性行动。我们的做法引入了扩展的建议时间表,其中还规定了在错误报告后偏离轨道的行动。这对奖励的兼容性产生了可推动和完整的定性,其中包括一个概括性的整体单一性条件,抓住不利选择与道德风险之间的相互作用。我们说明,在一系列应用中,包括特许经营协议、就业合同和最佳税收中,定性是有用的。",
+    "02efac3e833d6bab0c5fc8592aeb1c1709984d36e574395deadcaea080a16964": "专制教师,只有分数无法搜索:有标准的政策上的自我扭曲",
+    "c11d348724db3c60bd7993f950cd098f85a88c12c5b6805e6f122ae36d71f886": "政策上的自我消化承诺以密集的符号级信用来取代可核查的RL的微弱结果信号:一个以参考解决方案为条件的教师会给学生自己的推出评分,由此带来的分配转变会被提炼回政策.我们调查这个评分信号是否真的包含纠正性信用.使用在学生推出过程中的黄金误差,我们测试了自我消化目标所消耗的两个信号,即完全分配的 KL 和象征性的日志- ratio, 有两个属性:它们是否将错误本地化以及它们是否推动 prob",
+    "5479ccdd13379822ff685ebc914595b8f74d36624325418a788efd57ff2bf875": "互补、增强还是替代?基因人工智能对美国的影响.联邦劳动力",
+    "0f7466ac990cfe9883a45fe09bbb37c48708a1aee809ebed54bb4f40e9dd5c50": "本研究采用了一个多阶段的检索-增强生成系统,该系统将大型语言模型评估作为编译证据的依据,用于评价分基因AI对数百个联邦职业系列的知识,技能和能力的近期影响.每个职业都按互补(大赦国际增强现有能力)、增强(大赦国际要求工人转变能力)和替代(大赦国际取代人类任务)三个方面进行评分。结果显示,遗传性人工智能主要补充和增强联邦的作用,代用品有限。",
+    "589752afffaf0f226b74e7415ec0ea9709e1e7f7c6c5b157f8d425260b4885c7": "SafeDiSTL:对安全多机构强化学习实施联合制约",
+    "0a733b1717fb4655d18694d9eba65ec1880e8ae8bd23564623306cb315bc3c25": "合作性多代理任务往往对共同目标或集体安全造成限制。团队一级违反成本职能可以衡量这种限制结果,但不能区分哪些代理人的行为最能影响这种违反。我们提出SafeDiSTL,这是一个受限制的多代理强化学习框架,即使有联合约束措施,也允许信用分配。我们使用信号时空逻辑(STL)的强性来通过运行最大成本增量来测量事件层的违反.平滑的全集稳健度和不同的动态",
+    "1267654f79918b1dba413da55f3661560d0b4d5e7a15e7677eeddc88b2f169b7": "预测治疗效果的分配:协同调整办法",
+    "101a0838a4b906211d25dfbdea357953b056927df402952247fbab5b74f972b7": "影响评价的重要问题不仅需要了解平均效果,还需要了解治疗效果的分布情况。无法观察个别反事实使这些经验性问题的答案具有挑战性。我提议一种推论方法,用于处理效果的分布点,通过共变调整使用预测的反事实.我用分样和无比有效的推论提供有限-样本有效推论,在可以说薄弱的条件下使用交叉推论。复审5次微芯片随机控制试验",
+    "78e5f105b7297835e06ef2d6742b841291298068acfe7ec4e4ed7faa65530676": "每周为设计者——思想家和制造者——提供资源。“今天,我的房屋和生活痛苦地没有手工艺品。我住在一座新建筑里 里面装满了廉价的建材我有塑料木的外观 而不是手工雕刻的木头我所有的家具都没有让你感到惊奇我餐厅的餐桌不断提醒大家,在创造快速家具时,我们离开手艺和辉煌的时刻有多远。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -5153,6 +5233,257 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/744d584db0830b3d5ed59ea0a9f5e70d.jpeg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/502594.html"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5"
+    },
+    "https://arxiv.org/abs/2610.13811": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.13811v1/QTestBench_Framework_Diagram1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.13811"
+    },
+    "https://w2solo.com/topics/8595": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8595"
+    },
+    "https://arxiv.org/abs/2610.04688": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.04688"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.4 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.4-rc0"
+    },
+    "https://arxiv.org/abs/2610.13810": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.13810"
+    },
+    "https://w2solo.com/topics/8594": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8594"
+    },
+    "https://arxiv.org/abs/2609.36093": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2609.36093"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.",
+      "image": "https://github.blog/wp-content/uploads/2026/10/Screenshot-2026-10-08-at-3.08.26-PM.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/"
+    },
+    "https://arxiv.org/abs/2610.13807": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-12/": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "HireKey：你求职的智能助手，帮你找到科技行业的工作。；kōdlo：端到端的销售工作空间，提供统一的背景信息。；Automations in Perplexity Computer：能够记忆、执行和保持工作流畅的自动化工具；Ghost Core：一款完全在设备上运行的个人人工智能电脑；OpenScreen 2：录制你的演示，然后让你的AI助手来进行编辑。",
+      "image": "https://decohack.com/producthunt-daily-2026-10-12/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-12/"
+    },
+    "https://arxiv.org/abs/2609.30464": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2609.30464"
+    },
+    "https://arxiv.org/abs/2610.13806": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.13806"
+    },
+    "https://w2solo.com/topics/8593": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8593"
+    },
+    "https://www.svpg.com/predictability-vs-outcomes/": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "A partnership dedicated to teaching best practices to product teams and product leaders",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.svpg.com/predictability-vs-outcomes/"
+    },
+    "https://arxiv.org/abs/2609.12693": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2609.12693v2/Fig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2609.12693"
+    },
+    "https://arxiv.org/abs/2610.13797": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.13797v1/Figures/intro.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.13797"
+    },
+    "https://arxiv.org/abs/2609.07033": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2610.13794": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.13794v1/annotation_task.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.13794"
+    },
+    "https://arxiv.org/abs/2607.05699": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2610.13790": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.13790v1/core_figure3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.13790"
+    },
+    "https://arxiv.org/abs/2607.02457": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2607.02457v3/ThreeDimensionsGrid.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2607.02457"
+    },
+    "https://arxiv.org/abs/2610.13786": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.13786"
+    },
+    "https://arxiv.org/abs/2605.21117": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2605.21117v2/Figures/box0.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2605.21117"
+    },
+    "https://arxiv.org/abs/2610.13783": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.13783v1/figures/sample_translated_comparison.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.13783"
+    },
+    "https://arxiv.org/abs/2604.02455": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2604.02455"
+    },
+    "https://arxiv.org/abs/2610.13778": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.13778"
+    },
+    "https://arxiv.org/abs/2602.10679": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2602.10679"
+    },
+    "https://arxiv.org/abs/2610.13767": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.13767"
+    },
+    "https://arxiv.org/abs/2509.00212": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2509.00212v2/gdp_loss_in_2100_by_model.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2509.00212"
+    },
+    "https://arxiv.org/abs/2610.13765": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.13765v1/lspjointdiffusionfinalcorrected.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.13765"
+    },
+    "https://arxiv.org/abs/2507.12848": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2507.12848",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2507.12848"
+    },
+    "https://arxiv.org/abs/2610.13755": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.13755v1/mcgpo_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.13755"
+    },
+    "https://arxiv.org/abs/2506.12979": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2506.12979"
+    },
+    "https://arxiv.org/abs/2610.13744": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.13744"
+    },
+    "https://arxiv.org/abs/2503.09637": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.13737": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.13737v1/transport_credit_overview_v6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.13737"
+    },
+    "https://arxiv.org/abs/2407.14635": {
+      "checkedAt": "2026-10-12T22:54:24.755024+00:00",
+      "error": "HTTP Error 404: Not Found"
     }
   }
 }
