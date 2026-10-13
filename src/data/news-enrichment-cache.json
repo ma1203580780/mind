@@ -1136,7 +1136,10 @@
     "0a733b1717fb4655d18694d9eba65ec1880e8ae8bd23564623306cb315bc3c25": "合作性多代理任务往往对共同目标或集体安全造成限制。团队一级违反成本职能可以衡量这种限制结果,但不能区分哪些代理人的行为最能影响这种违反。我们提出SafeDiSTL,这是一个受限制的多代理强化学习框架,即使有联合约束措施,也允许信用分配。我们使用信号时空逻辑(STL)的强性来通过运行最大成本增量来测量事件层的违反.平滑的全集稳健度和不同的动态",
     "1267654f79918b1dba413da55f3661560d0b4d5e7a15e7677eeddc88b2f169b7": "预测治疗效果的分配:协同调整办法",
     "101a0838a4b906211d25dfbdea357953b056927df402952247fbab5b74f972b7": "影响评价的重要问题不仅需要了解平均效果,还需要了解治疗效果的分布情况。无法观察个别反事实使这些经验性问题的答案具有挑战性。我提议一种推论方法,用于处理效果的分布点,通过共变调整使用预测的反事实.我用分样和无比有效的推论提供有限-样本有效推论,在可以说薄弱的条件下使用交叉推论。复审5次微芯片随机控制试验",
-    "78e5f105b7297835e06ef2d6742b841291298068acfe7ec4e4ed7faa65530676": "每周为设计者——思想家和制造者——提供资源。“今天,我的房屋和生活痛苦地没有手工艺品。我住在一座新建筑里 里面装满了廉价的建材我有塑料木的外观 而不是手工雕刻的木头我所有的家具都没有让你感到惊奇我餐厅的餐桌不断提醒大家,在创造快速家具时,我们离开手艺和辉煌的时刻有多远。"
+    "78e5f105b7297835e06ef2d6742b841291298068acfe7ec4e4ed7faa65530676": "每周为设计者——思想家和制造者——提供资源。“今天,我的房屋和生活痛苦地没有手工艺品。我住在一座新建筑里 里面装满了廉价的建材我有塑料木的外观 而不是手工雕刻的木头我所有的家具都没有让你感到惊奇我餐厅的餐桌不断提醒大家,在创造快速家具时,我们离开手艺和辉煌的时刻有多远。",
+    "0b406a3a2fd2892c16fec1c48412f6c1360f25bb500cd343294792c6c02ad10d": "MLX, MLX- C: 版本起伏(# 18956)",
+    "808f314bec02cf36e2c3ba5b82bcc01b3b63a8ff90eaeff38e62a8757c324279": "与 You.com, Jev 和 n8n 一起建立晨间AI新闻简报",
+    "62ff5cf06ff15c7724db8e171f1d0d15bc899016089a92fbaf5cdf257dfdec15": "每天早上8点,这个工作流程搜索当天的AI新闻,每篇文章按重要性评分约为每篇文章0.没有真正新闻的话题就得不到帖子."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -5484,6 +5487,55 @@
     "https://arxiv.org/abs/2407.14635": {
       "checkedAt": "2026-10-12T22:54:24.755024+00:00",
       "error": "HTTP Error 404: Not Found"
+    },
+    "https://www.eeo.com.cn/2026/1013/1062519.shtml": {
+      "checkedAt": "2026-10-13T06:42:06.498970+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/E4133240F6C264AB60C6CE96698CA9BB.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1013/1062519.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1013/1062506.shtml": {
+      "checkedAt": "2026-10-13T06:42:06.498970+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/D7D4EEA466CF5146EC10F87DEEC0C39A.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1013/1062506.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1013/1062505.shtml": {
+      "checkedAt": "2026-10-13T06:42:06.498970+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/0806E3ACAB82186764BCAC4A18E02D63.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1013/1062505.shtml"
+    },
+    "https://www.ithome.com/1/012/270.htm": {
+      "checkedAt": "2026-10-13T06:42:06.498970+00:00",
+      "description": "字节跳动 Seed 近日发出内部邮件，宣布将成立“Seed Model-Alignment&Preparedness”部门，由严林负责，汇报给 Seed 负责人吴永辉，原 Responsible AI 团队及部分 Chat 团队成员将转入新部门。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/012/270.htm"
+    },
+    "https://www.eeo.com.cn/2026/1013/1062504.shtml": {
+      "checkedAt": "2026-10-13T06:42:06.498970+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/0806E3ACAB82186764BCAC4A18E02D63.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1013/1062504.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1013/1062470.shtml": {
+      "checkedAt": "2026-10-13T06:42:06.498970+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/0806E3ACAB82186764BCAC4A18E02D63.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1013/1062470.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1013/1062427.shtml": {
+      "checkedAt": "2026-10-13T06:42:06.498970+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/0806E3ACAB82186764BCAC4A18E02D63.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1013/1062427.shtml"
     }
   }
 }
