@@ -1240,7 +1240,18 @@
     "5260c37b2bd14b1a4eb265387783b5eb665603b35a0c0265ab6aabf470c36f93": "LIBERO-RIG:愿景-语言-行动模式的硬件组合强健性基准",
     "4d1af12b91010b0a8c6c525c3cdb63be6e1608dc3be3ac092112cda090098d8e": "预计机器人政策将跨越部署环境,包括机器人本身的变异:相机被碰撞和重挂,校准漂移,控制器运行速度不同,终端效应垫磨损.我们提出LIBERO-RIG,这个基准只扰动机器人的硬件和设置,同时维持每个LIBERO任务固定.基准跨度为11个扰动轴,包括相机安装和光学、相机对臂校准、振动增益、控制率、自控噪音、基座、桌子高度和夹杆。每个轴线有五个重力",
     "53d51a515961136a4c40f05a84d95822b65c170057b52c368ff8e2f38cb6ae0a": "带有模糊记录链接的随机实验",
-    "b79b24df5e2786671c25e5ac6511ce22148831444239e5f7d4e464fd09efb053": "随机化的实验往往与行政数据相连,以测量结果,但粗糙的识别器可以留下与每个实验单位一致的多个行政记录.我们表明,如果不解决这些模棱两可的联系或具体说明结果模式,对样本平均处理效果作出不带偏见的估计是可能的。我们的关键联系要求是,每个实验单位的候选成果必须包含真正的行政成果。我们描述联系模糊的精确成本,并研究减轻这种模糊性的两个相辅相成的方法:"
+    "b79b24df5e2786671c25e5ac6511ce22148831444239e5f7d4e464fd09efb053": "随机化的实验往往与行政数据相连,以测量结果,但粗糙的识别器可以留下与每个实验单位一致的多个行政记录.我们表明,如果不解决这些模棱两可的联系或具体说明结果模式,对样本平均处理效果作出不带偏见的估计是可能的。我们的关键联系要求是,每个实验单位的候选成果必须包含真正的行政成果。我们描述联系模糊的精确成本,并研究减轻这种模糊性的两个相辅相成的方法:",
+    "fa73597f754f34ef504f9cbd5131a810281f1bb099cdd3a74446894c95d304f6": "2026年10月在Instagram上的13个趋势声音(+如何使用Them)",
+    "ddd8fd25962b60cc7790a2af4b5740fcae3d75d00123af248590146e0dc73db6": "停止追逐Instagram音频趋势的尾端——这里是2026年10月Instagram上的最新趋势歌曲.",
+    "772bdddb2fa157be9b51a0fb6d4dae1ee840762b039725aff385ba44485b6f1d": "Meta 的新 “ Muse Wonder” 模式: 适用于 AI 代理, 不利于设计",
+    "f92e2be64ab2d5c1c79e6c3a961de67d00084330af75f1bdd1dbea3c93500490": "看着现在(24分) QQMeta 推出Muse Wonder 并声称有前沿代理性表演,所以我在Claude Code 上毫无头绪地运行了它, 以找出其中是否真实",
+    "3abf2735d62a3b129e8f8b8e242df193b200897945db9f92fbcbed51e7cec0b0": "如何做好你的工作能阻止你变好",
+    "eaae881bc6b9fccf14d08cf2aa2502a4d13ce5cd1c5db517e63b471556e68b4b": "许多经验丰富的人高地出视.他们是否继续成长, 部分取决于他们要解决的问题。在 UX 集体上继续读取",
+    "f5c702bc2d9d1f272459a99087096541be775bf3daa6dab166ea518642477842": "Frank Elderson:在不确定性面前确保复原力",
+    "64d2951e2bf8917b4888d93ba8f95549d5f00e61ac68d7021400d386a4340dd5": "全球标准制定机构公布关于一般商业风险和一般商业损失的FMI指南的最后报告",
+    "a557af07988eac91bb1f7076ddd477f1e25c9b1f3e594238bf9c7ac80823056c": "国际清算银行支付和市场基础设施委员会和国际证券委员会组织(证券委员会组织)今天发表了一份关于金融市场基础设施管理一般商业风险和一般商业损失的最后报告。",
+    "4b1acff5c45e9f43160cc4331923541976d874958ccd84ccb21f9e315f8c9fa1": "欧盟在AI的下一章是代理性的",
+    "a64fc6768bde641cdbff021fe1bd25a8a4b0fa6b7bb265ed8c42dd1c83578117": "新的分析显示,在欧盟企业和小企业中,人工智能的采用是如何增长的,在哪些地方,更深入的使用可以释放出更多的价值。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -6093,6 +6104,147 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/5579576927fb4989ba0fff1e37902320.webp",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/503109.html"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064537.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/8A21532179E7D28158593E4E472F543A.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1014/1064537.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064535.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/8A21532179E7D28158593E4E472F543A.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1014/1064535.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064527.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/8A21532179E7D28158593E4E472F543A.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1014/1064527.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064525.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/8A21532179E7D28158593E4E472F543A.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1014/1064525.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064515.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/86EA1315C058E4D5DD39F04948AC1BA0.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1014/1064515.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064513.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/8A21532179E7D28158593E4E472F543A.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1014/1064513.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064512.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/8A21532179E7D28158593E4E472F543A.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1014/1064512.shtml"
+    },
+    "https://www.ithome.com/1/013/072.htm": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "迈克尔 · 戴尔以火为喻，称技术能取暖也能烧村，强调 AI 模型必须具备安全措施、设立明确权限边界，政府也应参与管控。#戴尔CEO谈AI安全# 此番表态正值行业热议自我改进 AI 的潜在风险。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/013/072.htm"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064509.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.qbitai.com/2026/10/503294.html": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "“具身进实景，劳动最光荣”",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/4129706fb80cf7d2acf2be2b95f93d10.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503294.html"
+    },
+    "https://www.eeo.com.cn/2026/1014/1064508.shtml": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/8A21532179E7D28158593E4E472F543A.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1014/1064508.shtml"
+    },
+    "https://www.ithome.com/1/013/049.htm": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "华为安全应急响应中心今日发布华为终端安全奖励计划关于后续漏洞报告处置规则的公告。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/013/049.htm"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html"
+    },
+    "https://www.ithome.com/1/012/980.htm": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "安炫指出，当前 AI 推理市场正同时在三个维度快速扩张：任务复杂度的提升、单次处理信息量（上下文长度）的激增，以及推理请求量的井喷。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/012/980.htm"
+    },
+    "https://www.bis.org/media-releases/20261014-global-standard-setting-bodies-publish-final-report-guidance-fmis-general-business-risks-and": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "The Bank for International Settlements’ Committee on Payments and Market Infrastructures (CPMI) and the International Organization of Securities Commissions (IOSCO) today published a final report on financial market infrastructures’ (FMIs) management of general business risks and general business losses.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.bis.org/media-releases/20261014-global-standard-setting-bodies-publish-final-report-guidance-fmis-general-business-risks-and"
+    },
+    "https://www.qbitai.com/2026/10/503244.html": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "这妥妥是个物理版Agent啊！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/77450c3fcf09133273298a59258802c4.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503244.html"
+    },
+    "https://www.qbitai.com/2026/10/503231.html": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "汽车竞争正在回归汽车本身",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/e92b95d6b72cb2a899addfeac5981781.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503231.html"
+    },
+    "https://www.qbitai.com/2026/10/503211.html": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "从创意到成本，AI正在重写综艺的生产逻辑",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/72564af82cba3f0a12d96e7bf0518754.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503211.html"
+    },
+    "https://www.qbitai.com/2026/10/503201.html": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发布",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/6a4fc127de63bb92fccdc670a4ad5a14.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503201.html"
+    },
+    "https://www.qbitai.com/2026/10/503198.html": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "description": "CMOS标准工艺兼容的1TnR技术路线加速研发。",
+      "image": "https://www.qbitai.com/wp-content/uploads/2019/06/200.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503198.html"
+    },
+    "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic": {
+      "checkedAt": "2026-10-14T13:39:16.641134+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
