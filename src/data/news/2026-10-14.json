@@ -2173,7 +2173,7 @@
       "category": "经济观察",
       "kind": "论文预印本",
       "title": "Coalition-Proof Disclosure",
-      "summary": "We study generalized verifiable disclosure by an informed sender with type-independent preferences. We first characterize all perfect Bayesian equilibria as individually rational partitions of the sender's types into coalitions ordered by payoff. An equilibrium survives our coalition-proofness criterion if no group of types can profitably coordinate an announcement that the receiver will interpret as coming precisely from the types willing to join it. Coalition-proof equilibria are partitions that are greedy: at each step, a coalition of the remaining types attains the highest payoff consisten",
+      "summary": "We study generalized verifiable disclosure by a sender with type-independent preferences. We first characterize all perfect Bayesian equilibria as partitions of the sender's types into coalitions ordered by payoff. An equilibrium survives our coalition-proofness criterion if no group of types can profitably coordinate an announced deviation that only they are able and willing to join. Coalition-proof equilibria are greedy partitions: at each step, a coalition of the remaining types attains the highest payoff consistent with equilibrium. In our general setting, coalition-proof equilibria may fa",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "arXiv · econ.TH",
@@ -2190,7 +2190,7 @@
       "author": "Germ\\'an Gieczewski, Maria Titova",
       "contentLanguage": "en",
       "titleZh": "联合证明披露",
-      "summaryZh": "我们研究一般可核查的披露 由知情的发送者有类型的独立偏好。我们首先将所有完美的贝叶斯平衡 描述为将发信人类型 单独合理地分割成受回报命令的联盟如果没有任何一类人能够有利可图地协调一个声明,即接收者将解释为来自愿意加入的种类,那么我们的联盟防御标准就能够维持平衡。防联盟平衡是贪婪的分割:在每一步,一个由剩余类型组成的联盟都得到最高的报酬。",
+      "summaryZh": "我们研究由具有类型独立偏好的发送者进行普遍可核查的披露.我们首先将所有完美的贝叶斯平衡 描述为将发送者类型分割成 由回报命令的联盟如果没有任何一类人能够有利地协调所宣布的只有他们能够和愿意加入的偏差,那么我们的联盟防御标准就能够维持平衡。防联盟的等离子体是贪婪的分割:在每一个步骤上,一个剩余类型的联盟都得到与平衡一致的最高回报.在我们的大背景下, 防联盟的平衡可能",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"

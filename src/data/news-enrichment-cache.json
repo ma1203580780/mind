@@ -1333,7 +1333,20 @@
     "981bc81249b2dfcf3df643c01a82d3c47a8dd69adba0c9e81b2d5da4816182dc": "AI 咨询加强传统性别角色",
     "58b4af6097712838f736c66ebb3cf14725a263fcaf0a3ae1af030023ed3939fa": "专业人员越来越多地向人工智能寻求职业咨询。我们测试了大型语言模型在职业谈判方面是否向男女工作候选人提供不同的建议。通过两个大规模审计实验,包括四个主要模式,法学硕士不仅建议女性的工资指标低于男性,而且还制定了不同的谈判议程,优先考虑女性候选人的灵活性、照顾性和福祉,对男性的经济奖励、流动性和晋升更为突出。",
     "10548a4eca2fa30900056a389a8f24f2003fdfe351a431292bf890780046099f": "全面观察是没有根据的:对照经人授权的情况报告评估LLM Sitreps",
-    "c22dc234c6abf0dd562ff7dd7e2cc3956463d65cea89debe9741dd5387a20fc9": "自动危机报告评价应衡量从业人员需要什么,而不是比较的方便。通过LLM协助、作者批准的内容分析,我们利用定性内容分析,从专业人道主义局势报告中得出一个15片段的信息计划,然后评价121个人类报告和261个LLM生成的报告,涉及5个灾害和3个危险类型。在Google/gemini-3.7-flash on Circle Idai)下,最好的机械臂在名义上高于经验性人类天花板(0.827 vs.但是,从统计学上看,这一差别与零(95)是分不开的。"
+    "c22dc234c6abf0dd562ff7dd7e2cc3956463d65cea89debe9741dd5387a20fc9": "自动危机报告评价应衡量从业人员需要什么,而不是比较的方便。通过LLM协助、作者批准的内容分析,我们利用定性内容分析,从专业人道主义局势报告中得出一个15片段的信息计划,然后评价121个人类报告和261个LLM生成的报告,涉及5个灾害和3个危险类型。在Google/gemini-3.7-flash on Circle Idai)下,最好的机械臂在名义上高于经验性人类天花板(0.827 vs.但是,从统计学上看,这一差别与零(95)是分不开的。",
+    "31586f469b8e40153b134ffee0e9af351b474e407db698e734c11badafda7ab3": "一直难以准确模拟机器人与其操纵的物体之间的相互作用的物理,包括接触力学,结合接触动力学,变形,硬度和摩擦.我们提出RoboSimStudio(RSS),这是一个互动的工具包,可以使解析器,接触模型,物理参数的选择清晰和可编辑,使人类和编码代理能够快速创建和迭代完善基于观察到的物理行为的模拟.我们用开放的牛顿物理模拟系统执行RSS,并描述用人导Rea的实验",
+    "a7636287b10bea63ae44a7787e9c113d8da48311ab13e6b320bdba7c7b0d0597": "大语言模型(LLMs)一般依靠采样温度来调节其输出的随机性.选择温度的主流方法通常涉及固定的、热度化的全球设置和上下文或符号级的校准,而不是用几何解释来表示交流情景。在这部作品中,我们引入了一个简单且可解释的温度选择框架,即情景-actor,它适应了推断的情况特征的解码.从变形器隐藏的 ST 中提取与情景相关的结构",
+    "18c70bad7ce2c491b54f5f1e968feaf690676499a46fd51ba01150a60fa358e5": "原型为v0.6.0",
+    "7dbb3bb7ed323f2565e68969fd34914da71b8fe96123354e8b8f5146623a436c": "vllm-proto 0.6.0 (英语).",
+    "9fb94ef68a03e2335cb0606c4f486608cce52dbc1636e324968cc9d6a1d719b3": "v0.32.0rc1: [依赖性] 更新 Humming 并删除 NVFP4 缩放工作轮廓(# 61556)",
+    "820650661437caab14ad22799b4a1555a49f145466577051f183db12c9e887f2": "签名-off-by:jinzhen.ljz jinzen.ljz@antgroup.com 共同作者:Codex codex@openai.com 共同作者:米莎·戈因·马高因64@gmail.com 共同作者:凯文·H.卢赫卢000@gmail.com",
+    "08d60aa6061fa2f4466e17bc7669fd678329e0c4cb821ccaa1b827f8bbd31550": "没有人想要你的AI应用",
+    "0e5694ac175172ec26717dedcb5c83866ba2a45ba90db88be31b9a0d46e2f9b2": "交换机操作员的工作已自动化。它成为的工作, 隐形的系统现在连接每一个呼叫,比以前的工作更值钱。AI即将对应用程序做同样的事情.购买AI的人直言不讳地说,未来是智力消失在现有平台上.每个人都希望它隐形,同时处于他们完全控制之下.我们都在赛车制造AI应用程序没有人想打开。具体地说,独立的AI应用程序,你下载的东西,登录和去,是一个比几乎任何人建造i更糟糕的想法.",
+    "68bbfed26d8d8a745d28c4ba2e81b5a3bc1bb7d5b05425bffd5e25643ee02a6a": "当CFO问为什么设计很重要时我告诉了他什么",
+    "5f85b3865e2cb661958da3680f7bcf7c7b212195752cd2d9930923081ebf6908": "如何向企业和金融领袖出售设计,展示设计成果的影响.许多年前,一个商业单位CFO告诉我:\"我不需要另外的介绍来解释为什么设计很重要。我需要知道在设计方面再投资一百万美元是否将超过在工程或营销方面投资。”用定量数据显示设计的价值,是设计领导者面临的最大挑战之一.我们的领域多年来一直是C类优先,",
+    "d948b31bcb7018a8e1d5ce2361101514bfc5a2c2f0344662c4ccc92f403a8447": "Block如何用 OpenAI 技术建设AI 驱动安全",
+    "ef25e651aff4f0d624d44138dca1a833104e58f9185d6d56701adc0b31e96018": "Block正在与OpenAI一起建设AI动力安全.其安全小组更快地调查威胁,并在几分钟内提出补丁.",
+    "6770338ceaf07d91dc1e1cb16554888e7c12030c8f6f6f64de6845b2990745f1": "我们研究由具有类型独立偏好的发送者进行普遍可核查的披露.我们首先将所有完美的贝叶斯平衡 描述为将发送者类型分割成 由回报命令的联盟如果没有任何一类人能够有利地协调所宣布的只有他们能够和愿意加入的偏差,那么我们的联盟防御标准就能够维持平衡。防联盟的等离子体是贪婪的分割:在每一个步骤上,一个剩余类型的联盟都得到与平衡一致的最高回报.在我们的大背景下, 防联盟的平衡可能"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -6655,6 +6668,52 @@
       "image": "https://arxiv.org/html/2610.18762v1/fig_a_slot_coverage.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2610.18762"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0": {
+      "checkedAt": "2026-10-15T05:07:19.661807+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release proto-v0.6.0 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1": {
+      "checkedAt": "2026-10-15T05:07:19.661807+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.32.0rc1: [Dependency] Update Humming and remove NVFP4 scale workaround (#61556) · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1"
+    },
+    "https://www.ftium4.com/ux-weekly-294.html": {
+      "checkedAt": "2026-10-15T05:07:19.661807+00:00",
+      "description": "系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周我发现的体验设计和思考，为构建系统知识做准备。",
+      "image": "https://www.ftium4.com/attachments/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/IMG-20261015110019940.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.ftium4.com/ux-weekly-294.html"
+    },
+    "https://www.ithome.com/1/013/337.htm": {
+      "checkedAt": "2026-10-15T05:07:19.661807+00:00",
+      "description": "Anthropic 国际业务负责人、负责美国以外市场销售的纪尧姆 · 普兰森认为，与 Anthropic 自家的 AI 模型相比，开放式模型发生网络安全事件或造成其他危害的风险更高。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/013/337.htm"
+    },
+    "https://www.ithome.com/1/013/208.htm": {
+      "checkedAt": "2026-10-15T05:07:19.661807+00:00",
+      "description": "美联储公布的 9 月会议纪要显示，官员们越来越倾向于认为，推动商品价格持续上涨的主要因素是 AI 基础设施建设，而不是关税。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/013/208.htm"
+    },
+    "https://www.qbitai.com/2026/10/503303.html": {
+      "checkedAt": "2026-10-15T05:07:19.661807+00:00",
+      "description": "给企业Agent打了个样",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/99bd79f1cbc18214c088d7f7384574de.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503303.html"
+    },
+    "https://openai.com/index/block-ai-powered-security": {
+      "checkedAt": "2026-10-15T05:07:19.661807+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
