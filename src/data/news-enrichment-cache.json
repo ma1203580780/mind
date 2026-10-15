@@ -1346,7 +1346,9 @@
     "5f85b3865e2cb661958da3680f7bcf7c7b212195752cd2d9930923081ebf6908": "如何向企业和金融领袖出售设计,展示设计成果的影响.许多年前,一个商业单位CFO告诉我:\"我不需要另外的介绍来解释为什么设计很重要。我需要知道在设计方面再投资一百万美元是否将超过在工程或营销方面投资。”用定量数据显示设计的价值,是设计领导者面临的最大挑战之一.我们的领域多年来一直是C类优先,",
     "d948b31bcb7018a8e1d5ce2361101514bfc5a2c2f0344662c4ccc92f403a8447": "Block如何用 OpenAI 技术建设AI 驱动安全",
     "ef25e651aff4f0d624d44138dca1a833104e58f9185d6d56701adc0b31e96018": "Block正在与OpenAI一起建设AI动力安全.其安全小组更快地调查威胁,并在几分钟内提出补丁.",
-    "6770338ceaf07d91dc1e1cb16554888e7c12030c8f6f6f64de6845b2990745f1": "我们研究由具有类型独立偏好的发送者进行普遍可核查的披露.我们首先将所有完美的贝叶斯平衡 描述为将发送者类型分割成 由回报命令的联盟如果没有任何一类人能够有利地协调所宣布的只有他们能够和愿意加入的偏差,那么我们的联盟防御标准就能够维持平衡。防联盟的等离子体是贪婪的分割:在每一个步骤上,一个剩余类型的联盟都得到与平衡一致的最高回报.在我们的大背景下, 防联盟的平衡可能"
+    "6770338ceaf07d91dc1e1cb16554888e7c12030c8f6f6f64de6845b2990745f1": "我们研究由具有类型独立偏好的发送者进行普遍可核查的披露.我们首先将所有完美的贝叶斯平衡 描述为将发送者类型分割成 由回报命令的联盟如果没有任何一类人能够有利地协调所宣布的只有他们能够和愿意加入的偏差,那么我们的联盟防御标准就能够维持平衡。防联盟的等离子体是贪婪的分割:在每一个步骤上,一个剩余类型的联盟都得到与平衡一致的最高回报.在我们的大背景下, 防联盟的平衡可能",
+    "829fa529b68dfdb25080845af78a74a9116b4be225b935aa14a014f23503c4bd": "v.0.32.0rc2 (中文(简体) ).",
+    "f5426c113b1e9d373273408870a245e1cea85d09223d4fbaf935e83678104bda": "[CI] Pin DeepSeek-V4.1-Flash-NVFP4 evall to its FP8-Engram 修订版 (#."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -6714,6 +6716,31 @@
     "https://openai.com/index/block-ai-powered-security": {
       "checkedAt": "2026-10-15T05:07:19.661807+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc2": {
+      "checkedAt": "2026-10-15T11:20:01.904057+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.32.0rc2 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc2"
+    },
+    "https://www.eeo.com.cn/2026/1015/1065795.shtml": {
+      "checkedAt": "2026-10-15T11:20:01.904057+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/9951FF3DE4C505CF6F20A2ED0CBD6867.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1015/1065795.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1015/1065734.shtml": {
+      "checkedAt": "2026-10-15T11:20:01.904057+00:00",
+      "error": "Remote end closed connection without response"
+    },
+    "https://www.eeo.com.cn/2026/1015/1065641.shtml": {
+      "checkedAt": "2026-10-15T11:20:01.904057+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/5916FBCD58CF35C1D5496043412C8C45.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1015/1065641.shtml"
     }
   }
 }
