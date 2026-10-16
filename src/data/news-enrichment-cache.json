@@ -1462,7 +1462,82 @@
     "93ccfeb86f21415b4cd17645975cdcc5f3061a0a24004e81007dd02110a2f628": "全球运动服品牌 打造更清晰的 UX 优先事项 与 Baymard",
     "05a176d0de0bb3f979819793fa54aee49be006cccdbd3fac4c7563f0b98defdb": "全球运动服品牌使用拜玛德支持研究,设计决策,以及跨市场对接.",
     "a80bfb173a6e47bb06bc4be32ed988d379ccca0edc3ff7babd0dcd2fdb9d098c": "巴塞尔委员会最后确定在G-SIB框架内处理窗口装潢问题的措施,并就G-SIB方法审查进行磋商",
-    "67870a68618e7ae9cf3dee4a8832b1e41a857a427b798d7b2399cc3c4d4566a4": "巴塞尔银行监管委员会今天公布了最后修正案,以解决在G-SIB框架内的窗口敷装问题,并就G-SIB方法审查进行了协商。"
+    "67870a68618e7ae9cf3dee4a8832b1e41a857a427b798d7b2399cc3c4d4566a4": "巴塞尔银行监管委员会今天公布了最后修正案,以解决在G-SIB框架内的窗口敷装问题,并就G-SIB方法审查进行了协商。",
+    "8ab772b786125e9b38a96e061731ae93ccc54af26c32dc958a40a4881123a5c4": "(原始内容存档于2018-09-26) (英语). Langchain - core = 1.6.12",
+    "c95c45e98bee150a6e2f53747e161846663bca58b32dbe0cebaa8308b64651d3": "自 langchain-core == 1.6.11 发布(core): 1.6.12 (# 41277) 固定(core):在内容块启动事件(# 41272)上传播额外内容.",
+    "ba417c93405330ca09afe2af527ef4739ffdb00c936b9de143c27b87c804ed70": "为克劳德密码建设自己的技能?这是你需要知道的",
+    "5028ee16dbeb35d3e705dd44aa0b5855aa653a43781498901e2534be19b98717": "从了解SKILL.md到建设、测试和优化你的第一部...",
+    "86154f7ac8f61fea74eb8a8cd3109298ce42a03dbfc5469f4ddca32610948d45": "罗宾F.威廉姆斯在无尽循环中悬浮着科技的诱惑和恐怖",
+    "8aca5131e021277bcdae6bf11e6ebdd966c4302476a56e90f64557a9c7ff19db": "罗宾F.威廉姆斯推断出人类和机器的融合方式 捕捉出一种奇怪的技术障碍",
+    "683a43a2165739cd995f8a80a9225245d2748a02371125d140bfe10d4211c051": "12 最佳企业工作流程自动化平台",
+    "1d2f745afa579d66bd5bdb4e9d80834d3b9e5a344ebbd0f546549017549928bf": "比较技术团队的顶级企业工作流程自动化平台.查看每个工具如何处理控制,规模,和AI工作流程.",
+    "6719ff858d44202993287137df87329eb7162c33e3b3afe5690bf4d5eec416f6": "托列克语Name",
+    "381613f5904f39d9e9872f36d0444fa2fbb2f3f06fb1682d122a63cbe0c190bf": "发布 v5.20.1",
+    "bfc4f4066d30a11ec6df0dd99846064dd8eef207c921afbc8535da9d3a3883fb": "v5.20.1 发布特别惊喜,包括来自Reflection AI QQ Beam的新型号Beam,是一种以编码和代理使用案例为主的象征性高效,前沿规模的模型.它为想要在自己的硬件,基础设施,或云端上运行一个强大的模型,并根据自己的具体需要定制的团队而建造.链接:文档在自动映射(#49664)中修复小错误, 由@yonigozlan在#49664中进行一些真正的补丁修正,但这里是整改的完整列表 修复 Hunyuan-VL 图像在批量生成期间的任务(# 4955)",
+    "f30070efcd35a3e2e2b55c6339e97a832dbdbd1e30969379f1dcbd88014369a5": "LIBERO-PERM:个性化机器人操纵基准",
+    "0e11890164cf080b5e4f8646798f579193fdee4731b1dd57abe41341a8280bfa": "个性化对于通用机器人向家庭环境过渡,实现真正的实用性至关重要.虽然对一般的机器人操纵进行了广泛的研究,但是个性化的机器人操纵(PERM)缺乏将任务完成与偏好满意度区分开来的控制基准.我们引入了LIBERO-PERM,这是在体现的代理中学习偏好的基准.LIBERO-PERM研究了五个问题:1)在零镜头环境下政策如何遵循偏好;2)他们如何从演示中学习单一偏好;3)他们如何高效地获得偏好c.",
+    "96210bb04fd86552923a17386ec708645980c9224d01f60a4ca274201a46395c": "联邦储备委员会宣布终止对Gardner Bancshares股份有限公司的强制执行行动。小企业银行",
+    "56dba3dfab74b75266f24608584ef0882be5230f3ac174f71e36ee0d59b5d0f9": "用大型语言模型发现最先进的量子电路",
+    "109948f595415cdabb0b978227257535bd2c85d386fcdd38fde6b2fb048631b2": "目前正在作出重大努力,实施大规模量子信息处理器,但要实现有用的量子优势,还需要开发高效的量子算法.虽然对于许多实际问题来说,主导性的资源成本与一套小的计算原始数据有关,但在量子设定中优化这些资源则提出了独特的挑战,包括普通古典计算中没有的可逆性限制。在这里,我们引入了一个进化框架,其中大型语言模型(LLM)提出电路设计",
+    "437ea42b6b3e3a34340d1aaa3561942b5689456e7c9d974148f5d168bd4bac7a": "T2-z:机器人世界模型环境底稿的测试-时间优化",
+    "0c3d93fda58ed3e620e433fed36821d4829a320d966d8cdea025f8b6b551207d": "预测世界如何对某项行动作出反应,需要的不仅仅是可见的:机器人必须说明从摩擦和质量等物理特性到人类定义的环境规则等既不直接观察到也不明确指明的环境因素。我们引入了T2-Z,用于测试时间优化环境潜伏物,这可以增强一个机器人世界模型,并具有可学习的环境潜伏,以制约世界预测。这种紧凑的潜在捕捉环境变异的基础,而不监督存在哪些环境因素或它们的价值",
+    "dc73834a68c96c45e74642f28e889defef3f23ff5619677e3a1b14f37b1377a2": "CODA:数据引擎和行动政策的共同演变",
+    "2529219aa3c4b8ca4a1aaa2a869f6baad12bccd8369a9eb958f41f6c0f2150db": "基因模拟可以使机器人环境建设自动化,但物理上有效的环境不一定对训练有用.挑战在于确定解决政策失败的环境,以及帮助其克服失败的监督。我们引入了CoDA,一个模拟数据引擎和一个行动政策通过共享环境建设、政策失败和学习进展的多样化记忆共同演变的框架。内存将视觉语言评论家的验证诊断汇编成再现困难和训练的生成程序",
+    "2a2d588a12f9f503e34c49efd63af0b9baab1e238ce91c7cb3adcc371e13d99b": "OmniVerifer-C1:规则化基因世界模型的分级验证器",
+    "ba5423b7f9413296869349d02fd71f69fe7d7f121512ef79ba1782bee1d486d5": "基因视觉核查员在推进多式联运情报方面发挥着关键作用。为了在涉及组成要求的复杂多式联运情景中加强视觉核查员的稳健性,我们超越了只产生True/False 离散判断的常规二进制核查员,采用了一种核查员,自动将复杂的提示或环境规则分解成精细的分数,并按点定分数,以提供连续和更加翔实的批评信号。我们的实验进一步表明,这些结构化和可解释的产出有所改善。",
+    "7f5672f7bd7d6256c91104630a828c42e8791164aefade1fab42b1cee3e4875d": "重新思考现代专家组合的例行探索",
+    "dc9cf54230338d4fa4abac0b3fc3661c8ebc78e9acb42ef7663d33a07f08696f": "专家混合模型已成为衡量模型参数的重要方法。现代的MOE架构日益结合两种设计选择:精细的分化专家与共享的专家.前者通过使更多的专家组合在固定的激活比率下增强表达性,后者引入了为每个符号活跃的专家.我们找出了这些设计之间的探索难题:共享的专家可以通过减少象征性表述的可变性,减少探索性。这与更需要探索",
+    "27413ab8dffbaea212deb10a8ee10b70b4dd70e94153084ef04107e8b65007b0": "FDE-Gym: AI交付的最后一英里",
+    "ec7d815663e0d7bb04f6a2b9abd56ba65a0f8481f5f1af8dca20b70a47ea0b47": "现有的代理人基准通常对代理人根据议题报告、规格或任务单界定的明确规定的任务进行评价。真实世界的客户交付方式不同:前方部署的工程师(FDEs)必须澄清模棱两可的要求,在现场系统工作,并发现未说明的制约.我们介绍了FDE-Gym,这是从18个部门的20个客户设想中得出的95个端到端交付任务的基准,每个任务由来自现实世界交付项目的行业专家加以调整。在与脚本利益攸关方和可修改客户系统的模拟客户环境中,代理商与",
+    "7fdca1244ce9cbc08f4ad3fa85c916297b6ea40dc954d92c3b501ddb32eacec0": "MLExpert:面向自主机器学习工程的通用代理模型",
+    "30be0d8ef02bd5e189870de773fcbdda535bb4a154f493d369f537a1cddf3ac2": "大型语言模型正在从协助科学研究和工程发展到自主发展和改进人工智能系统,推动人工智能(AI4AI)作为实现递归自我改进的途径。工作流程驱动的机器学习工程(MLE)系统通过复杂的管弦乐管理长视实验,为这种追求提供了一条实用的道路,而最近的MLE系统则采用模型定向的相互作用,使模型能够根据执行反馈自主组织实验并调整优化战略.不过,反馈f",
+    "b8110f2480dc118353a366945c2d8cf95df25819532f3f195a588c58ec0339ab": "Geo State:三维世界建模的学习视图解析几何状态",
+    "b5dcd0281132a2ca9e34bd17b5f8cf44f536f6c79f073152379bc616f53e9a0b": "最近的3D世界模型越来越多地使用几何基础模型的特征作为预测性世界状态,受益于其丰富的几何前身.然而,这些特征的视线依赖将场景动态与相机引发的变异纠缠在一起,使得由此产生的状态演化更难预测.我们提出GeoState,是用于预测性3D世界模型的断景几何表示,将场景状态演化与相机依赖的观测区分开来.具体地说,一个场景示意器将多视图 GFM 特征集成到一个视图断开的场景状态,一个地理状态",
+    "d767de3e835394cb3f26716ab77f5aa8255c1bed1fe68efa62eaa0dd62b583dd": "3DCodeVerse:将3D世界作为代码探索",
+    "c518e1649e5d64563a948d82b9b9f8101da2af24a18b7ac9968681e1bd53a5e4": "我们引入了3DCodeVerse,一个研究生态系统,它使编码代理能够大规模创建可编辑和可核查的3D内容.3DCodeVerse包含可执行的3D代码的大规模高质量数据集,用于空间推理和自动验证的编码工具,以及3D编码的实用指导.首先,我们构建了3DCodeVerse-2M,一个由独立3D可执行代码组成的大规模编译数据集.我们通过收集开源数据,转换专门表述,以及用编码代理生成新程序来建立这个工具。每个程序都用源文件包装",
+    "9dab1eb0ccf54cd0b6571bdeb19fe56c7edb2fa0b05ae2ddb1668d5eb3944b3f": "来自监督游戏的 Dexterity",
+    "a11c10de55ea0bfbb829e272fc71d7f01413d6a51f5d837941d1dfa09358f7a1": "机器人如何能自主地收集学习狡猾操纵所需的接触丰富的经验?我们介绍DSP:Dexterity from competive play,一个框架,一个机器人通过行为克隆从人类游戏的几分钟中学习游戏政策,然后自主地部署它来收集几小时的互动数据来训练一个世界模型.在推论期间,同一游戏政策通过提出在学习世界模式下进行评价的候选行动序列来指导模型预测控制。为了加快推论,我们还采用了一种方法 来提炼一个闭路,目标...",
+    "6f9655ffef976053997cf6da29bc2f6f23dec1550890d8950f2be9d8d1e28440": "异质人口增长中局部本地化和多变性与重新确定",
+    "6c67888c60bebbf47ca803f8214612bc35e96e9855fa6397111c087206dfe731": "我们研究了一种多样化的多重增长模式,即中场再分配和独立的局部结构重构。该模型描述了分布在生长率不均匀的场所上的人口或财富,而重置则代表随机的局部灭绝或破产事件.在大规模的再分配或重新设定速度下,我们发现一个地方化阶段,我们计算某一地点人口的增长率和固定分布。我们显示, 重置的生长过程 产生电源法的固定尾翼 与站点依赖的推进器。对于弱者",
+    "8032d74adad368f7f2f282502f686004b82f2eda3d3cfc4fb857114a333e1a3e": "\" 超越英语的评价意识 \" :在接受印度语测试时不同程度地使用法学硕士学位?",
+    "9fcaeb75f65de7979bfe8d930b4f0c67b5e3a1ebfb03e22350ed03214dc4263a": "大型语言模型(LLM)在测试时往往可以分辨出来.这种能力被称为评价意识,可以引导模型在安全评价期间比实际使用时更谨慎地采取行动。现有工作几乎完全用英语研究评价意识,虽然模型服务于许多语言的用户.超过10亿人讲印度语,但评价意识却几乎完全没有得到研究。我们用5种印地语和英语测试3个家庭的4个教学调整模型。一组提示不同 模式是否被告知它i",
+    "5a81121d45aa872303d561878938868918dfc5da66332636c1044409aae1c5a7": "为外部决策者设计实验",
+    "3d172f9252ec0a7e8cc5f1f0f72edb6256461b7f5ea1403cc5feb0694b3e5038": "标准巴耶斯实验设计(BED)方法假设实验者将独自对数据采取行动,根据自己的信仰和目标选择最佳动作.在实践中,数据往往由外部当事方采取行动,而实验者的程序不能改变,可能不知道,特别是当数据公开发布时。为了将BED扩展至这种环境,我们引入了了解使用情况的实验设计,在这个框架中培训适应性设计政策,以尽量减少使用风险:当一个或多个外部规则对收集的数据采取行动时,实验者的预期损失。这些",
+    "df67c98a651e2d291dc8e10a510250ecd69a335f713b511edd7f9841a2e01d44": "KnowGPO:知识组合政策优化搜索代理",
+    "665d8613fea0158cd92c0b33f735fa42d75dd65231f57a47007358947d2e35a0": "深度搜索代理通过长视野,多回合互动解决知识密集型任务,其中为个人搜索决定分配信用从根本上是困难的.基于成果的强化学习只提供一种终端奖励,在整个轨道上共享。最近的工艺-监督方法旨在以更细的颗粒性来分配功劳,但它们通常将功劳锁定在表面轨迹状态或模型-内部信号上,这两种信号在深度搜索中都变得不可靠,因为在深度搜索中,观测是千差万别的,检索到的背景又长又吵。维文",
+    "6f0b2bf092dfda813dac27afc1d4261e6a6e7945833add09e96b8fecd719609d": "由机器学习预测的结果",
+    "745ad9d46add47bb709f8aa7d4a6b6de34f3831743035e76ed5e99e6d91d40dc": "许多对经济学感兴趣的参数取决于机器学习(ML)所产生的结果.这些生成的结果随后被用于标准的经济计量估计,并通常作为观察处理,这种做法威胁到下游推论的有效性.经验性相关案例包括:顺序异质性下的动态处理效应、代孕的长期效应、部分线性模型的 ML 预测结果、生产力的持久性、不受限制的生产功能和构造仪器,以及混杂异质的剩余结果",
+    "a11fff048e29561cd7f0ca3e32cfbf525d434c75c88b63d3e4a5c4c6f6d68200": "为持续扩散语言模型设计变换器",
+    "be738ac97066bc13a09d00f8093a24cbe48cdaf414ddaf4690ca0aebbf7ecef6": "持续的传播语言模型(CDLMs)为并行语言生成提供了一种替代方法;然而,大多数现有研究都直接使用来自因果大语言模型(LLMs)或传播变形器(DifmusionTransformers)的变形器架构来进行图像生成,这些变形器并没有对CDLM进行优化.在本文中,我们对CDLM的变形器架构进行了系统研究,并引入了语言扩散变形器(LangDIT),结合了特性和查询键的正常化,更广泛的噪声调节,概率短的梯度径和校准,以及置信g.",
+    "63e36b4af9cfc6aaf3632027efed0f0627b85a311c1d89f62969acde0090ccd4": "关于单循环赛的公平性:来自欧洲足球的证据",
+    "c8c619820eb8d887250c5883910fdac471198af68b8f5294101e1aa593dfbc90": "单回合制robin锦标赛因其自家出走的不平衡而被普遍认为是不公平的:一些竞争对手比其他竞争对手更会玩家用游戏.因此,大多数体育联赛都采用双循环赛制.然而,一些欧洲足球联赛包含一个单回合制的robin(次)球队.为了测试经验数据能否验证其不公平性,我们构建了一个独特的数据库,并根据具有有利理论属性的Elo评级,开发出一个进度指标强度.相对于相对团队实力的强大影响来说 进度的优势是fo",
+    "278a0ae6e3146862908cb7d632f79b1c41ec7e809d82d22ec032988cb92848ec": "ACEdit:通过非对称条件进行稳定多翻图像编辑",
+    "c447cdc677dd2539f90b4c6717c1d27c5e4cafa189b01733dc3e357efafe2a5c": "图像编辑模型为个人编辑带来了令人印象深刻的结果,但其质量往往因多个编辑回合而恶化.每个编辑回合都引入了在连续编辑中积累的小型发行转移,在编辑者最初训练时遇到的输入分配和多回合推论之间造成了差距.我们推行了一项培训计划,在这种累积的分发转变下,使多回合图像编辑工作保持稳定。一个关键是迫使编辑在培训期间按自己以往编辑回合的产出运作,从而带来以下原则:",
+    "a0ef56054bf0260dffceabf9ad85982a9c564a3df9b9a016d6924816e4db6c31": "B. 贝叶斯语模糊性和非亚文统计的统一决定模式",
+    "e42f32569505c8b7da79964569674eb514e0f63f84516154993d396751905773": "本文研究的是,当纯风险评价由一般的、可能是非亚金统计确定时,决定功能不明确。我们代表了巴耶斯二阶模型相对于一阶模型的模糊感,并以单独的参数编码模糊态度.我们为结合这些物体的决策功能规定了四个一致性和单态性。我们显示,二阶平均率一般不能为非亚芬统计保留这些属性,包括预期的短缺,即行业标准风险计量。为了消除这一限制,",
+    "804cb9fe4a8ef181c606623e421a6a89fa14cccc72aad11f997e89e6b7b801ba": "一次两次:时间序列说明的补充说明",
+    "7aea2cb83481ee0c67d2e4e1a2e171977b08640ba1abb5d312ea234fdcc7130d": "时间序列语言模型(TSLMs)使得基于语言的理解和推理能够超越时间数据,然而,一个根本问题依然存在:时间序列表达应保留哪些信息,以及应考虑到哪些变化?现有的TSLMs通常将语言模型暴露在单一的表示中,在下游任务中施加固定的导感偏差.相反,我们采用了补充陈述作为时间序列推理的设计原则。我们的模型结合了两种视觉观点:线形图保持绝对测量和观测到的坐标壁",
+    "5175a55a8c126519ffb64f536b81c9b66ab2236f4af3214da4e14566fc4003eb": "通过Exceance-Covariate独立测试尾巴-Index同源性",
+    "ec1c77a6b69ce88d0863941093592f6ced12b65d61c1e676d088c5a4389727b8": "我们建议测试一个重尾矿结果的尾本指数 是否在观测到的共变物之间是相同的。关键观察是,在尾-index同位素下,常态的日志过量在不对称上独立于同位素,即使尾端频率与它们不同.这导致了基于距离共变的简单到执行的演化测试,而没有估计有条件的尾本指数或指定尾本指数异性的形式.对于全球和地方平衡的版本,我们确定秩序统计阈值的有效性,并为组成提供条件。",
+    "1fdbe9fb2714b8ede57e873d7318a5de7387346860d87f95547f2e9050a0f2ae": "产生不同科学思想的培训理由模型",
+    "89c5183b792f0cee6f05b611b38ca973006121efb8c34e98988d8e0a5651a29f": "研究管道的最初步骤之一是产生想法。大语言模型(LLMs)越来越多地用于这一步骤的自动化,但大部分作品优化了个人思想的质量,同时忽略了多样性.在我们的工作中,我们研究了以文件为基础的思想,重点是增加LLM所产生的思想的多样性,并确保这些思想的质量。鉴于以前的文件,一个模式必须提出一套想法,这些想法都是高质量的,彼此之间显然不同,同时也以投入文件为基础。为了达到最佳效果,我们提议与",
+    "345ec4254b175334f2f4d7cf0201d71766c24674fa4cdb4fc21c3544651b5d07": "根据错误规格订立合同",
+    "d3b00fe21bd2dcf8aa8bad61931659f122c1e0c8fcfd4917ac8e5eaf6fe0a72d": "本文研究了双方担心将行动与产出联系起来的模式有误的代理问题.有了可观察到的行动,最佳合同产出是线性合同,因此业绩工资的产生完全是为了分担错误的规格,坡度反映了双方相对稳健的关切,其分配是帕雷托效率.随着隐藏行动,这种共享规则得以存活,奖励措施增加了非线性更正.具体化问题可能使中间行动无法实施,从而导致工作两极化。此外,相互竞争的模型的模糊性也使我感到迷茫",
+    "09472a555a12ce2c04ea2d45c7486741d6b56d103c151d6ea7bc39bd53aa93dc": "在分散的代理人斯瓦尔姆学习自律",
+    "28c26ab66f4516e105f593ea87605290a9bc222e3b6935141a434223018be528": "代理人群的能力取决于其个别成员及其协调方式。然而,现有的多代理系统往往在固定的管弦结构内训练代理,将个人能力的学习与集体行为的组织区分开来.我们采用基于市场的后培训,这是在分散的代理人群中共同学习行动政策和自我管理的框架。代理商表示愿意通过投标参与,由投标人决定谁采取行动,集体结果如何提供当地培训信贷。学习两个动作",
+    "5b6dfb44dce67356db9c4799058a39004953154df3b34caa2fcb00709e3a7930": "国际螺旋桨结构矩阵自动化框架",
+    "3fd4184920c9b8b5d9958a27da1751b2e263fa5a60584965eef469597ddb3556": "了解宏观经济冲击如何在各国之间传播,需要结构模型,能够共同确定具体国家的冲击及其国际传播。然而,将结构矢量自动递减(SVARs)扩展至大型多国系统具有挑战性,因为维度迅速增加,计算成本和识别限制激增。本文开发了一个利用国际宏观经济数据自然矩阵结构的巴耶斯结构矩阵自动递减(BSMAR)框架.通过分离经济依赖性",
+    "04e4fae189e0f001637d46b319eefbc616ff4e752ab26c9920ff194dbdc71608": "AVC - 奖赏:事件-中央视听一致性评价",
+    "78f979b03753f411465c6379f342f1cac9ae40a8508f48ac9308001c0619a7ca": "随着联合音频-视频生成模型的能力增强,它们可以生成显示三种复杂形式的视听场景:多事件组成,多层音频混合,以及不对称的跨模式关系.然而,目前的评价基本上重复使用早先简单和单向任务的衡量标准。他们通常会整体评价一个音频-视频剪辑,并依赖于简单的预先定义的关系,使其不适合这些日益复杂的场景.我们提出一个以事件为中心的评价框架,将事件层面的视听事件分开,分析",
+    "3997808a5742fdd03a9c32da1c65b46f04304deae54727b5e399338a0c9c049e": "使用选择性标签的算法边框的识别和推断",
+    "54e2d651cb7f947beff9d4ee34a447a5733c2ce8026289dbdd9b79491eb6a377": "本文提供了鉴定结果,以描述公平准确的前沿,并提供了统计推论工具,用于测试假设和建立FA-前沿的信任,当只为选定的个人观察到结果时。当选择过程不受限制,但以具体方式衡量损失时,我们提供了FA-边境的尖锐识别区域的特征。当观测到的分布排除了二进制状态算法的前沿成员时,我们构建了一个单一的替代算法,可以提高两个组的精度",
+    "3f5a3385f64e645560bdd18ab28d45e670b0d15153c06bf7ad221fef851a8f32": "一组双子座四号线特工打败了Minecraft",
+    "0d06f5674b330f1a8236f105936c3fc811213dc5c5ac9a1a70ee8cbc316c1fa9": "我们把四个双子座4号阿贡特工 安置在一个沙盒矿工生存的世界里 给他们一个目标:打败安德龙每个代理通过一个名为Mineflayer的开源库控制一个玩家,并通过游戏中聊天和共享内存与其队友协调.没有人指定角色或写游戏逻辑.特工们自行计划,撰写,调试每个程序.研究人员可以在一个直播仪表板上观看运行,并随时暂停或停止运行,但他们没有理由进行干预.从随机生成的易难世界开始,团队写了2,783个程序 a",
+    "0b68990ddb6fb4ed22e4c9cb9fb7db0d079201cba566e5b0a9861b9f63c4ca05": "隐藏承诺力量是无动力",
+    "b23eea8c14efd96ab8d62c76aedb5969c6f10b1d87b496123c9b1c2ab6512b5c": "提供合同的校长如果其缺省选择足够有吸引力,可能会背弃合同。这种诱惑的大小 -- -- 反过来衡量她的承诺力 -- -- 往往是校长的私人信息。本文询问,在这一信息不对称的情况下,订约结果如何变化。我发现每类主犯的行为和收益 仿佛众所周知她拥有的 承诺力最小因此,隐藏的承诺力量是无能的,尽管在对称的情况下,承诺力量可能是宝贵的。",
+    "036f76155d1a969dd436f2d23ab73c5da7f1a05524651f39b11c698713e31ec6": "使用 ChatGPT 插件为代理三重签名堆叠过多流量",
+    "bdf50d389c34737a18bd368855d58aa6b0679b819a71210677d5fd9ca63a1586": "两位工程师用Codex在几周内为代理公司运送了Stack Overflow,其ChatGPT插件帮助推动代理公司的创建达到10×增长.",
+    "da925460d221e801d2b8b8ca06b2a9b867f6c3200d32c273c35da58b333a97cf": "欢迎Beam:一个可以拥有,自定义和规模的501B开放模型"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -7454,6 +7529,334 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/013/983.htm"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12"
+    },
+    "https://w2solo.com/topics/8605": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8605"
+    },
+    "https://www.eeo.com.cn/2026/1017/1067425.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1067425.shtml"
+    },
+    "https://w2solo.com/topics/8604": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8604"
+    },
+    "https://www.eeo.com.cn/2026/1017/1067422.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1067422.shtml"
+    },
+    "https://github.com/huggingface/transformers/releases/tag/v5.20.1": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. - Release Release v5.20.1 · huggingface/transformers",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/huggingface/transformers/releases/tag/v5.20.1"
+    },
+    "https://arxiv.org/abs/2610.22372": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22372v1/Teaser_img2_v9.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22372"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-16/": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "Talanoa：像聊天一样的邮件；Navige：降低人工智能代理的成本，控制失控的支出；Apple HomeView：一种新的方式来保持联系和管理家庭。；GLM-Legal：Z.ai的法律人工智能模型，用于合同审查和合规性检测。；OpenMuse：开源、可自托管的个人助手，适用于任何平台",
+      "image": "https://decohack.com/producthunt-daily-2026-10-16/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-16/"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "The Federal Reserve Board on Friday announced the termination of the enforcement actions listed below: Gardner Bancshares, Inc., Lenexa, Kansas and Small Busi",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm"
+    },
+    "https://arxiv.org/abs/2610.22367": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22367v1/fig-dqi-rs.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22367"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067382.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://arxiv.org/abs/2610.22364": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22364v1/elo-teaser_v19.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22364"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067368.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067368.shtml"
+    },
+    "https://arxiv.org/abs/2610.22362": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22362v1/method.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22362"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067366.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067366.shtml"
+    },
+    "https://arxiv.org/abs/2610.22355": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22355v1/pipeline.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22355"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067365.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067365.shtml"
+    },
+    "https://arxiv.org/abs/2610.22353": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22353v1/effpath_layerwise_K10.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22353"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067361.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067361.shtml"
+    },
+    "https://arxiv.org/abs/2610.22350": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22350v1/fig4.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22350"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067360.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067360.shtml"
+    },
+    "https://arxiv.org/abs/2610.22344": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22344v1/intro_mle_figure2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22344"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067359.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067359.shtml"
+    },
+    "https://arxiv.org/abs/2610.22343": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22343v1/multiview_forecasting.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22343"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067358.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://arxiv.org/abs/2610.22341": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22341v1/dataset_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22341"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067351.shtml": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/23ED993C2DD5935D95A79720C97E2D78.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067351.shtml"
+    },
+    "https://arxiv.org/abs/2610.22340": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22340v1/teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22340"
+    },
+    "https://arxiv.org/abs/2610.22038": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22038v1/figures/exinterresetphi02r02gausspng.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22038"
+    },
+    "https://arxiv.org/abs/2610.22333": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22333"
+    },
+    "https://arxiv.org/abs/2610.22032": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22032"
+    },
+    "https://arxiv.org/abs/2610.22331": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22331v1/method_v1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22331"
+    },
+    "https://arxiv.org/abs/2610.21756": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.22330": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22330"
+    },
+    "https://arxiv.org/abs/2610.21296": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.21296"
+    },
+    "https://arxiv.org/abs/2610.22328": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22328v1/overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22328"
+    },
+    "https://arxiv.org/abs/2610.21111": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.21111v1/Beta_example.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.21111"
+    },
+    "https://arxiv.org/abs/2610.22327": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22327v1/model_architecture_new.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22327"
+    },
+    "https://arxiv.org/abs/2610.21019": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.21019v1/simulation_size.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.21019"
+    },
+    "https://arxiv.org/abs/2610.22324": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22324v1/images/dist_test_domains_bar.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22324"
+    },
+    "https://arxiv.org/abs/2609.25590": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2609.25590"
+    },
+    "https://arxiv.org/abs/2610.22322": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22322v1/pipeline.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22322"
+    },
+    "https://arxiv.org/abs/2608.00262": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2608.00262v2/SIRF_supdem_USA.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2608.00262"
+    },
+    "https://arxiv.org/abs/2610.22321": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22321v1/main-fig-cropped.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22321"
+    },
+    "https://arxiv.org/abs/2606.14977": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2610.22319": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22319v1/overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22319"
+    },
+    "https://arxiv.org/abs/2606.02769": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2606.02769"
+    },
+    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://huggingface.co/blog/reflection-beam": {
+      "checkedAt": "2026-10-16T19:41:46.447494+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/reflection-beam/thumbnail.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/reflection-beam"
     }
   }
 }
