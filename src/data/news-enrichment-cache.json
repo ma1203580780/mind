@@ -1452,7 +1452,17 @@
     "d8ce8f2476da775fdaf85c42b654a6215d5dc8260f3c06d25783efca067822d0": "引进罗莎琳德学术计划,提供合格的学术实验室,赞助获得GPT-Rosalind,以及推进生命科学研究的工具.",
     "d93e3f11419dd5683455ac42b5de7914fe256d3bed26eb7a87a12b2048e02f2b": "Sullivan& Cromwell将法律专门知识纳入协议审查",
     "aeae0f62bbc751552cdfbd4e77f2f625aa29daafc3ee7278c6b9828ea4f50458": "在OpenAI的协作下,Sullivan& Cromwell开发了协议分析器(Agreement Analysis),这是AI在协议草案中识别问题的工具.",
-    "f244d4463fa2ace3baa28c97854f85aa4beaee0f20b3abb67f76c68a81cebce0": "创新通过它增加的技术改变福利,并改变它给有不同加价的生产者带来的重新分配。当生产者设置标值时,创新者自己的产出和价格调整在差值上没有私人价值,所以再分配只能通过他人的反应才能达到利润.对其市场中规模小的革新者来说,分配效率的变化与其成本节省顺序相同,但在数量或价格竞争下没有达到利润。流程创新者可节省费用,放弃自己和下游增加的产出。"
+    "f244d4463fa2ace3baa28c97854f85aa4beaee0f20b3abb67f76c68a81cebce0": "创新通过它增加的技术改变福利,并改变它给有不同加价的生产者带来的重新分配。当生产者设置标值时,创新者自己的产出和价格调整在差值上没有私人价值,所以再分配只能通过他人的反应才能达到利润.对其市场中规模小的革新者来说,分配效率的变化与其成本节省顺序相同,但在数量或价格竞争下没有达到利润。流程创新者可节省费用,放弃自己和下游增加的产出。",
+    "ef980875ca3bf1ad1935116c0fb5a26d37fe9cf3cd5cad6c2b47410e12b842be": "如何自动创建内容:后续指南",
+    "05bffb6a6d66fb5e7ef1ed746ba1410f853b00f9fa508635d8afdbe9c9fadfa7": "当人们听到“自动内容创建”时,我想他们想象到这样的东西:输入一个关键词,点击一个按钮和poof!写了篇文章并发表所有文章。...多读一下...",
+    "d1a4665c68b1287d12dace987dd3b974fcfdbb774fd9aba122da23091f46b89f": "你的组织是否在干扰AI的收养?",
+    "81580368d7d00a00a8e62f6fcf9fcf3a5044d19b439655299e467b3117c3139f": "数字化改造能教我们什么是人工智能收养?.保罗·博阿格(Paul Boag)重温了他的著作\"数码适应\",以说明过去的经验教训如何帮助各组织渡过AI今天的挑战.- AI - 工作流程 - 商业",
+    "72870505e80d13aff435eda5757e24ec300d99a54ce942d0b4bbec6b2120dfb0": "在线零售商双人双机检查转换",
+    "be9c960ac71ae8808a745e05003d9f566a0c02f6ffe84f89dff33c9adaac9044": "具有专门在线商店组合的电子商务业务如何将不同产品类别的转换翻了一番。",
+    "93ccfeb86f21415b4cd17645975cdcc5f3061a0a24004e81007dd02110a2f628": "全球运动服品牌 打造更清晰的 UX 优先事项 与 Baymard",
+    "05a176d0de0bb3f979819793fa54aee49be006cccdbd3fac4c7563f0b98defdb": "全球运动服品牌使用拜玛德支持研究,设计决策,以及跨市场对接.",
+    "a80bfb173a6e47bb06bc4be32ed988d379ccca0edc3ff7babd0dcd2fdb9d098c": "巴塞尔委员会最后确定在G-SIB框架内处理窗口装潢问题的措施,并就G-SIB方法审查进行磋商",
+    "67870a68618e7ae9cf3dee4a8832b1e41a857a427b798d7b2399cc3c4d4566a4": "巴塞尔银行监管委员会今天公布了最后修正案,以解决在G-SIB框架内的窗口敷装问题,并就G-SIB方法审查进行了协商。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -7352,6 +7362,98 @@
     "https://openai.com/index/sullivan-cromwell": {
       "checkedAt": "2026-10-16T04:57:07.436458+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://ahrefs.com/blog/automated-content-creation/": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "When people hear “automated content creation”, I imagine they picture something like this: Enter a keyword, click a button, and poof! An article is made.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/10/how-to-automate-content-creation-a-by-si-quan-ong-content-marketing.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/automated-content-creation/"
+    },
+    "https://solo.xin/topic/6068": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "大家好。我是个高一学生，花四个月时间自己写代码，做了一个AI项目。他有记忆系统，会成长，目前写了14000多行代码，核心功能已经跑通了。 现在卡在UI设计上。 我能做出来的界面，大概就是DeepSeek、豆包那种水平——左边菜单、中间内容、底部输入框。但我想要的感觉完全不是这样。 我想要的是一种“旧时光”“童年”的氛…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6068"
+    },
+    "https://baymard.com/blog/online-retailer-doubles-checkout-conversion": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "Find out how an ecommerce business with a portfolio of specialist online stores serving different product categories doubled conversion.",
+      "image": "https://cdn.sanity.io/images/eu2al0fk/prd/816e235f044ba727bdcdd36dbd808cd5754c007f-828x645.avif?fit=max&auto=format",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://baymard.com/blog/online-retailer-doubles-checkout-conversion"
+    },
+    "https://baymard.com/blog/global-sportswear-brand-builds-clearer-ux-priorities": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "See how a global sportswear brand uses Baymard to support research, design decisions, and alignment across markets.",
+      "image": "https://cdn.sanity.io/images/eu2al0fk/prd/d1cd00a936dc1eb67fa4105d4ad5419c3096eaf4-828x645.avif?fit=max&auto=format",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://baymard.com/blog/global-sportswear-brand-builds-clearer-ux-priorities"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067211.shtml": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067211.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067162.shtml": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067161.shtml": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067161.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067160.shtml": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "error": "Remote end closed connection without response"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067139.shtml": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067139.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067098.shtml": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067098.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067097.shtml": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067097.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1016/1067096.shtml": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1016/1067096.shtml"
+    },
+    "https://www.bis.org/media-releases/20261016-basel-committee-finalises-measures-address-window-dressing-g-sib-framework-and-consults-g-sib": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "The Basel Committee on Banking Supervision today published final amendments to address window dressing in the G-SIB framework and a consultation on the G-SIB methodology review.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.bis.org/media-releases/20261016-basel-committee-finalises-measures-address-window-dressing-g-sib-framework-and-consults-g-sib"
+    },
+    "https://www.ithome.com/1/013/983.htm": {
+      "checkedAt": "2026-10-16T11:14:58.560516+00:00",
+      "description": "商务部就修订《中国禁止出口限制出口技术目录》公开征求意见，拟新增 AI、生物医药、光伏三大领域 40 项技术，覆盖大模型、智能体、算力集群等方向，同时明确开源、API 调用等情形不纳入管理。##中国出口管制## #人工智能#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/013/983.htm"
     }
   }
 }
