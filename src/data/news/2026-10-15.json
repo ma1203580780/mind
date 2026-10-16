@@ -1064,7 +1064,7 @@
       "category": "经济观察",
       "kind": "论文预印本",
       "title": "Allocative Efficiency and the Returns to Innovation",
-      "summary": "When producers in a network compete in quantities, an innovator's profit contains none of the change in allocative efficiency that its innovation causes, whether a gain or a loss, because its own choices are optimal and other effects on its profit are transfers. A process innovator also forgoes its own and downstream markups on the output its innovation adds at a fixed allocation, worth 14 to 26 percent of its cost saving for U.S. public firms in 2015. For innovators accounting for 68 percent of sales, the change in allocative efficiency exceeds a tenth of the private return. In a Markov R&D g",
+      "summary": "Innovation changes welfare through the technology it adds and the reallocation it causes between producers with different markups. When producers set markups, an innovator's own output and price adjustments have no private value at the margin, so reallocation reaches its profit only through others' responses. For an innovator small in its markets, none of the change in allocative efficiency, which is of the same order as its cost saving, reaches its profit under quantity or price competition. A process innovator is paid its cost saving, forgoing its own and downstream markups on added output. ",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "arXiv · econ.GN",
@@ -1081,7 +1081,7 @@
       "author": "Koki Okumura",
       "contentLanguage": "en",
       "titleZh": "分配效率和创新回报",
-      "summaryZh": "当网络中的生产者在数量上竞争时,创新者的利润并不包含其创新带来的分配效率的变化,无论是收益还是损失,因为其自身的选择是最佳的,对其利润的其他影响是转移.一个进程创新者也放弃了自己和下游对其产出的加价,以固定的分配方式增加,价值占美国成本节省的14%至26%。2015年上市企业.对于占销售额68%的创新者来说,分配效率的变化超过了私人收益的十分之一。在马尔科夫研发g中",
+      "summaryZh": "创新通过它增加的技术改变福利,并改变它给有不同加价的生产者带来的重新分配。当生产者设置标值时,创新者自己的产出和价格调整在差值上没有私人价值,所以再分配只能通过他人的反应才能达到利润.对其市场中规模小的革新者来说,分配效率的变化与其成本节省顺序相同,但在数量或价格竞争下没有达到利润。流程创新者可节省费用,放弃自己和下游增加的产出。",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
