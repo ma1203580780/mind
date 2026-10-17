@@ -1551,7 +1551,11 @@
     "262b253fb44053f2054952d5424e627d9c34120725f3fb416551841844294289": "合成用户对等.人类答复者:相同结论,减去变化",
     "0c65e5e61c5a78b9ea6828084757150f484816165aaa3c3e60f1668fa59f403c": "来自大赦国际的答复者的数据表明,与对604名人类的调查结论相同,但其中的答案却少得多。",
     "338937958e438a33c3d5b3b6cc12dfa056d1d626b60f19861daf814652309b5a": "Itaú如何为整个客户群建立基因AI",
-    "d9c503b181568989f41dce55f8d14e41a1989dcee12157f4ee40610253bb603f": "Itaú将AI第一战略应用于客户和雇员,"
+    "d9c503b181568989f41dce55f8d14e41a1989dcee12157f4ee40610253bb603f": "Itaú将AI第一战略应用于客户和雇员,",
+    "c4756460c7e1c58bf9cbce3d21ed3dc3d941fefa3f19821abf5a1184b8688a28": "ASO.dev (签名)",
+    "0b6904d5ddac3e1bf061580a545e7a61529290f7516696d464f1ad95b98d7b85": "克里斯蒂娜·拉加德:IMFC声明",
+    "b81bc53c4e1ed4132d99eea37c5eb68b6c5599ea59086d56e0db1902e9ce533f": "福利街伙伴用 Codex 更快地回答问题",
+    "b2ef8a05fcc0db6f1c00605049ba32f29b0a3959c5e871647e8ed6584f2d2566": "Anant Kumar构建工具来比较贷款估值和分析信用协议,使用Codex进行代码审查和更快的跟进."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -8058,6 +8062,56 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/f997e52573f4bba9f0ae94cd9e6fb99c.webp",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/503701.html"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068417.shtml": {
+      "checkedAt": "2026-10-17T13:40:31.953794+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068411.shtml": {
+      "checkedAt": "2026-10-17T13:40:31.953794+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068411.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068405.shtml": {
+      "checkedAt": "2026-10-17T13:40:31.953794+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068405.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068404.shtml": {
+      "checkedAt": "2026-10-17T13:40:31.953794+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/760D0D55996DDD43DD4350E4CEF4CA79.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068404.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068401.shtml": {
+      "checkedAt": "2026-10-17T13:40:31.953794+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068401.shtml"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html": {
+      "checkedAt": "2026-10-17T13:40:31.953794+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
+    },
+    "https://www.ithome.com/1/014/371.htm": {
+      "checkedAt": "2026-10-17T13:40:31.953794+00:00",
+      "description": "鄂维南在光华思想力论坛表示，AI 将降低科研门槛，推动科研平权化。同时他还谈及工业软件自主可控、科研体系变革等话题。#人工智能# #科研创新#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/371.htm"
+    },
+    "https://openai.com/index/benefit-street-partners": {
+      "checkedAt": "2026-10-17T13:40:31.953794+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
