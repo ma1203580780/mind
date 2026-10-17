@@ -1537,7 +1537,21 @@
     "b23eea8c14efd96ab8d62c76aedb5969c6f10b1d87b496123c9b1c2ab6512b5c": "提供合同的校长如果其缺省选择足够有吸引力,可能会背弃合同。这种诱惑的大小 -- -- 反过来衡量她的承诺力 -- -- 往往是校长的私人信息。本文询问,在这一信息不对称的情况下,订约结果如何变化。我发现每类主犯的行为和收益 仿佛众所周知她拥有的 承诺力最小因此,隐藏的承诺力量是无能的,尽管在对称的情况下,承诺力量可能是宝贵的。",
     "036f76155d1a969dd436f2d23ab73c5da7f1a05524651f39b11c698713e31ec6": "使用 ChatGPT 插件为代理三重签名堆叠过多流量",
     "bdf50d389c34737a18bd368855d58aa6b0679b819a71210677d5fd9ca63a1586": "两位工程师用Codex在几周内为代理公司运送了Stack Overflow,其ChatGPT插件帮助推动代理公司的创建达到10×增长.",
-    "da925460d221e801d2b8b8ca06b2a9b867f6c3200d32c273c35da58b333a97cf": "欢迎Beam:一个可以拥有,自定义和规模的501B开放模型"
+    "da925460d221e801d2b8b8ca06b2a9b867f6c3200d32c273c35da58b333a97cf": "欢迎Beam:一个可以拥有,自定义和规模的501B开放模型",
+    "746c0247f1bacc5c75a548a595a2061d9289d1fe32dd9916538388938220b7f5": "(单位:千美元)",
+    "290692f7f6247e9b4555203cb6361f12c8a156dba60c89ad328aab098d671eaa": "改变的胜负: 由@dhyltgen在#18500 gguf 中防止孤儿跑车: 由@jmorganca在#18967 中添加 q2_0 起跑器和文件类型 由@jberg5在#19036 中使用标识符在 Ollama's 云中 由@jberg5在#19041 Full Changelog 中添加 q2_0 起跑器 : v0.40.5.v0.40.6-rc0.",
+    "b36ec6dee6776983ac4a527780aa6b93c307c384924c0bb643391ae2aa194bbd": "v0.32.0rc3: [Bugfix] 将Mamba2块扫描内核的NaN输出固定在 sm90上(# 61718)",
+    "953a56f51ea544bc2ba9143e83765891d00e04bd1f07a89e5f25b4b840edcd4d": "作者:Vadim Gimpelson vadim.gimpelson@gmail.com",
+    "3496082814023ea83e8107bce08f76c0b1588cf3ce87df7a83bdb8d6cdf850eb": "v0.40.6-rc1: 转让:支持登记册重定向目标上的代理(# 19065)",
+    "b2df25b375a1f32087130166d8121c7a08e2782736e635630d63200d439fc958": "在代理后,将重定向目标 DNS 推迟至代理;如果没有一个,则保留定点和定点路径.信任默认注册/ CDN主机名,没有本地 DNS 。在blobDownload.release中修复一个零取消Func崩溃.",
+    "60a71b3c39ca3188a98cc014328df74ccbc06b6bb024f08c619a7207c9caa958": "v0.40.6-rc0:从ollama/jberg/clef-question-ids合并拉力请求#19041",
+    "4ca6aee063468b9f754c74c2e7236f0529f8b3e2941fc147938b19f225a33dda": "为 -- sus 模式提问密钥使用标识符",
+    "490a3d19e9712166f959bb464efd2c35e9155abec5c169b9294d73eecdb2e6b5": "UX 地图: 词汇表",
+    "5906b54827312fd93ef37d4f51a6f4d24ce419993f664c1f00b120c64278912d": "使用此词汇表快速澄清与UX地图相关的关键术语和概念.",
+    "262b253fb44053f2054952d5424e627d9c34120725f3fb416551841844294289": "合成用户对等.人类答复者:相同结论,减去变化",
+    "0c65e5e61c5a78b9ea6828084757150f484816165aaa3c3e60f1668fa59f403c": "来自大赦国际的答复者的数据表明,与对604名人类的调查结论相同,但其中的答案却少得多。",
+    "338937958e438a33c3d5b3b6cc12dfa056d1d626b60f19861daf814652309b5a": "Itaú如何为整个客户群建立基因AI",
+    "d9c503b181568989f41dce55f8d14e41a1989dcee12157f4ee40610253bb603f": "Itaú将AI第一战略应用于客户和雇员,"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -7857,6 +7871,193 @@
       "image": "https://huggingface.co/blog/assets/reflection-beam/thumbnail.jpg",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/reflection-beam"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.6": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.6 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.6"
+    },
+    "https://solo.xin/topic/6050": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "大家好，我是林间小雨。 最近终于把三款 Edge 浏览器插件全部跑通了上架流程。回过头看，写代码反而是最简单的一步，真正难的是「做出来之后怎么让人知道」。 先简单介绍一下这三个工具，它们都源于我自己工作时的真实痛点： TabSorter — 一键按域名整理标签页。我每天浏览器要开 50-80 个标签，找东西非常痛苦，…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6050"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.32.0rc3: [Bugfix] Fix NaN output of the Mamba2 chunk scan kernel on sm90 (#61718) · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.6-rc1: transfer: support proxies on registry redirect targets (#19065) · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc1"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.6-rc0: Merge pull request #19041 from ollama/jberg/clef-question-ids · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.6-rc0"
+    },
+    "https://www.nngroup.com/articles/ux-maps-glossary/": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_Mapping__Glossary.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/ux-maps-glossary/"
+    },
+    "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "Data from AI-generated respondents pointed to the same conclusion as a survey of 604 humans but contained far fewer distinct answers.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/Synthetic_Users_vs._Human_Respondents__Same_Conclusion_Less_Variation.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/"
+    },
+    "https://www.ithome.com/1/014/260.htm": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "美国银行业向监管机构警告，AI 智能体可能为了帮助用户获得更高收益，自动将闲置资金转往其他账户，导致银行存款大量流失。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/260.htm"
+    },
+    "https://www.eeo.com.cn/2026/1017/1067629.shtml": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.eeo.com.cn/2026/1017/1067630.shtml": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1067630.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1017/1067627.shtml": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.ithome.com/1/014/249.htm": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "台积电董事长兼总裁魏哲家高喊 AI 需求持续升温，供需缺口仍大，并预告台积电本季美元营收续战创新高，全年美元营收同比增长约 44%。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/249.htm"
+    },
+    "https://www.ithome.com/1/014/239.htm": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "西曼斯自 2025 年 8 月起领导 xAI 销售团队，参与了该公司新一轮面向华尔街客户推广 Grok 聊天机器人的工作。他透露，自己将加入 OpenAI 的网络安全团队，成为 OpenAI 从 SpaceX 旗下 AI 业务招揽的又一名销售高管。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/239.htm"
+    },
+    "https://www.eeo.com.cn/2026/1017/1067597.shtml": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1067597.shtml"
+    },
+    "https://www.ithome.com/1/014/229.htm": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "黄仁勋始终看好 AI 市场前景，以及 AI 对整体经济的推动作用。他预计，大规模硬件投资最终带来的回报将有助于平息市场担忧。“近期一些消息确实引发了市场波动。大家都知道，新闻每天都有，但这些消息不会改变基本面。”",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/229.htm"
+    },
+    "https://www.ithome.com/1/014/209.htm": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "苹果公司昨日（10 月 16 日）更新《App 审核指南》，在最新修订的 1.2 条款中，加强治理针对 AI 内容创作类应用，将 AI 生成的、未经当事人同意的私密图像明确纳入禁止范围。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/209.htm"
+    },
+    "https://www.ithome.com/1/014/193.htm": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "三名知情人士透露，Anthropic 的代表已悄悄向美国国会山的议员推介了一份法案草案，旨在规范前沿人工智能的安全与防务标准。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/193.htm"
+    },
+    "https://openai.com/index/itau-generative-ai": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/503880.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "从搭载物理建模能力的世界模型切入",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/653a6432c0311f60743796b693f1c2c1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503880.html"
+    },
+    "https://www.qbitai.com/2026/10/503865.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "VLA解决“能干”，世界模型解决“想清楚再干”",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/6df3937cf48c8343fa1fa8b99552addd.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503865.html"
+    },
+    "https://www.qbitai.com/2026/10/503861.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "网易首个AI原生语音Agent「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/07e4f3e7c7f87203ccd06c3f6604900d.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503861.html"
+    },
+    "https://www.qbitai.com/2026/10/503843.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "优必选 Thinker-WM在三大公认具身世界模型基准评测中全部拿下第一名",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/4024ee0f62cb323a8003e82646af6535.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503843.html"
+    },
+    "https://www.qbitai.com/2026/10/503829.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/8e3155e91709b9ce75aaa0fdfddb81ea.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503829.html"
+    },
+    "https://www.qbitai.com/2026/10/503815.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "经验没有压缩算法",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/9378f026bf039e090739307899213dc5.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503815.html"
+    },
+    "https://www.qbitai.com/2026/10/503782.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "9.8万元起售，冲刺万台量产",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/fa0bfe8f61dbca1f03c67c94088e1db1.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503782.html"
+    },
+    "https://www.qbitai.com/2026/10/503779.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "10月15日，百度官方公众号发文公布百度世界2026五大亮点",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/ccac26798817217138bce250873e77b2.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503779.html"
+    },
+    "https://www.qbitai.com/2026/10/503756.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "背后是一套通用物理运动平台",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/b0d5e43535cf3c3949665f7b2a5c1f08.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503756.html"
+    },
+    "https://www.qbitai.com/2026/10/503701.html": {
+      "checkedAt": "2026-10-17T04:16:02.568248+00:00",
+      "description": "谷歌就是季节性气候模型公司",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/f997e52573f4bba9f0ae94cd9e6fb99c.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503701.html"
     }
   }
 }
