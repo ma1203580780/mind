@@ -1555,7 +1555,69 @@
     "c4756460c7e1c58bf9cbce3d21ed3dc3d941fefa3f19821abf5a1184b8688a28": "ASO.dev (签名)",
     "0b6904d5ddac3e1bf061580a545e7a61529290f7516696d464f1ad95b98d7b85": "克里斯蒂娜·拉加德:IMFC声明",
     "b81bc53c4e1ed4132d99eea37c5eb68b6c5599ea59086d56e0db1902e9ce533f": "福利街伙伴用 Codex 更快地回答问题",
-    "b2ef8a05fcc0db6f1c00605049ba32f29b0a3959c5e871647e8ed6584f2d2566": "Anant Kumar构建工具来比较贷款估值和分析信用协议,使用Codex进行代码审查和更快的跟进."
+    "b2ef8a05fcc0db6f1c00605049ba32f29b0a3959c5e871647e8ed6584f2d2566": "Anant Kumar构建工具来比较贷款估值和分析信用协议,使用Codex进行代码审查和更快的跟进.",
+    "937b546d457f40588ec089b40a52f708bdea960eb4e2ceb67fd7b817f5728441": "页:1",
+    "ee627ebe46ce57f739a142fec777ca0064f2ced7b634c58bba7f5c3ac4889431": "[Bugfix][Rust Frontend] 修复macOS构建:读取继承的收听器fami...",
+    "7e567ea232e92380ddafd2b6a84938732f179378d86cdeace974c4d44617f2fb": "学习LLM代理和多代理系统",
+    "9baa3709366db1413e6173143128db60c6679903c9893c88fe0ad7dab84af77a": "基于大型语言模型(LLM)的代理和多代理系统通过长视距工具的使用和代理间协作,越来越多地处理复杂的任务.然而,随着执行的展开,这些系统往往偏离总体目标,因为执行资源被浪费并导致不理想的结果,这种失败被称为目标漂移。在这项工作中,我们建议设立一个指导员,监督苍蝇上的执行,当漂流发生时,引导系统回到正轨上.指导员观察执行背景,决定何时以低成本快速途径进行干预,以及如何互动",
+    "a0e4522dc680766e4d07d85fc7668bdf55d7cdcfce6790532d4d089e615c0b08": "相脸游戏",
+    "2f183a663c96773d3fbb34c7b6d1111b2b16bdfd463fdac3b724fd2ca6d832ba": "知识是线性 之前的精益通俗化",
+    "74ab2a11cb6fb5cc4e3541a2efef7e0e50fb61402d0773ae643dc5e5f64ebde7": "并不是所有的事实,一个语言模型都可以回忆起支持进一步学习的同样良好。我们把支持超出自己记忆范围的概括性事实与惰性事实区别开来,前者可以回顾,但并不支持某项任务中的这种概括性。我们通过从现有关系中建立新关系来研究这种区别。取其大陆(巴黎-欧洲)的地标,新的关系然后映射出巴黎-螃蟹.我们细化了新关系模式对于子集主题,",
+    "d3f02dd1d90c4d62c4c748f2922c63d684920268787e0acbb107bd62e67f7ade": "AI Consilium:LLM临床多学科第二意见基准",
+    "dbccf2c2e262a3f1b503b8f51b46af142b5b1d0f14684f7f6c2dbddecb4eaf30": "大型语言模型(LLMS)可以产生对复杂病例的不同诊断,但有用的第二种意见也必须基于事实、临床一致、可操作和安全。我们利用300起诊断性解决的NEJM-MedQA病例制定了多层面基准:110起用于医生参考评级和法官校正,190起用于暂停评价。8个单一模式的管道在自由形式和结构化的临床合理条件下,产生了独立的特定角色意见和互动-consilium报告.一名经医生校准的LLM法官评估了3 040个最终r",
+    "af0551ca83c89bcfbfa7fe7b8161b37b3dfe85f6fe2399ed7600a7f12b89a0f7": "通过随机投影获取私有增强生成",
+    "faaddfa0f3367958a84bb38e44eb09776a04ff32e083ba8b6192a1c47eb77c97": "检索-增强生成(RAG)通过查询外部结构化知识来增强大型语言模型(LLM)的能力.然而,它也可以通过从检索数据库中泄露出敏感信息来引入隐私风险.我们提出了一个简单的方法,通过随机投影来保存RAG系统中的数据存储隐私.通过对数据库嵌入和查询嵌入应用同样的投影,我们的方法可以证明保留了查询和检索项目之间的语义相似性,同时大大地减轻了数据提取攻击。跨越多个RAG架构",
+    "2ab05e0f05d451a2a71a9a4ac9d67932278ffc0b20009972743849ed9477652c": "迈向继续学习:用子空间图宁减轻遗忘",
+    "976506430d85c39be0e0891de1fa267c76277376ec21856f09704e20277cccf7": "大型语言模型(LLMs)通过微调获得新技能,但它会破坏它们已经具备的能力:灾难性的遗忘仍然是持续学习LLMs的一个主要障碍.近期的作品将遗忘与移动重心的多远,以及沿何方向进行微调相接.强化学习和政策提炼等政策性方法避免更新重量矩阵的主要单一方向,从而较少忘记。相比之下,SFT沿着这些方向集中更新,容易被灾难性地遗忘.在这项工作中,我们进入",
+    "a5af874cb9d7e4d61e533eae1c2986f209ee3fe5b38bce52d6ca717f101e9cfd": "精英回放:通过质量-多样性搜索在RL后培训中保留多样化解决方案",
+    "0a40037d6f5fbce5d1cc957329ddf6cac3869ed604974abd7371191ac790696b": "强化学习已成为一种常见的培训后技术,以提高可核查任务方面的法学硕士的准确性。然而,这种培训可以缩小模式可以产生的一套解决办法。有几种方法试图解决这种行为扭曲效应,但它们往往优化不反映正确解决方案多样性的衡量标准.理想的情况是,我们需要一种能够产生多种良好解决方案的模式,而不仅仅是一种可靠的解决方案。我们提出Elite Replay, 一种训练后食谱,培训前",
+    "4e0387cb67b6b8b8d910ca74f6b50b37f879723d3db3003151ee0e233f92cafa": "改进环境不可知编码代理人:脚手架的作用",
+    "075e620c5ddab3572c6674beb14826bedfec506cd8ef30a3211f1c119f6e070a": "更强大的语言模型可能越来越多地为自己构建有用的程序,从而降低开发商提供脚手架的优势.我们调查为什么这一优势继续存在,以及如果不进行针对具体环境的工程,能否改进环境不可知剂。在ARC-AGI-3、AGI Maze和Terminal-Bench上,我们用两个几乎相同的即时变体来评价一个基于Codex的代理。每个变体的部署都使用没有变化的代码、提示和跨环境的通用工具,接收环境信息作为投入。只更改一个指令来鼓励",
+    "fa5973d428071ebaa946fced90c18a9d558d721ac89be20e32e50c982c4ec569": "问更聪明的问题:针对未指定奖励的主动学习",
+    "e7dffc8910a11ac09511e22201f18b838f121a8f9e4b6cba3de660974284d4ee": "奖励学习一般假定人类的投入涵盖对任务很重要的一切.在实际操作中,人类只能同时关注这么多,因此他们的教学自然能捕捉到一些特征——或者任务的各个方面——比其他的要好.先前的研究表明,机器人如何能从教学数据中找出哪些特性没有得到很好的直接监督。但目前的解决办法是要求人类再次尝试,把负担推给已经为传达这些特征而奋斗的人.我们建议把负担转移到机器人身上我们的关键洞察力是同样的信息",
+    "4bd7669739a2ab7379e550a5505082dd077629acb11701be11dff05c77777dc5": "LEASH: 计算机使用代理人的不确定- 意识薄弱- 同步升级和监督",
+    "a0eac7e0dba549ed98f3c6ee82f4534a0468ea4cb23df9d6087efa81e67a43c8": "计算机使用代理人越来越多地处理长视距任务,在这些任务中,每个步骤运行一个前沿模型都是昂贵的,单是小型的开放量级模型往往会失败.弱到强的升级提供了一个中间点,即弱的代理人默认行事,只有在需要时才对强的代理人进行控制。核心挑战在于决定何时升级,这需要一个足够便宜的不确定信号,以检查每个步骤.然而,即使在交接后,强活剂仍然可以丢失,但通常服务于强活剂的黑箱API会暴露出没有内部监控.为此,我们",
+    "6733b0ff7cb92bd67fe369cc6599a9ebb403217f31db34d96937b7047afb6a35": "图书馆代理商:培训LLMs 以 Curate 长文本工作空间,以预想未来查询",
+    "61f041dc7603da54cce9003a217449f5d3cd3283109f9d079ac563fcf1cdde5d": "对大型语言模型来说,由于文件背景长的原因仍然是一个挑战。标准检索方法本质上是被动反应的,在推论时间带有复杂,跨文件推理的阻滞剂,而知识图等预计算出的结构往往会因为依赖僵硬的heuristic而落空.相反,我们能否允许代理人进行预告性定向治疗:在推断前学会主动重组无结构的公司,以高效地服务于各种未来的询问.我们建立在现代干线绳上的关键不对称(例如克洛德码):w",
+    "fd9f7bb1f91521183de444c146121cf42fa639d2b2cc1a99048f9ffb81d75f2d": "X-RIC:加强强化学习的代理RAN-智能主计长基准",
+    "1151834f0425673337959feeb14c2486b3b3c26b84b742eebd3ba39edaa8c055": "O-RANALLIANCE通过分解和AI驱动的控制引入了建筑灵活性.虽然RAN智能控制器(RIC)能够实现集中优化,但目前的AI方法缺乏推理能力和可解释性.我们提出eX-RIC(X-RIC),这是一个将代理AI纳入O-RAN架构的新框架.X-RIC通过下列方式将被动强化学习(RL)与战略代理推理结合起来:(一) 自动行为克隆(BC) 使用域热能进行样本高效培训;(二)一个电信语言模型(TLM),一个基于变压器的Reas",
+    "f3c78a948cace392dad32722964789321c4b8298ee152e1fa2e73b8950ec25f5": "歧见 - 引导的从弱到强跑",
+    "fa980a635ec21c9d952ac5f6750a32b72f2d4f5896d0ab7807bf174b75eb6984": "小型语言模型越来越多地被部署在边缘装置和机器人系统上,以满足成本和耐用性的限制,但其有限的能力却可能使可靠的部署具有挑战性.更强大的模型在需要时可以提供帮助,但决定何时将弱模型响应引向更强大的模型往往依赖于响应正确性的信号.然而,在无限制的、具有特效性的任务中,获取这种信号可能需要昂贵的地面实况监督,而这种监督在规模上很难获得。我们重新审视弱到强的路线的基础,并询问路线决定c",
+    "398285b5b8586698eb94da0200b02cf727f5daa02a9ad6cb702b37c7affb024a": "语言是守护特工的安全表面",
+    "e0f65afa4a339ee37431758400f80a7c6cf3d2f1ae9961c419467b0d6698415f": "阶梯级警卫在每个工具调用之前,根据用户的要求和迄今为止的行走轨迹,决定代理人的下个动作是否安全.用户用多种语言撰写这些请求,而警卫提示和专门建造的警卫的训练和评价基准是英语。我们问警卫的判决是否取决于请求的语言.我们从TS-Bench Agent Dojo-Traj的1,220个标有标有符号的台阶建造了LinguaGuard Bench:我们只将用户指令翻译成德文、法文、土耳其文、斯瓦希里文和阿姆哈拉克文,并且保留每个工具的呼叫、观察和标签字节-代号。",
+    "0ec4fe9639710f690bc44210aed08059d36ee38431514bc7934aa6419c7fceb1": "Agent-Safety评价的敏感性",
+    "835337697a49c8c6df57dacd6475041f15fb91f5c8db4d514e5fa13c6e2bd55c": "AI特工通过工具采取行动.有些行动是敏感的,因此监督它们的警卫必须自己得到可靠的评价.然而,用于评价警卫的数据可以包括使标签具有可预测性的提示,而不测量预期的安全结构,这些提示也可以影响警卫的决定。我们采用了三级快捷审计框架,完成了LinuxArena轨迹和两个TS-Bench衍生步骤数据集的审计。我们区分标签的可预见性、观察护卫关联和对决定的敏感性。在 LinuxArena 中, 较短的平均外壳 Co",
+    "3b0da2618347c88e694103b7c572d1d1d9b99f8ac1c848d909fd3d6986fe2a2e": "培训 -- -- 免费的政策制定",
+    "21cda34f233352216a6f83c552dbe7f76ae64b4939d29e825dc7984a702b1057": "政策上提炼将专业模式整合为一名学生,其价格是推出、教师通行证和每个教师的梯度阶梯。我们显示,合并工作不需要培训:只要有前行通行证,就能够把单独调整的专家的能力汇总成一个模式,平均而言,这个模式比任何一个专家都更准确。当专家共享一个基模型时,蒸馏具有精确的分层溶液:被熔接模型的每个线性分层必须复制专家在读取自身输入时获得的输出.",
+    "0fcfcc0c50f80604c4a290ac2b84e2bf1af5768846360548a5128b97665f1db7": "OS-Helix: 统一本地计算机用户界面交互和代码执行",
+    "c2ac9c0ec8ff9fbee66a4e17460bd9e24631f892a5a9b99189c6900f183c17a8": "真正的桌面自动化既不是纯粹的视觉的,也不是纯粹的程序性的.代理必须了解用户界面,同时高效地操纵文件,脚本和系统状态.然而,本地的GUI/代码协调无法通过即时级工具组成来获得.在我们的初步实验中,天真地添加一个代码工具会降解一个GUI代理,揭示出GUI/代码的路由必须通过高质量的混合数据培训进行内部化.我们介绍OS-Helix,这是经过端到端训练的多式计算机使用代理,统一了GUI在一个动作空间中的动作和代码执行.改为c",
+    "db57744b006f63180c3fd83b926e207f76fba88ebbe9e58d16e7dbeca5615725": "统一愿景-语言模式政策专家扭曲",
+    "d31be0e704fe58f8a301559aa623a5540d62e9cfec3748714fc20ce76b9256fc": "强化学习(RL)在视觉语言模型(VLMs)中可以吸引专门的视觉能力,但共同优化不同的目标往往引入跨能力梯度冲突.培训专家可以独立地减轻这种干扰,但直接奖励的优化可能会将专门知识缠住,造成奖励的偏见。本文提出了技能减低政策专家消化(SCOPED)的建议,通过奖励指导的反思,培训有具体能力的专家并提取明确的技能。在政策提炼过程中,这些技能指导专家u",
+    "1116948810ee605d756d05a0d3bc35bdfe1477c10f6560a3463e57e70b284569": "GNN- Guided 本地优化高效布局解析与DSA- MP",
+    "8ddaa9acdce5542b24a1dec2b18c4c782fa5641cc3908acea79599f5e19d7398": "TRACE: 地形学- 智能通过预测- 辅助连接执行重新连接到稀有结构分割",
+    "4b4edce84b25d932edfa3fc9d10410d80311855159f8ff7f18668752cafe260d": "细长的结构对连通性错误特别敏感,因为即使是少数局部分化错误也会打乱否则会连续的路径.现有基于骨架的目标通常监督固定中线位置,不考虑可能恢复连通性的其他当地路线。我们提出TRACE,一个具有地貌意识,预测适应性的目标,它使用目标骨架来定义所需的局部连接.对于每个连接,TRACE根据当前预测确定最简单的有效再连接,并联合监督其瓶颈与共线",
+    "df808cfa7e53591481ddb70192f3f0f3275a428da68868c2595b4e5e71353fe6": "超越下游QA:反思我们如何评价代理记忆",
+    "d9261542a5f8f9c65611b8371d5104e36fb5d48a22310c7a468ca3ba6c67a30d": "代理内存基准评价一个代理的答复是否反映正确的知识,测量下游的问答准确性作为内存质量的代用.我们显示这个评价范式是不完整的:它将内存的正确性与检索和生成质量混为一谈,产生假阳性,正确反应掩盖了内存被破坏,而错误反应则将正确的内存归咎于检索失败.我们采用FEB-30, 由30个事实演进轨迹构成的基准 包括6个诊断类别和3个难度级别,通过paradi构建",
+    "a460661d26566495753243db14ccc8c7e31835416c5d0d61372dcd15bc0b60c8": "通过顺序拍卖分散的 LLM 工作流程",
+    "94f575fa0c5d0d712e27522fd86dac2363e4db56e4e78d333319f3a38d1e680c": "我们提出一个可扩展的框架,以便通过分散的自利机构市场解决多步骤的任务。先前的理论工作表明,通过相继拍卖组织起来的代理人可以在马尔可夫的决策过程(MDP)中趋同为全球最佳政策,但依赖于将完美克隆人的存在作为完美竞争模式的限制性假设.在现实中,精确的克隆将代理利润推向了零,违反了参与者的自然风险回报激励.相反,我们的经验证明,相反的极端,缺乏竞争,a",
+    "6353441cd8eef38ed313462c7c72789ecbe6d0921e5260261feb0a2ab243b373": "HTN-管弦乐团:多代理管弦乐团的分级任务网络框架",
+    "5103da386cc8b8426199a095a21f5a0b0abe3716ea5d69f85fabe0835264397e": "对复杂任务的多个代理人进行管束,需要协调本地子任务执行与全球任务规划.动态调度方法提供了执行的灵活性,但没有明确模式子任务分级或依赖性,而预定义的工作流程强制这种结构,但在执行开始前固定分解.因此,我们引入了HTN-Orchestrate,这是一个通过分级任务网络(HTN)来划分这些责任的双层框架.规划员维持次级任务的等级和依附关系,将分解推迟到最终结果",
+    "b6bab1119314940484a41aaff227f06d323e43ee1ac43cdd7b72fa26351b3e83": "AutoSFT: 监督精细操作中自动数据研究代理系统",
+    "4f1070879215171b0af4ae242f02671820603b8dec2f3c1293fe2321ff3a745c": "语文模型代理人越来越多地使培训后自动化,但如果有了完整的培训堆,他们就集中到有监督的微调上,并花费了大部分精力修订培训数据。现有系统给予代理一种控制,从固定池中选择行或调用发电机,而人类数据工程师则会调整比例,棱镜,修复,替换并合成数据.我们为这些变化设计了一个数据行动空间,并询问一个自动化系统是否能够使整个范围而不是其中一个范围,以及需要什么样的结构.我们先用单人循环",
+    "e76f8a8ef694e64e3dc746901acb5ccb1438a9d8a71aa418392d2ecf5bf1f17d": "Terminal-RSI: 递归自我改进终端代理通过递归自我改写和政策参考",
+    "79052967bf3afdac60ce6617c6e6c661e5a6e7f84800301caf9c41d79f0432a7": "将核实结果转化为有用的政策更新和部分进展转化为全面的任务解决对于终端代理机构至关重要。我们介绍 \" 终极 \" (RSI),它用批评者 -- -- 继承政策 -- -- Refine(RPR)取代经核实的轨迹的 \" 自我改写 \" (RSR)。我们制定转弯-边框跳动-观测GAE(TB-GAE),以保留特定符号的基线,同时在交互转弯之间应用衰变.家庭奖励(FDR)将任务家庭的语义进展校正;成功优先奖励(SPR)将严格的成功与受约束的部分信贷区分开来.温暖",
+    "75a881f0a908066be62f1f13880ac57c1be832424c28264e3829f688f7cecd4d": "更改数字, 更改答案: 评估基于 LLM 的文本校正中的分级灵敏度",
+    "9bb1870a822d20658298992fd5950e2d7a571324fb50cd879066294a46069734": "大型语言模型(LLMs)被越来越多地用于计算社会科学,为社会和心理构造分配分数.然而,研究使用不同的分级表,其分数是否仍然在尺度设计上具有可比性,但研究不足.为了弥补这一差距,我们界定并系统调查了尺度敏感性,即评级尺度设计造成的LLM生成分数的变化.我们区分出数值灵敏度,常态分数的变化,从语义灵敏度,分数解释的变化.为了评估两者,我们的实验设计交叉",
+    "b07f4d84dfff0f68ee1bc39871a9fc7f7c076aad28656b9895f33177a80478f9": "整体- Body Dexterality (英语).",
+    "3dbad3537a74086cfdc9e8f8a6323c4de86f806a11472187fea9872b448d414d": "目前的人体活性畸形操纵在很大程度上仍然局限于最终效应器和简单的抓取,没有达到人类通过对臂和躯干进行弯曲和滑动而接触全身的能力.我们引入了All-Body Dexterity(WBD),这个总框架使用机器人的身体和附件作为接触面来抓取和操纵物体.我们的直取真管首先生成一套可行的全体接力的数据集,然后通过采样初始和目标接力从d对接方式,就任何对接任何一般的再定位目标,培训强化学习专家.",
+    "1714ce2f6f2b608153cc2ba24f0a94a2754aba7474c9cf806bd2a9768c321a64": "移动和重力- 软件 FeedForward 3D 重建",
+    "4e03d81f4707e7ebc16b99ac35e9b8a1f3f6329d60e2fd0ad79466e27101d0ff": "Feed-forward变压器模型在多视三维重建中最近取得了很强的性能,但它们仍然主要依靠外观上的注意,并经常以微弱的几何提示在动态场景中挣扎.在这项工作中,我们在 \" 利用保密信息学习 \" 范式下引入了运动和重力意识框架。在训练期间,提供剩余光学流和重力方向作为特权信号来指导几何表达学习;在推论期间,模型只使用标准视觉输入.我们把这些前科合并到转录器中",
+    "360c582a5906b7c83833176e7d4cc807b2c8f8a3374606b292195f729d8ddfdc": "Mosaic:多会代理强化学习",
+    "ea59f389277531ab2aa1343fc65c02127b2f39bb22368882c71cb9ea3364b689": "大多数现有的促进性强化学习方法都假定单会场轨迹,相互作用在一个不断积累的背景下进行。然而,上下文收缩和分试剂等代理技术可能会产生跨越多个会话的轨迹,造成单会话培训假设和推论时间执行之间的不匹配.因此,我们引入了多场会议代理强化学习,这是一种较一般性的环境,支持在轨迹范围内任意举行多场会议。在这种背景下,一种广泛采用的方法是:",
+    "dbd83556611321926d9152a8db4b3cdc165e4d0fc7b81f007e2729b3c956ae9f": "非母语英语演讲学生多来源AI导师",
+    "d90b9485f96720ec490f3e4775a3eec00af15ee31b8d559e7576bca292362aa6": "大型语言模型(LLMs)被越来越多地作为计算教育的教学工具,特别是用于培养能够回答学生问题的AI导师.随着国际学生在计算课程中的入学率的上升,研究人员开始探索非母语英语学生在计算课程中由于语言障碍而面临的困难.为了帮助这些学生,我们开发了一个通用AI辅导系统,能够用外语(目前侧重于普通话)处理学生问题,并提供双语回答.阴",
+    "e3da5e5231c6dac769c7e4c66b0e55a40d4285078edc56a97dd088b655d57e81": "EMO:通过换代上下文优化和逻辑引导的闭环测试-时间计算框架",
+    "d4bdee7d864de3b2d8c131c6ef8d38e14907c9fe78752fc2ab8f0698cc3c39cf": "测试时间上下文优化通过文字反馈来适应被冻结的语言模型,但普通的有条件生成对于如何强力地强化由上下文更新所引发的分布变化没有单独的控制.我们引入了EMO,这是一个无培训框架,其灵感来自预期-最大化,即替代特定问题背景估计(E-step)和分配完善(M-step)。E步修改了一个系统上下文,使用外部法官的文字梯度,而无法获得黄金答案。M步对比了订正版下的下接吻分布"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -8112,6 +8174,293 @@
     "https://openai.com/index/benefit-street-partners": {
       "checkedAt": "2026-10-17T13:40:31.953794+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.32.0": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.32.0 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
+    },
+    "https://www.ithome.com/1/014/370.htm": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "OpenAI 此前称 AI 用 88 小时破解千禧年难题纳维-斯托克斯方程，如今研究方法、AI 贡献、成果归属均遭学界质疑，目前数学界仍在审查验证相关内容。#OpenAI #纳维-斯托克斯方程",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/370.htm"
+    },
+    "https://w2solo.com/topics/8608": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8608"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068422.shtml": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/2A90DBA97ED70143EEC61CAF71BF1C67.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068422.shtml"
+    },
+    "https://w2solo.com/topics/8607": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8607"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-17/": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "Jockey by TwelveLabs：你的视频库：有序、可搜索、易于理解。；Harness by Autonomous：每一个编码代理，每一台机器，统统由一个指挥中心控制。；Tesla Roadster：会飞的超级跑车；SignWith：无需订阅的电子签名。按文件计费。；Pomerado：将任何网站转变为API；更快、更可靠的浏览器使用体验",
+      "image": "https://decohack.com/producthunt-daily-2026-10-17/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-17/"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068396.shtml": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068396.shtml"
+    },
+    "https://arxiv.org/abs/2610.22316": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22316"
+    },
+    "https://w2solo.com/topics/8606": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8606"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068395.shtml": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/2A90DBA97ED70143EEC61CAF71BF1C67.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068395.shtml"
+    },
+    "https://arxiv.org/abs/2610.22300": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22300"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068394.shtml": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068394.shtml"
+    },
+    "https://arxiv.org/abs/2610.22298": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22298"
+    },
+    "https://www.eeo.com.cn/2026/1017/1068318.shtml": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/D017F3F72FB66987B765F324E1C963F5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1017/1068318.shtml"
+    },
+    "https://arxiv.org/abs/2610.22297": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22297"
+    },
+    "https://arxiv.org/abs/2610.22293": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22293v1/fig_teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22293"
+    },
+    "https://arxiv.org/abs/2610.22290": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22290v1/case_studies_bird.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22290"
+    },
+    "https://arxiv.org/abs/2610.22289": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22289v1/figures/agent_architecture.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22289"
+    },
+    "https://arxiv.org/abs/2610.22285": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22285v1/corl_main_figure_revised.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22285"
+    },
+    "https://arxiv.org/abs/2610.22280": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22280v1/overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22280"
+    },
+    "https://arxiv.org/abs/2610.22273": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22273v1/teaser_v2_workspace.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22273"
+    },
+    "https://arxiv.org/abs/2610.22269": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22269v1/Figs/OTA.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22269"
+    },
+    "https://arxiv.org/abs/2610.22245": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22245v1/population-plots-main-all3Datasets.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22245"
+    },
+    "https://arxiv.org/abs/2610.22244": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22244"
+    },
+    "https://arxiv.org/abs/2610.22243": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22243"
+    },
+    "https://arxiv.org/abs/2610.22236": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22236"
+    },
+    "https://arxiv.org/abs/2610.22234": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22234v1/method_v3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22234"
+    },
+    "https://arxiv.org/abs/2610.22217": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22217v1/mopd.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22217"
+    },
+    "https://arxiv.org/abs/2610.22214": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22214v1/DSAMP_demoV5.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22214"
+    },
+    "https://arxiv.org/abs/2610.22210": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22210v1/summary.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22210"
+    },
+    "https://arxiv.org/abs/2610.22209": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22209"
+    },
+    "https://arxiv.org/abs/2610.22201": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22201v1/success_rate_cc_vickrey_first_price_vickrey_num_competitors=4.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22201"
+    },
+    "https://arxiv.org/abs/2610.22195": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22195"
+    },
+    "https://arxiv.org/abs/2610.22194": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22194v1/AutoSFT_V26.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22194"
+    },
+    "https://arxiv.org/abs/2610.22192": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22192v1/terminal_rsi_overall_from_ppt.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22192"
+    },
+    "https://arxiv.org/abs/2610.22187": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22187v1/scale_sensitivity_design.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22187"
+    },
+    "https://arxiv.org/abs/2610.22184": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22184v1/figures/method_new_v5.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22184"
+    },
+    "https://arxiv.org/abs/2610.22177": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22177v1/figures/pppg1_2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22177"
+    },
+    "https://arxiv.org/abs/2610.22174": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.22174v1/teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.22174"
+    },
+    "https://arxiv.org/abs/2610.22163": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22163"
+    },
+    "https://arxiv.org/abs/2610.22160": {
+      "checkedAt": "2026-10-17T20:30:36.844134+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.22160"
     }
   }
 }
