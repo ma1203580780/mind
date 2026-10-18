@@ -1628,7 +1628,9 @@
     "cc9f496b3f54936b89f87342b22b833275889397fc29c5a0a63a6aecd289da69": "在你运送的材料中设计",
     "e5c02f27c988f02a1bb94e75c734236a0e7860e8deaf3165930a8367d91f6502": "设计者应该理解一个建筑师理解石头的方式:它能做什么,而不是如何切割.AI现在做剪接。设计文件中和浏览器中有真实数据的同一张卡.图片来自作者.在\"喷泉\"早期,霍华德·洛克因拒绝以借入的风格设计被逐出建筑学校.院长请他解释自己,Roark给了他一条规则:“用一种物质做什么,绝不能用另一种物质做什么。没有两种材料是相似的。地球上没有两个地点是相同的。任何两所建筑的目的都不相同.pur",
     "963f26acb2c3466c18ddb99d6d5225f22c72347e137e2cd172236f3888712751": "一千天的口香糖爆米花",
-    "8bf8eafd5039fb6c6f9fdd2ff5e23a93bc6457a6dc7b72ba20723543d6a9c761": "一个健身房,一个晨间电台广播, 以及一个连续的计数器都是一个问题的答案:当你..."
+    "8bf8eafd5039fb6c6f9fdd2ff5e23a93bc6457a6dc7b72ba20723543d6a9c761": "一个健身房,一个晨间电台广播, 以及一个连续的计数器都是一个问题的答案:当你...",
+    "39ff3fe2d9280a4d0f4226a4ae3de0b9491bf1cbb808f9314c25f0e3583e7ec1": "如何用人工智能建立品牌基础而不失去你的手艺",
+    "ff1aeabb5f1bf76781bf55c21018d8243f6ab38518e52cdab774864f587d1d8e": "这就是如何利用克劳德和少数护栏来构建一个开发者尊重的设计系统,而客户们实际上可以运送.继续阅读 UX 集体"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -8584,6 +8586,52 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/014/519.htm"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-18/": {
+      "checkedAt": "2026-10-18T20:34:44.458018+00:00",
+      "description": "NitroStack：在一个地方构建、测试和部署MCP服务器。；Caldera：你的 Obsidian 库就像一个活生生的个人档案和互联的知识花园。；Notion: Context for your agents：在不重新解释工作的情况下切换AI助手。；Emochi：通过艺术和科学了解自己：声音日记；Train with Pasta：由苹果智能驱动的私人教练",
+      "image": "https://decohack.com/producthunt-daily-2026-10-18/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-18/"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069406.shtml": {
+      "checkedAt": "2026-10-18T20:34:44.458018+00:00",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    },
+    "https://www.qbitai.com/2026/10/504136.html": {
+      "checkedAt": "2026-10-18T20:34:44.458018+00:00",
+      "description": "让人人都能自由创造并体验可交互世界",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/e940aae068fe6a066f5a0fdd2224ebbe.gif",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504136.html"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069405.shtml": {
+      "checkedAt": "2026-10-18T20:34:44.458018+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069405.shtml"
+    },
+    "https://www.qbitai.com/2026/10/504116.html": {
+      "checkedAt": "2026-10-18T20:34:44.458018+00:00",
+      "description": "买AIPC就选联想YOGA。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/8972cd675bee2a056654fb8c877185b5.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504116.html"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069404.shtml": {
+      "checkedAt": "2026-10-18T20:34:44.458018+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069404.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069403.shtml": {
+      "checkedAt": "2026-10-18T20:34:44.458018+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069403.shtml"
     }
   }
 }
