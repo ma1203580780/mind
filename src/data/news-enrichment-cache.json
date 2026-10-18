@@ -1617,7 +1617,11 @@
     "dbd83556611321926d9152a8db4b3cdc165e4d0fc7b81f007e2729b3c956ae9f": "非母语英语演讲学生多来源AI导师",
     "d90b9485f96720ec490f3e4775a3eec00af15ee31b8d559e7576bca292362aa6": "大型语言模型(LLMs)被越来越多地作为计算教育的教学工具,特别是用于培养能够回答学生问题的AI导师.随着国际学生在计算课程中的入学率的上升,研究人员开始探索非母语英语学生在计算课程中由于语言障碍而面临的困难.为了帮助这些学生,我们开发了一个通用AI辅导系统,能够用外语(目前侧重于普通话)处理学生问题,并提供双语回答.阴",
     "e3da5e5231c6dac769c7e4c66b0e55a40d4285078edc56a97dd088b655d57e81": "EMO:通过换代上下文优化和逻辑引导的闭环测试-时间计算框架",
-    "d4bdee7d864de3b2d8c131c6ef8d38e14907c9fe78752fc2ab8f0698cc3c39cf": "测试时间上下文优化通过文字反馈来适应被冻结的语言模型,但普通的有条件生成对于如何强力地强化由上下文更新所引发的分布变化没有单独的控制.我们引入了EMO,这是一个无培训框架,其灵感来自预期-最大化,即替代特定问题背景估计(E-step)和分配完善(M-step)。E步修改了一个系统上下文,使用外部法官的文字梯度,而无法获得黄金答案。M步对比了订正版下的下接吻分布"
+    "d4bdee7d864de3b2d8c131c6ef8d38e14907c9fe78752fc2ab8f0698cc3c39cf": "测试时间上下文优化通过文字反馈来适应被冻结的语言模型,但普通的有条件生成对于如何强力地强化由上下文更新所引发的分布变化没有单独的控制.我们引入了EMO,这是一个无培训框架,其灵感来自预期-最大化,即替代特定问题背景估计(E-step)和分配完善(M-step)。E步修改了一个系统上下文,使用外部法官的文字梯度,而无法获得黄金答案。M步对比了订正版下的下接吻分布",
+    "ab5504c62256fa38c23877c3f1d19633c5bb326c0a942cd4e760d2d6124ad0fa": "多种图案立体法(MPL)被广泛用于改进高级节点的立体法分辨率,但随着特征尺寸的缩小,它面临着成本限制.定向自组装(DSA)提供了成本效益高的辅助,将光学平面学的分辨率扩大到子-10纳米及以上.将DSA整合到MPL(DSA-MP)中,进一步提高了接触/通过模式化的分辨率.尽管如此,设计日益复杂,暴露出现有分解方法的局限性,这些方法难以平衡溶液的质量和运行时间,忽视了DSA Tel的边对边间隔限制",
+    "b68eec6ecd9e832ef63837dae260ad0560c49313f387a0fd0e921f3ef0c6ba6d": "页:1",
+    "45b7ae2d9c486824f6e76d98f3f6de992c3bfd3fdeeee1782553902144c65d4b": "由@dhiltgen在#19072 Full Changelog:v0.40.6...v0.40.7-rc0中推论推测型态。",
+    "055a9f1db23390bc439b67ea8c10d903f9a54a608f872496d87a3d30ecdf3387": "数字化改造能教我们什么是人工智能收养?.保罗·博阿格(Paul Boag)重温了他的著作\"数码适应\",以说明过去的经验教训如何帮助各组织渡过AI今天的挑战."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -8461,6 +8465,76 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://arxiv.org/html/2610.22160"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.7 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.7-rc0"
+    },
+    "https://www.eeo.com.cn/2026/1018/1068711.shtml": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1018/1068711.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1018/1068710.shtml": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1018/1068710.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1018/1068617.shtml": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1018/1068617.shtml"
+    },
+    "https://www.ithome.com/1/014/439.htm": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "早川英树称，随着现代商业通用游戏引擎的成熟与用户生成内容（UGC）模式的普及，游戏制作的准入门槛在此前就已大幅下降。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/439.htm"
+    },
+    "https://www.qbitai.com/2026/10/504067.html": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "新版本V4.1-Flash-1017，还开放了自研搜索API",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/6a06814e828a630b2f6fdc2217b7d006.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504067.html"
+    },
+    "https://www.qbitai.com/2026/10/503965.html": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "AI的风还是刮到了法律圈",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3e6c43ec3cd15ad4adfc6f9dea7e2181.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503965.html"
+    },
+    "https://www.qbitai.com/2026/10/503935.html": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "整套系统原生支持MCP",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/9b38ea6a063d1bfdac142b672ca73e10.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503935.html"
+    },
+    "https://www.qbitai.com/2026/10/503910.html": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "谜底指向时间",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/6fbd9b2f20f602f8cc809229804068be.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503910.html"
+    },
+    "https://www.qbitai.com/2026/10/503893.html": {
+      "checkedAt": "2026-10-18T04:21:26.328907+00:00",
+      "description": "通往全球市场的超级跳板",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/173b6b07be652d87f3c40947e520fffd.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/503893.html"
     }
   }
 }
