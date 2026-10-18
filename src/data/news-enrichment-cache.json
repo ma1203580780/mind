@@ -1621,7 +1621,14 @@
     "ab5504c62256fa38c23877c3f1d19633c5bb326c0a942cd4e760d2d6124ad0fa": "多种图案立体法(MPL)被广泛用于改进高级节点的立体法分辨率,但随着特征尺寸的缩小,它面临着成本限制.定向自组装(DSA)提供了成本效益高的辅助,将光学平面学的分辨率扩大到子-10纳米及以上.将DSA整合到MPL(DSA-MP)中,进一步提高了接触/通过模式化的分辨率.尽管如此,设计日益复杂,暴露出现有分解方法的局限性,这些方法难以平衡溶液的质量和运行时间,忽视了DSA Tel的边对边间隔限制",
     "b68eec6ecd9e832ef63837dae260ad0560c49313f387a0fd0e921f3ef0c6ba6d": "页:1",
     "45b7ae2d9c486824f6e76d98f3f6de992c3bfd3fdeeee1782553902144c65d4b": "由@dhiltgen在#19072 Full Changelog:v0.40.6...v0.40.7-rc0中推论推测型态。",
-    "055a9f1db23390bc439b67ea8c10d903f9a54a608f872496d87a3d30ecdf3387": "数字化改造能教我们什么是人工智能收养?.保罗·博阿格(Paul Boag)重温了他的著作\"数码适应\",以说明过去的经验教训如何帮助各组织渡过AI今天的挑战."
+    "055a9f1db23390bc439b67ea8c10d903f9a54a608f872496d87a3d30ecdf3387": "数字化改造能教我们什么是人工智能收养?.保罗·博阿格(Paul Boag)重温了他的著作\"数码适应\",以说明过去的经验教训如何帮助各组织渡过AI今天的挑战.",
+    "9acbc520f0d880448e65eac0a1a458f6a0ebc8b5aad6e1e6b7ddf53846383684": "v0.32.0 突出此发布功能 814来自363名贡献者(121名新贡献者)承诺!结构化决定和通用解析器:新POST /v1/systemone endpoint回答选择,名词和分数问题在一个结构化状态(#59299)上,默认服务(#60677,#60696),同时运行在Cloudflare/clef-omni(#61064),LiquidAI/d1-3B(#60676)和DifmusionGemma(#60466)上.新的hf工具与推理解析器(-tool-call-parser hf,-Reasoning-parser hf)读取了检查站的响应_template,因此模型使它不需要模型特定的解析器(#58604,#58602),以b.",
+    "59faea2cf27844e631dc47059b830fb2548839d44e74b6af91a3c20e4a464ca9": "v0.32.1rc0 (中文(简体) ).",
+    "73a43d99fefb74acd2462e5b78a0b4e171e458e39eb998ee1ea11b9ac9eaad4f": "[Doc][RL]记录训练员的权重转移 HTTP 协议...",
+    "cc9f496b3f54936b89f87342b22b833275889397fc29c5a0a63a6aecd289da69": "在你运送的材料中设计",
+    "e5c02f27c988f02a1bb94e75c734236a0e7860e8deaf3165930a8367d91f6502": "设计者应该理解一个建筑师理解石头的方式:它能做什么,而不是如何切割.AI现在做剪接。设计文件中和浏览器中有真实数据的同一张卡.图片来自作者.在\"喷泉\"早期,霍华德·洛克因拒绝以借入的风格设计被逐出建筑学校.院长请他解释自己,Roark给了他一条规则:“用一种物质做什么,绝不能用另一种物质做什么。没有两种材料是相似的。地球上没有两个地点是相同的。任何两所建筑的目的都不相同.pur",
+    "963f26acb2c3466c18ddb99d6d5225f22c72347e137e2cd172236f3888712751": "一千天的口香糖爆米花",
+    "8bf8eafd5039fb6c6f9fdd2ff5e23a93bc6457a6dc7b72ba20723543d6a9c761": "一个健身房,一个晨间电台广播, 以及一个连续的计数器都是一个问题的答案:当你..."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -8535,6 +8542,48 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/173b6b07be652d87f3c40947e520fffd.webp",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/503893.html"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0": {
+      "checkedAt": "2026-10-18T13:57:26.045375+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.32.1rc0 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.32.1rc0"
+    },
+    "https://www.eeo.com.cn/2026/1018/1069248.shtml": {
+      "checkedAt": "2026-10-18T13:57:26.045375+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1018/1069248.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1018/1069114.shtml": {
+      "checkedAt": "2026-10-18T13:57:26.045375+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/2AC55521B03D98001293C079A61EA2B5.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1018/1069114.shtml"
+    },
+    "https://www.ithome.com/1/014/574.htm": {
+      "checkedAt": "2026-10-18T13:57:26.045375+00:00",
+      "description": "据报道，微软近期终止了 Nscale 位于英国埃塞克斯郡劳顿的数据中心项目，但双方均未回应原因。##微软## #Nscale# 此次合作变故恰逢 Nscale 筹备赴美 IPO 之际。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/574.htm"
+    },
+    "https://www.ithome.com/1/014/522.htm": {
+      "checkedAt": "2026-10-18T13:57:26.045375+00:00",
+      "description": "孟樸在沈阳人工智能大会上表示，未来 AI 将走向云端与边缘协同，终端侧 AI 在手机、PC、汽车、机器人等设备上的作用愈发关键；智能体 AI 正推动行业从应用为中心迈向智能体为中心。##高通## #终端侧AI#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/522.htm"
+    },
+    "https://www.ithome.com/1/014/519.htm": {
+      "checkedAt": "2026-10-18T13:57:26.045375+00:00",
+      "description": "Anthropic 正与法律机构讨论 AI 智能体如何替用户谈判，包括砍价、处理纠纷或薪资谈判，并探索用签名文件明确委托规则。##AI智能体## #Anthropic#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/519.htm"
     }
   }
 }
