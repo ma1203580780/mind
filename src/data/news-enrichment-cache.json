@@ -1690,7 +1690,20 @@
     "ee4d90bb2ec03576117b4d87ab2a5cfea3aa608fcd959c0428004da60a4c4248": "VISTA:从少数调查答案中推断出具有LLMs 后期用户值的指导性课程",
     "d158216a8bd6c77a00a16d72229e035fee5a4b921e3571ac9fcbf8e5d9101819": "将一种语言模型个性化,需要知道一个人所珍视的是什么,这在各种任务之间基本一致。然而,大多数方法要么学习特定任务偏好,要么将用户的配置置于即时,模型会为此而挣扎.我们引入了VISTA(Value-Informed Directoring and Goald Agreeting),从用户的(完整或部分)调查答案推断出潜在的剖面图,并通过超网络将剖面图映射到被冻结的LLM中针对用户的定向干预中,以选择答案选择或生成自由文本响应.同样的证据,VISTA匹配或是",
     "fdfc23367f2244ad425733152567e4133b82dcd546d9dda55c103d72fcc84b92": "理解大语言模型中的替代机制",
-    "c1b51797c0ad94efba47e3b45302e0916511fc3971b4b6420a8cbfac9bcbe23b": "利他主义是人类社会的根本,可以促进合作和社会凝聚力。虽然最近的研究表明,大型语言模型(LLMS)可以展示出人相类的亲社会行为,但产生这种行为的基本机制仍然不清楚.我们利用稀有的自定义码器(SAEs)来识别一组功能,这些功能有助于LLM在Dictator游戏中的利他主义选择.我们显示,对这些特征的干预大大改变了模式的分配,并在其他几种社会决策中产生了类似的效果。这些结果共同将模型联系起来"
+    "c1b51797c0ad94efba47e3b45302e0916511fc3971b4b6420a8cbfac9bcbe23b": "利他主义是人类社会的根本,可以促进合作和社会凝聚力。虽然最近的研究表明,大型语言模型(LLMS)可以展示出人相类的亲社会行为,但产生这种行为的基本机制仍然不清楚.我们利用稀有的自定义码器(SAEs)来识别一组功能,这些功能有助于LLM在Dictator游戏中的利他主义选择.我们显示,对这些特征的干预大大改变了模式的分配,并在其他几种社会决策中产生了类似的效果。这些结果共同将模型联系起来",
+    "0abeea33b9f25b28e660070feb29c4dacaae7fc065a18a77460c42a76aa57e22": "7 以后在 2026 年尝试的替代品( 免费 + 付费)",
+    "2907f0fd34dc59cb95bfa74cfd0c51dcb072af3f8f48d69365364d0da7b522e5": "想从后世继续前进吗?这里有7个后期的替代品值得在2026年尝试——免费和付费的选项,诚实的定价和特征分解.",
+    "b5280ccdc091e56fd098a444f80bbdc1589c41ec401cfde687a67932b89e459d": "Best Time to Post on Facebook—来自14M 帖子的新数据",
+    "cbece69498817837bce9c817e756712c6e63212b7dfa1b453e079b6b07f55867": "我们分析了1400万个脸书帖子,",
+    "b0d63b85070130836139ecfc8dfa0769028a449b563d11dcbf50e4765f632c17": "为什么设计(仍然)很重要, 味道不是方法, 借斜坡",
+    "fe95b1664b422836d56b3a42e5e8fe7809c8dedd063e61b38be7df50a2e8b454": "每周为设计者——思想家和制造者——提供资源。AI公司在过去的一年里雇用了远期部署的工程师:坐在客户团队里面的工程师,第一手听到问题,然后乘船与之对抗.有1 000个上市者发现该角色在一年中增长1 165%。今年我为自己的新闻室做了一个版本的工作,没有标题,它改变了我对倾听的想法。听到两个钟声谛听应慢.应迅速作出反应。没有人感觉听到一个报告 ~ 图像.to.design – 将截图转换为真实的 HTML → [Spons]",
+    "1ed9de1e23f0b0e4e699497098a9aed4757b7298eb84b7d76f3a0481ec5bf43d": "如果AI让我们自由呢?",
+    "9655a508fef17005c6008750b9f59381d282ff14e15306157fbfc856c495e7aa": "摧毁我们的东西也能拯救我们。我认为我们可以继续负责选择。从\"洛奇恐怖相片秀\"中,来源凯西·哈雷尔是气候活动家.多年来,ALS一直缓慢地接受他的演讲,直到甚至最接近他的人都挣扎着去理解他所说的话.2023年7月,UC Davis的外科医生在他大脑控制语音的部分植入了微小的传感器阵列.AI在试图说话时学会了读取他大脑发出的信号,把它们变成文字,用从他旧相声中重建的声音大声地说出这些话来.这是第一次",
+    "1b4622b60bfd6960b382c320053ab4cb6cfa9840db37b0c777fb1651ec0fe17f": "UX 设计者不是设计接口,而是设计人格",
+    "6be021e5e8741666373069db06363e04de6c18696d82c5edbafd06f82964a992": "科技文化如何影响我们如何理解自己 如何通过应用 图片由蓝天在Unsplash上在过去20年里,科技世界 已经把人类的一部分 变成了一维数码僵尸。可悲的是,你可以追究我个人的责任。让我告诉你为什么。它始于1995年,当时我12岁,我们的家庭得到了进入网络。需要互联网连接,因为我的父母有一个广告代理 位于我们的房子旁边的办公室。万维网允许我父母将文件送到印刷店,而不必亲自开车。我的父母",
+    "6ffe10b62acaf88b1ab153599274d0ab09a2a490d5f2d581366a58ff58aeac3f": "画廊外",
+    "cf1d3dd310e5b42e88d188159f16e215fb84c110c5d1e9fa894e9c92d2d7f481": "2026年的Config India揭示了设计可能性的扩大.在设计世界中有些东西正在变化,数以千计的设计者,令人兴奋的新能力, 和远远超越了最新法格玛特征的对话。一种信息是 : “ 设计是不同的。 ”设计者正在获得前所未有的能力,将思想转化为工作产品,而印度的技术领导者正在将设计作为其构建和竞争的核心。设计正进入一个新的影响时代 设计者有一个",
+    "57a9d03b016ed416c2932d2191958f5c60dfea0d6b3dcc8381d330a689c2e204": "Frank Elderson:从气候和自然风险到经济复原力和竞争力"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -8914,6 +8927,83 @@
       "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/079344408265C90FB484EEFBBDFBC4F4.jpg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069602.shtml"
+    },
+    "https://www.v2ex.com/t/1250029": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "独立开发者 👨‍💻 - @vulgur - # 2026 ，1012 ～ 1018养的第一个仓鼠小布丁去世了，享年 600 天。我把它带着垫料和粮食装到一个罐子里，埋到了依山傍水的一棵松树下，周围有很多松果，愿它在吱星不再痛苦。",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1250029"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069856.shtml": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/5AFBF402907C29303D4E770BFB241613.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069856.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069855.shtml": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/5AFBF402907C29303D4E770BFB241613.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069855.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069853.shtml": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/5AFBF402907C29303D4E770BFB241613.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069853.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069832.shtml": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/5AFBF402907C29303D4E770BFB241613.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069832.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069824.shtml": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/5AFBF402907C29303D4E770BFB241613.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069824.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069823.shtml": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/5AFBF402907C29303D4E770BFB241613.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069823.shtml"
+    },
+    "https://www.ithome.com/1/014/870.htm": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "在深圳举行的 2026 速卖通年度峰会暨双 11 商家大会上，速卖通与天猫联合推出“中国品牌全球增长计划”，目标覆盖 500 个头部品牌和 1000 余家工厂品牌，还将以天使轮投资方式扶持超 100 个 AI 硬件新品牌，未来三年品牌数、品牌 GMV 每年双 50% 增长。##速卖通## #AI 硬件出海#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/870.htm"
+    },
+    "https://www.eeo.com.cn/2026/1019/1069822.shtml": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/5AFBF402907C29303D4E770BFB241613.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1019/1069822.shtml"
+    },
+    "https://www.ithome.com/1/014/865.htm": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "本周 Arena 周榜中，国产 kimi-k3-max 位列代码榜第 10，多款国产模型稳定在中上游，同时有 gemini-3.5-flash-medium、 mimo-v2.6-pro 新入榜。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/014/865.htm"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html": {
+      "checkedAt": "2026-10-19T12:59:23.697945+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html"
     }
   }
 }
