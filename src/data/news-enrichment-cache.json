@@ -1777,7 +1777,16 @@
     "119a145ab6e20a968e1541c5a7d0903371034901a8566663683b2a09d6e228d1": "在罕见事件干扰下充电站",
     "74dcb2d5f566c15ee85ea3aa5e219c4c6036fbc9121785d0a26863d0b42abdda": "电动车辆需求的不断增长要求有强大和无障碍的充电基础设施,在发展中国家尤其如此,因为频繁的电力中断对服务可靠性构成重大风险。先前的充电基础设施优化研究很少严格处理这种中断,导致设计不理想和脆弱。我们提出了一个基于模拟的优化模型,估计每个候选站的服务可靠性,并将其直接嵌入目标和限制之中,将充电网络设计作为工程管理的决定。",
     "56379f57ed915f4e39c5440adfad12c958b8891aa6176e3088ae60dfa4e192ff": "火炬内龙:在AWS Trainium上运行高频模型比以往任何时候都容易",
-    "88d4aa5e300432ec479a850b9b6ad97291d6b04cedc3fd19a99fbbf7ae74c9c0": "薄弱形式的效率意味着对马尔科夫链的对称性限制,制约着密码货币资本化分配的移动。我们在全部列出的人群中进行测试:2013年至2026年,8,970个资产,690个每周横截面,观察出入境和生存,而不是推断出.对称性在每一个时代都被否定,但不对称性下降了百分之七十,而趋同的是入门驱动的构件churn而不是硬币自己的估值.最底层的十分位每周在纸面上挣27.5%,在交易资产中却没有任何收入,其容量为293 000美元。补偿"
+    "88d4aa5e300432ec479a850b9b6ad97291d6b04cedc3fd19a99fbbf7ae74c9c0": "薄弱形式的效率意味着对马尔科夫链的对称性限制,制约着密码货币资本化分配的移动。我们在全部列出的人群中进行测试:2013年至2026年,8,970个资产,690个每周横截面,观察出入境和生存,而不是推断出.对称性在每一个时代都被否定,但不对称性下降了百分之七十,而趋同的是入门驱动的构件churn而不是硬币自己的估值.最底层的十分位每周在纸面上挣27.5%,在交易资产中却没有任何收入,其容量为293 000美元。补偿",
+    "1ec6cfe77a588b6eaa66a7772e052e7debb38329a99d505e201947f1d8a73254": "人类的注意力是新的旧瓶颈。我们必须为它设计更多。",
+    "25096cd3a65b61296090191664068ab2c7d98466ad9fe433350280aa756e7a6a": "一间宽阔的办公楼,有人在办公桌看书,而周围几十个屏幕不断装满新工作供他们处理。现在安斯罗皮克的特工 记录每人一小时6小时 读他们的输出会吃上半个星期工作是为值得注意的事项建立判断系统。Anthropic的四位研究人员于10月16日发表《Anthropic的就业如何变化》,Anthropic是这一转变的前沿公司之一,在它构建的模型上进行自己的工作,所以研究是早期阅读的.",
+    "1d55d9a3384a23d70c439feaebedafcf90071e95e77c64b64dd7296fb8517b92": "演奏无声的圣心",
+    "cb8df559c3731a9322ed0b7a7ce3ba2b75fc97455fdb042df3fc1998e8dbfc7b": "插槽机与核对表:反馈设计中的难题.在 UX 集体上继续读取",
+    "787f9908a6d59288ae4b428cb832ae24e423c04b22200194d0c1794c9ca076f5": "OpenVL Harness:真实世界视觉代理工具与多模式内存",
+    "a3ce5ee5c4bccdf67a15f9572bd6233929da50489bb0e801c64753417c45ca1a": "多式联运大语言模型(MLLMs)在视觉推理方面已经取得了迅速的进展,然而许多任务需要仅通过内部推理就难以获得的证据:我们对22个基准的控制研究表明,仅仅增加基模型的推论预算只能产生微小的收益.此类任务需要有依据的认知、外部知识和通过各种工具获得的数值测量,其产出必须能够对模型作出解释,并保留各种推理步骤。我们介绍OpenVLHarness,一种多式推理工具",
+    "73a9c885db4363feb10ec9cfe35ff6f65cc3734d0cc5918dabfc3af691d79e2d": "以低资源编程语言推进编码",
+    "c481d40ebefd6f44a24ed7b2119b301956263c8bc9717b3644a085882e2b4861": "学习OpenAI如何通过低资源编程语言改进ChatGPT,同时对软件工程,SQLite,和COBOL迁移进行新的评价.",
+    "fd16322a8067501bd23349f9ada68e66e569449612cd2a3c057397670e88d77c": "建立在更强大的语言模型之上的代理人可能越来越多地为自己构建有用的程序,从而降低开发商提供脚手架的优势.我们调查为什么这一优势继续存在,以及如果不进行针对具体环境的工程,能否改进环境不可知剂。在ARC-AGI-3、AGI Maze和Terminal-Bench上,我们用两个几乎相同的即时变体来评价一个基于Codex的代理。每个变体的部署都使用没有变化的代码、提示和跨环境的通用工具,接收环境信息作为投入。只更改指示"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -9365,6 +9374,130 @@
       "image": "https://huggingface.co/blog/assets/hf-torchneuron/thumbnail.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/hf-torchneuron"
+    },
+    "https://solo.xin/topic/6084": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "白猪AI聚合平台诚邀推广合作伙伴：一站接入全球大模型，共享B端与C端增长红利 全球AI大模型，一个入口全搞定 | baizhu.vip 面向全国招募推广团队 寻找推广合伙人：白猪AI聚合平台，让你的流量变成持续分成 不止是网站，更是未来的AI硬件入口 | baizhu.vip 推广团队合作招募中 一个平台，调用全球A…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6084"
+    },
+    "https://www.eeo.com.cn/2026/1020/1070428.shtml": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/322E5A09FE5F655BB82905A6B76C28CD.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1070428.shtml"
+    },
+    "https://arxiv.org/abs/2610.26860": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://www.eeo.com.cn/2026/1020/1070427.shtml": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/322E5A09FE5F655BB82905A6B76C28CD.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1070427.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1020/1070426.shtml": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/322E5A09FE5F655BB82905A6B76C28CD.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1070426.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1020/1070400.shtml": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/322E5A09FE5F655BB82905A6B76C28CD.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1070400.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1020/1070360.shtml": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/322E5A09FE5F655BB82905A6B76C28CD.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1070360.shtml"
+    },
+    "https://www.ithome.com/1/015/127.htm": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "科技媒体 Android Headline 昨日（10 月 19 日）发布博文，报道称英伟达首席执行官黄仁勋在伦敦表示，反对以“急刹车”或严厉监管来限制 AI 发展，应该建立“安全带”，通过更智能的安全标准、监测机制和事故防范措施约束。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/015/127.htm"
+    },
+    "https://www.qbitai.com/2026/10/504314.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "OpenAI只掏出一个6.1 Terra…",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/224b13e4da11521ac51a788247d0b22e.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504314.html"
+    },
+    "https://www.qbitai.com/2026/10/504277.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "同步搭建千比特规模量子算力云平台",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/81a7a1067805e106c706041daafd9f23.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504277.html"
+    },
+    "https://www.qbitai.com/2026/10/504294.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "当AI越来越懂你，如何让智能真正属于你？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/2c0091f4720e14028e25fc7c66c9095d.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504294.html"
+    },
+    "https://openai.com/index/low-resource-programming-languages": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/504266.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/cb6ab710ce4bede3b158e95929b91ea4.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504266.html"
+    },
+    "https://www.qbitai.com/2026/10/504225.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "六年蛰伏出货80万颗",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/39c50f2cb8e1022cc121aadd2d71cfbc.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504225.html"
+    },
+    "https://www.qbitai.com/2026/10/504242.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "10 月 17 日，哲源科技发布 WHIRLPO 计算医学平台。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/e4a77113f4a20d91f577d40b3e61503c.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504242.html"
+    },
+    "https://www.qbitai.com/2026/10/504238.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "10月19日，RISC-V中国峰会在深圳举行。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/1101aa209c65718ee49ae3f855b8d6f5.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504238.html"
+    },
+    "https://www.qbitai.com/2026/10/504199.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "10月18日下午，首届全球具身智能应用创新挑战赛暨2026中国机器人大赛落下帷幕。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/1b2b470f2165d1d055647d5829f23a29.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504199.html"
+    },
+    "https://www.qbitai.com/2026/10/504188.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "description": "AI基础设施竞争转向高质量Token产能",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/a071f8edd3fafb69669e54e14df7e4a2.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504188.html"
+    },
+    "https://www.qbitai.com/2026/10/504184.html": {
+      "checkedAt": "2026-10-20T04:40:45.943319+00:00",
+      "error": "Article HTML too large"
     }
   }
 }

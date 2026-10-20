@@ -742,7 +742,7 @@
       "category": "AI 资讯",
       "kind": "论文预印本",
       "title": "Improving Environment-Agnostic Coding Agents: The Role of Scaffolding",
-      "summary": "Stronger language models may increasingly construct useful procedures for themselves, reducing the advantage of developer-supplied scaffolding. We investigate why this advantage persists and whether an environment-agnostic agent can be improved without environment-specific engineering. We evaluate a Codex-based agent in two nearly identical prompt variants on ARC-AGI-3, AGI Maze, and Terminal-Bench. Each variant is deployed with unchanged code, prompts, and general-purpose tools across environments, receiving environment-specific information as input. Changing only an instruction to encourage ",
+      "summary": "Agents built on stronger language models may increasingly construct useful procedures for themselves, reducing the advantage of developer-supplied scaffolding. We investigate why this advantage persists and whether an environment-agnostic agent can be improved without environment-specific engineering. We evaluate a Codex-based agent in two nearly identical prompt variants on ARC-AGI-3, AGI Maze, and Terminal-Bench. Each variant is deployed with unchanged code, prompts, and general-purpose tools across environments, receiving environment-specific information as input. Changing only an instructi",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "arXiv · AI",
@@ -763,7 +763,7 @@
       "imageKind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2610.22289",
       "titleZh": "改进环境不可知编码代理人:脚手架的作用",
-      "summaryZh": "更强大的语言模型可能越来越多地为自己构建有用的程序,从而降低开发商提供脚手架的优势.我们调查为什么这一优势继续存在,以及如果不进行针对具体环境的工程,能否改进环境不可知剂。在ARC-AGI-3、AGI Maze和Terminal-Bench上,我们用两个几乎相同的即时变体来评价一个基于Codex的代理。每个变体的部署都使用没有变化的代码、提示和跨环境的通用工具,接收环境信息作为投入。只更改一个指令来鼓励",
+      "summaryZh": "建立在更强大的语言模型之上的代理人可能越来越多地为自己构建有用的程序,从而降低开发商提供脚手架的优势.我们调查为什么这一优势继续存在,以及如果不进行针对具体环境的工程,能否改进环境不可知剂。在ARC-AGI-3、AGI Maze和Terminal-Bench上,我们用两个几乎相同的即时变体来评价一个基于Codex的代理。每个变体的部署都使用没有变化的代码、提示和跨环境的通用工具,接收环境信息作为投入。只更改指示",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
