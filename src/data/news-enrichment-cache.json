@@ -1786,7 +1786,13 @@
     "a3ce5ee5c4bccdf67a15f9572bd6233929da50489bb0e801c64753417c45ca1a": "多式联运大语言模型(MLLMs)在视觉推理方面已经取得了迅速的进展,然而许多任务需要仅通过内部推理就难以获得的证据:我们对22个基准的控制研究表明,仅仅增加基模型的推论预算只能产生微小的收益.此类任务需要有依据的认知、外部知识和通过各种工具获得的数值测量,其产出必须能够对模型作出解释,并保留各种推理步骤。我们介绍OpenVLHarness,一种多式推理工具",
     "73a9c885db4363feb10ec9cfe35ff6f65cc3734d0cc5918dabfc3af691d79e2d": "以低资源编程语言推进编码",
     "c481d40ebefd6f44a24ed7b2119b301956263c8bc9717b3644a085882e2b4861": "学习OpenAI如何通过低资源编程语言改进ChatGPT,同时对软件工程,SQLite,和COBOL迁移进行新的评价.",
-    "fd16322a8067501bd23349f9ada68e66e569449612cd2a3c057397670e88d77c": "建立在更强大的语言模型之上的代理人可能越来越多地为自己构建有用的程序,从而降低开发商提供脚手架的优势.我们调查为什么这一优势继续存在,以及如果不进行针对具体环境的工程,能否改进环境不可知剂。在ARC-AGI-3、AGI Maze和Terminal-Bench上,我们用两个几乎相同的即时变体来评价一个基于Codex的代理。每个变体的部署都使用没有变化的代码、提示和跨环境的通用工具,接收环境信息作为投入。只更改指示"
+    "fd16322a8067501bd23349f9ada68e66e569449612cd2a3c057397670e88d77c": "建立在更强大的语言模型之上的代理人可能越来越多地为自己构建有用的程序,从而降低开发商提供脚手架的优势.我们调查为什么这一优势继续存在,以及如果不进行针对具体环境的工程,能否改进环境不可知剂。在ARC-AGI-3、AGI Maze和Terminal-Bench上,我们用两个几乎相同的即时变体来评价一个基于Codex的代理。每个变体的部署都使用没有变化的代码、提示和跨环境的通用工具,接收环境信息作为投入。只更改指示",
+    "65f41f16ecfa036ae24bd337a6330f425c2f6004be464e090d2bc7e7b7cf2253": "13 2026年10月TikTok上流传的歌曲(+ 如何使用Them)",
+    "8ad3b64d9f40db28a8909244b4335129dd1bf54f3038e897e01fa4a52f168e4b": "2026年10月TikTok上最有病毒性的歌曲和声音的最新列表——以及如何用它们来提升你的内容.",
+    "b61a473aedbdf01d5425e801df5ea9d230cc744f23bb74a237986ab3f9e79444": "2026年留下了哪些\"萨斯护城河\"?.这集中,Rob Walling和Einar Vollset走遍了AI攻击SaaS公司的10个方式,从客户的氛围把应用编码到每座收入完全消失.然后他们挖出他们相信在AI时代还在工作的8个护城河,有斯德雷克,古斯托,斯克威尔,和健身房等真实的例子.他们最后总结了创始人如何犯罪,包括为什么最大的机会可能是停止出售工具并开始工作.我们涵盖的话题: (06:02) – SaaSpocalypse和相冲突的市场信号(07:24) – How Einar reearc.",
+    "0a69c0ca3f79a67757ab9ee97a6b9c52cc7bdca471f1b21972762fb9aa2d20b1": "弗兰克·梅德森:采访Die Presse",
+    "680c757f8fc1e149e25c879b945c764ae6ce231ba416c2431c1201927cea34b7": "PyTorch 2.15 中的 MPS 数据",
+    "314c90868590eb430468c421845acdb7d08e62ada90e1842f428ba477aa478e6": "每周为设计者——思想家和制造者——提供资源。AI公司在过去的一年里雇用了远期部署的工程师:坐在客户团队里面的工程师,第一手听到问题,然后乘船与之对抗.有1 000个上市者发现该角色在一年中增长1 165%。今年我为自己的新闻室做了一个版本的工作,没有标题,它改变了我对倾听的想法。听到两个钟声谛听应慢.应迅速作出反应。没有人会听到报告 编辑们挑借的斜道当新闻室到达"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -9498,6 +9504,76 @@
     "https://www.qbitai.com/2026/10/504184.html": {
       "checkedAt": "2026-10-20T04:40:45.943319+00:00",
       "error": "Article HTML too large"
+    },
+    "https://solo.xin/topic/6088": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "一度电能换多少 token 10 月 20 日下午，DeepSeek 把内部推理框架 DeepInfer 开源了，Apache 2.0 协议。同步放出的还有一个叫 deepseek-recipe 的编解码组件，MIT 协议，负责把各家 API 格式的请求统一成 DeepSeek 的对话格式，再切成 token。 两个…",
+      "image": "https://cdn.jsdelivr.net/gh/lijinhongucl-pixel/wb-article-images@main/dinfer/prefill_pareto.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://solo.xin/topic/6088"
+    },
+    "https://www.startupsfortherestofus.com/episodes/episode-855-the-eight-saas-moats-that-still-work-in-the-age-of-ai": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "Which SaaS moats are left in 2026? In this episode, Rob Walling and Einar Vollset walk through the 10 ways AI is attacking SaaS companies, from customers vibe coding the app to per-seat revenue disappearing entirely. They then dig into the 8 moats they believe still work in the age of AI, with re",
+      "image": "https://www.startupsfortherestofus.com/wp-content/uploads/strou-twitter-2022.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.startupsfortherestofus.com/episodes/episode-855-the-eight-saas-moats-that-still-work-in-the-age-of-ai"
+    },
+    "https://www.eeo.com.cn/2026/1020/1071202.shtml": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/783FBEF659E5B515B604E6131583ED97.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1071202.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1020/1071169.shtml": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/8CB5B522C78D5BC8A19B05916D864EB2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1071169.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1020/1071167.shtml": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/783FBEF659E5B515B604E6131583ED97.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1071167.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1020/1071165.shtml": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/783FBEF659E5B515B604E6131583ED97.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1071165.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1020/1071164.shtml": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/783FBEF659E5B515B604E6131583ED97.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1020/1071164.shtml"
+    },
+    "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html"
+    },
+    "https://www.ithome.com/1/015/429.htm": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "DeepSeek 今日官宣，在此前开源一系列大模型、TileLang 编译工具及推理算子库的基础上，决定进一步将内部推理框架 DeepInfer 全面开源。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/015/429.htm"
+    },
+    "https://huggingface.co/blog/mps-pytorch-2-15": {
+      "checkedAt": "2026-10-20T11:26:48.530326+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/mps-pytorch-2-15"
     }
   }
 }
