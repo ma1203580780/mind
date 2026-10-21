@@ -2728,7 +2728,10 @@
       "imageKind": "原文封面",
       "imageSourceUrl": "https://www.startupsfortherestofus.com/episodes/episode-855-the-eight-saas-moats-that-still-work-in-the-age-of-ai",
       "summaryZh": "2026年留下了哪些\"萨斯护城河\"?.这集中,Rob Walling和Einar Vollset走遍了AI攻击SaaS公司的10个方式,从客户的氛围把应用编码到每座收入完全消失.然后他们挖出他们相信在AI时代还在工作的8个护城河,有斯德雷克,古斯托,斯克威尔,和健身房等真实的例子.他们最后总结了创始人如何犯罪,包括为什么最大的机会可能是停止出售工具并开始工作.我们涵盖的话题: (06:02) – SaaSpocalypse和相冲突的市场信号(07:24) – How Einar reearc.",
-      "translationStatus": "partial"
+      "translationStatus": "ready",
+      "titleZh": "第855集 AI时代仍在工作的八只SaaS Moats",
+      "translationProvider": "Argos 英中离线模型",
+      "translationModel": "argos-en-zh-1.9-ct2-v1"
     },
     {
       "id": "feed-82725daa3287909b842f",
@@ -2952,10 +2955,6 @@
       "summaryTruncated": false,
       "author": "",
       "contentLanguage": "en",
-      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
-      "imageAlt": "原文配图：Frank Elderson: Interview with Die Presse",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html",
       "summaryOrigin": "原文页面描述",
       "titleZh": "弗兰克·梅德森:采访Die Presse",
       "summaryZh": "欧洲中央银行是采用欧元的欧洲联盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定,从而保持单一货币的购买力。",

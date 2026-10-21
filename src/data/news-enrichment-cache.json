@@ -1876,7 +1876,20 @@
     "1d5f482a5f57bdc692cb4bd90fdb7223572ef2db6adfa7785b28668a1990bd6b": "OpenAI 获得管弦乐团 Bio",
     "55bd6a87470127bd4cfeaf46f5d0710606c5f8f49f0042e848705bc74bd22b76": "OpenAI正在收购Orchestra Bio,将AI动力操作带入生命科学研发,帮助生物制药团队加快药物研发并推进新治疗.",
     "455eb2837bf8559c0c8fe43d5acc0bb5881e5a6be0cf16ba12e922f7c8098234": "(原始内容存档于2013-10-10) (英语). Hugging Face QQ 火炬TPU: TPU, 原生地",
-    "7d344d63213d4fb80edf106daf710852aae8dabfa2c53c9847d064c728417f18": "AnyLangage Model 1.0: Apple平台上一年的地方模型"
+    "7d344d63213d4fb80edf106daf710852aae8dabfa2c53c9847d064c728417f18": "AnyLangage Model 1.0: Apple平台上一年的地方模型",
+    "9fcdc3018a1a0bca57c43c3aa3de83d9677d0c2eaf28d3d19e00f4464f09bbb4": "\"改变的pplx-deider\"是一个来自Perflexity的27B决定模型,从Quen3.8-27B中微调,在模型之间切换和不思考时,或者当历史中包含另一个提供者的收缩项目时,在客户端工具调用(如.Codex with web搜索)可以在打开推理项目前发售,生成错误排序/重复工具调用事件 请求路由远程模型,当客户端断开时,现在在 ollama.com 上取消,而不是继续运行 ollama 显示",
+    "6ba1ba0223b0c677fcb33bee706e5a7c3bc5866d3042e81e212541e4c949b08d": "Álvaro Urbano 荣耀墨西哥城偶像卡萨库埃瓦的失落样本",
+    "af98ba616bd72b10d8fdba40846e946e068217405368edf253977e8657f3a6fa": "阿尔瓦罗·乌尔巴诺向墨西哥现代主义建筑的偶像Casa Cueva的革新致敬.",
+    "12d5e842606b2738072ed980f728854b37dbdf51f0a78b967ee0528947e20de7": "AI 图像",
+    "f38d0f1a93dabdac4d58e3027c8769d64134fde0be8ba04024121667e583cb41": "AI Image是一个基于云的创意工作室,为不需要运行五个不同的AI工具而需要专业图像的人建造.用户描述一个场景,可选择在参考照片中滴入锁定身份和照明,并在秒后生成结果.同样的提示可以在多个引擎之间进行比较,因此队伍会选择实际适合简要的输出.该产品将领先的图像模型引入一个界面和一个信用平衡,包括Flux,Midjourney,GPT图像,Grok,Ideogram,Seedream,Nano Banana和Quen.从那里,AI图像抛光变种和输出命名作物 f",
+    "e05645777138fde1f90dadb183878f926a9cb9951da41e96f74115e131598865": "让AI拥有一般用户:为什么用户研究应该关注坏日子.",
+    "6ad62916d95a2ffb2e52f06662138c40411c8ec9038afe35d2b56beaf255d874": "Nn/g发现合成研究捕捉到常见的响应.坏日子还由你决定继续阅读 UX 集体",
+    "93433c5d0bc6db0e8ba1963bd6590450146d5389c43e521bd86013dc88746360": "AI不关心你的职称,",
+    "0eff0e5b89e9893e1434f6079ab7604933086dbd374a3f4fa0649defd3e27fb7": "一个人跨过一个设计文件,一个产品路线图, 和一个代码编辑器在一个单一的办公桌,他们的徽章脸朝下在键盘旁边。AI协助,蒸汽的风格。接触人工智能贯穿你每周的任务,而不是你徽章上的角色.如何测算您的身价,我妈妈不明白我的工作,我最想解释的是「我设计如何运作,我穿着黑色的乌龟,",
+    "df4a8a7490d2952b7d9229423e6f43c3e2bf4aedb57f10e941a66ac9f0e826cd": "飞利浦 R.Lane:欧元流动性线和国际货币体系",
+    "729a0d669c049b89fd6deb0e9f79e8ca6879aa0458be0a77019660c231d433f3": "X号终点站与高级投资人的判决88.6%符合GPT-6.1",
+    "4f2363f3253b2f729442e07ed4b6eec05dee101f0a09cb6d2463509aa3a86182": "Eval Agent的成绩与54个标准值相对应,",
+    "54995039c6bcb510e508621eedf80203ccfb33377ff818a4ad127b1874422a60": "第855集 AI时代仍在工作的八只SaaS Moats"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -9941,6 +9954,143 @@
       "image": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/anylanguagemodel-1-0"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.7": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.7 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.7"
+    },
+    "https://w2solo.com/topics/8617": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8617"
+    },
+    "https://www.eeo.com.cn/2026/1021/1071817.shtml": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/4B92F153132F2A89B9B46865E13AA997.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1021/1071817.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1021/1071775.shtml": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/6DE8D50F66E80008C0DEAB30C4E256E9.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1021/1071775.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1021/1071774.shtml": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/6DE8D50F66E80008C0DEAB30C4E256E9.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1021/1071774.shtml"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html"
+    },
+    "https://www.eeo.com.cn/2026/1021/1071722.shtml": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/FD014844644B0832C12084D92802D7FA.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1021/1071722.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1021/1071721.shtml": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/6DE8D50F66E80008C0DEAB30C4E256E9.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1021/1071721.shtml"
+    },
+    "https://www.qbitai.com/2026/10/504608.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "先看真实问题解决力",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3c66d7a5aaa07bc6afe96957a658c1c3.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504608.html"
+    },
+    "https://www.eeo.com.cn/2026/1021/1071647.shtml": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/7BA9AA8A0D72D9A67D05A59C249DFD63.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1021/1071647.shtml"
+    },
+    "https://www.qbitai.com/2026/10/504551.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "电池、电驱、超充一把梭，冬天多跑30公里",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/790ab1ee71f71f045687e2dcb1e51058.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504551.html"
+    },
+    "https://www.qbitai.com/2026/10/504517.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "兔皮底下，竟然是MiniMax！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3664375f9871cfa7d5310f9b60772307.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504517.html"
+    },
+    "https://www.qbitai.com/2026/10/504456.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "把记忆原生焊进Transformer",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/2293cbe1885c01e03f7d78c9c6a1bdf6.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504456.html"
+    },
+    "https://www.qbitai.com/2026/10/504452.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "2026年10月16日，比亚迪集团正式成为亚太经合组织第三十三次领导人非正式会议官方合作伙伴",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/6156dadd079929d20f5dae3928d35208.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504452.html"
+    },
+    "https://www.qbitai.com/2026/10/504435.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "当地时间10月12日，2026巴黎国际车展正式启幕。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/584c8a9d13508628f2c1159b82a20c53.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504435.html"
+    },
+    "https://www.qbitai.com/2026/10/504421.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "最新发布TokenFleet调度框架",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3c0ed51e1627fa76272d842d1f2969b3.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504421.html"
+    },
+    "https://openai.com/index/terminal-x": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/504415.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "圈选修改区域，一句话描述改动，约一分钟生成新模型，未选中区域保持原样",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3940a9359486349f6e77bd2623751981.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504415.html"
+    },
+    "https://www.qbitai.com/2026/10/504395.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "宁德时代电池上车",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/19613eed88ac78521e016cdf4833b501.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504395.html"
+    },
+    "https://www.qbitai.com/2026/10/504372.html": {
+      "checkedAt": "2026-10-21T05:16:43.631337+00:00",
+      "description": "2026 年 11 月 4 日至 5 日，GTC2026 全球流量大会（上海）将在上海世博展览馆 H3 馆举办",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/601d776d123faf2df066c120546caa44.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504372.html"
     }
   }
 }

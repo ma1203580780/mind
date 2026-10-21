@@ -426,11 +426,7 @@
       "sourceLanguage": "zh",
       "summaryTruncated": true,
       "author": "kolbyzhu5",
-      "contentLanguage": "zh",
-      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
-      "imageAlt": "原文配图：上线 30 天的独立开发导航站：哪些渠道真的带人，哪些是我想多了",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://w2solo.com/topics/8611"
+      "contentLanguage": "zh"
     },
     {
       "id": "feed-414324e773f3787701dd",
@@ -2379,10 +2375,6 @@
       "summaryTruncated": false,
       "author": "",
       "contentLanguage": "en",
-      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
-      "imageAlt": "原文配图：Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
       "summaryOrigin": "原文页面描述",
       "titleZh": "Frank Elderson:从气候和自然风险到经济复原力和竞争力",
       "summaryZh": "欧洲中央银行是采用欧元的欧洲联盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定,从而保持单一货币的购买力。",
