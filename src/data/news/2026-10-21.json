@@ -2025,7 +2025,11 @@
       "summaryZh": "欧洲中央银行是采用欧元的欧洲联盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定,从而保持单一货币的购买力。",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
-      "translationModel": "argos-en-zh-1.9-ct2-v1"
+      "translationModel": "argos-en-zh-1.9-ct2-v1",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "imageAlt": "原文配图：Philip R. Lane: Euro liquidity lines and the international monetary system",
+      "imageKind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html"
     },
     {
       "id": "feed-2e09dff06293bbc79145",
