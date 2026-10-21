@@ -1889,7 +1889,13 @@
     "df4a8a7490d2952b7d9229423e6f43c3e2bf4aedb57f10e941a66ac9f0e826cd": "飞利浦 R.Lane:欧元流动性线和国际货币体系",
     "729a0d669c049b89fd6deb0e9f79e8ca6879aa0458be0a77019660c231d433f3": "X号终点站与高级投资人的判决88.6%符合GPT-6.1",
     "4f2363f3253b2f729442e07ed4b6eec05dee101f0a09cb6d2463509aa3a86182": "Eval Agent的成绩与54个标准值相对应,",
-    "54995039c6bcb510e508621eedf80203ccfb33377ff818a4ad127b1874422a60": "第855集 AI时代仍在工作的八只SaaS Moats"
+    "54995039c6bcb510e508621eedf80203ccfb33377ff818a4ad127b1874422a60": "第855集 AI时代仍在工作的八只SaaS Moats",
+    "b7e0bc319fce4e69502e463d4640de92147ed9bda621b03eebf7adc3db18f9f6": "* AI(YueXi) (中文(简体) ).",
+    "ae4165dc884ffcfacf1a1a54add6558a8d26bc5124003e10f4829d6977a3c260": "私人股权公司在提出报价之前,罗布·沃林(Rob Walling)与Discretion Capital的艾纳·沃勒塞特(Einar Vollset)坐下来分解六道护城河买家,现在他们甚至会考虑一个交易——即使你从未计划出售,为什么这很重要。播客中的链接:想通电车-11月10日前预购获得所有奖金.在YouTube上观看这段视频 订阅Rob Waling YouTube频道 Tinyseed SaaS Institute Discret Capital The SaaS Playbook Episode 836 QQ The 5 A.I.Moats 获取者",
+    "8a3a1eaadf0d8d76fc974c40c571d8399c1be405c49108e19e661d71e87550df": "设计 v ADHD",
+    "e866654c2dd013e93c6cabc1031fbf4a7170598e6b1542615394c53f948779f2": "ADHD是一种复杂而常见的精神障碍,它改变了人们在社会中处理信息、行为和功能的方式。关于“便利于人类发展的设计”的共同建议包括减少杂乱无章、避免分散注意力并简化信息结构。我主张,这些建议不构成“有利于人类发展的设计”,真正的解决办法即使不是不可能,也是更复杂和更具挑战性的。2014年,著名媒体学者和网络活动家伊森·扎克曼(Ethan Zuckerman)为自己在发明网络最受憎恶的营销工具中的作用道歉:th",
+    "c02857fc78e5d51a97984beb60ce46612f6a9435daa040c852a4b371cbda2ece": "皮耶罗·西波隆:庞特斯和阿皮亚:为银行打开机会",
+    "0e5e7fa076dd55306586da1187d34bc07b78e1372224f4b34f4865b976b7304f": "SimReady Central:模拟-Ready 3D 机器人和AI工厂资产的开放库"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -10091,6 +10097,31 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/601d776d123faf2df066c120546caa44.jpeg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/504372.html"
+    },
+    "https://microconfpodcast.com/episodes/microconf-tactics-what-saas-buyers-actually-want-in-2026-1": {
+      "checkedAt": "2026-10-21T11:40:36.119866+00:00",
+      "description": "Private equity firms have quietly raised the bar on what metrics they need to see in a SaaS before they’ll conisder putting in an offer. Rob Walling sat down with Einar Vollset from Discretion Capital to break down the 6 moats buyers now require before they'll even consider a deal — and why it matters even if you never plan to sell. Links in the podcast: Idea to Traction - Preorder before Nov 10 to get all the bonuses. Watch this video on YouTube Subscribe to the Rob Walling YouTube Channel TinySeed SaaS Institute Discretion Capital The SaaS Playbook Episode 836 | The 5 A.I. Moats Acquirers Va",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://microconfpodcast.com/episodes/microconf-tactics-what-saas-buyers-actually-want-in-2026-1"
+    },
+    "https://solo.xin/topic/6096": {
+      "checkedAt": "2026-10-21T11:40:36.119866+00:00",
+      "description": "有了交易想法，却卡在代码上。我们在做的 EasyQuant 是一个 AI 代码助手，可以根据文字描述生成 TradingView 策略或指标，也能解释和修改已有脚本，比如调整入场条件、添加提醒或排查报错。 使用时，把入场、退出和仓位规则说清楚；修改已有脚本时，也要说明哪些地方需要保留。生成的代码仍需自己检查和测试，不…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6096"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf": {
+      "checkedAt": "2026-10-21T11:40:36.119866+00:00",
+      "error": "Not HTML"
+    },
+    "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories": {
+      "checkedAt": "2026-10-21T11:40:36.119866+00:00",
+      "description": "A Blog post by NVIDIA on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/3wax5pSyzdQK6EWPgxhmR.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
     }
   }
 }
