@@ -2008,7 +2008,16 @@
     "c259fbc8834256ae1a260f05289b2d7fc63ec47af6aa0f0b770324ad703440e3": "通过一致标准广泛获取",
     "de54d6d84e6fbdd39b0c3596fbda979cff343e127bf754d3cca222111f5cf4b9": "OpenAI如何与分销伙伴合作,坚持一贯的保障措施,支持负责任的准入,并澄清我们使用政策中的期望。",
     "465909cc39650cffc2510cd447531b894bb8fa44efe399ec88e17a69b4614e86": "Cloudflare 将弱点发现与 OpenAI 的防御联系起来",
-    "18ab7b9e2df0c926fc1791f7389c2531cde830ca08d41a7dab0ef0c751e3ce51": "Cloudflare 使用 OpenAI Daybreak 来调查弱点,并提出修改意见以供审查.其开发者使用\"代码\"来更快地构建并改进代码质量."
+    "18ab7b9e2df0c926fc1791f7389c2531cde830ca08d41a7dab0ef0c751e3ce51": "Cloudflare 使用 OpenAI Daybreak 来调查弱点,并提出修改意见以供审查.其开发者使用\"代码\"来更快地构建并改进代码质量.",
+    "b739dae9408cac4a64b6e8bff395e86e3ede6aeacfaac770e5e216b2fd6de328": "4 助推器分析功能,我无法生存",
+    "ded3ef4c55e4bd9bdf9344f7d7a44747554b2b4f90dcff2307b4487944ad6377": "我每月在Buffer Insights使用的四个社交媒体解析功能, 以及它们如何帮助我规划内容, 调整苍蝇, 测量发射, 并与我的团队分享胜利",
+    "1f86ab59747df225e18150dcffc461313cb8edbab3346fe2c1d5eec8bd4c972c": "无头内容营销:新(旧)搜索策略",
+    "6f8a402fa5dadeac92987ca5cf08e1a4db2d1f475f8f1c278fce322a90fa8ff5": "今天,你们的内容页面是人工智能厂的精华,它们的内容被从页面上刮去,与相竞争的页面相融合,并展示给用户(如果你幸运的话),在完全由第三方控制的上下文和格式上。被遗忘是...",
+    "6c43f6b00cd7ada58d5fc43a6346e564cb509aef8eaec3169fe4667aedb8e480": "AI 语音份额:是什么,如何衡量它,它实际上告诉你什么",
+    "c0adcaf528d49a1fa927012e0628205c7ebc4357081e9da301bd890a25322dbc": "叹曰.还得为另一家普通的销售商 争取煤炭开玩笑的,AI分享的语音可以有用.它告诉你,你的品牌在AI的回复中与你的竞争对手相比有多明显.但号码...",
+    "84770f014b253e77ce6fecd0f40352c06d42700cfb58998fd4aed2f05fc757ff": "IBM Granite 时间序列模型组合预测",
+    "2a7bf47dd1e151d496422b081a58ba4540278b6f5726481448b70cb8c28806ba": "OpenAI 的 FDE 含义",
+    "3d5f3df242a369ce4a53152cb9b16e60644969f40ccfb69cec1864ae00a5f014": "OpenAI的前沿部署工程意味着什么"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -10688,6 +10697,98 @@
     "https://openai.com/index/cloudflare-cyber": {
       "checkedAt": "2026-10-22T07:29:40.112065+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://ahrefs.com/blog/headless-content-marketing/": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "Today, your content pages are grist for the AI mill, their contents scraped from the page, blended together with competing pages, and shown to the user—if",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/10/headless-content-marketing-a-new-old-by-ryan-law-ai-search.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/headless-content-marketing/"
+    },
+    "https://ahrefs.com/blog/ai-share-of-voice/": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "Sigh. Yet another metric marketers have to be raked over the coals for. Jokes aside, AI share of voice can be useful. It tells you how visible your brand",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/10/ai-share-of-voice-what-it-by-si-quan-ong-ai-search.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/ai-share-of-voice/"
+    },
+    "https://www.ftium4.com/ux-weekly-295.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周我发现的体验设计和思考，为构建系统知识做准备。",
+      "image": "https://www.ftium4.com/attachments/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/uxf%201.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.ftium4.com/ux-weekly-295.html"
+    },
+    "https://www.ithome.com/1/016/643.htm": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "AMD 高管还表示将尽力延长 AM5 平台生命周期，该平台至少支持到 2029 年，重发 Ryzen 7 5800X3D 是为 AM4 用户提供最后升级机会。#AMD锐龙处理器#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/016/643.htm"
+    },
+    "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "A Blog post by IBM Research on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6806091ee92bd22fd8ce9719/P6P8ZzHR8yL7GOOO4hQOg.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
+    },
+    "https://www.qbitai.com/2026/10/504841.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "FSD一年增长70万付费用户",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/ddb7d90af4084d32a11b51f3597c1f43.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504841.html"
+    },
+    "https://www.qbitai.com/2026/10/504832.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/f2a402e21a89a4c63cc83bb96be9077d.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504832.html"
+    },
+    "https://www.qbitai.com/2026/10/504800.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    },
+    "https://openai.com/index/forward-deployed-engineering-means": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/504734.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "医疗AI质变时刻",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/0bfe890e6d02ffbdffb8a2df277b76c8.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504734.html"
+    },
+    "https://www.qbitai.com/2026/10/504730.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/60034dc56d2f77db0b8eff11820df665.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504730.html"
+    },
+    "https://www.qbitai.com/2026/10/504653.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "世界模型赛道新看点：千诀隐变量可辨识性方向的研究，比LeCun相近工作早一年，不堆画面预测，主打物理规律与跨本体复用。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/b5d02e59509a6e74d695064de8f1c3d8.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504653.html"
+    },
+    "https://www.qbitai.com/2026/10/504638.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "百万台搭载打底，智驾普及与安全并重",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/866f3d3fb7a38efed9943b863e41ad8a.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504638.html"
+    },
+    "https://www.qbitai.com/2026/10/504618.html": {
+      "checkedAt": "2026-10-22T13:43:53.090426+00:00",
+      "description": "电池开发，分工远比想象复杂",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/0f678bc521eacd49f79ee90456a35b9c.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504618.html"
     }
   }
 }
