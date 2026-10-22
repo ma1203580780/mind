@@ -1997,7 +1997,18 @@
     "e4fb8d2163632e4a91f80accc6d66190242395bc1c3a6c56a8609410a1cbe19f": "RTL 修理基准实际上如何衡量?",
     "801c7ed9c7f55cdfe20d5af7a8bb6ccaa5272b65c8541c7eadd08ee642aa68d4": "RTL修复基准应当根据规格衡量一个模型是否能够修复破损的RTL.为此,我们建造并用散列式RTLRepairDataset,5 784个(断开,固定)训练对;RTLRepair Bench,459个搁置案例,374个综合突变和85个行为突变;以及支持模拟和形式等同的评价工具。然后,我们利用这一基础设施,找出两个测量难题。首先,模拟和正式评分给一个被评价组群提供规格的明显效果给出了相反的迹象;重新设定-重新评分属性几乎全部T",
     "4c5418f8d2c282752040feeced1417ad6d0b76f5730470e199fdfebc43d3b01a": "边界的民主治理 AI,第二部分:赋予网络维权者权力",
-    "c6b4b808557c4c244e3aa15c0ef95425e68210680c7e4a86033e756a864b9477": "OpenAI为赋予网络维权者以前沿AI、更强大的保障、现代化的网络安全和更具有复原力的公共机构提供了蓝图。"
+    "c6b4b808557c4c244e3aa15c0ef95425e68210680c7e4a86033e756a864b9477": "OpenAI为赋予网络维权者以前沿AI、更强大的保障、现代化的网络安全和更具有复原力的公共机构提供了蓝图。",
+    "ef5661ef4b16fa031d93d8f010f6e415891d30a0f6e18c23be7c36e313a24f7a": "(单位:千美元)",
+    "4ae6eae036789f560b538394ae22675917fc3f2f28d4696fa5a8b3d0e43027f8": "What's Changed lama.cpp update Full Changelog : v0.40.8.v0.40.9-rc0 (中文(简体) ).",
+    "23c89f74b2ef309793348a36ca9ae3b04e40f9d5f9428350a7ebd916e9d4f14e": "自 langchain \\\\ 1.4.6chore(langchain):更新锁文件(#41402)发布后的变化(langchain):1.4.7 (#41401)chore(deps):从2025.11.12到2026.10.19在/libs/langchain_v1 (#41370)上出现凸起的certifi:在溪口消费者(core,langchain,标准测试):从2.1.1到2.2.0在/libs/langchain_v1上出现凸起的certific:从3.14.4到3.11.4. (#41360):在/langchann_v1中出现凸起的aiohttp从3.14.3到3.14.4 (#41330)chore(decp):从2.1.1到2.2.0在/libs/langchann_v1(#4127070)) Feat(核心):接受LangChainTracer内部的地址(#41006)",
+    "71f318cdbbc6aa06b7232791bdd282b2a6beba8e82d38b12ea2341dd301a403d": "有工具的创始人不是有线索的创始人",
+    "26621a07f47a16b9c93637940788c3ed5332a095386ab3aa541455e48499eada": "在这个房间的某个地方, 一个人谁能分辨它是否真的好。AI让其他人看起来都和他们完全一样.AI让独行创始人生产出产品,这种专长,即它下面来之不易的判断,总是由谁来决定谁获胜,谁悄悄地(或自我地)失败。在创业世界中有一个运动, 声称如果你无法自己打造自己的产品,“建议”建议,独行创始人应处理编码、去除和取消",
+    "96bb8b063ca82afbb2ed41ddd890056b1f89a421edd9b8b5c9e2111563d5fb58": "你能接受AI的话吗?",
+    "7a1aab2a85097d679d30a4be3c13b7bc37732c50e73681d78445424241f9c7ba": "AI特工们对自己的工作作出流利的解释,有时甚至错误的解释.设计师早就不再相信别人的账户了在 UX 集体上继续读取",
+    "c259fbc8834256ae1a260f05289b2d7fc63ec47af6aa0f0b770324ad703440e3": "通过一致标准广泛获取",
+    "de54d6d84e6fbdd39b0c3596fbda979cff343e127bf754d3cca222111f5cf4b9": "OpenAI如何与分销伙伴合作,坚持一贯的保障措施,支持负责任的准入,并澄清我们使用政策中的期望。",
+    "465909cc39650cffc2510cd447531b894bb8fa44efe399ec88e17a69b4614e86": "Cloudflare 将弱点发现与 OpenAI 的防御联系起来",
+    "18ab7b9e2df0c926fc1791f7389c2531cde830ca08d41a7dab0ef0c751e3ce51": "Cloudflare 使用 OpenAI Daybreak 来调查弱点,并提出修改意见以供审查.其开发者使用\"代码\"来更快地构建并改进代码质量."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -10626,6 +10637,56 @@
     },
     "https://openai.com/index/empowering-cyber-defenders": {
       "checkedAt": "2026-10-21T21:35:20.682671+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1": {
+      "checkedAt": "2026-10-22T07:29:40.112065+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.9 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1"
+    },
+    "https://www.v2ex.com/t/1250937": {
+      "checkedAt": "2026-10-22T07:29:40.112065+00:00",
+      "description": "独立开发者 👨‍💻 - @liuyujie0258 - # [技术讨论] 除了开源，私有代码仓库还有哪些价值？个人开发者的代码资产能变现吗？最近在思考一个问题：**如果一个开发者积累了很多年的私有代码仓库，除了自己维护项目、做产品或者内部复用之外",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1250937"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7": {
+      "checkedAt": "2026-10-22T07:29:40.112065+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.7"
+    },
+    "https://www.ithome.com/1/016/383.htm": {
+      "checkedAt": "2026-10-22T07:29:40.112065+00:00",
+      "description": "当地时间 22 日，软银股价盘中一度下跌 6.7%，较 6 月 2 日创下的历史最高点累计跌幅达到 50%。美国超大市值企业的财报表现，也未能打消市场疑虑。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/016/383.htm"
+    },
+    "https://www.ithome.com/1/016/338.htm": {
+      "checkedAt": "2026-10-22T07:29:40.112065+00:00",
+      "description": "皮查伊在播客节目中介绍了自己的工作方式：“如果每天都要了解过去 24 小时发生了什么，很容易就得花上一个小时。现在有 AI 智能体替我整理信息、汇总后交给我。当然，我仍然可以深入查看，而且经常这么做。”",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/016/338.htm"
+    },
+    "https://www.ithome.com/1/016/322.htm": {
+      "checkedAt": "2026-10-22T07:29:40.112065+00:00",
+      "description": "科技媒体 Wccftech 昨日（10 月 21 日）发布博文，报道称在 GTC 柏林大会上，英伟达首席执行官黄仁勋表示，随着软件持续更新和 AI 应用需求扩大，GPU 的实际使用寿命已从过去普遍认为的约 4 年，延长至 8 年甚至更久。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/016/322.htm"
+    },
+    "https://openai.com/index/broad-access-through-consistent-standards": {
+      "checkedAt": "2026-10-22T07:29:40.112065+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/cloudflare-cyber": {
+      "checkedAt": "2026-10-22T07:29:40.112065+00:00",
       "error": "HTTP Error 403: Forbidden"
     }
   }
