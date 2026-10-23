@@ -2101,7 +2101,13 @@
     "34c332ce02241cfc22de83938a81951b3473eaaa53d0066d54f42a5e534f0a4b": "对于同位素下线性工具变量模型的子推论,但允许弱仪器,Guggenberger,Kleibergen和Mavroeidis(2019年)(GKM)提出了有条件的子推论者Anderson和Rubin(1949年)(AR)测试,该测试使用依赖数据的关键值来适应未测试参数的强度.这个测试有正确的尺寸,并且绝对比使用标准不对称的基方临界值的测试更强.次元AR测试是数据依赖矩阵的最低eigen值.GKM 关键值函数条件",
     "fde67d43dfe24a7950bc742e35c78da3b8cda686302922d3d0b3e9ec2437888f": "Uber 将 ChatGPT 工作带给 OpenAI 的所有员工",
     "78afb834b049ddee56329f9c98040299412f6e3782160ae0cb572a8f2219e0b3": "Uber向3万多名员工推出ChatGPT Work,帮助团队研究,分析数据,创建演示,并完成复杂的工作流程.",
-    "1b4b34b42e3aa8b0a26d7f3b37c371bea52f4e198ee7497a9b78132311f94b09": "lama.cpp 更新 (# 19194)"
+    "1b4b34b42e3aa8b0a26d7f3b37c371bea52f4e198ee7497a9b78132311f94b09": "lama.cpp 更新 (# 19194)",
+    "2fe64b729152320e3088232f126a18486c9384dc040356ce9b98f1a958316d2f": "flint:用思维被禁用来修正回答 关闭思维部分当思维被禁用时:默认并思考:真实的提示是不变的.更新模板",
+    "a5f561b66252b9eb022ef6c106157cbca5980b42eab00c551dd1a99a536cc62d": "v0.40.9-rc3:支持GA Gradium Phonon检查站(#19227)",
+    "bc5fb6e1e76a81337edc40a12cad3b2aca55aa14b2734c99d5a671548c3d1c70": "以 Gradium 的 GA 格式取代预放检查点路径,包括默认语音导入和语音调制.设定最小的0.40.9,更新语音文件,测试导入,推断设置,并拒绝旧检查站.",
+    "8d6823b9e1d562fa070f43a19964558618c4471ff2ad99924d996fb25fd66154": "买对.建筑也是UX的决定 特别是在企业里",
+    "424a564f8e745e6986c968c82619f04874e486435e06d0eef65060080a704260": "产品团队将购买的工具与同一桌的内部建筑相权衡。人工智能使得建筑廉价并易地购买.取舍现在转向谁拥有维护,工具之间的接合,聊天表面,以及数据.在我的大部分职业生涯中, 产品管理拥有购买与建设。一名产品经理写了这个案子,财务检查了数学,采购署名.设计师们在做出决定后抵达,继承了胜出的一切,并花了多年时间去磨磨其粗糙的边缘.人工智能一下子改变了双方的数学.盖起来现在便宜了,b",
+    "d010d0a92420e28ee0b8d62b7f32515036fcee56929fb11e38d69fc4134c9a07": "将数据库分级转换为 RL 奖励: 带有思维框的训练后代理"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -11118,6 +11124,34 @@
     "https://openai.com/index/uber-chatgpt-work-rollout": {
       "checkedAt": "2026-10-22T21:54:11.725594+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://sspai.com/post/117104": {
+      "checkedAt": "2026-10-23T05:20:56.158940+00:00",
+      "description": "少数派的近期动态和少数派一起，在海口明日公园来一场创造之约吧。活动详情iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章终于吃到了那颗梦寐以求的小药丸：我的A ...",
+      "image": "https://rssfile.sspai.com/2026/10/23/article/4fb1959e-2459-749f-f4f4-bc1ea53a51fd.png?imageMogr2/auto-orient/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/117104"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3": {
+      "checkedAt": "2026-10-23T05:20:56.158940+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.9-rc3: Support GA Gradium Phonon checkpoints (#19227) · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc3"
+    },
+    "https://www.ithome.com/1/016/875.htm": {
+      "checkedAt": "2026-10-23T05:20:56.158940+00:00",
+      "description": "据知情人士透露，新加入的投资者包括专注于半导体行业的私募股权投资机构石溪资本。获得联想集团支持的君联资本、汽车制造商吉利，也同样参与了投资。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/016/875.htm"
+    },
+    "https://huggingface.co/blog/microsoft/thinkingbox-training": {
+      "checkedAt": "2026-10-23T05:20:56.158940+00:00",
+      "description": "A Blog post by Microsoft on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox-training"
     }
   }
 }
