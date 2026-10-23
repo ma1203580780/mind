@@ -2107,7 +2107,14 @@
     "bc5fb6e1e76a81337edc40a12cad3b2aca55aa14b2734c99d5a671548c3d1c70": "以 Gradium 的 GA 格式取代预放检查点路径,包括默认语音导入和语音调制.设定最小的0.40.9,更新语音文件,测试导入,推断设置,并拒绝旧检查站.",
     "8d6823b9e1d562fa070f43a19964558618c4471ff2ad99924d996fb25fd66154": "买对.建筑也是UX的决定 特别是在企业里",
     "424a564f8e745e6986c968c82619f04874e486435e06d0eef65060080a704260": "产品团队将购买的工具与同一桌的内部建筑相权衡。人工智能使得建筑廉价并易地购买.取舍现在转向谁拥有维护,工具之间的接合,聊天表面,以及数据.在我的大部分职业生涯中, 产品管理拥有购买与建设。一名产品经理写了这个案子,财务检查了数学,采购署名.设计师们在做出决定后抵达,继承了胜出的一切,并花了多年时间去磨磨其粗糙的边缘.人工智能一下子改变了双方的数学.盖起来现在便宜了,b",
-    "d010d0a92420e28ee0b8d62b7f32515036fcee56929fb11e38d69fc4134c9a07": "将数据库分级转换为 RL 奖励: 带有思维框的训练后代理"
+    "d010d0a92420e28ee0b8d62b7f32515036fcee56929fb11e38d69fc4134c9a07": "将数据库分级转换为 RL 奖励: 带有思维框的训练后代理",
+    "316f065f8b2cf36ac628131106a4c10915af96a39e018303fb1a1449a9c080e0": "从屏幕进入原子设计",
+    "86b3b642359e75180107d25d5bdd87c0c61943ded402a603a2284b2a7ea291f2": "你并不总是用原子建造的。有时候,你需要发现它们。原子设计是现代设计系统的核心心理模型之一.它给了我们一种共同的语言来描述界面的层次:原子,分子,生物,模板,和页面.布拉德·弗罗斯特从一开始就说,原子设计不是一个线性的过程,而是一种精神模型,使我们能够同时保持整体及其部分的视野.这五个级别不是第一至第五步。从模板到原子.然而,在实践中,大多数球队将模式应用在一个方向上.",
+    "fb61283b4defe06ba4fd226425679e360576201eff7d1438e2811e59af454c6a": "超音速梦想:战后法国如何发明未来,然后停止",
+    "20db0b5deb4f4410bb9daf78f565f0d9888b0aa57080fc83103cf1ca06114feb": "协和,核能和米尼特尔走过三条不同的道路.他们能告诉我们欧洲下一个技术赌注是什么?协和,核电和Minitel.我上周在马赛街头漫步,我的例行公事很简单,大多包括当地地点的订票台,开放时间很短。当在南欧任何地方适用时,紧迫感是一个有趣的概念。生于南欧城市,我住的Airbnb,天际线是超级",
+    "67cb4ead74c9a0a1f3b105c724002924cf3546f4e8f4f3d82e019cbcf6c22844": "欧洲央行消费者期望调查结果 -- -- 2026年9月",
+    "520ee656ee7a45a1b0d8fa6e181aa215fe01a6f0a333be6957ccedcccf23e94a": "OpenAI和波兰的NASK合作伙伴,",
+    "2b8de4bb503aed030f6d027e795b2dbae629a84f2fe28e46733842a7799c10b9": "OpenAI和波兰的NASK正在AI安全、安保和技术研究方面建立伙伴关系,以加强保障和支持一个更具复原力的数字生态系统。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -11152,6 +11159,38 @@
       "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+    },
+    "https://solo.xin/topic/6105": {
+      "checkedAt": "2026-10-23T11:30:54.786262+00:00",
+      "description": "分类： 技术热议 标签： DeepSeek、人工智能、AI编程、后端开发、程序员、技术招聘 晚上刷技术群，本来想看看今天又有什么新鲜事，结果一条消息直接把不少开发者的注意力拉了过去。 DeepSeek又有新动作了。 这次不是单纯发布一个新模型，也不是给聊天机器人增加几个新功能，而是直接开源了内部使用的推理框架 Dee…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6105"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html": {
+      "checkedAt": "2026-10-23T11:30:54.786262+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html"
+    },
+    "https://www.qbitai.com/2026/10/504901.html": {
+      "checkedAt": "2026-10-23T11:30:54.786262+00:00",
+      "description": "10月21日，百度官方公众号发文披露了百度世界2026分论坛的更多议程信息。",
+      "image": "https://www.qbitai.com/wp-content/uploads/2019/06/200.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504901.html"
+    },
+    "https://openai.com/index/openai-nask-ai-safety-security-partnership": {
+      "checkedAt": "2026-10-23T11:30:54.786262+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/504879.html": {
+      "checkedAt": "2026-10-23T11:30:54.786262+00:00",
+      "description": "10月22日，蚂蚁数科正式发布决策模型 LingDT-Decision-1.0。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/4b0e934fd967c3de132e20d57a4bbba1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/504879.html"
     }
   }
 }
