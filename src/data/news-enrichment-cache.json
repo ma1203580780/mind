@@ -2207,7 +2207,51 @@
     "cb6e8800d1d88180f44b8f870c0af1d90c8bae10e782eac289e42c727f6f637b": "社区智慧 303",
     "73aecc71e0bb9e68356c84be514ea3e604ececdd948662d96a8ece7056065133": "(原始内容存档于2018-09-21). Deel vs.为承包商管理提取:哪个平台让用户体验正确?",
     "0d60cfe10b9d6ce9f1021739ebabee583a130d126d0bebf5be28513e0367bfd7": "两个强大的平台,两个不同的管理全球人才的方法从产品设计师的角度比较.想象一下你正在经营一个产品设计团队。你有一个UX研究员在德国,一个UI设计师在巴西,一个运动设计师在日本.他们都是独立的承包商,你需要加入他们,管理协议,确保他们按时得到报酬。起初,管理3个承包商可能似乎很直接。但随着你的团队不断壮大,你再雇几个人,事情变得复杂.不同的货币、地方法规、发票、批准和付款",
-    "aa23ba29d37e0bd9a4d337d32960de4777a317b40298f5e396f02812c7628927": "皮耶罗·西波隆:对米兰诺·芬萨的采访"
+    "aa23ba29d37e0bd9a4d337d32960de4777a317b40298f5e396f02812c7628927": "皮耶罗·西波隆:对米兰诺·芬萨的采访",
+    "48c066e0c81b1a51f8fe9f8793b850a4d35c5749e5e0bef3c9d73829384f4c3b": "Ollama现在可以在macOS上生成演讲.ollama跑在音频生成时会高声播放文本或聊天模型的回音,而app可以通过OpenAI相容的/v1/audio/speech端点来流出音频.Ollama从Ollama跑来。\" d3决定模型d3将vLLM语义路由器的决定模型带到了Olama.给出模型文本,结构状态,或图像,请其分类,回答是或否,或以概率计分选项.家庭包括2B,4B,9B和27B大小.Ollama 运行d3 \"一个客户说他们的卡两次充电。\" -- assk\"这是账单吗?",
+    "0b327a842ad7633b0ba281ff05c9f71fe926177a9c9830650758d3782a2bb930": "Perfusion – Aware Black- Box 攻击的传播语言模型",
+    "a8af6d5c71b21d61c63041d39a17fb469dd244e42573ee188f782da510173895": "\\emph{ continuous-space} 攻击在黑盒 LLMs 中找到触发恶意行为的提示,如过度思考, 方法是取样或优化低维高斯潜入空间,通过\\emph{random 映射} 和最近的调试查找将其解码为文本 。由于随机映射没有从语言中吸取教训,其提示可能非常不自然,因此很容易通过输入式护栏被探测出,它们产生的风险估计并不基于自然提示.在本文中,我们表明,同样的连续潜在空间框架可以直接与一个空间框架联系在一起。",
+    "230f4b3fdd5f06da71a2f71ae8c94d636a370e0fad59c1c57eb0997702b0845a": "关于最新大语言模型的经验研究,用于在标准基准上生成文本的知识图",
+    "86f84c52be81bcf30445bc76aef34ea4be8523c77d84beecac4fed04853314c6": "Knowledge-graph-to-text (KG-to-text) 生成语将一组知识图被三重分解为流畅的自然语言.虽然经过微调的编码器-解码器模型长期以来一直是标准方法,但最近的有限责任公司竞争日益激烈。我们以微调编码器-解码器模型为基准,使用基于参考的度量衡和基于图表的无参考LLM评价,对照人类说明加以验证。我们注意到,近期的有限责任公司在几个环境下大大缩小和缩小了与参照衡量标准的微调模型的差距,同时执行b",
+    "ffc2edc4b7d60f99129aa22fda51c68a0c60bdaaae5880d047e75a4551894437": "Metaphor的几何:大语言模型中的测试和引导Metaphor代表",
+    "6698946e75730f649037367780511c202f7c7353ed9ccbe14a75f4c5d1349c57": "隐喻是人类认知的一个关键方面.因此,我们想了解它如何在大语言模型(LLMs)中体现,以及如何加以控制。我们使用机械解释技术来识别一系列涵盖不同架构和大小的LLMs中的因果子空间.我们显示,我们能够在发言的不同部分指导产出的分类工作。我们还能够引导输出在生成任务上,表明这些技术可用于控制LLM输出的比喻.",
+    "1fe2a4b4fd6554122d3407907bf768933eb1650cfd0ba7b98900b8f8d7a0627b": "面向继续执行任务的用户模拟器, 仍然声音自然",
+    "a0f670df7e57349085cb932d423f8af4a08391ed0389a0c544fca4d58d883c13": "用户越来越多地依赖AI系统来完成扩展多回合的任务,然而有证据表明基于LLM的系统性能会因为长时间的相互作用而退化.为了在这样的环境下评价和改进AI助手,我们需要忠实地遵循复杂的用户意图,同时表现出现实的对话行为的用户模拟器.现有方法表现出一种取舍:被激励的助手可以遵循复杂的用户意图,但缺乏行为上的忠诚;而专业的用户模拟器则更近似于对话行为,但努力保持对复杂意图的忠诚.在这",
+    "f508596b8a14814d773d3a8f09c54ad4345de0664eb452f9cc5e9cb97903d3ea": "月亮来年",
+    "c3838a9011dffb4fc28d26b3354632f773444b392ca723feaaacc9ee13c8024b": "测量验证器的底部: ASR 错误 有多明显 稀有文字到语言错误 ?",
+    "c0d243da6ba12fd2f434d3719634e7e75f91e100cb6260da3543b1e96d556391": "Text-to-speech(TTS)通常通过以自动语音识别(ASR)系统转录其输出来评价,因此单词出错率也算作识别器出错.我们用测试句的人类录音测量这些错误。在\"LibriSpeech\"和\"FLEURS\"上,评价识别器错过了33-67%的非常罕见的单词,即使是在人语中,三个识别器都错过了22-42%.用另外两个识别家来检查每个字会降低至少一个识别家听到2到3倍(非常罕见的LibriSpeech单词:从10-13%到3-5%)的字上明显的TTS错误,然而非常罕见.",
+    "ceab1699a6ddfefc0c2673509fd0561f4a442b0f89f390ee451ddff7a92350fc": "从结构记录到病人叙述:在LLM-Genered保健摘要中保留临床对齐",
+    "50a6e56e3bc3dbfcdd659289e1676de73a10cbd14229dfc5dcc147d6b3638da4": "由于可穿戴和数字化的保健系统越来越多地产生纵向生理记录,用患者无障碍语言传播这些观测结果仍然是一个重大挑战。大语言模型(LLMs)为将结构化的临床信息翻译为可读的叙事提供了一个很有希望的机制,但这一过程可能会引入语义漂移,其中临床上准确的含义在简化过程中被扭曲.我们利用一个结合结构化证明的受限生成框架,调查月经健康监测的循证健康总结",
+    "d2005b9cda0650273c61f434eecb427061d3f720987237343bd2e2aa4ccd329a": "如何不同,还是如何不同?查看点选择中用于让用户使用另类视图的对话框系统时的恒度",
+    "85fda49b96ce5a85e170593d9403a9e2bcc9a73db6be94fd385dcfaf1a5b7c81": "旨在帮助用户表达自己不同观点的系统必须决定这些观点应有何不同。取景点主要以平面尺度表示,过于粗糙,无法区分不同事物上与用户有分歧的观点.我们引入了一种选择政策,强盗在其中设定了与用户的观点可能相距多远,而政策则在其中选择了最新颖的观点。我们只变了它的平面编码器,将一个平面分数与被观察的斯坦斯矢量比较,它打破了在概念上的不同立场.我们综合",
+    "6acb0a2509e8eb1f731fb587b826bdb3175c262be7b7352c249c01f0b1abb88e": "多托肯预测和替代托肯化改进学习后期多霍普图形搜索",
+    "8752d98f52b11f698972c3ede633128ed1af08657ca66971bb1f6bfc02ce6744": "如果有一个看不见的图表,一个起始节点,美元,和一个终端节点,美元,一个语言模型能够产生最短的路径,从美元到美元?以前的工作已经发现模型未能将这个任务作为图表尺度来学习.我们显示,这种失败有两个原因:监督信号和象征。首先,我们理论上确定并实证地证明多键预测(MTP)的有效性,并表明MTP的好处是地形不可知的.其次,我们引入了替代的标语并表明这两个原因是正交的.用这些方法,我们突破t",
+    "a9192c82cf6cd8ab8ae5119484d69e9326d903a0aab4f4bd3df5bd28cf5acf14": "决策模式如何向越南人转让?文本分类经验研究",
+    "f441687ebc8f736850110f556e02b85c0ce026cb13193a20c4db698f6dddba6f": "最近专门决策模型的进展扩大了零发分级的可能性,但是,这些模型对越南语的有效性仍然没有得到充分利用。本研究评估了13个分类设置的4个专业决策模型,涉及6个任务组,考察了零镜头性能,对标签描述语言的敏感性,以及对越南语言差异的稳健性.评估考虑了英文、越南文和双语标签描述,以及涉及青少年编码、打字错误和去除批评的常见语言扰动。吴",
+    "60b1ee48661006e04257f339f81a8102dc2aa2bc40820a69c466be5b159478e2": "语言模型中的深度增长和循环形状",
+    "d626c18f6d58b0d15e39ab10b2ae02c0ef26624b7e2169cd9294bac4165f20fb": "循环和深度发展的语言模型跨深度再利用计算,引起了对其推理能力的兴趣。根据先前关于改进内容内学习的证据,我们调查这种再利用如何有利于《国际商业法》,包括它如何形成这种能力的获取、保留和机制。我们的分析跨越了预先训练的语言模型,最多可达3B参数和可控任务.这些实验提供了证据,证明对从上下文学习具有共同的诱导性偏好:成长和循环的模型在上下文中更多地依靠信息,与完整的模型相比,",
+    "74c4ee2db8132912f37d193126173b491dbba648f408fafd8ec6ee5a4c29b1c2": "SyRA-CS:与Meta-Learning合作合成-真实适应代码-Switched ASR",
+    "de39ad9cb3ce02df8e1ab78854d27a10544d8179a0555edabcec97c15b559b24": "密码开关(CS)自动语音识别(ASR)仍然困难,因为真实的CS语音很少,合成语音不完全与之相匹配.我们调查合成CS演讲是否比普通的不断微调更有助于学习适应的初始化.我们提议采用SyRA-CS,这是基于Reptile meta-learning的一对特定的合成-现实适应框架。对于每个语言对和被预先训练的模型,我们对相应的合成CS-FLEURS子集进行元训练,然后使用1小时被标记为真实目标语句来适应.我们评价出四颗石头",
+    "4991b16ad0c9a53da0c66e4ed061f2dd5ea0e343e125639707199d305a577ec4": "SQuAT:球形拉蒂斯矢量-智能训练",
+    "8d75008a88a49f29bc86aa3b21e8516e28314929757f08ef9e3502eafca44583": "矢量分解(VQ),特别是基于lattice的方法,为低位大语言模型(LLMs)提供了强大的速率分解取舍,然而他们在分量分解-意识训练(VQ-QAT)下的行为仍然不甚了解.我们把拉蒂斯 VQ-QAT 放大到十亿参数的 LLMs 和数十亿托肯的训练制度, 并引入 SQuAT,一种形状恢复的 VQ-QAT 方法,通过单独的直通计算器(STE) 来训练形状和收益.SQuAT将权重分解为方向和分量:正态方向用$E_8美元衍生出球形代码簿进行定量,而gai",
+    "eb8111d8bbbf927f658bc8bbf8a6397e1a257db1b5bef12289cb26f246897d3a": "同一个实体, 不同的脚本: 诊断跨脚本实体匹配语言模型中的失败",
+    "bc6960a56a7a0bd8c9f854ff846a33d9624df34041cd1c7b64de26acf1a4d836": "多语言语言模型可以给出不同的身份判断,当同一个人的名字用不同的脚本书写时.我们利用601个经过审计的身份配对和经过验证的德瓦纳加里和拉丁文形式来研究这种效果,持有问题和关系固定.Quen2.5-7B同人精度从拉丁文的35.1%下降到马拉地语提示下德瓦纳加里语的8.5%,而不同人精度仍然高于98%.5个模式的评价显示出明显的反应偏差,减少象征性分散并不能可靠地弥补差距。在已审计的374 Mal复制设计",
+    "7dc5f0d71d13088e95526cf1afae3b62f974a6bf8c66bc8cadfe79c6cb4d79c9": "HERD: 持续学习的适应性-不断演变的递归性分化",
+    "de45f03ec5a2ba890b3eec2e6c985882d6b323d17047d00be80b88d145636430": "继续学习需要一种模式,在不损害现有能力的情况下不断获得新的技能和知识。参数方法有灾难性的遗忘和丧失可塑性。非参数化方法,如快取,技能,和取用,调取折叠文本中的学习,但受上下文长度和丢失的平文本压缩的限制.为了有效地结合它们互补的长处,我们提出HERD(Harness-Evolving Recursive Distillation),这是一个混合的不断学习框架,在利用和内化经验的过程中有效地学习到积累中.",
+    "c1b4e09f21541277481fec813c3e09adcfe18a971971f11a16df1eecd3b9dfae": "大语言模型对低资源增殖语言的参数-有效适应:A Crpus,数据集和巴什基尔语言可复制基准",
+    "34e325fb488c068d80622b7f14e287e508d33f53bef1fc82cea9f748e1e9299c": "巴什基尔语是一种用西里尔语书写的低资源杂质语言,在现代LLMs中仍然代表性差.我们提出了一个开放的资源套件和系统化的适应方法基准:Bashkir Web Corpus(71 567个文件、46 9M个信使、16个来源)和三套有标签的数据集,用于二进制、多类和多标签文本分类;基准涵盖前两个。实验使用8个架构(82M-8B:DistilGPT2,GPT-2基/中,Phi-3-mini,Mistral-7B,YandexGPT-5-Lite-8B,mBERT,XLM-R)和3个适应组(全微调,QLORA,内文学习).",
+    "6d1072c0f660281ad1f1205b991ab8f87598cbbf4ce85cb98ab75989dbbd7b9d": "长文件视觉问题回答:分类学、进化和今后方向的任务-学科调查",
+    "1120bbe08ec5cf4226f5e251e751fcc462bc031d8333eb3b7fd28e501466785a": "视觉文件理解对于从视觉丰富的文件中获取知识至关重要,并正在吸引越来越多的研究兴趣。现有的调查强调结构或技术方法,对任务瓶颈如何决定技术选择和研究优先事项的关注有限。我们提出了一个以任务为中心的调查,将长文件的视觉问题回答(VQA)分为四个部分:文件解析、证据组织和检索、生成器组织和学习以及评价。对每一个,我们开发一个精细的分类学 和微量的动机,技术",
+    "793818566f0819c5de8c3ed782c5a5e705fcd63c517e1fd2acdc59ef09afc3b1": "Delete Bench 之后: LLM 代理中审计删除后信息持久性",
+    "9cbb361bb664d239a9c88da3ec2adb6cedf066b2d0a3da5d3af6129cdb50e9d6": "许多LLM代理维持了外部持续内存,并从以往的相互作用中获得了额外的状态,例如摘要.因此,删除原始记忆记录不需要删除其后代所携带的信息。我们引入了AfterDelete Bench,一个控制行为审计对于这种故障模式的固定重量LLM代理。对于每一个合成秘密,我们比较一个当时被曝光的被删除的剂与一个从未接触过该秘密的相匹配的剂,使得去除后的恢复可以归因于最初的被暴露.在我们的初级设置中,一个查询恢复",
+    "2eadabb6cdfbe76e86ae6fc385740f635a23d4aa27ec8bd20d362c65c60f5923": "CrisiLangs:用于危机预警生成的多语言资源",
+    "57ef86ad2d62ab4c7112976f574511e66f97a6cd34fb502f798f1f8e32a7c838": "在紧急情况下与公众沟通需要迅速发布警告信息。在欧洲,它常常需要用一种以上语言制作.最近的工作显示,随着危机的发展,语言模型可以被培训生成警告信息,但现有数据只涵盖英语.为了填补这一空白,我们向意大利、保加利亚、德国和希腊介绍CrisiText(危机事件英文数据集,加上根据专家通信准则编写的警告信息)。本地专家翻译了瓦尔尼语",
+    "2625e1e231a6213bd4e5e0bcac3d40eaa8394d2487e69b25898edc009ff83a7d": "SurveyGraph:通过方法-实体知识图生成学术调查",
+    "ae25dd15bf203e93cb887cff711a1a9c8a3dcc17ae53e769c26fc7687473ed30": "大多数自动化的勘测生成系统取出纸作平面文件,限制了它们捕捉研究结构的能力.我们介绍《调查图表》(SurveyGraph),这是一个围绕方法-实体知识图(MEKG)编码方法层面的后续、竞争和共享资源关系的框架。该图支持核心纸的发现,取回,混合提纲,以及证据化的叙事综合.我们评价检索、语义边缘、引号定位、收集覆盖和生成阶段组件。在受控的七法平预算基准中,MEKG-受控聚变平衡",
+    "7a2c123a51e9684258e429fab0831be58149d4b33e1a2c1f08f119b821fb2e2d": "当LLMs忘记他们相信的:在长视野对话中描述国家廉政崩溃",
+    "33d1e9ca818a0fc38da1d6756276f206aa83077333359a6f0589333ace5dd3ee": "大语言模型可以重复一个指令,同时无法继续遵守.我们研究了这种在长距离对话中的召回遵守分离,并界定了国家廉政崩溃:一个模式保留了已申明的记忆约束,但不再将其应用于后期。我们介绍\"国家追踪-奔驰\"(StateTrack-Bench),这是一套控制下的对话套件,涵盖数字,格式,角色/人物,事实-记忆,逻辑规则等限制.在7个以提供者为主的模型快照和5个对话深度探测器中,严格的联合留存率从62.4%到100.0%不等,降解集中在象征性的",
+    "c17ac2738b0372ffaedf36eb952c69fd917ec6ed4fa1bcdada1bbdfc55b48e36": "Flint on Linux和Windows Flint现在在Linux和Windows以及macOS上运行.其他改进 流出 OpenAI 响应和Anthropic Messages 请求现在报告生成失败,而不是在部分输出后无声结束.ollama发射现在通过云模型的上下文长度和能力来编码工具,修复不正确的上下文和收缩设置.Anthropic相容的网络搜索现在在后续请求中使用模型支持的思维设置,防止可避免的失败.Full Changelog: v.0.40.8.v.0.40.9 (中文(简体) ).",
+    "5e90aeffc4c7f63da89db1a55119143f7cc4270ccfb127edfc9b58adb36a4f40": "mlxrunner: 导入并列出 Phonon 目录语音文件: 文档 Phonon 语音"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -11615,6 +11659,174 @@
       "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.11": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.11 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.11"
+    },
+    "https://arxiv.org/abs/2610.31558": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.31558"
+    },
+    "https://arxiv.org/abs/2610.31529": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31529v1/spearman_heatmap_gpt.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31529"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-24/": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "Product Hunt Visual Launch Editor：在构建的过程中，随时关注你的发布进程。；MOVO AI：全球首个移动长视频代理商；Agent Hunt：AI代理最常用工具的实时排名；Ovren Live Preview：在产品发货前，实时查看您的产品变化。；ElevenLabs Realtime：实时语音助手模型，首次音频响应时间为570毫秒。",
+      "image": "https://decohack.com/producthunt-daily-2026-10-24/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-24/"
+    },
+    "https://arxiv.org/abs/2610.31520": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31520v1/pic/patching/patching_task1_adj_dry_meta-llama_Llama-3.1-8B_1_.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31520"
+    },
+    "https://w2solo.com/topics/8630": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8630"
+    },
+    "https://arxiv.org/abs/2610.31512": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31512v1/figures/pacing_analysis2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31512"
+    },
+    "https://w2solo.com/topics/8629": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8629"
+    },
+    "https://arxiv.org/abs/2610.31470": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.31470"
+    },
+    "https://arxiv.org/abs/2610.31467": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31467v1/figures/3-2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31467"
+    },
+    "https://arxiv.org/abs/2610.31459": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31459v1/Teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31459"
+    },
+    "https://arxiv.org/abs/2610.31439": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.31439"
+    },
+    "https://arxiv.org/abs/2610.31422": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31422v1/uit_vsmec_confusions_vertical.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31422"
+    },
+    "https://arxiv.org/abs/2610.31421": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.31421"
+    },
+    "https://arxiv.org/abs/2610.31415": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31415v1/updated_workflow.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31415"
+    },
+    "https://arxiv.org/abs/2610.31412": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.31412"
+    },
+    "https://arxiv.org/abs/2610.31407": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31407v1/figures/mark_twain_example_only.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31407"
+    },
+    "https://arxiv.org/abs/2610.31401": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31401v1/hero-ablation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31401"
+    },
+    "https://arxiv.org/abs/2610.31397": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31397v1/pipeline.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31397"
+    },
+    "https://arxiv.org/abs/2610.31385": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31385v1/figure1_introduction_v3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31385"
+    },
+    "https://arxiv.org/abs/2610.31366": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31366v1/figures/fig_afterdeletebench_workflow.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31366"
+    },
+    "https://arxiv.org/abs/2610.31356": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31356v1/dataset_pipeline_v2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31356"
+    },
+    "https://arxiv.org/abs/2610.31317": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31317v1/pipeline_new.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31317"
+    },
+    "https://arxiv.org/abs/2610.31314": {
+      "checkedAt": "2026-10-24T22:27:49.543815+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.31314v1/figures/figure7_pipeline_paperbanana_neurips.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.31314"
     }
   }
 }
