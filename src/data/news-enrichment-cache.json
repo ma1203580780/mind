@@ -2196,7 +2196,13 @@
     "2180b0d427b268ee7405737a7c306ec49920ff816d441c4f311e6e411d7bd42e": "现有的研究一致发现,家用电池与实时电价相比得到优化,在当地配电网中产生新的负荷峰值.这是因为所有资产都同步响应同一价格信号.然而,大多数研究将批发价格视为外在价格,即不受这种反应的影响。本文认为,将价格视为没有反应的偏见,其结果是:实际上,低价时收费会提高批发价格,这削弱了收费的动机。在平衡中,充电分散在几个小时内。我用模拟房屋来测试这个",
     "874e305a82dda10ecb39734e4f3f446b2d3e4ae4946f78198ee4d8e4edf7d166": "谁是Sycophanic对谁?自信 LLMS,人类的敬重和信任的崩溃校正",
     "20468ffb4f046b25d623cf892f87a18f30cebab12bf6400ced1f5d81e95c42c8": "对sycophancy的研究询问大语言模型(LLMs)是否向用户想要听到的弯曲.我们提出一个相反的问题:当一个LLM自信,一致,错误时,用户会向它弯曲吗?在一次学科内实验中,32名参与者通过与基于同一模型(GPT-5-mini)的5名助手聊天,学习了多达5个科学课题.与会者不知道,每位助理的情况介绍有0、25、50、75或100%的事实被假象所取代,每位助理都充满信心地发言。每个题目都给出了正确的事实后,",
-    "a732ab290cfd1420fe68b04be2d242a17458008ee80cfd97c56050f828df7dd6": "你的模型在AWS训练场运行吗?抬头看"
+    "a732ab290cfd1420fe68b04be2d242a17458008ee80cfd97c56050f828df7dd6": "你的模型在AWS训练场运行吗?抬头看",
+    "369c6aba90fbc0dd48513b1e06679d13ebd6d6b67dae8341684735ce85951558": "页:1",
+    "f80734cbad21859a0182350c8cfa528e3b4ffea146ed28e25f9b54841423de6b": "更改了 qwen3 编码器: 由@hoyyeva在#19228 发布中保存在参数中关闭标记的字面函数 : 由@hoyyeva在#19193决定中为 OpenCode 使用分配的上下文 : 允许由@ SynapShift在#19173 lama.cpp 中为 vllm-d3 空状态 : 由@ SynapShift在#19250mlxrunner中为@dhyltgen 保存了 b11845 版本 : 由@ jmorganca在#19234中为 Phon 拼出符号、数字和链接 : 由@ jmorganca在#19242 New Contributors@SynapShift为 Phon 添加语音目录第一次贡献于#19173 Full Changelog : v0.40.10. v0.40.11-rc0",
+    "8fcaa8298a6978561b7b2a13dc715b7fae9722e049e304844ead048a97c41c02": "UX 纪律: 词汇表",
+    "a95b8ea86f064911176a14ac4072903baeb7551caa4972203293a919cf2cb3b8": "用户体验相关领域的定义,包括UX设计,UI设计,外观设计,交互设计,服务设计,UX研究和DesignOps",
+    "cf90d4c0fb78b5fbd6d284536b413672adae673fb93d0a481e18c85e665b747e": "《UX中的AI:工作更快,但从业者有混合的感觉》",
+    "c43ab62e8bfaf1618a2e337dbe1c29a0792dcb170937aaf324ff841303f10bc3": "AI在几乎每一项任务上都节省了UX从业者的时间,然而大多数人对此感到冷漠:任务,不可靠的产出,以及过高的预期会吞噬成果."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -11569,6 +11575,34 @@
       "image": "https://huggingface.co/blog/assets/torch-neuronx-model-support/thumbnail.jpg",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/torch-neuronx-model-support"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0": {
+      "checkedAt": "2026-10-24T05:00:22.577092+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.11 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.11-rc0"
+    },
+    "https://www.nngroup.com/articles/ux-disciplines-glossary/": {
+      "checkedAt": "2026-10-24T05:00:22.577092+00:00",
+      "description": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/UX_Disciplines__Glossary.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/ux-disciplines-glossary/"
+    },
+    "https://www.nngroup.com/articles/ai-in-ux-survey-26/": {
+      "checkedAt": "2026-10-24T05:00:22.577092+00:00",
+      "description": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/AI_in_UX__Work_Is_Faster_But_Practitioners_Have_Mixed_Feelings.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/ai-in-ux-survey-26/"
+    },
+    "https://www.eeo.com.cn/2026/1024/1072771.shtml": {
+      "checkedAt": "2026-10-24T05:00:22.577092+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/7D3F7D8EB9D22277D8CE95D57A791C02.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1024/1072771.shtml"
     }
   }
 }
