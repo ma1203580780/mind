@@ -2202,7 +2202,12 @@
     "8fcaa8298a6978561b7b2a13dc715b7fae9722e049e304844ead048a97c41c02": "UX 纪律: 词汇表",
     "a95b8ea86f064911176a14ac4072903baeb7551caa4972203293a919cf2cb3b8": "用户体验相关领域的定义,包括UX设计,UI设计,外观设计,交互设计,服务设计,UX研究和DesignOps",
     "cf90d4c0fb78b5fbd6d284536b413672adae673fb93d0a481e18c85e665b747e": "《UX中的AI:工作更快,但从业者有混合的感觉》",
-    "c43ab62e8bfaf1618a2e337dbe1c29a0792dcb170937aaf324ff841303f10bc3": "AI在几乎每一项任务上都节省了UX从业者的时间,然而大多数人对此感到冷漠:任务,不可靠的产出,以及过高的预期会吞噬成果."
+    "c43ab62e8bfaf1618a2e337dbe1c29a0792dcb170937aaf324ff841303f10bc3": "AI在几乎每一项任务上都节省了UX从业者的时间,然而大多数人对此感到冷漠:任务,不可靠的产出,以及过高的预期会吞噬成果.",
+    "39501a6c487257e9b8d0d51404a41523d75eb48ca9a640dc145f9b689c923584": "– 社区智慧:谈判低球报价, 设计者在产品决策中赢得席位,",
+    "cb6e8800d1d88180f44b8f870c0af1d90c8bae10e782eac289e42c727f6f637b": "社区智慧 303",
+    "73aecc71e0bb9e68356c84be514ea3e604ececdd948662d96a8ece7056065133": "(原始内容存档于2018-09-21). Deel vs.为承包商管理提取:哪个平台让用户体验正确?",
+    "0d60cfe10b9d6ce9f1021739ebabee583a130d126d0bebf5be28513e0367bfd7": "两个强大的平台,两个不同的管理全球人才的方法从产品设计师的角度比较.想象一下你正在经营一个产品设计团队。你有一个UX研究员在德国,一个UI设计师在巴西,一个运动设计师在日本.他们都是独立的承包商,你需要加入他们,管理协议,确保他们按时得到报酬。起初,管理3个承包商可能似乎很直接。但随着你的团队不断壮大,你再雇几个人,事情变得复杂.不同的货币、地方法规、发票、批准和付款",
+    "aa23ba29d37e0bd9a4d337d32960de4777a317b40298f5e396f02812c7628927": "皮耶罗·西波隆:对米兰诺·芬萨的采访"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -11603,6 +11608,13 @@
       "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/7D3F7D8EB9D22277D8CE95D57A791C02.jpg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.eeo.com.cn/2026/1024/1072771.shtml"
+    },
+    "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html": {
+      "checkedAt": "2026-10-24T15:51:38.638488+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
     }
   }
 }
