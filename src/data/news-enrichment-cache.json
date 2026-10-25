@@ -2251,7 +2251,17 @@
     "7a2c123a51e9684258e429fab0831be58149d4b33e1a2c1f08f119b821fb2e2d": "当LLMs忘记他们相信的:在长视野对话中描述国家廉政崩溃",
     "33d1e9ca818a0fc38da1d6756276f206aa83077333359a6f0589333ace5dd3ee": "大语言模型可以重复一个指令,同时无法继续遵守.我们研究了这种在长距离对话中的召回遵守分离,并界定了国家廉政崩溃:一个模式保留了已申明的记忆约束,但不再将其应用于后期。我们介绍\"国家追踪-奔驰\"(StateTrack-Bench),这是一套控制下的对话套件,涵盖数字,格式,角色/人物,事实-记忆,逻辑规则等限制.在7个以提供者为主的模型快照和5个对话深度探测器中,严格的联合留存率从62.4%到100.0%不等,降解集中在象征性的",
     "c17ac2738b0372ffaedf36eb952c69fd917ec6ed4fa1bcdada1bbdfc55b48e36": "Flint on Linux和Windows Flint现在在Linux和Windows以及macOS上运行.其他改进 流出 OpenAI 响应和Anthropic Messages 请求现在报告生成失败,而不是在部分输出后无声结束.ollama发射现在通过云模型的上下文长度和能力来编码工具,修复不正确的上下文和收缩设置.Anthropic相容的网络搜索现在在后续请求中使用模型支持的思维设置,防止可避免的失败.Full Changelog: v.0.40.8.v.0.40.9 (中文(简体) ).",
-    "5e90aeffc4c7f63da89db1a55119143f7cc4270ccfb127edfc9b58adb36a4f40": "mlxrunner: 导入并列出 Phonon 目录语音文件: 文档 Phonon 语音"
+    "5e90aeffc4c7f63da89db1a55119143f7cc4270ccfb127edfc9b58adb36a4f40": "mlxrunner: 导入并列出 Phonon 目录语音文件: 文档 Phonon 语音",
+    "8fb2559e9c34af32697fb5b6151d4789f222b292385205cd6adb25b02539ff2e": "人类UX的背景优势",
+    "db2c53a3b747a66b348587e8f61930d6499bfc236c57e4332b06f48b75fa9bed": "环境是当今人类的优势,但也正是原材料AI正在快速学习吸收.继续阅读 UX 集体",
+    "16e3ed4e272840a5395f5a1dcfc25db1f5f902d8189193d0b04f21c4d99db7e5": "没人要闪光按钮",
+    "f1cbcd451d7c61d3cd1950320fe8096849c213e891348b634eb5e830ba478fe3": "拥有相同AI面板的产品船;人们追逐关闭开关,而花费的回报超过跑道.用AI构建特征,而不是AI特征.乔恩·萨布提斯(Jon Sabutis)的描述,用HTML和CSS构建,打开任何你付费的产品,并查看右上角.有闪光。它后面是一个从右边滑过来的面板,上面写着“问什么”,并提出你没有要求的三项建议。关闭它,它会在下一次更新后回来,有时会用一个新的名字.我应该是最后一个抱怨的人我每天和AI一起写代码当我建造131个变体一个按钮到",
+    "db2a4c2452d34df6937cb93905b580442055394ea15fc2d9a0f6668fc93ececd": "在AI到达专业用户之前,在哪里划线",
+    "84637aee06d0d92f0de92c4154505983adf683bce007f75835e6ace6f613ee16": "每个路线图上都有聊天框.更没有答案。6个问题要问一个对话层是否会让专家们加快速度,还是悄悄地把键盘放在他们和他们已经知道的工作之间.几乎每个B2B应用程序都有一个聊天框。有时是侧边栏,有时是重建,其中的提示成为前门.这个特征通常设计良好,里面有闪闪发光的工艺元素,因为我们现在在AI中就是这样定义工艺的,对吧?其下的问题——这是为谁而做的,他们30秒前在做什么,如何",
+    "e2276552982893dc4e13bc8a2718497080c9f61189691d4ad808a1e95c079596": "(a) 会议室重新设计",
+    "6ccf8a8babe48c02761fc12e08cf99f435b597aa67664b29cab6e8e0e345fd45": "上传一张你房间的照片 并转换成一个新的设计 几秒钟。探索不同室内风格,为您家发现新鲜创意,不聘请室内设计师.AI房间重新设计工具将房间照片转换为重新设计的空间,帮助房主和租户在做出修改前将新的室内风格形象化.",
+    "f9fb201076a6bec35995e7725b0ffe10df63b82fff8b9f713c26964e1aa4c55b": "86分钟的寻找 PMF QQ Rob Snyder (Author, The Power of pull) 的指南",
+    "ecb5fbfa499cff46423bb7132c6e86ad2b8ea2ffcb746003267cf49e34913e5e": "听着(86分钟) 帮助超过50个创业者的创始人 撞了1M ARR 分享他的PULL框架 寻找真正的产品市场合适"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -11848,6 +11858,41 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/017/592.htm"
+    },
+    "https://w2solo.com/topics/8633": {
+      "checkedAt": "2026-10-25T18:59:19.323510+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8633"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-25/": {
+      "checkedAt": "2026-10-25T18:59:19.323510+00:00",
+      "description": "zCAD AI：AI 3D技术不仅仅是创造形状，而是能制造出真实的零件。；myPip：通过人工智能创建、发布和盈利游戏；1Password for Agents：让人工智能助手为你登录，而无需查看你的密码。；AgentValley：每个Claude Code代理，一目了然，尽在你Mac的刘海处。；Canva Craft：将提示转换为可编辑的设计图像",
+      "image": "https://decohack.com/producthunt-daily-2026-10-25/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-25/"
+    },
+    "https://w2solo.com/topics/8632": {
+      "checkedAt": "2026-10-25T18:59:19.323510+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8632"
+    },
+    "https://w2solo.com/topics/8625": {
+      "checkedAt": "2026-10-25T18:59:19.323510+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8625"
+    },
+    "https://www.ithome.com/1/017/681.htm": {
+      "checkedAt": "2026-10-25T18:59:19.323510+00:00",
+      "description": "莱拉 · 易卜拉欣表示，DeepMind 招聘时越来越看重求职者在课堂之外的持续学习经历。多项资历能体现持续学习心态，而多样化学习经历也让人更善于提问。在答案获取成本极低的当下，提出好问题的能力反而愈发稀缺。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/017/681.htm"
     }
   }
 }
