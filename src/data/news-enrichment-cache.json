@@ -11827,6 +11827,27 @@
       "image": "https://arxiv.org/html/2610.31314v1/figures/figure7_pipeline_paperbanana_neurips.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2610.31314"
+    },
+    "https://www.ithome.com/1/017/622.htm": {
+      "checkedAt": "2026-10-25T11:16:22.851398+00:00",
+      "description": "野村证券 20 日发布乐观预测，认为尽管 AI 企业营收增速放缓、融资前景引发担忧，全球存储芯片需求仍将在 2028 年前保持快速增长。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/017/622.htm"
+    },
+    "https://www.ithome.com/1/017/618.htm": {
+      "checkedAt": "2026-10-25T11:16:22.851398+00:00",
+      "description": "英国 AI 基础设施企业 Nscale 遭到一名工程师起诉。这名工程师曾在 Nscale 位于挪威的数据中心工作，指控该公司违法采用分包用工模式，并涉及不当解雇。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/017/618.htm"
+    },
+    "https://www.ithome.com/1/017/592.htm": {
+      "checkedAt": "2026-10-25T11:16:22.851398+00:00",
+      "description": "路透社采访的七名网络安全专家认为，随着 AI 技术不断揭示软件中隐藏的安全漏洞，类似本周全球多地政府网站接连中断服务的事件，几乎肯定会再次发生。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/017/592.htm"
     }
   }
 }
