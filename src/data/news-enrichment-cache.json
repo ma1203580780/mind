@@ -2322,7 +2322,22 @@
     "5f0c032f55eab75cf636793091b6386c4c1657909f48d28020673b8f7c49154f": "欧洲航空业的碳管制和竞争",
     "d4d15c5e2b42e6814798f2d01e672f2a6338d3e2e2db38a0c1dd8d2029f2a673": "欧洲联盟排放交易制度旨在大幅提高航空公司面临的有效碳价格。我们估计航空竞争的两阶段模式包括内源产品进入、直接起飞频率和定价。各种载体类型和市场部门的影响高度不对称。在中长期市场,消费者盈余总体下降了34%,高达95%。随着航空公司将能力重新分配到较短的航线,短途市场获得了福利。航空公司利润下降1-42%,但碳税收入为19-29亿美元和社会va",
     "e43f7fd34bea36f9ca15630118af653015027d90e677fd4bcb5f8dd5141173b4": "NgramRL:通过推出Aware N-gram分光解码加速RL结构化生成后培训",
-    "58499ac9a4f6b146c4fc35c29895302504b085870bad51a3c3b6b6ba289d6f1c": "强化学习(RL)的后期训练提高了大型语言模型的推理能力,但其成本以自动推出生成为主,可超过70%的训练时间.现有的投机解码方法并不适合这种设置:基于模型的起草者消耗了稀缺的GPU内存,并可能随着政策的发展而变得错位,而现有的无模型方法并没有明确地利用跨培训时代的重复.我们注意到,最近推出的同一程序提供了一个高质量、自我更新的草稿来源。基于这一见解,我们"
+    "58499ac9a4f6b146c4fc35c29895302504b085870bad51a3c3b6b6ba289d6f1c": "强化学习(RL)的后期训练提高了大型语言模型的推理能力,但其成本以自动推出生成为主,可超过70%的训练时间.现有的投机解码方法并不适合这种设置:基于模型的起草者消耗了稀缺的GPU内存,并可能随着政策的发展而变得错位,而现有的无模型方法并没有明确地利用跨培训时代的重复.我们注意到,最近推出的同一程序提供了一个高质量、自我更新的草稿来源。基于这一见解,我们",
+    "77df48dbf5322111c9175c5063429540293a1a07ff948650b13c41444430b7ab": "真希望你在这里!罗斯·桑德森(Rose Sanderson)的维蒂卡片,",
+    "58c4624de9f3062a471d70ac04c3e4ae218299d483aca4458959e20baeb737d6": "罗斯·桑德森(Rose Sanderson)以规模演奏, 拍摄了早期电影院的奇特之处。",
+    "89e85838a8b9d3749f6bee2390da234248cf59c76386ee4630b4145cbf2f8cb1": "克劳德法典中的AGENTS.md:它是什么以及它为什么重要",
+    "cf6fd2a0f96f9f54dfb9bb0b3c40bf419f784379cd77d34f6f2f3d4d20ef5556": "AGENTS.md是一个Markdown文件,其指令告诉AI编码代理如何与您的项目合作.Claude Code 支持 AGENTS.md... 继续在 UX Planet 上读取",
+    "d96f01c7fa118ff227335c6b793aa922710d9f47eaf90c9458d5c747dfd9ee65": "为何Reddit建立自己的AI原型工具?",
+    "4a99ec2d87eb7315435e40403f66a9940ee524247c3f28e15707ddae6fc09dd8": "Reddit的主要UX工程师展示了定制的 Figma MCP 和 Cursor 管道如何在几分钟内将任何设计师从空白板上带到可分享的、生产形状的原型。",
+    "15fbe0958d151f6b1601e69e75edac1fce25076d62fe2e9f14c5d52f1cc0f3b9": "谁能给未来起名?",
+    "f12a74b10865f5eb5fff0f6a0b9cfccc23e7e803608d17cb68893d5bae043975": "被打碎、被打乱和前方部署:AI男孩俱乐部的野战指南。在最近召开的一次会议上,我听到有人曾拍到一个原型,我们应该转动老虎团队, 顾客真正需要的是一个前方部署的工程师。没有人眨眼。我点了点头,当他问我一个问题时,两只手在我的嘴里: 同意的,不管怎样, 刚刚结束它, 并且不知道我刚刚同意什么。等会儿,我站在厨房里 休息一会",
+    "e1c47683b927f2ba26d5fb7041af4b8f181e4b53c7ab0a7812369b1792669a59": "倒热水的水龙头,不是冷水",
+    "d91a600d50b51bfd248b71f1e7562b9b8315dc0d7809bf28fc7e8895769d4d10": "在寿司自助服务系统 悄悄地将其风险 继续阅读UX集体。",
+    "d493b017d33ea73cd8792fca1ae7e944db2d586441634e61e3cd0cee03c713c1": "说错话了 Design v ADHD,",
+    "280a89684a1b016d4dd266d72093558324ff0513e28a2cb91c723084565c9f2f": "每周为设计者——思想家和制造者——提供资源。“设计人员急于跳过这一进程的步骤,以争取更快的产出。但真正重要的竞争是 争取利益相关者的一致。设计者既特别容易输掉这场赛事, 也独具优势地赢得这场比赛。” UX中最快的枪:为什么你的团队讲错了故事—— 关闭Figma的用户研究与设计之间的循环—— [赞助] Connect Optimal MCP与Figma的AI设计代理商, 并借鉴你的研究成果,从参与者反馈到原型任务结果.更新或设置",
+    "3e07de50fcb394522450a6ac927bbc4a66cfb67d804325683921958cf0ce45c3": "企业获得融资情况调查:贷款条件收紧",
+    "1914af1a86c08d6d59004961379310a2581d973848039b40f38e676eeeb7d699": "Fanatics和OpenAI如何精简粉丝体验",
+    "5bcee800c341b94b8332a904f3e0ba24f7d7cb2bc2bfde610ae834074c5b12f8": "Fanatics使用OpenAI帮助粉丝们完成与Shop the Look的游戏日装配.对大约30,000个MLB产品的测试显示,参与率提高了10%。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -12232,6 +12247,94 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/153d3944857e7d85eed3ea2c47ca5b88.gif",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/504905.html"
+    },
+    "https://solo.xin/topic/6114": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "这是一篇幕后记录。从立项、踩坑到终于能拿得出手，我们把这段路讲给所有人听——不管你看不看得懂技术，应该都能明白我们在干什么、为什么值得做。 一、先说清楚：我们到底做了个啥？ 一句话： VirtuaMesh 是一个\"把分散在各处的设备，连成一张私人网络\"的工具。 举个最直观的例子： 你在出差，想随手打开家里那台存照片的…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6114"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/press/pr/date/2026/html/pr261026/ecb.pr261026.en_img0.png?29d73eee6a56ac88e4d533b737041c88",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261026~bde7b6d11a.en.html"
+    },
+    "https://www.qbitai.com/2026/10/505539.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3541bad072d2dbddde30dd5f828d67bf.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505539.html"
+    },
+    "https://www.qbitai.com/2026/10/505529.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "模型开始利用GPU缓存聊天？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/bf1298f8e80aa020de369ab6a6387e15.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505529.html"
+    },
+    "https://www.qbitai.com/2026/10/505521.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "所谓奇点，或许是AI跃过人类的那个点。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/1e19022b3a20c3c00fcae6b5cbd93963.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505521.html"
+    },
+    "https://www.qbitai.com/2026/10/505478.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "从冲刺AGI到转售GPU。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/4f65d2703f6db94ede30f8c3fddce3f2.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505478.html"
+    },
+    "https://www.qbitai.com/2026/10/505454.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "有点意外，但也不意外",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/607a8ae23fcb0adb2039c162180c0418.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505454.html"
+    },
+    "https://www.qbitai.com/2026/10/505443.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "人工智能正在从人机“言传身教”走向自学“触类旁通”。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/f5598b44403356e3dae282c23549d875.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505443.html"
+    },
+    "https://www.qbitai.com/2026/10/505436.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "10月21日，2026世界智能网联汽车大会在北京召开",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/4ceb3d427fc428ec95ec23b42c9bc66c.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505436.html"
+    },
+    "https://openai.com/index/fanatics-streamline-fan-experience": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/10/505429.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "高品质 AI Token 成为行业新风向",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/71cbca85bd0ec61c5f8583e103ece150.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505429.html"
+    },
+    "https://www.qbitai.com/2026/10/505407.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "一张卡，512路长推理同时跑",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/7ff7ca86dc9e40161611a75054417fb1.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505407.html"
+    },
+    "https://www.qbitai.com/2026/10/505365.html": {
+      "checkedAt": "2026-10-26T15:07:59.543223+00:00",
+      "description": "AI同事自带工作记忆上岗",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/b872acbf63dc34bcfc276fb90c139c11.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505365.html"
     }
   }
 }
