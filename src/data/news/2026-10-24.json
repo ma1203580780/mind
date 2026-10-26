@@ -1371,7 +1371,7 @@
       "automated": true,
       "sourceLanguage": "en",
       "summaryTruncated": true,
-      "author": "Miguel Mochizuki Silva, Samuel Ismael, Mateus C. Dias, Tha\\'is Gaud\\^encio, Yuri Malheiros, Barufald",
+      "author": "Miguel Mochizuki Silva, Samuel Ismael, Mateus C. Dias, Tha\\'is Gaud\\^encio, Yuri Malheiros, Bruno Ba",
       "contentLanguage": "en",
       "titleZh": "地面真理形状检索分数:对乳腺癌检索-强化生成系统的证据-知情评价",
       "summaryZh": "目的:描述临床检索-增殖生成(RAG)系统对乳腺损伤管理文献的证据意识检索评价协议,解决检索分数依赖注解覆盖的问题.方法:采用了18个文件汇编和18个基点发展基准,每个文件有一个是/否或WH问题。检索集成密集嵌入,BM25,和交叉编码器重排.春克尺寸128至1024个令牌,重叠0至20%,4个检索器配置得到评价.相关性由绘制到所有c的证据跨度界定。",
