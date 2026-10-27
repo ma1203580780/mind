@@ -2337,7 +2337,94 @@
     "280a89684a1b016d4dd266d72093558324ff0513e28a2cb91c723084565c9f2f": "每周为设计者——思想家和制造者——提供资源。“设计人员急于跳过这一进程的步骤,以争取更快的产出。但真正重要的竞争是 争取利益相关者的一致。设计者既特别容易输掉这场赛事, 也独具优势地赢得这场比赛。” UX中最快的枪:为什么你的团队讲错了故事—— 关闭Figma的用户研究与设计之间的循环—— [赞助] Connect Optimal MCP与Figma的AI设计代理商, 并借鉴你的研究成果,从参与者反馈到原型任务结果.更新或设置",
     "3e07de50fcb394522450a6ac927bbc4a66cfb67d804325683921958cf0ce45c3": "企业获得融资情况调查:贷款条件收紧",
     "1914af1a86c08d6d59004961379310a2581d973848039b40f38e676eeeb7d699": "Fanatics和OpenAI如何精简粉丝体验",
-    "5bcee800c341b94b8332a904f3e0ba24f7d7cb2bc2bfde610ae834074c5b12f8": "Fanatics使用OpenAI帮助粉丝们完成与Shop the Look的游戏日装配.对大约30,000个MLB产品的测试显示,参与率提高了10%。"
+    "5bcee800c341b94b8332a904f3e0ba24f7d7cb2bc2bfde610ae834074c5b12f8": "Fanatics使用OpenAI帮助粉丝们完成与Shop the Look的游戏日装配.对大约30,000个MLB产品的测试显示,参与率提高了10%。",
+    "c2fa045991a1f3e5e6b37a161c4ecd7d6445a8f2e15eb4c51bda90819d863051": "页:1",
+    "d975376dac49f72d4281467adb4252adcd5e9641fd96644e9ded4b25a6a3e482": "更改mlx:由@dhiltgen在#19247 MLX,MLX-C为紧凑的Gemma 4视觉塔保留小图像细节 :由@dhiltgen在#19291mlx为gemma/flint/laguna迅速加速 :由@dhiltgen在#194 lama.cpp:由@dhiltgen在#19311的@dhiltgen在#40.11.v0.40.12-rc0中添加 DFlash2支持 :由@dhiltgen在#194 lama.c.cpp:由@dhiltgen在#19311 Full Changelog:v0.40.11.v0.40.12-rc0.",
+    "54dcf5a371d4794808873fb9df894d1f0fe10b4840f3bbc32fddcc68ade934ed": "建设AI-ready设计系统库:代码_与MCP的图片.",
+    "8c0f1d1d8ccce9fa96c27560394a9fe3daceee8c9a5533dc5801f497b02c532b": "In-System Design 设计师实用指南:我的设计系统为何以代码开始,以及我如何建造,检查和维护Figma库.系统设计:三部曲系列.第一部分:构建AI备妥设计系统:代码 → Figma(你在这里) 第二部分:AI在您设计系统内部的原型(2026年11月3日) 第三部分:从代码到Figma和背面(2026年11月10日)对于熟知Figma且从未写过生产代码的设计者,以及周围的设计系统团队.每个技术词在结尾的框中都会被解释.在我大部分的职业生涯中, 工作是单行的。当然",
+    "25b736c671996b259a6ebd7ac295d7d55761cd5fdf6451af7943b9c27d698a97": "Rebecca Zwanzig Tap into Art History and Nostalgia的梦幻数字解说",
+    "834f5d5b91e9dbce8463772937357608442283c8af28e83fb486e87faf836ab3": "以波特兰为基地的艺术家的郁郁葱葱的梯度灵感来自对油画的热爱.",
+    "8bdae44af90d76d44fdc91d32b1fb1c984a4a1516bef013e72a75833c3f4e4ab": "通过混合频率国家空间模型进行动态死亡率预测",
+    "8cacb65e7dc00669debca5ec0a555c891631928935887b18f49894b90174d477": "高频死亡数现已广泛提供,并载有关于年中死亡率动态的及时信息,但大多数有条理的死亡率模型仍然根据年度数据估算,因此只有在公布年度总数时才更新。我们提议将李卡特框架扩大为混合频率状态空间,共同使用年死亡率和每月死亡人数。这两个系列通过共同的潜在月死亡率系数联系起来,年期系数定义为月系数的年内平均数。潜在月因子 fo",
+    "25ebb204d208a2b85c2d35a64556b674136781b4ecf96a5199931d7a3b01e09a": "朗链-开口语=1.7.3",
+    "50910342a70fb104985dc5b0207853b115d0ee5a8cefee9a98671559c7f27f4a": "langchain-openai == 1.7.2 测试(openai):在集成测试(#41509)中使用当前轻量级模型(openai):1.7.3(#41506) chore(模型-简介):刷新Openai模型配置数据(#41505) 构建(以下):补丁测试专用 Pillow不丢Python 3.10(#41484) 回归:补丁脆弱集成依赖(#41481) 构建(deps):补丁脆弱集成依赖(#41473) chore(以下):放松第三方依赖的上限(#41407) chore(dps):从3.14.4到3.3.14.5在/libs/partners/openai(# 41379) core(deps):凸起的certifi fro",
+    "51bc5c6a91ede19c03583f2aa7eff502a9459c247fdd9f7bd0c72cce349cd43f": "苹果的HomeView减少努力,",
+    "9dbfebc212b6fa72ff6212dcfeb73a116db8a00c632985004a6d443aef73ae63": "真正有用的国内技术逐渐消失。太多智能家庭屏幕 需求中心舞台。苹果HomeView 形象信用:苹果.苹果公司最近进入家用自动化市场,听起来不错的行人,是Google的Nest Hub或Amazon的回声节目的竞争者,iPad不能已经做了大部分吗?我的设计大脑一直问 HomeView的解问题是什么?投球:一个",
+    "7042e8211f5ade8ea8331c150ac43dd6a9a08f182299539c109703efe04c0f74": "Scott Kahn Invokes 大气景观绘画中的梦想与激情",
+    "dc2e11a58f0d680e3eda3d5c756d689403d616959eb5741d0b76d35963886af7": "紧凑的边缘、地平线、阴影和消失的路径促使我们质疑我们是否能够真正理解我们所看到的。",
+    "8a6f90cd0611e607df9080eb8b6d1ac436c1b21f044a3581b610fdf168cfbd16": "圣胡安的《夜间生活条例》的短跑多成果影响",
+    "b6a6eb2b0559576cfcde04504551000f0db0030ff58ccfa0839dd66148d27752": "我评价了圣胡安, 波多黎各深夜的酒类销售法令,我表明,一个共同加权估计器澄清了低级成果结构下的机制。我发现,在目标部门 -- -- 餐馆和酒吧、汽油和方便以及招待就业 -- -- 进行经济上有意义的重新分配,而深夜的公共秩序混乱逮捕和暴力犯罪并没有明显偏离政策前的趋势。短期政策后窗口和小型捐助资金库限制了统计力量;联合调节和pe",
+    "3a61ff504c66b7984df13030bde77caaa3dbc7b98aac49d713fe82492e5c833d": "释放:v5.21.0",
+    "6d6d251d0826470c2b17b7bb4f1008aaac482155f8fa09a3406001439f6e31c3": "发布 v5.21.0新模型添加MiniCPM-OCR MiniCPM-OCR是OpenBMB的MiniCPM-V家族的一种文档理解模型.它保留了MiniCPM-V 4.6架构,该架构将一个SigLIP视觉编码器和窗口视距合并为Quen3.5语言模型.它专门用来阅读文字密集的图像,如扫描页、截图、收据和表格。链接:documents QQ Paper Feat测试(#49920),由@guarin在#49920 Flint Flint是Reursive的混合专家语言模型.与标准SwiGLU MoE变压器如Quen3-MoE相比,它使用混合注意(slidin)",
+    "e97d889ea710c3b52efaca4fce59a41fce9340c6bfe3071e9605a9e53021448f": "移动",
+    "8e4bb37ad4776104be13370a80b8e4de5c348747f65d7ba50f604ff466157b18": "GenAI-Associated写作和学术表演:社会和行为科学的证据",
+    "dceefc9a2af025726b136482f2942e20f78ca40a9f1d416417981884f0ceb486": "本文研究了Generative AI(GenAI)协助的写作如何与同行评审的出版产出和杂志在社会和行为科学中的放置有关.我们选择了在ChatGPT于2022年末发布后频率急剧上升的词典标记,并在这些标记在论文标题和摘要中的份额相对于他们自己的发布前基线上升时,将作者归类为GenAI辅助作者.我们利用作者一级的匹配面板数据和差异设计,估计GenAI协助的作者的出版产出相对t增加72%",
+    "6fe0f2c854a4bbf08f3055eecee675384c7f7ce87db40c57753edb2d07010f2e": "杜布利强健的T统计工作能有多弱的重叠?",
+    "c9e1bcf01e5baec30df055e9ef0f196f4fd2e6fd2c7ba5f165ab2d41a0bfc4e3": "Propensity得分接近0或1可以让标准的信任间隔做卧底.计量经济学理论利用非标准估计器或间隔,将平均处理效应(ATE)作为这种微弱重叠的目标。相反,实践倾向于采用固定的阈值规则,通过放弃治疗可能最重要的极适当单位来恢复不对称的正常性。我显示,即使重叠程度太低,以至于每个普通估计器都有无限的不对称差异,对ATE的标准T测试依然有效.关键是把平时的双强估计器打入门槛",
+    "5a949dda94e1b348dee87afb7bc7058491d7791848096c3c1b10a51b2a2b258d": "指责政治:政治中的恶果",
+    "f3cf2ea1bacda61ffbee7d2fff04db1ad265c3a1dc931fe5f914bf285d5f9c12": "民主政治要求选民推断政治行动如何将结果映射出来,但这些因果关系往往不明确,使政治家们有余地决定选民的因果关系。本文研究了政治中因果言辞的供给和回报:政治家们通过指责和信用将政治行动与结果联系起来的语言.我们微调一个语言模型,造成政治分歧的语言,",
+    "ba47a17270dc151fb1ffa17d325935b9e7a42fc0ded03eefe8396f97de7de4d6": "在IT.jl之前:基于高性能的代理宏观经济制造易用",
+    "7f0064534dc37ac0a0722633416950cdf7c1071dadebcf5a95ab9dd1035849ba": "在IT之前,它是一种开源软件,用于在[1] 开发的最近引入的宏观反导的基础上,构建和模拟最先进的宏观经济代理模型(macro ABMs),这里称为基础模型.用Julia写成,它结合了非凡的计算效率与方便用户性和扩展性.我们介绍了该软件的主要结构,用说明性实例表明其易于使用,并衡量其业绩。我们的基准表明,与PreforeIT构建的基数模型比最初的Matlab imp快。",
+    "1cdb7d3b1f4cb0cf5f1923db20baa2e4821e326d25358bbf6636be1578667582": "GPT-6 Astra在代码审查之外进行错误检测",
+    "1c5da00e5afbc422a2db92abbf4069305fab385b2f08544cdfdf739ece9b17b9": "Greptile如何使用GPT-6 Astra测试用户工作流程,Daybreak加强安全,Codex减少重做.",
+    "40fd130a82f23f170d3a0a91a288856bb93e1478e9a835ad9e33909403fe2d21": "与学术界合作建立科学认识",
+    "fa25960f92ec5b97e11ef2701abb09b03df3e5578c283fa067a956e9f1a3c1e7": "OpenAI分享了Kakeya猜想、时间假设和量子染色体动力学的模型结果,以及研究人员如何核实和借鉴这些结果。",
+    "7ebf959cfc4326d96f4f1d412d041ab3bc4a0f70ad0a27d1655b440ae6571c1f": "GPT-6.1 Sol帮助代码Rabbit加强整个复杂代码库的安全性",
+    "74d860717d2268269e8c3af20ee06e6ceb0da65f0e6b7e2b3ddf3b9cf1c0f8a6": "CodeRabbit使用GPT-6.1 Sol调查整个复杂代码库的安全风险.其安全代理机构帮助开发者审查发现和拟议修正.",
+    "7e3c6db315964da4eac4f871301cba3649a3230d1fce01b913401b21200f9819": "ChatGPT 不断扩大的工作世界",
+    "218b8867ccead0ec1af2d21b6ac2ac0afcd12b731fb2b4be490b49111a828abd": "探索近100个国家165个工作活动的OpenAI信号数据,揭示人们如何将ChatGPT用于工作以及使用方式随时间变化.",
+    "fcffc395634f30f06d78df19d9358233ecaffc9c4f77fef7b18700eb2791e04f": "在OpenAI,Ultrafast如何将事件调查从几个小时减少到几分钟",
+    "059555d29e25520c36488463b2d3a0cb0d2959e14859f9a0f4bd23e419fdb5be": "参见OpenAI工程师如何在几分钟内使用Codex Ultrafast来调查事件.探索更快的安全分析,代码重构,以及日常工作流程.",
+    "7765981754dfa664668ecaf672718040616ca8322bb62ba24bcc6ec28e504fbe": "通过图层-Wise错误模型搜索推进基于 SVD 的 LLM 压缩",
+    "c6a12d01130ad5358e37f0558ede758ad0a71964adbf6f18e1e643f7c88a7622": "基于SVD的低排名压缩提供了强大的策略,以减少LLMs的计算成本.然而,现有方法面临两个关键限制:(一)全球排名分配,即未校准误差的代理无法捕捉到复杂的误差传播,以及(二) 分解质量,即以渔业为主的估测者严重排名崩溃。在这项工作中,我们通过引入图层误差建模搜索(LEMS)和KFAC-SVD来解决这些局限性.LEMS通过引入一个分层错位代位,将本地和全球层的重要性结合到一个",
+    "a3d791be673c16a47808503fd40e6bd34461d4b5ea4d36deeae043cc549c527d": "\"真\"和\"假\"都加到一吗?LLM - Agent 意见模拟中的一致性",
+    "358eeff4ae5672f451a1d39cbe44ae6e9eb0b0cc59c68b531016c9e30b2583c2": "在LLM-代理的舆论模拟中,每个代理都报告在看到自己先前的概率和邻居报告的概率后,一个声称是真实的概率,这个数字在下一轮成为它的状态.如果数字说明代理人的地位,而不是所显示的句子,那么将索赔书改写为补充,用1-p取代每一概率p应返回补充答案,因此两份报告应合并为1。我们用三个小型的开放型号进行测试:Qune3-4B,Llama-3.2-3B和Gemma-3-4B.2 304个特工状态",
+    "7d63707ae817ada178ec4423fcd5011d65f92f5d9c9ad5b2b279e69e0b4875f0": "J-Comm:LLM代理人之间雅各比-Guided Latent通讯",
+    "78ec7c8cf8faf7e19a3286858fe47862fa910597f7a80b856029dec6cb804c76": "Latent 通信既需要有效的连续推理过程,也需要一个接口,一个外部模型可以通过这个接口利用其中间计算.我们提出联合指挥部,这是一个由两个核心组成部分组成的框架。首先,一项无培训的 \" 后天理性 \" 几何协议(GEAR)比现有模式嵌入重新对象征性候选人进行加权,该模式单调优化了每个步骤嵌入空间中候选标志之间的几何共识。第二,我们引入一个H+J(Hidden-and-Jacobian)通信接口,向接收者提供Sen的两个互补观点.",
+    "e72aaa77070c5914b0aabbbb6f4962f7d26ca5ac8969498a0d3b837b3b752059": "从有意构建活动世界的系统代表性到对话:一个五级交流架构,促进以语言为基础的强大自主倡议",
+    "d5e1c256425e375727dab551ac2edb4e65c9186240bee2faec03307473d5769a": "本文件提议在意大利国际空间局参与的思维和活动范围内,在五个层次上组织信息形成和理解。它的核心理论是,语言模型的背景根本无法为检查和核实提供语音形成的基础。这些基金会是预先建立的,它们有既定的计划、活动世界的系统表述以及它们内部公认的真正联系。无论是上下文还是经过培训的LLM权重本身都证明存在有意构建的系统代表",
+    "fce670a0ccd85fc52a2a0f02171eb137cecd2657a14f8adf92844cdbdf450f94": "与 TopKLORA 进行可解释的稀疏微调, 能够发现忠实的电路",
+    "4b92bd8e1a5fa03524c7940fab63b9614ea8bb322c3dcf3ed3b6dacc61830c2f": "对来源不明的数据集进行精细调整,在数据包括有毒例子时,可以在训练过的模型中形成后门.通过安全培训,后门难以定位和拆除。虽然参数高效的微调方法能捕捉到训练期间引入的全部参数变化,但是它们并不容易解释.我们提出了TopKLORA的全部方法,扩展了Masiak等人的初步提案。(2025),一种可解释的逐项设计 LoRA 变体,其中每个符号都活动着只有$k$最大的适配器潜质.与SAE不同,TopKLORA是训练的pur",
+    "45a6ff4d0ea84a4592491f19d6168ea0318a1b975b91d094740c71ba007a8c1b": "PoKER:空对空导弹使用机器学习Stochastic目标估计率模型的概率",
+    "10bb2ad2e9829e7b2f8d80ff0dcfa336cbaaa32fb04724a93b00f3f4a0e16f83": "这部作品引入了PoKER,这是一种新颖的概率模型,为优化导弹在空对空情景中的发射效果而设计,具体来说是在超越视觉范围(BVR)空战中.与基于最大、最小和无逃逸距离等静态距离的常规武器交战区模型不同,PoKER应用机器学习,通过综合目标与导弹误射距离的扭曲行为,更准确地预测杀伤概率。这个模型能动态地评价目标行为,大大扩展Eng的预测能力.",
+    "4b30de3f21a65b82342b3af8ef8e2267d212012743658f3b6830e62234a646e0": "政策内在纵向效应估计基础模型",
+    "f298ceaa8b00b548d2fdee6a4b17273aaa857b20b4b7a2241195357d25b2f41d": "纵向因果估计因时间变化而变得复杂,而且处理-不相容反馈循环。现有方法一般需要特定的数据扰动模型的配置,许多方法都适合预先指定的处理序列或预测前景,从而在部署时进行耗费时间的计算。我们采用“政策内在纵向因果效应估计与前数据配对网络”(**PICLE-PFN**),这是支持“动态*治疗政策”的纵向因果效应估计的第一个基础模型。PICLE-PFN代表目标政策",
+    "6e04c8e9a0a8fac76b364a5acf5a7597a9a8870e646701b84896257035ccfa08": "重新想象多代理系统企业RAG:在它检索之前组织的知识层",
+    "bccfbe85a68cba3ddcaaa83e9ad4ea6c9487dbff43bade887fa0994a8a462bcb": "企业在整个软件开发生命周期部署代理AI,它们需要他们所操作的系统的行为逻辑,而不是利益攸关方的文件。一个七代理逆向工程管道恢复了这一逻辑,将241个储存器处理在18个服务处,变成数千件说明范围、行程、规则和验收标准的文物。恢复不能带来可用性。诸如提供、资格和激活等实体在共同词汇下重复提供各种服务,这些词汇与名称有关,但在业务上是不同的,因此一个端到端的旅程涉及上千人",
+    "2cd8057c193045e8a538f90e4c480489797c0bdb6490b47e492f4fbf778fb8e2": "与全体人口沟通:紧急警报和警告的机器翻译",
+    "c636f056284b30ebccae3d6a1809aa3b66d8a2c14a874417be7fbf3f6f407d16": "我们必须在危机期间与所有受影响人口,包括不讲某一区域主要语言的人进行沟通。商业翻译工具为扩大访问提供了诱人的解决办法,在没有其他资源的情况下,可以提供一条生命线。然而,应急管理人员经常在这些自动化产出的质量和充分性方面处于黑暗状态。在本文中,我们对应急管理人员进行全国性调查,以了解他们目前的工作流程、观点和业务挑战。然后我们评价通讯员",
+    "98e2801e8873323d84ad754b730d603923d34712649d96b8f6e57a5614fcf642": "SPOOK: 愿景编码器中用于非管理知识的 Sparse像素优化",
+    "e963ebda81c7e849d17516a33b0669bf8c9692ee395b0b992bdb2c8cc0b60819": "现代视觉编码器被广泛用作语义表达,但嵌入相似性与人-可见语义之间的关系可能变得与自然-图像多面性相去甚远.我们在黑盒设置中通过将稀疏的像素编辑器应用到一个简单的像素级山丘攀登程序的空白画布中来探测这个制度.透过ImageNet和Flickr30k,我们评价这些经编辑的空白画布能否在多式联运对比编码器和自我监督的视觉编码器中检索到所选择的目标。在 OpenCLIP 上,优化对类提示的投入实现强顶-1和",
+    "d4307e1577730305a8c10b786ef42120bb6cd960ea3ef34cbdd6c57aea8de7bc": "KrishokTech:具有明确授权控制的孟加拉农业咨询系统",
+    "c74dd31446a5ee999795e729d97f0945a698b9cce73bf6669353c74bff748e91": "就农业咨询而言,产生答案只是问题的一部分:系统还必须控制不安全的要求,在有限的连通性下工作,并适应不断变化的指导。KRISHOKTECH是一个孟加拉农业咨询系统,围绕一代人周围的明确授权边界而建立。在检索之前,正常化和有章可循的入院检查可参考政策覆盖的高风险请求,并在未详细说明治疗意图时要求提供作物。系统然后将检索绑定在一个单一的作物上,并在文字和图像显示不同作物时要求确认.",
+    "4bf0c5deec090ecf1bc77a79c2bcad2f8f07c0ce91d7948b255f7ebfba99d914": "HarnessMM:对Harness Token效率的自我递解",
+    "6f8571df0bbc80d1eae9edff332a635de68275347d20b9cb736a7164487b58eb": "Agent japes在工具反馈后反复引用推理,即使之前的呼叫已经固定了下一个动作.我们引入了Harness Minus(Harness Minus Minus),这是一种通过谨慎的决定再利用和递归自我改进(RSI)来提高调用符号效率的方法.RSI从培训反馈中迭代地完善了同伴的驾驭配置,同时验证选择配置进行部署.在模型-工具边界再利用时,一个控制器解决了替换后来推理回调的决定,而演员的权重保持不变。可执行的决定图形存储",
+    "ce0b4b7246e8bc32e64f74d77f66ba875aba4cc3da7aab9dac1800b921ec846b": "Frontier-OPD: 发现代理能力和教学代理到超越的边缘",
+    "e2c86c88dea4e5dafbc0f222301594784d37efa52ee2ea85b1ceae03ee6644c8": "政策上的提炼使老师的反馈与学生当前的行为一致,然而要获得对多回合代理的有益监督,就需要既确定需要指导的地方,又确定学生是否能够在之后保持互动.我们引入了Frontier-OPD,它通过学生的学习前沿来解决这个问题:决定情况仍然具有挑战性,但在教师的简短指导之后却承认有用的自主延续。为了落实这一前沿,边界-OPD将政策经验组织成一个共享状态轨迹图,其中轨迹-巴兰",
+    "d0625ff7385dd4d6db7a25a5f4a5fb814ecb874be8676c02ad5cc143c6a181ef": "乘法对.学习优化时间表中的附加状态",
+    "5e723b1c4b0314ca21a14b723f96546bc909a119294ec9d1d81e3d923d08cde0": "我们通过无卷带的古典解答器进行反宣传,学习持续放松MAX-CUT惩罚的时间表.国家盲目时间表一般适用于大大大于培训使用的情况。国家适应性双线性时间表也一般不分发,超过15个种子未经训练的基准(4.1美元)。与此相反,在统计学上,与分布中的双线模型无法区分出相同的投入和产出头的添加剂,但其表现却比其分配基准差(t=11.7美元)。这个分离程序",
+    "825d5b655cb291954f7931a0ce49d3dd13c9a68aa7ffbcbdeaec1fa6ef151163": "ParaTaxe:用于处理和出版多平行公司的工具套件",
+    "d4606a23e36adc4bebf23d69e8d43173ba1e948544bf7fc5eaa36bd5bd0b8ac5": "在过去15年中,数字人文科学领域大力发展了平行和对齐文字公司的数字工具。为了比较不同文本的翻译或版本,创建了多个项目和软件工具.尽管取得了这些技术进步,但由于缺乏维护或资金,许多在学术背景下生产的平行公司很快就无法上网。为了弥补这一差距,我们提出了一套在ACR GrimmTradalign和ParaTaxe项目中开发的开源工具。这套套装包括Align对齐器,ba",
+    "c0ed3f3ef4ace0e76d41bff526026fef463d57f61dc9e906a297e5798e1493b4": "每一个边缘都需要一个引用:用语言-模型代理构建一个引用全方位的保健软件应用知识图",
+    "ba67dc613eb14bad93eb33be23e5d1ae0dbf41b3cd1b9ec870837a160271d9b6": "医院经常购买临床医生和病人依赖的软件.由于这些采购费用昂贵,难以逆转,并可能影响病人的护理,购买者寻找证据,说明同龄人机构已经使用某种产品,以及它所连接的系统。这些证据是公开的,但分散在供应商网站、新闻稿和第三方网页上。语言模型代理人现在可以低廉地收集,但提取的债权的正确性难以确定,错误列出的客户可以误导买家,歪曲一个组织.我们提出一条管道 Bui",
+    "ab7769c16a877a5d0bcccb9b54a3caf94543cc16e4ac8b48fc04127379c92bb1": "AI 数字民主统一组织:公平选民代表反对LLM比拉斯",
+    "029ec28bb40925e6d97888c36339bb8d6b425e023d82ae8a28410d4e5e8c5b8d": "大赦国际的代表正在数字民主中出现,协助选民效仿和决策。大型语言模型(LLMs)的行为因模型,即时上下文,以及他们收到的选民信息不同而不同,代表一些群体比其他群体更准确,有可能使模仿对某些群体不公平.我们调查LLM所组成的选民中的人口偏见:LLM代表个人选票的准确性,某些选民群体是否比其他选民群体得到更准确的代表,以及AI统一是否能在不亵渎的情况下减少这些差距。",
+    "8f310e47bd36cd531e6dcb09ca3ddc35bf9815d010ee75a0e8d3b5b0a104cb11": "政策自学:大语言模型中无数据自修",
+    "f3dbd670f5ef13feef8887f624dfcca77c907f59dee1d73565aeb8819f89624f": "政策上的自我消化可以使培训后的基础模式不依赖更强大的外部教师。然而,现有办法依赖于地面真实的对答、人为确定的问题集或其他监督信号。在这项工作中,我们重新制定关于政策自我消化的框架,作为一个自我培训的框架,由自发产生的对答和特权推理演示所驱动。我们把监督推到极限:完全以粗糙的高层次主题描述为指导,模型将自己的查询课程和特权推理痕迹与ou合成.",
+    "faecb3365911815bddafffc07e26ed26e034405285835a72c14236905481503d": "在车辆网络中为联邦学习提供清洁标签的毒害和防御游戏",
+    "84a7b4af969823c1fb42ce0ded8770f0bcef16f5d8177071acffb1b4d109470b": "本文利用联邦学习(FL)研究了清洁标签中毒攻击与车辆网络防守之间的相互作用.用于异常探测的基本安全信息分类(BSM)在具有动态地形学的车辆网络上被建模为分布式学习问题.作为对FL的严重威胁,引入了一种特征空间清洁标签攻击,在这种攻击中,良性样品被扰动到恶意特征的极端,在保留标签的同时降低阶级隔离性。为了对付这种情况,建议进行特征一致性重新标记,以发现可疑的sa并重新标记。",
+    "8d2bb481459e335ec177f3594e69839a16cc56640f1c861ca2cd6288acdacdf3": "自动实验室中代理自玩的语义表述",
+    "fb1c0cd7e111f66ff152c33d8836f7d8060c6857c948bd5bc9b10adca3a47b8d": "导航复杂、高维的生物搜索空间需要可伸缩的物理和计算智能,通过跨越思想、实验和自动化的迭代自我游戏,超越本地的Otima。将实验设计转换成可靠的物理执行,仍然受到静态实验室自动化和无模型物理变异的瓶颈.为了解决这一问题,我们引入了经核实的发现实验室基础设施,即VERID,这是一个基础基础设施,旨在弥合人工智能高层推理之间的差距(AI)",
+    "f1bc8ec8bc342073638f66c88eb0e05133a45b61e9ab375b3dd52c524ab86426": "ActionRAG: LLM 代理器长期内存的参考图表传播",
+    "231c4adbb69dfad114d07987d8c5f0b9081eab2ce68d3d054615f76cfcc732e2": "LLM剂需要长期记忆,能够从日益增长的相互作用历史中恢复准确和相互一致的证据,特别是在答案取决于事实之间的关系而不是孤立的语义匹配时.当前内存管道在两个阶段仍然很脆弱:索引错误可以分割重复的实体或合并不同的实体,在线检索往往将初始相似性分数作为最终分数对待,即使周围的图表为修订提供了证据.我们引入了ActionRAG, 一种图形内存结构, 夫妇们谨慎地使用查询时间的图形检索器索引",
+    "c30f3444c743c6139b9426c85159e57ea0f0299e146dcfe7a1f7a131200db8d9": "适应性世界异常识别模型(AWARE):机器人动态预测和回顾框架",
+    "dfb265279f7104f316c0ec8dde1bac7d1c895499c9b3ca8448f0f154ff5d7aaf": "关键基础设施中不被承认的异常现象可能迅速升级为灾难性的实体或操作故障。目前的异常探测方法往往依靠直接进入监测系统,利用机载传感器,如机动编码器,来检测异常状态。然而,遗留的硬件往往缺乏这些传感器,或者严格的安全协议可能完全禁止访问.因此,我们介绍了AWARE,这是一个世界模型框架,能够仅通过系统动态估计和状态预测进行外部相机监测进行异常探测。已评估的方程式",
+    "d3d460799e9bb253e28992c6275a70a6964e010a0a8bafcc216a22e7e4860521": "Agentic Hazard Mapper: 模拟专家地图制作与AI代理 风险沟通",
+    "672074b9ccc382e5fdee65b06f74dcbbcd150a5ee6d74730db046521bbb7889d": "灾害图是公共风险沟通、准备和疏散规划的重要工具,但由于地方政府和社区获得制图专门知识的机会有限,因此无法始终确保有效的制图设计。我们提出“代理危险地图”系统,这是一个多代理系统,通过模拟专业制图工作流程和迭代设计权衡,使危险地图制作自动化,同时使设计决定适应不同的数据、地点和危险背景。我们与地图专家进行了成型研究,为系统设计提供信息,然后是用户",
+    "bcf7632b31b9c24939875c5e1bc96172a21aebc87c28336b09aa96f8f5aa729d": "矛盾性学习的内部差异:概括界限和下游行为",
+    "d8048c2d001412841d43a295c619c856ffbe8022062356ea5bafc773aaf14436": "相互矛盾的学习已成为培训代表模式的流行范例。虽然先前的研究追求更实用,限制性更小的假设,以增强对对比性学习的理论理解,但它们基本上描述了数据内部的表达或函数类所引导的表达之间的相互联系.为了概括这些假设,我们建议衡量内部差异,以量化阳性样本和潜在集群中心的平均代表性之间的差别。然后,我们证明一个内部差异 - 了解概括 bo",
+    "94b2dd0461217671498f3d27a955c69e7628dbfca2e2f1c5400ba782d7648706": "引入 GPT-6.1 地面",
+    "50bf4998570d66f918d677bc1d799fa86fec7118c608760f58752bb0eec04822": "给每个人带来快速和有能力的计算机使用"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -12335,6 +12422,280 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/b872acbf63dc34bcfc276fb90c139c11.jpeg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/505365.html"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.12 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.12-rc0"
+    },
+    "https://w2solo.com/topics/8641": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8641"
+    },
+    "https://arxiv.org/abs/2601.05702": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2601.05702v2/graphs/log_mortality.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2601.05702"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.3"
+    },
+    "https://arxiv.org/abs/2510.25782": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2510.25782v1/figures/compare/pre_block_rank.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2510.25782"
+    },
+    "https://github.com/huggingface/transformers/releases/tag/v5.21": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. - Release Release: v5.21.0 · huggingface/transformers",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/huggingface/transformers/releases/tag/v5.21"
+    },
+    "https://w2solo.com/topics/8639": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8639"
+    },
+    "https://arxiv.org/abs/2510.02408": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2510.02408"
+    },
+    "https://arxiv.org/abs/2504.13273": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2504.13273"
+    },
+    "https://arxiv.org/abs/2504.06550": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2504.06550"
+    },
+    "https://www.ithome.com/1/018/219.htm": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "微软 CEO 萨提亚 · 纳德拉改变了对 AI“对齐”问题的看法。他过去认为，AI 系统越强大，就越容易让其行为符合人类的价值观和目标，但现在，自己不再相信两者会自然而然地同步发展。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/018/219.htm"
+    },
+    "https://arxiv.org/abs/2502.13267": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2502.13267v2/figures/BeforeIT_software_structure_v2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2502.13267"
+    },
+    "https://www.ithome.com/1/018/203.htm": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "OpenAI 宣布，其 AI 模型在数学、计算机科学和物理学领域取得三项重大突破，展现出 AI 独立发现并证明复杂科学理论的能力，而不只是回答问题或辅助研究。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/018/203.htm"
+    },
+    "https://openai.com/index/greptile-code-review-codex-astra": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/building-scientific-understanding-with-academic-communities": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/chatgpt-expanding-world-of-work": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/openai-cut-incident-investigation": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://arxiv.org/abs/2610.32878": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.32878"
+    },
+    "https://arxiv.org/abs/2610.32874": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32874v1/simulation-overview-illustrated.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32874"
+    },
+    "https://arxiv.org/abs/2610.32871": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32871v1/naacl_framework.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32871"
+    },
+    "https://arxiv.org/abs/2610.32869": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32869v1/assets/five_levels_asi.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32869"
+    },
+    "https://arxiv.org/abs/2610.32866": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.32866"
+    },
+    "https://arxiv.org/abs/2610.32864": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32864v1/figures/simulation2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32864"
+    },
+    "https://arxiv.org/abs/2610.32863": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32863v1/Figures/PICLE-PFN-diagram.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32863"
+    },
+    "https://arxiv.org/abs/2610.32851": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32851v1/Figures/kb_arch.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32851"
+    },
+    "https://arxiv.org/abs/2610.32842": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32842v1/figures/humansandtools.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32842"
+    },
+    "https://arxiv.org/abs/2610.32835": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32835v1/paper_images/main/teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32835"
+    },
+    "https://arxiv.org/abs/2610.32817": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32817v1/figures/fig1_architecture.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32817"
+    },
+    "https://arxiv.org/abs/2610.32813": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32813v1/figures/harness_rsi_overview_user.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32813"
+    },
+    "https://arxiv.org/abs/2610.32802": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32802v1/figure1_motivation_composite.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32802"
+    },
+    "https://arxiv.org/abs/2610.32801": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32801v1/fig_psd_construction.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32801"
+    },
+    "https://arxiv.org/abs/2610.32796": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.32781": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.32781"
+    },
+    "https://arxiv.org/abs/2610.32780": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32780v1/Figures/LLM_fair_workflow.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32780"
+    },
+    "https://arxiv.org/abs/2610.32770": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.32770"
+    },
+    "https://arxiv.org/abs/2610.32765": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32765v1/attack_heatmap_cost_is_cA.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32765"
+    },
+    "https://arxiv.org/abs/2610.32755": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.32752": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.32752"
+    },
+    "https://arxiv.org/abs/2610.32742": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.32742v1/fig1_v14_wide_corl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.32742"
+    },
+    "https://arxiv.org/abs/2610.32738": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.32729": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.32729"
+    },
+    "https://openai.com/index/introducing-gpt-6-1-terra": {
+      "checkedAt": "2026-10-27T01:26:27.514007+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
