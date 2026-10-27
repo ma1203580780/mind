@@ -2424,7 +2424,21 @@
     "bcf7632b31b9c24939875c5e1bc96172a21aebc87c28336b09aa96f8f5aa729d": "矛盾性学习的内部差异:概括界限和下游行为",
     "d8048c2d001412841d43a295c619c856ffbe8022062356ea5bafc773aaf14436": "相互矛盾的学习已成为培训代表模式的流行范例。虽然先前的研究追求更实用,限制性更小的假设,以增强对对比性学习的理论理解,但它们基本上描述了数据内部的表达或函数类所引导的表达之间的相互联系.为了概括这些假设,我们建议衡量内部差异,以量化阳性样本和潜在集群中心的平均代表性之间的差别。然后,我们证明一个内部差异 - 了解概括 bo",
     "94b2dd0461217671498f3d27a955c69e7628dbfca2e2f1c5400ba782d7648706": "引入 GPT-6.1 地面",
-    "50bf4998570d66f918d677bc1d799fa86fec7118c608760f58752bb0eec04822": "给每个人带来快速和有能力的计算机使用"
+    "50bf4998570d66f918d677bc1d799fa86fec7118c608760f58752bb0eec04822": "给每个人带来快速和有能力的计算机使用",
+    "da3cbc65121a5bca86e8fed673be895d9e1bc486658d85d6d6e8314dfa9a7ee5": "如何在Facebook上安排一个帖子——用于页面、简介和组合",
+    "786f9ce83c40c648b11ad147b0566884d2e067bdee181e25cbd1393b69f7fcba": "保持一贯性,增加脸书上的观众人数,同时提供这些简单、节省时间的日程安排提示。",
+    "bd80002183646f782a979c58a8d2c07277e78e1c0dc57e61771cbe0ef18c3feb": "v0.33.0rc0 (英语).",
+    "14ec83d83cf49e932f2445e7ba3bb3a39111661fc21494d43fea2fae650fac2c": "[Bugfix][MRV2] CUDA中跳过适应性核查成本剖面.",
+    "b60665f37029cfa7b023de1cd1a794d6f198fdc77f7d050fb7253d633b0ec484": "第856集 2026年欧洲微型企业的关键学习",
+    "76853cb520a4f5e9bcc36509aa71333227c6a46fe412fe619f254bd6c5b7ce33": "你错过了我们最大的欧洲微型商场吗?在本集中,罗布·沃林和德里克·雷默(Derrick Reimer)在冰岛雷克雅未克重新描述了\"MicroConf Europe 2026\".他们打破了ChatGPT和AI SIO的排名会谈,罗布的八道护城河仍然在AI时代工作,而科里·海因斯则打破了克劳德的营销技能.此外,走廊的跑道,一个令人惊叹的会场, 和一个登上地热河在冰岛山顶。我们涵盖的主题有: (2:11) – 前往冰岛和罗布的公路出行(5:12) – 有史以来最大的微孔克欧洲,按数字(8:04) –哈帕会场和走廊轨道(英语:",
+    "98e6eb210f9db10c7e0c889de2a77e67a0abe3a251b499467b5e6fa92c15623b": "2026年10月 欧元区银行贷款调查",
+    "13b56c38502d12d472a35e8370623ff960976ddfdd7d5decedb53b6e7edd9f33": "Claude Opus 5.5 官方提示指南",
+    "f55ee8f9208ee16068480448035aa4ee9ee9e64a0f782f50e8800446994a84ac": "Anthropic的7条规则,",
+    "3689119984982a0a7b03b3c7944608786c9a079cadf0e04430137057d1b75496": "AI保存设计者的时间通常会消失.如何保留。",
+    "d8e668068d84fc72b1d7026cf02fc7c380dcf830a1368b56c99b21b013cfeed2": "对521名UX专业人士的调查发现,",
+    "858992f08967eb6b5ed34b4ebfec423213fa406072b30327af06e634c2a528dc": "无处可去",
+    "52377a033939bfa3b80d95fccb249148ed908ef87221001eb805539091b18774": "当速度伪装成进步时.有个司机拼命地去停电我清楚地记得我父亲在布朗克斯 驾驶限速双向前进当一辆汽车从我们身后冲出 开入我们的车道20秒后,我们翻到一盏红灯上,那辆车让我们坐在我们旁边。有一个问题作为好奇的12岁的孩子留在我身边:“他们有没有......",
+    "f2c1b8c8e30e29db6e569d718f444a83f366c087d0053b1e8ba65df6b0f53bd0": "每周为设计者——思想家和制造者——提供资源。“设计人员正在匆忙地跳过这一进程的步骤,以争取更快的产出。但真正重要的竞争是 争取利益方的一致。设计师都特别容易输掉这场比赛,由Jon Sabutis Design v ADHD → “ADHD友好设计”的神话。 由 Kristian Mikhel 著有工具的创始人不是"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -12724,6 +12738,41 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/2f6c9ff7ca23fba994dd0092cbe5d964.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/505551.html"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0": {
+      "checkedAt": "2026-10-27T14:22:41.910780+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.33.0rc0 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc0"
+    },
+    "https://www.startupsfortherestofus.com/episodes/episode-856-key-learnings-from-microconf-europe-2026": {
+      "checkedAt": "2026-10-27T14:22:41.910780+00:00",
+      "description": "What did you miss at our biggest MicroConf Europe ever? In this episode, Rob Walling and Derrick Reimer recap MicroConf Europe 2026 in Reykjavik, Iceland. They break down the talks on ranking in ChatGPT and AI SEO, Rob's eight moats that still work in the age of AI, and Corey Haines on marketing",
+      "image": "https://www.startupsfortherestofus.com/wp-content/uploads/strou-twitter-2022.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.startupsfortherestofus.com/episodes/episode-856-key-learnings-from-microconf-europe-2026"
+    },
+    "https://solo.xin/topic/6122": {
+      "checkedAt": "2026-10-27T14:22:41.910780+00:00",
+      "description": "我们每天都在产生大量对话 线上会议、产品讨论、用户访谈、课堂学习，还有临时冒出来的想法。 遇到重要内容时，我们通常会选择先记下来。有人打开录音，有人边听边写，有人会后再补一份会议纪要。 但记录下来，不代表以后真的能用上。 几天后想找回某个决定，可能已经忘了它出现在哪次会议；想确认一个想法是谁提出的，只能翻聊天记录；项…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6122"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html": {
+      "checkedAt": "2026-10-27T14:22:41.910780+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/press/pr/date/2026/html/pr261027/ecb.pr261027.en_img0.png?d27555a98d147efa9c4b1fe6eb08802a",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261027~506ef03145.en.html"
+    },
+    "https://www.ithome.com/1/018/599.htm": {
+      "checkedAt": "2026-10-27T14:22:41.910780+00:00",
+      "description": "荷兰政府计划用 AI 取代 2.5 万个岗位，占总人数 16%，每年省 35 亿欧元。还要废除 500 项规章制度，两人共用一张办公桌，裁掉非警察、国防岗位的咨询机构人员。#人工智能#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/018/599.htm"
     }
   }
 }
