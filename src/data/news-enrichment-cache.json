@@ -12696,6 +12696,34 @@
     "https://openai.com/index/introducing-gpt-6-1-terra": {
       "checkedAt": "2026-10-27T01:26:27.514007+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.ithome.com/1/018/464.htm": {
+      "checkedAt": "2026-10-27T07:43:18.716908+00:00",
+      "description": "高盛研究显示半导体股对资产价格走势的影响力已超油价，过去三周其行情差异可解释 54% 的资产表现分化，油价仅为 2%，AI 正重塑全球市场定价逻辑，科技股与投资者情绪关联持续强化。#高盛#半导体#AI",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/018/464.htm"
+    },
+    "https://www.ithome.com/1/018/409.htm": {
+      "checkedAt": "2026-10-27T07:43:18.716908+00:00",
+      "description": "台积电正考虑将其先进封装工艺价格上调 10% 至 20%，原因是 AI 需求急剧攀升，导致半导体供应链产能持续吃紧。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/018/409.htm"
+    },
+    "https://www.qbitai.com/2026/10/505580.html": {
+      "checkedAt": "2026-10-27T07:43:18.716908+00:00",
+      "description": "10 月 23 日，以 “ AI is Profitable ” 为主题的 2026 TGC 科技增长大会于广州召开。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/c52df5895de24bff130d78f516952f1f.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505580.html"
+    },
+    "https://www.qbitai.com/2026/10/505551.html": {
+      "checkedAt": "2026-10-27T07:43:18.716908+00:00",
+      "description": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/2f6c9ff7ca23fba994dd0092cbe5d964.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505551.html"
     }
   }
 }
