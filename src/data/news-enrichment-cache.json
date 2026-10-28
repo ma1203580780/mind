@@ -2519,7 +2519,21 @@
     "cdf974ef15ee568504320b70fc5fff202e9c4938f2c5c2ce97bf428137b2d75b": "这项研究为欧洲北约盟国在战略压力下动员、补充、维持和维持军事能力的经济-工业能力制定了国家一级的衡量标准。这项措施包括四个组成部分:宏观经济能力、部门复原力、国防工业能力以及后勤和维持。该分析涵盖28个欧洲盟国,并对照5个地理经济压力情况评价了平衡的基线。结果将基线能力与压力脆弱性区分开来,并为确定经济-工业脆弱性提供了评估框架。",
     "e46d6c74cc81433d02abcf089af5092182112ed4602dfeaee72789e01e976082": "检查点如何与\"黎明\"一起加速脆弱性研究",
     "651e6f1f047e6f37dee6324765454126fe418997a6cd92b64074c6621117cee0": "随着OpenAI Daybreak,Check Point加快了新安全保护背后的研究,使得其分析人员能够更快地将脆弱性情报转化为客户防御.",
-    "d8459ab77e92426691c9dc3b8275021f526f58495039b2dfc300f15cfac75815": "lama.cpp: 版本凸起 b11901 (# 19311)."
+    "d8459ab77e92426691c9dc3b8275021f526f58495039b2dfc300f15cfac75815": "lama.cpp: 版本凸起 b11901 (# 19311).",
+    "a8e1fe3915ed14a3167e9c518f181e6fae4c2f9494f80b56f5f0d8d7adb7d32c": "Google AI 模式:所有你需要知道的",
+    "05e69d9894c893a921410c7ceea73da18d7c912d8262648cee8fa2b4c1181cf8": "在2026年5月的Google I/O上,Sundar Pichai称AI Mode是“我们有史以来最大的升级,这不再只是一个实验。AI Mode现在有它自己的... 阅读更多",
+    "addc90d43007c01298380313c0d23c5645cfe62a36513a2a0ab4c70ca0f04ede": "AI 发现性、页面类型和更多(2026年9月)",
+    "484d6ea64b0a26b96cef13c88d13bdd717f0a0db6e4d42d78ae406d94a99a994": "这个月我们得到了5个更新,从网站审计中全新的AI发现类,让我们潜入。AI 发现问题 AI 发现是现场审计中一个新的问题类别.这...",
+    "51cd2f5dcb25be0eda38c7c02da005934b6306c8ff1f97050a5b4dd5cc64cb63": "v0.33.0rc1: [CI]在DGX Spark上修复Stale NVFP4解码测试选择器(# 64107)",
+    "0bc09bf2478fd4a96ff30333a5a5870a962392b6a9a826b7e7fc284dca463522": "作者:grYe99 guorongye99@gmail.com 共同作者:grYe99 guorongye99@gmail.com(从承诺bfa2a43中挑取樱桃)",
+    "24f0702ba9b43916c730de041ca0802467bcee399b44cb3e0b7dd5b2bcb42738": "朗链-人类 = 1.7.",
+    "bad30b2fbcbe0b1acaf550f11a95392dffa58608307dc95955c5ca8805d1f281": "langchain-harmic == 1.7.6 发布(人类):1.7.7 (#41538) 固定(人类): 微量解析推理努力(#41536) chore(以下简称): 放松第三方依赖性上限(#41407) chore(ps): ump certifi从2025.11.12到2026.10.19 in /libs/partners/harmic (#41391) 固定:一些伙伴包中的固定依赖性(#41266)",
+    "a875dbc637391f4bea5c9d43c66272a60d7134486723dfd078cbf93a9da3c26e": "更小的团队需要设计领导者再次制造。这是如何的。",
+    "fd192e0c254d3a446c7039bed1edba4d678de03bf177a0506dbdcb2ed2a3b0bb": "一个设计铅在屏幕上工作,两个设计师在共享的桌子上。大赦国际提供协助。AI正在缩小我们运行的队伍,提高酒吧的容量,这是每个人期待的。这改变了领袖必须带来的东西,从他们自己的双手开始。比尔·罗素在打球中心期间担任波士顿凯尔特人队的教练,共3个赛季,并获得两个同时完成两项工作的冠军.根据维基百科的Player-coach条目,随着联赛发财,角色逐渐淡出.比尔·罗素和红奥尔巴赫.设计领导跟随同一个圆弧",
+    "5351bcb9c0f08adebc13d6ea42acfadf507225a4f06b03c7401cee32a9c0ddb3": "探员在你之前醒来",
+    "727779f9802ea19541adf0eda042478be6461417daae48b96ed0a772b7d25341": "以用户为中心的设计的最后一个假设刚刚下降——四个公司一举推倒.继续阅读 UX 集体",
+    "993393b2804c1881d9a7c7dc0b0466b4d29d7ce6027ba2db83fa83fc0da226ea": "乐高拉在为法律工作建立代理操作系统",
+    "92705a01d9e6591bffdd4799d47f0f0aa9d039de8418525c8f8e4f12cb863712": "参见勒戈拉如何使用OpenAI模型,ChatGPT,和Codex来加速法律工作流程,扩展合同分析,以及自由律师专注于价值较高的工作."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -13113,6 +13127,129 @@
     "https://openai.com/index/check-point-daybreak": {
       "checkedAt": "2026-10-27T23:44:04.302458+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://ahrefs.com/blog/google-ai-mode/": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "Google’s AI Mode is transforming search into a conversational experience powered by Gemini 2.5. Learn how it works, its impact on SEO, adoption trends, and strategies to optimize your brand for AI-powered search.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2025/08/google-ai-mode-all-you-need-by-si-quan-ong-general-seo.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/google-ai-mode/"
+    },
+    "https://ahrefs.com/blog/new-features-september-2026/": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "We've got 5 updates this month, from a brand-new AI Discoverability category in Site Audit to Page types in Site Explorer, and more. Let's dive in. Ahrefs September 2026 updates include AI Discoverability, Page types, and more.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/10/ai-discoverability-page-types-and-more-by-kamila-olexa-ahrefs-insights.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/new-features-september-2026/"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.33.0rc1: [CI] Fix stale NVFP4 decode test selector on DGX Spark (#64107) · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc1"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7"
+    },
+    "https://www.ftium4.com/ux-weekly-296.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周我发现的体验设计和思考，为构建系统知识做准备。",
+      "image": "https://www.ftium4.com/attachments/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/IMG-20261028125444472.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.ftium4.com/ux-weekly-296.html"
+    },
+    "https://openai.com/index/legora-agentic-operating-system-for-legal-work": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.ithome.com/1/019/001.htm": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "抖音公布五类 AI 恶意营销典型案例，包括 AI 生成诱导互动内容、AI 仿冒公众人物带货、AI 批量炮制虚假信息、AI 生成迷信猎奇内容引流、低成本复制内容批量起号。近一个月已处置违规短视频 113.5 万条。##抖音治理AI恶意营销## ##AI内容创作规范##",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/019/001.htm"
+    },
+    "https://www.ithome.com/1/018/975.htm": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "马来西亚海关在吉隆坡国际机场查获 30 台装有先进 AI 芯片的服务器，申报为普通电子元件，货值约 8095 万元人民币，涉嫌通过马来中转规避出口管制，相关走私团伙已涉及至少 5 起案件。#AI芯片#马来西亚海关",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/018/975.htm"
+    },
+    "https://www.qbitai.com/2026/10/505928.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "10月28 日，蚂蚁集团旗下百灵大模型正式开源 Ling-3.1-flash-1019。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/5e172f6c62f76d5bfecae7b8ec8caf3e.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505928.html"
+    },
+    "https://www.qbitai.com/2026/10/505865.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3d1f613ed6a58045052bb3f48dc80b4c.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505865.html"
+    },
+    "https://www.qbitai.com/2026/10/505852.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "毫米波雷达，AI算力10TOPS",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/5a932e5d685ef89ec06d4e023abac685.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505852.html"
+    },
+    "https://www.qbitai.com/2026/10/505830.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "顶尖智能汽车玩家的终局，不会停在智能汽车",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/840f95ebc5fdd6e15ac2327ae6cb0f2e.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505830.html"
+    },
+    "https://www.qbitai.com/2026/10/505799.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "无人在环进店实测啃下长尾场景",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/61b96600e7e63e9e1bf08cdd58446070.gif",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505799.html"
+    },
+    "https://www.qbitai.com/2026/10/505773.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "OCR 3.0时代，来了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/22523e90193cc8975fc3eff515e0e83d.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505773.html"
+    },
+    "https://www.qbitai.com/2026/10/505719.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "同一天，OpenAI还甩出3项AI科学新发现",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/a0e3ffed0eb59417c8bee0761dee28af.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505719.html"
+    },
+    "https://www.qbitai.com/2026/10/505694.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "还是专业的模型做专业的事情",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/e04acf3dda132271d9a6591eb0d0ab71.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505694.html"
+    },
+    "https://www.qbitai.com/2026/10/505687.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "破解绿电直连项目落地僵局",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/825f34971f3580bb192c1c75288e7724.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505687.html"
+    },
+    "https://www.qbitai.com/2026/10/505635.html": {
+      "checkedAt": "2026-10-28T12:42:32.407855+00:00",
+      "description": "开源一周，Github 拿下超 1000 star，X上关注度破百万，并登上 Today‘s news 推荐",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/197b60205d62f5d527698c57accbd8da.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505635.html"
     }
   }
 }
