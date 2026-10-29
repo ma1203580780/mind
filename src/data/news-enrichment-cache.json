@@ -2626,7 +2626,19 @@
     "eb76d3a139236211c1d864870dfb5964c2793384622e5a1ba8079929eb17e120": "所有设计都会影响行为.道德底线是人们能否看到影响,仍然可以另作选择.在 UX 集体上继续读取",
     "bc8985ee808ce42af608680f561c0eba6354785df4e3bb4286b3617aec5aed89": "OpenAI和ServiceNow扩大跨企业工作流程的伙伴关系",
     "0f01b56aedf5b7edc829c955b41ec3d3a3d3efe2a12ce0ed9c2a4e1aa5ac3beb": "OpenAI和ServiceNow扩展了他们的合作关系,将OpenAI模型和代理引入了ServiceNow和ServiceNow的工作流程中ChatGPT和Codex.",
-    "5bd37f4bd576286b2f0b9081c38dbdadc6c246ffa7992e07d480ddb4588f09c4": "当速度伪装成进步时.有个司机拼命地去停电我清楚地记得我父亲在布朗克斯 驾驶限速双向车道时 一辆汽车从我们身后冲出20秒后,我们翻到一盏红灯上,那辆车让我们坐在我们旁边。有个12岁好奇的孩子和我在一起的问题:"
+    "5bd37f4bd576286b2f0b9081c38dbdadc6c246ffa7992e07d480ddb4588f09c4": "当速度伪装成进步时.有个司机拼命地去停电我清楚地记得我父亲在布朗克斯 驾驶限速双向车道时 一辆汽车从我们身后冲出20秒后,我们翻到一盏红灯上,那辆车让我们坐在我们旁边。有个12岁好奇的孩子和我在一起的问题:",
+    "1d4c058335cdfaf7d17f4da61e8f0419627cb62e1cfd2267a2f363a7d7ee4181": "在分配不可分割的商品时,纳什最大的福利规则众所周知是独特的Welfarist规则,满足了一种好的无羡.我们加强这种定性,表明对一种货物免羡慕可被极弱的公平要求所取代:对任何固定的美元而言,免羡慕可达k$货物或相称性可达k$货物。我们的特征 即使是有相同物品的特征",
+    "46af4e20f9575ee4b09c10f604c8779e84d745d7c2895e8d1020f1723b7ebe0c": "代理SVARs经常依赖一个单一的可信代理,使得代理外源性无法测试.用来证明代理有效性的叙述性论点意味着一种更强烈的异质性形式。我们正式确定强异质性假设,并提议根据内合成代词进行相应的测试.该方法使用外部代用物,将靶震方向定位在减式创新上,并将候选冲击物合成一个额外的内部合成代用物,从而可以测试原始和内部合成代用物的共同异质性.我们得出大样本理论",
+    "729c5a232a3859e57eb07fc8716b7c9781152a4d86e5bb569c09489f29124bc3": "2026年建设你社区的12个最佳社会媒体参与工具",
+    "bf4bd3baf808ff8fa2e151ab5ab7d83f61e3a30b44a7b088ae23c22c7dd015e7": "比较2026年最佳社交媒体参与工具的12个,与定价,免费计划,以及谁各自适合,从独唱创作者到企业团队.",
+    "431b422263d624e494c3c65e22b750ab85638db2d25626e1a5a1ff9cda9cd5b7": "补丁释放 v5.2.1.1",
+    "c1fc351f6cf01ad7a54575b6bd9bc54c98ec095bad0a7c28c22bb977a14cd1af": "Patch release v5.21.1** Fix 绳索_缩放设置器,用于在输入时指定它(# 50080)我们破解了远程代码装入 vllm,这修正了它,对不起!",
+    "b79f05256f89a17857db293a00edc122f5062873f694f772a8bed98ee97d24a1": "为什么我们要把N8n的自动化团队 移到服务台模式之外",
+    "36f9b0cb48003452f08da391380bf00ff3b35bb7237419e483320092ec00c820": "Romina da Costa, N8n公司内部AI和自动化负责人,分享了她团队用来帮助每个团队建设和拥有自动化的四项原则.",
+    "9125f851dd02149f9f589319c03612a4a28ab9cb602c9cfd8a4771e0450b2ce8": "欧洲央行主席拉加德于2027年2月7日下台",
+    "51779f8d783a9da2e8e1cd12ce76e57d261ae5714cf8dab37f2850a0c3a65d47": "CPMI发布分析,说明中央银行如何支持支付系统的安全和效率,以及在迅速变化的支付生态系统中信任资金",
+    "48f6f9e3a6caf0c653abdc1e80b72bcbd4cdeaf74d7cd05ef992fd49af535f77": "清算银行支付和市场基础设施委员会(CPMI)的一份新报告审查了技术革新、用户需求变化和新型支付服务提供者和安排的出现如何正在改变支付系统。",
+    "011b413073b3428ad4065c9bd174a3c399383c98c6210420e74352123daeb8a2": "引入 AnySpeech Recognizer 和 Any 决策模式: 苹果平台演讲和决定的开放模式"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -13644,6 +13656,111 @@
     "https://openai.com/index/openai-servicenow-partnership-expansion": {
       "checkedAt": "2026-10-29T05:38:28.200733+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://solo.xin/topic/6132": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "花了小一年时间迭代一个项目，刚开源呢，新的 star 还没摸热乎，下午 hr 就像我招手，示意我去聊下 寒暄两句，再就是进入主题，也就是聊我的工作态度，我就觉得对味了 hr：听说最近你的工作态度有点问题呀，不太积极呀 me：em 我现在的想法就是 拿多少钱 干多少活 hr：站在个人角度我非常理解你的想法，拿多少钱干多…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6132"
+    },
+    "https://github.com/huggingface/transformers/releases/tag/v5.21.1": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. - Release Patch release v5.21.1 · huggingface/transformers",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/huggingface/transformers/releases/tag/v5.21.1"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+    },
+    "https://www.bis.org/media-releases/20261029-cpmi-publishes-analysis-how-central-banks-support-payment-system-safety-and-efficiency-and": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "A new report by the BIS Committee on Payments and Market Infrastructures (CPMI) examines how technological innovation, changing user demand and the emergence of new types of payment service providers and arrangements are transforming payment systems.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.bis.org/media-releases/20261029-cpmi-publishes-analysis-how-central-banks-support-payment-system-safety-and-efficiency-and"
+    },
+    "https://www.qbitai.com/2026/10/506281.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/d5e73d228ec2b66a7b85e324bded636e.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506281.html"
+    },
+    "https://www.qbitai.com/2026/10/506273.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/503582c343c291bf43e3e7b6383370c4.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506273.html"
+    },
+    "https://www.qbitai.com/2026/10/505934.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "用扩散模型怎么做做Agent？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/6f55717891e56b636e97b434f3e1b325.gif",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/505934.html"
+    },
+    "https://www.qbitai.com/2026/10/506246.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "理想今年最后一场发布会，自研电池芯片全部上车",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/95a6d6fca3c2a968174eaf777db57fb7.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506246.html"
+    },
+    "https://www.qbitai.com/2026/10/506227.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "能连肝数日修Bug，免疫提示词注入",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/article-image-1-3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506227.html"
+    },
+    "https://huggingface.co/blog/anydecisionmodel": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/anydecisionmodel"
+    },
+    "https://www.qbitai.com/2026/10/506194.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "让基建作为常驻buff",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/article-image-1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506194.html"
+    },
+    "https://www.qbitai.com/2026/10/506098.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "让基建作为常驻buff",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3ec94d5cc72254cc93c29b00b98779db.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506098.html"
+    },
+    "https://www.qbitai.com/2026/10/506063.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "威卡：为工程机械的智能化与少人化，提供一条被验证的路径",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/2d0810502cefd9606573d0dcafe0500d.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506063.html"
+    },
+    "https://www.qbitai.com/2026/10/506055.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "精度达AlphaFold 3两倍，分子之心拿下高难度抗体设计",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/3eaeddbb687cfea9323eadf08393d9ad.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506055.html"
+    },
+    "https://www.qbitai.com/2026/10/506042.html": {
+      "checkedAt": "2026-10-29T12:52:39.327015+00:00",
+      "description": "斯坦福伯克利宗师组团，贝索斯红杉抢着送钱",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/ed94778ea51d65adbd3aa275219cfe17.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506042.html"
     }
   }
 }
