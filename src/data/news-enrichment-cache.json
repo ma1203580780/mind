@@ -2609,7 +2609,24 @@
     "d69db0d5f05af0bbd9101047562801358a203389c6e4229dbae0aaa3d6dc7990": "变相解码:对扩散语言代理的有效推论",
     "ff25606ec096614b7822b235433422985fb06ecd950592c0a8123b4aefb490b2": "传播语言模式通过平行代号生成,为高效代理提供了一条有希望的道路。然而,有效的互动需要调整计算地点和生成多少文本。我们引入了一个元认知控制器,根据当前反应的需求以及该剂与环境的相互作用来指导扩散生成.它学会了何时最终确定征兆,以及世代应扩展到什么程度,从而减少答复中的总体计算。我们的控制器,一个轻量级的插座 用于扩散主干线, 训练关于剂轨迹",
     "7ea57de716e3c600974dbc7a9a6bb5ab2d90aed502c7d5f6afa4a0972f887a11": "实践完美:隐性知识、基因人工智能和返校与经验",
-    "ad52eda0b91cb727e3141d588bcc7bc4dcb130f94c37b7bdbfcb6cb26d6fddd1": "基因AI改变了不同形式的人力资本的稀缺性.它使编纂的知识在生产时廉价获得,而通过实践获得的判断则与工人更加紧密地联系在一起。我们问这对工资结构中两个熟悉的价格有什么影响:恢复上学和返回经验。在短期框架内,机器提供的成文知识直接取而代之的是工人人力资本的成文部分,降低了教育梯度。如果编纂和实践知识是相辅相成的,则恢复经验"
+    "ad52eda0b91cb727e3141d588bcc7bc4dcb130f94c37b7bdbfcb6cb26d6fddd1": "基因AI改变了不同形式的人力资本的稀缺性.它使编纂的知识在生产时廉价获得,而通过实践获得的判断则与工人更加紧密地联系在一起。我们问这对工资结构中两个熟悉的价格有什么影响:恢复上学和返回经验。在短期框架内,机器提供的成文知识直接取而代之的是工人人力资本的成文部分,降低了教育梯度。如果编纂和实践知识是相辅相成的,则恢复经验",
+    "290e60f70f0a8409c4a4c470b5a29b86721f15c1a0f5329955652da615c5fa7e": "Romuald Hazoumè 反悲哀的发现对象面具",
+    "bdff6d65354fec8b75e39e0de6ae8f76b71f8e260268848e43c0b2947411c617": "罗穆瓦德·哈祖梅用羽毛,网状,漆刷等出土的材料来包围塑料罐.",
+    "af60d6cac1657f15e91e7ef01b10d9f0b62f959fab3ea237a036fb06850adb09": "页:1",
+    "667f8a2535f2ebd818584e20f75f1fb24498376b64a0e30a26884436d70a339d": "Linux和Windows Liquid AI的LFM3型号上的LFM3,包括lfm3-audio和lfm3-omni的文本对语音,现在运行在Linux和Windows以及苹果硅上.Full Changelog : v.0.40.12.v.0.40.13 互联网档案馆的存檔,存档日期2011-10-20.",
+    "40731d6aa3f08112f011e97039389a518e274600e44fef96aafd09732d926d0b": "v0.40.13-rc1: lama.cpp:在金属未发生碰撞的情况下工作(#19372)",
+    "1837fe72832991cd4719d6e942c5bf1fa7f258354a6a6561438d2063dd04f802": "这个临时补丁围绕旧版本的 MacOS ggml_metal_library_compile_all 的回归工作: 无法构建“ unary” 库",
+    "ce07f57ac7bc56fbfd27ef5741404ec3524d7749891a20c5e6c76ab79b5b2c31": "我如何不再害怕AI,开始研究它 全职",
+    "dba3fec63ecaa36dbfa2ed7de4e0e5abe3fd1780d608b5f008d98baea88165c2": "直到2026年6月,我的Instagram储蓄 充满设计师 建筑代理在一个周末。LinkedIn是一个稳定流派,他们“把它和Cursor一起送去 ” 。而这份工作单我正在裁剪我的简历,不断要求一些东西,如Evals、MCP、AI原型和Claude Code:我一半认得的话,无法在采访中解释。资料来源:作者的图像。我的饲料 ——我做了什么(是的,我的缪斯叫做\"Blob\",是的,它认为克洛德是女性)我能感觉到自己盯着叉子.一条路是设计师",
+    "a2d7b52901123b62f67bcd98eedb2181f562282ecc9510636f0dfea0ecdbc036": "设计AI深度研究:从Google、Perfusity和微软获得的经验教训",
+    "b3f3012975db13a3cac12e2527f4f020302615c90110ca20e019b236c5c8002a": "6个UX问题,",
+    "f713143f9fd16a73dcb81efcc430b12b048ff46d7942a5626d0bb82e1b5b93a2": "UX的人工智能算法是20年",
+    "a2bb00e49450ba76562a86f6bcd562b5cae807ce1597631a7b66c8c450f667e4": "二十年来田地被炸出并自己重建了三次.此为第三.每个人都认为AI是来设计。真理更丑更长.球场之前已经为自己做过两次,现在的UX就业市场非常严峻。Jeff Sauro,博士和Jim Lewis,博士发现 UX职位职位比2022年的高峰下降了71%,而研究职位则进一步下降。他们还发现,每三个组织中就有一个在一年中裁减了UX工作人员,这是记录上最糟糕的一次,比2008年财政危机之后的一次更糟糕。",
+    "0ddf5705d5871aafc3c0b4ca96e98021ea6a43f16722c6377629d651f2310fe9": "设计自主:游戏和AI如何尊重(或改写)我们的选择",
+    "eb76d3a139236211c1d864870dfb5964c2793384622e5a1ba8079929eb17e120": "所有设计都会影响行为.道德底线是人们能否看到影响,仍然可以另作选择.在 UX 集体上继续读取",
+    "bc8985ee808ce42af608680f561c0eba6354785df4e3bb4286b3617aec5aed89": "OpenAI和ServiceNow扩大跨企业工作流程的伙伴关系",
+    "0f01b56aedf5b7edc829c955b41ec3d3a3d3efe2a12ce0ed9c2a4e1aa5ac3beb": "OpenAI和ServiceNow扩展了他们的合作关系,将OpenAI模型和代理引入了ServiceNow和ServiceNow的工作流程中ChatGPT和Codex.",
+    "5bd37f4bd576286b2f0b9081c38dbdadc6c246ffa7992e07d480ddb4588f09c4": "当速度伪装成进步时.有个司机拼命地去停电我清楚地记得我父亲在布朗克斯 驾驶限速双向车道时 一辆汽车从我们身后冲出20秒后,我们翻到一盏红灯上,那辆车让我们坐在我们旁边。有个12岁好奇的孩子和我在一起的问题:"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -13595,6 +13612,38 @@
       "image": "https://arxiv.org/html/2610.36008v1/figures/fig2_exposure_by_group.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2610.36008"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.13": {
+      "checkedAt": "2026-10-29T05:38:28.200733+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.13 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.13"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1": {
+      "checkedAt": "2026-10-29T05:38:28.200733+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.13-rc1: llama.cpp: workaround Metal unary crash (#19372) · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.13-rc1"
+    },
+    "https://www.ithome.com/1/019/419.htm": {
+      "checkedAt": "2026-10-29T05:38:28.200733+00:00",
+      "description": "由湖北科投投资建设的昇腾 950 千卡超节点智算集群正式点亮，全国首个昇腾 950DT 1024 卡智算集群在武汉上线。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/019/419.htm"
+    },
+    "https://www.ithome.com/1/019/303.htm": {
+      "checkedAt": "2026-10-29T05:38:28.200733+00:00",
+      "description": "此次发布的台风智能云图解译模型，融合风云卫星多通道云图及相关产品，可自动分析台风的位置、结构、强度及演变趋势，并生成解译文本。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/019/303.htm"
+    },
+    "https://openai.com/index/openai-servicenow-partnership-expansion": {
+      "checkedAt": "2026-10-29T05:38:28.200733+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
