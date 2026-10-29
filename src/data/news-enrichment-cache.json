@@ -2638,7 +2638,91 @@
     "9125f851dd02149f9f589319c03612a4a28ab9cb602c9cfd8a4771e0450b2ce8": "欧洲央行主席拉加德于2027年2月7日下台",
     "51779f8d783a9da2e8e1cd12ce76e57d261ae5714cf8dab37f2850a0c3a65d47": "CPMI发布分析,说明中央银行如何支持支付系统的安全和效率,以及在迅速变化的支付生态系统中信任资金",
     "48f6f9e3a6caf0c653abdc1e80b72bcbd4cdeaf74d7cd05ef992fd49af535f77": "清算银行支付和市场基础设施委员会(CPMI)的一份新报告审查了技术革新、用户需求变化和新型支付服务提供者和安排的出现如何正在改变支付系统。",
-    "011b413073b3428ad4065c9bd174a3c399383c98c6210420e74352123daeb8a2": "引入 AnySpeech Recognizer 和 Any 决策模式: 苹果平台演讲和决定的开放模式"
+    "011b413073b3428ad4065c9bd174a3c399383c98c6210420e74352123daeb8a2": "引入 AnySpeech Recognizer 和 Any 决策模式: 苹果平台演讲和决定的开放模式",
+    "b0fb2d8ee0b2509025e46ddf9c4c4fe33c37ecc7ff77ae69be89bc9b1d77f153": "长链-核心=1.7.2",
+    "f1a62c6f388cca76e945db99ec95b312bb655f4d64d2417188596c4a4e0b265c": "自 langchain-core == 1.7.1 发布(core): 1.7.2 (# 41562) 成就(core): 添加_notification_metadata和 get_notification_metadata (# 41540) 固定(core): 停止合并_内容从更改第一个消息的内容(# 41502) 开始.",
+    "bbfb65081c4bb6c1b6382809b2b07da8cc2bb3cd36c1280f0118159888f3c038": "更新的模型Spec,用于更有能力和更有益的AI",
+    "e365d98352bdfd7689e50bc6e92e969a8c3b32f2cb06b4c96b5a997960600da6": "OpenAI更新的Model Spec概述了五个核心价值观,引导更有能力的AI走向健全的判断、人类代理和对人类意图的忠诚。",
+    "b5cd5bd34f9812b11cb1c7278c6d4d3d46c67287f5c265a7546878f89641a92a": "AI的引用如何稳定?10件我们所学的追踪37 500件",
+    "df3a16cc1a3821e65b9d303c0b21f4aaf56b2108f9120e8078c9c89432a5aab6": "关键外卖:将引用波动视为正常.它似乎是AI答案的内置特征,随着模型更新,它可能会发生显著变化.因此,目的是随着时间的流逝而更经常地出现,而不是不间断地保持每一个引用....多读一下...",
+    "8c1d6d8c10f4cb1b4478d7f71e6795e3b7e60e4be76b9dce5669f1b0eef91ada": "Anthropic Just shiped Claude 2.0 (英语).",
+    "3e794a18e2e3ad1c79e084ce0a591a3feede94f5d99fd65ee16636c399996a17": "9种新特性,",
+    "795db27ea572aac3ca37ec7a28e6cc34efc0ea64496c70f64a14a293f5088cc2": "逃入Gretchen Schererer的Palatial,艺术填充空间的 马克思主义绘画",
+    "89e4e20a02c26bdcd9fe03a423176e4104fd1e3d094900c2aa90a5c516e332cb": "舍尔的富有住宅,工作室和图书馆的绘画在我们眼前似乎在扩张.",
+    "b1dfd2a00acb9a7217a3071bcb15630f20d6c3080aaa156bc2ebfe3a112a6830": "皮耶罗·西波隆:第二天的证券结算、象征性化和欧洲金融基础设施转型",
+    "ad28db21eccc80e55ebd1d0a852066f5e3e96380991037c5d62ae7796b3ddf63": "v5.22.0:大雾4(Le Chonk)",
+    "325f6ad0925c11b7f1c2fa414ae3b236511c9bad74b7140e2d3311d174815d53": "新模型Mistral Large 4 (Le Chonk) Mistral Large 4是Mistral迄今为止最大和最有能力的模型:一个1万亿参数的本土多模式Mixture-of-Experts模型,每令牌有490亿有效参数(520亿包括嵌入和输出层),从头在Mistral在欧洲自己的数据中心3800 NVIDIA Grace Blackwell GPU上训练.Mistral Large 4统一了指令的跟随,推理,编码,以及代理工作流程的一组权重.虽然是一个泛泛的模型,但它在网络安全、财务和La等工作量方面表现特别良好。",
+    "f0e683fc7a529594608eaca8c2cc84277e7dd7f99bb35fbd35a05e16ee39a9d9": "《电影猫百科全书》是一部充满活力的索引,",
+    "cad592fe4363ea0c2e84a89e37dd34b09821ee00c90c87d7392a6ba529f354bc": "700+猫.1900+电影静物.",
+    "100f186f1af33d48c39c90687ae8ba04abaef9ad358d762e8b89df5816de5303": "鸽子",
+    "a0694a67abe14bbdbfe70a2ec87eaeb9a1a1bb8be7651f79ef18e74c0cbce377": "克里斯蒂娜·拉加德,鲍里斯·武伊契奇:货币政策声明",
+    "e646b48ffedac47ff0dd2e405da57e5af5b80443932393d07ca57788973d40f3": "Granite Switch 4.1.1— 更新你这样的模型更新软件",
+    "b5ba6628f125d2e85d7d8e4e8952e440b27ab9950f5e946097a32cfd47ec8c0b": "货币政策决定",
+    "b6a51cf2c472a715b1f49e920fc1cb78fb398116f5935d48eaca30307e9a6bab": "我们如何发现前沿模型错位",
+    "00f1ad62047f92ec6f4685d1831196c5edb95344dc915d07a93de71ce865a8ea": "OpenAI使用分层监控来检测前沿模型错配和未经授权的代理行为,因此反应者可以在事件升级前进行干预.",
+    "187a5a790074a918d45aa2c51ca577c0de495f5c93eb9300d02de21b028fce41": "Ropes& Gray 如何开发交易提示",
+    "2618c59de2553ed0ae3b788cac47d0fcf82e520cd735b9706b4bbf84d2131da6": "Ropes& Gray正在开发AI,用于与OpenAI的交易勤勉.律师审查文件、摘要和报告,然后向客户提供咨询。",
+    "1fc1654a18e0da85a586bfaa46e69f0b24c4a401347c4d56757c9384c91bfc44": "预训期间有什么改进?利用时点模型跟踪知识获取",
+    "6f17c0bf67807af9ea774aa2131d822b0c114c6587a613c874a71d7050da3e00": "语言模型预先在网络公司(web corpora)上培训,收集多年,既学习一般知识,也学习特定领域知识.随着培训前的进展,这些不同类型的知识是如何学到的,目前还不清楚。最近通过不同年份的网络快照培训的时点模型提供了一种探究知识普及程度如何随时间变化的方法。使用这些模型,我们提出一个时间变异分数(TVS),定义为一个物品在模型中负对数的变异系数.较高的分数表明,这种知识可能不是一贯的,",
+    "a72ca99338efd2df0f4f410d6f8ce9b37619a1826ce1715fbc15f40385911804": "稀有、相关和仍然错误:记忆如何失败 LLM 组决定",
+    "a09354f4081693b4c40cb8a79a8d574c1869a8f17733cd0161cdbcec60f5f1cd": "当一个LLM小组的讨论被压缩成一个短暂的内存,一个最终的决策者,记忆应该保存什么?两项自然休养保留了最罕见的索赔或与决定标准相关的索赔。在隐蔽的任务上,两者看起来都很吸引人,因为对一个事实的持有程度有多广,都与它是否有帮助有关。我们引入了CrossProfile,一个由60个模板组成的诊断基准,其中自动验证答案密钥,其中在文本被固定(480项任务)时交叉了支持,诱饵和无关事实的所有权.横跨Quen2.5-7B、Llama3.1-8B和t",
+    "3ee1f0942339ed8b7d7c81f1b3b7d45151bc1ec1d41ca928975bd2c9de8935eb": "VideoLVR:地下视频证据的后期视觉理由",
+    "23e2d74317ab13cdd6fe9ee785205b97d1c9df79ef92ffa0705f12105b8607a1": "思维链推理在多式联运大语言模型(MLLMs)中大大促进了视频理解.然而,基于语言的推理痕迹并不能为模型重新审视相关视觉证据提供可靠机制,导致视觉遗忘,并损害其通过视频内容进行推理的能力.现有方法在推理时主要以两种方式维持视觉定位:要么使用文字坐标,即指定象征性位置,而不是视觉内容本身,要么重新将所划区域或框架插入多式联运c",
+    "9e7e209250b1934a9d0b922070f273d284c4d1c4bfc03e6ec4255dfbaec107e5": "Beyond Answer 更改: 匹配本地音频证据的同级控制",
+    "9a0a34ca6a7ee23d2e33cab1877d505d547cdb3ffd8e11b1ef84aeb1a980c813": "对于音频语言模型,本地声音事件编辑后的答案变化可以反映对事件类的反应,对波形重写的敏感性,或者两者兼而有之.我们比较了相同等级和不同等级的被询问事件的替换。两者使用相同的间隔,水平估计,捐赠者配装,以及交叉虚构,而同级替换则保留正确的答案.跨600个合成音景和来自两个建筑家族的3个模型,不同等级的替换比同等级的替换产生49.7%至60.9个百分点的回答变化.同级 ACCUR",
+    "84b359461cdbb7d7124242dc4982dfd78b28da89e78c8ec6e85d29d01a510fd2": "MoI-Bench:移动设备图像生成和编辑基准",
+    "c377dbba492267e7ae4c22cf0c8f24c5f6df60e3036dd9ceae1f1dc4e563c4b7": "开发在线图像模型需要考虑实际的用户需求,任务类型以及设备资源限制.然而,现有基准在查明安装设备模型与服务器端模型之间能力差距方面提供了有限的指导。我们介绍了MoI-Bench,这是基于移动用户需要的基准,包括64个子任务和1150个样本.它定义了删除和替换等16个操作,以及涵盖肖像和文本等内容的8个视觉目标类别.这些组成两个正交轴,其适用的组合定义了具体的任务,例如removi",
+    "e770fe6bf192ae8b647d2638224a4a485c83854dde179c5bf8c27e6f9801117c": "GAS-PFN:零热量交通预测预置数据预置网络图-智能Spatiotemporal",
+    "92b0a7f7fe8b6b3667020aa0ea53c7f5fa1a5f8ec60dac7c444f25ee8182c427": "交通预报需要模拟复杂的时间动态和道路地形所强加的空间依赖性.监督的基于图表的模型能实现强效性能,但往往为特定数据集和传感器图而接受训练,使得部署到新的或不断发展的网络代价高昂.Prefore-Data Fitted Networks(PFNs)通过从合成任务前身中学习文本推论,提供了一个零镜头的替代方案,为编码特定域的假设提供了明确的机制.但是,现有的预测方案网络并不明确代表图表结构的附属国gov",
+    "455ef9be353117b6b6d8292efa23e4fb78b5146c2ad293b0d36546ad0b4fa451": "理解潜在世界模型的局限性",
+    "59ecaa87fe3f753cc8b27a259b92c75860b86027094889387858343b2f92e3c1": "人们广泛提出,世界模型是使物剂能够在较长的时间和空间范围内进行推理的核心组成部分。然而,目前的评价往往强调任务业绩,同时对所学世界模型是否获得反映环境基本结构的预测性潜在动态提供有限的见解。在此,我们提出忠实的潜在世界模型的概念,作为环境过渡图与所学到的潜在动态之间的等效条件。我们提议,潜在的推出一致性(LRC)是评估有条件行动的潜在风险的尺度。",
+    "a89aed4756338082fcf8b10802369aa923ecfb4e4842cda84dff3e55da20d25b": "时间",
+    "104070d19fce09b4c6763fd487157d6b2fa848a60dfbcd3c396ba1cc577606ad": "我们引入了Timerstral,一个由四个时间序列基础模型组成的家族,用于概率预测,其中包含5M,28M,123M,209M参数.Timstral在GIFT-Eval,Time,和fev-bench上设定了一个新的艺术状态,Timstral-209M和Timstral-123M在每个度量衡上占据前两位.我们通过三个要素实现这一点:脱钩的地平线预测(DHF),它将预测符号与因果编码的上下文区分开来,从而在不蒙蔽上下文的情况下对更长的地平线进行培训,每个观测值既是预测目标,也是以后预测的背景;一个同变量的fr",
+    "c0194aeec254b3e4af11e316e9770153c7be86f6348a0a99247ab77d06be8f54": "REGER: 将项目间关系与语义识别关系建模为基因建议",
+    "62606122330abaa909ff627978c70bcff04fb7949aaba879c1a9a600eba77cef": "个性化建议取决于学习在线内容和用户互动项目之间的语义和协作关系.基因建议通过自动生成项目的离散语义识别码(SIDs),提供了一个很有希望的模式。然而,随机初始化的SID符号嵌入和从零开始训练的GR模型并不直接继承项目中固有的语义关系,而项目间协作关系大多通过符号层次的注意和邻接的监管来隐含地学习.为了消除这一限制,我们提议重新审视,",
+    "a26802f94968a77305f96590d3bd1d635de625c7e0ce0546cee6afbd2753bcc1": "TeamGym:由AI代理发布信息的团队决策的Gym",
+    "923cd380e91de0bf4fd7bb8e491e4e5d948611d30015371e5bb225d30f82d3fe": "许多现实世界的决定要求各小组综合在各参与者之间分发的信息。然而,人工智能特工人员仍然主要接受单独培训和制定基准。我们介绍了TeamGym,这是一个评估和培训基于语言模型的代理商的环境,涉及从现实世界的法律、财政、医疗和软件工程公司构建出来的团队决策问题。TeamGym引入了一种方法来识别一套最低限度的事实,其中每一个要素都是必要的,并且所有要素都足以作出正确的最终决定,我们称之为关键信息.这个小娜",
+    "6bcdc369f90c416cc6d4c7948f544a6a67b9355714c18d4c2203c1b23d222917": "Gym-Anything-RT:增强视觉语言代理的实时环境",
+    "9310c04efe06d6f710f099a24e8d49cf4b804bd740905473ec6ad1ac08422653": "AI代理商在他们有相当时间考虑数学,软件工程等行动与执行桌面应用任务之间的领域取得了实质性进展.不太清楚的是,在需要实时互动的环境下,例如玩电子游戏或操作物理设备时,这些模型的运算如何。在这些环境中,环境状态可能会随着代理是推理而演变,甚至当基础模型正在进行前传.为了深入了解视觉语言代理商的实时互动能力,我们做了介绍",
+    "98e2271363229bd36a184a0695b3374bc2b9c28d2a6bc866cdb920ea4cc55cf8": "当不确定性量化失败时:在临床类失衡下进行选择性预测的结构弱点和纠正",
+    "c1fcd6283d0a936a414f955c21036a500290e63698bd40910d6f30ebe980a8c9": "背景情况。选择性预测系统通过将模棱两可的病例交由人类专家处理,同时实现高自信决定的自动化,提高了临床人工智能的安全性.然而,这种安全机制完全依赖于不确定性得分准确反映临床模糊性的前提.在以严重阶级不平衡为特征的预测性任务中,如果兴趣的临床结果为少数,这种假设就会崩溃.标准不确定性措施不再反映临床上一致的模糊性;相反,它们成为了阶级成员的代名词,系统性的pee",
+    "d1637b6f5b3d61e290a558ab022db828757c0395898d0ffbc38ce224241110d2": "动画对象操纵的动画约束-参考评价",
+    "f7e9d008c4495fa2035afe5bd1ebc09608e965cc346b0f9b8b9f1fe7bcf7fe20": "操纵政策主要通过二进制任务的成功来评价,它无法分辨被命令的手势是否是物体的运动者承认的手势.我们采用受约束-尊重战略(CRS),将受指令的终端效应器曲折到物体的联合轴上,将关节的进展与不受约束的废物分开。CRS需要一个联合模型和一个从它衍生出来的联合跟随脚本控制器,但没有录制的演示或学习型裁判.在74个模拟的光刻对象上,成功将3次传输故障登记为较低速率,但属性n",
+    "363ce2a8aa87664b61ebb7b876e78d69c71214429aff4d84a3b407c983c7c66d": "何时、何地、何以纠正:机器人政策的人为引导的适应性残余矫正",
+    "39bc77903856b310e460f98936fa321ae1c9ec4d5573705cf3f52a2cbf5455b3": "可靠地执行大多数操纵轨迹的仿真政策,在需要最后几英里精确度的地方仍然可能失败。全面更新政策或探索各地的剩余行动,将这一局部失败视为全球学习问题。我们引入了适应性残余物校正(ARC),这是一个轻量级的训练后模块,它利用强化学习(RL)在冻结政策之上学习残余的校正,同时使用稀疏的人类校正来结构自主探索.ARC没有将人的矫正视为模仿目标,而是使用预先预防",
+    "37fd5ddd7e4fa20a4bf015e0beb384a054d2e8fcc951d701226b1886c7961a5c": "多视图或视频传播模式最近成为从稀少的图像集中合成小说的最新方法。虽然它们能产生高质量的图像,但在合成输入视图以外的视图时往往会产生不切实际的空间布局的幻觉(场景推断).我们建议利用卫星图像作为补充信息来源,为多视图基因模型创造条件,从而应对户外场景的这一挑战。我们采用了一个新的卫星条件多视传播模型,将卫星图像中的调制和",
+    "008702e4638ce46a5623a24562a80882c76db409455af16d40556153fbe79426": "哪个手迟到?双人工具使用的机器人故障恢复诊断",
+    "4af9980b16bd7a146e2086b3cbfb1f6d08dcd3b66c9da1666c04aa2660c704e6": "机器人操纵的失败诊断器越来越具有视觉语言模型,通过干扰成功演示产生的单臂故障对其进行了培训和评估。双人工具的使用增加了其他类型的失败:一种工具在仍然保持时会滑出其套接字,两种在不同时间做出正确的手势,以及一次以两个原因失败的尝试.在模拟的双人工具使用任务中, 其故障原因从记录的痕迹中读出,我们测量每个感知通道让诊断者知道的内容。工具的滑板在工具手上被读取; 迟到的手是",
+    "95b267c20ca1217c6bb51e95f70f081f23944151cc2d5306313925182e71c72a": "结构缺口:当更多数据无法替换结构化原因时",
+    "134504af68390a003ef5e3c9e5f517c3ae353aba1f0dc0fed05ed5c1be86bbad": "对现代人工智能的一贯信念是,受过足够多数据培训的足够大的学生可以使明确的领域知识具有可选性。本文件审查了这种信念的局限性。我们定义了结构编码问题:其输入输出地图是由诸如解析器、对称组、图表、物理定律、测量操作员、语法、组合搜索空间或优化目标等已知结构决定或急剧限制的任务。对于这些任务,中心问题不是表达性 -一个密集的神经网络 可能包含所期望的地图 -但有限的数据标识",
+    "cff1ad76688f7c2bb4bb14d9a113cba6c0734340954ec03f06de857ea655ff46": "LLMs 的正和参数化多属性引导",
+    "391bf04cbec7309aa1a57d8ce0aa30bcf0baaf305b1a919366193e5dd5bd8eaa": "激活引导为在推断时间修改一个LLM的行为提供了有效和高效的方法.然而,目前仍不清楚如何运用方向,使信号始终强大,方向力具有普遍可解释的意义。我们首先通过确定每个方向矢量最可操纵的间隔并相应调整方向范围来解决这个问题。在此基础上,我们引入了一种更可解释的引导方法,称为参数化引导,它不是把激活推向一个方向,而是将它们置于理想的特质强度上.",
+    "73a56969d74e8ff2df5d203f898591cc67e675866ea968e9794b84d9fd49c534": "网上资源分配的深层强化学习",
+    "19abe68362f2f20fcb18946342baa637ae609a1777d31e5a1af3b80fdfc69e7e": "在线资源分配面临两个共同的挑战:(1)在不确定的未来需求下有效分配稀缺资源;(2)确保代理商如实报告任务估值和要求(战略防范)。加强学习(RL)通过经验调整分配决定,但不一定确保战略防守.现有的策略防守RL使用线性分配规则,这限制了它能够代表的资源相互作用.神经机制设计方法提供了更大的表达性,但只提供了近似的激励保证.反对b",
+    "4bc314301b0f3e1bfe0c38dbf4e865b60847d20d38b6403106447611119eae55": "从互动到能力:推进作为国家和监督GUI代理的任务",
+    "8dffed15938b6aead69aa808bf11027570c36279ff7e682ec031d6887232c42f": "GUI内存应保存过去动作的结果并学习可重复使用的操作.这在长距离工作流程中是困难的,在工作流程中,代理必须使用跨应用程序的信息,有用的操作与失败的尝试互不相干.我们引入了任务推进记忆(TAM),它将任务推进定义为已核实的任务进展,并支持正在进行的任务执行和学习可重复使用的操作.在执行过程中,任务推进状态代表了经核实的任务进展如何改变其余目标,使该代理人能够利用以往各应用程序取得的成就。连接",
+    "655e5c1540b4b90cff9cf8796b9306a12f7a7a98ca8cf7f0bec1720f665974c7": "遵循渐变:追踪安全退化情况回到培训数据",
+    "23d024b2014797ae0ce77ac7ad6f59d13cb3c55f3af94a265fa66145429c102d": "在教学数据上精细调整大语言模型(LLMs)可以悄悄地侵蚀其安全性,即使没有训练实例看起来有害.因为这个安全降解的数据看起来是良性的,标准的内容过滤器难以捕捉到.我们通过开发SimpleLORIF来解决这个问题,这是一种可伸缩梯度嵌入法,它能识别梯度与不安全行为相一致的微调实例.通过简化低级归属方法,限制向最后四个变压器区块的反向传播,SimpleLORIF可以将数据集嵌入到100万例的顺序上,增强gradien",
+    "20dd9573c6de0d708054c9fbcfbe6fc08ad2b5a56b248c28a71e9d69df508a9a": "HGPRGDel: GPR-Aware 学习与排名促进增长-基因减值设计",
+    "789561eb36ef768ceadac502fff990c5ed0196bca56032b51c625940db936b09": "设计微生物菌株用于生长相关生产,其中细胞生长通过基因干预与目标化合物的合成相联系,是代谢工程的一个基本目标.基于约束的方法可以识别生长关联的删除策略,但针对每个目标的设计通常需要单独搜索大量可能的基因删除组合.这促使人们采取可重复使用的办法,从先前评价的紧张度设计中吸取教训,在下游基于制约的评价之前确定候选人干预措施的优先次序。我们提出一个代表",
+    "61e045ff5525bb815597609d67d6188f57453f7326b66897419f4a3900cbe49b": "个体化功能网络如何可靠地归属于ADNI中恢复状态的fMRI认知预测?",
+    "12c5677ee29b19c69ef064e32d66e68860ad5f89946aef7859db74bdf1127813": "个别的归属估计,功能网络驱动特定对象的模型预测,并经常被提出作为可解释的休眠状态fMRI(rs-fMRI)生物标记,但其测试-测试可靠性很少量化.我们利用阿尔茨海默氏病神经成像倡议(ADNI)的N=875科目,对冻结休养状态功能连接(FC)预测器(Schaefer-200 FC预测MMSE/ADAS-Cog13)进行每个主题的网络集成归属进行评估,并(三)一个主题层面的表征无效。半拆分可靠性接近上限(Spearman p=0.9)",
+    "3e84a0b5241368cbfe5e353cbe6f205ed4de4fd9b726f9acf335fa7a9f8381f8": "感知RL:使视觉感知在MLLMs中从回答到交互可得到回报",
+    "7c8d8719efee431a982a837eaaf604db28c49fc43207dacd9e2babed84dc336e": "在多式联运大语言模型(MLLMs)的后期训练中,精细的视觉感知仍然是一个瓶颈,因为知觉错误会限制从注重推理的优化中获得的收益.虽然图像封装预训提高了知觉,但随着后续阶段改变数据混合物和目标,其影响可能会减弱.培训后继续字幕监督是一项挑战,因为主观、信息密集的描述使可核查的奖励设计复杂化。我们提出 \" 认识 \" (PerceptRL),它加强了两个互补层面的认识。认知 RL 使用多加",
+    "395853db0d3905465c5ea40d67ab92699ff72cf85321476be09c366f76e3010a": "利用强化学习进行自动固定翼拦截",
+    "e90be1625bb785c3a813abcd19b109d73824c0ba3bce5353b2ca5dcd41f55c3a": "中等高度,长耐力无人驾驶航空系统,如沙希德型歼击无人机,是现代冲突中未解的威胁.常规防空系统过于昂贵,无法提供可行的大规模解决方案.Quadcopter截击机是一种廉价的,经战斗证明的替代品,但其极其有限的飞行时间使其限制在短距离的低高度目标上,而固定翼平台则有耐力从更长的距离达到更高的高度目标.然而,这种拦截器仍然采用人工操作。以学习为基础的控制器的最新发展",
+    "28f9fd8f535fafae6c5d53672391f834873f8f7eb4352f652b90316db5e8c2f8": "Concordat: LLM 代理键入会话",
+    "e0580cd43f774100da264bb571de61ccdae6e54e18a1affe10aa10a33e6a3568": "越来越多地允许以大语言模式为基础的代理人采取相应行动:取消预订、发放退款、变更账户。规范这些行动的规则,如\"在改变任何东西之前获得客户的明确确认\",通常在即时声明,并且只像模型选择遵循那样可靠地遵循.我们以类型和会话类型的精神,将一个介质作为有限状态协议的对象,并在运行时在模型上执行该协议。每转弯",
+    "a0a9840965864cd95d87593b177e2d58e951aeca3bb9fddf25d9e07323a80e1f": "M4 Bench:评估临床EHR衍生剂的程序规格",
+    "9291015f1f2481f53b1b8c1dc83dfaf2ae261ccdfb9462814780e11d7502c2d8": "有关电子健康记录的临床研究取决于衍生变量,这些变量的定义在项目代码、时间窗口、缺失规则以及输出-线性选择中都位于计划之外,从而改变了组群和下游结论。我们在MIMIC-IV和eICU的15个任务家庭中引入了M4 Bench,28个临床衍生任务,以检验AI编码剂是否能够复制这种衍生物,以及临床医生审查过的制剂技能如何改变其结果。它的控制将技能的价值分解为规格完整性、交付格式和计划熟悉度。在多克-同位素中",
+    "22913561ac9ad77b81491b19a54c206876f178d5e4796269a9368edf90e5b3a1": "贸易代理商Swarars的试验-时间通信",
+    "6b9c1817c3aeb2002dc6f235e4d0dd6f051188d590ae120d227487e6b24eee1e": "在任务方面,主要研究了各代理人之间的沟通,有共同的目标,有迅速、明确的反馈。交易没有:每个代理管理自己的账户,决定被市场迟到和无声评分。因此,贸易群是独立的决策者群体,而不是一个团队,对此,趋同是一种风险,而不是目标。在7个美国交易日(2026年10月1日至9日),我们从4个模范家庭 分成10个小于5个通讯系统,从隔离到留言板和共享笔记,",
+    "186952d890c0940a9737dbdb87973528e96ea00e2881dbdf08963aa0b4eb88f9": "代表幽灵:为空间原因重新思考视觉想象",
+    "53d8a8db853998a2e389a04e7b11b6f07a5e9619a7d01312ba9d3d6446addad2": "视觉世界模型通过生成未观测国家的RGB观点,日益支持空间推理.然而,RGB成为默认接口,主要是因为它非常适合视觉生成,而不一定是下游推理最有效的代表.不同的空间问题可能得益于同一想象状态的不同表现:自上而下几何可以促进全球距离比较,而全景观点为关于开放空间的推理提供了更广泛的背景.为了分离空间想象中的代表作用,w",
+    "656e1454eeed7dc75bc1c2aeec14da13a53be2aff0603e0bfbc5d9aa3cae15f3": "FeatureArc:关于变化中的地物的编码代理人的基准",
+    "27de6277cd7400b92649e561f7222b193cb1f09715f778cbda743109a79bf012": "一个软件特性通常会随着时间演变:开发者随着新的使用案例和要求的到来而延长其第一个版本,每个扩展都建立在之前写的代码上.大多数特征基准评价一个固定代码库上的单一请求.特性演化需要评价一个代理商自己早期代码上的连续扩展,并检查特性是否仍然正确.我们引入了FeatureArc来评价不断演变的特性的编码剂,以及从存储器历史中构建其任务的管道。基准结合了相继阶段的依赖性 o",
+    "e9c5e62dc49149a0e1a4f3c53184e3cbea2736f6af13db869b63951e2a95e282": "欢迎勒康克:大雾4号在拥抱面部",
+    "61b81db5440b4907717a463be80de9737b95e4e58aecfe523222a44d93348520": "Announcing ProtoStar项目:公开资助科学 AI-Ready"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -13761,6 +13845,305 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/ed94778ea51d65adbd3aa275219cfe17.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/506042.html"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2"
+    },
+    "https://openai.com/index/updated-model-spec": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://ahrefs.com/blog/how-stable-are-ai-citations/": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "Half of AI citations disappear the next day, and most come back. 10 lessons from tracking 37,500 citations across ChatGPT, Gemini, Copilot and Google.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/10/how-stable-are-ai-citations-10-by-mateusz-makosiewicz-data-studies.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/how-stable-are-ai-citations/"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261029~e9b57c3495.en.html"
+    },
+    "https://github.com/huggingface/transformers/releases/tag/v5.22.0": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. - Release v5.22.0: Mistral Large 4 (Le Chonk) · huggingface/transformers",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/huggingface/transformers/releases/tag/v5.22.0"
+    },
+    "https://w2solo.com/topics/8650": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8650"
+    },
+    "https://w2solo.com/topics/8646": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8646"
+    },
+    "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html"
+    },
+    "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "A Blog post by IBM Granite on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html"
+    },
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/ropes-gray-ai-diligence": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://arxiv.org/abs/2610.37631": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37631v1/fig/paper-ready-main-plot.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37631"
+    },
+    "https://arxiv.org/abs/2610.37624": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37624v1/figures/fig2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37624"
+    },
+    "https://arxiv.org/abs/2610.37613": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37613v1/overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37613"
+    },
+    "https://arxiv.org/abs/2610.37605": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.37605"
+    },
+    "https://arxiv.org/abs/2610.37599": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37599v1/intro.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37599"
+    },
+    "https://arxiv.org/abs/2610.37598": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37598v1/GAS-pipeline_tryagain.drawio.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37598"
+    },
+    "https://arxiv.org/abs/2610.37588": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37588v1/iclr-figures/Figure1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37588"
+    },
+    "https://arxiv.org/abs/2610.37585": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.37585"
+    },
+    "https://arxiv.org/abs/2610.37584": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37584v1/Intro_final.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37584"
+    },
+    "https://arxiv.org/abs/2610.37571": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37571v1/construct_final_public.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37571"
+    },
+    "https://arxiv.org/abs/2610.37567": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37567v1/teaser_four_examples_ghost_20260926.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37567"
+    },
+    "https://arxiv.org/abs/2610.37561": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37561v1/fig2_methods.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37561"
+    },
+    "https://arxiv.org/abs/2610.37550": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37550v1/figure-CRS-v2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37550"
+    },
+    "https://arxiv.org/abs/2610.37547": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37547v1/fig1_arc_overall_A.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37547"
+    },
+    "https://arxiv.org/abs/2610.37545": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37545v1/teaser_vf.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37545"
+    },
+    "https://arxiv.org/abs/2610.37533": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37533v1/overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37533"
+    },
+    "https://arxiv.org/abs/2610.37523": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37523v1/figures/fig_results_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37523"
+    },
+    "https://arxiv.org/abs/2610.37517": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37517v1/sycophancy_warmth_diagram.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37517"
+    },
+    "https://arxiv.org/abs/2610.37504": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.37504"
+    },
+    "https://arxiv.org/abs/2610.37482": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37482v1/TAM_Motivation_Pixels_Preserved.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37482"
+    },
+    "https://arxiv.org/abs/2610.37481": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37481v1/scoring-cost-detection-quality.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37481"
+    },
+    "https://arxiv.org/abs/2610.37478": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37478v1/umap_mechanism_iML1515.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37478"
+    },
+    "https://arxiv.org/abs/2610.37472": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37472v1/figures/network_importance_panels.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37472"
+    },
+    "https://arxiv.org/abs/2610.37471": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37471v1/graph/fig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37471"
+    },
+    "https://arxiv.org/abs/2610.37470": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37470v1/figs/Banking.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37470"
+    },
+    "https://arxiv.org/abs/2610.37461": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.37461"
+    },
+    "https://arxiv.org/abs/2610.37459": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37459v1/m4bench_pipeline.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37459"
+    },
+    "https://arxiv.org/abs/2610.37448": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.37448"
+    },
+    "https://arxiv.org/abs/2610.37437": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37437v1/teaser_fig.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37437"
+    },
+    "https://arxiv.org/abs/2610.37434": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.37434v1/fig1-delegation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.37434"
+    },
+    "https://huggingface.co/blog/mistral-large4": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/mistral-large4"
+    },
+    "https://huggingface.co/blog/announcing-project-protostar": {
+      "checkedAt": "2026-10-29T19:34:03.418401+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
     }
   }
 }
