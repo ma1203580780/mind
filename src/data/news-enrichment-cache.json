@@ -2729,7 +2729,16 @@
     "fd0d170715fc2e0d8ad0c7f63320247ca5dd48e534a833e20c80c3c3a8b7631d": "2027居住申请季!",
     "dd5d7b74e2157f3aebf1fbaeb92d868725389638c449406af22d1909a3ca1645": "长链-核心=1.7.3",
     "a568d3b9096a313573f9ba7bb8656fdfbc983ee2478d90b8cf7ad132f5cc1304": "自langchain-core == 1.7.2 发布后的变化(核心): 1.7.3(#41564)",
-    "ea6c2f3fd2432be89408ee06bb58ee538fe418a02e05850bed3380b72838e56c": "联邦储备委员会宣布批准新斯科舍银行的申请"
+    "ea6c2f3fd2432be89408ee06bb58ee538fe418a02e05850bed3380b72838e56c": "联邦储备委员会宣布批准新斯科舍银行的申请",
+    "1d8e35b39b7ecd96e8cd5f4e76d29f7f2ac3b51395a5b3f722dce2036b7cc8b0": "补丁释放 v5.22.1",
+    "52c95bad0d01df3edab8db90987d37c5964b099ff0b42c77b463d2e47feb4ef8": "补丁发布 v5.22.1我们只需要修复文件!**从@remi-or删除用于Ml4(#50124)的WIP doc。",
+    "50b203b12217c9eb63c32c7f08678e995af0ed329600d800b0c193db3768e9d7": "v0.3.3.0rc2: M*N = 2^31 on gfx950 (# 64567) 时跳过 AITER 调制 GEMM",
+    "7b5158b4a70af3538eeaf70fb8c5e1e3078bb4c8479e18e66fc798a2fc2aa1b9": "签署人:Micah Williamsonmicah.williamson@amd.com(从第6d01893号承诺中摘取樱桃)",
+    "bd9f5ee71f1d1eed07e3f63d8cb91d7c5551c043e9dc71104a67cd9a52cc3782": "使用AI的人应该制定自己的战略",
+    "15eef3e1246989bbb1b0238a8e0714a605b17a032d2ecb5d336a58161e20e862": "一名研究人员对照她自己的访谈笔记检查了生成的合成,而一叠供应商合同则在她的办公桌边没有打开。从业人员知道什么是良好的产出,应该拥有最后的电话,操作处理管道。想象一位将12份采访记录稿 扔进合成工具的研究员 得到一个干净的主题和引文她做了六次采访所以一分钟内她就知道没人说因为有些人缺乏判断力,设计和r",
+    "ba26e9de4963ffe60dcdd4e14992bc1739894e278f0aa2b8a8ad8f1d01844452": "欧洲央行2026年第四季度专业预测员调查结果",
+    "32a9cf6cf0ebf877ed7c13df2945b8a1287f26f04050346b8df900655683d187": "在干扰下,一些单位的处理会影响其他单位的结果,因此对被处理单位的影响包括直接和外溢成分.然后,一个未经处理的比较组一般确定两个组成部分,但确定对所处理的总影响与对比较单位的外溢效应之间的差别。根据某些识别假设,在存在多个预处理期时,即使没有未受污染的比较组,也可以单独确定这两个组成部分。在不预先预测的假设下,预处理断层",
+    "69a896fbe3733b21926e5aeb7e53ae4d11d7ee9e33f500ce904a4680d9076124": "当回答需要时间时,"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -14193,6 +14202,97 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm"
+    },
+    "https://github.com/huggingface/transformers/releases/tag/v5.22.1": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. - Release Patch release v5.22.1 · huggingface/transformers",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/huggingface/transformers/releases/tag/v5.22.1"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.33.0rc2: [ROCm][Bugfix] Skip AITER tuned GEMM when M*N = 2^31 on gfx950 (#64567) · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc2"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261030~e92c3c838c.en.html"
+    },
+    "https://www.qbitai.com/2026/10/506743.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "英伟达与麻省理工学院团队，在 Hugging Face 发布了视频增强项目 Open-H3-Regenerate-2K 的模型权重",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/17240ae25c2799cc42c3d952b16abae3.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506743.html"
+    },
+    "https://www.qbitai.com/2026/10/506686.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "解析一切",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/23164dd82636b622080b1103898c1f5c.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506686.html"
+    },
+    "https://www.qbitai.com/2026/10/506674.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/90b178db9ce55f32ec6089ff11a7bda8.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506674.html"
+    },
+    "https://www.qbitai.com/2026/10/506662.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "让机器人成为彼此的“老师”",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/a48ffa3917c9205fe6872359c61423da.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506662.html"
+    },
+    "https://www.qbitai.com/2026/10/506609.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/d1f4705ceea90908c76c8c218704865b.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506609.html"
+    },
+    "https://www.qbitai.com/2026/10/506569.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "Momenta世界模型上车",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/9f55d49caeebd4fdf264079ce6ddef7b.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506569.html"
+    },
+    "https://www.qbitai.com/2026/10/506554.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/6772f30570a3eaaac7b79fd850e62719.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506554.html"
+    },
+    "https://www.qbitai.com/2026/10/506550.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "在大模型私有化市场，商汤大装置以9.4%的市场份额，再次稳居第二位",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/d8926e8e74117075ca2ccc9f2052b09a.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506550.html"
+    },
+    "https://www.qbitai.com/2026/10/506544.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "AI安全不是AI发展的“刹车片”，而是AI高质量发展的“加速器”。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/e3dfc3f9e552f22742ce5963da441486.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506544.html"
+    },
+    "https://www.qbitai.com/2026/10/506478.html": {
+      "checkedAt": "2026-10-30T12:43:44.956825+00:00",
+      "description": "All in one、任何人都能用",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/eb042998bea64c8aa45289f39e6ec5ed.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506478.html"
     }
   }
 }
