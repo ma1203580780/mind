@@ -2722,7 +2722,14 @@
     "656e1454eeed7dc75bc1c2aeec14da13a53be2aff0603e0bfbc5d9aa3cae15f3": "FeatureArc:关于变化中的地物的编码代理人的基准",
     "27de6277cd7400b92649e561f7222b193cb1f09715f778cbda743109a79bf012": "一个软件特性通常会随着时间演变:开发者随着新的使用案例和要求的到来而延长其第一个版本,每个扩展都建立在之前写的代码上.大多数特征基准评价一个固定代码库上的单一请求.特性演化需要评价一个代理商自己早期代码上的连续扩展,并检查特性是否仍然正确.我们引入了FeatureArc来评价不断演变的特性的编码剂,以及从存储器历史中构建其任务的管道。基准结合了相继阶段的依赖性 o",
     "e9c5e62dc49149a0e1a4f3c53184e3cbea2736f6af13db869b63951e2a95e282": "欢迎勒康克:大雾4号在拥抱面部",
-    "61b81db5440b4907717a463be80de9737b95e4e58aecfe523222a44d93348520": "Announcing ProtoStar项目:公开资助科学 AI-Ready"
+    "61b81db5440b4907717a463be80de9737b95e4e58aecfe523222a44d93348520": "Announcing ProtoStar项目:公开资助科学 AI-Ready",
+    "8259e5918c3e97a9c040e32b3af536e1fdf6f1eabb6f79b530eca23597f7f022": "v0.5.23 (韩语).",
+    "0bcd9e5ce0e26686b72fee876685b3f434ff73b55ce0df259a7e9ad35ad182b3": "弹出 v0.5.23",
+    "2b6de16b4bc05de02f9655fdd84cda2d8eb8fa6b42dbf7fd0903322fa8478e2a": "2026年11月 机会:面向艺术家的开放电话、恢复和赠款",
+    "fd0d170715fc2e0d8ad0c7f63320247ca5dd48e534a833e20c80c3c3a8b7631d": "2027居住申请季!",
+    "dd5d7b74e2157f3aebf1fbaeb92d868725389638c449406af22d1909a3ca1645": "长链-核心=1.7.3",
+    "a568d3b9096a313573f9ba7bb8656fdfbc983ee2478d90b8cf7ad132f5cc1304": "自langchain-core == 1.7.2 发布后的变化(核心): 1.7.3(#41564)",
+    "ea6c2f3fd2432be89408ee06bb58ee538fe418a02e05850bed3380b72838e56c": "联邦储备委员会宣布批准新斯科舍银行的申请"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -14144,6 +14151,48 @@
       "image": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
+    },
+    "https://github.com/sgl-project/sglang/releases/tag/v0.5.23": {
+      "checkedAt": "2026-10-30T05:37:28.802639+00:00",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models. - Release v0.5.23 · sgl-project/sglang",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3": {
+      "checkedAt": "2026-10-30T05:37:28.802639+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-29/": {
+      "checkedAt": "2026-10-30T05:37:28.802639+00:00",
+      "description": "Dedica：检查一下AI代理是否可以访问您的网站。；bytemail：原生Mac邮件：每个收件箱，都在你的刘海中，没有追踪器；BotGauge：你代理的信任层；Fraud Blocker：针对谷歌和Meta广告的人工智能广告欺诈保护；Tulu：中小企业的自主营销运营与分析",
+      "image": "https://decohack.com/producthunt-daily-2026-10-29/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-29/"
+    },
+    "https://decohack.com/producthunt-daily-2026-10-28/": {
+      "checkedAt": "2026-10-30T05:37:28.802639+00:00",
+      "description": "TheySaid 4.0：在你构建的地方，直接观察用户的反应。；Overmind：开放源代码的持续学习平台；Spacesheep：未来的文档，由人工智能生成，由你的团队阅读。；Orbit：别再无止境地刷手机了。每解锁一个应用都要有所收获。；SavorApp_AI：捕捉重要的事物，推动你的意图向前发展。",
+      "image": "https://decohack.com/producthunt-daily-2026-10-28/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-28/"
+    },
+    "https://www.v2ex.com/t/1252383": {
+      "checkedAt": "2026-10-30T05:37:28.802639+00:00",
+      "description": "独立开发者 👨‍💻 - @ApolloChan - OPC ，一人公司，我现在最没想明白的，是做什么才有人愿意付钱。AI 能帮忙做产品，但我还是担心：花时间做出来了，最后只是自己觉得有用。别人说一句“不错”，好像也很难判断他到底会不会买。",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1252383"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm": {
+      "checkedAt": "2026-10-30T05:37:28.802639+00:00",
+      "description": "The Federal Reserve Board on Thursday announced its approval of the application by The Bank of Nova Scotia, of Toronto, Canada, to become a bank holding compan",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm"
     }
   }
 }
