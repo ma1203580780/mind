@@ -2826,7 +2826,11 @@
     "6b83623293da45c96b389bed816856b4dc426d2e8f65f66f2cd6fc5cf3136281": "UX在代理软件厂中的作用",
     "b4ddf77fa9196aac2a54174adf596e006913543fa4dd4f270febc67f617270f0": "AI-原生软件开发生命周期将UX减少为AI上下文.UX必须发现用户需求, 塑造所构建的东西, 并在发射前后对其进行评估 。",
     "e519fc3e718631e5a71627d3e2650c380f152e66c6673f400696aa91b9f3094f": "公平使用对每个人都有好处",
-    "b76d8e25a217821f367bc6e9c9757600adbabc014037fa46aeac80292f45913c": "OpenAI分享创作者、学者、无障碍倡导者、法律专家等关于公平使用如何支持AI培训和创新的法庭简报摘要。"
+    "b76d8e25a217821f367bc6e9c9757600adbabc014037fa46aeac80292f45913c": "OpenAI分享创作者、学者、无障碍倡导者、法律专家等关于公平使用如何支持AI培训和创新的法庭简报摘要。",
+    "c7d9bc82d9b038dcbdd7f964bce9e3bbe3f3a46a3f8e23a258058effccd0047e": "v0.33.0rc3 (英语).",
+    "1d4425e4c9ff9c635ec1407b119dedbb39a0193eb7cacf64263ede88c16d8092": "[CI][Bugfix]将 ColUltraVBERT 测试检查点固定在修订版vL...",
+    "b4e83391f15cfa55ed44bc82445d54feb3e72d3e3cf8abe9abf1ba6394b3179d": "A Spark of Color in 11月的灰色( 2026 壁纸版)",
+    "e8a5b96af2dcaa0ea594814d274293d30d2beda627026759f0fb648706145d92": "让我们用新的桌面壁纸来踢11月吧!由来自全球的创意设计,壁纸以各种屏幕分辨率出现,可以免费下载.慢慢来!"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -14698,6 +14702,76 @@
     "https://openai.com/index/fair-use-benefits-everyone": {
       "checkedAt": "2026-10-31T05:28:04.023922+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.33.0rc3 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"
+    },
+    "https://www.ithome.com/1/020/488.htm": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "如果损失达到这一规模，蒸发的市值将略高于 SpaceX 的整体估值。受 AI 投资热潮降温影响，纳斯达克 100 指数 10 月以来跌幅超过 5.8%。与此同时，Meta、Alphabet 和亚马逊等科技巨头竞相扩建 AI 基础设施，并进一步上调支出预期。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/020/488.htm"
+    },
+    "https://www.qbitai.com/2026/10/506884.html": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "苹果“牛奶倒河里”式操作翻红",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/d7ce7cc0023f58158b86eee84eb84a03.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506884.html"
+    },
+    "https://www.qbitai.com/2026/10/506866.html": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "AI算力利用“九九成”",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/27db00446397e75504ddab5fdb14ccdc.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506866.html"
+    },
+    "https://www.qbitai.com/2026/10/506855.html": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "200美元Ultra用户先用",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/195f806098106189b534c34ba55ea6ea.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506855.html"
+    },
+    "https://www.qbitai.com/2026/10/506819.html": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "xs，还要给机器人打绩效",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/ccc79f38d469f62bc39055d12002e6f0.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506819.html"
+    },
+    "https://www.qbitai.com/2026/10/506785.html": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "之前还连登昇腾三榜第一",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/27f5192c348146e53563be34b846dcc3.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506785.html"
+    },
+    "https://www.qbitai.com/2026/10/506779.html": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/f6022b2e5a84e940cb69d8482166985d.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506779.html"
+    },
+    "https://www.qbitai.com/2026/10/506771.html": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/图片1-2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506771.html"
+    },
+    "https://www.qbitai.com/2026/10/506747.html": {
+      "checkedAt": "2026-10-31T12:15:04.276725+00:00",
+      "description": "创立 4 年，估值站上 10 亿美元——资本市场定价的不是一部电影，而是一套内容生产基础设施。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/0fc3f5ab17b1e5b253e532e96b0c924e.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506747.html"
     }
   }
 }

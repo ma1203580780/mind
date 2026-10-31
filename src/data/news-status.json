@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-31T05:27:56.105711+00:00",
-  "newItems": 14,
+  "checkedAt": "2026-10-31T12:14:56.327791+00:00",
+  "newItems": 18,
   "issueDate": "2026-10-31",
-  "totalItems": 72,
+  "totalItems": 90,
   "sources": [
     {
       "id": "openai",
@@ -12,7 +12,7 @@
       "language": "en",
       "ok": true,
       "items": 1341,
-      "sha256": "22c698bbd9b97bc66495e5961278910a1a902579c923369cb9c70601b4830b80"
+      "sha256": "51a19bc46e40bc459360e303b24c6e8000b378df6465f1de892599c042951ce1"
     },
     {
       "id": "huggingface",
@@ -112,7 +112,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "5abf438c2d428c14dac0be7e123377c9da83f90b387e6bfdedb1e7e0041f12ef"
+      "sha256": "12c11ec066de3be5c306e841643f1f5d97b268a3e46a8b72cb782d4c903836c3"
     },
     {
       "id": "transformers",
@@ -122,7 +122,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "e5d678f0a8d2758a06685903036e98906f22e5b98a6db1249e47fa1f1497a635"
+      "sha256": "733127b1b01d9b6abd1be885f789e7b2007f29bd7ea30900d0d92aa7abb69d5a"
     },
     {
       "id": "ollama",
@@ -162,7 +162,7 @@
       "language": "zh",
       "ok": true,
       "items": 10,
-      "sha256": "ee89d0bb4e3797ee32ccd338c1a9c8d40cb4b8b77ebc57b25683e36bf786abbb"
+      "sha256": "5c83ff5276e4068c7dafae1da2446c37d4b5151cac3703d21357a2a6d57948d7"
     },
     {
       "id": "ithome-ai",
@@ -172,7 +172,7 @@
       "language": "zh",
       "ok": true,
       "items": 60,
-      "sha256": "e860b733cafd74c10c3aa044de5c1c2947deaadceaa016645a0619f6d2cf5e40"
+      "sha256": "1359507115f63ce235def0b6cbb2c86599f86f6bd895b1958aaeb1f4bc92ba26"
     },
     {
       "id": "eeo",
@@ -180,9 +180,9 @@
       "url": "https://www.eeo.com.cn/rss.xml",
       "domain": "经济",
       "language": "zh",
-      "ok": true,
-      "items": 12,
-      "sha256": "c15b4bd9886816c14e9360bd1c799cc3e67978b93cf8d9910f7007aa5ba6e08c"
+      "ok": false,
+      "items": 0,
+      "error": "<urlopen error [Errno 104] Connection reset by peer>"
     },
     {
       "id": "startups-rest",
@@ -212,7 +212,7 @@
       "language": "en",
       "ok": true,
       "items": 40,
-      "sha256": "055db1b7ca7c8a60daf8dc369640d5d0e4ec07b57da700d5bcc8de80b8c9921e"
+      "sha256": "9a4525294d0b1ebb73b755ffd9772ff23130aaca836ef5cf9b9541578746ad32"
     },
     {
       "id": "colossal",
@@ -272,7 +272,7 @@
       "language": "zh",
       "ok": true,
       "items": 20,
-      "sha256": "43ce60a543c0a1a5d0b196416e0e0260ccb91280df200e5186c8685d84e74c65"
+      "sha256": "6f7f2f22757ac64e05c01de8ab9becf00f39b0d2dce821baf33d8dd8b8df1ca0"
     },
     {
       "id": "woshipm-design",
@@ -282,7 +282,7 @@
       "language": "zh",
       "ok": true,
       "items": 15,
-      "sha256": "a1171c4b556d45b035a6c31880c51a1d697ec9cbe0fae9e92e355238b0963b6a"
+      "sha256": "37ea8eb7a21037c5a82d53ee1f48e015a4227f9c059ed725d06e0272bf514b64"
     },
     {
       "id": "sspai-workflows",
@@ -292,7 +292,7 @@
       "language": "zh",
       "ok": true,
       "items": 10,
-      "sha256": "762e4fbb4668d128f60a6058df985c92ad86dbe4337d3ec3595c848bdd239ac2"
+      "sha256": "d3b83a23b1f97e47d8cc5ee17f6576d909f3b316a0af1e5eeb710e98763d706a"
     },
     {
       "id": "ezindie",
@@ -302,7 +302,7 @@
       "language": "zh",
       "ok": true,
       "items": 11,
-      "sha256": "79ba026dc2c2013dbebc4dc5d4bd25259c686276b473674e1abe5d98881a6cf5"
+      "sha256": "4d9687334ac7d6b5ca353d3bbcb25de2b58c6591d64c8a1d955fbb2c44b33eed"
     },
     {
       "id": "v2ex-isv",
@@ -322,7 +322,7 @@
       "language": "zh",
       "ok": true,
       "items": 200,
-      "sha256": "dc0bed121845c77271712e688bd0ec95da3f125c611508b91000d29b8e7b0690"
+      "sha256": "10b05520a7b0ff3053e534aecca9222fef26dd9848883a52b01e2adcdb998e10"
     },
     {
       "id": "w2solo",
@@ -332,7 +332,7 @@
       "language": "zh",
       "ok": true,
       "items": 20,
-      "sha256": "a5dae2f0b203dd69d612fa895d73be37c0d00249eca19e84202bbc4b9f632a85"
+      "sha256": "37ced7f11d48786cab54ef25bcc90a246d574e29c44cce4caab0211719706db5"
     },
     {
       "id": "decohack",
@@ -422,7 +422,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "ebb9e44bcd7717f28e3ba7d02178072ba8e991d0974e26b68e3f36fa98bf8155"
+      "sha256": "acdc2c8eed078fe3f15e450ac4f02b0dfea71b5a6ce531f5717600fb836e0fdf"
     },
     {
       "id": "baymard",
@@ -432,7 +432,7 @@
       "language": "en",
       "ok": true,
       "items": 50,
-      "sha256": "8ad563a3724f76e511d52a1e53de98228f6f64cdc7c40e6a84746065d91aa949"
+      "sha256": "bda57633a88948cb8997a1f0f2c64e03ccf72d54f8d133fae736341e3aa84964"
     },
     {
       "id": "lenny",
@@ -442,7 +442,7 @@
       "language": "en",
       "ok": true,
       "items": 20,
-      "sha256": "959c7c19f32fa13bfa313720878b1a0f561efd7413f3b62855032204f1887b00"
+      "sha256": "ed8f2735e3a43efdcfeabad3719623662089d21ea6f9f35cfac7ae772d7f1423"
     },
     {
       "id": "svpg",
@@ -462,7 +462,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "d0080bca9e8fe4605c12212fc90612fc4e2dffdd8978ffc36463acc7457ed309"
+      "sha256": "dabbafaae692c3614f449db49305c282a10e9deb55828b86cbd3c2ff9706e694"
     },
     {
       "id": "intercom",
@@ -476,12 +476,12 @@
     }
   ],
   "enrichment": {
-    "checkedAt": "2026-10-31T05:28:04.023922+00:00",
+    "checkedAt": "2026-10-31T12:15:04.276725+00:00",
     "translationModel": "argos-en-zh-1.9-ct2-v1",
-    "translated": 156,
-    "english": 157,
-    "images": 192,
-    "stories": 271,
+    "translated": 158,
+    "english": 159,
+    "images": 208,
+    "stories": 289,
     "error": null
   }
 }
