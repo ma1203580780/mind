@@ -2830,7 +2830,72 @@
     "c7d9bc82d9b038dcbdd7f964bce9e3bbe3f3a46a3f8e23a258058effccd0047e": "v0.33.0rc3 (英语).",
     "1d4425e4c9ff9c635ec1407b119dedbb39a0193eb7cacf64263ede88c16d8092": "[CI][Bugfix]将 ColUltraVBERT 测试检查点固定在修订版vL...",
     "b4e83391f15cfa55ed44bc82445d54feb3e72d3e3cf8abe9abf1ba6394b3179d": "A Spark of Color in 11月的灰色( 2026 壁纸版)",
-    "e8a5b96af2dcaa0ea594814d274293d30d2beda627026759f0fb648706145d92": "让我们用新的桌面壁纸来踢11月吧!由来自全球的创意设计,壁纸以各种屏幕分辨率出现,可以免费下载.慢慢来!"
+    "e8a5b96af2dcaa0ea594814d274293d30d2beda627026759f0fb648706145d92": "让我们用新的桌面壁纸来踢11月吧!由来自全球的创意设计,壁纸以各种屏幕分辨率出现,可以免费下载.慢慢来!",
+    "ff65384e43688a6de3a42ad6ff9d9f00117e46c802eb710e80de4736692d114d": "QQ社区智慧:PM中断的最大来源,雇佣有案例研究的初级PMs vs.行为访谈,为AI驱动的发展打造出一种产品控制器,以及更多",
+    "52cbf81d8feb5e9c45ce002723961a69f288de5947fc14f584868c54b4c29604": "社区智慧304",
+    "184d9ca8b58e5a6a79d250c2717538da208337d9cef436cfe53950cb83333b64": "托克维尤尔",
+    "0fbb5532c9419408c6885c8be4a30ee71429ae71db5304c9adbb99124199def5": "5新克洛德 Mods这将改变你的工作方式",
+    "a407c67933b28be3fbe94e57441f9beebbdad94e6d55e55e5aa69c32cfb379ba": "Mod是一个附加,它改变了克洛德代码的外观和行为.Mods在Claude Code for CLI(在终端窗口)和Claude... 继续在 UX Planet 上阅读“",
+    "510ac99bacc8910333ef157ee3086fa01ce403245c640be2ea0867d9e9bc719c": "机器人全能:用数字代理放大物理模拟",
+    "ccffa9a94d03fb33b259ac3bf49b53ba21c2c45188585b79bfcab206c82dde6d": "实事求是、快速的机器人模拟能够对向现实世界转让的已体现的AI模型进行大规模培训。然而,尽管取得了数十年的进展,但现有的模拟只涵盖范围狭窄的现实世界任务和物理现象.核心瓶颈是,创造更好的模拟需要大量的专家努力,因此没有规模。为了解决这个问题,我们引入了机器人游戏的Gym-Anything(Gym-Anything for Robotics),这是编码代理创建现实机器人模拟的框架.我们的核心见解是模拟创造是编码代理任务所以Codi的改进",
+    "58d9fda6a63390e8d17f043a00eecd93102cf2925340cc9a2c12b01517556886": "在线咨询培训中的 \" 人的作用层 \" 和 \" LLM \" 模拟客户:咨询模式分析 \" 比较",
+    "1643b58735af443b6b01fb24f0e9aef6f2ad704d9b0319183026d55cfbd1c974": "本研究调查了\"大语言模型\"在教育角色扮演游戏中与人类角色扮演者相比模拟咨询客户的能力.最初,我们录制了角色扮演会话,由新人顾问与作为客户的人类同龄人进行互动,然后由Mistrals Mixtral 8x7b用4位量化来模拟人类和客户之间的角色扮演.通过在判刑一级采用咨询交流模式系统对这些互动进行了分析。我们调查了两个关键问题:(1) LLM生成的答复在多大程度上复制了真实的对话",
+    "21471b66f688b16cc88a4037c29d3b0170f823f05ac67b710e4fd1d076c91be8": "FARMS:可核查的自动计算科学基金会",
+    "f04b598c1ee20c7aeb885078af145d797a2a7ea7a96f68cb9be88e33837e15f1": "自动计算科学可以通过选择、调整和发展数字方法来加速发现。这种前景需要数学知识,即AI系统可以在明确保证下解释和再利用.在这里,我们介绍FARMS,一个忠实而高效的基础, 将计算数学转化为AI准备的计算知识。FARMS通过源编制,可再用表达和语义审查,将正式声明与源上下文,算法意义和定量保证相连接.随机数字线性代数和",
+    "f40eb8880b62216d75fba037b1a787f740951c19322b58ea27098d417f5e4cf8": "用以技能为中心的剂推进临床基因组分析",
+    "79e478175fef130c1265af2ea76e07861330db1c52d054b38e5b4a71d3d614fe": "临床基因组分析要求专家整合不断发展的准则,数据库,并整合计算证据.随着顺序越来越容易获得,这一复杂而劳动密集型的过程已成为临床决策中及时使用基因组信息的一个主要瓶颈。为了填补这一空白,我们开发出ClinGeX,一个大型语言模型代理,通过特定任务检索和依赖意识的管弦乐来编曲105个可执行技能.在223起暂时搁置的基准案件中,ClinGeX实现了71.7+x宏观平均任务级别与e的一致",
+    "edf98023f11a5cb3e7b25051f2a1a7dc7545a8d94531a6d67735e699b63637e5": "拉马努扬挑战结果:AI-Assisted评价多格式证明管道",
+    "c75e27c13b9b7a038f7e0a07eb8dcc389ef42b4925b83bfe2500fed1821270c1": "随着AI数学能力的迅速提高,有意义的基准正在从大学层次的问题和数学奥林匹克转向研究层次的数学.拉马努扬挑战(英语:Ramanujan Challenge)是一个由数论的研究层次问题所构成的基准,包括未公布的结果和开放式猜想.它提出了数学常数的具体公式,其正确性可以通过数字来检查,而其证明可能要求非明显的数学.在这里,我们分析挑战提交,衡量不同AI模型的相对成功,计算机代数系统(CA)",
+    "b180ebb12e57fe673f85d7555db3cd42ced77cb39957d424ed4220ca11a06d2b": "作为Traversal 检索: 用于国有长文本代理的 价值内存",
+    "da426224eb1359e8a214b7865387892e9beff9f26b9a4f7f83bb0de12bf93da8": "长文本模型反复地解决了密切相关的检索问题.注意或全局取回可以保留大商店,但每个前行都再次通过搜索,以获取重要的东西.经常性压缩只能通过更早决定要保存哪些信息来避免这种搜索.这两种机制都没有直接利用在相邻检索步骤上的有用记忆可能相重叠。我们提出一个替代方案,其中检索是一个持续通过地址空间的局部穿行。我们把记忆的内容和地址分开效用由 ret 显示的信息定义",
+    "c67e1af3b4014b72722045aeffd0cec7f7105f06a26d3ea57774ac842938f9e5": "预填解码长度的基本限度",
+    "0ee1498f43d116f88a372cfdfab82c637d8c1a9f4731894a3d1fa9a11866a8ed": "预测一个大语言模型(LLM)会解码多少个令牌,只使用预填相隐藏状态,是推论调度的关键原始.我们显示,当前基准将预测器质量与任务硬度相混淆:当目标模型,数据集,或采样配置变化时,尽管预测器没有变化,但报告的准确性崩溃.我们追踪到这个不稳定性 被忽略的错误源 - - - 自动解码的内在花纹 - 并得出每个预填侧方法必须遵循的界限。我们的分析认为 解码是一种停止的花花公子",
+    "b8f2d5debc2bf74e1ad668e178df755f6e3e7f1d3a5f817c3bf121722e52b6a2": "通过倒流实现高效可扩展监督",
+    "809778a5174808b656f90e11a2785f611c2980b658bb80bd7ac3e2be0c701148": "可缩放监督询问一个弱的核查者如何检查更强大的AI系统所完成的计算结果.一种拟议方法使用相对化交互证明,其中弱核查者通过与一个或多个强大的证明人互动,检查复杂甲骨文辅助计算的结果.一个突出的例子是辩论,辩论非常有效,但假定两个强大的AI模型之一,或证明人,都是真实的.对于某些类别的甲骨文辅助计算,这种假设可以去除,但计算成本要高得多.在这部作品中,我们介绍",
+    "4d8eddb467c5a8b13442477e539612b368a76c3df3a27d6581cd7cc333aeb7b3": "BURGER:通过精致的绘画来制定基准和理解机器人一般化",
+    "b8315734a7571f43510ef48f761fc58c2cf9df764464791ce939a91746774e1f": "视觉-语言行动(VLA)模型作为培训数据尺度,如何有效地学习多种语言条件的行为?调查这一问题需要各种大型机器人数据集,其物理机器人的收集费用仍然很高。我们引入了BURGER,一个语言条件化的机器人绘图基准,它具有可伸缩的,快速驱动的管道,用于在模拟和现实世界中生成连续的绘图轨迹.在BURGER中,一个代理从同一个空白画布开始,并控制一个机器人臂来绘制由语言指定的对象或空间组成,而每个",
+    "ead20d2b0552b9cb54054c9c7d8b5170d3ba749bde88a48ae62b8df6295a2215": "我如何调整你的模式:用模板扩大多种语言的安全培训",
+    "8fe58a0970ba94063a7941f388d07552deefc03a4176abc14c6e7941bb583308": "大语文模型的安全调整主要侧重于英语,多语种代表性有限,特别是破坏低资源语言表现。相关的开放式培训数据集往往规模有限,或没有遵循区域本地化的有害专题,以扩大统一范围,超越文化。我们提出一个可扩展的基于模板的增强管道,以产生大量的多语种拒绝和良性公司,从有害的提示中提取安全模板,翻译这些模板,然后在槽中填入文化上真实的实体,包括有害实体和Beni实体",
+    "0222f6263265f9ae8a93749372c819a6e1bb06282abe9f21f963b4cb52864753": "代数世界模型:从探索到证明",
+    "77fd3134b5cf61474f1b19a25c833942c2f6c12b0a84f5a8224a3a5732b8c21c": "AI在数学上取得了显著的进步,解决了利安的机器可校验证明具有挑战性的问题,然而通常依赖于预先定义的数学定义和正式规格.这引起了一个自然的问题:它能否严格地解释一个未知的世界?我们引入了代数世界模型(AWM),这个框架将与不熟悉环境的互动转化为支持正式推理的明确的数学模型.AWM探索了环境,并发展出可执行的Python假说,不断测试并对照观测结果修订.接下来",
+    "6795ca03b7364ed99fb7ac266bab271d3e65215f94c3827fdd619f486fed2fff": "EGI电子基础设施中的AI -- --过去的经验和未来战略",
+    "0caf8aedfee1a2173fe9074b0684abf033207cc4cf80128995b003efcbcac508": "EGI联合会为欧洲和全球科学提供了超过15年的联邦电子基础设施服务。我们回顾EGI早期在InterTwin和iMagine Horizon欧洲项目中与AI合作的经验,这些项目在物理和环境科学领域建立了数码双胞胎,并为水生研究建立了一个图像分析平台。然后,我们审视2023年以来AI的地貌变化,认为AI在科学方面的重心已经从模式培训转向了改造和应用AI到具体领域,项目和问题.基于这些经验教训,我们提出AI战略",
+    "15ce92b8ee909039b20e7f9d5d820f17385fcbc5a987fd86ff97deb6dd17bb87": "代理大学:促进个性化学习的协作机构",
+    "00819148e77e68f07d750af29a9b1bb35172c4e90bb2122867e2dc978b3e5888": "大型语言模型支持个性化的辅导,内容生成,以及适应性的学习路径.然而,能力发展需要这些资源和互动,以形成一个与学习者一起演变的协调一致的学习进程。一项中心挑战是在利用学习证据决定应该遵循什么目标的同时,调整目标、活动和评估。我们介绍人类参与的多代理组织,并在代理大学(AU)进行即时分析。在非盟,学习者作为组织成员参加,并与专门机构合作,以保持可视能力",
+    "8c507b41619ab37d9efc471a1e2c15d69238b59b07bbcb203d3f1fe6cb780e4e": "快速而准确的超高率量子 LDPC 代码神经分解编码",
+    "a540bb8ca31e91399892486cb9e427e715db790ea0ecdab2635d5c9a40b73474": "量子误差校正对于容错量子计算至关重要.高速分量子低密度检查(qLDPC)码已经成为一种有希望的方法来减少量子错误校正的实质性物理克比特间接费用,使得编码率在大约1000个物理数据克比特的区块中超过1/2美元.然而,它们的实际实施需要解码器结合高精度和低延迟来跟上量子硬件的速度.高分率qLDPC代码的现有解码器可以实现高精度,但往往需要大量计算a",
+    "c2095826e0fbfa5b6e23bfb6c1c55d56fe057a0c85c23620cd2f3181109752e9": "MetaRefine:具有多层次特性的图像评估分数改进",
+    "1d2f6cb4072bf270eef802670814b967ff837fb1e96976ef32cd31854956155b": "图像的原始维度,外观比和组成提供了能影响其技术和美学质量的重要提示.图像评估方法使用再大小、裁剪、粘贴或补丁取样,以容纳不同的输入大小。然而,这些操作可以改变或模糊原有的几何和构成提示.现有的评估模型还编码了丰富的多层次视觉证据,可以进一步取出和利用这些证据来改进现有的模型。这促使我们把视觉证据和原生的相片几何学结合起来,以进行分数的完善,而不改变分数",
+    "ae809321702cb020fcd6c70840355ae73f28f6f29f5be6c0108e446a4b037570": "FIRME: 登记册-演变记忆图,异质投资者知识",
+    "92f1f15acd6c636b91a286a6e5330deec093bda8c1e80a5fc40fdf242cc08a40": "重新利用投资者知识的财务AI工作流程需要持续的内存,将各种来源和时期的观察综合起来,而不失去身份或来源。在知识图中,反复出现的观测可能使用不同的表层形式,使关系历史分解并阻止证据积累.我们引入了记忆进化的融合和身份登记册(FIRME),这是一个登记册所设置的内存图,它将收到的观测结果与持续的犬科关系相协调,并保留其来源、时间和背景。在一段时间内,基于规则的聚变链接投资o",
+    "db728a7b6a780d69f30cefe7872acd2196902516fc593f7bac5db2cf0fb08729": "为精神病患者进行模拟语言模型培训",
+    "53ac1a38cf9a2311df6ce4066f6e86f587b69ac0382dfc63e3b646f84c4c8edf": "在精神病学实践中,临床摄取的面试仍然是初级诊断工具,要求临床医生建立关系,同时解开复杂,重叠的介绍.在这里,我们显示,模拟环境中的多回合强化学习(RL)可以改善语言模型在结构化的基于文字的精神病摄入,跨越历史记录,差异诊断,以及初步管理规划方面的性能.在随机的双盲交叉研究(一美元=60美元匹配的情景对,120次相遇)中,将RL训练的代理与其相同的舞会进行比较.",
+    "2fe5e4c764f3ea94e20507fe3107bd34d2a59b7cb84995367bad91fcd546390d": "前缀可执行性:评估最终成功之外的工具使用代理",
+    "43c550f62948a52730841ef0d652fdecbc97f19eaed95d97340806e393c8fce6": "工具使用基准往往通过最终任务的成功来评分代理人,但终端结果可能模糊中间工具调用轨迹是否可以执行。我们提出前缀可执行性,作为工具使用剂的轨迹级评价协议.协议衡量一个预测工具调用序列的每个前缀是否仍可在工具计划、状态先决条件和数据依赖性下执行,并使用前缀可执行性曲线(PEC)、第一错误深度(FED)、轨迹可执行性率(TER)、地平线正常化的ACUC-PEC和回收率(RR)来总结可靠性。我们",
+    "32882b8bacd122560dfdd9bfc9b3f4d39290c470fda0b8b686081ecd2543d202": "NECA: 邻接事件曲线增强多视距 ICU 恶化预测",
+    "4ab57c3846e0dd498daa76139716a570f9c26bae8736241eebc0b7ba83ec040e": "对ICU器官机能障碍事件的早期预测支持了及时的临床监测和干预,但由于测量不规则,临床变量各异,以及需要预测未来多个地平线的风险,因此从ICU早期记录中估算出短期器官特有风险仍然具有挑战性.现有的被监督模型通常将每个患者作为孤立的样本处理,并且没有明确使用类似历史患者的被观测到的事件时间.我们提出邻里事件-调查增强(NECA),一种模式-不可知论方法,可以回收训练有素的病人",
+    "db44dd5a2710ad5373d182b237b590c2cab8d796e3c1c7271069ddcce912b4dc": "IMPACT:用于光伏生成预测的反向成型多模式学习",
+    "edeacb463cd2c4576d74666b46d232843e43ad3b787636d4312c7ad493cf563d": "这项工作为10至110分钟的概率光伏发电预报开发了物理学知情多模式深度学习框架。预测模型以四分道结构为基础,通过一个有学有识的相接性,已知未来太阳几何学的图示注意力编码器,以及当前气象状态,通过有门的相通相通来分别编码植物级时间史和倒转级空间云动态.几何分支增加了两个前瞻的物理信号,空间云异相和倒转式斜坡活性,每个Empi",
+    "c62f08c3473e97e316394325a40d5058c6f9cef90ec434a5900ee92bd172f555": "音频分类中连接神经表达和符号语义",
+    "791881eaca1c044992a989c7778810fe64ed2ece70682110e9cb7dafd941a8fa": "深音频分级器可以实现强烈的预测性能,但其隐藏的表达仍然难以解释.现有的音频可解释性方法往往侧重于输入级的归属,如波形片段,分光区域,或声学特征等,并对隐藏的神经元编码提供了有限的洞察.在概念层面解释隐藏的神经元可以提供更有意义的观点,说明音频模型在内部学到什么.这篇论文调查了音频分类器中隐藏的神经元是否可以与人类可以理解的符号性声学假说联系起来.",
+    "183862cceace821bc1970b02b5cb5da2a9a3371babf9d61720b651389b240eb1": "从您自己的错误中获取: 嵌入式模型的政策问题培训, 用于多层嵌入式",
+    "7a69d9c9c72e6e05d4ff30b0ea688120623569deba73b6a0fa0f8fc8ed8fc368": "检索器生成中复杂的问题需要分散在多份文件上的证据,只有在检索器找到全部证据时,答案才可靠.链嵌入式检索器一步一步地收集这种证据,把问题重新编码,加上迄今为止检索到的通道,我们发现它们已经很强:只受过黄金历史培训,一个小链嵌入式检索器称没有语言模型超过以图表为基础的系统,并且与搜索代理商竞争.然而,这种培训留下了空白。在测试时, 检索器在自己的 retr 上的条件",
+    "7443c24713ff28164e40dbaadf5205015815069b1b2c951cdbf3f44d5bb015ce": "SCARL: 序列信任协调强化学习",
+    "3d4ade27a1cbb40d95e78600e7787d90f21d115cb0ac8dd7a913b89720f54d38": "以可核查的奖励加强学习(RLVR)改进了语言模式推理,办法是以基于规则的核查员对抽样答复进行评分并强化那些通过的答复。当一个分类员的培训伴侣们预测了贴上标签的概率时,没有什么能将RLVR政策对回应其回报的信心联系起来:配合培训将推动做出具有同等优势的响应,以实现平等信心,然而优势却对信心视而不见。在这种顺序自信的错位下,几乎无法找到的成功 与它几乎可以肯定地产生的成功 和成功",
+    "cdd13c8b6e7cad7eb0a884cbc9c1ee6b3096c650f72a320580da48608d1bc6c6": "了解和减轻在法学硕士课程中的作用",
+    "dc52128a6e13e965f4a74eb1c1f6b31fb7ce847588f0713d892a66f99f17984a": "尽管能力不断增强,但LLMs仍然容易被迅速注射:可以操纵或劫持模型的恶意输入.特别是最近人们观察到,LLMS可以表现出角色混淆(Ye等,2026年),其中模型根据其风格而非被标注的角色来归属文本的来源.工具输出中的恶意文字(例如,一个代理商访问的恶意网页)可以利用角色混淆来冒充用户,我们称之为\"角色窃取\"的攻击.在这项工作中,我们寻求理解和减轻角色的欺骗。我们研究模型如何追踪谁说WHA",
+    "b3f4722dbbbe4eceeb7aebe4d8647c609b5f9f9dcf5d18faf6081a63dcabd2b4": "结构化教科书的数学证明",
+    "a664078e8e70c3dbab5e8b65112e6983d9c4adcc7a8cea21c72579d3e306bd15": "语言模型的数学监督通常被平整为孤立的问题解决对,抛弃了原始来源的课程组织和证据结构.我们引入了TOME-Math(Textbook-Oriented Mathematical Information),这是一个大型的教程,将2,118本涵盖大学数学核心学科的教科书转换为大约380K个结构化的校正-监督记录,同时保留了章节顺序,命题防链接,依赖性参考和源出地.利用这些结构信号,我们探索课程",
+    "ede7c5d2c5cf7a320024fbfef0179cceb0665131324210ebbd354aa00889620b": "超越所选突破:在随机抽样数学猜想上评价语言模型",
+    "e3cac118c190a052877fd247aa67e42595dc5968da66d384f88818edde00fd21": "去年AI辅助数学发生了转变,边疆语言模型生成了证明和反实例,而成为了长期存在的开放猜想.然而,仅研究目前的一套重大突破,就无法完整地了解LLM能力和实现所报告成果所需的计算资源。为了解决这个问题,我们引入了一个新的数据集\"OpenCroupure\",收集自2026年2月起在arXiv上发表的数学论文的猜想.我们使用这些猜想作为开放数学问题的源头,并应用前沿GPT模型t",
+    "dccfee7e7371cd0975be5a1e18b436b554f53838df9d49abed53155a703bdf7a": "运动员作为一号的科学家: 代理贝叶斯实验设计 消费者可携带的个性化生理学",
+    "bfdb4742229da9f1ac59152b03cbda1b4171fff30f2d6b3758469fe206a757ee": "用于个人健康的大型语言模型(LLM)代理读取可穿戴的数据并推荐,但不会以可以审计或伪造的方式了解个人.我们介绍EpiCoach,一种将一名运动员,越野山地自行车手作为负责的N-1科学对象的代理系统.有关运动员的主张生活在一个有证据的假说登记册中:在将来的一次赛事发生之前,每个赛事都必须发布概率预测,其信念只能通过从记录的统计数据中计算出的证据来移动。预测来自一个机械化的数字双胞胎i",
+    "01d9c66e19d79c3fc74e184a0d32b16404fd356ba97c1e4462df0f2e7e97f7a6": "培训后量化的统一黑森指导框架",
+    "144ebbe1af52cee8ff0f0ec102ac9e8b32abac080db49e77244ce97850eb9d41": "低位量化通过降低内存足迹和计算成本,可以高效地部署大型语言模型.以低精度实现高精度需要选择量化范围,线性变换,并进行重量四舍五入的决定.现有办法通常利用当地重建目标独立地优化这些组成部分,这未能说明量化错误对下游预测的不同影响。直接优化任务层面的衡量标准将提供一个更忠实的目标,但由于不连续的自然期而具有挑战性",
+    "e87ae6fa003023088c3a77390ebf3d115765b800f585eded8a0a606b0fb4a044": "多步多变时间系列 与渐变SHAP:风能案例研究",
+    "5d483cf9fa68bd31e68af702644681221eaff135a88a19f7716994651cf0782c": "随着气候变化的影响日益明显,对风能等可再生能源的需求继续增长.然而,可再生能源的可变性和间歇性在融入能源网方面提出了重大挑战。人工智能已成为解决这些问题的有力工具。然而,由于许多AI模型的不透明,能源部门的采用受到阻碍,而AI模型往往起到黑盒的作用。本文引入了经过仔细修改的GradientSHAP方法,为多变量多斯te提供可解释性",
+    "a9bf85c5301f551a2f52e47a51967d9a5252f69995338b3ee8e0bcd8301d866e": "提供高效临床决策支助的参考决定图",
+    "8aa1fd41cf230bfaba38ba0e85b3cb78c6efab416772f41a2a05d3c7ab81dec0": "辐射风险分层和管理规划是医疗成像中的重要下游任务。自动化这些任务具有挑战性,因为临床指导标准分布在道词,表和交叉引用的定义之间.我们提出由准则产生的决定图,这个框架将准则汇编与案例评价脱钩。在编译过程中,一个大型语言模型将分出准则分入以节为主的块中,取出带有链接定义的本地决策子图,将相干分支汇总为可执行的决定图.杜爷"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -14772,6 +14837,231 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/10/0fc3f5ab17b1e5b253e532e96b0c924e.jpeg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/10/506747.html"
+    },
+    "https://w2solo.com/topics/8660": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8660"
+    },
+    "https://w2solo.com/topics/8659": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8659"
+    },
+    "https://w2solo.com/topics/8658": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8658"
+    },
+    "https://arxiv.org/abs/2610.40565": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40565v1/figures/teaser_sewing.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40565"
+    },
+    "https://arxiv.org/abs/2610.40563": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40563v1/figures/Combined_Pattern_Distribution.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40563"
+    },
+    "https://arxiv.org/abs/2610.40560": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40560v1/fig01-framework.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40560"
+    },
+    "https://arxiv.org/abs/2610.40556": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40556v1/System_overview_test2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40556"
+    },
+    "https://arxiv.org/abs/2610.40551": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40551"
+    },
+    "https://arxiv.org/abs/2610.40545": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40545"
+    },
+    "https://arxiv.org/abs/2610.40541": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40541v1/figures/fig_qq_plot.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40541"
+    },
+    "https://arxiv.org/abs/2610.40535": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40535"
+    },
+    "https://arxiv.org/abs/2610.40532": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40532v1/teaser_new.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40532"
+    },
+    "https://arxiv.org/abs/2610.40516": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2610.40503": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40503v1/figure1-preprint.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40503"
+    },
+    "https://arxiv.org/abs/2610.40494": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40494"
+    },
+    "https://arxiv.org/abs/2610.40492": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40492v1/figures/intro-0.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40492"
+    },
+    "https://arxiv.org/abs/2610.40490": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40490v1/Fig_01.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40490"
+    },
+    "https://arxiv.org/abs/2610.40487": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40487v1/aspect_ratio_bars.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40487"
+    },
+    "https://arxiv.org/abs/2610.40482": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40482"
+    },
+    "https://arxiv.org/abs/2610.40476": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40476v1/Hero.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40476"
+    },
+    "https://arxiv.org/abs/2610.40444": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40444v1/figures/pec_curves.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40444"
+    },
+    "https://arxiv.org/abs/2610.40420": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40420v1/NECA.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40420"
+    },
+    "https://arxiv.org/abs/2610.40418": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40418v1/figures/figure1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40418"
+    },
+    "https://arxiv.org/abs/2610.40414": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40414v1/images/method2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40414"
+    },
+    "https://arxiv.org/abs/2610.40409": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40409v1/overview_v13.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40409"
+    },
+    "https://arxiv.org/abs/2610.40407": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40407"
+    },
+    "https://arxiv.org/abs/2610.40396": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40396v1/figures/bars_injection_decomposition_small.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40396"
+    },
+    "https://arxiv.org/abs/2610.40394": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40394v1/head1_1014_split_rc6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40394"
+    },
+    "https://arxiv.org/abs/2610.40382": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40382v1/plots/methods/real_conj_screenshot.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40382"
+    },
+    "https://arxiv.org/abs/2610.40370": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40370v1/figures/photo_loop.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40370"
+    },
+    "https://arxiv.org/abs/2610.40345": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40345"
+    },
+    "https://arxiv.org/abs/2610.40330": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.40327": {
+      "checkedAt": "2026-10-31T21:27:08.206581+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.40327v1/fig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.40327"
     }
   }
 }
