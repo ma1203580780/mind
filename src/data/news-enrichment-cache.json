@@ -2820,7 +2820,13 @@
     "7d9233236ef035ad97c7fc04daa3b7bff7594d920348dacaecd30a76867b5518": "衡量长视线长的ETF性能",
     "e5a04de5621ddc545ac6fa209839c0e29c74aa957c6f766326ac5828614ed58b": "许多投资者持有杠杆外汇交易基金超过一天。由于这些产品每天重设杠杆,其较长范围的收益不必等于所述收益的倍数。我们用一个回归身份来解释这个差距,这个身份将我们所谓的对流奖金、波动拖拉和产品成本区分开来。我们还讨论了衡量LETF业绩的几种共同方法,并强调这些措施如何能够对现实世界的LETF如何发挥作用作出误导性评估。我们提议利用已实现的终极财富评估事后业绩,w",
     "24ebb586c0f363e33c9004a4682d89f39680717942f5789aed0ae471594068cd": "Credit Saison在ChatGPT企业试点中实现954%的ROI",
-    "81a561bb2eaf1ca23ddf0750dd309005e7c5404261d61b9bc4e848e2a1a551db": "Credit Saison的ChatGPT企业飞行员提供了954%的ROI.看看领导人和雇员如何帮助将结果转化为全公司的收养。"
+    "81a561bb2eaf1ca23ddf0750dd309005e7c5404261d61b9bc4e848e2a1a551db": "Credit Saison的ChatGPT企业飞行员提供了954%的ROI.看看领导人和雇员如何帮助将结果转化为全公司的收养。",
+    "2accb5c3f64ead087abb39b64dd5092c7ee25b069d6dda6a1c23e56807ac0fce": "经验设计:将“用户”从“用户经验”中删去",
+    "2cb286d822a68463ad3d886463fcec18267f40a7bc68730c3886e2cb4d07fd91": "AI正在将UX扩展到超越人类用户的代理.经验设计将这个更广阔的领域取名,",
+    "6b83623293da45c96b389bed816856b4dc426d2e8f65f66f2cd6fc5cf3136281": "UX在代理软件厂中的作用",
+    "b4ddf77fa9196aac2a54174adf596e006913543fa4dd4f270febc67f617270f0": "AI-原生软件开发生命周期将UX减少为AI上下文.UX必须发现用户需求, 塑造所构建的东西, 并在发射前后对其进行评估 。",
+    "e519fc3e718631e5a71627d3e2650c380f152e66c6673f400696aa91b9f3094f": "公平使用对每个人都有好处",
+    "b76d8e25a217821f367bc6e9c9757600adbabc014037fa46aeac80292f45913c": "OpenAI分享创作者、学者、无障碍倡导者、法律专家等关于公平使用如何支持AI培训和创新的法庭简报摘要。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -14652,6 +14658,45 @@
     },
     "https://openai.com/index/credit-saison": {
       "checkedAt": "2026-10-30T19:15:42.514492+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.nngroup.com/articles/ux-vs-experience-design/": {
+      "checkedAt": "2026-10-31T05:28:04.023922+00:00",
+      "description": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Role_of_UX_in_Agentic_Software_Factories_YO2Q558.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/ux-vs-experience-design/"
+    },
+    "https://www.nngroup.com/articles/ux-agentic-software-factories/": {
+      "checkedAt": "2026-10-31T05:28:04.023922+00:00",
+      "description": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/The_Role_of_UX_in_Agentic_Software_Factories.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/ux-agentic-software-factories/"
+    },
+    "https://www.ithome.com/1/020/409.htm": {
+      "checkedAt": "2026-10-31T05:28:04.023922+00:00",
+      "description": "《连线》（Wired）昨日（10 月 30 日）发布博文，采访了苹果现任首席执行官约翰 · 特努斯（John Ternus），并围绕着苹果公司产品未来发展方向、AI 领域发展等内容展开讨论。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/020/409.htm"
+    },
+    "https://www.ithome.com/1/020/402.htm": {
+      "checkedAt": "2026-10-31T05:28:04.023922+00:00",
+      "description": "本周地面工程师下发首个提示词时，要求预装在卫星上的谷歌 DeepMind 模型 Gemma 4 创作一首关于身处太空的俳句。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/020/402.htm"
+    },
+    "https://www.ithome.com/1/020/398.htm": {
+      "checkedAt": "2026-10-31T05:28:04.023922+00:00",
+      "description": "Anthropic 调整了 Claude 针对个人消费者的付费套餐命名。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/020/398.htm"
+    },
+    "https://openai.com/index/fair-use-benefits-everyone": {
+      "checkedAt": "2026-10-31T05:28:04.023922+00:00",
       "error": "HTTP Error 403: Forbidden"
     }
   }
