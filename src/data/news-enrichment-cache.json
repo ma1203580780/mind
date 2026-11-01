@@ -2895,7 +2895,25 @@
     "e87ae6fa003023088c3a77390ebf3d115765b800f585eded8a0a606b0fb4a044": "多步多变时间系列 与渐变SHAP:风能案例研究",
     "5d483cf9fa68bd31e68af702644681221eaff135a88a19f7716994651cf0782c": "随着气候变化的影响日益明显,对风能等可再生能源的需求继续增长.然而,可再生能源的可变性和间歇性在融入能源网方面提出了重大挑战。人工智能已成为解决这些问题的有力工具。然而,由于许多AI模型的不透明,能源部门的采用受到阻碍,而AI模型往往起到黑盒的作用。本文引入了经过仔细修改的GradientSHAP方法,为多变量多斯te提供可解释性",
     "a9bf85c5301f551a2f52e47a51967d9a5252f69995338b3ee8e0bcd8301d866e": "提供高效临床决策支助的参考决定图",
-    "8aa1fd41cf230bfaba38ba0e85b3cb78c6efab416772f41a2a05d3c7ab81dec0": "辐射风险分层和管理规划是医疗成像中的重要下游任务。自动化这些任务具有挑战性,因为临床指导标准分布在道词,表和交叉引用的定义之间.我们提出由准则产生的决定图,这个框架将准则汇编与案例评价脱钩。在编译过程中,一个大型语言模型将分出准则分入以节为主的块中,取出带有链接定义的本地决策子图,将相干分支汇总为可执行的决定图.杜爷"
+    "8aa1fd41cf230bfaba38ba0e85b3cb78c6efab416772f41a2a05d3c7ab81dec0": "辐射风险分层和管理规划是医疗成像中的重要下游任务。自动化这些任务具有挑战性,因为临床指导标准分布在道词,表和交叉引用的定义之间.我们提出由准则产生的决定图,这个框架将准则汇编与案例评价脱钩。在编译过程中,一个大型语言模型将分出准则分入以节为主的块中,取出带有链接定义的本地决策子图,将相干分支汇总为可执行的决定图.杜爷",
+    "e6e733c54dfb9128318f4205f62b89855510ea240525c02d386d46741a5edabe": "页:1",
+    "94dae48ef3fefe1ae7c79edae1aa885f4295e9fe2f75af23d2d6741917c6085a": "vLLM v0.33.0 (英语).",
+    "59bf6ed393ea95a62b0d2bcb19369f451c2668274ed38e731825bd6d862ce446": "Anthropic Just Reveal 3新克洛德技能规则",
+    "43889bdfac655be5c83b357375b563cf76f66892c2eea00ba7e58fabdc27bd86": "随着下一代克洛德·AI模型(Haiku 5.5, Sonnet 5.5, 和 Opus 5.5)的发布,Anthropic也更新了最好的. 继续在UX星球上阅读\".",
+    "10dc5be37c1d85fb4abc32c73d6a8151af4482b547b69d94e955561fd6660fb4": "颜色过后但调色板失效",
+    "347d68316c9ddf5a4a27a3569ae7fa27bfae12991139458dc896bbac6c9eee38": "基因AI不同颜色调色板的无障碍挑战.在 UX 集体上继续读取",
+    "7d3049ce91d2badfa59a22d55d32f6bd9bdae6f4a3a6130e60b3b2b25c4db78f": "延宝",
+    "b548cae22aba72eec8e10a5fbf0746aa5ec26cb43d816385aa0a5f676fa3ff56": "如何设计透明的AI成本控制",
+    "6cd03a915ad8c2773c32ebfbcb7444a3bb39c708bf40b1ffe80a61cdf302684c": "一本实用指南,用于选择使用单位,设计支出限额,并解释工前,工中,工后人工智能成本.每一次AI回应都有代价.人们常常只有在极限命中或账单到达时才会发现.快速编辑和长期运行的代理可以在界面中看起来几乎完全相同.一个几秒钟完成。另一个可能读取上百个文件,调用外部工具,并沿途重试步骤.但两者都从同一个按钮开始。同时,AI产品不断改变它们收取的费用:申请、信贷、任务、使用津贴。显示更多技术数字 wo",
+    "dc5a585725bb1664fb5c5a99b8bdc45eca1df3a89f3068eef86f25c24174fee5": "流量 3",
+    "96b83a59fc9591d5712e1bd8f8364dfe00f398d4e7c60c241b9feaefe91beac9": "背景是新接口",
+    "0aa4b6a199a08ab7f98de077cdcfed6a301b10254dc3fc3807f64b876e9ada21": "设计的未来在于产品之间会发生什么 AI代理如何使用屏幕上上下文来帮助系统解释和使用应用能力的概念说明.AI产生了图像,奥雷利·拉多姆.想象一下你收到一个朋友的留言 推荐一家餐厅你想检查它在哪里,看看你是否有空 晚上,回答的时间为你们俩工作。您通过您的信息搜索,打开链接,检查位置,切换日历,返回对话,最后写出您的回复.每一步都很简单,但托吉斯",
+    "161d29db6d177cf58fc1f7179442e7d2f4ac7bb2717c35731fe97e7b8964b821": "你的设计系统从来不是组件",
+    "5be4b9b2ec05514e2379f15d5384f27f0a4d3b845664a87a5f8bc1e9b55bb6ae": "Google、Atlassian和Figma现在为了设计背后的原因运送一个文件。没什么能让机器跟着它在 UX 集体上继续读取",
+    "ef6487c1cf68adfca42b787194af78a0c10590b63968f174dbbf2ff972b3f75a": "萨米亚·哈拉比和阿米加人",
+    "b133e8e31133b957d665b37c527b0c1eb31ec8feee6a04575f3557fcc420d0cf": "摩托罗拉68000的独有特色,",
+    "54959e4707f1f036990ff3b2997e6a06da6a90647719bc95a2dc1c73f82fcfb9": "一个19岁的实习生 是如何在2B的AI公司 赫克托·塞拉诺的背后 制造出成长引擎的",
+    "f3242c3ff978794af594e1122722b5f87b72b4e1bade8ee14f373cd10957c443": "现在(88分钟)赫克托·塞拉诺(Hector Serrano)说,"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -15076,6 +15094,90 @@
       "image": "https://decohack.com/producthunt-daily-2026-10-30/opengraph-image?f8ffb0d666431a57",
       "kind": "原文封面",
       "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-10-30/"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.33.0": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.33.0 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0"
+    },
+    "https://www.ithome.com/1/020/837.htm": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "该标准由 Anthropic 技术负责人 Kevin Kelley 向 IETF 提出，将集成在 robots.txt 中，内容发布方可一次性向多家 AI 企业统一申明内容使用偏好。Anthropic 已率先采纳，OpenAI 计划未来几个月落实，谷歌和微软预计明年支持。#AI数据抓取##robots.txt#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/020/837.htm"
+    },
+    "https://www.qbitai.com/2026/11/507076.html": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "西湖世界模型研究中心成立",
+      "image": "https://i.qbitai.com/wp-content/uploads/replace/6d6f6bea207804cf5f973821284b7ddd-e1709023746356-300x175.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507076.html"
+    },
+    "https://www.v2ex.com/t/1253594": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "独立开发者 👨‍💻 - @febmou - 大家好，最近上线了一个比较小众的 AI 视频生成网站，叫 **Zombie Couple Video AI**，想分享给 V 友们看看，也欢迎大家提提建议。### 这个网站是做什么的？",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1253594"
+    },
+    "https://www.qbitai.com/2026/11/507038.html": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/123b45bfbfd4396348456d031a78ae2c.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507038.html"
+    },
+    "https://w2solo.com/topics/8657": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8657"
+    },
+    "https://www.ithome.com/1/020/809.htm": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "据央视新闻今日报道，中国电子信息产业发展研究院（简称“赛迪研究院”，英文缩写 CCID）昨日发布的《新域新质创新发展十大趋势》显示，我国人工智能推理数据量首次超过训练数据量，标志着我国人工智能从模型训练研发阶段迈入规模化产业应用阶段。#人工智能#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/020/809.htm"
+    },
+    "https://w2solo.com/topics/8656": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8656"
+    },
+    "https://www.qbitai.com/2026/11/507031.html": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "让AI像牛顿一样思考",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-11.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507031.html"
+    },
+    "https://www.qbitai.com/2026/11/506990.html": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "这事还是想得太简单了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/506990.html"
+    },
+    "https://www.qbitai.com/2026/11/506922.html": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "再次“性价比屠夫”",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/4927caf59e024c54d217ebd5860960f4.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/506922.html"
+    },
+    "https://www.qbitai.com/2026/10/506904.html": {
+      "checkedAt": "2026-11-01T16:46:53.398686+00:00",
+      "description": "AI已经自己找到Bug并提交PR",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/10/c34205e157d3908ed8009d855435bdbb.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/10/506904.html"
     }
   }
 }
