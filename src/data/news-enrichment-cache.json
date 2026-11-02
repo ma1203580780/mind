@@ -2973,7 +2973,89 @@
     "662befc2762ad5d8064a2eea3b6ab5dc1b2d2821eee04ecf12ca7bd5de27b2d2": "决定Rank: 决策模式调整的政策扭曲",
     "6274d160600cfc284f3999e94008b3064ba8b9236a248756caaac4d1dacf869f": "决策模型通过直接预测选择或分数来瞄准结构化的任务,避免自动解码延迟.然而,将基因LLM的排名知识转移到一个决定模型仍然具有挑战性:老师通过文件ID序列的排名列表来表达偏好,而学生则使用从第一手位置得到的分数来决定排名.为了弥合这一差距,我们介绍了 \"决定Rank \" ,这是一个通过政策项目空间提炼培训的决定模式。项目空间 OPD通过将文档分数排序为 RA 来构建学生的推出",
     "5a9757e59133f7a171c301672d7b9510ab7327fcd3b1cac29f5fa58ab697eb0d": "ACCT:不对称跨LLM上下文传输",
-    "245dbd0e8f1acaf89c4ca06a3348dd656c1bbd16f378dfbe8183c63c27610df7": "在现实世界的部署中,大型语言模型(LLM)系统正从单一模式的引用日益演变为不同的部署,在这种部署中,不同模式被动态地引用来进行推论。然而,如果在模型中重复使用同一上下文,每个新选择的目标模型通常必须再次处理,一再产生大量的计算费用。因此,我们提议ACCT(对称跨LLM上下文传输),目标是在同一模型家族内不同尺度模型之间的KV缓存传输.ACCT 转换由 a 生成的 KV 缓存"
+    "245dbd0e8f1acaf89c4ca06a3348dd656c1bbd16f378dfbe8183c63c27610df7": "在现实世界的部署中,大型语言模型(LLM)系统正从单一模式的引用日益演变为不同的部署,在这种部署中,不同模式被动态地引用来进行推论。然而,如果在模型中重复使用同一上下文,每个新选择的目标模型通常必须再次处理,一再产生大量的计算费用。因此,我们提议ACCT(对称跨LLM上下文传输),目标是在同一模型家族内不同尺度模型之间的KV缓存传输.ACCT 转换由 a 生成的 KV 缓存",
+    "b03be1ed5209506ede879f6023f69705be46684a8144e787f7acb17f08f78eb4": "朗链-人类: 1.7.9",
+    "106794eb807f0e6da22298d676ecec502a8a8a7ec10c88d41cf1b99e9f3fea46": "langchain-harmic == 1.7.8 发布后的变化(人类):1.7.9 (# 41644) 固定(人类):报告流出的内容-块符号回调(# 41643)",
+    "48807dd03590415f45e2474aebd5b35370fdd6fca7c827108135b52c21ae8f8d": "引入网络保护方案",
+    "3c012ad7b72ebf94df15ae92733908893ed0a685c8d128c3d097df28036b47c7": "OpenAI的电网保护者方案将与公用事业公司合作,帮助未来计算校区支持电网可靠性并保护消费者电费。",
+    "b3a1a0646a98f9424ae93dafdab1c73163a123c06cb59899e9431503e9eec66b": "制度状况",
+    "b0fcedb29b2997173c5aa1e756145a67282e1cfabc98f197d8bdfafda46da829": "近八年前,我开始研究一个设计系统, 几年后我有机会重新审视这个系统。第二轮的推力变得很大 人少得多我终于准备好分享这些经验。我的论文:一个刚性的设计包是一系列设计决定的缓存,容易随着要求不断演变而过时.记录做法和界限给设计者和开发者带来了维持一致性的无能责任。管理LLM技能可以成为不断发展的设计系统的更好基础",
+    "e7ed8a3bd317f1d3f74115e88a4073480422ded56350b98aadd71c13a6aaea4b": "一只果酒的眼同辈一根断了的手指从窗帘下爬来",
+    "868b8148ee415b8bf7cf7442a8e003220327f2fdb75c80e8110dfa4446119957": "日常界面设计中的道德",
+    "8569c03491820b788cd2c82d3a7cdbaff5f811e52e5e4125f5faa928feaa0545": "措辞、等级和摩擦时刻如何支持考虑的行动。亚里士多德雕像由杰里·安德森(Jerry Anderson)出道于犹他州锡达城的南犹他大学百分校.图片来源:南犹他大学.设计者让我很困扰的一件事是,有些人如何轻易地把公开表达道德信念作为合理的道德判断的证据。他们宣布承诺促使他们认为自己是有价值的,自信地谈论负责任的做法,但却没有审查他们自己的偏见或决策中的道德紧张关系。道德信号不能代替",
+    "b70d43ed07c380997d5894a82984a474f80de270bf97bbb5267581a60a0c29de": "长链-核心=1.7.4",
+    "3f5889095978e49ac45d1bc30754dbb75db65056d60faef8bc5abe30bddd5fd9": "警示Python 3.10支持将在Langchain-core 1.8.0和Langchain 1.5.0中投放.目前的小版本是最后一个支持Python 3.10的.请升级为Python 3.11或更后.自langchain-core == 1.7.3 发布(core):1.7.4 (# 41635) 固定(core):避免在Anthropic翻译中更改消息内容(#40213)",
+    "a92b51b90e35213f68f9526e295d2b27cd1b3acb26332cb95d6a2cd789cd9578": "IPZOR 软件",
+    "87db2dd7f2fcb4fb9a763a7418cf3e5c8f8efa29ec234efb299195ef48695e33": "Figma的首相如何每天使用AI?",
+    "d6c606011174cee2a46831f5c5f64137261602270679b3a18e31461ca1d10be2": "PM Ezra Mechaber 演示 PM OS, 60+ PMs 使用的31个技能回放,",
+    "43068e32dc2aaa5b75fd5d367125862716e50b6416fcdc09138a77ea9d0034a2": "鲍里斯·武伊契奇:综合、开放和有复原力:欧洲在分化世界中的长处",
+    "76945091083666d5e32a5dbaaeaa19578f990f46ab6dd8a50a831b52ab5bbf5c": "(原始内容存档于2019-10-03) (中文(简体) ). Langchain-harmic = 1.7.8",
+    "a2e3cf603ec753311f62f06012eaa92cb2a05d68623d714a82f1ab1374e6f2a2": "自langchain-Humanic zince 1.7.7发布(Humanic):1.7.8 (# 41638) 固定(Humanic):从收紧块(# 41637) 固定(Humanic):处理无效缓存-生成令牌计数(# 41553)",
+    "885721d2d56edc383109f6cc0fa3b47503d1de3ef24e89eb605bb0d08a5752ca": "Sparkle 按钮,通过设计实现自主,AI算入UX,Figma与MCP",
+    "55ed08f25da4607a9842d609c8772731fb5924e4ed56816c83663943f8df4420": "每周为设计者——思想家和制造者——提供资源。“打开任何你付费的产品,看看右上角。有闪光。它后面是一个从右边滑入的面板,上面写着“问什么”,并提出你没有要求的三项建议。在下次更新之后,有时还会有一个新名字。少出压力控制着速度什么参与者,怀疑者包括",
+    "706ce7d743a74ff5f618d1dea090fdefc7bb0d6a9ee2675ab6e163f9b4a662d1": "寿命",
+    "49f7187ca5ad341e970e0de5845ed732d89713d6716927456294fec733d4df08": "引入生命之地(LifeVal)是衡量AI如何帮助人们完成日常任务的基准,从寻找儿童保育到管理财务和政府文书.",
+    "bc5ba60fb32ee551243298f4909ad508ddbc9ff67d71804b9a8d5b07f36b1839": "带有分层树纹索引的分层注意",
+    "1b6bc948713d9aa1d8490f194c9e751d6bb36c8e398151d14492081874307f95": "关注的四分法规模是限制大语言模型(LLM)长文能力的根本瓶颈.多种方法试图绕过这一点,但它们要么无法与注意力的表达性相匹配(例如有固定大小状态的滑窗或线性注意力变体),要么只能实现恒因子快取(例如,索引器本身为四分法的稀有注意力方法).在本文中,我们根据一个层次分明,树状的索引器,得出一种不对称的分水层稀有的注意方法,我们称之为Zyphra Hie。",
+    "03cb8a552f36d283c5d8969c8227a8067df7242bfccb44b2fc6ac197b7d33365": "CausalWAM: 学习世界行动模式中的行动原因",
+    "683df7327cea9bf81cdff8a3f0f57d46a2aeeb2ab1cd1111e8bd5fa9fbcebe4e": "世界行动模型从观测中学习潜在变量,并利用这些变量来预测场景的演变并产生行动。预测必须是整个场景,而只有一部分场景引起动作.一般而言,适合示范的WAM不能保证它们只从所证明行动的潜在原因(与行动相关的潜在变量)产生行动,因为模型同样可以学会以这种方式来模仿,同时将与行动相关的潜在变量与烦扰变量结合。我们因此分离",
+    "40e61b60d0e153ec42c64da49b7d9d88012ee669055c0cc0c503c95e96583a22": "RangeSWA:持续传播语言模型的无培训长度外推法",
+    "78129d45561e4f0825bd278417b504f681f78a454735ba37bca1daf6412df671": "持续的传播语言模型在文本生成任务中显示出有希望的潜力,但容易出现文本重复,语义漂移等问题,当生成长度超过训练长度时,生成质量会退化.为了应对这些挑战,我们提议采用无训练长度外推法RangeSWA。该方法结合了本地的滑窗关注,远程块摘要,以及动态内容检索,以保存本地细节并支持远程上下文访问.此外,长度外推引起的生成退化通过下列途径得到缓解:",
+    "81aaeabf86b069d7a315bcbeeace10510fe575ca5dddd9144468e61b2e1bef92": "知识层模型(KLM):可观察的AI输出、定期诊断和负结果",
+    "b2bf6de72c53398a864284ae93d4999b4d8d321ec04c032405b9ab59a5e85d27": "AI的答复要求的不仅仅是明显的正确性:审查人员需要检查其记录的依据.我们引入了知识层模型(KLM),这是一个公开的,执行中立的推断记录的规格,有版本的概论评估,证据关系,以及明确的未知.SEDIM,即Nage AI OS的知识和证据架构,是一个参考执行.我们参考了 KLM v0. 3( 仓库标记 v. 3. 0) 。经验材料由独立的内部实验组成,不是端到端验证.一份历史平台-域路线基准报告 137/150分类",
+    "584f592f1a2c4edb548c7ee811cce58ce9aa415d190e460f7bd9d4d7fd5a2de2": "PersonaChat Bench: 评估带有多元模拟用户的聊天助理",
+    "c3783e3540f61bfb331efa93b49824eac06382acbf8f8e691a984f27febb9bc3": "对话助理可望帮助具有不同背景、喜好和交流风格的人。然而,以单一合作用户为中心的评价,对助理如何可靠地为有不同人格的用户服务提供了有限的见解。我们介绍了PersonaChat Bench,这是一个评估任务能力和满足不同用户需要的框架。PersonaChat Bench为多个模拟用户配对相同的基础任务,每个用户都由一张私人人物卡来指导,其中明确了不同的需要,偏好,以及互动行为.拿着固定的任务",
+    "ad883dd0fc116aeb55fe00830fad698b66e8de023185ba14f41ea70fb2da0eb8": "CROS:因果奖励Scrambled CoTs 提高准确性和理性信念",
+    "e83e90d7c6ba3dee9f2a88e1b4020c1e7c33dc9d9cee7ae74cd5f3247e65407b": "具有可核查奖励的强化学习(RLVR)已成为培训语言模型讲道理的标准方法.然而,RLVR一般只依靠结果正确性,这并不能保证CoT对最终答案有因果关系.没有这种联系,结果奖励可能无法加强高质量的推理。现有的因果关系衡量标准通过扰动CoT来评估CoT因果关系,例如删除推理步骤或注射错误,并测量最终答案的变化.然而,这些干扰必然会改变每个步骤的信息。康塞克",
+    "4223a4adc1be313d4c5b207a3c4d507714799e5433474bf161e2b0b68a5abd18": "个人平滑度下的近奥平稳二等管风琴",
+    "b5e385c2641fe6cb73577dfd44e1d1ad0bd2bad7af6e027ed9656c6939ead857": "我们研究用$元组件解决平滑对流的有限和最优化的斯通克式二阶甲骨文的复杂性。最近,Tsedenov QQ Kovalev (2026) 显示,平均平滑度和凸起度下最小最大最复杂度是$\\tilde\\ Theta}(n + n^{6/7}\\epsilon%-2/7})$,通过建立接近相匹配的上下界限。在本文中,我们显示,个人平滑和对流可以证明能够进一步加速,在这种更强的假设下,较低的复杂性约束在$\\Omega(n+n+^{5/7}\\epsilon ^{-2/7})$.然后,通过建立小说第二o",
+    "bd938f735d063c8cf0de6d158b180ddad75db8b41d5f3b32cb939d5d6495feb9": "相同的问题,不同的答案:关于吸烟-戒烟咨询的6个法学硕士课程中的审计人-依赖性差异",
+    "4efc42c3c58eb6bd5650f6e669d98d675a063ef7cd4b680e1fe678f39b71c7bf": "数以亿计的人现在要求大型语言模型(LLM)聊天员提供健康建议,这就提出了一个简单且难以回答的问题:每个人都得到同样的建议吗?我们审计了来自4个供应商的6个广泛部署的关于戒烟的LLMs,这个领域有成文的clini-cal指导和大量的公共卫生利害关系,将同样的4个戒烟问题提交给了12个用户,这12个用户在生活阶段、自我描述的专业知识和吸烟历史方面各不相同,共计2 880个答复。模特儿们说的 要看是谁在问每个模特南",
+    "e65cc1a9e8a8b76c43bab5f8d06e3748ef79e2df6ecf3eb1c68ef0f96cd073f2": "从噪音计量中学习清洁基因过程",
+    "b3c40877c28f72ac041492c46448138d382034b59d4b1d84bf0f42e76e08c795": "我们研究如何只用吵闹的观察 来学习清洁图像的基因模型。扩散过程及其通向非高斯语噪声的过程,需要在每个噪声级别进行后期预测.我们首先表明,可以使用噪声回归法从独立的噪音观点中学习这些预测,但只能在培训数据噪声水平或以上。为了了解低于这一水平的预测,即生成清洁图像所需的预测,我们强制要求一致性:在继续进行取样过程之后,预测应等于其期望值。我们得到的条件是:",
+    "430cddca4401fbf9521c73ae7b04469ed643d7d1dd1ff7ab2c7f7c123344ca52": "没有自由循环:何时循环一个经过训练的模型的推论计算?",
+    "59e27dca5f41e1725ff1d7a6f24c1100ad04dbb3c251b1e4047b84c89fb0bd07": "循环重新应用了一块地层,这样每个地标都会不止一次地穿过地块.在训练有素的模型上添加回路是具有吸引力的,因为它留下了参数的计数,因此磁盘大小,内存足迹和训练成本不变.不幸的是,每个生成的代币都为循环支付费用。重新应用m的N层使每个符号(N+m)/N相差相差相差相差相多.一个模型在大规模预训中学习的循环证明这一价格是合理的,但预训后增加的循环是否证明这一成本是合理的,仍然不清楚.我们比较一个循环模型 和两个简单的基线",
+    "8ce793696fef31726149d53de78dda4d09a2da650fc160991b18a43953dcc881": "当方程式错误时知道:LLM-外推法下所引导的符号回归的结构不确定性",
+    "cc5c7d0576642d882b5f5cfa84a78351b5fc9b779b307e64982017e6844a2d09": "大语言模型(LLMs)可以帮助从数据中发现数学等式,但大多数LLM制导的符号回归方法侧重于单一的最佳等式,而不会量化替代功能形式上的不确定性.这具有挑战性,因为不同的等式可以类似地适应观测到的数据,同时产生大相径庭的外推法。我们有关LLM-SR Bench数据集的实验表明,标准向间距实现了名义的分布覆盖,但在外推法下经常失败.为了应对这一挑战,我们引入了LLM-SR-UQ,这个框架重新确定了",
+    "16c95678e570e6573a22e6ceee2b874b83d8e32c79c5f20156f9c8a78acb3c50": "同步流图语言模型",
+    "00f0045948a8237426421100896d40641e50a3bad1ff6dbc8d82b7c7b4086fca": "在语言建模中预言符的顺序对生成序列的质量有着深远的影响.自动后退和被蒙蔽的传播模型迭代地填充了符号并可以利用这种订单跨出生成步骤,但如何为单步平行语言模型利用订单尚不清楚.我们引入了同步流图语言模型(aFMLMs),通过学习同步流的流图,将预测顺序纳入一阶模型.这些流通过一个按正则的时序指定一个命令,控制相对的去诺伊西",
+    "4fe6734ff57c2f43a321a2a09b64873cd2806793573a3b6415056a248b0859ca": "Turk-GPT:土耳其语基于文本的取回预设",
+    "cdb8d2c42861496cc33857363a3d223ce9759ca75ba7d2a37e02da1a4f6cb502": "贸易战争:与适应性LLM代理商全面开展贸易谈判的基准",
+    "06bc05bc77c457fa81264c9f64311365ddea54ffe24a48db797fe0de0fbe7205": "对大型语言模型(LLM)代理商来说,多回合谈判仍然是一个具有挑战性的问题.虽然有限责任公司可以进行自然语言对话,但现有基准主要只评估协议率,忽略了谈判承诺一旦执行是否真正产生价值。为了弥补这一差距,我们采用了贸易战争这一多国模拟基准,将谈判对话转化为具体的关税和贸易分享政策,在解决期间加强能力和网络限制,并通过经济健康指数评估结果。为了解决这个处决问题",
+    "0ead91c21bcde171a55b179c0b0771e683ea29b527e122c15eed135d59e01116": "AutoAnalysis:人类-AI协作的自动自更新元分析",
+    "86856441706396b4227aa5e202c8c9eb5c4d4ac89f3acf84a6055bb6c32cfee6": "随着基因人工智能(AI)能力增强并被广泛使用,了解人类何时以及如何与这些系统合作变得越来越重要.然而,这一空间的经验证据提供了相互矛盾的建议,使个人和组织在何时将人的能力和人工智能结合起来方面没有明确的指导。现有的元分析可以帮助调和这些调查结果,但它们需要大量人工努力,不能随即纳入新的证据。为了应对这一挑战,我们引入了“自动分析:一个自动体”",
+    "07f9d95ba9a227c710f26cba02c3d6e027293663aacd35f23f8a0b245648a623": "减少损失, 固定重量: 忘却的逻辑更正",
+    "acd6530d143c988033e245e246e2ab38d0e2f6082c7562995ec4a2c03839e9f5": "当一个语言模型被微调以遵循指令,或者在新主题上进一步预训时,在预测标准网络文本时往往会变得更糟.这被称为“忘记 ” 。我们问,通过对模型最后符号预测的简单、 固定的调整, 能否消除这一损失 。从1B到7B参数的14对基本模型和衍生模型中,我们为每个符号(词汇偏差)单独或与温度一起安装了固定的奖金或惩罚.关于校正装置的文本,最大的前4K偏差回收估计不到10%,损失的条件是:",
+    "b63a3c8cafc21985c06a7d19bd6802f7ad6e77e77851f832fa49d0a78be32176": "SecPO:快速注射安全的原则性横向培训",
+    "7174bd3de98d7b05bb61b21936467b1115d6ba51c8e6238e53e011e4fd5c3a31": "被确认为AI代理的顶级威胁,即时注射可以让来自不信任的数据(电子邮件,文档,网站)的指示来操纵代理的操作.现有的最有防御力的LLM(Meta-SecAlign)接受了DPO损失的培训,但仍受到攻击成功率接近100%的适应性即时注射的影响。其中一个原因是DPO将模型定位在无防守的参考模型上,这不安全.我们显示一个理想化的参考模型 - - - 注射- 不稳定性, 保留效用的甲骨文 - - 仍然可以被近似化,因为它的输出分布在trai",
+    "7fa244d2f48c4d0478cebd88442a0b99ef5386643b3884cec25953e10cf5f658": "DAMI: Gated Linear 中增强长线检索的双轴内存初始化",
+    "7ee9364472b138f40f62c2ce24984c7b5ab6e2459bdeed4b800acc4a731e997d": "线性注意力以序列长度线性地缩放,但其有限度的状态内存可以限制长相文字检索.在入门线性复发中,内存保留取决于状态衰变,状态衰变由出门参数A_log和dt_bias以及输入活化共同塑造.在受控制的Gated DeltaNet(GDN)实验中,这两个参数在训练后仍然与其初始值高度相联,突出了初始化的重要性.因此,我们引入了双轴内存初始化(DAMI),在培训前共同配置这些参数.DAMI 指派几何 ti",
+    "dbe7b5c03318af64c05133ac41949f241bdab973224cd696449e667e961b1119": "ID2Patter:交易风险基础模型的预训通用身份行为模式",
+    "9e49dd7fe7f15f0e84f437bef399bc3fe68e169bea27b67c7ed93568466d7671": "大规模行为预训为在线支付系统中的通俗表述提供了一个有希望的途径.然而,卡片、装置和账户ID等高心率身份域虽然具有丰富的行为信号,但仍未得到充分开发。他们不断增长的词汇和有限的语义意义使得现有的词汇和语义编码不合适.它们的通俗信号不在于具体值,而在于它们跨越交易序列所展现的身份行为模式.基于这一见解,我们提出ID2Pattern,一个预训",
+    "abf5d887541166086b5fe52ebf13655d96f815416416874f4e328be3c6d51fdb": "测试时间搜索何时帮助世界行动模式?.候选人甄选和模拟人廉正经验审计",
+    "c88cc8b733b885159d34ffd9cbc295eab259258c3f0566a78ad15856b2d09492": "世界行动模型越来越多地采用测试时间缩放,在候选人选择和适应性分配方面花费额外推论计算,以改进控制。只有在候选人发出可开发的信号、名义计算节省成为实际加速、评价可靠的情况下,这种收益才可信。我们用预先登记的前提方法对宇宙政策和机器人卡萨进行所有三项审计。在干净的数据上,一个学习过的数值选择器比随机值差1.66 pp;后视预告器只获得1.40 pp,插曲级别间隔为0;82%的州显示相同的罐子",
+    "f70396723fdc3961f97b94c828089a5a81afc02bf21374dbdbfaf5b7f921744a": "Prune 渐渐地, 适应 Sparsely:在极平地高效地运行大语言模型",
+    "d2f9e227c66b97a1e2718c438711f024abdf12290382ee1fdeecf04c37ba23a7": "重推可以降低大型语言模型(LLMs)的存储和推断成本,但保持高伸缩水平的质量仍然具有挑战性.在这一制度中,现有方法面临质量成本取舍。一发一发是廉价的,但随着斯帕氏度的增大而急剧地退化,即使随后是后发一发再发回.不断增长的工作线相反地在端到端目标下直接从密集模型中优化了口罩;在这些方法中,[Lee等,2026],在极端斯帕克特的最近最先进的工艺状态下,达到了高品质,但以模型大小的优化者S为代价.",
+    "521a4effdcc5aeedffb4ea4b9500b8ca5acc8fdd9e95d0a8dd30be83759e58bb": "Chronos-2:多变时间序列预测的基础模型",
+    "96128a2edfa08fcbba18c56169aad70ce74c0dc2b62f7c017433ef0e8265782e": "精确预测和不确定性量化对于从流行病学和经济学到能源系统和地球科学等各种科学应用至关重要。然而,大多数预测模型仍需要为每个特定域的数据集单独开发和培训。时间序列基础模型(TSFMs)旨在消除这一限制,并能够通过大规模预训在各个领域应用同样的模型.然而,大多数现有的TSFMs是独立处理每个时间序列的,因此无法模拟时间序列和外部驱动器之间的互动",
+    "55460bbb632a6d65f4eb3c4388216f664bd642b37a820f379a06af1cf1493748": "将 MLLMs 与通过行为- 演示语义维度的 人类认知的后期结构相匹配",
+    "100d9c03ff283ab7e53902255e68fc49a51354e4c832c3f8f5022d1a6d0ff4b1": "多式联运大语言模型在一系列广泛的推理任务中取得了令人印象深刻的业绩,但是,其内部表述和决定标准是否与人类认知的潜在结构相符合仍然不清楚。在这项工作中,我们提出了一个新颖的框架,使 MLLMs 与人类相似性判断背后的多层面心理表现相一致。我们基于一个以前已经确立的行为衍生语义嵌入空间,其中物体在66个可解释的维度上被代表,这些维度来自470万个人类奇异一出(O1O)ju.",
+    "4de38c183e1d39bdd673ae29c263ab7896d5195cfb05788ff88c8818badae243": "优化 \" 少步流动强化学习 \" 的政策几何",
+    "ed260586cc8f9a6ed5ac73e59b063d2597556cadf84d4374a624c4a69b89de02": "很少步流模型通过少数大的去诺化过渡生成样品.将GRPO应用到这种模型中,需要在去诺氏的过渡中引入有色相,当一个单一的过渡跨越了广泛的噪声水平时,所形成的有色相政策的选择会成为优化的主要因素.近期的建构制约了保有目标流量系数的政策,但这一制约接纳了一行一行的政策,没有为其中的选择提供标准.我们引入了Geo-FSRL(几何-平面化的微分强化学习),其基础是",
+    "3eef2ec382a7d7e09aa8323857c53f4abe85dc3d30c039731d893e72add4b7d2": "感官:用于健美外科AI的开源多式数据收集和校正库",
+    "938e4284241053f971095c74aed3f3edf64ae9d11c928eb6b109ceadf6c29091": "健壮的外科AI需要可靠的多模式数据,而外科数据的收集仍然昂贵,难以重复,并且严重依赖硬件设置.我们介绍Sensorium,这是一个开源的Python库,用于记录、处理、注释和整理来自可配置机器人和传感器流的多模式外科数据,使用机器人操作系统和ROS2中间软件。该库结合了操作员-提供数据采集,可配置的处理,语义注释,和偶发数据集生成.我们在1516年的 幻影、前活物的录音中 评估感官",
+    "1dff599d1292206c93ac49290a4a274adf0f3d00dd7de6dfcbe3ae8d64ac251f": "科学AI的可观察-特定有效性测试:受控近似和干预反应",
+    "6f6fab0af290c07c8ecfb7b622861cd158854d418d7c29b8d64b1136da8c7fee": "近似可以复制一个能量而同时缺少其响应,或者满足一个错误的容受度而无需被给定的束缚验证.我们为科学人工智能(AI)制定可观测到的、具体的有效性记录,将减少与参考模型、误差计量、可容忍性、参数域以及转换或干预联系起来。明确迁移和单一扰动振荡器的速度证书可收回不同的趋同令并提供充分的有效性保障。精确的 Hubbard dimer 关系解决不同的耦合域 ac",
+    "d80c6647fd97e7ec1e2574f901e43eb24849ffb936b86b4c5076399a45372d67": "优化模型的智能技能检索和仲裁",
+    "851d1132c6caab090828342dd8f7c2e4cf46aa0a2c130c7a24f3ccca85e66c6e": "大语言模型(LLMs)可以将自然语言优化任务转化为解析器检查的答案,但当前代理在叙事重写下仍然保持脆性并经常存储实例层面的可重复使用的经验.我们引入了\\textsc{Archor},这是一个基于\\textsc{OptSkills}的以原型为中心的技能代理,它增加了两个以检索为重点的模块。\\emph{ Centroid-Aware Presentation Learning} (CARL)通过低等原型机残存来完善缓存技能表示的顺序.\\emph{ signature- Guided Retrieval} (S\\text上标{3}R) 附加了开维结构 s",
+    "316be3a15c3bfd99948650696a26c8c1b1a4649ccc0a958c368e83b3e8506ba8": "LLM 代理中多工具请求检索结构的完整性和成本",
+    "52a9ea83ab00febc675da956530d7bdd53e3660d7e33469976b9a76d2b087a72": "当工具检索器省略了其中任何一个时,一个必须调用多个工具才能实现请求的代理失败,然而工具检索器大多是在需要单个工具的查询上构建和评价的.我们比较了两个多工具测试床的六个检索结构(平面词典和密集检索、LLM查询分解、LLM导航分级、服务器当时的工具匹配、依赖性图表和训练有素的套级检索器)的代表:345个AppWorld查询和专家依赖性标签,以及超过257个MCP工具的103个MCP-Bench任务。我们测量完整性@k,查询中谁的份额",
+    "19c3945eb74b7104a4a1eba1e860856f4d7777e6e3e08cb0615a3df90e31f1b0": "ReX- GG:一个LLM 集成管道,用于关系-取出和图形生成",
+    "ad1f5f1203fad2e87749523f7b6c963ef92307f7b22487bcb5434619e022b8f5": "目前LLM综艺框架侧重于多步设置,附加模块用于答题排名,往往选择标语和跨度分析而不是结构化产出,导致沿管线有潜在故障状态的重量级架构.更快、更轻的解决方案更容易受幻觉传播的影响,在更复杂的管道中可能缺乏产出控制。本文提出一个可定制,轻量级的协同大语言模型组合工作流程,利用JSON结构化产出和匿名同行评审排名来缓解幻觉输出.",
+    "0e3c0a8685715433f361bbf798474dc3637f1dcde92ace22ecf074703f340296": "利用机器学习,通过学习者在技术强化学习中的相互作用,衡量自我效能信仰",
+    "06dd460a9af2e51721d7a83f71b53a8dad4828d1d35490cdbf58443dc7d97e54": "自我效能信仰在学习者的表现,学术选择,更广义地说,在未来的职业轨迹中起着关键作用.由于技术强化学习(TEL)环境已显示出支持业绩和激励的强大潜力,在这种环境中调查自我效能尤其令人感兴趣,特别是为了尽早实施补救做法以支持学习者的自我效能信念。我们的研究旨在开发一个系统 能够检测低自效基于学习者的互动痕迹他们解决",
+    "ad461607c31f0ac3f5a486ff6faacb587b2b4e1af5cd5f73a8f5ac3249aa7a99": "Qodo用 Codex 将上下文构建为 AI 代码审查",
+    "8b23a284e91b9079898758fbcfb5d2e04374ec039c63f35c65b82f353e4d257f": "Qodo将公司知识和编码标准带入了Codex,帮助开发者在打开拉出请求之前在寄存器之间捕获P0问题."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -15522,6 +15604,296 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-1.jpg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/507082.html"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.9": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.9"
+    },
+    "https://openai.com/index/grid-protectors-program": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://w2solo.com/topics/8667": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8667"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.8"
+    },
+    "https://w2solo.com/topics/8666": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8666"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.4"
+    },
+    "https://www.qbitai.com/2026/11/507277.html": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "商汤SenseNova 6.8 Flash",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/964e219a62594d8b8c561a28d6abee22.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507277.html"
+    },
+    "https://w2solo.com/topics/8665": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8665"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp.261102~70003226e9.en.html"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.8": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.8"
+    },
+    "https://www.ithome.com/1/021/268.htm": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "双方将以此搭建合作框架，共同探索与开发面向出行领域及跨行业场景的下一代高性能 AI 计算平台。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/021/268.htm"
+    },
+    "https://solo.xin/topic/6144": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "大家好，我是 pydaxing，最近在做自己的产品，来 Solo 认识一些也在认真折腾东西的朋友。 先介绍一下我正在做的「食愿小灶」。这是一款已经上线的微信小程序，想解决的事很日常：两个人也好，一家人也好，每天总要问一遍“今天吃什么”，最后想菜单、买菜、做饭这些事，往往还是落在同一个人身上。 我想让想吃的人也参与进来…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6144"
+    },
+    "https://openai.com/index/lifeval": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://arxiv.org/abs/2610.42112": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42112v1/hatt-latency-constant-linear.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42112"
+    },
+    "https://arxiv.org/abs/2610.42096": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42096v1/fig_robocasa_libero_real_radar_v110.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42096"
+    },
+    "https://arxiv.org/abs/2610.42084": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.42084"
+    },
+    "https://arxiv.org/abs/2610.42066": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.42060": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42060v1/evaluation_design.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42060"
+    },
+    "https://arxiv.org/abs/2610.42054": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42054v1/intro_main.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42054"
+    },
+    "https://arxiv.org/abs/2610.42040": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.42040"
+    },
+    "https://arxiv.org/abs/2610.42039": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42039v1/figures/gpt55_facts_baseline.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42039"
+    },
+    "https://arxiv.org/abs/2610.42036": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42036v1/convpc_conditional_continuation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42036"
+    },
+    "https://arxiv.org/abs/2610.42030": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42030v1/figures/fig_sweep.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42030"
+    },
+    "https://arxiv.org/abs/2610.42024": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.42024"
+    },
+    "https://arxiv.org/abs/2610.42018": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.42018"
+    },
+    "https://arxiv.org/abs/2610.42010": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.42010"
+    },
+    "https://arxiv.org/abs/2610.42004": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42004v1/figure_1-2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42004"
+    },
+    "https://arxiv.org/abs/2610.42001": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42001v1/figures/human_ai_publications_2000_2026.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42001"
+    },
+    "https://arxiv.org/abs/2610.42000": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.42000"
+    },
+    "https://arxiv.org/abs/2610.41998": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41998"
+    },
+    "https://arxiv.org/abs/2610.41994": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41994"
+    },
+    "https://arxiv.org/abs/2610.41988": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41988v1/fig_intro.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41988"
+    },
+    "https://arxiv.org/abs/2610.41970": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41970v1/fig_teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41970"
+    },
+    "https://arxiv.org/abs/2610.41968": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41968"
+    },
+    "https://arxiv.org/abs/2610.41956": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41956"
+    },
+    "https://arxiv.org/abs/2610.41951": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41951v1/figures/dim-attr.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41951"
+    },
+    "https://arxiv.org/abs/2610.41949": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41949v1/exp1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41949"
+    },
+    "https://arxiv.org/abs/2610.41946": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41946v1/figure1_sensorium_mosaic.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41946"
+    },
+    "https://arxiv.org/abs/2610.41939": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2610.41909": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41909v1/framework.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41909"
+    },
+    "https://arxiv.org/abs/2610.41905": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41905"
+    },
+    "https://arxiv.org/abs/2610.41901": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41901v1/pipeline-long.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41901"
+    },
+    "https://arxiv.org/abs/2610.41900": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://openai.com/index/qodo-codex-plugin": {
+      "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
