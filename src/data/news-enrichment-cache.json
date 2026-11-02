@@ -2913,7 +2913,67 @@
     "ef6487c1cf68adfca42b787194af78a0c10590b63968f174dbbf2ff972b3f75a": "萨米亚·哈拉比和阿米加人",
     "b133e8e31133b957d665b37c527b0c1eb31ec8feee6a04575f3557fcc420d0cf": "摩托罗拉68000的独有特色,",
     "54959e4707f1f036990ff3b2997e6a06da6a90647719bc95a2dc1c73f82fcfb9": "一个19岁的实习生 是如何在2B的AI公司 赫克托·塞拉诺的背后 制造出成长引擎的",
-    "f3242c3ff978794af594e1122722b5f87b72b4e1bade8ee14f373cd10957c443": "现在(88分钟)赫克托·塞拉诺(Hector Serrano)说,"
+    "f3242c3ff978794af594e1122722b5f87b72b4e1bade8ee14f373cd10957c443": "现在(88分钟)赫克托·塞拉诺(Hector Serrano)说,",
+    "395afd6f952c87e13022d9f648315160ce93a5e840a1e44e326159d515ea639b": "有效的 GMM 推论与非参数化生成的磁盘类型",
+    "4c744103e01ab315e27ce12e9e29bcff7e7c671e8210a663fc2bc25ec6d5f701": "最近机器学习和分类方法的进步使研究人员能够预测在标准数据集中没有观察到的经济离散属性.这些因素包括人口统计缺失,如种族和贫穷状况,以及经济类别,如创新企业、都市地区、职业群体、二进制待遇状况和反事实状况。虽然插件程序在经验应用中被广泛使用,但非参数化的第一阶段估计恢复标签会因其缓慢的趋同率而引入正规化偏差.东",
+    "13d66e06988174ab34997eddb31ac5ca4c1ed68fbf24a412f1bbb7d5a7019110": "精确度- 烟雾度边疆上的零跨度: Maximal Monoone 和 最小的 喷雾非定点预测器",
+    "b6f8bbf4ffe89236b331054923c0672195a6630869786bcc04227ec6cbfc01ce": "平滑符号精确度(SSA)框架通过平衡平均平方误差(MSE)与符号变化频率,解决了静止预测器的平滑-精确度难题.我们把它归纳为非固定综合过程(I-SSA),得出MSE-最佳预测器,但受转折点(I(1))或折射点(I(2))之间预期时间的限制。由此产生的最大-摩诺酮和最小-闪烁预测器、滤波器和平滑器按照新的高效精确-流线边界定制经典基准。跟踪身份(原始数据)",
+    "e8f07ba5e3f89a6fd05c17e790962bc93f9325bcdc3ab2d6566e46d57020bcbb": "评估产假改革情况",
+    "27dc229bd9a54a4778f709713ff25c9d6cf1e9cb93fc948891338b338943a0a4": "这份文件记录了联合王国2000年代产妇工资的增长,提高了儿童测试分数,同时减少了产妇就业。仅仅扩大工作保护就会产生类似的就业影响,但对儿童没有明显的影响。由于现有数据只能不完美地反映资格,因此这些影响都无法通过常规回归不连续(RD)设计加以恢复。我们解释为什么对RD中的测量错误的现有更正不十分合适,并提出一个简单的基于估算的解决方案。这种方法保留了RD的主要优势,非parametri",
+    "280eef1b6f8c1dfc70a09e7924ceeafc051c366bc34666335ae4da809ca4cd8d": "与回归残余物的识别",
+    "e446332789a3d6e7636d5088153890bca3aa4782ed6f71064b600f29609e57e0": "后退残留是预测错误,而不是观察错误.本文描述的是剩余部分对误差的识别。残余通过已知的线性图在共变上发生作用,在无限制的共变模型下,它破坏的方向正是退变器的柱空间所产生的方向.线性共变函数如果并且只有当它不装入这些丢失的方向时才会被识别出来,并限制共变模型,例如对角或集群形式,缩小它们.中心结果将预测o",
+    "7dc1feb9231440107228e90029daa8b3a731263d323bab80574170ec147cfbbd": "在一个一体化的全球氢市场,为什么交付的成本低报价格",
+    "e0ad138620c973aa838845e29ad7cdfb59f3f62864d6c49c8c4173b396c554b9": "交付成本估算常被用作氢进口价格的代用.然而,它们衡量的是平均供应链成本,而边际价格衡量的是额外单位的系统价值。市场互动可能使两种不同,可能偏向长期价格假设。我们使用81个区域的全球氢市场模式量化这一差距,比较每个区域的成本和价格,只要其需求是活跃的,而且所有区域的需求都是活跃的。在78个地区,2045年的价格-成本差距是正数,按需求加权计算,平均63欧元/兆瓦(占单一买方成本的52%)",
+    "e34cb06339ec4fc6ceb23ed7a331a40c9f7229d5f2c2e7c209171a38a75b3ea5": "xtlp: 用于面板局部投影的新 Stata 命令",
+    "8ca5bb3a209697abebdc4e2d403edeb0d8df6fb882eb6eb0669cffb0a525c4a7": "具有固定效应(FEs)的小组局部预测(LP)被广泛用于评价各国或各区域经济冲击的动态影响。然而,对面板LP模型的FE估计受到由LP规格的预测结构引起的Nickell偏差的影响,即使落后的依赖变量没有包括在递减器中.这种偏差使基于传统t统计学的标准推论无效.我们引入了 xtlp,一个新的 Stata 命令,它执行面板 LP , 并带有分板- 夹刀( SPJ) 偏差校正 。它消除了Nickell的偏差,还原了Vali",
+    "04d728362690ed0470729cc29d67d94ede65b4c3343394d139ba315432401a0e": "通过Heteroskeddity在One Lemma中的识别:部分识别,一种Eigenvalual 建筑,以及对排名测试的注意",
+    "6eb4ade0b1cf9495d5ffa8433ded1fa5604ae3e99c69de91e9c3cc8b10d87ae2": "这种教义说明统一了已知的通过异质性、波动性制度、GARCH、挥发性波动和共变性驱动差异来识别的结果,在一个有短线性代数证明的lemma中。如果并且只有在没有其他震荡与其不同的路径相同的情况下,才能识别出震荡并贴上标签,而同一路径的震荡被识别到旋转为止。结构系数矩阵的行解决了一个通用的eigenvalue问题,它窝着里戈本(2003年)的双规解.在错误的第二时刻进行排名测试, 最多计算线性独立",
+    "6bb36b2362b69c691add6ba4f788ced63397bbbac1474ef7e74b2122bcd3a339": "双对角估计器:减少双边市场实验中的比斯",
+    "7423826d92d809a438e2d7c8593328e53faa2df7de7b193d8ec3260fefbad951": "双面市场试验参与者之间的干扰可能严重偏向常规A/B试验。虽然双面随机化(TSR)使供需都随机化,使估算者能够减轻这种偏差,但现有的分析却提供了有限的指导,说明哪些估算者倾向于实际中常见的平衡市场条件,因为这些分析主要侧重于极端供需限制的制度。我们引入了双对角(DD)估计器,这是一种新的干扰-硬性处理效应估计方法。DD估计器对比了治疗的结果",
+    "c2e556aefeb3b769333ab37fb0491aab06726e6fd1f3fa398bfc0e9b64a9db1f": "执行平均保值合同的决定因素",
+    "f1d913a7a9c7c7d74b1880615eea2609b9712c3ec3dbc83a4013eeb543a3c842": "我们研究是否需要随机化来生成一个一维态的后方手段的指定分布.利用落后的蒙哥马丁格尔运输,我们显示,在有限的第一时间之前,一个无原子的每一次平均保全收缩都承认有决定性的执行。因此,只要目标和限制只取决于事后的分布,限制对确定信号的注意就会使设计者的价值保持不变。我们按不分开的间隔将执行分成独立的问题,并描述一种建设性的",
+    "9863c38db8f920fb0d462193c55992a368acbad2651b465f1a2bd1b6dea387f4": "发行量",
+    "8705353e05cb065466d2ce60882e607620a502f7127657f32a0375999b754025": "我们采用演化式的skew-$t$(CST)分布法,它通过一般的装载矩阵将独立的标准化skew-$t$的下置器结合起来,以适应不同的尾巴,方向不对称,以及非椭圆依赖.我们利用分析分数和一维减少费舍尔信息,确定识别和推论可能性。对于有限度的变异模式,我们证明最大可能性的一致性和不对称性,并描述强加虚假对称性的后果。原始代表将家庭扩展到所有正值",
+    "9fc7a0d6fb835f16a7e7ab4cfe18b90056b537607f9b77f1efd7a406f350e645": "不完整电力市场的最佳气候政策",
+    "771634972b766188e2c048dc75864e9f39ee41d6654f9f4650151ff5ce1b8185": "电力市场不完全的长期承包可能使投资者和消费者面临低效的风险。本文件调查了不完全如何影响气候政策的最佳选择。我们开发了最佳决策的游戏理论模式,以预见当天然气价格和需求不确定,而且合同不完全时,电力市场代理人如何对某项政策作出反应。在说明性实验中,我们发现,当市场不完全时,可再生补贴和碳价格会带来保险的共同效益。这是因为,相对于一个完整的妈妈",
+    "1483b0929b1da3eb576b80adc954489c06a745161e8ac63958a1262680925372": "组合设计中的薄弱识别:罕见事件和反事实不确定性",
+    "55ae83f041c49445524fa9f9ff89a8bd6cb499c8b95453c682e42313d284dcc1": "当反事实密度为本地H\\\" 且可能伴有已知背景原子时,我们研究收缩的税基。小规模的政策激励措施造成了两个截然不同的障碍:行为集中者很少,迁移间隔时间不远。对于观测到的完全分布,我们为弹性估计和诚实的置信度设定直径设定匹配的最小范围。以 $d 大小、背景质量 $\\gamma 元和 平滑度 $0s\\leq1 元计算,利率为 $\\ min% 1,\\sqrt{(\\gamma+d)/(nd^2)}\\ d^s $。分层组件在",
+    "356149b63e127cff65152ffb53a3735f5a403c9b0451f6fc4abcaf69e81260c5": "协调培训",
+    "a33537e7f41ea6d434ccbd468619e9070ac6d51647a2ebc301915c3f16842a28": "我们提出一个简单的模式 训练一个有内在偏见的特工校长选择在哪个州培训代理人,在这些州规定采取什么行动。作为回应,特工更新了他们的偏见,然后考虑到他们在未经训练的州中的新偏见,最佳地采取行动,同时在训练有素的州中完成训练.代理人选择新的偏差,以尽量减少在初始和最终偏差下损失的加权平均值.因此,培训可以通过代理人的偏见更新,向未受过培训的国家推广。我们描述最佳训练, 包括\\ emph{过度校正}",
+    "470d506383a280ac0e34862f8d995db4bc63b9283a0e48cabe3b30fca3fdf00d": "双层嵌入式逻辑的序列基金会",
+    "54dbb85289fa51a52c764cf74adfb52b68804772802bd58270d30aad62f1d1d5": "我显示,双层嵌入式对数模型完全来自一个顺序选择的过程,在这个过程中,群,分组,和产品冲击分几个阶段出现.结果延伸至任何水平,并维持在1以下的任何筑巢参数,没有任意效用最大化所需的界限和命令。参数估计,因违反标准命令或下限而应用的工作抛弃物与顺序选择一致。线性反转和福利公式维持。当标准订购失败时,改进一种产品可以提高竞争对手的市场",
+    "b4a06365fc74180dc3aa162ca8a0df18b86462f582f83465433bc632a33ed73b": "Beyond Pretrends:基于差异的差别敏感性分析",
+    "0c9167cc3e63237d1e67c0c92dc14b58786f6f84e91c5d6ce42fedea44c6d617": "在犬目差异(cononical Diffections)设计中,控制组的处理后变化作为同一时期被处理组反事实变化的推算,这种推算以平行趋势为理由.然而,群体构成的差异可以造成群体间在结果如何随时间演变方面的差异,使这种估算容易被混淆。另一种估算法 -- --如基于被处理群体预处理变化的估算法 -- -- 避免了这种组别之间的混淆,但引入了组内时间什的混淆风险。",
+    "280e845fe389a49844ad88874415df595b8f773efd465491e73505b63a41dc53": "测深误差下估计网络溢流器",
+    "1dee334d5a868c0e5c6138ac045a1fb048ad37dd3162b8afe89731e8feebca8c": "本文分析了附近(adjacency)矩阵因报告、汇总或披露不完善的计量错误而受到污染时,空间(网络)模型的溢出效应,导致对网络效应的估算不一致。我们为潜在的网络引入了一个规范化框架,允许分散和(或)低级结构,并顾及测量错误与结果之间的潜在关联。我们提出两个估计数字:(一) 分两个阶段的程序,首先将接合矩阵去除,然后将纯化的网络纳入退步。",
+    "647149d1330599a9cdaf9fd9bc191ffa55e82695bb1fc75d2e8f1a5a7e2492fa": "扩大复杂系统的因果关系调解:根源分析框架",
+    "5ee71e0dd14db440ec6795338d32e860e9f5757b898574c2101102e53103b07d": "现代的操作系统从物流和云基础设施到工业IOT,都由复杂,相互依存的流程管理.要了解如何通过这些系统传播干预措施,就必须采用超出直接效果的因果推论方法,以量化调解途径。传统的调解分析虽然在简单的环境下是有效的,但未能扩大到实践中遇到的高维定向循环图(DAG),特别是在多种治疗和调解者相互作用时。在本文中,我们建议制定一个可扩展的调解分析框架。",
+    "0af90466fec65b59f59ca36dd45cfe7bd868989c20f119e7cfddef91752a6c19": "使用侧面信息进行防串联拍卖设计",
+    "d1e5d4b029c2632f6166999e49dc24b3dce6880a2ad92a1ee183ad16dbb630ed": "投标人串通会损害标准拍卖中的福利和公平。为了解决这个问题,我们引入了有条件的-有价(C-Posted Price)机制,即一种串通反应设计,它使用机器学习分类器来预测甚至是不准确的,哪些投标者在串通.C-PoP根据预期的非串通者的投标计算出贴出的价格,确保在完美的分类下真实性,从而增进对非串通者的公平性。在不完善的分类下,我们把总体福利和非协作福利分别捆绑起来,以确立该机制的稳健性和公正性。克鲁塞尔",
+    "f881aac7c1de10bf8a32af2c2166e3c878b8dfa205e2d957b8f772ac9aa51da2": "评估带有错误分类链接的社会网络模式",
+    "cb943e801794b6e13e3f1c72513d2c62562e541b2ef02aeac0dae57e611eec42": "我们提议,当报告的二进制网络链接由于诸如调查被调查者召回错误或数据输入失误等原因被错误分类(有些为零,反之亦然)时,社会网络模型的调整2SLS估计器。我们显示,错误的分类增加了退步器和错误之间相互关系的新来源,这使得所有同源性因素和传统估计因素无效。我们通过建立一个新的分类错误率估计器来解决这些问题,并利用这些估计来调整内部同行结果,并为2SLS e/建造新的仪器。",
+    "89a711a71ef163d65495188c4a67d1b229e4f21d15b126ab7c81ef9d25e222e6": "通过有条件的线性方案进行部分识别:估计和政策学习",
+    "121473714ba18a7b92bb9be9e77f327ff4c2cbce4c902c6b2bf527dfde11152e": "从可观测数据中只部分地确定了许多利益:数据可以将其限制在一套可信的数值范围内,但不能单独确定。本文为共同变量辅助估计、推论和部分识别问题的决策制定了框架,其中利益参数满足了以共变量为条件的线性限制。参数上的界限可以写成对有条件的线性程序的解决方案的预期,这些目标和约束必须从数据中估算出来.实例包括:",
+    "ab509f5fa3d3a612ff53139f7680988c38a3a94dc35dd44fd73e8d451f39bfc6": "家庭内部的鼓励设计受到干扰的尖锐界限",
+    "46e83e0c8d7f15d3485af86cc0f21ee570d824f90c43a6904f990fd4274feb5b": "具有外溢效应的实验为战略行为创造了动力:当一个家庭成员的治疗会影响另一个家庭成员时,接受决定就变得相互依存.我们提出了一个基于游戏理论的工具变量框架,在这个框架中,接受是少数物剂中的纳什平衡,所有变量都是离散的.在最低限度的假设下,没有具体说明如何选择等值,我们得出了直接、间接和提供媒介效果的尖锐的非参数界限。游戏理论限制,如超模态性,对称性,和支配性可以分层 o",
+    "62d9a3e456a63b92d1146d37b526155fa98930c4d1c0e1471e1b8d48e0fe4dc8": "Matching-LLM:历史上对民意和选举的合成预测",
+    "da997419583f09dbae33b6d9ab9e0303a297fccd7ec7dc477b162e3d59ac1098": "大语言模型(LLMs)为预测舆论和选举行为提供了新的机会,但其合成反应可能不能充分反映人类的态度和异质性.本研究引入了Matching-LLM,一个将LLM生成的响应与人类历史行为数据相结合的加权框架.我们利用世界价值调查、美国国家选举研究以及德国选举调查数据,评估其在重建调查答复和预测选举结果方面的表现。结果显示,比对-LLM一般比LLM-提高精度.",
+    "07cf8b601ca00284ae692e2545153da38db56b39378ea79eece99087fa4fd34a": "一般混合条件下经验过程的最大不平等",
+    "b8ab4199d81a8841cccffc0572a79a59af24c177c2b3d94ee9ca16640ced7533": "本文为一组功能上样本平均值的顶端提供了约束,该类功能一般是混合结构过程和任意混合率。不论混合的速度如何,捆绑由集中率和新的复杂度量组成。然而,混合的速度影响到前一个数量,意味着分阶段过渡。快速混合会导致标准的根-n浓度率,而缓慢混合则会导致更慢的浓度率,其速度取决于混合结构.我们的发现是用来获得新的格利文科-坎特利型的 Res",
+    "4c452708575be95359cc8b440cdf62852f96c4bd7f64113018cb4b635126f3fa": "统一多式联运模式持续空间的最新理由",
+    "7b794cb4026412d6b1b79fb2f09823beac47cc36e0bbafbe4b9810d6bfc9ca52": "统一的多式联运模式在不同的多式联运理解和生成任务上取得了显著成功,但它们仍然难以有效地利用基于语言的思想链推理来生成图像。因此,现有的推理强化UMM往往无法继承在大语言模型中观察到的测试时间缩放和精细的可控性.我们将此失败归因于一种基本的模式不匹配:推理是在一个离散的符号空间中进行的,而图像生成则在连续空间中进行。为了弥补这一差距,我们引入了一个Latent",
+    "e61b44078000edd2a5ea47bc09556f3eb3d86119165fc42ca4aca87cbb3b2052": "Flide: 加快与精确状态的推论",
+    "7e0d137990ed0e2b09be95e38f04c90edfdc7ccd6acc40141b22f5fdbede512b": "Jev等决策模型已成为LLM代理系统的极有希望的范例,为快速系统一执行提供了轻量级和可靠的绝对推理.然而,现有的面向一代的推论引擎未能有效支撑这些工作量,因此遭受了严重的前缀重算间接费用或扭曲的输出概率.为了应对这一挑战,我们提议使用一个高效和准确的推论引擎Flide,将决策请求的逻辑树结构从一个单一的平整符号流中实际执行中解开。通过阿福",
+    "f8e71ab6cd76a40a0fb417fc935f52208ceb575a6cf4081258df0e69e942e190": "后期关注:走向水下超长背景关注",
+    "3a1a4d9bb822a7599e322b8d966f9b48fe9edb2678741aac264166ec9a51a037": "代理工作流程正越来越多地转向长期任务,例如开放式科学工作,模型从长期上下文窗口中受益。然而,在超长的上下文(超过1M令牌)中,充分关注是极其昂贵的。一个很有希望的方法是很少受到注意,即一个专门的索引员选择一个子集的钥匙来引起注意。然而,目前的指数化方法要么在上下文尺寸上仍有四重成本,要么在超长上下文尺度上丧失准确性。我们用Latent Sparse Record(LSA)来解决这个问题,这是一种有效的注意方法,保持准确性。",
+    "886b685960c3cd2ade3d219714d370b0dabd9baf6e63ea923bf36888acc3466b": "具有隐性动力的等级世界模型",
+    "e4d7ac2a208272d7a4ecce1c839b4e7a77908d7ca089e109f483eddd9c3675cc": "与世界模式一起进行规划,可以对体现的代理人进行试验时间调整,提供优于直接政策学习的概括。然而,长期任务仍然受到累积错误和搜索复杂性的阻碍。现有的分级方法往往使用僵硬的宏观行动或潜在技能,导致表述不严和有限的精细控制。我们引入了ID-WM(英語:Implict Dynamics World Models),这是一种等级世界模式,将状态空间可达性与本地控制脱钩.我们的框架利用一个高级别模式来抽样跨圣塔的可行过渡。",
+    "80839e20e44191efca3ede0ec1355e7e8877a9f3cdabb16f9b73f5a2e4dd9043": "RoboArchitect: 自动设计具有持续内存的机器人代理",
+    "7b064307ff0dc6aa3220c43b4ec45ccfd3937548e155f109cf1f531fb083e978": "近期的研究表明,一个被冻结的机器人政策在代理工具内表现要好得多,其中控制代码决定何时查询政策,查阅视觉工具,或直接指挥手臂.然而今天这些带子是手工建造的, 并为每个新的机器人或基准重新设计。我们显示, 带式设计可以自动化, 提供了一个强大的替代 微调小说设置。在RoboArchitect中,一个编码模型观察机器人的推出,诊断失败,并迭代地修改了围绕冷冻政策的绳索.绳子在一系列剧集上演化 以优化它",
+    "662befc2762ad5d8064a2eea3b6ab5dc1b2d2821eee04ecf12ca7bd5de27b2d2": "决定Rank: 决策模式调整的政策扭曲",
+    "6274d160600cfc284f3999e94008b3064ba8b9236a248756caaac4d1dacf869f": "决策模型通过直接预测选择或分数来瞄准结构化的任务,避免自动解码延迟.然而,将基因LLM的排名知识转移到一个决定模型仍然具有挑战性:老师通过文件ID序列的排名列表来表达偏好,而学生则使用从第一手位置得到的分数来决定排名.为了弥合这一差距,我们介绍了 \"决定Rank \" ,这是一个通过政策项目空间提炼培训的决定模式。项目空间 OPD通过将文档分数排序为 RA 来构建学生的推出",
+    "5a9757e59133f7a171c301672d7b9510ab7327fcd3b1cac29f5fa58ab697eb0d": "ACCT:不对称跨LLM上下文传输",
+    "245dbd0e8f1acaf89c4ca06a3348dd656c1bbd16f378dfbe8183c63c27610df7": "在现实世界的部署中,大型语言模型(LLM)系统正从单一模式的引用日益演变为不同的部署,在这种部署中,不同模式被动态地引用来进行推论。然而,如果在模型中重复使用同一上下文,每个新选择的目标模型通常必须再次处理,一再产生大量的计算费用。因此,我们提议ACCT(对称跨LLM上下文传输),目标是在同一模型家族内不同尺度模型之间的KV缓存传输.ACCT 转换由 a 生成的 KV 缓存"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -15206,6 +15266,262 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/020/857.htm"
+    },
+    "https://arxiv.org/abs/2610.42052": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.42052"
+    },
+    "https://arxiv.org/abs/2610.41963": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41963"
+    },
+    "https://www.v2ex.com/t/1253883": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "独立开发者 👨‍💻 - @vulgur - # 2026,1026 ～ 1101这周可是库库工作，推进了五个项目，两个网站，三个 App 。这些项目在对着的两个电脑桌的不同的电脑里，最近一周就是坐着电脑椅不停地转来转去。# 本周",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1253883"
+    },
+    "https://arxiv.org/abs/2610.41881": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41881v1/figures/main_rd_graph_reform_2007_eyfsp_total_eyfsp_score_linear_nofit.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41881"
+    },
+    "https://solo.xin/topic/6147": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "五个月，两个应用，总收入零元。 一开始，我以为是自己技术不行。是不是代码写得太糙？是不是性能不行？是不是界面太丑？后来发现都不是。那些代码能跑、能演示，架构我也能讲清楚。协议层、工具定义、模型对接，全是我一个人啃下来的。 技术从来不是问题。问题是我从头到尾都在解一道错题——我一直在想“怎么把它做出来”，却从来没想过“…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6147"
+    },
+    "https://arxiv.org/abs/2610.41722": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41722"
+    },
+    "https://arxiv.org/abs/2610.41447": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41447v1/Figures/fig2_hist_below_v4.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41447"
+    },
+    "https://arxiv.org/abs/2610.41428": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41428"
+    },
+    "https://arxiv.org/abs/2610.41361": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41361"
+    },
+    "https://arxiv.org/abs/2610.41294": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.41294v1/one_two_sided.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.41294"
+    },
+    "https://arxiv.org/abs/2610.41284": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41284"
+    },
+    "https://arxiv.org/abs/2610.41171": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41171"
+    },
+    "https://arxiv.org/abs/2610.41103": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.41103"
+    },
+    "https://arxiv.org/abs/2610.40719": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40719"
+    },
+    "https://arxiv.org/abs/2610.40684": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.40684"
+    },
+    "https://arxiv.org/abs/2610.38098": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.38098"
+    },
+    "https://arxiv.org/abs/2609.19081": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2609.19081"
+    },
+    "https://arxiv.org/abs/2607.19625": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2512.14764": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2512.14764"
+    },
+    "https://www.qbitai.com/2026/11/507260.html": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "上海仪电与上海创智学院联合发布“飞轮转・万象生”仪电智算数链生态。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/75afca7848799e669ae30ebaf50d0940.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507260.html"
+    },
+    "https://arxiv.org/abs/2511.12456": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2511.12456v5/errgrid_noncolluder_share84_U.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2511.12456"
+    },
+    "https://arxiv.org/abs/2509.07343": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2509.07343"
+    },
+    "https://www.qbitai.com/2026/11/507225.html": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "新版“机器人三定律”。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d624fbef525d1e496d611995378be0c2.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507225.html"
+    },
+    "https://arxiv.org/abs/2506.12215": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2506.12215"
+    },
+    "https://arxiv.org/abs/2503.14314": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2503.14314v3/Figures/network_representation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2503.14314"
+    },
+    "https://arxiv.org/abs/2411.01582": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2411.01582v4/figures-new/mean-sd-comparison-update.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2411.01582"
+    },
+    "https://www.qbitai.com/2026/11/507150.html": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "模型管线双驱动",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/63faa541df3d6b516cdd8af7f96e4f8b.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507150.html"
+    },
+    "https://arxiv.org/abs/2402.11394": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2402.11394"
+    },
+    "https://www.qbitai.com/2026/11/507107.html": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "能指挥Agent干活，还能控制智能家居",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/53cb82819b4687433d06415442b662ab.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507107.html"
+    },
+    "https://arxiv.org/abs/2610.42149": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42149v1/images/figure2-final.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42149"
+    },
+    "https://arxiv.org/abs/2610.42148": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42148v1/overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42148"
+    },
+    "https://arxiv.org/abs/2610.42147": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42147v1/design_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42147"
+    },
+    "https://arxiv.org/abs/2610.42146": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42146v1/idwm_teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42146"
+    },
+    "https://arxiv.org/abs/2610.42141": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42141v1/method.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42141"
+    },
+    "https://arxiv.org/abs/2610.42128": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2610.42128"
+    },
+    "https://arxiv.org/abs/2610.42116": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2610.42116v1/acct_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2610.42116"
+    },
+    "https://www.qbitai.com/2026/11/507082.html": {
+      "checkedAt": "2026-11-02T09:21:31.426111+00:00",
+      "description": "HuggingFace疑似泄露权重已被下5000次",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507082.html"
     }
   }
 }
