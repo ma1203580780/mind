@@ -3063,7 +3063,25 @@
     "615ee2ff3fd0c33a64d347057459a8bbf9a843a602536d96865c564876e2ba62": "OpenAI 缩放 Git",
     "39eb76c498328a3b5e73c2293fff04ff64262910fbc84aecaff46bda8693991c": "OpenAI如何建造了Pando,一个为Codex所使开发规模设计的Git兼容后端.",
     "0499798720facd1fad682e40ffce535f6da1f44abd8f10d80c9b69e07ed61b46": "OpenAI任命Dan Driscoll为国家安全现代化高级顾问",
-    "28fa090264795ea736170e866454f4e0904a7e48beeca7623c1a033f7234cd45": "OpenAI任命丹·德里斯科尔(Dan Driscoll)为负责的AI提供国家安全现代化,网络复原力,以及与美国合作的咨询.盟国。"
+    "28fa090264795ea736170e866454f4e0904a7e48beeca7623c1a033f7234cd45": "OpenAI任命丹·德里斯科尔(Dan Driscoll)为负责的AI提供国家安全现代化,网络复原力,以及与美国合作的咨询.盟国。",
+    "4f8240c08ac6db85d27b84c6ddd59a7c8d791a09b85bb77738297e1d4cd300bf": "服务器:解码云网络搜索响应 (# 19476)",
+    "c675dc485cbac0cc745f1c29339133b0d8b76271463788a351ea3495ab391f13": "10 清镜替代设备(比照价格、API和MCP访问)",
+    "6d405a22d5f5eb910dd194a70c470eddc5aef2ebb52f87ff46119dd292496b92": "我比较了每篇文章的价格、API和MCP访问、关键词数据,更多信息",
+    "5d60bdbdf1401d1869af02daa844db7db436c9de4336d324e3ed38872537b8d3": "8 2026年最佳Hootsite替代品(免费+付费)",
+    "442069d9ef991c09a88624e79aee6a230b58a97dc987b5ddc46a3f4ac58d9b53": "Hootsuite的定价,工作流程,或功能设置 不再觉得合适了,我们已经将最好的 Hootsuite 的替代品组合起来, 帮助你找到一个平台 与你的工作流程,目标和预算相匹配。",
+    "ec0722226f25a494119458e2929152c42175a0105ab27112f820e0928b76c136": "第857集\"在你的事业中寻找隐藏的乘数\"(与杰森·科恩一起)",
+    "07dd2478afcb3d777a6d043d21016db3c1b97e2def37cd3cf92b86fc401d8f51": "如果涨价能带来更多的顾客呢?Rob Walling欢迎WP引擎和SmartBear的创始人Jason Cohen,他们谈论寻找你的盈利鲸鱼,为什么提高价格可以真正增加销售, 以及如何投出更多的价值而不是储蓄可以8x你收取什么。杰森也分享他为像一个粗鲁的记者那样的烤制创始人而建立的自由AI技能,以及为什么最好的策略是从建立以你为形态的公司开始.电影赞助商:你即将完成一个大规模交易,然后你",
+    "5c02c53300f8cc61a0284ba9db22686ddeff9868d9a71f9a541447a193948abb": "我在大学里学的AI原型",
+    "26a6ee315785d9adbf5a35ef9bbb5eda0ed3ff0dbe4581140250680ecdc21adc": "教学生如何用AI工具原型而不用法格玛,揭示出令人激动的可能性和不适的取舍.也为非科技人士如何用基因AI创建应用提供了宝贵的见解.在UPM时装学校,我的课程侧重于探索能够丰富时尚体验的应用概念.过去的项目想法从美学亲和社会社区(和约会)和活动作时尚品牌游戏到智能服装回升,VR时尚建议,甚至一个",
+    "63433b1e0eda29d225cc10280f92076904627c8f84c450f4494828e05d390a35": "杆子和木桩",
+    "f82314ce84473bb9e3e0b94b9684d97639b3409dbf93cda25dd1351f78b888af": "继续读取UX集体网站。",
+    "478862d22b5b8fed2aa2ef1d86e63f662ef113656462e536d81367890ddab730": "Heimstaden正在用AI改变住宅房地产管理",
+    "fe35a921f18f852f00cc26501fd323322b566849d0ad5c68f831eab4cc747dab": "发现Heimstaden如何利用OpenAI的ChatGPT Entertainment和Codex改造地产管理,削减成本并赋予全欧洲员工权力.",
+    "a4e572547b256e970d4198b2b308fbd0f9e74c9485c855ebb91522892553e9fb": "变革者示范一体化合同",
+    "d3c31e122b3f72a2e2819b3c7fe02f5f4ba725314cbb55672a90c0b4a2a0d8fb": "奖励有较大漏洞的维权者",
+    "38fbc88ff84aacdaac966d01bb63222776f216f482f07e838f9a1fa2d4cb95ff": "OpenAI正在提高安全错误奖赏,并为独立安全研究者引入报告质量,忠诚度和优先竞选奖金.",
+    "30daeba307990caaab17ae04e758ef15e5741a02fa2d9edd8d6676643152d3a2": "准备下一场安全短跑 以硬化 OpenAI",
+    "d20976c44c579018a31568588e6a8621d8990b5bf6f6f28a0b71b0128e950788": "OpenAI正在用Cathedral Systems准备下一次内部安全短跑,以测试并用AI加强其防御."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -15944,6 +15962,130 @@
     },
     "https://openai.com/index/dan-driscoll-joins-openai": {
       "checkedAt": "2026-11-03T02:37:43.037236+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://ahrefs.com/blog/clearscope-alternatives/": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "I compared ten Clearscope alternatives on price per article, API and MCP access, keyword data, and how well they fit an AI content workflow.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/10-clearscope-alternatives-compared-on-price-by-ryan-law-content-marketing.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/clearscope-alternatives/"
+    },
+    "https://sspai.com/post/118317": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "手工压花器、二手 TITAN V，以及派友们用开源项目与 AI Coding 替代付费订阅的讨论。",
+      "image": "https://rssfile.sspai.com/2026/6/30/article/831096df-1239-9d40-8cb1-c42319e8f9f3.png?imageMogr2/auto-orient/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/118317"
+    },
+    "https://www.startupsfortherestofus.com/episodes/episode-857-finding-hidden-multipliers-in-your-business-with-jason-cohen": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "What if raising your prices could actually bring in more customers? In this episode, Rob Walling welcomes back Jason Cohen, founder of WP Engine and SmartBear, to dig into his book, Hidden Multipliers. They talk about finding your profit whales, why raising prices can actually increase sales, an",
+      "image": "https://www.startupsfortherestofus.com/wp-content/uploads/strou-twitter-2022.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.startupsfortherestofus.com/episodes/episode-857-finding-hidden-multipliers-in-your-business-with-jason-cohen"
+    },
+    "https://solo.xin/topic/6158": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "很多线下老板想做小程序，卡在贵、慢、没人维护。 小码力AI可以快速产出可用的微信小程序，降低商家数字化门槛。 我们开放渠道合作：技术、售后由平台兜底，合伙人专注拓客谈客户，拿永久算力续费分成。 适合做本地服务、商家资源，企业资源等，想找低风险AI赛道新项目的独立从业者。 想了解模式，欢迎私信交流。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6158"
+    },
+    "https://www.v2ex.com/t/1254102": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "独立开发者 👨‍💻 - @billiepander - 现在 AI 加持，做软件真的是太快了。之前为了解决使用 「 UU 远程」 的一个痛点 - 手机的图片复制后直接进入 mac 的粘贴板，利用 tailscale 的网络，让 AI 做了不到半小时",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1254102"
+    },
+    "https://www.ithome.com/1/021/680.htm": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "在国家发展改革委今日新闻发布会上，相关负责人透露我国正推动世界人工智能合作组织实体化运行，已有 38 国作为创始成员国加入。我国将落实《全球人工智能治理倡议》，与各方加强政策交流和务实合作，推动人工智能开源普惠，尽快打造一批接地气、可触达的合作成果。#全球AI治理#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/021/680.htm"
+    },
+    "https://openai.com/index/heimstaden": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/11/507419.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "终于，有了一个可以触摸的起点",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-2-10.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507419.html"
+    },
+    "https://www.qbitai.com/2026/11/507410.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "TeleAI智慧看护助手",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/6a2d2be1f7d854ac9e39a0bedbe8bffc.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507410.html"
+    },
+    "https://www.qbitai.com/2026/11/507405.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "11月3日上午，2026世界互联网大会在浙江乌镇开幕。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/bb47e5356862ac4e69f239cd4368b6e8.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507405.html"
+    },
+    "https://www.qbitai.com/2026/11/507396.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "11月3日，小米方面披露，小米集团获得2026世界互联网大会“杰出贡献奖”创新突破类奖项",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/49d08acf45dba425722b2087eda7f402.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507396.html"
+    },
+    "https://www.qbitai.com/2026/11/507382.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "单季狂揽1130亿人民币，但...",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/7d37b26ce8a25d2ad6bd80127c8a043c.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507382.html"
+    },
+    "https://www.qbitai.com/2026/11/507367.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "GPU迭代一百次的事，它一步做完",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507367.html"
+    },
+    "https://www.qbitai.com/2026/11/507339.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "10月31日，2026年bilibili超级科学晚（以下简称“B站科学晚”）在北京如期举行。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/1e959648dcb641e45ba85e7e3de22059.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507339.html"
+    },
+    "https://www.qbitai.com/2026/11/507322.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "指令执行能力也同步提升",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/9fed77e3b7f1acfb1213c7686e7a050b.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507322.html"
+    },
+    "https://www.qbitai.com/2026/11/507313.html": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d4f1e70db66d7dfca6477bebaad6e0bd.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507313.html"
+    },
+    "https://huggingface.co/blog/transformers-mic": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://cdn-avatars.huggingface.co/v1/production/uploads/6317233cc92fd6fee317e030/cJHSvvimr1kqgQfHOjO5n.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://huggingface.co/blog/transformers-mic"
+    },
+    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
+      "checkedAt": "2026-11-03T11:51:24.925581+00:00",
       "error": "HTTP Error 403: Forbidden"
     }
   }
