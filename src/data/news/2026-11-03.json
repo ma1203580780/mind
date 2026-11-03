@@ -149,7 +149,10 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "summaryZh": "一只果酒的眼同辈一根断了的手指从窗帘下爬来",
-      "translationStatus": "partial"
+      "translationStatus": "ready",
+      "titleZh": "面孔和超现实的静态生活 填充加希公园的梦幻画",
+      "translationProvider": "Argos 英中离线模型",
+      "translationModel": "argos-en-zh-1.9-ct2-v1"
     },
     {
       "id": "feed-2a0550bea8f843d018c9",
@@ -200,7 +203,8 @@
       "summaryTruncated": true,
       "author": "github-actions[bot]",
       "contentLanguage": "en",
-      "translationStatus": "unavailable"
+      "translationStatus": "partial",
+      "summaryZh": "警示Python 3.10支持将在Langchain-core 1.8.0和Langchain 1.5.0中投放.目前的小版本是最后一个支持Python 3.10的版本.请升级至Python 3.11或以后.自 langchain \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\"
     },
     {
       "id": "feed-3ada4c87809bb1ad8c47",
@@ -1304,7 +1308,10 @@
       "author": "Ahmet Tu\\u{g}rul Bayrak, Fatma Nur Korkmaz, Nur Ya\\u{g}mur Tuncer, Mustafa Serta\\c{c} T\\\"urkel",
       "contentLanguage": "en",
       "titleZh": "Turk-GPT:土耳其语基于文本的取回预设",
-      "translationStatus": "partial"
+      "translationStatus": "ready",
+      "summaryZh": "本文介绍TurnTurk-GPT,是土耳其人通过微调土耳其GPT-2模式获得的基于文字的转盘预测器,其目标为合成和真实对话,并对照规则基线对土耳其人的真实对话,零镜头土耳其语模式和广泛使用的多语种转盘终端探测器进行评价.评价使用字级决定点来表示未标注的,小写文本近似流式语音识别器的输出,录制-脱节和扬声器-脱节折叠,嵌入阈值选择和配对集群靴子测试.转动Turk-GP",
+      "translationProvider": "Argos 英中离线模型",
+      "translationModel": "argos-en-zh-1.9-ct2-v1"
     },
     {
       "id": "feed-471f8ec5716141b23c85",

@@ -3081,7 +3081,92 @@
     "d3c31e122b3f72a2e2819b3c7fe02f5f4ba725314cbb55672a90c0b4a2a0d8fb": "奖励有较大漏洞的维权者",
     "38fbc88ff84aacdaac966d01bb63222776f216f482f07e838f9a1fa2d4cb95ff": "OpenAI正在提高安全错误奖赏,并为独立安全研究者引入报告质量,忠诚度和优先竞选奖金.",
     "30daeba307990caaab17ae04e758ef15e5741a02fa2d9edd8d6676643152d3a2": "准备下一场安全短跑 以硬化 OpenAI",
-    "d20976c44c579018a31568588e6a8621d8990b5bf6f6f28a0b71b0128e950788": "OpenAI正在用Cathedral Systems准备下一次内部安全短跑,以测试并用AI加强其防御."
+    "d20976c44c579018a31568588e6a8621d8990b5bf6f6f28a0b71b0128e950788": "OpenAI正在用Cathedral Systems准备下一次内部安全短跑,以测试并用AI加强其防御.",
+    "846722743e74e8510a11d60869b9e1cffc6ec60b34c373e0ce17d663601425ae": "改变的 ollama 启动 claude现在对 Claude 代码应用了模型的输出符号限制,因此云模型不再运行到 /api/chat 上的 128k 默认的 cap 云网络搜索响应中,现在被正确解码,包括压缩响应 OpenAI 兼容端点不再覆盖一个模型的包样器默认——发送没有温度/上_p 的客户端得到模型自己的值而不是1.0,匹配 /api/chat /v1/reswers现在保存可读的输入内容,包括先前的助理拒绝,而不是将其扁平,Ollama的应用程序现在可以重试 ChatGPT 断开 fai",
+    "438d1ac1f31a77fcd802f219056e6b3758ed00a3dba00bfd76dbbef26bf28680": "每个 OpenAI 出版商伙伴关系, 以及如何频繁的 ChatGPT Cites Them",
+    "22079a4c57bd88ee35c6a7ea08c8800d832f2268a8eb22cb0e8ee295544ffe8b": "每一笔交易都大致相同:出版商将其内容许可给OpenAI,而ChatGPT则以归属和与来源的链接来显示内容摘要。这让这些出版社 有一些最引人注目的网站...",
+    "d20afa953ef10dd7837f342eb05ef90c9cfbd10311881a51d0891026d957a2eb": "6 个将克劳德设计升级的特技",
+    "a8a9b27dd934c89b7d0ea27bc264d30fce5e1755d32b862389f8547ca129c111": "这集6种技巧可以帮助你在生成设计时充分利用克劳德代码和克劳德设计.继续在 UX Planet 上阅读“ ”",
+    "1b1dfb6d713347082bf0e5b775fec7ead772f9dab42ebf8df5cd8502a6e1f999": "在最新版中,摄影师Ivan McClellan回归黑色罗德奥文化",
+    "641971d912f5494c470b262982ccac9d186270f43b0472db85ff65128e3bb871": "「八秒:运动中的遗产」 91幅新画面,",
+    "9bdef34c04777f83169dd72ac42482c045b2333d78bbf193998a11b6c1616b43": "2026年25名最佳亚欧/格鲁吉亚专家",
+    "fc1623975aa4dd857b726b6087fb57bcc2994c84a0b148aeb43e2d59c8301af5": "研究在于如何回答这些问题,这些是发表关于AI搜索最原始研究的25人,也是值得关注的.我从...",
+    "1ba6e0f7d9da7eeec9db068c45e794e8da77329cbd0bc9d29028f9318a1517de": "Collins Obijiaku 的标书",
+    "11e4711c556836a5658af2f308c1cdf257880a200a540f2677f41581c03df2ff": "\"无论你在哪里,记住我\"11月7日在洛杉矶的罗伯茨项目开幕.",
+    "31f9bb4fc939b9352abc7f3f0f6c5594ffb0b7206f84e81fded847b30e657044": "作为信息约束的不成立",
+    "e7d063a214d9eea6cd8770762d5ab7268a6f165b2ee5c635f36554bfcaf3992d": "本文件提供了一种信息理论特征,说明在一般类型的模型中不存在理由,允许进行内生选择。我们规定了有条件的相互信息(CMI)限制,要求以共变物为条件的关于潜在结果中所含治疗的信息不超过其潜在的异质性。在保持的模式条件下,这种限制相当于将处理概率的多重因素化为潜在异质性和共变性的不同功能。虽然CMI限制",
+    "460072a539a7d5de97f96a8f71e360c88c6d3a329c04ebefaaf0e79e2f259d62": "State Bench:测试语言模型在长文档中如何跟踪状态变化",
+    "c3e0b687dd84932ae9e86699d19aed354c8b6f3e65fd94dd148108249bdb4494": "董事会",
+    "36ac8620061b74b664ae5813085373cf14b9657b694d6d731f5fbc97e7128ee2": "哪些类型的参考文献能以AI的可见性来证明最强者?(260M AI 提示分析)",
+    "eb3256ff5a6a81e9d50ec74025fcc885cc8375d6f3aae562291a8da24ff2196e": "但什么样的提法?在先前的研究中,我们分析了各种品牌因素以及AI的知名度,包括网络提及,主播,搜索量,引用域数等等.这一次,我们零入 品牌提及类型。我们比较...",
+    "b2fbe969f94446d45f9dd3d44c8645470a2ac93cbde050221266e8450a962b49": "现代 CSS 可能使您的前端更加复杂",
+    "e16f7496a48bb3acbb7339cf5304a317a93d243b3f784d609190e203b6aa0fdd": "用现代的CSS特性取代JavaScript可以简化一块代码,同时使更广泛的应用更难解释.Gabriel Shoyombo探索逻辑在CSS和JavaScript之间分割时会发生什么,共享实用指导,帮助您在迁移时保持复杂度.",
+    "c2df4d2df3264d888ccee1de99c264e3db9926bbc98533886beb6bb552f67c84": "在反整数网络任务游戏中",
+    "a111d3c4004596adef635d9df7662ab60577c8a35559c07bca2d67b5cf502ecf": "要为多运营者流动市场设计平台,协调其业务或基础设施以支持它们,就需要模型来理解这些运营者和旅行者在共享网络中的行为.任务游戏可以证明是有用的,但操作这些游戏需要采用更通用的汇总任务游戏框架,以便进行识别和估计。我们把这样一个框架扩大到网络分配游戏的聚合,提出一种基于路径的配方和一种基于聚氯乙烯的配方以及溶液算法。一个反向优化模型是prop",
+    "4d37af92d7d2bcd9e45f009f9f85c4f77517c138314910a56ac82f7963a9a917": "调色板: 教一个小型模型, 以您设计语言构建甲板",
+    "a356f2b3fd1f646086c5d061ed683e9d0158f01335c9f19f039facef7c12a8f9": "拉普塞泽罗",
+    "5c1fd6b59fd2cfc855df86edfc8d0a1c778d2535f1be8d6bc5f179068cbd5232": "LASO规格和基于灵活特性的资产定价模式",
+    "56c4ab0f1f7e8044f126c6943ff08d55a0f9990b6c8064e58b39f5da01df75a9": "本文研究了部分线性半参数添加剂模型,该模型允许在高维环境中变量之间的相互作用.我们提议采用S-LASO(S-LASO)这一两步法,将LASSO和适应性组LASO结合起来,同时执行可变选择和模型规格.理论上,我们确定S-LASO在选择一致性和不对称正常性方面拥有甲骨文属性.蒙特卡洛模拟证实,S-LASSO在各种情景中的表现都超过现有的替代品.经验中,我们把S-LASO应用到",
+    "491ea3a9376f8ddaf2260f4056d7ab80ff7398875731a0c0091f0ec3525badf3": "与重叠和缺失的共变量进行回转的锐度识别",
+    "95463a438f7416ca1556616a2bce07541c4e6aed1df04f0ed9b2f7808886241b": "研究人员经常在关键变量缺失或仅通过间隔观测时估计回归.对观测过程的描述或假设可能得出似乎准确但误导的结论。我们制定了识别和推论方法,这些方法对于这种不完整的数据仍然有力。对于广泛的类有条件瞬间模型,我们描述的是尖锐识别的集合,与观测到的数据一致的所有参数值的集合,并保持回归模型,同时不限制不完全观测的产生.我们建立了Hausdorff 一致的est",
+    "192e78d2fc85b3c93f3dbd80a0e1b3b4fb8615f863808b67aea1b99395fda328": "难以确定相同房屋的最高交易周期",
+    "b196e74680349e8d825e0e278bc7d502915bdd296d9d53551687f698121fc7be": "我们研究了Shapley-Scarf住房市场(Shapley和Scarf,1974年),在这些市场中,房屋有种类,代理商对同类型房屋无动于衷,但严格排序。在客观冷漠的这个领域,顶级交易周期(TTC)规则具有固定的断带重夺帕雷托效率以及群体策略防守(Sandholtz and Tai, 2026),不需要在一般弱偏好下持有属性.我们问,对马国(1994年)严格优惠的TTC规则的定性,以及对Eh对弱优惠的固定解围的TTC规则的定性,是否为Eh所作的定性。",
+    "fe22df51dce62a48942cebacc5ec8b1254d2c7a18a906c5b7416b175b198b25b": "当 Covariates 遮盖前趋势",
+    "7914d848ff5e8538478b52347296a30c6a7c93914aca4a42308348fd43e978c8": "如安慰剂估计所示,真正的差异化方法以治疗前的失败程度来判断治疗后平行趋势的失败程度。当设计调整共变时,安慰剂估算也会进行调整.我们显示,这个基准只有在最早的安慰剂窗口之前对共变量进行测量时才有效.后期测得的共变物已经反映了安慰剂期对结果的冲击,因此适应它会隐藏部分前潮流.然后安慰剂看起来比真正的趋势更受宠若惊,由此产生的信心套过于狭窄.呜",
+    "3198b2ac15b173890712907471d6218aaff7bb15f1efee165d38c4964d8de5fd": "选择性不完全观察下的尖锐的Fr\\'echet-Hoffding Bondes",
+    "d1f728d89677a98308e7cc4543df20392debdc2b4b00d12d718417f736bda8ca": "不完整的记录即使没有共同观察到一对结果,也可能加深共同结果概率的界限。我得出尖端的Fr\\'echet-Hoeffding界限 结合已知的人口边缘 和有选择性的观察记录,不限制观察机制。我精确地将识别问题减少到有限维优化,得出两个界限的可计算特征。涉及收入流动、潜在结果和分期调查表的说明,说明不完整的记录如何能改善相对识别",
+    "3a19a0742c0673f4f188e47633c475fdbaf94912b4dbfd5b4f0ef441c3c74541": "具有多个成员的总分类",
+    "c08915460af3e31abb8587987326ee10ef79366954927468d87f93e47941cf68": "人们在汇总自己的意见的同时,也面临着将对象分类的问题.我们不言自明地研究这种有多个成员组成的分类汇总问题,即每个个人为每个目标指定一个类别,而由此产生的分类可能指定一个以上类别。在自然环境和轴心下(即独立和支持),我们每一个新的轴心 -- -- 责任、分裂稳定和拒绝稳定 -- -- 都具有我们称之为军政府统治的特点。规则将一个类别指定给某个对象, 具体时间为一些membe",
+    "823d66ea4aee06ca58bd3706c39df94d502df5fe166200641ac32b71d804d6bc": "产品市场网络中的杠杆动态",
+    "7663d291f4e2ff94f0a4141550592a7291ab2bf6cdbf97fd044ce5dd99dce276": "我们审查公司杠杆的持续是否只反映公司本身的调整摩擦,还是也反映与经济有联系的公司过去的融资选择。我们把年度公司基本知识与时间变化的文本为基础的产品市场网络结合起来,并估算出一种不同的动态部分调整模型,利用破损的工具变量产生互动效应。估计器在企业特定系数中兼顾时间不同网络权重和空间依赖性。网络加权滞后杠杆为正值,统计意义显著,平均系数可调整",
+    "ef3b9359e6e2fe5e0b39150439fdbbb07a5e4503393744081ad98d001bd1a7ae": "劳动力市场回归教育和家庭内部教育不平等:理论和实验证据",
+    "3e5ae506a33a8c2701e41fbe95e28c364f77ebe1c97a505a3a519299eb46e03f": "劳动力市场条件如何影响家庭内部和家庭之间的教育不平等?越来越多的证据记录了全世界劳动力市场工资对教育的回报。我们开发了一个理论模型,表明收入紧缩可视父母对不平等的憎恶程度而增加或减少在投资与结果方面的兄弟差异。我们从墨西哥圣路易斯波托斯的246名家长的 高度激励的现场实验室实验中 恢复了这个结构参数的分布",
+    "41c0e63fc005034c10a0c15be254dcbd2396b3404486970e3f769aaf294dbadf": "AI-辅助信号市场",
+    "f876a76f1a1dd492fab83c2e841dbc613f22be9d4c15e2c493200ac95a6deeef": "本文研究了一个市场,由AI供应商选择用于表示能力的援助技术和价格.个别收养无人观察。与没有AI的信号相比,即使能力仍然完全暴露,可得到的帮助也会降低福利。容易的模仿可以增加显示能力所需的输出,额外的信号可以超过生产节省.供应商可以通过改进对低可读性发送者的援助而获利,因为这会增加高可读性发送者的采购.与保留现有福利相比,这种改善也会降低福利水平。",
+    "98a084dcf3e081078925c64a778d328d7f73466aa4a14d5660bea7d808cee96a": "加速实际世界的工程建设",
+    "786c6b6804829c0f49e5590a7832e1434bc7b601d6540232283ff61f10a74dd9": "发现ChatGPT和Codex是如何帮助工程师在整个物理世界加速CAD,PCB设计,模拟等工作流程的.",
+    "d8f955bb68c30293d881fa50a49a1f3277e6d5eb5da816ee7395a7179c36386c": "按部件进行劝导",
+    "7a4dd865a47579c15706e24cbd19d731e3ddac6095a3ab49ad4463da0b4a9946": "古典贝叶斯人的劝说假设信息设计师可以将信号附加到整个州.我们建议按部分进行说服。在这个模型中,接收器从演技中得到的回报为$X=\\sum_{i=1}^n X_i$,用于独立坐标$X_1,\\ldots, X_n$由不同来源观察.设计者事先承诺进行产品试验,每个来源的美元只能以美元作为其信号的条件。鉴于这些信号,接收器计算她的后座值为$X$,其作用概率为$g(y)$,其中$g\\colom\\mathb{R}\\to [0,1]$是一个非减速函数.设计师",
+    "7787259a5d6bcbfb2821aa83720c1c8e03b6047a5c74f8c1c24835dc5c4f5638": "有条件的基于风险的预期值:半参数估计和推论",
+    "2be65336656784dacf818300f6064e5b0e6a008ed4fe82217f86e1ff169d9268": "有条件的基于风险价值(EVaR)因其可取的理论性质,在金融风险管理中引起了越来越多的关注。然而,有条件的EVaR的现有估计方法要么依赖可能误用参数模型,要么在非参数方法中受到维度的诅咒.为此,我们研究了非线性时间序列模型中条件性EVaR的半参数估计和推论,其误差分布没有说明.具体来说,我们提出一个两步有条件的 EVaR 估计器,实现参数的聚合",
+    "14406998ff4c7c3816701da68e12d12225115833b1de63ad02a465e56c9b1e73": "像素:用于学习的全层机器人系统",
+    "3fc8bf23911959644ae46dd3990467fbfda498ec266d75815326cb9f0c15566a": "通用移动操纵需要结合有能力的机器人硬件,可伸缩的演示集合,表现式全身控制,以及有效的政策学习.然而,这些组件往往是独立开发的,从而造成不匹配,限制了整个系统的能力.我们介绍Pixel,一个共同设计的用于学习通用移动操纵的全存储系统.像素结合了一种低成本的轮式人造物,结合了人类的动能和符合要求的抓手,多种远程操作和无机器人的人类数据收集接口,一个统一的全体.",
+    "74142c71e89985d5149369fbe4d9f5ddf8a305063672cf219be43257caffa3a4": "公众的突出地位调动全国对暴力侵害妇女行为的反应",
+    "071191ff6584b92663d69b48dc5c5abbfbacecbd397acab88b338fb848e03866": "在杀害妇女问题上公众的突出地位是动员社会作出反应,还是通过模仿引起进一步伤害?我们利用新收集的2017年至2024年意大利杀戮妇女案例数据,研究最突出的案件对寻求帮助、警方报告和致命暴力的全国性后果。我们发现,非常突出的亲密伴侣杀害妇女事件导致全国寻求帮助的人数增加,一个特别突出的森林小组也导致警察关于暴力侵害妇女行为的报告显著增加。然而,我们没有发现任何证据表明杀害妇女现象有所增加,而这种模式是不一致的。",
+    "2a99cfd6e540b841c37b4b6122ba06c84fcfa181b476278649e96d4db97ea076": "Pixel-UMI:从感知的人类演示中学习环境-智能全博迪操纵",
+    "34c80e45c2eab5d6567890960757e8184aea5594ea0d13521aec8bd894ff722a": "具有敏感性的人类示范为移动操纵提供了可扩展的数据,但表现差异使政策学习复杂化。我们提出Pixel-UMI,这是一个从人类数据中学习环境意识全体政策的管道。我们首先引入了Environment-Aware重定向(EAR),将重建的场景几何与显示的头部和握手轨迹相结合,以确定机器人的姿势,并产生碰撞感知的关节和基座目标.延迟校准动作任务将这些轨迹转换为动作.然而,动能差异可能留下剩余错误,",
+    "5efe56899e62fc9ae1eb97ba45f4aa1b88c148d4cbfc7a796d34a2f82564db9a": "市场和丛林",
+    "4da8da05716ca97a111c72bf8391b188726902e2f35a82405cd616c0031e7cbb": "我们研究管理产权和经济交易的不同机构如何影响职业选择和福利。我们社会中的个人选择决定其生产和消费机会的职业,他们要么在公共执法部门(市场)的支持下进行匿名的、自愿的市场交易,要么在没有金钱补偿的情况下通过随机的强制等级(丛林)进行分配。我们为在市场和丛林中存在职业平衡创造条件,并比较其表现。在普通职业简介中,Ma",
+    "bce2a46ec3a4adf7f61eebd961fbda00b5774168ec90719eea9f412ddfe779ca": "从自然语言到精确封面:神经-循环方法到斑马谜",
+    "33a34731b1fa71a860f270f708591e9a815baa46a648a1793b8c8e98fd37abaa": "思维链(CoT)生成大大改善了大语言模型(LLMs)在复杂的推理任务上的性能,包括代码生成,数据分析和考试式问答.尽管取得了这些进步,纯粹的神经LLMs仍然与基本的逻辑推理问题纠缠不休,缺乏象征推理系统的确定性,稳健性和可靠性特征.相反,典型的象征性方法,如SAT的解决和准确的覆盖保证正确和完整,但需要用高度专门化的形式来表示问题。",
+    "f3913e6049c43eba8e0b4c84254f18048647616606ca612ed71f2f98fc4b7d66": "Ask More, Hear Less: How a Review Point 更改在线评分显示",
+    "198e46cab376e0544fae91f4c4196e30be2536e30568e4ebf76cd64583154df5": "平台要求客户进行在线审查以减少自选,但关于审查招标是否使在线评分信息多或少的理论冲突.选择理论意味着询问有帮助,声音理论认为它淡化了新闻,以及对压缩会破坏信息的评级通胀的研究.我们把这些观点与信号检测理论相协调,该理论将评级所了解的(其敏感性)与所显示的(其标准)区分开来.我们测试了Steam上的框架,Steam是一家领先的PC电子游戏商店,其客户端于2019年10月开始,以促使玩家进行审查after",
+    "23e30f66ab428961addbe4ac98f6d7d32f5b75ef8ed6317420f45cfd2d1ed543": "Web Harbor:为正在演变的图形用户界面代理环境粘贴真实网站",
+    "07fb9a97da5d14de89c7eb3f96db9875ae12c3937ca178e2fa1761919a2c24d3": "用户界面网络代理商需要现实和互动的环境,这种环境在评价和培训期间都保持稳定。现场网站评价因内容变化、访问限制和经认证的工作流程覆盖面有限而受到影响,而现有的培训合成环境往往缺乏功能深度和视觉忠诚度。我们提出WebHarbor, 由153个可执行和被嵌入的网站环境组成的套件, 忠实地重建现实世界网络服务的视觉界面、内容和功能工作流程,我们通过任务建造WebHarbor...",
+    "3b411cc20a52865f9859ea882663c53ceeb60497f79215fc4e49dbede9e5baf9": "评估内源性拥挤下的铁路客运优惠:东京火车选择的人口游戏方法",
+    "a7464d25eee2c9d934b5ccafa3f2a87822b985b9340384ed3e8c33f5fb576f65": "我们估计通勤者的偏好, 而不是日程的延迟、旅行时间,由于挤占本身就是这些选择的结果,我们把火车选择作为游戏模式,其中火车选择和挤占是共同决定的,并使用游戏的封闭式固定分布,用最大可能性来估计偏好.利用日本2015年大都会地区公共交通调查中与火车时间表相匹配的个人数据,我们从报告的开工时间得出了理想的到达时间,而不是",
+    "b1d50edbc917adf8987992a17ce9616d63f9052361f548e74b8d1d85af1e8288": "D&A: 脱钩描述和评估 启用 VLM作为零热机器人奖励模型",
+    "6c7b9dfa8b3c0c0d380bc9f3d757eb878ad56567f68a2a5a81e6c12bfb00e342": "展望-语言模型(VLMs)对机器人学习零镜头视频任务进度估计有希望,然而,由于隐含的成功假设或相对时间排名设计,现有框架经常出现确认偏差,幻觉处决失败的进展。直觉激励边疆模型崩溃成二进制成功探测器,无法捕捉细微,非线性的进步和失败.虽然培训后的方法可以通过明确的培训来缓解这种情况,但它们需要昂贵的实时机器人数据,并需要计算密集的后技术",
+    "21fddb96b66075556309231e333126c715fb9ac228f396c0de755b164de18ec7": "比较经济理论的经验性内容",
+    "9c4eabf1ba83b6e334dbeac2461fd5d5dafff511db039d8c0fe00d03d8343b31": "一种能很好地预测的适切理论可能是因为它所承诺的结构或因为它与它所评价的数据相匹配而这样做。我们提出一些措施,通过将一个理论作为功能形式、对行为的支持限制和对参数的分布来将两者分开,没有与评价样本相匹配的参数。概率完整性是指从理论中提取的一条规则从样本中捕捉到的可预见变数的比例.概率限制是这种规则排除了多少可想象的行为;它把行为分为什么。",
+    "6bad4ae976ffa2cb25112a8a0f427c268bf64e0163f5c8f29295c13a12ff99bc": "战略家:代理人不断演变的理由",
+    "278a8e0d8592932d0d4ebf344274800e456ded182c661684c3040c4e3ea8cb94": "一个模型只是AI代理系统的一半.另一半是推论策略:将模型调用变为响应的推理程序.今天,下半部分是用手写成的,制定战略的经验从不带给下一个战略。我们介绍了战略家,一个在各项任务中发展推论战略的元代理人。每个策略都写成蓝图,可以执行的代码,其他策略可以重复使用,蓝图一起组成一个库.鉴于一项任务和一套小的发展,战略家检索相关的蓝图,撰写候选战略,测试",
+    "1199280f7af1692639dbb457c13050051abcf1fe6879b701c5b2bc5b367fa583": "日本各市的本地和邻里食品零售供应和人口",
+    "e67073409d04ef9134a62393273b58aa5d727e5802d8f4db13c220a5ae48941c": "本文考察了食品零售供应与日本各市常住人口之间的关系.我开发了一个局部均衡框架,其中当地食品零售改善消费便利,人口密度支持零售进入.该框架允许当地积极的反馈,并区分了当地零售和邻近的消费机会.利用日本2010年,2015年,2020年人口普查和2012年,2016年,2021年经济普查,我估计市镇的固定效应规格,其解释变量空间滞后.当地和n",
+    "36876de2e0fd390c832ced34dfb18fe587693b643ad1bc7ca2977eaad9406256": "追踪法学硕士的科学发现能力及其培训数据",
+    "2bc061170f2a2028a91f371e1a42c32c6f6293407eb3a2a84df83dda1d21799d": "大型语言模型(LLMs)显示出对科学发现的越来越大的希望,然而,对于如何进行可靠的发现,仍然存在着基本的问题。我们如何追踪LLMS的科学发现能力到他们的训练数据?我们把这个问题作为缺失概率质量的问题来研究,并开发一个理论说明,其中单方事实 -- --在训练期间观察到的事实 -- -- 确定发现能力。在材料学和调控基因组学方面,我们直接操纵培训组合中的单纤维率,发现更多的单纤维在两种开放量模型 f 中不断产生更多的发现。",
+    "8f4f9449f06ffc6f7930f6c75d672edba1b935fa27a188e6238f0833b6221240": "Nought Venture, Nought Have: 风险承担和对匹配市场的有效投资",
+    "176e0891c49dffee089a447fc38774db1f624092c0ee120685b4a7089370e065": "我们研究了一种两面并存的匹配市场,在这种市场中,代理人通过昂贵的投资和战略风险来吸引伙伴。每个代理人选择投资水平和任意分配非负面质量,这是投资的利弊。我们允许不平等的人口和不同的人口投资成本。有限市场具有独特的非三角半对称平衡,投资低于帕雷托边疆.我们显示,这种效率低下的现象随着经济的增长而消失。",
+    "036cb8604c94698c6d590b028c171e6c6070f671f2c771ff38a9f592e5e149dc": "ufakzeka-kulak:建造和评价来自Scratch的31.6M-Parameter土耳其语音识别器",
+    "10b786517f948f562d26caa8cb2db4a51f2d3e44931227de476e195578cb7cff": "ufakzeka-kulak是一个开放的土耳其语音对文本模型,有31.6M参数,一个快conformer编码器,带有一个符号和期限的转录器(TDT)和一个CTC头,从头开始训练,在Apache-2.0下发布.它写成案例,用数字表示土耳其语。其培训时间为4 977小时,其许可证允许商业使用;281小时是人文化的,对另外4 696小时来说,培训文本是上传字幕或机器记录誊本,只有在对音频进行第二次独立阅读时才予以保存。食谱、检查站、标签和出口选择",
+    "6613ec3489a60d0b10cdda9b74f75d262573a88d6dad550b1925c68838110c6f": "干涉的选择性随机推论",
+    "94865d878737aa6d4ce24a4d315f41c671b57aa47b4e9cde43a8591f66ca623f": "经验研究者经常使用对干扰的测试作为预测试或强性检查.然而,当结果指导模型,参数或假设的选择时,由此产生的依赖数据的选择会损害后续推论的有效性.本文为干扰开发了两阶段选择性随机推断框架,明确对选择事件设置条件,以核算数据依赖的选择.我们首先用有条件的随机化方法测试无治疗外溢的无效假设.如果这个无效被否决,我们测试无效的假设",
+    "25b55ec439bb4f6ff2416537518974d6022e332c29728a0fe3de55848e39a471": "diabAgent: 走向代理生理控制",
+    "49495ba4b3c9774a88ce4268e1e368c78753135f85e7d3f299567b8938df0d41": "作为预训的尺度,医学语言模型在临床问答方面迅速进步.它们通过持续干预实现有效生理控制的能力仍然缺乏系统的定量评估。1型糖尿病提供了一种具体环境:胰岛素分泌受损造成对外来胰岛素的依赖,使用膳食、运动、疾病和葡萄糖测量等信息不断调整剂量。我们引入了DiabAgent, 由Actoric生理控制(APC)框架组成的Actoric生理控制研究套件,",
+    "f1d5cf5048159c702cef391cee5f9fcda2c10553b442f29345284ba68619c68b": "CWE-bench v2:增加覆盖面、质量和透明度",
+    "67981123dd1499e0716a431fa5b85875085582136a4da106ee53000d84e89ad1": "面孔和超现实的静态生活 填充加希公园的梦幻画",
+    "a5838188788bc5bec1d8d24f6b3f423ad764623a8e7ef6cc8c03f44dd5a18b7e": "警示Python 3.10支持将在Langchain-core 1.8.0和Langchain 1.5.0中投放.目前的小版本是最后一个支持Python 3.10的版本.请升级至Python 3.11或以后.自 langchain \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\",
+    "c1d1993e9c0b597ab43c3c96fb65b9847c4be343e2d796c08eeca48b12b6f3cd": "本文介绍TurnTurk-GPT,是土耳其人通过微调土耳其GPT-2模式获得的基于文字的转盘预测器,其目标为合成和真实对话,并对照规则基线对土耳其人的真实对话,零镜头土耳其语模式和广泛使用的多语种转盘终端探测器进行评价.评价使用字级决定点来表示未标注的,小写文本近似流式语音识别器的输出,录制-脱节和扬声器-脱节折叠,嵌入阈值选择和配对集群靴子测试.转动Turk-GP"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -16087,6 +16172,316 @@
     "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
       "checkedAt": "2026-11-03T11:51:24.925581+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.14": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.14 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.14"
+    },
+    "https://www.v2ex.com/t/1254278": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "独立开发者 👨‍💻 - @fantasy001 - 最近看到哥飞组织了一个 AI Rap Video 的 SEO 上站比赛，大家围绕同一个关键词建站，最后比比谁的排名更好，还有奖金。一开始挺纠结的，毕竟这个词搜索量不算大，就算排名做上去了，能不",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1254278"
+    },
+    "https://ahrefs.com/blog/openai-publisher-partnerships/": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "Each deal works roughly the same way: the publisher licenses its content to OpenAI, and ChatGPT shows summaries of that content with attribution and a",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/every-openai-publisher-partnership-and-how-by-ryan-law-ai-search.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/openai-publisher-partnerships/"
+    },
+    "https://solo.xin/topic/6160": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "创始技术合伙人招募中，找懂技术，全流程架构搭建，组建技术团队，管理领导团队共同开发搭建维护优化更新升级系统。有意向请留言联系。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6160"
+    },
+    "https://ahrefs.com/blog/aeo-geo-experts/": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "Research is how you answer these questions, and how you keep up with what's changing in AI search. These are the 25 people publishing the most original",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/the-25-best-aeogeo-experts-to-by-ryan-law-ai-search.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/aeo-geo-experts/"
+    },
+    "https://arxiv.org/abs/2611.03550": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.03550"
+    },
+    "https://huggingface.co/blog/allenai/statebench": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "A Blog post by Ai2 on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/allenai/statebench"
+    },
+    "https://w2solo.com/topics/8674": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8674"
+    },
+    "https://ahrefs.com/blog/mention-types-ai-visibility/": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "But which kind of mention? In our previous research, we analyzed different brand factors alongside AI visibility—including web mentions, anchors, search",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/which-types-of-mentions-correlate-the-by-louise-linehan-data-studies.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/mention-types-ai-visibility/"
+    },
+    "https://arxiv.org/abs/2611.03409": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://huggingface.co/blog/ibm-research/palette-deck-building": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "A Blog post by IBM Research on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/ibm-research/palette-deck-building"
+    },
+    "https://w2solo.com/topics/8673": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8673"
+    },
+    "https://arxiv.org/abs/2611.03391": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.03391v1/interaction_surface_mom1m_mve.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.03391"
+    },
+    "https://w2solo.com/topics/8672": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8672"
+    },
+    "https://arxiv.org/abs/2611.03345": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.03345v1/graphs_tables/simfig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.03345"
+    },
+    "https://arxiv.org/abs/2611.03251": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.03251"
+    },
+    "https://www.qbitai.com/2026/11/507507.html": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "AI接管调度运营，仓库越干越聪明",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/00b2da6f91699983210be77384ebaf5f.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507507.html"
+    },
+    "https://arxiv.org/abs/2611.03079": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.03079"
+    },
+    "https://arxiv.org/abs/2611.03075": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.03075"
+    },
+    "https://arxiv.org/abs/2611.02984": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02984"
+    },
+    "https://www.qbitai.com/2026/11/507473.html": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "两位CTO，关起门来吵架",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/7e4499e6ca318a9845fdaa2d16cd2f7a.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507473.html"
+    },
+    "https://arxiv.org/abs/2611.02960": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02960"
+    },
+    "https://arxiv.org/abs/2611.02959": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.02959v1/figures/outcome_bar_landscape_6scenarios.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.02959"
+    },
+    "https://arxiv.org/abs/2611.02910": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02910"
+    },
+    "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://arxiv.org/abs/2611.02845": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02845"
+    },
+    "https://www.qbitai.com/2026/11/507448.html": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "AI的下一程是生产力系统之争",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/43aeba28dbdd2e6e7e6db739558393a3.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507448.html"
+    },
+    "https://arxiv.org/abs/2611.02716": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.02716v1/figures/n500/CP-GARCH-norm.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.02716"
+    },
+    "https://arxiv.org/abs/2611.03648": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.03648v1/fig_hardware_codesign.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.03648"
+    },
+    "https://arxiv.org/abs/2611.02647": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.03647": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.03647v1/pixel_umi_robot_pair.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.03647"
+    },
+    "https://arxiv.org/abs/2611.02635": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02635"
+    },
+    "https://arxiv.org/abs/2611.03641": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.03641"
+    },
+    "https://arxiv.org/abs/2611.02623": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02623"
+    },
+    "https://arxiv.org/abs/2611.03634": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.02592": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.02592v1/figures/potential-map2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.02592"
+    },
+    "https://arxiv.org/abs/2611.03622": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.03622v1/teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.03622"
+    },
+    "https://arxiv.org/abs/2611.02565": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.02565v1/figures/pareto_completeness_restrictiveness.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.02565"
+    },
+    "https://arxiv.org/abs/2611.03618": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.03618v1/BP_library.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.03618"
+    },
+    "https://arxiv.org/abs/2611.02533": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02533"
+    },
+    "https://arxiv.org/abs/2611.03617": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.03617"
+    },
+    "https://arxiv.org/abs/2611.02504": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.02504v1/figures/n=5.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.02504"
+    },
+    "https://arxiv.org/abs/2611.03605": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.03605"
+    },
+    "https://arxiv.org/abs/2611.02443": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02443"
+    },
+    "https://arxiv.org/abs/2611.03601": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.03601v1/hero.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.03601"
+    },
+    "https://huggingface.co/blog/cwe-bench": {
+      "checkedAt": "2026-11-03T19:27:15.256706+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/cwe-bench/thumbnail.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/cwe-bench"
     }
   }
 }
