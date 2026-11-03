@@ -3055,7 +3055,15 @@
     "0e3c0a8685715433f361bbf798474dc3637f1dcde92ace22ecf074703f340296": "利用机器学习,通过学习者在技术强化学习中的相互作用,衡量自我效能信仰",
     "06dd460a9af2e51721d7a83f71b53a8dad4828d1d35490cdbf58443dc7d97e54": "自我效能信仰在学习者的表现,学术选择,更广义地说,在未来的职业轨迹中起着关键作用.由于技术强化学习(TEL)环境已显示出支持业绩和激励的强大潜力,在这种环境中调查自我效能尤其令人感兴趣,特别是为了尽早实施补救做法以支持学习者的自我效能信念。我们的研究旨在开发一个系统 能够检测低自效基于学习者的互动痕迹他们解决",
     "ad461607c31f0ac3f5a486ff6faacb587b2b4e1af5cd5f73a8f5ac3249aa7a99": "Qodo用 Codex 将上下文构建为 AI 代码审查",
-    "8b23a284e91b9079898758fbcfb5d2e04374ec039c63f35c65b82f353e4d257f": "Qodo将公司知识和编码标准带入了Codex,帮助开发者在打开拉出请求之前在寄存器之间捕获P0问题."
+    "8b23a284e91b9079898758fbcfb5d2e04374ec039c63f35c65b82f353e4d257f": "Qodo将公司知识和编码标准带入了Codex,帮助开发者在打开拉出请求之前在寄存器之间捕获P0问题.",
+    "64663f1e16e7a762967781c3b550a451f7e0b982362823e9ae7ef1e812ad5476": "杰弗里·吉布森的 \"一个真正的爱的东西 \" 调查是一个艺术家多学科实践的十年",
+    "a67d69cdd69a1237c7b4bb973b1ef57e27d6402c6bd8779ff624c113ed96e90c": "十五部作品扩展了吉布森对图案,音乐,同性恋偶像画的兴趣,以及他的土著密西西比州Choctaw和切罗基人遗产.",
+    "62aaf03be310da0780f278717b2f2c63b71ead8b1cdc913b93195d41b202e6da": "页:1",
+    "e52f3afd19cc94448c1192eec650246333d4b11f62ecbeab1c0001b605fe13e4": "改变的 Ci : pin builtx 以@dhyltgen在#19373 openai : 由@hoyyeva在#19192mlx 中保存可读的响应输入内容 : 由@dhyltgen在#19392 app 中按块排列长的上行:让 ChatGPT 断开故障可以由@hoyyyeva在#19336 发布中重试 : 使用 Claude Code 的模型输出限制 :在#19410 openai 中使用 ParthSareen :不要通过@dhltgen在#19432 发布中将模型样板默认 :请检查 ChatGPT 的路由前的路径 。@hoyyeva在#19470服务器中的配置:解码云网络搜索回复由@ParthSareen在#19476 Full Changelog:v0.40.13.v0.40.14-rc0",
+    "615ee2ff3fd0c33a64d347057459a8bbf9a843a602536d96865c564876e2ba62": "OpenAI 缩放 Git",
+    "39eb76c498328a3b5e73c2293fff04ff64262910fbc84aecaff46bda8693991c": "OpenAI如何建造了Pando,一个为Codex所使开发规模设计的Git兼容后端.",
+    "0499798720facd1fad682e40ffce535f6da1f44abd8f10d80c9b69e07ed61b46": "OpenAI任命Dan Driscoll为国家安全现代化高级顾问",
+    "28fa090264795ea736170e866454f4e0904a7e48beeca7623c1a033f7234cd45": "OpenAI任命丹·德里斯科尔(Dan Driscoll)为负责的AI提供国家安全现代化,网络复原力,以及与美国合作的咨询.盟国。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -15893,6 +15901,49 @@
     },
     "https://openai.com/index/qodo-codex-plugin": {
       "checkedAt": "2026-11-02T20:17:57.376275+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0": {
+      "checkedAt": "2026-11-03T02:37:43.037236+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.14 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.14-rc0"
+    },
+    "https://solo.xin/topic/6153": {
+      "checkedAt": "2026-11-03T02:37:43.037236+00:00",
+      "description": "我们正在构想打造一套聚合第三方平台，一套统一后端支撑 PC管理后台 + Android/iOS APP + 微信小程序 + 微信公众号H5，全链路自研自建，源码、知识产权归属项目公司，目标完成商业模式验证、对接后续融资。 现寻找创始技术一号位搭档，一起从0到1搭建平台。 【岗位定位：创始技术负责人（预备CTO）】 前…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6153"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-02/": {
+      "checkedAt": "2026-11-03T02:37:43.037236+00:00",
+      "description": "Screen Studio 4.0：放大镜、相机切口、转录编辑等功能。；ClawsGO Science：拥有自己云实验室的人工智能研究助手；Riverside Agents：一支专门处理视频的人工智能团队：制作、编辑、剪辑和发布。；Embage：为你的客户构建代理，运行工作流程，进行分析。；Precise Edit by Ideogram：上下文窗口中的精准编辑",
+      "image": "https://decohack.com/producthunt-daily-2026-11-02/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-02/"
+    },
+    "https://www.ithome.com/1/021/343.htm": {
+      "checkedAt": "2026-11-03T02:37:43.037236+00:00",
+      "description": "OpenAI Codex 与 ChatGPT Work 团队发起的 28 天更新挑战落幕，全程 14 天发放额度重置，最后两天为预存重置。#AI工具动态#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/021/343.htm"
+    },
+    "https://www.ithome.com/1/021/295.htm": {
+      "checkedAt": "2026-11-03T02:37:43.037236+00:00",
+      "description": "OpenAI 首席全球事务官、负责游说事务的克里斯 · 莱汉私下向有意参加 2028 年美国总统大选的人士提出，AI 将成为左右下一届总统竞选的重要议题。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/021/295.htm"
+    },
+    "https://openai.com/index/scaling-git-at-openai": {
+      "checkedAt": "2026-11-03T02:37:43.037236+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/dan-driscoll-joins-openai": {
+      "checkedAt": "2026-11-03T02:37:43.037236+00:00",
       "error": "HTTP Error 403: Forbidden"
     }
   }
