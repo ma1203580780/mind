@@ -3166,7 +3166,27 @@
     "f1d5cf5048159c702cef391cee5f9fcda2c10553b442f29345284ba68619c68b": "CWE-bench v2:增加覆盖面、质量和透明度",
     "67981123dd1499e0716a431fa5b85875085582136a4da106ee53000d84e89ad1": "面孔和超现实的静态生活 填充加希公园的梦幻画",
     "a5838188788bc5bec1d8d24f6b3f423ad764623a8e7ef6cc8c03f44dd5a18b7e": "警示Python 3.10支持将在Langchain-core 1.8.0和Langchain 1.5.0中投放.目前的小版本是最后一个支持Python 3.10的版本.请升级至Python 3.11或以后.自 langchain \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\",
-    "c1d1993e9c0b597ab43c3c96fb65b9847c4be343e2d796c08eeca48b12b6f3cd": "本文介绍TurnTurk-GPT,是土耳其人通过微调土耳其GPT-2模式获得的基于文字的转盘预测器,其目标为合成和真实对话,并对照规则基线对土耳其人的真实对话,零镜头土耳其语模式和广泛使用的多语种转盘终端探测器进行评价.评价使用字级决定点来表示未标注的,小写文本近似流式语音识别器的输出,录制-脱节和扬声器-脱节折叠,嵌入阈值选择和配对集群靴子测试.转动Turk-GP"
+    "c1d1993e9c0b597ab43c3c96fb65b9847c4be343e2d796c08eeca48b12b6f3cd": "本文介绍TurnTurk-GPT,是土耳其人通过微调土耳其GPT-2模式获得的基于文字的转盘预测器,其目标为合成和真实对话,并对照规则基线对土耳其人的真实对话,零镜头土耳其语模式和广泛使用的多语种转盘终端探测器进行评价.评价使用字级决定点来表示未标注的,小写文本近似流式语音识别器的输出,录制-脱节和扬声器-脱节折叠,嵌入阈值选择和配对集群靴子测试.转动Turk-GP",
+    "3c5b713601a77ef6ae512bda5a82f46e3518ad367b5bb817126867ef93c2ff0d": "兰链-型号:==0.0.1",
+    "ef72f73aa53a5f7949201b71af2f31bae48c43b6f02f2c7d30f9e7ef71bb3750": "初始释放(类型安全): 0.0.1 (# 41650) chore(以下简称:放松第三方依赖上限(#41407) chore(deps):从2026.7.22到2026.10.19在/libs/partners/类型安全(# 41375) 固定:固定在一些伙伴包中的依赖性(# 41266) 释放(类型安全): 0.0.1a3 (# 40693) feat(类型安全): 使分类问题被引用(# 40659) 释放(类型安全): 凸出到 0.0.1a2 (# 40576) feat(类型安全): 实验性自动莫德米德尔软件(# 40545) feat(类型安全): 实验性模型鲁特米德尔软件(# 40543)fix( 类型安全): 微量使用元数据(# 40570 ) feat(ty)",
+    "2b020fd910ba50d94f6d11366fa49f19edc723529ab2f907d1f771a3fc83afcf": "v0.40.15 (韩语).",
+    "aec047192e1aaf24946c2371545d22af979e3d560a56595871c4d7ca8efb19ab": "更改mlx : 由@dhiltgen在 Linux 上装入捆绑的 CUDA 库 in- process 由#19433 模式 : 由@dhiltgen在#19400 Full Changelog 上加入 MiMo V2.6 模式支持 : v0.40.14.v0.40.15-rc0",
+    "347a6c75d1ac60de543f4658ee157decb17c1530e95838180a0d2d418f595888": "亚述远非埃斯特·埃利亚对当代 \" 分裂之神 \" 的描述",
+    "3c0210dd3569f687e1498ab051e849cf6a1dce49a90d52cded0278833eed71ad": "以阿尔布克尔克为基地的艺术家通过图案,时尚和自传来探索当代亚述人的经历.",
+    "4e10e1349e5ddf73d9d9c661d3d375df9c7e3b2509a20316921049d9ba0efd05": "每个人都在建立AI特工。谁在设计停站按钮?",
+    "2e390a50af2a301a4b679149a3639f974da54f89fdc63e9f46c694a656bea607": "我们曾经设计过可预测的用户流量.现在,大赦国际可以自行解释、决定和采取行动。这就是为什么最难的设计决定会发生在自治结束的地方。显示AI在流中停止的地方——由2025年9月的gpt,思考机器实验室的研究人员通过语言模型运行了1000次同样的快取.他们把温度设定为零,这个设定在理论上应该能够确定符号选择。他们得到了80种不同的完成来自相同的即时,模型,和设置。更有趣的是,所有1000种产出都与前102种符号相同。",
+    "6dd37d29daab2e2ad6171c09617dda4bfe3c807e44fbcf263adc09b123e36ee0": "我让AI建立。我不由人工智能决定。",
+    "6d5f3f86f778ffb0e1e61b1427059bbbf6e1af07d6dd48e111b6bcf7922e8f1f": "一个长的工作台从中间向下分出,完成的工具堆放在一边,另一个则有一个开口的笔记本.我的任务清单我给模型,没有再考虑 以及我审查什么直到工具演变。我用了近四年的基因模型,我作为一名辩护人来看待这个,一个在正确的背景下为技术辩护的人。自2023年OpenAI模式宣布我已死亡后,就我最新更新的公开报告(2024年10月)而言,",
+    "1bc0057278ca67cc00757f878b5354c7c532f80b7959e70b8a80edddce935f2e": "当设计解决方案已经预先建成时,你会怎么做?",
+    "59d54fd02ac36d55b66949ef95168794b13e51a7b8ffe07a8b2d0579fd3d3181": "如何处理“在房间里的幻想” 继续阅读 UX 集体",
+    "124359b9212d430d7410047648bb10aeb38517d22983ac56614976c8f23e110e": "特工们和我们同样的坏UX是斗争的",
+    "5c4511d717fbefea3265fd650bf01f28d9301552c9592518f25115f2a97197ed": "电脑用户无法猜测、即兴或问同事。这使他们成为我们曾经有过的最诚实的可用测试者。我第一次看到一个经纪人在卖家入口上失败,我立刻认出了失败。不是因为我了解模型因为我自己在同一个地方失败了。例如,我看到一个跑步,一个经纪人到了一个表格,上面有两个标有“继续”和“投降”的按钮,选择了错误的按钮,跑步停顿了。这不是代理商的错,我设计产品在德克,我们在那里为计算机使用代理人建造基础设施:",
+    "99bc59ab92311bf4a967ebadb386be4145dd11e5a24985974b73b47e6973779e": "思科如何用 OpenAI 以机器速度防御",
+    "ea53caacbc3fa6e5e8114e1fbecf799c0e9b8372cd30e976b602874d38a12b63": "Cisco将网络情报与OpenAI模型相结合,以加强企业安全.学习如何建立更适应性的防御。",
+    "3c68546db1d4246f2aeaa0366cf79698350fb79ab9a64897d910e7799f866719": "OpenAI任命吉尔·海泽贝克为首席公司事务干事",
+    "f584d0dc8b018cf8ac070d718090ccbc148a598cfabdf7cac79827ad13988f95": "Jill Hazelbaker会加入OpenAI担任首席公司事务官,领导公司的全球通信和公司定位.",
+    "560b1b970089a14fa9d8f85c90e6ba82e099f3d4a8c34578f34cc2b65899c14f": "每周为设计者——思想家和制造者——提供资源。“打开任何你付费的产品,看看右上角。有闪光。它后面是一个从右边滑入的面板,上面写着“问什么”,并提出你没有要求的三项建议。关闭它,然后在下一次更新后再回来,有时还用一个新名字。”没有人要求亮出按钮—— Jon Sabutis编辑选谁来命名未来?- AI男孩俱乐部野外指南。由Nicole Alexandra Michaelis 自主设计 – 游戏与AI如何尊重(或改写)我们的选择.作者:梅林德",
+    "b75c8fc5a5d46581059c01b6e2daad3c8f2fc28446a44841c28b48a1ef4be258": "本文介绍\"TurnTurk-GPT\"(Turk-GPT),是土耳其人通过微调土耳其GPT-2模式获得的基于文字的取回变速预测器,以TurnGPT目标为合成和真实对话,并对照规则基线对土耳其人的真实对话,零镜头土耳其语模式和被广泛使用的多语种转会末端探测器进行评价.评价使用字级决定点来表示未标注的,小写文本近似于流式语音识别器的输出,录入-脱节和扬声器-脱节折叠,嵌入阈值选择和成对集群靴子测试.转动Turk-GP"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -16482,6 +16502,77 @@
       "image": "https://huggingface.co/blog/assets/cwe-bench/thumbnail.jpg",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/cwe-bench"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.15 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc0"
+    },
+    "https://solo.xin/topic/6165": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "假设你维护一个带图片的家庭菜谱工具。每天的数据库备份都显示成功，某天需要换一台机器，导入也没有报错。打开页面却发现：菜谱文字在，图片打不开，家庭成员看不到原来的菜单，定时任务还在尝试发送通知。 这是一个用于说明问题的假设场景，不是我的线上事故经历。它提醒我们，备份文件和可用的产品之间，还有一段需要亲自走通的路。 对于…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6165"
+    },
+    "https://solo.xin/topic/6164": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "设想一个图片导出工具：用户点了“生成”，等了十几秒，页面提示超时。他再点一次，后台却出现两个任务。这是用于讨论的假设场景，不是线上事故复盘。 问题出在一个容易被界面掩盖的差别：页面没拿到结果，不代表后台没做事。AWS 的《Timeouts, retries, and backoff with jitter》明确提醒，…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6164"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-03/": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "beacon.sh：开源自我改进的人工智能编程助手记忆系统；UnleashX：将对话转化为结果的人工智能工作团队。；Xmind 2027：你的思维导图现在变成了一个人工智能思维伙伴。；Cedric AI for Meetings：首个能代你展示幻灯片并参加会议的人工智能助手；Hera：AI创意画布",
+      "image": "https://decohack.com/producthunt-daily-2026-11-03/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-03/"
+    },
+    "https://www.ithome.com/1/022/163.htm": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "为应对 AI 时代游戏提交量激增带来的审核积压，Valve 调整 Steam 审核流程，要求开发者提交前通过 Steam 启动游戏至少 5 分钟，减少重复审核。#Steam游戏#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/022/163.htm"
+    },
+    "https://www.ithome.com/1/022/142.htm": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "涵盖华为、阿里、腾讯、小米等企业。公约明确要健全智能体治理机制，通过合规技术手段确保智能体行为合法合规，共同抵制利用智能体实施算法压榨、黑灰产等行为，推动智能体技术普惠共享与开源开放，助力构建健康向善的智能体发展秩序。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/022/142.htm"
+    },
+    "https://www.ithome.com/1/022/112.htm": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "CrowdStrike 在 Fal.Con 欧洲大会上发布了“AI 终止开关”，安全人员可以借此停止异常智能体的运行、阻止其重新启动，并切断其网络访问权限。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/022/112.htm"
+    },
+    "https://www.qbitai.com/2026/11/507533.html": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "description": "长视频记忆精度飙升，问答时延最高降97%",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/0a3fda622fdb9a6003a906c94f3bf818.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507533.html"
+    },
+    "https://openai.com/index/cisco-cyber": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer": {
+      "checkedAt": "2026-11-04T06:57:38.645801+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
