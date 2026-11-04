@@ -3186,7 +3186,84 @@
     "3c68546db1d4246f2aeaa0366cf79698350fb79ab9a64897d910e7799f866719": "OpenAI任命吉尔·海泽贝克为首席公司事务干事",
     "f584d0dc8b018cf8ac070d718090ccbc148a598cfabdf7cac79827ad13988f95": "Jill Hazelbaker会加入OpenAI担任首席公司事务官,领导公司的全球通信和公司定位.",
     "560b1b970089a14fa9d8f85c90e6ba82e099f3d4a8c34578f34cc2b65899c14f": "每周为设计者——思想家和制造者——提供资源。“打开任何你付费的产品,看看右上角。有闪光。它后面是一个从右边滑入的面板,上面写着“问什么”,并提出你没有要求的三项建议。关闭它,然后在下一次更新后再回来,有时还用一个新名字。”没有人要求亮出按钮—— Jon Sabutis编辑选谁来命名未来?- AI男孩俱乐部野外指南。由Nicole Alexandra Michaelis 自主设计 – 游戏与AI如何尊重(或改写)我们的选择.作者:梅林德",
-    "b75c8fc5a5d46581059c01b6e2daad3c8f2fc28446a44841c28b48a1ef4be258": "本文介绍\"TurnTurk-GPT\"(Turk-GPT),是土耳其人通过微调土耳其GPT-2模式获得的基于文字的取回变速预测器,以TurnGPT目标为合成和真实对话,并对照规则基线对土耳其人的真实对话,零镜头土耳其语模式和被广泛使用的多语种转会末端探测器进行评价.评价使用字级决定点来表示未标注的,小写文本近似于流式语音识别器的输出,录入-脱节和扬声器-脱节折叠,嵌入阈值选择和成对集群靴子测试.转动Turk-GP"
+    "b75c8fc5a5d46581059c01b6e2daad3c8f2fc28446a44841c28b48a1ef4be258": "本文介绍\"TurnTurk-GPT\"(Turk-GPT),是土耳其人通过微调土耳其GPT-2模式获得的基于文字的取回变速预测器,以TurnGPT目标为合成和真实对话,并对照规则基线对土耳其人的真实对话,零镜头土耳其语模式和被广泛使用的多语种转会末端探测器进行评价.评价使用字级决定点来表示未标注的,小写文本近似于流式语音识别器的输出,录入-脱节和扬声器-脱节折叠,嵌入阈值选择和成对集群靴子测试.转动Turk-GP",
+    "65dc7424adae803ea24b2df705cd39fa1ee231653526028fca7a1615fa42cd56": "朗链-核心=1.7.5",
+    "c0d530939c034d009691c780894805f9c14e9be2a972f3de52d48e4eae4bb07b": "自langchain-core == 1.7.4 发布(core): 1.7.5 (# 41165) feat(core):将双子座安全块翻译为拒绝内容块(# 41658) 固定(core):取消时运行的终端工具(# 41660) feat(core):标准化模式拒绝内容块(# 41582) 固定(core):由LangChain.js(# 41642) 序列化的负载Message",
+    "d929e4f1bff1ffd13f174d18773f2a73927134979241c2185a5d1d39046ce785": "OpenAI公司收购皮埃尔计算机公司",
+    "73f125f9a4049df02280a8d33d5da482e089491665918824700b27eb18a3dede": "OpenAI将收购Pierre Computer Company, 扩展 Codex 用于构建、理解和审查代码的工具。",
+    "6ee005c8befbfd8a1d21572c8302f75c9f5a5b198714f7668def6689ebd90f0d": "我们即将退休的开始页:为什么和期望是什么",
+    "6351db220485abbdc05b6bbece8ab4dc44e903ce1d7abb10184a36c6ad8f6573": "由于Buffer继续支持那些利用我们的个人,创造者,以及中小企业,我们不得不在作为一个相对较小的团队与做出艰难决定之间取得平衡。我们不得不在最近做出这样的决定。作为团队仔细考虑后",
+    "f22a8aa227a052ba78e9b943b703b077098a82a03b5541227a82333694485682": "如何成为最佳1%的 Claude 代码用户之一",
+    "977d2017c385af214d17f16f9c4a083f9c0a83af9878cc80a3820b22d2d14f3d": "在UX星球上继续阅读。",
+    "a2a04feec2dda4864949da69dd332817cf2ce372d6678ef5648fc93257629dc1": "在 Stelios Pupet 的相竞场景中,",
+    "5899f8e95e194ce41da6e29479877fe405f89c18d5bea41ac3d5e8edde852af7": "从他在雅典的录音室,Stelios Pupet 制作冥想画,将有机元素置于微妙的网格内.",
+    "fd742c1e530c7d2a3d41cb18bc2ced18c48468104b4bafd3eb5a06a4830150e6": "左向数字比亚斯:税收显著性实验的理论和经验证据",
+    "e7bbce70dbd409efa398ae383933858cf4d4d54374f6894ac4999e1f4abfb955": "需求往往以整美元价格急剧下降。为了解释这种现象,即所谓的左位偏差,我们开发了一个随机的效用模型,在这个模型中,消费者只有在价格低于不同的注意阈值时才会认为是好的。拥有整数关注阈值的消费者群体产生需求不连续。引入税制时,模型预测与左位偏颇的消费者的合理选择相比,需求响应较弱.利用税务实验的数据,我们发现模型符合行为瞬间,并部分识别出对pa的意愿分布.",
+    "e57476ef68c52f35c6c05703ebf4995294303e5e9fdaca1c168c832de0dbaeb2": "布鲁佩奇",
+    "c2798884bcd4e1f7f300aa9480daeefbe0d71076d53752185f25fbf93eb3ec47": "共享生成的报告、原型或小型静态网站往往需要建立一个托管账户或寄存器。BrewPage将HTML,Markdown和文件转换成一个没有注册或API密钥的HTTPS阅读器链接.谁是开发者、独立制造商和AI代理构建者分享报告、文档、演示和临时网页内容。通过浏览器,REST API或MCP发布.JSON和密钥值托管也可用.目前状态 发货和免费。公开内容出现在画廊中;未列出的链接可以由持有者阅读,可选密码蛋白",
+    "9ea6ec6ca5362499091cfdada2e4a0d66e164946111f527df3d832649b347a9c": "你能安排Instagram的故事吗?是的,这是如何的(desktop和Mobile)",
+    "661a3b1b85fd70a004889704469e80e6c271e9dcca91120079ea8b0606b0f90f": "是的,你可以安排Instagram故事,只是不在内Instagram应用。以下是如何在桌面或移动上进行,免费,以及首先了解什么.",
+    "59ab1caf08bca7737c63ef34ffc484ae324b28dfdbf5daef8f5b42425fc25310": "基于遗憾的特征化、信息限制和审计调整政策的复杂性样本",
+    "0a0128cd62b8f3b879d033a68a8b7a95ca23f12671460c6f0df3de31455c23ab": "一项政策可以通过平均定位地点或对信息作出反应来赢得业绩。对于任何在有限范围 MDP 中使用 $\\pi$ 的 Markov 策略,让 $\\nu$ 成为其 open-loop 边际 ,我们显示, $J(\\pi)- J(\\nu)美元等于 $\\sum_t tr Cov(\\\\nu_t,\\pi_t) 美元 。仅以直接成本为基础的审计可能存在错误迹象。将共变写成联合对产品间隙, 给定的 $\\\\J(\\pi)- J(\\nu)\\ \\ le\\ sum_t 横跨_t\\ sqrt{I( s_t; a_t)/2} $, 带有锐度常数 。因此,MDP的适应性差距以",
+    "3d2453598d8d35fd2ff571aee7713e5e24e36fe7751ccbbcac6d2d31d0815f8e": "Blotto Games上校的高效均衡计算",
+    "33615bd0c99752557decd9698637d457936a5e8b0102d9786c344eb7177c0aeb": "布洛托上校(Colonel Blotto)是一款基本的资源分配游戏,在游戏中,两位玩家将预算划分为各个战场,每个战场上较高的分配额会赢得其价值.高效计算平衡的问题仍未得到解决,因为它的经典连续版预算武断,而且其价值可能因战场而异,但对于两个角色来说都是一样的。我们给出一个完全的多诺时间近似方案,在输入长度和1美元/\\varepsilon元中计算时间上的多诺时间平衡,在输入长度中计算近线性",
+    "496323831fb64531fe70de59e879c2f4084437df9d92f082b618b1cd1817d519": "Bang-Bang 关联性敏感性:一种地方到全球的关联性切除术",
+    "e9a083d2eed2deb4e3a48a68a270a06650ec20f87e5ce6ad4faa77fca4048404": "风险的二进制选择可以取决于替代结果如何共同分布。我们显示,在有限的结果空间中,连续性、完整性和两者之间对这种依赖性施加了局部到全球的限制:一种共同的边际分布的两种替代品之间的漠不关心,尽管它们的结果是共同分布的,但这意味着对同样结果所支持的所有彩票不敏感。在对相关性敏感的情况下,这三条轴单表示对相关性加权效用的特性,这种作用将直观比较与双线趣味结合起来",
+    "5c04cb889c192d819b8095205e272b54167f16c4d02600443283d7bbd2fb64d6": "相关可能性",
+    "728fa2037bdb130018969656b4b4aa980f4978c8a58f2c50caf22c94e7e950a0": "当两个行为之间的比较可能取决于它们实现的结果的共同分布时,我们研究不确定的二进制选择。这激发了相关概率精密度(CPS),这种主观的还原原则既延伸了概率精密度,又延伸了菲什本的非短暂主观预期效用.我们表明,同时发生的事件可交换性如何引起一种独特的可溶性有限地添加主观概率,并减少对行为进行二进制比较,以诱发共同法。在对流范围内,诱导域与全限结合法重合",
+    "eb0d271c1942f63027f0e497c30717b681d27d521f8c07bc4fc7dcc8687b89cf": "在计量图上查找和核实战略防御设施位置",
+    "443a5b5f8ad709e95e96bb170f205f4c6de1265bc8af4ad0d5907ad2eea065ba": "我们研究在连续的度量图上随机化设施位置的防战略机制的自动化设计,目的是尽量减少总距离。我们制定方法,在SP机制可以实现的最佳近似比上下限计算特定图和剂数。对于下限,我们建议通过线性编程双证书,将成本保留还原到一个有限域,以产生不受限制的SP机制的下限.对于上限,我们引入了有限代表机制,称为片面-l",
+    "b78e81abaa41c2ba34e1075acaf10fbbc85d61e607d1fec6d9f33c4f4800b932": "战略代理人破产规则",
+    "f58f98991ddd963d262b3b714a78b7d0baec2fcce2fd87238618db6b47c81a80": "破产规则是在不同债权人之间划分破产财产不足的规则。现行规则假定这些索赔是众所周知的。如果情况并非如此,索赔人有强烈的动力提出超出其应得数额的索赔,因为破产规则为索赔数额较大的索赔人分配了更多的款项。法律制度经常采用的一种补救办法是要求证据和施加惩罚,使多报费用高昂。但是,这一补救办法也增加了证明真实索赔的法律费用,这可能导致报告不足。鼓励真实报告需要精细说明",
+    "991a705480dfc9408a8385bc40a398826ba9e79823fdc246f0a0f8c4761cbd27": "在团队中设计AI-Medified通信",
+    "dad11d24dae55fce2d05b646151c4e9eed48ef2bc148900e550d1487f8f84021": "AI助理越来越多地参与要求雇员交流信息和协调决定的工作。我们研究当工人的利益相互冲突时,公司如何设计这种沟通.两名工人私下了解当地条件和他们喜欢的反应,而助理则了解总体项目条件。企业在职工上报前公开项目信息,选择自己的行动.透明度可改善适应性,但可破坏真实的偏好报告。当工人同意公司 生产困难",
+    "094bc1d72da58e2a1705dafd0613cf5b313feacdba55a3b20ec97a1070b2c85c": "Daybreak Red现在可用AWS GovCloud(美国东部)",
+    "c004ccd0b1ceda072fb3f9ea7db09edfbc79273f9bee663d20ee2e9ac0e61304": "Daybreak Red通过Amazon Bedrock将GPT-5.6 Cyber带给AWS GovCloud(美国东部)的核准客户,用于授权的网络安全工作.",
+    "4aaa72fe6810a098e376ac142a7312540711e642694a78ee19dba21b36ffc96f": "私人前科和成本学习的拍卖设计",
+    "46060cf56a6b3e88a62bc5d8d92f0819458ca53d876fd6eed80aa9a0bcf40c42": "我们研究两阶段拍卖,其中投标人私下了解其估值前科和学习成本,而出卖人共同设计信息获取、继续分配和支付。实现收入最大化需要筛选学习成本,同时满足跨优先奖励,有可能扭曲实验和继续分配。我们获得的收入代表包括分配的后期价值、虚拟学习成本和先前依赖的租金,并通过差异不平等来描述交叉优先奖励。我们建立最理想的存在",
+    "a5e4c0b36192375c56ffeef0e0350bfb4b0d6cd711861c9c77aafee8b9e22d8b": "DreamX:视频传播模式是一个通用的Latent动作学习器",
+    "fff2e470f73979f18dc8930e98545e396f72eb4409f929d67c961d500a43f8f3": "从录像中学习普遍的行动表现需要建立模型,在对同一行动的不同处决中保持一致,但对表现和外表的变化却无动于衷。现有的潜伏行动模型推断出视觉过渡中的行动,但其表现往往以无关的视觉变异缠绕了内在行动,限制了跨表征的转移.我们引入了DreamX,它重新将一个经过预先训练的视频传播模型作为通用的潜在动作学习者.我们的方法从视频模型丰富的闪烁中 提取出精密的潜在行动",
+    "260c095efb13157ee707f8a43837b25f9c2a7a9319b1a54d9b366de406384421": "当 Listwise删除工程时: 原因图表和完整重现",
+    "8d8c0b058a58dec3bab4834e0700ac4394a0849c036cbd7a606e52f88948ca76": "从列表上看,删除(LWD)似乎比估算更为常见:我们对主要期刊的审查发现,大约50%的文章是描述或暗示了LWD,而7%的文章是描述估算模型的。假设甲骨文回归与所观察到的所有必要值一致估计人口平均治疗效果,我们询问何时完全回归始终一致。具有持续效果,我们提供两种检查: 共变量和缺失指标是否满足增强因子图(DAG)中的调整标准, 以及估计值池是否有效的共变量内比较应用",
+    "9f096c14ca3944d60ce416d1116c4e2f26dba62424983696858d78d3a1b1ac79": "从自主代理到认知符号:走向人工智能",
+    "0e02569a5921baea0532aa5bfc5860f09ff34badff4803d569e5a4c9b710e181": "10年来,人工智能的进步是通过机器自己能做的多少来衡量的.大型基础模型现在编写代码并运行多步任务,个人特工代表个人行事.然而人们仍然忘记了自己曾经知道的事情,错过了自己不看的东西,没有找到正确的词句,在没有自身历史利益的情况下面对艰难的选择,因为能够帮助走出困境的机器.随着AI进入物理世界,注意力已经集中在一种智能个体上,即被体现的机器人;我们提出,时代o",
+    "e334d8ead20d411bae7cee12f58416646468c1e7d50acc7abfc91d07e082b667": "协议有一个时钟:计算增长和核实AI限制",
+    "9fa0c1073c6a8a4a32b999c4a0ea35a22a9c34e67fac8e990a8512eacfaa6732": "激进势力已同意限制核武器、逐步淘汰消耗臭氧的化学品和减少温室气体,尽管每项协定都难以达成。本文询问暂停边境AI的协议需要什么.追随者通过自己的研究以及领导者的传播而进步.因为扩散随着差距的缩小而消退,一个被暂停的领头人会比其原始的领先者所暗示的时间更远.解约游戏增加了自愿进入,费用高昂的监测,秘密推进,可信回应.合作是支持的,因为需要监测以遏制突围成本,但两者均不超过",
+    "8bec849fad86e40ed45670aee7db7bedc843a65ba8b743419a0371c42ecd0c46": "将语言模型与普惠制对齐:直接纳什优化的经验研究",
+    "cda14d552fa49b2aa42d4a86ae427e0f2bb517327e004299a58449573eb2efd0": "Direct Nash Optimation(DNO)通过近似双玩家偏好游戏的Nash均衡来将语言模型与一般偏好功能相配合.其实用变体DNO-Prct,迭代政策采样,基于LLM的样本评分连同教师的黄金响应,大边角偏好-派选择和DPO风格的对比性更新.我们独立地重新执行DNO-Prct,并用两个开放量级指示模型来研究它,Llama 3.1 8B Instruct和Mistral 7B Instruct v0.1,使用GPT-4o或者一个更大的开放量级模型,与注释者相同.在阿尔帕卡埃瓦",
+    "4f24ffb42027505bdaee435978edd6c51d326b1c104b6dab92b2c11204238981": "奖项、共同危害和边境速度",
+    "c06f878ee43807c0a3e14438cc6fcacf7357a242bd0cb088682104eaf5bd0858": "边疆AI实验室竞争商业领导权,同时分担灾难风险.每个实验室从更早的到达中得益,但只承受部分其速度增加的危险,本文称之为危险外部性。在一个具有说明性的校准起飞模型中,三个赛车实验室在18个月中通过起飞期,而关于研究股份的共同规则则会将其延长至69个月.单凭武力也无法解释赛车的速度取消比赛 将超过九成的灾难概率 与赛车和普通规则之间的距离",
+    "3eea5637dd2975ad97e7e69accea7bd0c1dc7e46edad32f22bc113f9ef9bade8": "禁止语言模型中的错配行为, 不可容忍",
+    "ba822e8fea47224f8e64c411e5343f2876272e8a0e4f9ac40610aad059ef4711": "不受欢迎的模型行为可以在任何训练阶段出现或重新出现.一旦观察到,我们如何能够有效地压制它们?为了研究这个问题,我们首先构建了两个模型 -- -- 语言模型 -- -- 有意训练,以展示一种特定的错位 -- --这在触发行为方面是不同的。狭小的触发机体只有在提示包含一个特定提示时才会出现行为不端:它通过遵循一个指向错误答案的植入提示在多个选择问题上作弊,并且行为正常.广泛触发机体没有这样的提示:经过微调后,",
+    "5e92406bc4b33d44636159197fb040e93d66fdcd0d6adda2bd2bce36e1ca83a5": "跨市场生产性投资的最佳补贴设计",
+    "c80b66bef7b984a2766689c0cb09a12e6a9632afd8e621f4721e72e59ac01db5": "我们研究对不同垄断市场的投资补贴的最佳设计,但需遵守共同预期的折扣预算。每个生产厂商都面临常规的一维需求扩散,并通过一个单一的片面控制问题选择不可逆的能力扩张.监管机构对加权消费者盈余、生产者利润以及安装能力的额外好处进行估值,同时核算筹集公共资金的超额成本。我们描述生产者通过自由边界作出的最佳投资反应,并重新制定监管机构的灵活做法。",
+    "a4420a58630d6d47c7af762538ecb3fb3d6fffd3fa6867a3176a163feb38c1b0": "校对:Feneral-Measure attention with Exactly Word evidence on Light and Qubits (原始内容存档于2018-09-21) (英语).",
+    "b7b50fda8cd1885f6b0e4c1af63c074a985213b4e38c929dfb52a0b0fe180604": "当一个语言模型回答时,我们通常只能估计原因.我们建造一个变压器,其中每个步骤都是天生的测量 - 注意每行正常的$|\\langle q|k\\rangle 4$,一个量度产品代替饲料前向的非线性,以及天生的读取.其分母为输入值,每个类概率都是振幅词中的一种多元性,所以其综合渐变的证据是由一个没有四进错的有限四进制计算出来的:词对类概率的贡献总和高于其无信息份额,为10^{-11}美元或下注",
+    "b0bb95d07e88477879b586187fd5e3701c86795fb72d94784d6b4866b0d21373": "GEP:资产回报小组概率因素模型",
+    "5f38a876bbd6512bfee5780acec39fa330ad01b8a7518c32bca7c032bd5f4a1d": "我们开发了GEGP,这是大型股票收益板的有条件要素模型,其中确定要素装载的确定特征和经济条件决定预期要素。这两种关系都与高斯进程前身有非参数关系。内核选择嵌入了仪器主元件分析(IPCA)以及平滑的非线性地图.特定资产装载创新和共同要素创新将特殊风险与系统性风险区分开来,因此一个估计模型预测了预期收益及其共性矩阵。估计使用稀疏的va",
+    "fd7e5e5107eb923bb594fe1abf28b4b0e0e2fabf096d23910f38ee887deb8cd2": "横向投机性理由改进长视野代理人",
+    "49cc0a59f354a388d7b43349468055d5cb5a12a3da81a73c19669d92ef0b4498": "光谱解码被纯视为一种系统优化,可以加速大型语言模型解码而不改变模型行为.根据这种观点,培训更好的模型草稿的日益努力只侧重于接受率。我们争辩说,这种观点对于长远的代理人推理是没有道理的。以不同的投机解码方法测量复杂代理任务的前沿开放量模型,我们发现数字噪声在核查窗口内增长,思维过程的接受结果草稿可以改变输出散点",
+    "0c6a8f2925156cfe88b91deab8ecb73d384ad9500ed1cc7037bef9b035957883": "对比特币法证学的椭圆++:特性重建与漏损反应评价",
+    "30f3138b67edcf27a728830b325324ec37a37a47f1918a4ce83414a527f68e82": "椭圆及其地址级扩展椭圆++在比特币法证学中被广泛使用的基准数据集,Google Scholar认为有超过1300项学术研究引用.我们在椭圆++中识别未来信息泄漏.其位置数据分割不尊重时间顺序,其地址层特征的确切定义仍然没有记录.我们重新审视55个椭圆++地址级特征如何计算,并提出防渗漏的管道。首先,通过将椭圆交易与公共分类账数据联系起来来回收准确的特征定义.第二,我们合作",
+    "b14ed68cf65471ab89671c4b3b6f3e4999977c534c0c1456815e058d60724ccb": "内文学习的电路",
+    "9fe8a744dd5654939d0f09efef56c4d48ce60bf77838e95b32e6262a341af336": "in-context学习(ICL)让一个预先训练的语言模型在它的即时执行演示指定的任务,没有参数更新.有了任意的标签,模型必须获得一个它无法记住的映射,所以学习发生在一个单一的前传中.以前的工作找到了候选部分,但没有找到其组成方式。我们给出了几发的句子的成分分类,在三个3-4B参数变压器中带有任意的标签.该模型在标签脚本位置上执行密钥值内存:每个标签符的剩余流编码标签的身份,中间",
+    "c4e2d42a462fb75f1dd325ffb28feb8ec4aba08988c940a658ed6b5c3f7bfe36": "实验验证数字双子:评价大数据时代劳动力培训计划.",
+    "4bc19073ca91ff370b5c3d6315f87a2987c1aa39258997bfa7c7aae062e0d6e0": "现代程序评价优先考虑随机控制试验(RCT)的证据,因为先前的研究发现,对程序影响的观测估计往往与实验基准有很大差异.在大规模行政数据的时代,我们重新审视了这个基于小型调查数据集的调查结果。利用1999年至2025年期间覆盖所有美国成年人的匿名所得税记录,我们通过使用机器学习模型来预测来自以往工作历史的丰富数据的反事实,估算劳动力培训方案对收入的影响。",
+    "b9ba2b404c353cc798cfb96a3490d2c37db4de3e4d4d9623cc7c9571c1dcb2b0": "用于审计临床决策网络的重量空间编程",
+    "91d4b84364f383cbe2707bc5bbac374fb5b365e310c9c5083cfe8fb4aac57231": "放射治疗中的机器学习模型是通过对已知答案的病例进行测试而委托进行的,这可能不会揭示出测试案例与培训数据共享的捷径.最近有报道称边疆语言模型读写小神经网络的原始权重,这种能力称为权重空间编程.这项研究的目的是确定这样一个模型,只有临床协议和网络的权重,才能对网络进行审计和维修.培训了433至4 801个参数的网络,以对照fou筛选头颈规划请求",
+    "6f04087d560c10b67578e3097fb712d1ba82b6cd02e5d4a55de47c2387893927": "核查中心",
+    "15940833c69121407ee741eb88e56630937d4fee33d10e84824a4c94929b4569": "本文研究了基因AI如何通过降低研究生产成本,在同行评审的一般-均衡模式中影响科学核查.私人知情研究者选择可观测产出,编辑者最佳地分配审查深度,审查者根据其预期的科学贡献提供时间.成本高的输出有助于筛选研究质量,更便宜的制作使得较弱的研究人员更容易模仿较强的研究人员。超越技术门槛,即使在最佳编辑决定下,审查员的能力和经核实的知识也微弱下降,",
+    "ac520d2cc8c288519e69758d2baa7eff4cc83875af4af6fe450796358e2be55e": "MedPhys Bench:评估医学物理计算和误差检测语言模型的基准",
+    "197f88d9f3a77c8949dd6c91c7a7b149ec46891ee40d794fb02ba3bf883484e1": "医学物理学家将处方转化为送药剂量,并检查对方的计算结果,因为光束校准或监视器-单元(MU)计算中的一个错误可以影响用它治疗的每一个病人.MedPhys Bench在辐射治疗,诊断成像,核医学和辐射防护方面拥有10个计算项目的种子发电机,最多可完成TG-51校准工作表等临床任务.引用答案来自执行规范协议的代码,一个分级器转换单位并应用容限带.从相同的输入中单独检查项目",
+    "1c1b398bfb5580f3a9fae440cb22836f24519688df96a29e1998a9af13755aa5": "杠杆ETF的成本和效益",
+    "b2135c4609bdf903fed045e7400abdfe016bb6639a8c313a24bf734ab04fb869": "我们研究以杠杆方式利用的ETF的成本和效益,重点是业绩的五个决定因素:波动性拖拉、收费、融资成本、产品推出和市场时机。长期大股权指数LETF创造了超过1,000亿美元的投资者收益,其中包括由于结构风和市场上升,与基础资产相对的400多亿美元的实际投资。不过,在波动和过去收益分配的顶端附近,对库存推出了单一库存的ETETF。这满足了类似彩票的零售需求,",
+    "ee04a0a91dac40000b4a594bea041cf24f71f31e71c2537552000ec15a164775": "一种简单的适应性加速乐观的双重平均方法,用于在$p$-Norm几何学中不受约束的对流优化",
+    "aaf38921ee56956777f8a035339a9615983c1a3b8480887c621b14de5a1c4770": "高效的先决条件化在大规模一阶优化中发挥着重要作用.在本文中,我们提出一种适应性加速乐观的双平均值方法(\\text{A}^2$ODA),用于不受约束的对流优化,采用基于$p\\n[2]美元按标准几何计算的低成本先决条件。这种方法是无线搜索的,并采用了一种基于聚合的亲缘下型模型的新的阶梯化选择技术.它的更新结构在$p\\in[2,\\fty]$之间简单而统一,该案例$p2$不需要比Euclidean案例$p=2$更详尽的更新.在一个g下",
+    "dd63126832379de3bfd16f7b82bc1d5b60f1ecc217e79a1bea10be5210b71b7c": "设计语言模型模拟外散射人类行为的行为简介",
+    "4827690350f47b2ee8fa311aa83655266880507bf755263c155bca3cacc02a53": "大型语言模型(LLMs)越来越多地用于模拟人类行为,但在实验设计改变时,对人的描述会改善预测.我们开发了一个框架,从文献中汲取候选行为特征,构建早期人类实验的剖面.一个基于 LLM 的配置生成器从观测到的动作,消息,和调查中指定特征值;一个单独的 LLM 模拟使用这些配置的行为.通过比较培训数据中的模拟和观测结果,我们通过前传特性selec选择剖面内容",
+    "f911d89a30a758584495a9ee3d80a1b5b7ce5475c352384fdcb0589f828b71b2": "PyRUA-DataFarm: LLM 代理作为 Real-Ready Robot 数据的成本效益高的远程操作器",
+    "4ca58c768a5e15b8aae78b8866c234ee1024520193d6ee9fe458b7c9d1cd1c34": "Teleoperation仍然是收集机器人演示的默认方式,但每集都花费机器人和操作员的时间,每个新任务都从零开始.我们问一个编码代理能否接管电信操作员的工作.在我们的DataFarm中,代理接收了目标场景中机器人的数据请求和一个校准插曲,并在模拟中重建任务:它写出场景,专家控制器,以及成功的裁判.模拟器提供精确的动作,一个以真实图像为条件的视频模型使每个视频都作为摄影视频推出,生成所有相机视图 toge",
+    "5df7f995e95e3966fcde2728289017d439bae9bea52c599734c37ff7f329aa32": "欧洲央行工资跟踪显示,2027年头三个季度的工资增长略高于2026年全年。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -16573,6 +16650,291 @@
     "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer": {
       "checkedAt": "2026-11-04T06:57:38.645801+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5"
+    },
+    "https://openai.com/index/openai-to-acquire-pierre": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://buffer.com/resources/retiring-start-page/": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "As Buffer has continued to support the individuals, creators, and small and medium businesses who use us, we've had to balance being a relatively small team with making tough decisions.We've had to make one of these recently. After careful deliberation as a team, we've decided to retire Start Page. If you've built a Start Page with us, thank you.Creators, small businesses, and nonprofits have used it as a front door to their work since 2021.Many of our customers were just getting started with t",
+      "image": "https://buffer.com/cdn-cgi/image/width=1920,quality=75,format=auto/https://storage.ghost.io/c/6d/21/6d217297-aa70-41fe-b68d-e29e411dd3ed/content/images/2024/02/Instagram-story-schedule.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://buffer.com/resources/retiring-start-page/"
+    },
+    "https://arxiv.org/abs/2611.05342": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.05342v1/figures/paper_direct_integer_mass_by_integer.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.05342"
+    },
+    "https://sspai.com/post/117713": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "选型选得好只是锦上添花，最终还是要先把用户最真实的需求解决好。",
+      "image": "https://rssfile.sspai.com/2026/10/28/ad7ee23cef6c04906e3a9c7521816d13.png?imageMogr2/auto-orient/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/117713"
+    },
+    "https://www.ithome.com/1/022/432.htm": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "字节跳动旗下 AI 开发平台“扣子”发布公告，正在推进企业级服务的产品整合升级，并规划后续可供企业客户选择的产品和套餐方案。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/022/432.htm"
+    },
+    "https://w2solo.com/topics/8678": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8678"
+    },
+    "https://arxiv.org/abs/2611.05227": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05227"
+    },
+    "https://w2solo.com/topics/8677": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8677"
+    },
+    "https://arxiv.org/abs/2611.05221": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05221"
+    },
+    "https://arxiv.org/abs/2611.05188": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05188"
+    },
+    "https://arxiv.org/abs/2611.05110": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05110"
+    },
+    "https://www.qbitai.com/2026/11/507586.html": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "仅激活3B参数，十项基准全线提升！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/8260f893c11ef2f7091cf94c37e9073d.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507586.html"
+    },
+    "https://arxiv.org/abs/2611.05092": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.05092v1/figures/simp-new-cycle-refinement.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.05092"
+    },
+    "https://www.qbitai.com/2026/11/507574.html": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "一场别开生面的具身智能科技盛宴",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/9d3ed999ec915c5eb98acd80946ba09e.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507574.html"
+    },
+    "https://arxiv.org/abs/2611.04859": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.04859"
+    },
+    "https://www.qbitai.com/2026/11/507567.html": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/3f77a6b0d818e7de1ec7abfbddb3c3b3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507567.html"
+    },
+    "https://arxiv.org/abs/2611.04686": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.04686"
+    },
+    "https://openai.com/index/daybreak-red-aws-govcloud": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://arxiv.org/abs/2611.04643": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.04643"
+    },
+    "https://arxiv.org/abs/2611.05377": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.05377v1/concept_figure_final.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.05377"
+    },
+    "https://arxiv.org/abs/2611.04366": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.04366v1/figures/dist_plot_mediator.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.04366"
+    },
+    "https://arxiv.org/abs/2611.05376": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2611.04272": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.04272"
+    },
+    "https://arxiv.org/abs/2611.05373": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05373"
+    },
+    "https://arxiv.org/abs/2611.04266": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.04266"
+    },
+    "https://arxiv.org/abs/2611.05358": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05358"
+    },
+    "https://arxiv.org/abs/2611.04205": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.04205"
+    },
+    "https://arxiv.org/abs/2611.05355": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.05355v1/overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.05355"
+    },
+    "https://arxiv.org/abs/2611.04040": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.04040"
+    },
+    "https://arxiv.org/abs/2611.05345": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05345"
+    },
+    "https://arxiv.org/abs/2611.04000": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.04000v1/lineage.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.04000"
+    },
+    "https://arxiv.org/abs/2611.05344": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.05344v1/fig12_reader_rows.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.05344"
+    },
+    "https://arxiv.org/abs/2611.03938": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.03938"
+    },
+    "https://arxiv.org/abs/2611.05341": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05341"
+    },
+    "https://arxiv.org/abs/2611.02265": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.02265"
+    },
+    "https://arxiv.org/abs/2611.05340": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.05340v1/fig_calc.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.05340"
+    },
+    "https://arxiv.org/abs/2611.01392": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.01392v2/letf_perf_vs_predicted_vol_2x.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.01392"
+    },
+    "https://arxiv.org/abs/2611.05334": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.05334"
+    },
+    "https://arxiv.org/abs/2611.00661": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.00661v2/arxiv_assets/figures/figure1_design.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.00661"
+    },
+    "https://arxiv.org/abs/2611.05320": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.05320v1/fig1-teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.05320"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html": {
+      "checkedAt": "2026-11-04T16:12:59.421396+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/press/pr/date/2026/html/pr261104/ecb.pr261104.en_img0.png?aea097ad5f742cfea35905e5b4d40b5a",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html"
     }
   }
 }
