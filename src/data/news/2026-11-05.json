@@ -2712,7 +2712,7 @@
       "category": "产品设计",
       "kind": "设计社区文章",
       "title": "Everyone’s got a quick question",
-      "summary": "And you shouldn’t have to answer them all. Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know where things live, why a decision went the way it did, and who to ask when you’re stuck. If you’re on a team, you’ve probably messaged yours today. 😏 In Radical Candor , Kim Scott calls the steady, dependable people a team is built on its rock stars. Our team has a few too many sports fans, so we call ours the GOAT: the greatest of all time. I lead a remote design team of fifteen, and a lot of the team’s quest",
+      "summary": "And you shouldn’t have to answer them all. There’s an interactive version of this story. Explore it → Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know where things live, why a decision went the way it did, and who to ask when you’re stuck. If you’re on a team, you’ve probably messaged yours today. 😏 In Radical Candor , Kim Scott calls the steady, dependable people a team is built on its rock stars. Our team has a few too many sports fans, so we call ours the GOAT: the greatest of all time. I lead a r",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "UX Collective",
@@ -2733,7 +2733,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "每个人都有一个快速的问题",
-      "summaryZh": "你不应该回答所有的问题。经常在我的信箱里问问题 重现了我成为了团队的搜索引擎 每一个团队都有个人联系。他们知道生活在哪里,为什么决定会变成这样,如果你在团队中,你可能已经发了你的留言。在激进的坎多尔,金·斯科特称稳定,可靠的人是一个团队建在它的摇滚明星上.我们的球队有几位太多的体育爱好者,所以我们称我们为\"GOAT:有史以来最伟大的\".我带领一个15人的远程设计团队 以及团队的许多探索",
+      "summaryZh": "你不应该回答所有的问题。这个故事有一个互动版本。探索它 – 在我的收件箱里经常问问题,重新创建.我成为了团队的搜索引擎 每一个团队都有个人联系。他们知道生活在哪里,为什么决定会变成这样,如果你在团队中,你可能已经发了你的留言。在激进的坎多尔,金·斯科特称稳定,可靠的人是一个团队建在它的摇滚明星上.我们的球队有几位太多的体育爱好者,所以我们称我们为\"GOAT:有史以来最伟大的\".我领导一个R",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2765,7 +2765,11 @@
       "summaryZh": "欧洲中央银行是采用欧元的欧洲联盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定,从而保持单一货币的购买力。",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
-      "translationModel": "argos-en-zh-1.9-ct2-v1"
+      "translationModel": "argos-en-zh-1.9-ct2-v1",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "imageAlt": "原文配图：Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+      "imageKind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
     },
     {
       "id": "feed-d6f8534e0e4ef3d0e150",
@@ -2794,7 +2798,11 @@
       "summaryZh": "欧洲中央银行是采用欧元的欧洲联盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定,从而保持单一货币的购买力。",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
-      "translationModel": "argos-en-zh-1.9-ct2-v1"
+      "translationModel": "argos-en-zh-1.9-ct2-v1",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "imageAlt": "原文配图：Piero Cipollone: Shaping the future of money",
+      "imageKind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html"
     },
     {
       "id": "feed-bb96f0cd0673f507cd23",
