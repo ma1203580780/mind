@@ -3292,7 +3292,17 @@
     "1c29a509380329f4f4bea52d57cda12d5df8670dcc377d91d356c9fa9861355d": "引入图像 2.6",
     "eb2489d5e209461c1167f13818760d5a11d4e3450fa360451dcc6d89dec0172d": "图像2.6带来了更快的图像生成,GIF创建,更精确的编辑,以及跨越ChatGPT,Codex,和API的新API控制.",
     "71f65ad78a3e56aed7de3e128ad3fc212c533178f57fb65d28ece631e4e8e84f": "DevRev提供与GPT-6.1 Sol的自主自助服务",
-    "0a9a565c88b43f5a6ce553cae866bc02e91b74fadd5fed1146bfa28a0cc508b3": "DevRev使用GPT-6.1 Sol为计算机和操作器提供动力,平衡推理,速度,以及企业服务的成本."
+    "0a9a565c88b43f5a6ce553cae866bc02e91b74fadd5fed1146bfa28a0cc508b3": "DevRev使用GPT-6.1 Sol为计算机和操作器提供动力,平衡推理,速度,以及企业服务的成本.",
+    "3e701181f020a1add96d138692145ec4ba4f7639e43d56d5a922d988372839a0": "由数字设计:AI是破坏UX还是只是将汽油倒入大火?.",
+    "d78062c4d34cd5bb3bc903c8d4233f29a5908ee871b0dd4fc7177c70b917195f": "似乎每个人都在问AI是否会取代UX设计师.我认为这是错误的问题。电脑历史博物馆和IEEE Spectrum于2025年3月就一个问题展开辩论:当一个大语言模型回答你时,它是否理解这个词的意思,还是只预测下一个词是什么?华盛顿大学语言学家Emily Bender认为,事实上,她有一个名字这些系统: Stochat",
+    "bd19b8565e6fd6694ff1239f99026bd83af521bc0046d0984bf1918754619926": "每个人都有一个快速的问题",
+    "66d2191d2cd9420758fb45f24ac34a9c6a22d943851018c39f9a204d578c564d": "你不应该回答所有的问题。经常在我的信箱里问问题 重现了我成为了团队的搜索引擎 每一个团队都有个人联系。他们知道生活在哪里,为什么决定会变成这样,如果你在团队中,你可能已经发了你的留言。在激进的坎多尔,金·斯科特称稳定,可靠的人是一个团队建在它的摇滚明星上.我们的球队有几位太多的体育爱好者,所以我们称我们为\"GOAT:有史以来最伟大的\".我带领一个15人的远程设计团队 以及团队的许多探索",
+    "59b152b5865408f5b89cc1544a3185a19ee61436ea9d1a32ab38140e51c585af": "伊莎贝尔·施纳贝尔:航行风暴水域:对货币政策的思考",
+    "fa495b5cd613d79a492fac99c74e87ab3f27243b2b46431396e5538344d69cb3": "皮耶罗·西波隆:塑造钱的未来",
+    "275d71decf219f168d9b20b1f040f03c355e4105190e1896121f261759abe817": "为负责任的AI基础设施制定新标准",
+    "fc9aeef58eb119a3af2259baee2f4e67cdc04e798f043888517e30653c48068d": "OpenAI介绍其国家社区契约并计算校园政策蓝图,以保护当地资源,创造就业机会并指导负责任的AI基础设施的发展.",
+    "ce48f12ee3311996fe133bf761abd8f22e66d7de50fa271d1cc894fd6a01a64e": "仔细看看菲能TTS推出\"超越基准的高品质在线演讲\".",
+    "f6755a419f25740131ae951f6f4c2320e447a50be224d2a05b9d33ec594220a0": "型号:为 Quen3.5 (# 19400) 添加 MiMo V2.6 渲染器"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -17060,6 +17070,101 @@
     "https://openai.com/index/devrev-enterprise-self-service": {
       "checkedAt": "2026-11-05T02:44:23.740980+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://solo.xin/topic/6176": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "一个假设场景：你做了一个在线清单，用户改完名称，右上角出现两秒“保存成功”。视觉上似乎交代清楚了，但如果用户正在看页面另一端，或用读屏软件操作，这条信息是否被接收到，仍然没有答案。 这篇讨论的是设计方案，不是我的线上实验或用户调研结果。我的建议是：先写清楚每种操作结束后用户需要知道什么，再选 toast、行内文本或弹…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6176"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105_1~5e97d9d5a0.en.html"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261105~6495a0df6f.en.html"
+    },
+    "https://www.ithome.com/1/022/958.htm": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "面对全美各地针对数据中心耗电、耗水及噪音等问题的强烈抵制，当地时间 11 月 5 日，OpenAI 发布《国家社区契约》与《算力园区政策蓝图》。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/022/958.htm"
+    },
+    "https://www.ithome.com/1/022/917.htm": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "诺基亚预测，到 2035 年，人工智能将驱动全球约 44% 的网络流量，全球月度网络总流量将较 2026 年增长近四倍，达到约 3,789 EB（艾字节）。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/022/917.htm"
+    },
+    "https://www.qbitai.com/2026/11/507787.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/2085b54e37f1b8dca4da3690df8c0ee1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507787.html"
+    },
+    "https://www.qbitai.com/2026/11/507782.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "spaCy作者长文炮轰",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-17.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507782.html"
+    },
+    "https://www.qbitai.com/2026/11/507767.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "像雇人一样雇机器人",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/6c81a6212f1cea9ff49d468743050e2d.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507767.html"
+    },
+    "https://www.qbitai.com/2026/11/507696.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "Data + AI 技术实践巡展 · 上海站",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/4efee08b3f1218512c60cf78c09dcce1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507696.html"
+    },
+    "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/11/507707.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "最快6秒出图",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/348f58a752b8514ee846f78006e6dcc2.gif",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507707.html"
+    },
+    "https://www.qbitai.com/2026/11/507697.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "被轰成筛子了…",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-13.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507697.html"
+    },
+    "https://www.qbitai.com/2026/11/507688.html": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "11月2日，2026年世界互联网大会领先科技奖收录成果集《科技之魅》正式对外发布。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d34130c2896a07d32f186f122a97a8fb.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507688.html"
+    },
+    "https://huggingface.co/blog/phonon-tts": {
+      "checkedAt": "2026-11-05T12:12:09.900870+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/phonon-tts"
     }
   }
 }
