@@ -3263,7 +3263,36 @@
     "4827690350f47b2ee8fa311aa83655266880507bf755263c155bca3cacc02a53": "大型语言模型(LLMs)越来越多地用于模拟人类行为,但在实验设计改变时,对人的描述会改善预测.我们开发了一个框架,从文献中汲取候选行为特征,构建早期人类实验的剖面.一个基于 LLM 的配置生成器从观测到的动作,消息,和调查中指定特征值;一个单独的 LLM 模拟使用这些配置的行为.通过比较培训数据中的模拟和观测结果,我们通过前传特性selec选择剖面内容",
     "f911d89a30a758584495a9ee3d80a1b5b7ce5475c352384fdcb0589f828b71b2": "PyRUA-DataFarm: LLM 代理作为 Real-Ready Robot 数据的成本效益高的远程操作器",
     "4ca58c768a5e15b8aae78b8866c234ee1024520193d6ee9fe458b7c9d1cd1c34": "Teleoperation仍然是收集机器人演示的默认方式,但每集都花费机器人和操作员的时间,每个新任务都从零开始.我们问一个编码代理能否接管电信操作员的工作.在我们的DataFarm中,代理接收了目标场景中机器人的数据请求和一个校准插曲,并在模拟中重建任务:它写出场景,专家控制器,以及成功的裁判.模拟器提供精确的动作,一个以真实图像为条件的视频模型使每个视频都作为摄影视频推出,生成所有相机视图 toge",
-    "5df7f995e95e3966fcde2728289017d439bae9bea52c599734c37ff7f329aa32": "欧洲央行工资跟踪显示,2027年头三个季度的工资增长略高于2026年全年。"
+    "5df7f995e95e3966fcde2728289017d439bae9bea52c599734c37ff7f329aa32": "欧洲央行工资跟踪显示,2027年头三个季度的工资增长略高于2026年全年。",
+    "f4ddeef669f494c353447d00220dbab5bea02dcd6107f68995e482e48ee6b8db": "由于Buffer继续支持那些利用我们的个人,创造者,以及中小企业,我们不得不在作为一个相对较小的团队与做出艰难决定之间取得平衡.我们最近不得不做一个。作为团队仔细考虑后",
+    "67309b78c135b6b0236d8435e93e4a6436243ef22e91a5854df5a8f6beb12540": "伟大的艺术解释追踪了亨利·马蒂斯(Henri Matisse)的\"红色工作室\"的不可思议的故事",
+    "0ddea2a3d954464cced2933670ec4d975736ff9b8c1907f658c8daf23fcaf35b": "艺术史学家詹姆斯·佩恩(James Payne)的纪录片短篇描写了范式变迁画的历史.",
+    "1dee62624e53f49a5919066227ef6f3ca361e647c33350f708eb7396687c9450": "v0.40.15-rc1:lama.cpp:版本凸起b12111(#19530)",
+    "5d436d5f72943cf2d7d6a2d6d347e90b4ee8a62d143c697d104c1cd2ff41fb90": "放下002-金属-unary-cast-constexpr.patch:由上游固定取代",
+    "cb7a71e73b730f929c2eb8ac8e0fd62d16526792fff9e54b41fe2fa8980b05f6": "社交媒体最佳MCP服务器:每星期使用8Tool Stack I作为创建者",
+    "007f806845dd03d58ec397f058d96748c37d540e5f094a83c1c34edc6124bb0c": "在文章中,",
+    "41412ff1a4c0aaf2a3778045a0060b9c403f77019ed03e59d72c4351e8ad220a": "阿米纳·布伦达·林恩·鲁滨逊的书和娃娃庆祝黑人社区",
+    "bf5b38487a73194ae4687a897098e978fe49b047216e113d8a60cc7326d0f99f": "本月晚些时候,甘塞沃特堡赠送了后期俄亥俄州艺术家的25部作品\"Beaded and Bound\".",
+    "e594565eee6fb35eb17790435202aff736c474d424206f7b3890e1248731a8e3": "长链-核心=1.7.6",
+    "4c9eb9a4bdf071e8c04c118575e05a28e186a9e073e5e3dac6d9e533f8517bae": "自 langchain-core ==1.7.5 发布(core): 1.7.6 (# 41198) perf(core):当积累可运行流时合并一次流动的 AIMessageChunk s(# 41697) perf(core): 停止 parse_partic_json 一次重试一个字符(# 41467)",
+    "b87aaa8e1c2f3a7637bf9b378e21d0cb94be188ebeb517c7b4b8af78d62772b7": "连锁消防队 = 1.7.2",
+    "0439144b9abb8940abf8a42e3531786e56284aa0774ece45b52ff0be912a0410": "自 langchain-Fireworks == 1.7.1 fireworks(fireworks):一次报告流纹符号使用(# 41693)发布(fireworks):1.7.2(# 41690)固定(fireworks):在响应元数据中报告服务模型(# 411686)chore(profile):刷新模型剖面数据(# 41669) fire(fireworks):促进重新排出β(# 41551)chore(profile):刷新模型剖面数据(# 41432)chore(以下):放松第三方依赖性上限(# 41407)chore(profile):刷新模型剖面数据(# 41354)crore(deps):2025.8.3至2026.10.19在/libs/partners/fireworks中的凸起certifi(英语:",
+    "f3ac7b0ff576421f573d104a7cb9cab1b22586fa383cd781691aa56cd885e6b0": "自 langchain \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\",
+    "1cc1c10d90d71b9138416c9e5f9a7bbd2ef1020c987a64e74d456f1d961e031a": "(原始内容存档于2018-09-26) (英语). Langchain-openai = 1.7.4",
+    "e4b6718b1743f70d16c4e37c054a79d0d6e5e077d3db44820a5776ea06657144": "langchain-openai == 1.7.3 发布(openai): 1.7.4(#41683)chore(deps):要求langchain-core=1.7.5 拒绝处理(#41682) feat(core):标准化模式拒绝内容块(#41582)chore(模式- profile):更新模式配置数据(#41556)",
+    "4aa444f9845d09ec194a6478a8e57208282c1f2b418bf45d905037ecc9987422": "在一个恐慌,平静和确定的世界中赢得了胜利",
+    "37e2fa404218db81ff80a7618b2f0106b8e65285fe4a54c7285fd0b338df4cd3": "你可以害怕未来或者帮助建立未来经历过这件事的人已经选择了虽然对AI的恐慌 意味着我们行业的反射现在,平静是一个决定。从了解你所了解的事物而来的镇定,是你能给这样的时刻带来最罕见和最宝贵的东西.我最近才满50岁,这让我思考。而不是在令人困扰的戏剧性, 凝视的窗外的方式,但以一种内向的方式,",
+    "d14be60ae9bc5d4bb4190506e294ebbc4e5b538f5f3b4ce2cfb0186036491c36": "AI可以生成接口.是什么让它值得关心?",
+    "b805c57c6c9077ab4b976fab93ccfcf6de3c63be1888625f3ccdeea25bb14039": "由于更多产品工作是由共享模式产生的,设计者需要决定一个经验应该在哪里出其不意,庆祝,或者干脆离开一个人.想象一下,请求一个AI工具来设计任务完成状态.结果有一个检查标记,一个友好的信息,以及一个小爆发的孔雀.它使用正确的组件。间隔与系统匹配.动画被抛光.现在想象一下,经过两个不同的任务之后,同样的反应。一种情况是,有人完成了他们数月来试图创办的企业。在另一个,管理员更新了第四十七号",
+    "55c1fa584077ade843d5f7ca0bb2561d57df3423b7371222311ad72a950a063d": "AI在设计系统上的变化, 和仍然由我们决定",
+    "2f1db2dddc2a8417631f67d2a97bf7506e8349735c6a34088edaf6e714c370f9": "三位设计专家告诉我AI是如何改变我们构建和维护设计系统的方式的.让我想到,“未来”现在已经发生。在AI时代,人类在创建和维护设计系统方面扮演什么角色?功劳:安娜·勒福与双子座.你可能读过、甚至写过LinkedIn的一篇文章,或在15分钟内与双子座.或者...你懂这个意思这些文章让我好奇。我从来没有建造一个完整的设计系统,虽然我已经设置了一个基本元素 之前,我真的",
+    "0f65636e80d6c59cef326290e1646f6e924873863502a702f9fb4f19ecc33e1e": "Dharma 字段提取器: JSON 中的任何文档,结构化字段",
+    "cc15679200e0737ac23f2c0f3b15bbc0657a97791bbae3d4cb1a4a22b7782208": "一千条更少的根路",
+    "4b635b0e3d9f16a1204d9ed5b2ab55247ec5fee3f6309101fdb781a090319ebb": "OpenAI在Linux内核中为948个本地特权升级漏洞建造了一条自主管道,找到,验证,并生成补丁.",
+    "1c29a509380329f4f4bea52d57cda12d5df8670dcc377d91d356c9fa9861355d": "引入图像 2.6",
+    "eb2489d5e209461c1167f13818760d5a11d4e3450fa360451dcc6d89dec0172d": "图像2.6带来了更快的图像生成,GIF创建,更精确的编辑,以及跨越ChatGPT,Codex,和API的新API控制.",
+    "71f65ad78a3e56aed7de3e128ad3fc212c533178f57fb65d28ece631e4e8e84f": "DevRev提供与GPT-6.1 Sol的自主自助服务",
+    "0a9a565c88b43f5a6ce553cae866bc02e91b74fadd5fed1146bfa28a0cc508b3": "DevRev使用GPT-6.1 Sol为计算机和操作器提供动力,平衡推理,速度,以及企业服务的成本."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -16935,6 +16964,102 @@
       "image": "https://www.ecb.europa.eu/press/pr/date/2026/html/pr261104/ecb.pr261104.en_img0.png?aea097ad5f742cfea35905e5b4d40b5a",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261104~caf181d7ac.en.html"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.15-rc1: llama.cpp: version bump b12111 (#19530) · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6"
+    },
+    "https://solo.xin/topic/6173": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "一句话简介：AI一句话生成商家、企业，小程序，平台兜底技术售后，拓客拿算力续费分成 正文： 很多线下实体老板想做小程序，痛点很集中：定制开发贵、上线周期长、后期没人维护。 小码力AI，用自然语言就能快速生成微信小程序，餐饮、零售、美业、民宿、企业，生产，研发，科技，金融，技术等都能落地，不用写代码。 🤝合作模式 平…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6173"
+    },
+    "https://sspai.com/post/118498": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章国行Apple智能上手：这些功能已经 ...",
+      "image": "https://rssfile.sspai.com/2026/11/5/article/7da34c32-d0ed-a54b-9510-7100c366469a.png?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/118498"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-04/": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "AgentKit by Scalekit：MCP网关为生产代理提供服务，代表您进行操作。；Teamily AI：你的个人助手、团队和联系人都在一个消息应用里。；Testifly：自动化人工智能质控。无需提示，无需维护。；Synter Canvas：你的人工智能代理在30多个广告平台上投放广告。；Videco：利用人工智能将每个视频转化为内容营销活动",
+      "image": "https://decohack.com/producthunt-daily-2026-11-04/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-04/"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4"
+    },
+    "https://www.ithome.com/1/022/525.htm": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "2026 美国中期选举结果出炉，AI 数据中心扩张遭重大地方阻力：76% 受访选民反对在自家社区建数据中心，45 项相关地方公投中 33 项支持限制开发，多地出台用电规模禁令或停工政策。#AI前沿#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/022/525.htm"
+    },
+    "https://www.qbitai.com/2026/11/507675.html": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "薪资+期权不限！实习生也能训核心模型",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/cfd280a2d1d7ea55f589951828daacd3.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507675.html"
+    },
+    "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "A Blog post by Dharma-AI on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+    },
+    "https://www.qbitai.com/2026/11/507647.html": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "description": "连路人都有自己的想法",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/a9821487ec9475a3bff3177e9820b2c6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507647.html"
+    },
+    "https://openai.com/index/a-thousand-fewer-paths-to-root": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/introducing-images-2-6": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/devrev-enterprise-self-service": {
+      "checkedAt": "2026-11-05T02:44:23.740980+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
