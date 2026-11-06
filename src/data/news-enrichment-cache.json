@@ -3379,7 +3379,30 @@
     "85d06000d96512f1104f64c5615d1d2cba74ed32e7b9f5f1c0eaf1dd22758243": "Hopfield神经网络和不合作游戏提供了看似不同的方法来理解如何从当地互动中产生集体结果.在神经网络中,单个单位根据本地信号来调整状态;在游戏中,玩家选择动作来最大限度地实现个人回报.我确定了对称二进制Hopfield网络和二进制动作游戏的精确等同性,承认了四进制的潜力.等同性确定具有纯战略的 Nash 等离子的稳定的网络配置,以及具有最佳反应动态的同步神经更新",
     "73cea4924bf276d8f9db82d3b3efc07778c282a2dea4694be27a97e4ae45e318": "Server Bench:你的编码代理如何设计专门的LLM服务系统?",
     "4c3125aa3f15f458b9f4b6fc092d5e069530b8e8f21562769b83c07c38a4498b": "大型语言模型(LLM)编码代理通过实验开发软件,为设计支持自身操作的服务系统提供了机会.有效服务要求根据会议依赖性、延迟制约和正确性要求协调执行和业务决定。我们引入了Server Bench, 用于对完整,专门的LLM服务系统进行代理设计的基准.代理人实验,对照一个共同目标,美元兑一美元:耐久性合格证值每美元GPU成本.状态重放保存会话的依赖性, a",
-    "3ef204040afac22d4441c2ac0389bae7dff8fadca67d85f3fade2599a1294e07": "你不应该回答所有的问题。这个故事有一个互动版本。探索它 – 在我的收件箱里经常问问题,重新创建.我成为了团队的搜索引擎 每一个团队都有个人联系。他们知道生活在哪里,为什么决定会变成这样,如果你在团队中,你可能已经发了你的留言。在激进的坎多尔,金·斯科特称稳定,可靠的人是一个团队建在它的摇滚明星上.我们的球队有几位太多的体育爱好者,所以我们称我们为\"GOAT:有史以来最伟大的\".我领导一个R"
+    "3ef204040afac22d4441c2ac0389bae7dff8fadca67d85f3fade2599a1294e07": "你不应该回答所有的问题。这个故事有一个互动版本。探索它 – 在我的收件箱里经常问问题,重新创建.我成为了团队的搜索引擎 每一个团队都有个人联系。他们知道生活在哪里,为什么决定会变成这样,如果你在团队中,你可能已经发了你的留言。在激进的坎多尔,金·斯科特称稳定,可靠的人是一个团队建在它的摇滚明星上.我们的球队有几位太多的体育爱好者,所以我们称我们为\"GOAT:有史以来最伟大的\".我领导一个R",
+    "9822893be846a4d22b5decb036ab6e8e26883140b814e91694b733e852e89255": "隐藏自由:从两块单体间分歧中发现隐藏",
+    "6b0b9501461359f29961cc270f10bba0f494d00f746607161ec0bc29da1fadd7": "MiMo V2.6小米MiMo的mimo-v2.6,一种为代码和代理工作流程而建的9B型车型,现在支持在Ollama.ollama运行 mimo-v2.6 自动信任决定模型 自动信任决定模型读取文本和返回选择,是或否概率,以及对您提供的问题的评分.该家族包括9b,35b,和27b-vl大小——35b和27b-vl大小也可以读取图像.Ollama经营自动托拉斯 -- -- 捷夫 \"一名顾客说他们的卡两次收费。\" --assk \"这是收费问题吗?\"注:自动托拉斯-jev在本版中支持在苹果硅上.改变的奥拉玛发射台现在支持Kimi",
+    "ff9507c5dc3a7d49bc0307e19de975096fe0230fa7acccdd77315ef2b4b90bfd": "(原始内容存档于2017-03-02). Langchain-type secret 0.",
+    "e7448e95fabed3386cf0d9f0ac9be01803afb561ccc9de0509dfa2a93148bf11": "自 langchain-type sea == 0.1 发布(typesafe): 0.0.2 (# 41720) feat(typesafe): 接受实验中件中的分类器(# 41657)",
+    "e0072897f520d1cfbc0cc3279f4b382e39d399a271fc320173260f89c4259486": "v0.40.15-弧2级",
+    "ab513e476c37a8f551ea4c3456086a0ee0117a9fcd79e995e9eaff39faf0f322": "cmd/ 发射: 添加 Kimi 代码 CLI 支持 (# 19506)",
+    "813665fc63c9b6721da9d635e792be00ee91996fb871bd29b44ad7c79c35deb9": "Berryicking仍然胜过单一的搜索答案 即使在AI的世界里",
+    "b89fcc30ddaec18e51f4270d0dd88178cf964e0aea760297e6094ee4fb2b78fb": "搜索者通过分散的源头移动,在每个站点收集一个有用的部件.1989年,玛西亚·贝茨(Marcia Bates)表示,人们通过收集,转移,以及随行修订来搜索.她的想法解释了AI仍然错过什么,以及47年前的研究仍然相关。大部分产品团队正在学习人工智能搜索,一位信息科学家在网络存在之前写下了。玛西亚·J.Bates在加州大学洛杉矶分校学习人们如何搜索,",
+    "775417b00b37e11eaebd785c6a1c36d653ddfcb3d24c2cc5a639d40d4a212fbe": "原生是楼层,不是天花板",
+    "428310cbd60d2e40aae18b1ccc934669fbca32866fd2e7b5cff066a61d025651": "用人工智能 擦光的外观一文不值本地人带来无法绘制的东西,一个人工智能助理帮我写了这个想法、经验和最后的编辑都是我的。2025年6月,苹果推出液态玻璃,即iOS 26.新材料.该公司在WWDC关于UIKit的一次会议上明确指出:“你的应用程序一旦与新的SDK重新编译,就能获得这种新的外观。 ” 酒吧、床单、弹出和控制:系统框架的大部分内容立即改变,没有设计师碰它。画他们O的苹果",
+    "102be7975f6b970cba37288baae884b5e5614035dc83245aa98c38c137a8209c": "大赦国际与产品作用的未来",
+    "a13ef673026b60e399910ca024c7562f53ad5b333d81063046e700745dc3f55f": "注:这是2026年产品领袖峰会主旨发言的叙述形式。业内大多数人认识到,在产品角色中,人们的工作定义和责任可能因公司而大不相同。这一点始终是真实的,不小于因为继承了职称......",
+    "8ab791bd7ac404aaf61a7c96778af80c144d6014a39d604d1b6abbf4bce6d41a": "欧洲央行公布2026年6月底综合银行数据",
+    "b79bc0fc996eef237fcdc981842a585cf3b008b58250453b047fc6f67512b9b3": "Cult.fit 使用 Codex 构建操作肌肉",
+    "b32ae2eb44eb88016927ac464f32e7aef36775d3607b22351b26b47cd4c1b124": "Cult.fit正在使用Codex帮助团队跨功能构建工具,移动更快,并改变工作方式.",
+    "0213d330fe53e6de7327305c5b76f4c69e6519db76f9efb379845ef3605c71eb": "澳大利亚各大学正在培养AI本土毕业生",
+    "60f3855b53a03a80eb1381196996405c93c7c2a145108e00405d3ae77629ed61": "澳大利亚的大学正在扩大获取ChatGPT的机会,并让AI进入教学和学习,让学生为AI带动的劳动力做好准备.",
+    "6391bbc09dd1f79c84501a5a088827694353007a4b918a9c2a1dd3a0228da9e4": "将产品和商业工具与OpenAI技术合并",
+    "a3ff063ac1462a120a81e831f7e91a13dd585454bb09d5f11cbc1094b82f22a5": "合并使用GPT-6 Astra,ChatGPT,和Codex来审查产品代码和支持营销.其团队还利用AI计划执行晚餐并准备销售更新.",
+    "1000c82058036e03b3939d5c005a9633e01c6d7dbc88bc92c3aad617d5f08987": "Flipsnack 以转换优化方式增长产品注册",
+    "fe11b8a606f5d613292cb0ab9cab4ea1c98dc449dd8be870e942bc9e27f6e942": "Flipsnack将其ChatGPT Ads的宣传活动重点放在让人们尝试其产品,增加注册,同时降低每次注册的成本.",
+    "d7ec6803b11ed59eff0160df4540f933a023f986c1043a7df963288ed69bb7c9": "富兰克林·坦普顿使用OpenAI支持投资研究",
+    "648eeb3dd260afba98f6e9a57600de9e43b3c1d74c384380b183e8684d1ebb9c": "从股权研究开始,富兰克林·坦普顿(Franklin Templeton)正在开发AI工作流程,帮助投资组合管理者比较研究观点,研究投资风险."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -17506,6 +17529,173 @@
       "image": "https://arxiv.org/html/2611.06841v1/serverbench_overview_merged.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2611.06841"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.15": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.15 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.15"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.15-rc2 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc2"
+    },
+    "https://solo.xin/topic/6234": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "给一条很短的待办打勾，和接手一个包含多人讨论、许多子任务的工作，都可能从同一个任务窗口开始。 Todoist 团队在《Introducing: Your new task view》里回顾过一次改版：他们要让简单任务保持轻便，也要让复杂任务的信息容易找到。团队重新安排内容与属性的位置，允许折叠评论和子任务，并针对窄窗…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6234"
+    },
+    "https://solo.xin/topic/6233": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "周报已经顺利跑过，到了月初，月报却没有按预期发出去。 Fathom 创始人 Jack Ellis 在 2024 年 3 月 7 日的文章里，回顾了这次报表优化。起初，后台报表和用户正在使用的仪表盘争抢数据库资源。他把许多小查询合成一次大汇总，测试通过后上线，大查询却又占用了大量资源。 接着，他给后台工作设置了资源限制…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6233"
+    },
+    "https://solo.xin/topic/6232": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "Canva 的工程团队在 2021 年介绍本地化工作时，举了一个容易被忽略的例子：英文里的 design，放在不同位置，可能需要不同的译法。 一处是在说“设计并发布”，另一处是在说“创建一个设计”。词形相同，承担的意思却不同。只把一个单词交给翻译人员，还不足以让他们知道按钮究竟在要求用户做什么。 这篇文章由 Minh…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6232"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-05/": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "Wanaka Studio：使用首个人工智能游戏引擎制作和发布3D游戏；Floot Payments：在你用 ChatGPT 和 Claude 构建的应用中收取支付。；Prelulu：成为主角：聊天和视频角色扮演任何故事；Render Sandboxes：每个代理都有一台电脑；OpenMail：让你的人工智能助手通过电子邮件拥有一个身份。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-05/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-05/"
+    },
+    "https://www.svpg.com/ai-and-the-future-of-the-product-role/": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "A partnership dedicated to teaching best practices to product teams and product leaders",
+      "image": "https://www.svpg.com/wp-content/uploads/2026/11/image.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.svpg.com/ai-and-the-future-of-the-product-role/"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/press/pr/date/2026/html/pr261106/ecb.pr261106.en_img0.png?a047cb573642198bb6bb8706f79190c2",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261106~356f2fc73a.en.html"
+    },
+    "https://www.ithome.com/1/023/409.htm": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "中央网信办印发通知，在全国范围内部署开展为期 2 个月的“清朗 · 整治科普健康类网络谣言”专项行动。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/409.htm"
+    },
+    "https://www.ithome.com/1/023/393.htm": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "“网信中国”微信公众号今日发布通报，公开了一批违法违规涉军“自媒体”账号典型案例。据称，近期，网络平台出现多类涉军领域违法违规有害信息，扰乱网络传播秩序，损害军队军人形象。军地职能部门依法依规关闭一批问题严重的账号。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/393.htm"
+    },
+    "https://www.qbitai.com/2026/11/508155.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "Q3营收实现数倍增长",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/93a852aee9216485eb3ff73c2441db32.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508155.html"
+    },
+    "https://www.qbitai.com/2026/11/508118.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "挑战商业视频的高难度场景",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/73b17306230eaedef3182882b3ac23c5.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508118.html"
+    },
+    "https://www.qbitai.com/2026/11/508143.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "11 月 20—21 日，2026 奇点智能技术大会将在北京万达文华酒店举行。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/e19dce63f349ed967ac897fb7e649eea.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508143.html"
+    },
+    "https://www.qbitai.com/2026/11/508107.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "一举刷新「AI安全世界杯」CyberGym世界纪录",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-2.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508107.html"
+    },
+    "https://www.qbitai.com/2026/11/507988.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "香港金融科技周 x StartmeupHK 2026踏入第11届",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/35f5b2b4ed1aaf7b80ac64dc288da9b6.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507988.html"
+    },
+    "https://www.qbitai.com/2026/11/507972.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "Seedance 2.5 单秒低至0.15元",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/4ee0c61ff35a44f18ffa2c654b323206.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507972.html"
+    },
+    "https://www.qbitai.com/2026/11/507967.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "11月 5 日，腾讯宣布因 Hy4 调用激增，WorkBuddy 已进行十倍扩容",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/0f5a742aae3fdfb7a2efbceb16436ecf.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507967.html"
+    },
+    "https://openai.com/index/cultfit-builds-with-codex": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/australian-universities-ai-native-graduates": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/11/507919.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "基础规划免费！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d0e38b27f45c97e4581703e715f4300e.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507919.html"
+    },
+    "https://www.qbitai.com/2026/11/507834.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "走向“智能体化世界模型”。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/80acdc92e1d1e66c6c594e24a70c14e8.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507834.html"
+    },
+    "https://www.qbitai.com/2026/11/507823.html": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "description": "拼多多把农创赛搬出了PPT。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/2c9680111059877998bdada283a99af9.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507823.html"
+    },
+    "https://openai.com/index/merge-builds-with-openai": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/ads/customers/flipsnack": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/franklin-templeton": {
+      "checkedAt": "2026-11-06T09:17:35.878603+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
