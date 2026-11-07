@@ -18157,6 +18157,62 @@
     "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
       "checkedAt": "2026-11-07T05:50:18.374238+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/11/508449.html": {
+      "checkedAt": "2026-11-07T12:53:00.868549+00:00",
+      "description": "AI写代码太快，基础设施跟不上了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-4.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508449.html"
+    },
+    "https://www.ithome.com/1/023/766.htm": {
+      "checkedAt": "2026-11-07T12:53:00.868549+00:00",
+      "description": "“人工智能 +”“智能体”“词元”等，反映人工智能加快融入生产生活带来的新知识需求；“脑机接口”“人形机器人”“具身智能”等，为公众理解前沿技术的原理、进展与应用场景提供了切入点。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/766.htm"
+    },
+    "https://www.qbitai.com/2026/11/508344.html": {
+      "checkedAt": "2026-11-07T12:53:00.868549+00:00",
+      "description": "融资缩水，硅谷投资人也谨慎了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/3f63a2db3dbab2968fdfaf57c08a5ddb.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508344.html"
+    },
+    "https://www.ithome.com/1/023/752.htm": {
+      "checkedAt": "2026-11-07T12:53:00.868549+00:00",
+      "description": "这项猜想自 2008 年提出以来一直未获证明，研究的是量子计算机在何种条件下能够获得远超传统计算机的运算速度。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/752.htm"
+    },
+    "https://www.qbitai.com/2026/11/508330.html": {
+      "checkedAt": "2026-11-07T12:53:00.868549+00:00",
+      "description": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/a693951187e5a0f7b51fb4e16b4b8c4a.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508330.html"
+    },
+    "https://www.ithome.com/1/023/690.htm": {
+      "checkedAt": "2026-11-07T12:53:00.868549+00:00",
+      "description": "当地时间 6 日，弗莱尔接受 CNBC 直播采访时说：“你看，我们拿着管理者的薪水，就是要应对各种可能出现的情况。我不认为有什么事情对我们产生了重大影响。”",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/690.htm"
+    },
+    "https://www.qbitai.com/2026/11/508264.html": {
+      "checkedAt": "2026-11-07T12:53:00.868549+00:00",
+      "description": "苦单Session久矣，两大Agent玩家不谋而合。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d9df0fb93f1d07b816a57ff90b0b1382.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508264.html"
+    },
+    "https://www.qbitai.com/2026/11/508236.html": {
+      "checkedAt": "2026-11-07T12:53:00.868549+00:00",
+      "description": "中国版cosmos再交卷",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/edb8506c317dd1899692f0bd47417e4c.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508236.html"
     }
   }
 }
