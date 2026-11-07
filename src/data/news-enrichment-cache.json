@@ -3474,7 +3474,23 @@
     "9ee859add7f0e5912aab30412fa58875e07ac3742f9ea915cdd8e416781276fe": "当公司对新的市场机会作出反应时,它们的能力选择会改变竞争者和投资者都可以得到的未来折扣的自由现金流量。在竞争性市场上,这些投资决定通过新闻报道和分析报告加以宣传,衡量公司在资本结构、产品组合、公司领导、风险敞口和经营程序方面的变化。现代搜索引擎依靠\"大语言模型\"来测量源文件与给定的搜索查询的相关性.这些测量让研究者代表这些新闻文章作为密集向量的云",
     "9921f87ace3b6ab95b59929970cc5174a6a7b5689756c8d3504175e12739bd50": "AI4Math中的\"黄金狂欢\"二:AI辅助证明的签名是什么?.",
     "2c10a10d72a24cc017d16a90d5e37feeb0c500e8d726a97b3aa229a2a6dfc69e": "AI在数学中越来越多地被使用,这引起了一个问题:我们能发现AI参与证明,而不是AI协助写作吗?历史的arXiv论文,最近披露AI实质性用途的论文,以及OpenAI发布的手稿,为研究这个问题提供了丰富的经验依据.然而,仍然存在若干挑战:缺乏匹配的个案控制对;披露可能不完整;缺乏旨在获取AI参与证明的信号的即时使用特征。为了应对这些挑战,我们通过合并e项,构建了由8 281份文件组成的五组文件。",
-    "acbbc8b249239c6ee69f8751040c761a1c4e98c29089a0725409baf3fd5c1ee3": "埃及和尼日利亚英语加入公开ASR领导板"
+    "acbbc8b249239c6ee69f8751040c761a1c4e98c29089a0725409baf3fd5c1ee3": "埃及和尼日利亚英语加入公开ASR领导板",
+    "697dc3b7def210b862a064a7a3e308b7f975daffdbfde2df1ef829e67482b619": "超越代码生成:开发者代理工程指南",
+    "f42280d13863ff0c77e42f21e95445df613e2a5468051ed77e9aa13f293f6e44": "写代码更快了周围的工作没有。看看如何与GitHub Copilot一起规划,写代码,审查修改,调查生产问题,哪些工作仍然需要你的判断.",
+    "d6bbfecb0f20f0d92740342fdffdfa53026a868c833f9c5ec6e17e6825abe486": "Amine El Gotaibi的雕塑中来自气象金属的巨型伍状组成",
+    "7d64ab9800c5745117d18e02b8b365c7e03bd41189a1a251e12b70b4462a5506": "Amine El Gotaibi的金属和羊毛新雕塑讲述了土地和国家之间的紧张关系以及我们标记变化的方式。",
+    "af9ce6ef9f560ed84853e29f1fddced97a8e032c228480891ea61ec316810faa": "Arkivism是AI的可访问抗药剂,有400万+公共领域图像",
+    "ae34dac4b595169f6e8180c42efa2ac34119849a635139704fdfd3db161938e7": "没必要了",
+    "15cec92f0454c05ed0ca5e0ad2a6f79ad24c4752749c8a25abe11cc011644081": "AI泡沫后:宣言",
+    "fa8a3969d6599e87ec384d23460776a10160d3d6f395d32a4309a00ab3a50b7d": "计算机应该成为人们的工具,但是——隐藏在宿命论的弊端中——AI泡沫已经制造了计算机工具来推人.不久,或者在一段时间内,这种情况将会改变。与此同时,我们有一些想法要与你分享。Morro Bay,加利福尼亚州 序言 计算机的目的就是人类的自由Ted Nelson我们不是“反AI ” 。我们反对虐待、破坏和剥削人民和我们的环境,反对掩盖上述事实的谎言和操纵。我们对“人工智能”这一令人困惑、不准确的术语不满意,但令人沮丧的是,",
+    "5cff283deeda470206b9ee6b627add198f869705d72c6b685bbda8c36b747557": "可使用性101:可使用性简介.",
+    "c9b3c04d4901cea0527d769a6a95a1cdaf8b90d50832a6175a2945b457007e66": "可用性是指人们如何用设计来完成各项任务.通过早期和反复观看代表性用户执行现实的任务来改进它.",
+    "dfddc79aa2cf5fad8c45a9ac6caca4c6245782e69e614e74803b5163450fdc14": "代理机理:定义",
+    "421eae4afa64d61867c2b060d233e1e521325bd9e33365c45d68734996e21ad5": "一个代理操纵器管理AI模型与其工具之间的软件循环.其上下文,权限,并限制用户所能做的形状.",
+    "384b6786bc0dd26b826d928bd82975ff6252d37e6aa9b816abac1e3451f1872b": "与Hacktron合作寻找OpenAI系统中的弱点",
+    "d5e47da425b6b54ad1ba3da8347dbb134ac575e5fffe1529b0927bff18035df8": "OpenAI与Hacktron合作寻找弱点,测试与第三方服务的联系,并与前沿AI加强防御.",
+    "7ac844c75102c7525eee719fae805d11c8aa5b19566ec66c2f52a9f21dbbfed0": "测量人工智能人员如何处理日常湿板科学",
+    "6017c218784a5ecc78f9b2d45f354ffc5a3789e4df74d45961a01dd8c5e6ec62": "OpenAI引入了BioBasics Bench,这是衡量AI代理如何解释原始实验数据并处理日常湿板科学的100任务基准."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -18049,6 +18065,98 @@
       "image": "https://huggingface.co/blog/assets/open-asr-leaderboard-liva/thumbnail.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+    },
+    "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot.",
+      "image": "https://github.blog/wp-content/uploads/2024/06/AI-DarkMode-4.png?resize=800%2C425",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-06/": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "Glasshand：给你的代理一个真实的iPhone和Mac。；Rerun：把你的AI订阅变成一支团队伙伴。；Living Brain：可互操作的高效内存层，用于智能代理AI；Maritime：为任何AI代理定制的云计算，随心所欲。；Pushary for Teams：看看谁同意了你们团队的AI助手。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-06/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-06/"
+    },
+    "https://www.nngroup.com/articles/usability-101-introduction-to-usability/": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "Usability refers to how easily people can complete tasks with a design. Improve it by watching representative users do realistic tasks, early and repeatedly.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/Usability_101___.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/"
+    },
+    "https://www.nngroup.com/articles/agent-harness/": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "An agent harness manages a software loop between an AI model and its tools. Its context, permissions, and limits shape what users can do.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/Agent-Harness_socialcard.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/agent-harness/"
+    },
+    "https://www.ithome.com/1/023/674.htm": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "沙特公民阿尔福赞被控在 OpenAI 高管会议室电视后藏匿窃听设备，周五在旧金山联邦法院提审中拒不认罪。他自 2025 年 7 月起在 OpenAI 产品团队任职，今年 10 月被解雇并逮捕。若定罪将面临最高 5 年监禁及 25 万美元罚款，下次出庭为 11 月 17 日。##OpenAI窃听案##",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/674.htm"
+    },
+    "https://www.qbitai.com/2026/11/508244.html": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "全新的电脑病毒",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/1e42687f67c2c3c098e0012b6e36872c.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508244.html"
+    },
+    "https://www.qbitai.com/2026/11/508196.html": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "RSI不可能无限快",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/1e04f487bc7342064efa7c38971d7cd7.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508196.html"
+    },
+    "https://www.ithome.com/1/023/612.htm": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "OpenAI 完成 110 亿美元首期融资，估值 1.25 万亿美元，剩余部分几周内完成，总额最高可达 200 亿。#OpenAI# 因公开市场 AI 股抛售缩减原 300 亿融资计划，投资者含软银、红杉等。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/612.htm"
+    },
+    "https://www.qbitai.com/2026/11/508184.html": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "Dario刚喊减速…",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-3.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508184.html"
+    },
+    "https://www.qbitai.com/2026/11/508174.html": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d777df11e6dc6bfed4da0d0ed126f04f.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508174.html"
+    },
+    "https://www.qbitai.com/2026/11/508170.html": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/0ebd83f7329cd34880099cef00e73e63.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508170.html"
+    },
+    "https://www.qbitai.com/2026/11/508165.html": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "description": "11月5日，阿里巴巴发布《2026 AI向善行动报告》",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/28357c36a77a4a159e67f82edef069b6.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508165.html"
+    },
+    "https://openai.com/index/partnering-with-hacktron": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+      "checkedAt": "2026-11-07T05:50:18.374238+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
