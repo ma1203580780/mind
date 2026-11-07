@@ -3490,7 +3490,13 @@
     "384b6786bc0dd26b826d928bd82975ff6252d37e6aa9b816abac1e3451f1872b": "与Hacktron合作寻找OpenAI系统中的弱点",
     "d5e47da425b6b54ad1ba3da8347dbb134ac575e5fffe1529b0927bff18035df8": "OpenAI与Hacktron合作寻找弱点,测试与第三方服务的联系,并与前沿AI加强防御.",
     "7ac844c75102c7525eee719fae805d11c8aa5b19566ec66c2f52a9f21dbbfed0": "测量人工智能人员如何处理日常湿板科学",
-    "6017c218784a5ecc78f9b2d45f354ffc5a3789e4df74d45961a01dd8c5e6ec62": "OpenAI引入了BioBasics Bench,这是衡量AI代理如何解释原始实验数据并处理日常湿板科学的100任务基准."
+    "6017c218784a5ecc78f9b2d45f354ffc5a3789e4df74d45961a01dd8c5e6ec62": "OpenAI引入了BioBasics Bench,这是衡量AI代理如何解释原始实验数据并处理日常湿板科学的100任务基准.",
+    "8057f9ccbb7caf90aa2ca252cbbf7a942dbf88f33d67a716c3ce3b05fbceb8e3": "蒂班(英语:Tiban)",
+    "59023f8a722f24eeb896f13dd15d4aacb3b71bec43fe1b051eb5bad703ef8ebc": "否则你只是一台机器",
+    "005f1867a84cf92bee0c0432dba5dafecc5e45bb2369d92a3d7372abc4535523": "AI越来越擅长设计.设计师也应该这样工作背后的技能.由AI所创建的图像.我花了很多时间看设计工作。审查投资组合。雇佣设计师。与设计领导,高一和高一合作.坐在批评。看着人们解释他们是如何达成解决方案的.随着时间的推移,你开始注意到什么是 分离真正的好。大赦国际正在使这种差异更加难以看到,而且更为重要。设计师可以在几分钟内将一个想法变成被打磨过的原型.它们可以生成界面,写出副本,合成研究,探索可怕的",
+    "aadfe4db204d5a08768a4b17d33a861d5d6a96a8d25adb2d23f7cd4b8ba99ef6": "克里斯蒂娜·拉加德:采访Yomiuri Shimbun",
+    "c77bda2af6de764c72924cd0590239804bf90aad5d80be83483e126dec789445": "用法文件夹",
+    "8e4e9820c3841cf942eddc675cd761eb2fa1376c38004190213eb7fc27e67f57": "活换脸"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -18213,6 +18219,76 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/edb8506c317dd1899692f0bd47417e4c.webp",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/508236.html"
+    },
+    "https://www.ithome.com/1/023/824.htm": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "Anthropic 辩称，消费者应该明白，宣传中的倍数指的是单次使用周期的额度，并援引帮助页面作为依据。美国联邦治安法官并未采纳这一说法。裁决书写道：“Anthropic 对单次使用周期的说明，需要从 claude.com 的主要销售页面点击两次链接才能看到。”",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/824.htm"
+    },
+    "https://w2solo.com/topics/8693": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8693"
+    },
+    "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html"
+    },
+    "https://w2solo.com/topics/8692": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8692"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-07/": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "Tobira Site Agent：把你的网站变成一个AI代理，专门向其他AI代理销售。；Turnstone：一个可以在你的AI上运行的Grok Bot替代品，完全免费。；Rankfender v3.0：为人类和人工智能代理而构建的SEO/GEO操作系统；Wonder Dev View：同时运行多个Claude Code和Codex代理。；EdgeBar：通过触控板控制Mac的音量和亮度",
+      "image": "https://decohack.com/producthunt-daily-2026-11-07/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-07/"
+    },
+    "https://solo.xin/topic/6255": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "大家好，我正在做一个叫 FanowAgent 的 AI 营销产品，想寻找一位能够长期一起创业的合伙人。 我们在做什么？ 现在很多独立开发者和小企业，知道需要做短视频、图文推广，但不知道什么内容值得做，也没有专业的营销团队。 FANOW 想解决的是：让用户输入自己的产品网址或产品信息，系统理解产品和目标客户，自动搜索各…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6255"
+    },
+    "https://solo.xin/topic/6251": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "我想推广一下我自己，但是我嘴笨不会说什么漂亮话，所以就直接以展示为主了，以下就是我做的软件： 我主要是在B站活动，B站名叫“逸之白爱摆”，还有一个我实录的这个软件的展示视频：【做了个本地AI模型API管理器的软件...-哔哩哔哩】 https://b23.tv/U6e7NPO 总之就是这样，如果你喜欢的话，可以在B站…",
+      "image": "https://f.vue2.net/images/2026/11/07/1c2c69a589b6938030845f86d79e5e80.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://solo.xin/topic/6251"
+    },
+    "https://solo.xin/topic/6235": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "Intercom 早期加过一张地图，显示客户分布在世界哪些地方。它很快受到欢迎，团队却不容易说清：客户为什么需要它？ Des Traynor 在标注为 2014 年 10 月 16 日的文章里，列出了三种使用场景：有人带到展会上，有人放到社交媒体上，还有人拿给投资人看。顾客把这张图用来展示自己的业务。理解这个用途后，…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6235"
+    },
+    "https://solo.xin/topic/6228": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "在 1Password 的一份创始人回顾中，团队长到二十人左右，成了一个转折点。 Dave Teare 写道，他和 Roustem Karimov 曾经自己管理团队。但到了这个阶段，两人觉得需要一位全职 CEO，才能继续往前走。他们既希望得到管理上的帮助，也在意产品原来的方向和公司的做事方式能否保留下来。 Dave…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6228"
+    },
+    "https://w2solo.com/topics/8688": {
+      "checkedAt": "2026-11-07T23:37:02.665259+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8688"
     }
   }
 }
