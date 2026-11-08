@@ -3496,7 +3496,8 @@
     "005f1867a84cf92bee0c0432dba5dafecc5e45bb2369d92a3d7372abc4535523": "AI越来越擅长设计.设计师也应该这样工作背后的技能.由AI所创建的图像.我花了很多时间看设计工作。审查投资组合。雇佣设计师。与设计领导,高一和高一合作.坐在批评。看着人们解释他们是如何达成解决方案的.随着时间的推移,你开始注意到什么是 分离真正的好。大赦国际正在使这种差异更加难以看到,而且更为重要。设计师可以在几分钟内将一个想法变成被打磨过的原型.它们可以生成界面,写出副本,合成研究,探索可怕的",
     "aadfe4db204d5a08768a4b17d33a861d5d6a96a8d25adb2d23f7cd4b8ba99ef6": "克里斯蒂娜·拉加德:采访Yomiuri Shimbun",
     "c77bda2af6de764c72924cd0590239804bf90aad5d80be83483e126dec789445": "用法文件夹",
-    "8e4e9820c3841cf942eddc675cd761eb2fa1376c38004190213eb7fc27e67f57": "活换脸"
+    "8e4e9820c3841cf942eddc675cd761eb2fa1376c38004190213eb7fc27e67f57": "活换脸",
+    "7b21774178eab769becbd4e36cb9d8cd73f5227184e447b0995282be4eb0250d": "AI越来越擅长设计.设计师也应该这样工作背后的技能。我花了很多时间看设计工作。审查投资组合。雇佣设计师与设计领导,高级和初级合作.坐在批评。看着人们解释他们是如何找到解决办法的。随着时间的推移,你开始注意到什么是 分离真正的好。大赦国际正在使这种区别更加难以理解,而且更为重要。设计师可以在几分钟内将一个想法变成抛光原型.它们可以生成接口,写入副本,合成研究,探索方向,感应码 a wor"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -18289,6 +18290,13 @@
       "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://w2solo.com/topics/8688"
+    },
+    "https://www.ithome.com/1/023/885.htm": {
+      "checkedAt": "2026-11-08T05:53:05.993721+00:00",
+      "description": "Menlo Ventures 最新报告显示，中国 AI 模型拿下全球开源企业支出 89%，Kimi 占 61% 居首，DeepSeek、GLM 紧随其后，西方头部模型 Llama 仅占 7%。#AI大模型#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/885.htm"
     }
   }
 }
