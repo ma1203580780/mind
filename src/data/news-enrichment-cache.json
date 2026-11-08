@@ -18297,6 +18297,41 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/023/885.htm"
+    },
+    "https://www.ithome.com/1/023/989.htm": {
+      "checkedAt": "2026-11-08T13:14:33.233893+00:00",
+      "description": "随着发电设备供应日趋紧张，AI 公司开始绕过中间商直接采购，进一步涉足能源行业。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/989.htm"
+    },
+    "https://www.ithome.com/1/023/920.htm": {
+      "checkedAt": "2026-11-08T13:14:33.233893+00:00",
+      "description": "现场完成 AI 自主决策机器人乒乓对打挑战，由上海交通大学 — 上海创智学院高岳教授团队与 Hitch Open 平台联合创造 142 拍新成绩，刷新该项目世界纪录。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/920.htm"
+    },
+    "https://www.ithome.com/1/023/908.htm": {
+      "checkedAt": "2026-11-08T13:14:33.233893+00:00",
+      "description": "前 Rockstar 技术总监称，AI 已能快速反编译移植游戏，鉴于《GTA6》多次遭泄露，Rockstar 或调整先主机后 PC 的发行策略，避免 AI 自制移植版分流销量。#GTA6#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/908.htm"
+    },
+    "https://www.ithome.com/1/023/905.htm": {
+      "checkedAt": "2026-11-08T13:14:33.233893+00:00",
+      "description": "伯恩斯坦分析师 Mark Moerdler 测算，OpenAI 已披露算力协议对应基础设施支出到 2030 年累计约 6140 亿美元，低于市场常引用的 7500 亿美元。年度支出预计 2031 年峰值达 1840 亿美元。大型云厂商短期合同风险有限，专业算力供应商压力更大。#OpenAI# #算力#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/023/905.htm"
+    },
+    "https://www.qbitai.com/2026/11/508466.html": {
+      "checkedAt": "2026-11-08T13:14:33.233893+00:00",
+      "description": "没有永远的夏天",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-18.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508466.html"
     }
   }
 }
