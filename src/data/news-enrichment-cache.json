@@ -3497,7 +3497,12 @@
     "aadfe4db204d5a08768a4b17d33a861d5d6a96a8d25adb2d23f7cd4b8ba99ef6": "克里斯蒂娜·拉加德:采访Yomiuri Shimbun",
     "c77bda2af6de764c72924cd0590239804bf90aad5d80be83483e126dec789445": "用法文件夹",
     "8e4e9820c3841cf942eddc675cd761eb2fa1376c38004190213eb7fc27e67f57": "活换脸",
-    "7b21774178eab769becbd4e36cb9d8cd73f5227184e447b0995282be4eb0250d": "AI越来越擅长设计.设计师也应该这样工作背后的技能。我花了很多时间看设计工作。审查投资组合。雇佣设计师与设计领导,高级和初级合作.坐在批评。看着人们解释他们是如何找到解决办法的。随着时间的推移,你开始注意到什么是 分离真正的好。大赦国际正在使这种区别更加难以理解,而且更为重要。设计师可以在几分钟内将一个想法变成抛光原型.它们可以生成接口,写入副本,合成研究,探索方向,感应码 a wor"
+    "7b21774178eab769becbd4e36cb9d8cd73f5227184e447b0995282be4eb0250d": "AI越来越擅长设计.设计师也应该这样工作背后的技能。我花了很多时间看设计工作。审查投资组合。雇佣设计师与设计领导,高级和初级合作.坐在批评。看着人们解释他们是如何找到解决办法的。随着时间的推移,你开始注意到什么是 分离真正的好。大赦国际正在使这种区别更加难以理解,而且更为重要。设计师可以在几分钟内将一个想法变成抛光原型.它们可以生成接口,写入副本,合成研究,探索方向,感应码 a wor",
+    "0c38913ce38d24ec8ad28aeeece50044d6c92563d746969ea9c30d80dad16f15": "Tulsee Doshi(产品主管,双子座)",
+    "6162984086c097577c8f49d9eddb123187f82257c33526ffbfd04ff1b57e82fc": "现在(59分钟),Tulsee Doshi在建立Google的前沿模型上,",
+    "0a9036dda4285fb95a79f94a45c2d9305cc9185d71cbc25851e9777292d3c034": "大赦国际圣诞节",
+    "3ef87429b32b31ee7845b31653f75a523f080c2675afc660661421258e6aa5cd": "视频翻译",
+    "426f341a7bb808de938c219cd0bcd02d1ed9b73e5154e77e32eee212915bc0ba": "VideoTranslate是一个基于浏览器的AI视频翻译,位于https://video translates.com.帮助YouTube的创造者、市场营销者、教育者,核心工作流程:在您准备好运行任务时与Google签名,上传MP4/MOV/WebM(每个文件最多500MB),在23种语言中选择源头和目标,让云管对您的剪辑进行粘贴.输出是一种可下载的MP4,其中对话框是用语音克隆来翻译和重音的,目标是你的源头tibre,"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -18332,6 +18337,55 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-18.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/508466.html"
+    },
+    "https://solo.xin/topic/6264": {
+      "checkedAt": "2026-11-08T23:44:14.511302+00:00",
+      "description": "一家软件公司宣布要被收购，创始人有许多值得讲的事。正在用它的顾客，却可能先想到明天的工作：已经安排好的邮件还能发吗，遇到问题该找谁，手里的套餐接下来怎么算？ 2021 年 9 月 13 日，Ben Chestnut 在 Mailchimp 官网发表了一封写给客户的信，宣布计划加入 Intuit。信的开头很生活化：他回…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6264"
+    },
+    "https://solo.xin/topic/6263": {
+      "checkedAt": "2026-11-08T23:44:14.511302+00:00",
+      "description": "一个照片管理产品，最后三个月每月都有四万美元订阅销售额，却仍然宣布将关闭。只看这一组数字，很容易急着寻找一个戏剧性的解释。Everpix 自己留下的记录，先提醒读者把收入旁边的账单看清楚。 Everpix 于 2011 年开始，想帮助人们整理越来越多的照片。团队在公开仓库的说明中写道，没能完成 A 轮融资，也无法继续…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6263"
+    },
+    "https://solo.xin/topic/6262": {
+      "checkedAt": "2026-11-08T23:44:14.511302+00:00",
+      "description": "一套自己已经复制到几个项目里的样式，交到另一位开发者手上，还会一样好用吗？Tailwind 早期的一段经历，把这个问题变得很具体。 Adam Wathan 在 2020 年 8 月 2 日的回顾里写到，2015 年他和 Steve Schoger 想做一个叫 Digest 的链接分享项目。项目后来搁置了，样式文件却留…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6262"
+    },
+    "https://solo.xin/topic/6261": {
+      "checkedAt": "2026-11-08T23:44:14.511302+00:00",
+      "description": "大家好，我是林间小雨。 上个月我在 Solo 发了我的三款浏览器效率插件（TabSorter、Prompt Extractor、WorkSpaceKeeper）上线的帖子，感谢当时很多朋友的支持。 今天发这篇帖子，主要是想汇报一个新进度：我的插件终于跑通商业闭环了，正式开启了 19 元/39 元的买断制。 写代码其实…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6261"
+    },
+    "https://w2solo.com/topics/8696": {
+      "checkedAt": "2026-11-08T23:44:14.511302+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8696"
+    },
+    "https://w2solo.com/topics/8695": {
+      "checkedAt": "2026-11-08T23:44:14.511302+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8695"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-08/": {
+      "checkedAt": "2026-11-08T23:44:14.511302+00:00",
+      "description": "ChatGPT Images 2.6：使用人工智能创建、编辑和动画化图像；LiveReview：免费的、风险意识的代码审查：自动批准低风险变更；Quest：你的个人AI顾问，帮助你过上更有目标的生活。；Exa Monitors v2：在一个计划好的时间表上进行网络搜索，该计划会调用你的代理，每1000次运行收费2美元。；GPT‑6 Cyber：OpenAI的网络安全模型，为防御者提供了经过审查的访问权限。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-08/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-08/"
     }
   }
 }
