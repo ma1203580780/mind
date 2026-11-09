@@ -3562,7 +3562,90 @@
     "d2a62eef499ceed8c9e40bb03ec1ed60edde006efd1d56dde41840527ce388a8": "用AI发现正式核实的量子程序",
     "1f88614615f7afbdd926aa1396b92c03299cc75586747d7c603e5b6141b3fa56": "量子计算机能够解决科学中突破性问题的时限取决于改进后的量子算法和更好的硬件.这种算法进步通常是通过多年的专家人类合作实现的.在数学和计算机科学中,大型语言模型通过自动化发现循环加速了进步.然而,量子算法只能由受限制或小情况下的古典计算机来评价.在这里,我们展示了超越这些系统的量子程序的自动发现,包括放大级的改进",
     "1131d113f387f5caa3697aee80f6914429c3de72ffedcff2eb3ace5a211146b2": "先知不平等的有效地平线与折扣的ID.奖励",
-    "c07b8e141df502e7c33724bf1eea0a521bacdecbefbf3309389d5fe97d9e7399": "我们用美元来研究先知的不平等基础奖励按美元阶段的乘法折扣计算。对于等长的阶段和通用的折现系数$\\glassilde\\gamma$,我们把单方位政策的最佳竞争比定性为$n\\to\\fty$与$s$和$\\glassilde\\gamma$固定.由此产生的尖锐保证说明了对相位参数的依赖性:在不打折扣的情况下回收1-1美元/e美元,在最坏的情况下接近1/2美元。我们还建立了一个无分配比较,将折扣的预言者以分数即d.最高的智慧 最高的智慧"
+    "c07b8e141df502e7c33724bf1eea0a521bacdecbefbf3309389d5fe97d9e7399": "我们用美元来研究先知的不平等基础奖励按美元阶段的乘法折扣计算。对于等长的阶段和通用的折现系数$\\glassilde\\gamma$,我们把单方位政策的最佳竞争比定性为$n\\to\\fty$与$s$和$\\glassilde\\gamma$固定.由此产生的尖锐保证说明了对相位参数的依赖性:在不打折扣的情况下回收1-1美元/e美元,在最坏的情况下接近1/2美元。我们还建立了一个无分配比较,将折扣的预言者以分数即d.最高的智慧 最高的智慧",
+    "18ef537aaaa4bf5c8d01d4b3ddca16f183953b288db3b03a5488e1b3fe69e7e1": "v0.40.16-rc0:向MLX跑车添加波纹预览支持(# 19592)",
+    "747556fa17356061dd117989583153a0b26a3de7bc24a78f473c1295cf7c3794": "添加Riple模型,渲染器,解析器和导入注册.在 DFlash 草稿中支持每层 NoPE 。Fuse MLP 激活,价值混合和关注的标注.添加参考固定装置和模型/运行器回归测试。",
+    "691f4d7c332b395ae0111b47868455b3347e4f395bbd711f4514c666cfa2def0": "内莫特龙-私人-金融-日本:综合数据集 掌握日本人口与金融背景",
+    "f4248de30782960aa6259efa69e2509c23bda88df478ca79ec230c993e425131": "流话",
+    "fcbc323089cce3d8d7be4f19551c5c58d95d4c53743c362fe6b74a698bdf465e": "9 Genius Ideas to Steal for your Black Friday + Cyber Monday 营销运动(有真实生活的例子) 黑周五 + 网络星期一营销运动(有真实生活的例子)",
+    "6497a45e7a62aafb3a7712107078a28e032ba24be0da92725d34f5702e34c156": "Black Friday和Cyber Monday的市场营销指导,帮助你在2026年从人群中脱颖而出——以尝试和测试的例子完成.",
+    "97a804b581895257f8467192606921fe3ad8868ba5b70f569e9c8eea3fb958f0": "I AI:这个创始人如何用 Codex 建造一个更好的 Duolingo",
+    "fb8d66eb4833521ee29b2bcf6d86ef07af141b5d8d4ab609e5da217c19847cfc": "5 低调的克劳德代码工具 解决最大的问题",
+    "3e2788c59bccb30c787b0ebe30f76e569edf70a0711a11b2bc6c86690b46ff2b": "Claude Code对快速原型化很有用,但是在制作准备的设计方面,Claude有一些问题:它生成的UI... 继续在UX星球上阅读'.",
+    "786c1a1d5e6c67ae2fe310b1080f4360f499903e62ab5f332c650150fd27246d": "可靠性的长期价值是什么?",
+    "65cb713278f150f84413b549e6405a2b42087d4a6905afe5b3d1ab9a2919c5ea": "我们描述了Chronos LTV,这是一个用来衡量延误和其他服务缺陷对关键业务衡量标准的长期影响的系统.我们利用马尔科夫决策程序,在一段时间内建立客户互动模式,并正式确定我们的目标预期,作为移动平均延迟率的边缘政策效果。鉴于这种设置,我们显示,我们可以在一个顺序性无根据假设下确定长期效应,即延迟与随机给定的观测到的顺序特征一样好;并且可以使用简单的共变平衡算法来估计这些效应。",
+    "4d8fb8f548660f4a41f912874ccd4d286112253f0176ee6912ca653c7b629fcd": "MV 风速",
+    "772592d8068c59e183c5ddc6fda5aff9b74d7dcbd7398c4fa36e4ade3ff02d05": "这个创始人如何用Codex William Imoh 建造一个更好的Duolingo",
+    "c9ff1813004777f0a213d9dfa5be48f79e490766f9fee849b665be269d7d3c75": "现在看(39分钟)####哈克曼巴创始人威廉·伊莫赫(William Imoh)展示了他为学习挪威语而与Codex一起打造的本土应用,以及帮助经营他的公司的环王Grok bot研究金.",
+    "ec5dda088b35cc2cd92d0793ccaf252916434d71cbf8272b0c79fad02bca6be6": "使用多个结果调整空间关联的标准错误",
+    "77c6f28a21087d4cc387f1175c20d726adb0c79f8388d0fb71b3f157427aa191": "一个对特定结果变量感兴趣的研究人员经常为同一个单位观察其他几十个结果.如果这些辅助结果显示出与利益结果相同的跨部门关联,可以直接用来估计这种关联.我们开发了一个程序,利用这种表格的估计来调整特定回归问题上的标准差错,以适应跨部门依赖.我们从理论上和模拟的角度表明,由此产生的标准错误可以大大提高准确性。重新分析九份文件,我们发现拟议更正可以",
+    "50a3dc3ed9396a6d6cc102201d46d09cc8d75b92a543d6eea3c75c015ba0f2f2": "按数字设计,教学AI原型,背景是新的UI",
+    "49b1bbef84b9ac81571c56d6888981d3c44527ebba39813251544f7d6db130c8": "每周为设计者——思想家和制造者——提供资源。“随着大赦国际更有能力从既定模式中汇集接口,这种区分值得更多的注意。我们越来越能告诉哪些是属于我们产品的工具。我们还需要决定什么属于瞬间。”是什么让它值得关心?由Dolphia 2027年你能做的最好的投资?你的技能。– [赞助] 与Designlab联合上千名拥有AI工具和工作流程技能的顶级公司UX和产品设计师.开始你的202",
+    "64da69fd100d643b2abc8f5a15581fdb3619da33e2c821dbb71b64921c6b2bce": "部分识别的异形 SVARs",
+    "5f1a919c45da3040dc69eeb8d4d1f7dbe0f378e891abc339381f3752ed99dba5": "本文研究了利用结构冲击差异的断裂对结构矢量自动回升的识别.这一类模型的点识别依赖于eigen-分解,涉及减式误差的共变矩阵,并要求所有eigen值是不同的.然而,这种点识别在存在多种精子值的情况下失败了.在经验相关的情况下发生这种情况,例如,只有一子结构震荡出现差异,或者一组变量显示V",
+    "ebde5b2b116db1f527ab2d0c6d3910cd071fbb2548bc18292416142a99249cf1": "统治者不理会",
+    "55389bf29fd19b9c48f51ad83174bec47dcfa075d53969cb8cf36d04bc523aaa": "在设计工具作为规则时,",
+    "038d39eb25fea21ab54991cda1fb4b06403c72bae6ef19489280d5b6884b41dc": "失业期间继续教育",
+    "84ab0dbaf30a0b103d93185d1b240727c2988c211f9e5f665e20a942e19303ff": "美国失业人员再培训效果的证据.工人主要来自对培训方案的评价,这是获得技能的狭窄途径。我们用俄亥俄州的行政记录 来估计再培训的效果, 广义上是高中后入学,通过匹配。我们的简单方法将动态处理效果文献的两条线连接起来,这些文献在反事实是否允许以后进行处理或排除了整个处理窗口。入学后3至4年,在沮丧之后,注册者的收入增加6%",
+    "bee12418c823eeb8382e99c78e29dc974ba6d81a17887328ca6a005b1d87d597": "你的专家们有搭档有希望保持他们在一起",
+    "fec5d6e5f18bf2fe2d046e24f49b8157eea19136fb4de0cb74df9e58e0e9b31b": "五双手:打字员可以教设计师什么AI",
+    "e1d472764d8b2182c4022a6a72306d3b1fbb435a09544636e9be3fab10b6b6b0": "和Christian Crumlish的谈话关于排字员 AI 和我们周围的工作 以及你们会继续做的工作照片由Karen Maes在Unsplash上拍摄,在九十年代初,在Sybex的一本手稿经过了惊人的几只手,才有人能把它当作一本书来持有.作者在家打过字.办公室的一位编辑阅读了这几页,用手标出并寄回,作者打了一个更正的版本和Ma",
+    "6754b18f821a13393c87606ed204fdb978cd515c8918453fe760ad8d84ed3019": "具有许多薄弱仪器的第四组模型推论",
+    "97a51e181c147d581648d51edfaa77c73009812b9f9f7cf3f1b42dd8bee1d1c0": "本文研究了工具变量模型的推论,其中含有许多薄弱的仪器和集群数据.它首先审查集群如何影响识别强度,表明如何调整浓度参数,以考虑到集群内部的依赖性。调整后的浓度参数可能较小,并且可能比忽略依赖性的浓度参数增长得慢,从而削弱识别能力.接下来,论文将独立数据的识别-robust jacknife Anderson-Rubin和jicknife 得分统计扩展至集群数据 b",
+    "6917337d0c079db1e7d3e59f08146292a8d059c0340a4ac217653eccffae71a2": "无限的标志:新乡村俱乐部的弹性",
+    "dbc63afcb9304f7d0b597f03fb999c8bd8deaf586b5429c19e1670da2a0bcd38": "精心选择的制约 组织你的思维。继续阅读 UX 集体",
+    "eb5c3746582e2dcc5a7b69301808e10c930167d0a8556fff432f83469021f911": "在你今年发货之前",
+    "96501ca0620a08f8beed1443f0f4df3d01acdf7e81270e13248573fdd3cd1230": "去年十二月的回顾是正确的, 2026年的改变,继续阅读 UX 集体",
+    "dbfff8f06b7620d76b51c3b375c891ec4fd7f3e34a56b96d008a6228d2cfeeca": "用于解释和引导蛋白质语言模型的 Generative Latetent前传",
+    "7b84149c38467d10a911e438addfbae50deaff780bc4808c548f8a5ae3f1c523": "解释大型模型的主导方法强加了强大的结构假设.Generative Laternt Presidents(GLP)是一种互补的方法:一种传播模型,可以直接学习冷冻模型激活的分布,不强加假设.我们把GLP移植到ESM-2激活器(UniRef50)上,并在两个主机尺度(ESM-2-8M和-650M)上加以评价,既作为蛋白质表达的透镜,又作为编辑前镜头.生成质量尺度随深度和计算顺利进行.作为透镜,单片GLP\"meta-neurons\"是离散的瑞士-普罗特概念最强的探测器,在两个Ho中都是.",
+    "ed98feceb837cc5e6da880770776306779d8aa01b3edcfdb690d3fc57d26eb8e": "双层对话记忆中的收缩、衰变和增强:对生成检索的对称评价",
+    "8da2f997c5064f197fa46692e25b050bc7005e7466fdd2ef25344617b79bbc68": "记得的谈话代理人必须决定保留什么.检索的一代保存着记录稿并进行搜索;另一种办法是将每个记录压缩成原子事实并进行搜索。我们比较了LoCoMo上的两个, 双臂在一个窗口里回答所有1,985个问题, 和同一个商店, 同一个发电机和法官, 和两排的预测,在四类可比工作报告中,收缩得分71.4%,比64.6,领先6.8分(p=5.5e-08)",
+    "f639004933907c7dddd5a0b0f007aa2dbbcfa4b016bd3640a7e471846696b648": "与图形神经网络的图形相似性学习",
+    "1202d0fd3a48cb3952b2482a5c2c697d440d063c734681e8d55eeb1352f6dbd7": "图形相似性计算是图挖掘中具有许多现实世界应用的重要任务,如化学化合物分析,程序依赖性比较,以及社交网络分析.问题在于在计算上具有挑战性:图编辑距离(GED)和最大通用子图(MCS),它们分别量化图之间的距离并识别它们最大的共享子图,是NP-硬来精确计算.为了应对这些计算挑战,Graph神经网络(GNNs)被应用于这一问题.然而,现有的基于全球网络的办法主要有:",
+    "43653b2a32c4aa5492a7484272e17690f1e6d3548d3703afac7a90fa14bb851e": "Maya a1: 选项是否读取模型,还是它们的位置?非自动递减决定模式中的敏感性",
+    "3704eb4540a9ce9014a7d0745609a58b76f0c75043042dd29f5d9bd5fc503f09": "Laya 答题键入一个前方的多选题,通过每选项一个[MASK]标记来评分一个隐藏状态.我们重新设计检查站( 421M 参数; 2 层选项头,没有位置调节器;有文件记录但未使用的平行布局) , 并测试答案是否取决于选项的列表位置 。公布的检查站在每轮选择(或12个选择的6个随机排列)下提出了951个经核查的问题,对25.8%的问题[22.9-28.7](仅在605个英文项目上为19.7%)作出了答复;准确性与Th",
+    "e972dfbdbbe8d331e5f2d516d21fda804b1e62084366b0d23ab68c09089af4b2": "当指令文件 Go Stale 时: 文档债务和隐藏的编码代理成本",
+    "a08899e880731bed02f78c6a93438824467615c84a03363b7c7bff16a00f051d": "基于LLM的编码代理,如Claude Code,由寄存器指令文件(又称上下文文件或代理配置文件)指导,如AGENTS.md和CLAUDE.md,在每个代理会话中读取.作为任何文献文物,这些文件可以落在代码后面,成为stale(例如测试文件夹移动,但文件仍然指向旧的).在技术债务方面,这种陈旧的指示是文件债务,利息是以后每次代理会议增加的费用。只能检查任务成功与否的评价会错过这一成本,而陈旧的文件会持续下去",
+    "6f6cc5a985ea783ceb90d2fd6d28c3d968d1d72cfce2e672198569ff11c1ed4e": "测试- 时间计算比平行代理团队更好的比例",
+    "9dc36be2946bca894c7b7a10a3635578e4b26a7be18cbafdf8508d2d672b516f": "测试时间的缩放通过在推论中花费更多的计算来提高固定模型的性能.当一个核查者每次尝试都能得分时,有两种常见的方法将其花在代理人身上.最佳N采样会运行许多独立的物剂,并保持最佳结果但快速饱和.一大队协作人员可以提高得分,但随着增长而停止改善。我们可以得到最好的两者?我们的方法,平行的代理团队,通过对许多小团队进行平行抽样,保持最佳团队的结果.我们从GPU内核和正式证明到",
+    "6412633215a2bf16278704bf45986fdd3ccd81ec9b3a044e5982523e179aef13": "评估报复性强化一代对算法问题解决的影响",
+    "5b897f67e86e289730070e72c830191a74ca68932c4eb7dbe337bf1aefa066e8": "竞争性编程问题对大语言模型提出了独特的挑战,因为它们不仅需要熟练的代码生成,而且需要先进的算法推理.这项研究提出了一种检索-增强生成方法,专门用来提高大语文模型解决这些问题的能力。我们的方法结合了嵌入式检索机制和相似性搜索算法,以识别知识数据库中的类似问题,并采用动态调整阈值来缓解检索噪音.我们利用",
+    "92009a2dae879cbca4c8d2f48a1cb42df501ec9cc3e340f8559b5eecf2175d1b": "这些程序员雷普够吃吗?评价LLMS在翻译中如何处理词汇知识冲突",
+    "d056739410b927bd8cc7894f6e34973a3325f0b4c48a429271f4ccd0f52ab22a": "外部词汇资源可以帮助大型语言模型(LLMs)以低资源语言和专业领域翻译文本,但这些资源可能与模型之前的词汇知识相冲突.为了孤立这场冲突,我们构建了一个控制下的普通话对英语的翻译任务,在这个任务中,熟悉的源词在语义分类之内和之间被赋予新的意义.我们将这些即时提供的含义视为背景知识(CK),并系统评价文字频率、句子上下文和及时设定翻译产出的效果。穿过九个模型,",
+    "ff8bc9ec0ff9c6d3488191627f3b688394e068a8d1d87fe9534b1f8f04030ed1": "ROSE:多模式大语言模型中终生知识编辑的风险-预知Orthogonal 子空间导航",
+    "09df2bc90e3faa6ebbd82c0e97cbcec85a2362aac4d03a74127986e87e496278": "多式联运大语言模型(MLLMs)需要不断进行事实更新以保持现状,但终生的知识编辑仍然是一个艰巨的挑战。首要障碍是严重的局部侵蚀和灾难遗忘,在那里顺序编辑不可避免地会干扰预先训练的能力和事先更新.在本文中,我们提出\\textbf{ ROSE},一个\\textbf{ R} isk-aware\\textbf{O}\\textogonal\\textbf{S} ubspace 导航框架,用于终身知识\\textbf{ E}编辑 。ROSE 地址被遗忘,目的是将参数更新限制在以前的正向补充上",
+    "280d920d229720c2ebd3bbe4205347957fdba508b55383774bae60b84a8de794": "语言为Trait, 礼貌为战略: LLM 社会教育代理人语言效果控制测试",
+    "b1ffb2ac80a7accf8f264e6e5ad21fb5031f595af38245c9a558811a100b702a": "大型语言模型(LLM)代理通过对话协调,同一消息可以用更简单或更复杂的语言,钝或礼貌地表达.我们用LURK Werewolf框架来检验这些差异是否改变其他代理人如何判断和行事,这个框架将每个言论的语音-行为上游与其自然语言的实现区分开来.我们只重写实现,检查游戏内容是否保存下来,每一次从保存的检查点重播一次,对照重新取样的控制.我们的语言范围 一致的,在演讲者的信息和礼貌",
+    "36c3d7f874161a0d07a00625355ea24c0aa594cfa8c2123e5f6854aeed086582": "基于波的连续特性提取,用于激光引发的人类等离子体样品分光分光分类",
+    "7a6357aac1cf9a9b647570199b09bf902365a918022c99abcfcd3edf64ec760f": "从激光引发的分解光谱(LIBS)光谱中提取区别特征,对于复杂生物样本的分类很重要.本研究评价了基于CWT的连续波变光谱峰值提取,以区分标为SARS-CoV-2阳性或阴性的人类等离子体样本.来自181个人的等离子体标本,包括53个阳性样品和128个负性控制器,作为5 {\\mu}L液滴沉积在硅基质上,在分析前干燥.Spectra是用纳米秒Nd:YAG激光在1064纳米处操作,有100个罪获得的",
+    "be4f325267b0bde5614426dee45c67a4314cca24aa174349b4e83631209dafaf": "安全是 $\\ Pi_ 1 美元,可论证性是 $\\ Sigma_ 1 美元 : 拥抱面部断裂和 OpenAI 数学证明的一个框架",
+    "39fe019246704e5de4a5e9432349f03a0ab801b8fe47e3682ff1b7fb66df597e": "OpenAI的特工于2026年7月突破了Hugging Face,同一家公司于2026年10月发布了700多份AI生成的数学证明手稿.第一个事件被解读为安全方面的失败,而第二个事件被解读为数学方面的成功.我们通过我们论文的混合框架(Kim和Kang, 2026, arXiv:2611.01914)阅读,其中编码、证明和从数据中学习是由同一个推算机制推导出来的,而这种推算和学习又与所推导的假设类型不同。在这个框架内,两者背后的人工智能系统甚至",
+    "d39e6b3c47d32b3ef242b1081cf3cc68ceb3e4753ff6daf51d0b1b6c95254a11": "何以代表,何以保留:人类对代理AI的偏好 贯穿日常生活和工作",
+    "f00c96e9c7dff061457b6fd8639fc3582e48c5b3daab32b2f91e110492ecaaec": "AI代理可以代表用户执行多步骤的任务,然而可接受的授权的界限仍然不明确.我们报告对289个美国进行情景调查。具有AI经验的成年人,涉及9个生命领域的45个使用案例。每个答复者都对每个领域的一个情况进行了评价,产生了重复的自动化偏好、信任、协作、AI领导、隐私关切和支付意愿。各域的自动化偏好差别很大。一般估计等式模型显示,对AI剂、理想AI领导力、前Tas的更大信任度",
+    "09394c2ca57d225e49814334732a6baf81b995190ccdce90f1b4234044a3cd7d": "FOSCAR:通过Affine Folding加速解码注意器超过2和4Bit KV Caches",
+    "bbf4e9199df5d3e91552172b2cd1878d62e86d1cb017d0618560262df086234e": "大语言模型解码关注流 密钥值 (KV)缓存,用于每个生成的令牌.将缓存打包成2位或4位的四位整数可以减少内存流量,但不会自动转换成潜伏保存.现有的2位引信内核在H100/B200上达到最高HBM吞吐量的31%/15%以下.转换每个值并应用其尺度和在喂食Tensor Cores之前进行抵消是一大瓶颈,因为现代GPU缺乏指令-问题吞吐量.FOSCAR不应用缩放和抵消每个 KV 值,而是使用affine 折叠将其应用到另一个值",
+    "c6a5abbdd841c8f02ea3d722a2e398875c2643696a39ef73a155c03bf04cf643": "记忆道场:通过 LLM 代理内存设定中毒基准",
+    "884423ce5f92ad51739c2ceae901e19da26ce011238ead80a6283aa46559ac63": "LLM代理从使用内存系统改善长视距,多会场任务的表现中受益.然而,记忆引入了关键的攻击表面.在一个会话中遇到的恶意指示,可以在检索之前通过内存存储和传播,并在以后的会话中采取行动。由于内存系统在处理和检索信息的方式上存在差异,因此中毒的下游影响会因系统而大不相同.为了量化不同记忆架构的中毒影响,我们引入了记忆道场,这是追踪生命周期的基准.",
+    "79ede14f0511bb6e747af5af233834cae7d2e3075878d150b8046365e56a6954": "为高效 LLM 服务而故意- 注意缓存",
+    "a96ad003545065c0ec1b6abac8875366f0c48578eba03790d652f7d2e198d63b": "现代LLM服务系统使用前缀缓存来加速多回合对话工作量.它们缓存了之前对话前缀的密钥值状态,并在后续请求共享同一前缀时重复使用,以避免冗余的预填计算并减少服务空闲.然而,实现高缓存命中率仍然具有挑战性,因为缓存再利用取决于对话是否继续,以及下一回合何时到达。我们对实际工作量的分析显示,用户意图是这种行为的有用信号,因为不同的意图显示不同的续作pr",
+    "1804232c43acdaf42b2a0ff7774fd4fac376aea3d493d2557bb7c3cb175a0cee": "ICare-DT:用于连续预测重症病人的数字双胞胎",
+    "78501bd75f95f26ee91baf02043c6bbc6e53fd5173a811a5fdf27aa8e7ba80cf": "重症患者的数码双胞胎应更新新数据的预测并预测治疗反应,但很少有研究测试常规记录是否支持。我们提议 \" 护理-DT \" ,即一个基于变形器的双胞胎,在不进行再培训的情况下,从新的测量中更新潜在的病人每小时状态。我们在140 473 eICU-CRD的停留上进行了培训,以预测跨越训练手段的生命迹象。在测试数据上,后来的预测比双胞胎自己对所有12个环境(+0.073至+0.153 AUROC)中同一窗口的小时-6预报.在验证数据上,扣押或交换新表格的控制",
+    "c702ddbd6366fd478fafc0b733a09401fde7e6e365c13e9bfa3e2022ef0446b0": "RidgeFill: 快速预填的免费培训后端缓存",
+    "ddc5fb713a5e964bcf97990cd98814349fe392c70eefd25b874d07ebcc51ad3e": "RidgeFill通过不计算一个模型的大部分上层来缩短预填,以作为提示.下层完全运行到一个分裂;从分裂层的状态中,每个层的图会预测每个后层的输入,每个后层会从这个预测中写出它的缓存.设计遵循YOCO和DeepSeek-V4.1-Flash,其中投影被训练成模型.RidgeFill将它改装到从未为它训练过的模型上:地图是从一个经过校准的文本中装入一次封闭式的山脊回归,层本身的投影运行不变,以及一组选定的行",
+    "ad6d3e78c518aae86749a2291deb352bbbc19e8354f618e0eb31b5f9bb163b09": "对TLS中量子加密后采用情况的实证评估",
+    "095bc831decacf81c3e3d1f4c2e6dd96ae4a1771d31ead51af77e00566cd3c2f": "预料到Q日的安全顾虑,主要的CDN和云提供商正在向量子后密码学(PQC)迁移.虽然现有的文献对PQC的表现进行了基准,但评价现实世界收养数据的经验研究仍然很少。我们用每个协议的10,000个目标IP地址,对七个关键协议(HTTPS、LDAPS、SMTPS、IMAP-SSL、POP3-SSL、TELNETS和RDP)的PQC部署情况进行实证评估。在原产地-服务器层面,PQC算法支持率达到HTTPS的9.1%,LDAPS的7.39%,而所有其他被评价的协议则低于1%.在实体",
+    "ff8ef24bf7ad90ec2a68f5b54fde7d820603261ff68afa7e58470f0d5b498bc2": "SSH基础设施中量子加密后采用状态的经验研究",
+    "0212bc93a5916179b7d5e96418da33dea0bb13e1cfcff53b19576a2dc30ceaeb": "随着预期Q日的到来,量子计算机威胁到目前加密和数字签名的加密计划.作为回应,主要内容发送网络和云服务提供者已经在采用量子后加密法(PQC).目前的先进水平侧重于衡量执行项目质量审查的业务业绩,但现实世界的采用状况仍然研究不足。这项工作利用来自专有扫描工具的大规模SSH指纹数据,分析152万主机和27 012个实体的PQC采纳情况.我们的研究显示",
+    "5b7ba262b296b89499b61aae7c998a13aaf7e295cd492a56c5e6dab381b29113": "出席右分辨率:通过查询-关键交互结构进行头部调整",
+    "59bd767cc6a70458103a06bc3254b7cd278cb975551ccd509eb548b444394eb1": "注意是大语言模型(LLMs)中一个主要的可伸缩性瓶颈,其计算成本和键值内存流量随着语境长度的增大而变得日益令人望而却步.分散的注意力通过将每个查询限制在上下文的一个子集来解决这一瓶颈,但其有效性取决于以廉价和可靠的方式确定相关区域。现有的无培训方法主要依赖运行时间相关性估计,选择的维度和颗粒性通常受固定的休眠法而不是前期固有的相互作用结构的制约。",
+    "fc0d7b3b4888cacc3219185e489a1eeaefb33fd0625cbe13440f4f13a90d441d": "校验噪声是温度:在有限预算LLM- Guided搜索中测试倾斜预测",
+    "aaac2bccae07e2429b202c1d2cd6f6aa72e3e60d61ef1068fbd629cb326a2fc9": "LLM制导的搜索循环提出一个修改后的候选人,得分,如果得分更好则保留.在每次比较时,如在即时优化器的小批量接受门中,如果得分差异是物流的,变异操作员是可逆的,其固定定律是exp(β f)倾斜的变异平衡,那么保持-if-better就是可逆的Markov链.对于任何连续的对称噪声差异,同样的倾斜是小步扩散极限的定律,其中β = 4F'(0);对于小批量门β 生长与th的平方根.",
+    "340da0b6f786c680821b51fbd208cfb1552509a7bdbe51ea548cc84b186c96e4": "确定:用于有效远景规划-语言-行动学习的不确定表现",
+    "37dced09bb95eb371cbf8b1c85b045591809c02162b2a1a8f874f6765fc31442": "愿景语言行动(VLA)政策已经成为了对端到端机器人控制的有希望的范式,但其有效性仍然在很大程度上取决于大量演示数据.在操纵任务中,这种依赖性因动作空间中结构化的瞬间不确定性而更为复杂:多个附近的动作或轨迹可能成功解决了同一任务,而模拟等效的演示往往以不同的速度展开.标准点监督将每个已证明的行动视为一个准确的目标,在这种无成果的情况下造成不必要的学习负担",
+    "d6ec745ffe8d246574f327617e300430e25ec99f55522d16db0c124462891796": "Goodhart in the Planner:以抽样为基础的控制剥削从人类偏好中获得的奖励",
+    "af3aa51d148c7e0913d7a13e1eb08a644918a63a5fc752ad3c15c9996d139a18": "机器人越来越多地通过寻找从人类喜好中汲取的奖励模式、模型预测控制或最佳美元选择来选择行动;我们衡量这对真正目标的作用。在《半谢塔》和《Hopper》上有众筹标签,在Meta-World抽屉打开和板块滑动上,两位作者的合成标签和盲标,更硬的MPPI搜索将真实回报削减了76%:有了人类标签,抽屉在20年的0年里对10年的克隆政策打开,规划者从10年开始,而搁置的标签准确度保持在0.75-0.97。在板滑的胡马",
+    "bc33d32fe11cf04d017a868226542810c17144543a63202bc9c7c5fdda1533c9": "AI探员需要多少对话历史?",
+    "13811641977c57cc73a0ec618e19d2d8df6c8e38e6f87131f31f45dc8598d92c": "使用较少的对话历史如何改变读者的用法和基准分数?我们在1,100个BEAM问题上研究这个问题。我们在五个固定通道预算中保持了检索排名和读者不变,随着通道预算的增长,平均分配的分数上升。在最高测试预算中,每增加一个符号的得分收益变得较小。可回答的问题通常得到的分数较高,背景更多。集体弃权的得分有时会随着通过预算的缩减而上升。我们还在一项有明确对话状态目标的可控任务中测试了信件保留问题"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -18664,6 +18747,361 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/024/071.htm"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.16-rc0: Add ripple preview support to the MLX runner (#19592) · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0"
+    },
+    "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "A Blog post by NVIDIA on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+    },
+    "https://w2solo.com/topics/8700": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8700"
+    },
+    "https://www.v2ex.com/t/1255594": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "独立开发者 👨‍💻 - @vulgur - # 2026,1102 ～ 1108上了个新 App ，断断续续花了将近四个月，但是实际开发也就一个月。本来是想快速验证，结果还是没能实现，中间中断了好几次，每次继续开发都要推翻重来。上架后也",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1255594"
+    },
+    "https://arxiv.org/abs/2606.11526": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2606.11526v2/figures/figure1_lifecycle_transition.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2606.11526"
+    },
+    "https://w2solo.com/topics/8699": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8699"
+    },
+    "https://arxiv.org/abs/2504.13295": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://www.ithome.com/1/024/546.htm": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "“青少年账户”功能覆盖 Instagram、Facebook 和 Messenger，内置多项保护措施，可自动限制哪些人能够联系青少年用户、他们能看到什么内容，以及每天使用应用的时间。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/024/546.htm"
+    },
+    "https://w2solo.com/topics/8698": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8698"
+    },
+    "https://arxiv.org/abs/2403.06879": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2403.06879"
+    },
+    "https://solo.xin/topic/6265": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "前言 以下内容都是我亲自写的，在两天前QQ邮箱发过给自己。 我不介意白嫖，但是用我的策划要给我署名。我做这个纯粹是为了一坛醋包了一盘饺子。 《幻想造物APP产品策划案V1.0》 一、产品定位与宏大愿景 产品定位：一个致力于解决AI时代失业率问题的“全人类创新孵学化器”。 底层逻辑：当前社会最大问题是，下沉市场正被AI…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6265"
+    },
+    "https://arxiv.org/abs/2312.17123": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2312.17123"
+    },
+    "https://huggingface.co/blog/amazon/higher-order-pruning-experts": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "A Blog post by Amazon on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
+    },
+    "https://solo.xin/topic/6260": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "二十万奖金，发给能收到钱的人 支付宝办了一场黑客松，比的是账单。 这两年，AI 产品出了一大批。 会写诗的、会画图的、会帮人改简历的，一个周末就能做一个出来。 做出来之后，多数停在同一个地方。自己用着顺手，发给朋友也说好用，然后就没人再打开。 从「做出来」到「有人付钱」，中间隔着一道坎。 支付宝办了一场比赛，专门比这…",
+      "image": "https://watcha.tos-cn-beijing.volces.com/prod/user/uploads/10014366_1794138941_d251a3df-4f39-462b-ba54-a6dcbf5e1801.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://solo.xin/topic/6260"
+    },
+    "https://arxiv.org/abs/2306.08559": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2306.08559"
+    },
+    "https://solo.xin/topic/6259": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "平时上网经常需要下载一些文件，但市面上的下载工具要么全是广告，要么偷偷限速，甚至后台常驻一堆奇怪的进程。作为一个极简主义者，我实在受不了这种折磨，索性趁着周末，从零开始用纯 C++（Win32 API）手搓了一个绝对干净的小工具—— 5252 Downloader 。 它没有花里胡哨的会员体系，也没有任何联网后门，主…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6259"
+    },
+    "https://solo.xin/topic/6258": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "写于：2026年11月8号 说明： 我没有技术背景，短期内也不会亲自实现这个产品。以下是我对现有交友产品的不满，以及一套完整的替代设想。欢迎任何人借鉴、改进、实现。如果对你有用，告诉我一声就好；如果做得比我好，我会高兴。 一、问题：现有交友产品哪里让人累 我观察到的核心问题不是“人不够多”，而是匹配成功那一刻被当成了…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6258"
+    },
+    "https://www.qbitai.com/2026/11/508745.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "量子位在寻找“能干”的答案",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/60b7c5fe3880362720270df5f974c904.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508745.html"
+    },
+    "https://www.qbitai.com/2026/11/508753.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "香港金融科技周 x StartmeupHK 2026十一月六日圆满结束。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/e2772d2455879aff7bc5fbc9e59ea677.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508753.html"
+    },
+    "https://www.qbitai.com/2026/11/508746.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "11月9日，百度文心首次披露 RSI 最新进展",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/6d66056eee84611f1e4ebef31fedd47d.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508746.html"
+    },
+    "https://www.qbitai.com/2026/11/508716.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "全球练兵、全球交付",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/b41981042358beae78508d1d85383202.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508716.html"
+    },
+    "https://www.qbitai.com/2026/11/508706.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "教授也用Claude糊弄…",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508706.html"
+    },
+    "https://www.qbitai.com/2026/11/507843.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/c90eeef4d9e9af342ab1cb91a3d1a781.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/507843.html"
+    },
+    "https://www.qbitai.com/2026/11/508694.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "11月9日，千问办公发布2.0版本",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/ce69a14e4330b86f37c7cd2251e84f81.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508694.html"
+    },
+    "https://www.qbitai.com/2026/11/508690.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "厘清故事与现实的边界，回归投资与产业的底层逻辑。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/934c83a31d2c68562ede77aae63a5448.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508690.html"
+    },
+    "https://www.qbitai.com/2026/11/508629.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "最早量产的亲自泼冷水",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/b886b21a1cb7974b84638cebe77e9de8.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508629.html"
+    },
+    "https://www.qbitai.com/2026/11/508607.html": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "Worker不够了主管Agent还能自己招！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/3db19b191bb80d873747a8f2d1fa309b.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508607.html"
+    },
+    "https://arxiv.org/abs/2611.09818": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09818v1/figures/pipeline.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09818"
+    },
+    "https://arxiv.org/abs/2611.09807": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09807"
+    },
+    "https://arxiv.org/abs/2611.09805": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09805"
+    },
+    "https://arxiv.org/abs/2611.09803": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.09802": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09802"
+    },
+    "https://arxiv.org/abs/2611.09798": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09798v1/fig_intro_scaling.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09798"
+    },
+    "https://arxiv.org/abs/2611.09791": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09791v1/categories.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09791"
+    },
+    "https://arxiv.org/abs/2611.09785": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09785v1/figures/figure1_example.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09785"
+    },
+    "https://arxiv.org/abs/2611.09770": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09770v1/model.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09770"
+    },
+    "https://arxiv.org/abs/2611.09768": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09768"
+    },
+    "https://arxiv.org/abs/2611.09746": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09746v1/comparison.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09746"
+    },
+    "https://arxiv.org/abs/2611.09736": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09736"
+    },
+    "https://arxiv.org/abs/2611.09730": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09730v1/survey-flow.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09730"
+    },
+    "https://arxiv.org/abs/2611.09722": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09722"
+    },
+    "https://arxiv.org/abs/2611.09721": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09721v1/same_domain_model_brt.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09721"
+    },
+    "https://arxiv.org/abs/2611.09715": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09715v1/multi_turn_conv.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09715"
+    },
+    "https://arxiv.org/abs/2611.09712": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2611.09709": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09709"
+    },
+    "https://arxiv.org/abs/2611.09707": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09707"
+    },
+    "https://arxiv.org/abs/2611.09703": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09703v1/SSH_Revenue_Employee_Size1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09703"
+    },
+    "https://arxiv.org/abs/2611.09700": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09700v1/fig1_new.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09700"
+    },
+    "https://arxiv.org/abs/2611.09699": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09699"
+    },
+    "https://arxiv.org/abs/2611.09684": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09684v1/intro_image.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09684"
+    },
+    "https://arxiv.org/abs/2611.09670": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09670v1/fig_filmstrip.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09670"
+    },
+    "https://arxiv.org/abs/2611.09662": {
+      "checkedAt": "2026-11-09T16:49:49.270192+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09662v1/answerability.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09662"
     }
   }
 }
