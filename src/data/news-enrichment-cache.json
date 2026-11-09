@@ -3502,7 +3502,67 @@
     "6162984086c097577c8f49d9eddb123187f82257c33526ffbfd04ff1b57e82fc": "现在(59分钟),Tulsee Doshi在建立Google的前沿模型上,",
     "0a9036dda4285fb95a79f94a45c2d9305cc9185d71cbc25851e9777292d3c034": "大赦国际圣诞节",
     "3ef87429b32b31ee7845b31653f75a523f080c2675afc660661421258e6aa5cd": "视频翻译",
-    "426f341a7bb808de938c219cd0bcd02d1ed9b73e5154e77e32eee212915bc0ba": "VideoTranslate是一个基于浏览器的AI视频翻译,位于https://video translates.com.帮助YouTube的创造者、市场营销者、教育者,核心工作流程:在您准备好运行任务时与Google签名,上传MP4/MOV/WebM(每个文件最多500MB),在23种语言中选择源头和目标,让云管对您的剪辑进行粘贴.输出是一种可下载的MP4,其中对话框是用语音克隆来翻译和重音的,目标是你的源头tibre,"
+    "426f341a7bb808de938c219cd0bcd02d1ed9b73e5154e77e32eee212915bc0ba": "VideoTranslate是一个基于浏览器的AI视频翻译,位于https://video translates.com.帮助YouTube的创造者、市场营销者、教育者,核心工作流程:在您准备好运行任务时与Google签名,上传MP4/MOV/WebM(每个文件最多500MB),在23种语言中选择源头和目标,让云管对您的剪辑进行粘贴.输出是一种可下载的MP4,其中对话框是用语音克隆来翻译和重音的,目标是你的源头tibre,",
+    "67280758734c0040c0dc043b0ebaef1040fa5a29b9ed44a1d0531a08e9ae3546": "了解何时介入:AI代理人的因果关系评估",
+    "9c7a7cfcfa7b56b31e2de0e2f102ded7e9ccb9de444504bc0d0003a8af7f9b53": "目前对代理AI系统的评价主要依靠基准。然而,基准的静态性质使它们无法了解在部署时审计干预措施的价值。为了进行可靠的部署,我们往往需要在代理人的轨迹内确定是否进行干预,例如,通过核查代理人目前的产出或引导其采取不同的行为,使用人审查或费用更高的模型或耗时的代理人监督。这种干预的价值基本上是一个因果推论问题,问S的因果作用是否因果?",
+    "5fb858b2e82b47884b7f85b2734217af39af135d00618ed51f37656426360232": "关联性变换的框-盒",
+    "a53b46fd1818efd1d570e5222069d21b1b598f5cc482c1a43ea8eba66af2a4b6": "我们考虑对应矩阵的箱-氧化变换, $\\ Phi_\\alpha( C)\\ mathrm{ vecl}\\{( C^{\\alpha} - I)/\\ alpha\\}$, 与 Jacobian $J_\\alpha$.家族以 $\\ alpha=1美元, 通用的 Fisher 变换( GFT), $C\\mapsto\\ mathrm{vecl} (\\log C)$, 以 $\\ alpha=0 美元 , 以及 $\\ alpha=-1 的 负对角浓度坐标 。反向问题是一个严格的螺旋程序,每个美元/α元,所以每个成员都是注射的.地图在 $\\mathb{R}^{d} $, $d=n(n-1)/2 $ 上, 前提是并且只有在 $\\ alpha\\le0 美元 上, 以便 $\\ alpha=0 确定无限制段落的边界 。",
+    "7a9d2e906988ee75b47831b3ce9c6fbe2b50725eb8251612f3991105505cdf3e": "谁先选?平等分配不可能时的赔偿公平",
+    "f6bee742139daaeca89a52a8115eb9928f030160ccf89fc129c8e54b163e375d": "当不可分离的物体,如传承物或参加体育赛事的门票,不能在具有同等要求的代理人之间平均分配时,一些代理人必须获得比其他代理人更多的物品.选手能先用更少的物体来补偿吗?我们提出补偿公平的两项原则。物体较少的代理人不得羡慕一个更大的捆绑物,其任何一件物件被移除,同样多物件的代理人之间的优先优势必须交替而不是积累.规则草案的特点是非浪费性、中立性和客观的马斯金单调形式,其中源",
+    "83fddc614af5bc217734b4747b58a917a108bc8e1108bfe5dac34b5f766d7635": "道德消费者与环境",
+    "705d86711542815467c9f2691e4ad42c8e914ed01ba90e62934aa196ac7b60f4": "我们研究对有害环境的商品的征税当消费者想要\"做正确的事情\"时消费者通过物质收益来评价她的购买策略,这一规则具体规定了是否购买,如果其他人遵循同样的规则,而其道德程度给出的概率,她将得到这种收益。平衡存在,在道德各异的有限人群中是独一无二的。最佳税收主要取决于消费者是否意识到税收被退还给他们。如果是这样,皮戈维安的税是最佳的 同一道德,无论消费者K",
+    "e9b498c9c69aadce93b354fe9e854229aa6e93b3d29ceb69b4148bb3fa03fe50": "在业务限制下最佳的强力共振风险分担",
+    "0e73b71bf464319b3365b59d21c67eaf44c39fdfbfee67dcf377dc25f0a15182": "再保险方案和灾难池等风险分担安排必须满足业务限制,包括能力限制、附加带、留存规则和割让限制。在扭曲风险措施下,不受限制的最佳办法将每一损失层分配给费用最低的参与者,但业务限制打破了这一分层规则,没有计算受限制的最佳办法。我们显示,对于合作分配,参与者的扭曲风险措施和业务限制是线性数额的o。",
+    "cfe66954e291f8961497adb904e44d811e394063d27a0e6eb57c899cd5102196": "人工店主与关注竞争",
+    "2ab0a611a31452913ba27cc12f1d856890b781dc01ced18e57d8f0c0c186b2e8": "我们研究AI购物界面如何影响价格竞争,平台利润,消费者福利.一个平台主机为三种质量不同的产品中的两种.在没有AI的情况下,消费者在显著扭曲和超重的情况下比较主机对子,无论属性、价格或质量如何。在援助下,一位AI助理推荐了两种真正效用最高的产品,让消费者进行同样的扭曲比较.在授权下,人工智能代理商选择最佳产品,但须经购买批准。两种模式都使用所有产品,并了解消费者的喜好;",
+    "51550b1b15d97b54b80e6656247549883e18378ab9523aee0b225df3bb0d1ee8": "关于代理操纵政策",
+    "93b7105482638431ee19bbf12ef0bde3af1bb67872a1d4311501621d3e7e5b5f": "最近关于机器人操纵的工作侧重于在演示方面受过培训的专家政策。我们显示,通用AI模型可以比视觉语言-行动模型和世界行动模型等专家政策更可靠地控制操纵者.我们系统地分析代理操纵政策(AMPs),其中通用的AI模型直接指挥操纵者,随着任务展开而调整其行动.我们提出AMP1, 一种在单臂、双手和移动操纵中无变化的参照带。AMP1实现最新成果",
+    "a4f7f54d2bda513e03983b9f54762b77ecbd8e392764c55651704a05a1d47949": "降低风险复杂程度的成本",
+    "5b7988b36c7249ae3ef5a83e2d0309f75eb2c03f6a0be5cb3d39c58071fcc4fc": "当彩票的概率结构会影响价值与最终奖金分开时,我们研究风险下的偏好。我们的第一个成果是,彩票价值分为预期效用而不是奖品,以及只视概率树而定的添加剂扰动术语。关键的行为限制是分支取消,它将奖励评价与概率结构区分开来,以及树内支配,它捕捉到在同一概率树内的评价是简单的,跟随支配.加强b",
+    "b0f2cf4ec46f08e54de14996591c5b5954ac8182938521a04c949262c10cabed": "CPU-ARC:用于 CPU 的代理因子缓存",
+    "7c53bd6df1d681db2f82b8bb5e79aac93609b62f12cb5b34f692be742a375801": "大语言模型不断重塑轮子.他们将任务解决与解决方案的执行混为一谈,这迫使他们从头解决每一个问题.我们表明,一旦一项任务得到合理解释,就可以非常有效地运用其解决新问题的办法,而且语言模式很少参与。我们引入了代理推理缓存,一种从LLM推理痕迹中构建强大的CPU-可执行代理推理缓存(ARC)的方法.ARC在一系列困难的数学中显示与前沿法学硕士的平面性能a",
+    "9bd9d41f24b72ac1b569ca1bf9a1e8e960dabb74eb98a1543a12cb9ee6cc66cf": "制裁、撤离和威慑:加速执行的证据",
+    "5c9ef554abe9d0f1e8a877d120c1aa739415c752b7d3aeb2e22267da22602c6b": "制裁的设计在塑造重新犯罪行为方面发挥着中心作用。我们研究固定罚款的影响,积累对超速累犯和责任转移的处罚点。由于澳大利亚昆士兰州制裁大量增加,我们估计这些制裁对随后的违法行为和提名其他司机的因果关系。较高的降级点增加了精细的重新提名,这与战略责任转移是一致的。仅受到高额罚款的罪犯中,估计再犯罪的减少幅度很小。重新犯罪率高达4.6%",
+    "24e8967eebbbc57a4d6f9be1703168c96f46082d28a9f811713ee41c6d639dfd": "关于测试-时间强化学习中多数-Vote Pseudo-Labels的可靠性",
+    "3186af568b5e0aea579dc261ff84a8cd8257328e003331b6bacfd7dd5d52be44": "测试时加固学习(TTRL)将预训语言模型适应未加标签的目标域数据,使用自生成的伪标签,其可靠性仍然不易理解.我们用在线直接优惠优化(DPO)分析TTRL的多数投票监督,并将其错误分解为人口多数偏好和迅速依赖的有限推出变化。由于人口占多数的偏见一般在没有外部监督的情况下是无法识别的,因此我们侧重于减轻有限推出变化的下游影响。我们提议 \\ emph{ Prompt- contentional distributionall 」 。",
+    "d28ce82bf1a4f5fca8a189e69574e35408f0b9ecd8340e3b64cfd98ce79fd13a": "网络适应性市场假设:检测、分配和网络计量效率",
+    "4e1cab49c801d5611de8f56bf065572be5c053459830cd9a813d8a3d37fcbca3": "我们提出网络适应性市场假设,这是适应性市场框架的一个新延伸,将市场效率概念化为一种网络依赖性平衡,从长期记忆的可预测性和跨市场信息传输中产生。我们利用2001-2026年的G20股权指数和5种商品期货,确定日本为中央信息中心,而美国则主要充当信息广播商.与传统预期相反,系统性危机没有表现出更高的网络光谱光谱,对危机相对性的假设提出了挑战",
+    "c9e7b3446f7d62f6d0327c7fd5c2eb6ad826971a8e8cbe2939e31d9dea1ea83d": "代码Quant2:低精度LRM的增强外部缓解和适应性分组",
+    "7093c1d1145971123564a43c36d90cce59626a20094e67a88c1d52fbe7db225b": "大推理模型(LRMs)通过产生较长的中间推理痕迹来提高任务性能,但这大大增加了推论成本,使得低精度量化越来越重要.然而,大量量化模型往往在推理任务方面表现不佳。我们在推理的第一个解码步骤中观察到更大的激活波动。校准省略这些早期状态可能会错过它们的激活波动.为了应对这些针对推理的量化挑战,我们提出\\textbf{CodeQuant2},一个基于集群的LUT量化 fram",
+    "383a6b5409a3d03100e2189d7827b67cf590e0b9db61499639c9663a69b99f73": "限制 Nested-Logit 定价:精确重塑和全球优化方法",
+    "a72a50e58601f76391fee2269eed85f08bea51425b407ba8e559e3985b9a0a99": "销售者必须在满足价格限制和销售目标等业务要求的同时,对可替代产品进行定价。巢木捕捉到类似产品中较强的替代,但这些要求可能会破坏用来解决不受约束的定价问题的结构.我们为有价格界限和加权价格上限的固定种类开发精确的重新制定和全球优化方法。关键的新颖之处是将困难的相互作用集中在巢层,同时保持对流优化于单个产品,不扭曲价格或近似",
+    "4f93336299626f5c85bdee8465c2e6d289fa04d84b1c0891aa40904f8bc1a228": "GRC: 外科手术场景图征集增强说明",
+    "725fd88b9008bc87945e9d750ad20d1ee9bba72ce065bb3c5fa5383d0c79575a": "目的:外科业务报告支持程序文件、外科培训、业绩评估和工作流程审查。然而,提取有意义的信息往往需要大量人工审查和临床专业知识。自动外科手术场景描述可以通过利用经常性外科活动和以前的知识来减轻这种负担。方法:我们提出GRAC(Graph-Based Retrieval-Augented Captioning),这个框架代表了手术场景,作为图画来捕捉仪器,动作和解剖结构之间的关系.鉴于一个输入场景图,",
+    "d11a7212d4cd7e3c7dad4a2aa2d05a393b84a400d3d3217f61b56711a371d58a": "下注禁令后立即付款:巴西提供的证据",
+    "429bca8ebc3e1021169a2b84b42709f4555cd8819909cc598621eec42ccd1be8": "巴西在犯罪、家庭债务、高利率、消费和获得信贷方面一直面临重大问题。在公开辩论中,打赌已成为一个可能的促成因素。2026年9月25日,联邦政府在全国禁止赌博.我们调查禁令如何影响即时付款(Pix).根据线性趋势说明,我们的主要发现是,37天的累计交易数比预测数低约8.37%,而结算值则低10.83%。在这一规格下,这两种偏差在统计上都很重要。",
+    "4485cf268d9345c4d16737be10efdbab18f441fbeb18a0ca5b250780e6573d47": "Grasp-TAGS:通过批判性消化选择任务智能Grasp",
+    "b059d6f79f9e5d1b4a176ad230fd0a61064d090897f67e61c647818ee3634bc7": "Loco-manipulation(英语:Loco-manipulation),它要求移动操纵器在长视野上协调运动和操纵,是服务机器人和仓库自动化等应用中大对象重排的关键能力.尽管最近取得了进展,但可靠地执行这些任务仍然具有挑战性,因为性能取决于复杂的机器人-对象和物体-环境相互作用动态。现有方法要么通过往往需要精确动态模型的基于模型的方法,要么通过基于学习的方法来应对这一挑战,从而减少这一要求。",
+    "24b575e0e3116a31dca99b8e2eb7840195a6df3ff5c199e92365d8e438d7715b": "价格- 波动关联总是零",
+    "e2250a110caa08d47cd25121b12e365e1bb4fc33b39e4499eae22ee1dc418b7f": "我们主张,使用经验性的时间序列来计算平均间隔期间连续交易的价值、数量和价格,按照相关性的定义计算价格与数量的相关性,总是给予零相关性。我们表明,经验性计算相关性的通常表达方式误导了研究者,没有实现价格-量相关的定义.错误的起因是数量加权平均价格依赖平均交易间隔期间的平均值和交易量,但不取决于时间",
+    "bc2f450688d7e2ab4e7551293f722dd466ea0c30a374121ed12aaeae31dadb05": "通过路径一致性引导的目标空间对齐",
+    "6c05c63cf359af8e2f84ccef55dab3ac924dd47774648eb50a21e7fec18ba662": "许多多式联运对接问题要求将源模式映射到目标模式定义的固定空间中,目标空间不仅仅是中间嵌入,而是直接用于下游分析.在此情况下,成功的调整应既保留目标分布的全球结构,又保留成对源-目标培训数据中观察到的例级对应。现有目标通常只涉及这一目标的一部分:对比性损失鼓励相对相似性,分配-匹配损失改善边际协议,指向",
+    "55accdbb7614946fc7f2e3c291ca8766c67932814b47daf060cef59433d590bd": "在线和调查福祉表现:一致性和跨来源信函",
+    "51db7f03f4bde9e068219b84ed641e726dbee1d231a08b746ffa95ef63966606": "数字痕迹在衡量福祉方面可能补充人口调查,但这两个来源不一定能捕捉到相同的构造.我们利用结构方程式模型,将人类浮游地理指数(HFGI)与世界价值调查和欧洲社会调查三个领域的计量进行比较。结果显示了强有力的内源一致性和结构特定跨源对应.不同领域的跨部门趋同程度不同;观察到的模式与更强有力的对应关系相一致,即基本指标更紧密地对齐。",
+    "05eb08420f21f85a4a3de52844885561df84e939179b24dbe980e6f5ee1c96b9": "仅限散列的发送者走多远?发送者记忆相对于短文本消息位数的预注册地图",
+    "6d805cf9814a7c84ed7d9bbfb5acdce96b82a27f5557c0dbb5352f3c734fa5af": "一个只计算散列的发送者,只有接收器有语言模型,能够比训练在同一域的古典发送者更便宜地传输人类短文吗?我们用1 000个英文用户的1 000个 \" 任务总长1 \" 的预登记单回答问题。主端点是发送100%消息的成本(hash比特,加上2字节的负确认和第一次尝试失败时的原始文本),与域内PPM订单-1发送方对齐.仅散列发送器在第一次尝试时发送了1 000条信息中的857条,每条信息花费192.8比特,18.4",
+    "f2af1aae1c5c396bb82228c61011165bdecaae7898175f3e5e9f73514d9ff34b": "选举情报:预测瑞典市政选举的神经零膨胀负面二元模型",
+    "c1cb2494aa554babb6a8c25fe042293b59b2cb407221ab4b5b484d11d2dbf09a": "地方选举的预测很困难,因为选举竞争在地域上是多种多样的,高度分散的,其特点是许多政党-市镇结合,很少或根本没有选举活动。本文为预测瑞典市政选举中的党级计票,该模式结合了预期选票的计票部分、结构性选举缺位的零通货膨胀部分、具体市镇的分散以及捕捉潜在政党、市镇和政党的学习嵌入",
+    "4d0cce85d5d4ac0f5e93b3d1166c482b48650a34542f283d67e982337a53234b": "基于 LLM 代码的无参考信任估计方法汇编",
+    "5d096285a8a8b3adbc634d35373e0e7751e2578f67674db971829ef4deacc8a7": "本文描述了一种方法和用例来估计LLM生成的COBOL摘要的正确性,而无需查阅人类授权的参考文献.核心的直觉是,关于语义的模型间协议对真理有启发性,一个LLM-as-judge可以提供比传统字符串或嵌入式的度量衡更高的真实性双向评估.我们通过下列方法实现这种直觉:(一)从各种模型中产生受控摘要;(二)一个LLM评价员,对一对摘要进行比较,并发出结构化的判断;(三) 一种校准的汇总规则,结合",
+    "72543b1ad69a2a8f1289821cdcf85176b609932a0dc38c2f46aab80cd4be86f8": "校准顺序- 手工化的罗森布拉特测试",
+    "75680ddf8d7739e3b9124692bd18c1bda37df801a940250b9c2bfeb9564249a5": "我们测试一个多变量矢量X是否与特定的分布F一致,如在复方模型和密度预测中.罗森布拉特变换将这一点简化为测试统一性,但其任意的坐标令影响了依赖下的功率.我们研究命令随机化:在很多随机命令下进行转换,并将证据与依赖-robust规则合并.重排只重新分配马哈拉诺比斯信号能量,所以一个订单是幸运或不幸运的抽图,集合会提高校准的功率.我们比较了两个变化无常的基线, 基平能量测试",
+    "5fe71ba3fcb03de3bb6e680ca1e316c5c7a7fd675cf89fd65ad11ab28e706db1": "Agentic Systems能否用制作AI工具来弥补放射学的空白?.",
+    "6abf1f25ea4cd7a0bc9089d5f54714971db5c20b5141d963fc8e4aa04daf12ca": "放射学AI沿着两条道路发展:在狭义的任务上表现良好的但涵盖很少临床结果的专门模型,以及处理范围更广的任务但易于产生幻觉和测量不准确的通论模型.通过代理系统将两者结合起来,为全面放射学报告提供了一个途径,但公布的系统与一种模式或身体部分挂钩。我们描述一个放射学代理框架,它规范了管弦乐手如何调用模块化工具来制作结构化报告,并用它来衡量这种系统能对t做什么",
+    "06ddc66c0d2b160f113aec62fb97bf66eb69567e7d956b56708a82f4cd4e7b24": "非基本性还是缺少信息?宏观金融中因果-非因果自愿评估报告的证据",
+    "a2f9d6636632f7da1e48ef81ab075f618aaf9615fbca9f7a001c6f3028780902": "本文研究了标准宏观金融VAR模型中是否存在非因果动态,并询问这些模型是否反映了真正的非基本性,还是省略了经济行为主体可获得但被计量经济学人所看不到的信息.为此,我们采用了一种筛选因素的混合因果-非因果VARX方法,旨在核算共同的宏观经济信息。我们评估其在模拟环境中的性能,同时显示通用共变(GCov)估计器在使用数个滞后时正确恢复因果和非因果动力学.从经验上来说,我们重温一下",
+    "8f2f4f068827368bdefa154536c71ae64da598ae78f428f318d796128d6aa513": "BitDecoding-FP4:通过Algorithm-System联合设计实现本地 FP4 KV Cache解码",
+    "ca29ff5c55549d088f9340574b40a15746d6f221e645474eb207f74b8e51d6d5": "密钥值(KV)缓存在长文本LLM服务中主导内存容量和带宽.虽然4位微缩格式(NVFP4,MXFP4)缩小了缓存,并在FP4 Tensor Cores上运行注意度,但是在算法量化和系统感知加速之间还存在一个根本的空白:现有的FP4 KV系统使用香草量化,导致严重精度下降,而精度导向的4位算法则依赖于向量码簿,其仰视率上方会降解破解吞吐量.我们提出 BitDecoding-FP4,一种算法系统协同设计,用于准确高效的本地 FP4 KV 解码",
+    "96a9cf82d99dd95767e8cd9e0d3a9fb5f9f8e9dc292f00a80a0d181360d4e6e4": "城市重建与人口再分配:关东大地震后东京的证据",
+    "15f55dbe37c1f402051819d67686a640b17c32cc501ad4c88981932a914cc3b4": "本研究考察了1923年关东大地震对东京市内人口分布的影响.我利用最新数字化的人口普查统计数据和各地区火灾破坏的变化,显示重建项目下的土地调整减少了被烧毁地区的住宅用地,全市特别是被烧毁地区的租金上升.虽然通过建造多层住宅恢复了住宅楼层面积,但被烧毁地区的家庭数量仍然低于震前水平,而人口则已恢复到大致水平。",
+    "d2a62eef499ceed8c9e40bb03ec1ed60edde006efd1d56dde41840527ce388a8": "用AI发现正式核实的量子程序",
+    "1f88614615f7afbdd926aa1396b92c03299cc75586747d7c603e5b6141b3fa56": "量子计算机能够解决科学中突破性问题的时限取决于改进后的量子算法和更好的硬件.这种算法进步通常是通过多年的专家人类合作实现的.在数学和计算机科学中,大型语言模型通过自动化发现循环加速了进步.然而,量子算法只能由受限制或小情况下的古典计算机来评价.在这里,我们展示了超越这些系统的量子程序的自动发现,包括放大级的改进",
+    "1131d113f387f5caa3697aee80f6914429c3de72ffedcff2eb3ace5a211146b2": "先知不平等的有效地平线与折扣的ID.奖励",
+    "c07b8e141df502e7c33724bf1eea0a521bacdecbefbf3309389d5fe97d9e7399": "我们用美元来研究先知的不平等基础奖励按美元阶段的乘法折扣计算。对于等长的阶段和通用的折现系数$\\glassilde\\gamma$,我们把单方位政策的最佳竞争比定性为$n\\to\\fty$与$s$和$\\glassilde\\gamma$固定.由此产生的尖锐保证说明了对相位参数的依赖性:在不打折扣的情况下回收1-1美元/e美元,在最坏的情况下接近1/2美元。我们还建立了一个无分配比较,将折扣的预言者以分数即d.最高的智慧 最高的智慧"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -18386,6 +18446,224 @@
       "image": "https://decohack.com/producthunt-daily-2026-11-08/opengraph-image?f8ffb0d666431a57",
       "kind": "原文封面",
       "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-08/"
+    },
+    "https://arxiv.org/abs/2611.09792": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09792"
+    },
+    "https://arxiv.org/abs/2611.09790": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09790v1/GFTPaperGrid.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09790"
+    },
+    "https://arxiv.org/abs/2611.09685": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09685"
+    },
+    "https://arxiv.org/abs/2611.09515": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09515"
+    },
+    "https://arxiv.org/abs/2611.09452": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09452"
+    },
+    "https://arxiv.org/abs/2611.09399": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09399v1/assistant_equilibrium_a.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09399"
+    },
+    "https://arxiv.org/abs/2611.09892": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09892v1/fig1_hero.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09892"
+    },
+    "https://arxiv.org/abs/2611.09381": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09381"
+    },
+    "https://arxiv.org/abs/2611.09891": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09891"
+    },
+    "https://www.ftium4.com/ux-weekly-297.html": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周我发现的体验设计和思考，为构建系统知识做准备。",
+      "image": "https://www.ftium4.com/attachments/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/IMG-20261108232702991.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.ftium4.com/ux-weekly-297.html"
+    },
+    "https://arxiv.org/abs/2611.09337": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09337v1/figs/penalty_changes_over_time.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09337"
+    },
+    "https://arxiv.org/abs/2611.09872": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09872v1/figs/dynamics_evolution.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09872"
+    },
+    "https://arxiv.org/abs/2611.09208": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09208v1/fig1_hurst_panel.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09208"
+    },
+    "https://arxiv.org/abs/2611.09868": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09868v1/speedup.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09868"
+    },
+    "https://arxiv.org/abs/2611.09023": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09023"
+    },
+    "https://arxiv.org/abs/2611.09866": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09866v1/fig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09866"
+    },
+    "https://arxiv.org/abs/2611.08859": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.08859"
+    },
+    "https://arxiv.org/abs/2611.09864": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09864v1/qualitative.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09864"
+    },
+    "https://arxiv.org/abs/2611.08528": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.09863": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09863v1/panel_ABC_flow_alignment_critic.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09863"
+    },
+    "https://arxiv.org/abs/2611.08510": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.08510v1/figures/domain_path_mental_subjective_wellbeing.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.08510"
+    },
+    "https://arxiv.org/abs/2611.09848": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09848"
+    },
+    "https://arxiv.org/abs/2611.08501": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.08501v1/workflow.drawio.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.08501"
+    },
+    "https://arxiv.org/abs/2611.09846": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09846"
+    },
+    "https://arxiv.org/abs/2609.37477": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2609.37477v2/onesided_blindspot.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2609.37477"
+    },
+    "https://arxiv.org/abs/2611.09836": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.09836v1/figure1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.09836"
+    },
+    "https://arxiv.org/abs/2607.28131": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2607.28131v2/fig/Fig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2607.28131"
+    },
+    "https://arxiv.org/abs/2611.09825": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.09825"
+    },
+    "https://arxiv.org/abs/2607.02978": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2607.02978v5/map_ward_pden1920_fig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2607.02978"
+    },
+    "https://arxiv.org/abs/2611.09822": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2606.30118": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2606.30118"
+    },
+    "https://www.ithome.com/1/024/071.htm": {
+      "checkedAt": "2026-11-09T06:09:00.691543+00:00",
+      "description": "当被问及美国是否应该接受 AI 的风险时，特朗普表示这些危险是可控的，并表示愿意与民主党在监管措施方面进行合作。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/024/071.htm"
     }
   }
 }
