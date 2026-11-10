@@ -3673,7 +3673,98 @@
     "3c2a962f4554e1ba10a1da616deeac4eeea3d3defac7962980b33f9d013e830d": "长链-核心=1.7",
     "e5e304bfb2b03ad91b519bce616aeadd3c6c54fd9b00e1517fd8fc4a5c51afcf": "自langchain-core == 1.7.6 发布(core)以来的变化: 1.7.7 (# 41776) 固定(core):负载的笼盖巢穴深度(# 41742)chore(deps):补丁新平通安全锁分辨率(# 41585)",
     "335cbeef39f088f164b3c305b87a430106b14ac1241534da348335c66c722e1f": "缩小大赦国际在教育方面的指导差距",
-    "78462d66bd758ad7880465c0c44baeb277dfb49c62c83b65802584310fb13381": "OpenAI的EMEA教育伙伴关系和新思维青年研究的教训。支持教师,AI识字和独立学习."
+    "78462d66bd758ad7880465c0c44baeb277dfb49c62c83b65802584310fb13381": "OpenAI的EMEA教育伙伴关系和新思维青年研究的教训。支持教师,AI识字和独立学习.",
+    "a76ad81ecf8ddefecd29dcfe84ea49130e5f2d0c4a2458a0bee265116a46d911": "与 Google 双子座4 Carbon 建立更安全的 n8n 代理和工作流程",
+    "0c40c7b2d9a804f9dbfcff47be926223086f818de22e4ba588eba43e557966e9": "双子座4 Carbon 已退出,现可用n8n.Google称其为最强模式,在Google的测试结果中,",
+    "fba9d255d984794682dd270c0f9f8bc11f88ac826ba1d6a3be535b6def032c52": "ChatGPT 在哪里获得信息 ?4 来源,解释",
+    "ffcc6927ce78ff7c77b88ffdca150735b7167e2715ca8501a846dcef9ba83a6c": "ChatGPT从培训数据,现场网络搜索,特许出版商内容,以及你自己的背景中获得信息.各各依此经.更多信息 :",
+    "9c18e1a7ac18a104cd84d38ba43be35ae471e3a08e882ce5e1bf043bbf5d8ef1": "技术就业市场状况:2026年末",
+    "d0730ea32e0f740cf7107607af1162d00cc43a2a4c8d0a4945dbe8eaf80f2233": "而最大的AI雇佣热潮不是在软件上。",
+    "669bf8c13e71c015865967cebe9fa4566d2bd3bfa529318a24a09784d9acdf2c": "Amy Genser 精心制作的 Mulberry 论文集",
+    "3271981da52c3ae808788ee019014e7e3f407eed5466d332f0ab4372f5af70a4": "Genser的无边形抽象 吸引了海洋的膨胀 珊瑚礁和海底的地形",
+    "03c8a1ff62aca4b0615064889f23ba3be261fd08b0db43a02c54fc9d3faa921e": "飞利浦 R.Lane:货币政策交流的科学和实践:欧洲央行的经验",
+    "fae746e186e5bb62842a3911ce66ab9cb6322dc5e30cbaf2430874ef724287ae": "见点头:一个独立个人代理,来自n8n实验室,运行在您的计算机上",
+    "fa7e50204992320040d59e4630b2f198527b3d981320ef7647fc457cb5834686": "点头给你做点什么它在您的应用程序和任何网站上工作,在操作前询问,并使用您选择的AI提供者.",
+    "2b0ce42cd6b54f35f68a3e7ffdee7376f5c0d7b6864093b6ba2ae8d85dde56ac": "第858集 如何构建人们想要的产品",
+    "7514e88f91590201baa14e437c1ce52201b397b7560591dc0ae9fa30e8a53cec": "如果AI能建造任何东西,你如何决定建造什么?Rob Waling庆祝他的第六本书Idea to Traction:在AI时代停止建造SaaS Nobody Wants。他分享他写它的原因,另外,为什么每个第二次和第三次的创始人仍然在建设之前验证,为什么AI可以加速建设但不能学习.我们讨论的主题有:(0:41) – 电车公司的想法:在AI时代停止建设SaaS Nobody Wants(2:32) –为什么罗布写了另一本书(4:56) – 如何博",
+    "8ba36a322f4ae53a9fbf95e3ca165864d355f32be57bd08edc1290a38a63e16a": "24 顶级社交媒体平台和Apps to Grow Your Brand in 2026 2026 (英语).",
+    "53a692c805d8e03f9e22418c998e876fc89509af994fff4f890f68eb78d2183c": "你会马上认出一些社交媒体网站其他人也许对你来说是新人,而且可能正是你的品牌需要的,才能接触到合适的人。",
+    "f9e96bc430206a43c32d5503b598324999e36d1a2883d0f1e045a758eb49a866": "Claude Fable 5.2能够替换产品设计师吗?",
+    "d5fa0e8686332cb6f58c464723b59b0c6cb6e83287c0fd5558d039b8eef84911": "寓言5.2是Anthropic最先进的AI模型.该模型显示,大多数产品设计任务都取得了出色成果。鉴于...",
+    "2af46c5a8e7ef591723d68f29c8fadffe3d52c6318a649341478859bc2474598": "皮耶罗·西波隆:现金与数字欧元:同一枚硬币的两面",
+    "efac404d7db2ce7fc7ded06e4edf0ca83991e6b32405dfa4d827e0bc7528f54f": "翻转HTML5 下载器",
+    "23fae07403e867d39c63026ff9f8b9d1c1db41df3bccbd33559c821e2a85602a": "是什么新来的孩子教我如何说服我做设计师",
+    "56033449561c2800a91355828eb3ab52096a0bc9852f343a4542538d6057a6a4": "人们不认同思想。他们答应了自己继续阅读 UX 集体",
+    "eb525c2751cbfad8db39236ce79c5aee256adeb848392d463aa89821fd96dd49": "干预下的平均与预期因果关系:模拟假设和估计瓶颈",
+    "a5b7f15b8e33d37dddef523090dc26326a941d5d0bffb866a031680d730d0824": "治疗干扰下的因果关系推论需要假设,以减少成指数数量的潜在结果。我们通过将这些假设分为三层,即干扰区、曝光绘图和结果模型,为潜在结果制定分级的有限人口模型。鉴于一个干扰区和暴露区分布图,我们显示,潜在结果将非参数分解成直接的、溢出的和治疗溢出的互动成分。这种分解为非参数、半参数提供了共同坐标系统。",
+    "907d21fbc74f719550558046f17da708bba4820226b46bfc083f183d662e1085": "每个新媒体都叫作弊",
+    "a660aaf7b507b4e057f7ad9435d2005663b8a4fa8f55086faee73996c21cbabb": "我所不相信的机器让我再次对事情感到不善。Monet的印象日出不会存在,让记录显示,我也反对。Ted Change在《纽约客》上写道,我转发的敬那些没有要求的人(像我常问的那样).他的观点是,艺术是几千个小选择的总和,而一台为你们制造大部分小选择的机器已经移除了艺术。我在晚宴上总结说,",
+    "c7a368022868de3139b091d15e777405f910ab55430ffcd0b1a64c1124741f7e": "年度时间:政府薪酬修订",
+    "3fb91068d04f836fd88a22f46539d17a9cb84918fca6ce7c89dc1723a97e5d95": "公共薪酬由法律以名义规定,因此通货膨胀侵蚀了法律行为之间的实际价值,直到政府修订为止.我将每一次修改都作为前瞻性政府的选择, 由两个成本塑造,固定的行动费用使订正数额大而罕见,而同时为增加筹资的对流费用使订正数额小而频繁。通过预算,每次修订还转移了债务和进行下一次修订的财政压力风险。在有文件记载的11个国家的薪金决定中,酌情确定的薪金减少与p",
+    "3217f4ab366c4b8723d1b14347d8775dc831db047b0fdb056f01506368e5c737": "机构不对称下的资源分配游戏理论框架",
+    "10de64f0dc7bd09937bfedc5666c82bffd7f4ecb42960509cd079ddc829cd4ad": "我们开发了一个双玩家背包游戏,调查个人能力限制下的资源配置,对共享资源的竞争,以及体制上的不对称.玩家选择了可行的资源子集,而他们的回报则依赖于竞争损失,分配规则,以及不对称的机构利益和成本.我们得出福利的总函数,并表明分配系数在不直接影响整体福利的情况下重新分配报酬,而体制参数通过其净贡献影响福利。因此,机构安排",
+    "f1378b477c02bf11475453de38c124438278e14752268e7ea69ca75c63a50115": "财政承诺和慈善活动的额外性:共同公共预算的不同捐助方目的",
+    "60802d5b12dc47bcf87e7f952d1b565ebc4b9b27366920740c49856685638411": "慈善捐助者往往重视不同的公共服务,而预算当局则将公共支出分配到一个共享的组合中。政策框架经常寻求确保私人资金补充而不是取代公共资金。我们区分了基线额外性,这种额外性保留了预赠公共资金,与组合保值,这种保值保留了在根据酌情编制预算的所有礼品集合后提供的服务。向某一服务提供更大的馈赠可增加每项服务的酌处性,并减少其他服务的保护松懈。阿锡",
+    "2b06c9a546d963f284798bb5f48bf34bf6d94fa9d34d6b474c719d03e77402cc": "帮助照料者在日常生活中使用AI",
+    "6aef0b5636b03726336f83a23d18a411e130f18dfaa5d5c3351f83bfccad56b9": "OpenAI Academy正为美国5个护理人员举办免费、实用的ChatGPT讲习班。城市,帮助他们为日常生活建立实用的AI技能.",
+    "d3f3379997902834dcf3b939088ff5678d0bfb5f269506d79cf501a80947fc46": "高维度宏观经济时序的贝叶斯精确系数模型",
+    "073ee1ca1c669f1d26659763909486b4134f532e18400c8d780e460b0de8cf4c": "宏观经济面板中的系列几乎都是相互关联的,这使得关联性成为一对直接关联的指南。例如,不同到期日的国库利率都高度相关,但短期和长期利率只能通过它们之间的到期日利率进行;同样,产出、就业、价格和利率等经济部门可能直接相关,或仅通过其他系列。两者都是关于反向共变矩阵的问题.很难从季度数据中恢复:同时依赖e",
+    "47c810f6c496b51a467bcd1fb6084fba514b0cfb9087cf65de29a024bef79252": "助长通货膨胀风险:石油短缺设想",
+    "42077f2d8ce0ba11a584df6edb1e037649f4cb7dbace62b470b794b683da4be0": "中央银行通常使用其他情景来评估经济前景的风险,但这些情景通常是从线性模型产生的,而线性模型无法说明极端结果的可能性。我们开发了一个非线性模型框架,将叙述性石油市场情景转化为对石油和汽油价格动态、总通货膨胀和家庭通货膨胀预期的全面概率评估。它结合了尾矿事件的专家路径,全球石油市场的非参数模型,以及能量,食物和核心配合物的非线性菲利普斯曲线.",
+    "aacfd6ebd7ae4c3ea88043ff4b1efb3210d4d97d85323ab06f60a6f465ed0db1": "行政费用在改进合作政策中的作用",
+    "da1d639991034d2eb640bb1fd1e67ae6b977b1989115a8d9fcf12cbf429c3aca": "我们使用基于代理人的模式研究抽象政府的政策,以提高合作水平.在叛逃是理性选择的情况下,如果特工们选择合作,则获得奖金.政府税务人员从一个反复的囚犯困境游戏中得来的报酬,以建立一个预算,涵盖奖金的支付,同时也涉及行政费用.我们考虑确定合作者的成本,以及减轻行为缺陷后果的成本。政府干预是不正确的,即:正确识别合作者和叛逃者",
+    "84522434faabdcd778d70afaf6b5b7bb816d73667e481034c05f550c1cce008c": "不平等意识条例",
+    "c7450d7d5d7e59a1b7f3cbe69eaf71f5c832f9701950d6360c50e17e9280d334": "当监管者关心不同消费者和公司之间盈余的分配时,我研究筛选垄断的条例。消费者私下知道他们愿意支付质量费用,公司私下知道其生产成本。管理合同规定了公司必须提供的质量价格选择。我表示,当监管者对支付意愿较低的消费者给予更大的权重时,基线监管是最佳的:监管者需要负担得起的基本选项,但允许公司自行设计和定价溢价选项。在强大的消费者之下",
+    "3b9e47e647d3dbe1a83cc0e6d625c14fb8aef714f74bde22f6d64244c2610391": "当规范错误时:社会规范的错位和针对小额金融的应用程序",
+    "aacf1a92fc3212b18c351bb02643e3b51b00af936e6f1a41fbb6ec355c98ccbf": "同行效应的结构模型通常通过平均、汇总或在某些情况下通过极端同行行动来捕捉同行的影响。然而,这种规格是事先规定的,通常是临时性的。我们通过将替代规范的恒定弹性从连续选择扩大到离散选择来研究社会规范的错位性的后果.考虑到二进制选择游戏信息不完整,我们就理性期望均衡的存在和独特性得出结果,并为识别结构参数创造条件.",
+    "2d876f9a5f3c64862328a28c4604ad79d44b844776e8d9050836c455f7f114c9": "对称限制下的个人奖励和统一收益",
+    "6c39530478b944eb2158b0a00a3a7d0f2ae9b73e71aa4523d0bc66abcea81815": "我们研究在对称的联合制约下,当代理商对自己的股份有连续,严格的单峰偏好时,固定总量的划分.每个特工都报告完全偏好,包括她峰值两侧的比较.对于任何有限的人口和任何非空封闭的对流穿孔-不变量的可行组合,我们通过效率、对称性、个人战略防守和自坐标峰值来描述统一收益规则。最后一项条件要求改变优惠,使代理人的峰值固定下来,也使她自己的股份固定下来;",
+    "a39eb9c0656eeda7d3b1b79324948583feaba5a1af524db216084b9d66b3fe8d": "票价通信格式是否重要?公共交通随机实验的证据",
+    "e25f43bfb3837c73ce3dc07300e2c41312f81bcb04d8f8005fe7caaddbb39506": "公共交通需求高度集中对基础设施造成压力,降低了服务质量。定价工具 -- --如折扣的离峰单价票 -- -- 是一个广泛使用的工具,用于重新安排不同时期的需求。然而,没有一项研究直接审查单程票的价格交流格式是否在出发时间重新安排方面影响旅行行为。为了填补这一空白,我们利用在瑞士根据参与者的实际行程(n=1 082次)进行的随机申报的优惠调查,将参与者归入三种价格格式之一:a",
+    "81fef074ca312c7e395c810f38935cf211b349e9c84fa5dbdfc2e8ed81934c1f": "无完整性的可分开的社会福利评估",
+    "dad630e698a763b121903c4d39b71a73883504d5dd2268842f88ec86a5314090": "在本文中,我们研究了对功用载体的不完整社会评价,以了解社会对不平等的厌恶程度存在分歧的情况。我们以效率、公平、公正、可分离性以及一个称为连续分散完成条件的条件来描述多优先标准。我们还提供独特的结果,并调查比较厌恶不平等的情况。",
+    "1986591d09b7ea7819493b3847e20d049f35aa395fd3281320223ada74d2e527": "边境工作:大赦国际对自由职业者工作的影响",
+    "c2d7cf9021050706c12dcf597df3adc93137ab53ba98083a0cd93a689d59602e": "OpenAI和Upwork的新研究发现,对自由职业者工作的需求不断变化,新的技能组合,与AI有关的项目的预算增加,工作时间增加。",
+    "2e57a514f42129f26a9a50cc4d46b22a6fe7a8751600a43508b27fcddd0dfcd0": "分布性强力",
+    "34639e1fed598e7e34c953fdff69bb77b7c611dc7ba7be2092b8b023eb82dc6b": "HiVe-Mem:多式联运代理人横向内存扩展和纵向证据构成",
+    "fc33fb305a8301b30aa88c0e9b16f28c2da7931d7eae1d761e5bde0f1e21f393": "由于多式联运代理人积累了越来越多的长期互动历史,有效检索和利用过去的信息对于长期互动至关重要。现有的内存系统通常依靠语义检索而不是压缩的记忆,并暴露预定义的表达,这可能会错过相关的记忆,忽略各种查询中的各种证据需求.我们引入\\textbf\\ hivemem},一个多模式内存框架,将\\textbf\\textsc{H}}or\\textbf\\textsc{i}}zontal内存扩展与\\textbf\\textsc{ Ve}}rtexitsc{ Ve}}rtexital Information 组成相连接 。用于水平m",
+    "67981e19091ae8ffd86298dadc9450289f4ed12af8dd3452833be642d7345d40": "公平漂流:评估移动市场中的算法公平",
+    "e32ca70aa35ffa1ac2c2bee10e385ecf3fb4d00d66de29ccfadede9a0bf00c12": "灵活的模型和丰富的数据可以减少系统性的估值错误,提高公平性.然而,在市场移动时,算法值在更新之间保持不变,因此,新的算法最能防止完全扭曲,在不均匀的升值已经侵蚀或刚刚逆转的情况下,则最不难。我们研究财产评估,该评估制定税收账单,并且长期评估过高的廉价住房。库克县用梯度增速模型取代了乡镇回归和人工调整,对其三年期周期的数据更为丰富:2021年芝加哥,2022年北部郊区,2023年南部.我们估计是Diffe",
+    "30d0d9f818dd0a3cb9c1815f1f7ddcca4ea64c2cff432a2b5685776e0fa3e2c2": "快捷键和边界:可核实的RL错位和背景安全学习",
+    "d58ec127d225dcf25956ba6c2bdc4f1ed3aec57115fe731344ed786e6f806b29": "强化学习(RL)可以提高代理的任务能力,同时强化违反背景执行要求的行为.我们通过可核查的奖励-内容冲突来研究这种奖励驱动的错位,包括奖励黑客,在这种冲突中,符合要求的任务完成仍然是可行的,而一些可执行的捷径比每个符合要求的战略获得更多的奖励。将这些冲突编译成任务动态,使我们能够形成规模多样的互动环境,并从执行历史中获得合规反馈。在资源和报告工作流程中,任务优化i",
+    "47a2d0852641f76a82e77e82c13c0a7dea61d50ce20f4cbcb9d1979e1cb07956": "撒哈拉以南非洲在不确定的情况下优化电力扩展规划:有条理的双重动态方案拟订方法",
+    "2d37c0b3793b2cb934e2ebade7e881eb83d5f28570d5860fb98ea693c526a1e5": "普及供电和非碳化是撒哈拉以南非洲的相互关联的挑战。本区域采用的世代扩张规划方法很少代表需求和水文不确定性下的连续和不可逆转的投资。本文开发了一个多阶段Stochastic生成扩展模型,通过Stochastic双动态编程(SDDP)解决了这个问题.该模型代表需求和具体国家的马尔科夫水文不确定性,说明具体技术的建设周转时间和内在可靠性。该模型适用于th",
+    "2a4d1ab0a4f1e405a60b7f0e76bda95e73aa52f6bf5e6d346c85192ced8c8529": "个人一般化是否可以预测?",
+    "d1310829591592a8a9d005769c35c7aac71dc92d656d259d1d9239d27e623c97": "当一个域中语言模型的微调诱导其他域中的行为变化时,即发生人物泛化(Persona generalization)——例如,在出现错位时观察到的广泛不安全的行为.我们发现一个令人惊讶的\"线上\"现象在人物概括中: 各种微调超参数的域内和域外人物率跟随一个大致的亲线关系,具体的亲线关系甚至在模组家庭和模型大小之间,包括Quen和Llama之间,都令人惊讶地共享.留下一组可训练伞的培训选择",
+    "1650fb5434c11d80eb6651480c1531a66883bd9e79547e83aa90eb77d0fbefd7": "测试网络中的条件性动量限制",
+    "09e5a90ad8a049edcf9f89bb08d553522246f178be0d7b5e98e47c1eab474b9d": "网络形成的参数模型,如dyadic logit模型,越来越受欢迎,但测试其规格的工具很少.本文根据这些模型分配给子图的概率,小群物剂之间的联系规律,为有条件独立的dyad(CID)模型开发了规格测试.鉴于物剂的特性,一个参数CID模型不仅决定了每个链接的概率,而且还决定了一组物剂形成三角形,恒星或者任何其他子图的概率.在正确的规格下,预期",
+    "402b87fbd4f8984015395a44836e5c1c89b201277a18ef31713143d5df30df15": "WorkflowArena:基于LLM的多代理系统中可执行的工作流程管弦的基准",
+    "73c9619a1f1911f7e3ded89b80c2ae325603782bc885475484311c81d65c2e62": "大型语言模型代理越来越多地作为多代理系统而不是在单一背景下运作的独立模型部署。最近的代理拉带使模型能够即时化工人代理,并编写协调他们的可执行工作流程,在运行时间将系统结构的设计从开发者转移到模型.因此,本组织的质量是一种独特的能力,但现有的基准要么衡量最终任务完成情况,要么在事先指定的结构下评价协调情况。我们把这种能力正式化",
+    "9f94d40e617c40ba853a0d87e03eb8d1dce977292eb66acf2a687af0b845de30": "公平组合拍卖",
+    "e57e276df4d07ffe6966201f9768ea416b68d40697a9890de71b2a7c51da6a35": "有效和稳定的拍卖可以使卖方没有剩余份额。我们研究如何在尊重联盟稳定的情况下,在卖方和买方之间尽可能平等地分享组合拍卖所得。我们显示,当买家是替代品时,核心由买家的付款额上的单个上限来描述,并包含一个独特的洛伦兹主导支付矢量.每个买方的付款额以卖方的边际贡献为上限。因此,在不损害效率或稳定性的情况下,卖方至少得到盈余总额的同等份额。",
+    "7137b4d8a22c38934e139dde430419e5a543308028bc416291ce16eca55dd5b8": "编程前科学:预测波茨的人类构造问题",
+    "385f3da1382412c3dc9b0b08177b89ba6b240473161d24c8a493d8f1db213447": "AI模型日益增强的复杂推理能力使得它们成为了有吸引力的预测工具,或者根据过去和现在的数据系统预测未来.然而,如果采用人工智能预报系统,人类建设者将承担建造和评价系统的工作。在本文中,我们通过对15个预测bots的建设者进行定性访谈研究,从最近AI预测竞赛的成功参与者中抽取样本,来探讨这项工作是什么样子的。我们的分析揭示了挑战 围绕(1) 调试一个机器人 获取事实研究,(2) op",
+    "07e337790badc59569f9a3066f0e42c5172cff32b3445cac7ee5acf7c59dc488": "美国的影响.消极能源价格联邦生产税抵免",
+    "bcc79ac4714beef043ee5e4671b0d0eca4971b17213f77db1805dd84c8f80f4d": "电力市场经常出现负价格,生产补贴通常被列为主要原因。使用来自美国的数据.2000-2023年间的东方互联式批发电力市场,我们记录到,在能源价格负值的总时数中,至少有18%不能完全归因于联邦生产税抵免(PTC),在研究期内,这是一项大规模的,持续的生产补贴.其次,我们提供了第一个因果证据,证明PTC导致能源价格下降。平均而言,PTC合格风力发电增加1摄氏度",
+    "72a30b1dfcc86d8ed1664c58755b07b38ded8fcfea9c7990544f35f813367be9": "最大IM:通过强化学习最大限度地提供信息性递增总结",
+    "b18958512b8c26b69fa89a4972cc406444d8d89a41cf4bca7653dbfdcdb8e55e": "人工智能系统必须经常保持无约束互动历史的有限度记忆。然而,优化内存表述及其更新,对于标准强化学习(RL)来说,下游任务效用是困难的,因为收益稀少、延迟导致信用分配瓶颈严重。我们引入了MaxIM(最大信息增量记忆),这个框架将递增的总结形成一个受能力约束,信息理论奖励-塑造问题.基于价值低于最佳限度,我们表明,相继出现的信息损失促使ma",
+    "8e712482331be2322514cc3f261bd64dc811e84c08a81bf6c240d142cc021e2a": "现代差异估计器是否改变商业研究中公布的结论?",
+    "97b62c9ef6e24d050850bb93dada20bcefca5bd9e8651db84714998c27ea371f": "错位-通过差位(DiD)设计,是商学院期刊中经验研究的一款作品.通常加以执行的双向固定效应(TWFE)估计器可能对不同的处理效果造成负面的影响。我们问,负面的权重是否通过重新分析商业学校期刊中带有全杂志公共复制档案的错开采用规格来改变公布的调查结果。Hull(2026年)之后,我们使用大型语言模型代理确定合格的规格,复制已公布的TWFE估计,并重新估计每一个",
+    "6d4db7dd9b9290c312fa395b1f568bb2c8521f434845385754379cc51c4369ef": "AI同行评审工作如何?由100个人为错误建立的基准",
+    "1a1752fee36ee433b024493f0ed8d8c4a52ada881f8204173fcd81da611b4625": "一百个已知错误被植入10份开放获取心理学论文,修改后的论文随后通过前沿模型和两个商业AI审查工具运行.最佳单项系统捕获了100个错误中的71个,而最糟糕的捕获了30个.把每个系统的产出都集中到93号模型在它们发现的错误中仅部分相关,这使得共鸣成为在文件中发现问题的大杠杆。任何系统都无法发现7个错误,所有7个错误都是遗漏:从文件中删除信息,而不是插入错误。精准. ink 贡献更多uni",
+    "44828c4483eace3fad47ba536c8fd74354c3e258b462c1aac467d505e74b9bdb": "分散时间的多功能保存过程和波动模型",
+    "83b7d8305a883070fd3ac351857fe4c9efde2b1632677f2a8ec99293bc9d9e6a": "本文在多名保全的基础上,为波动性建模和衍生物定价制定了离散时间框架.该框架通过有限维矩阵表示,在任何有限范围内,提供了任意排列和连续交叉变化和返回过程的确切时间。保持这种分析可引导性,同时顾及灵活的杠杆作用和差异性动态以及非格乌西亚的创新。我们引进了两种新型的 结构波动模型 巢广泛使用离散时间规格 并研究它们的统计学",
+    "049b19384db920dce678a4609419527b79d351afb151a738f7f9b6ecd57d1098": "LUCQUE:来自魁北克的肺癌筛查数据集,用于可靠的AI评价",
+    "0a9ee284faa87af482564af91ebfb6c0aabf30bd6002947dcd65c23b069b7024": "背景:基于AI的工具预计将在肺癌筛查中发挥关键作用。对这些工具的评价往往依靠私人数据集或零散的公共数据集,临床数据和结核专家说明的提供情况不一致。这妨碍了AI工具的可复制性、可比性和独立评估。为了弥补这些差距,我们介绍了LUCQUE,这是一个全新的,大型的,全面的,附加说明的数据集,来自魁北克省LDCT肺癌筛查,可供可靠的AI评价使用.方法:LUCQUE是主管,在PARADIM上主持,",
+    "c79870e2caa2c08692fcab3613b224bc0d0fdec2f5668eb533806a937b12a27a": "不可忽视大型集群下的Z-估计值",
+    "04528c3bb84d4a8517e227b15f1d0e66109e3d5aec520080b227eba8d49fc57e": "当少数集群主导观察加权估算方程时,集群大小异质性可以使常规集群-巨噬推论无效.本文为独立集群下的集群平衡\\(Z\\)-估算者发展不对称理论,任意实现集群大小,集群内依赖性不受限制.根据蒋,佐佐木和王(2025年)的大小调整再加权,分析区分了目标定义,识别,推论.常见的分组级0,作为识别条件强加,或源自个人级的排查",
+    "ed079f1d0eb51424b1f0d9ec57ed47e1871ed4fb899adeb791dd9a946d298d1b": "拆解指令的自动化知识获取管道:NLP与基因AI框架的比较",
+    "8561da699ff4829f9ba009072fabe90dedc5b1a0861a93a2567dd3303fecb0da": "向循环和再X原则的推进对中小企业提出了挑战,特别是因为产品日益复杂,妨碍了采用拆卸自动化。本文介绍和比较了从非结构化信息来源提取拆解指令的两个框架,如拆解手册.我们的目标是将自然语言文本转变为一种结构化的,可整理的和机器可读的格式.我们实施并测试了基于规则的自然语言处理(NLP)框架与利用LLMs的基因AI框架。两者的表现",
+    "18711945dfae145d87fe0a873654ff8f8df4dc4c70a6219db4bbd74374d64fd1": "BIS全球支付标准制定机构和美洲协商理事会的任命",
+    "10ddc4e063c5d1c10e9d67c9de5cdad94b379d26ea1d50d8dfea869ec3ae4102": "韩国银行行长玄宋申任命国际清算银行支付和市场基础设施委员会主席,自11月1日起任期三年。此外,董事会还将加拿大银行行长蒂夫·麦克莱姆担任美洲协商理事会主席的任期延长至2027年3月31日.",
+    "6f1ba5127a2ddbf0e4b493e107eb3d922ce5c9e5c560ec471d1bd444d871a359": "用您的 Google 云端账户支付 Higging Face Hub",
+    "74e3104ab3a73501bdd7fdf1dfb2d1b8e664b1e07ae0208f95bd96c0930df8e0": "牵引面部决定模型",
+    "8c34343bc1ab081358567a791e0c76b1ac658500b4f204045f02aed22e3c2830": "新思想青年研究以及OpenAI EMEA教育伙伴关系关于支持教师、AI识字和独立学习的教训。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -19227,6 +19318,374 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/024/841.htm"
+    },
+    "https://www.v2ex.com/t/1255994": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "独立开发者 👨‍💻 - @mtstorywx - 先说背景。我做电商挺多年了。这两年 AI 工具一下子出来太多，想挑一个能用的，得翻几十个站、看一堆评测，特别费劲。跟同行聊发现大家都有这个问题——不是没工具，是不知道哪些真能用在电商上、哪个适",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1255994"
+    },
+    "https://ahrefs.com/blog/where-does-chatgpt-get-its-information/": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "ChatGPT gets its information from training data, live web searches, licensed publisher content, and your own context. Here's how each one works.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/where-does-chatgpt-get-its-information-by-si-quan-ong-ai-search.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/where-does-chatgpt-get-its-information/"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/press/key/date/2026/html/sp261110_1/ecb.sp261110_1.en_img0.png?63e07fc0adb8bac5483430d66f7e3398",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110_1~9725b7aa07.en.html"
+    },
+    "https://www.startupsfortherestofus.com/episodes/episode-858-how-to-build-products-people-want": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "If AI can build anything, how do you decide what to build? In this episode, Rob Walling celebrates the launch of his sixth book, Idea to Traction: Stop Building SaaS Nobody Wants in the Age of AI. He shares why he wrote it, how it started as part of The SaaS Playbook, and why he rewrote it three",
+      "image": "https://www.startupsfortherestofus.com/wp-content/uploads/strou-twitter-2022.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.startupsfortherestofus.com/episodes/episode-858-how-to-build-products-people-want"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261110~9422461bad.en.html"
+    },
+    "https://www.ithome.com/1/025/170.htm": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "博乐仁认为，随着自动化和机器人技术的发展，大量体力劳动将被取代，但拥有创造力、具备电气工程或机械工程等专业基础知识的人仍有用武之地。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/025/170.htm"
+    },
+    "https://arxiv.org/abs/2611.12690": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12690"
+    },
+    "https://w2solo.com/topics/8705": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8705"
+    },
+    "https://arxiv.org/abs/2611.12565": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.12534": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.12534v1/Pa-with-loss.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.12534"
+    },
+    "https://solo.xin/topic/6270": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "《幻想造物APP产品策划案 V1.1 补充模块》 一、 发帖双轨制：分层过滤，从“白日梦”到“商业计划” 为了解决市面上类似平台“内容水化、全是随笔树洞、无法落地”的痛点，平台将发帖模式严格分为两类，用户发帖时必须二选一： 【随笔浮想】（轻量区 / 零门槛） · 定位：用于收集大众的灵光一闪，纯脑洞、娱乐化。不需要严…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6270"
+    },
+    "https://arxiv.org/abs/2611.12459": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12459"
+    },
+    "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://solo.xin/topic/6227": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "Help Scout 改收费方式的故事，有两份值得放在一起读的记录。 第一份发表于 2025 年 4 月 18 日。Relay 整理了对联合创始人 Nick Francis 的访谈，解释团队为什么尝试从按客服席位收费，转向按接触的客户人数收费。 当时的想法很清楚：AI 能承担一部分服务工作，产品产生的价值未必还与客服…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6227"
+    },
+    "https://arxiv.org/abs/2611.12368": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.12368v1/termstructure_p100.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.12368"
+    },
+    "https://www.qbitai.com/2026/11/509017.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "近亿元融资刚刚落袋",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/9e3a755e402ee2bfe4e16cf90368a1b9.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/509017.html"
+    },
+    "https://solo.xin/topic/6226": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "2021 年，PostHog 在一篇官方文章里介绍了一项排班：每次由一位工程师拿出完整一周，暂停原来的开发任务，负责接住用户的问题。 这里最有分量的，是“完整一周”。团队没有把支持工作当作写代码间隙顺便处理的事，而是明确给它留出时间。那位当值工程师要查看不同渠道的求助，能解决的自己处理，需要其他知识的就找同事帮忙。…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6226"
+    },
+    "https://arxiv.org/abs/2611.12347": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12347"
+    },
+    "https://www.qbitai.com/2026/11/508996.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/8d185d649ac362dcb96cd3dc40cb86c4.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508996.html"
+    },
+    "https://solo.xin/topic/6224": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "同一句话，今天划下来，是怕忘记；下个月再看，可能是为了写一篇文章。文字没有变，人想拿它做的事情变了。 Readwise 的一段产品记录，让这个差别变得很具体。 2021年8月30日，Daniel Doyon 在官方博客回顾，团队从2017年开始做 Readwise，希望让读者重新遇见自己保存的阅读划线。后来产品允许调…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6224"
+    },
+    "https://arxiv.org/abs/2611.12343": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://www.qbitai.com/2026/11/508998.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "让每一次任务，都成为下一次进步的起点",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/26d4a3af4ff473511a870ac16fd9d05d.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508998.html"
+    },
+    "https://arxiv.org/abs/2611.12301": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12301"
+    },
+    "https://www.qbitai.com/2026/11/508991.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "TensorWorld物原科技在一个月内已拿到过亿美元融资",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/3672f8a64630075f676531dabee7fe6d.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508991.html"
+    },
+    "https://arxiv.org/abs/2611.12255": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://www.qbitai.com/2026/11/508985.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "加速东部城市型智算中心向E-AIDC演进",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/bce06bf39534dba53923876ddbd9b381.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508985.html"
+    },
+    "https://arxiv.org/abs/2611.12151": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12151"
+    },
+    "https://www.qbitai.com/2026/11/508919.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "蚂蚁灵波开源LingBot-Touch",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/a77b129e6c8b18af69995bf140f7b371.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508919.html"
+    },
+    "https://arxiv.org/abs/2611.12117": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12117"
+    },
+    "https://www.qbitai.com/2026/11/508912.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "作曲、拍片、3D建模一条龙全包圆",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/9cba7edbea7145b990ea9d82f8121f8f.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508912.html"
+    },
+    "https://arxiv.org/abs/2611.11864": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.11864"
+    },
+    "https://openai.com/index/ai-effect-on-freelance-work": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://arxiv.org/abs/2611.11855": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.11855"
+    },
+    "https://arxiv.org/abs/2611.12872": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.12872v1/hivemem.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.12872"
+    },
+    "https://arxiv.org/abs/2611.11783": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.11783v1/figures/model_free_price_regressivity_chicago_2018_2025_cy.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.11783"
+    },
+    "https://arxiv.org/abs/2611.12865": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.12865",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.12865"
+    },
+    "https://arxiv.org/abs/2611.11490": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.11490"
+    },
+    "https://arxiv.org/abs/2611.12864": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.12864v1/full_layer_grid.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.12864"
+    },
+    "https://arxiv.org/abs/2611.11183": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.11183"
+    },
+    "https://arxiv.org/abs/2611.12856": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.12856v1/data.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.12856"
+    },
+    "https://arxiv.org/abs/2611.11143": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.11143"
+    },
+    "https://arxiv.org/abs/2611.12834": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12834"
+    },
+    "https://arxiv.org/abs/2611.11112": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.11112v1/nege_load_hist.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.11112"
+    },
+    "https://arxiv.org/abs/2611.12825": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12825"
+    },
+    "https://arxiv.org/abs/2611.11003": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.11003"
+    },
+    "https://arxiv.org/abs/2611.12820": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.10928": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2611.12817": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.12817"
+    },
+    "https://arxiv.org/abs/2611.10925": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.10925"
+    },
+    "https://arxiv.org/abs/2611.12816": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://www.bis.org/media-releases/20261110-appointments-bis-global-payments-standard-setting-body-and-consultative-council-americas": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "Bank of Korea Governor Hyun Song Shin appointed Chair of the Bank for International Settlements (BIS) Committee on Payments and Market Infrastructures (CPMI) for a three-year term from 1 November. In addition, the Board of Directors has extended the term of Tiff Macklem, Governor of the Bank of Canada, as Chair of the Consultative Council for the Americas (CCA) until 31 March 2027.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.bis.org/media-releases/20261110-appointments-bis-global-payments-standard-setting-body-and-consultative-council-americas"
+    },
+    "https://www.qbitai.com/2026/11/508828.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "速度提了，API价格降了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/457e1251d425d421a14239bd9199f025.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508828.html"
+    },
+    "https://www.qbitai.com/2026/11/508798.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "办公AI结束单机模式",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/7d487a19207c1f913d7d7e3aab4297a8.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508798.html"
+    },
+    "https://huggingface.co/blog/hub-gcp-marketplace": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/hub-gcp-marketplace/thumbnail.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/hub-gcp-marketplace"
+    },
+    "https://huggingface.co/blog/decision": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/decision/thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/decision"
+    },
+    "https://www.qbitai.com/2026/11/508787.html": {
+      "checkedAt": "2026-11-10T17:43:07.133775+00:00",
+      "description": "投毒 → 耗尽预算 → 诱导误判",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/6c33551712c319384c24c091ca1d2a13.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508787.html"
     }
   }
 }
