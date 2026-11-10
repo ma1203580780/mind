@@ -3669,7 +3669,11 @@
     "9a8cfe628ce0fa47de2e02fb39086aee8b35b7d6148e4e1f0ed3ce1156f3b8f6": "Kuken工业在几分钟内就搜索了70年的图纸",
     "418118b46e383290f5f93c97e960cbae439a060f15012662602d99c9f25bc00c": "库肯工业公司使用OpenAI API搜索70年的冷却塔图纸.工程师可以在4.5分钟后找到修复图纸,从近一个小时开始.",
     "f36a4a7c132383596c7b659bb56c856dc500173d1f113887f62f55a70f07ae1d": "CodeRabbit 比例尺代理软件开发及船舶",
-    "6805431d79080f3f9d21d6d936c61d23220e48a2c82cd6e786c3784ebfe44d0a": "CodeRabbit使用OpenAI模型来管理和信任AI生成的代码和Codex,将20倍多的软件运送给同一个工程团队."
+    "6805431d79080f3f9d21d6d936c61d23220e48a2c82cd6e786c3784ebfe44d0a": "CodeRabbit使用OpenAI模型来管理和信任AI生成的代码和Codex,将20倍多的软件运送给同一个工程团队.",
+    "3c2a962f4554e1ba10a1da616deeac4eeea3d3defac7962980b33f9d013e830d": "长链-核心=1.7",
+    "e5e304bfb2b03ad91b519bce616aeadd3c6c54fd9b00e1517fd8fc4a5c51afcf": "自langchain-core == 1.7.6 发布(core)以来的变化: 1.7.7 (# 41776) 固定(core):负载的笼盖巢穴深度(# 41742)chore(deps):补丁新平通安全锁分辨率(# 41585)",
+    "335cbeef39f088f164b3c305b87a430106b14ac1241534da348335c66c722e1f": "缩小大赦国际在教育方面的指导差距",
+    "78462d66bd758ad7880465c0c44baeb277dfb49c62c83b65802584310fb13381": "OpenAI的EMEA教育伙伴关系和新思维青年研究的教训。支持教师,AI识字和独立学习."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -19198,6 +19202,31 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/195efa151a6c7d5351ac14a3c9c87e0f.webp",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/508498.html"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7": {
+      "checkedAt": "2026-11-10T09:40:09.151648+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7"
+    },
+    "https://openai.com/index/closing-ai-guidance-gap-education": {
+      "checkedAt": "2026-11-10T09:40:09.151648+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.ithome.com/1/024/858.htm": {
+      "checkedAt": "2026-11-10T09:40:09.151648+00:00",
+      "description": "华为宣布将于 11 月 12 日在贵州贵安云上屯举办新型存储系统试用启动现场会，标志着该技术正式进入真实场景联合验证阶段。 #华为#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/024/858.htm"
+    },
+    "https://www.ithome.com/1/024/841.htm": {
+      "checkedAt": "2026-11-10T09:40:09.151648+00:00",
+      "description": "马斯克出席了巴伦资本年度会议并作出预测：“超级智能（SI）不仅能满足人类的一切需求，而且能力还将远远超出所需。你想要一座城堡也好，其他什么东西也好，数字超级智能都可以顺手帮你实现。”",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/024/841.htm"
     }
   }
 }
