@@ -3645,7 +3645,31 @@
     "d6ec745ffe8d246574f327617e300430e25ec99f55522d16db0c124462891796": "Goodhart in the Planner:以抽样为基础的控制剥削从人类偏好中获得的奖励",
     "af3aa51d148c7e0913d7a13e1eb08a644918a63a5fc752ad3c15c9996d139a18": "机器人越来越多地通过寻找从人类喜好中汲取的奖励模式、模型预测控制或最佳美元选择来选择行动;我们衡量这对真正目标的作用。在《半谢塔》和《Hopper》上有众筹标签,在Meta-World抽屉打开和板块滑动上,两位作者的合成标签和盲标,更硬的MPPI搜索将真实回报削减了76%:有了人类标签,抽屉在20年的0年里对10年的克隆政策打开,规划者从10年开始,而搁置的标签准确度保持在0.75-0.97。在板滑的胡马",
     "bc33d32fe11cf04d017a868226542810c17144543a63202bc9c7c5fdda1533c9": "AI探员需要多少对话历史?",
-    "13811641977c57cc73a0ec618e19d2d8df6c8e38e6f87131f31f45dc8598d92c": "使用较少的对话历史如何改变读者的用法和基准分数?我们在1,100个BEAM问题上研究这个问题。我们在五个固定通道预算中保持了检索排名和读者不变,随着通道预算的增长,平均分配的分数上升。在最高测试预算中,每增加一个符号的得分收益变得较小。可回答的问题通常得到的分数较高,背景更多。集体弃权的得分有时会随着通过预算的缩减而上升。我们还在一项有明确对话状态目标的可控任务中测试了信件保留问题"
+    "13811641977c57cc73a0ec618e19d2d8df6c8e38e6f87131f31f45dc8598d92c": "使用较少的对话历史如何改变读者的用法和基准分数?我们在1,100个BEAM问题上研究这个问题。我们在五个固定通道预算中保持了检索排名和读者不变,随着通道预算的增长,平均分配的分数上升。在最高测试预算中,每增加一个符号的得分收益变得较小。可回答的问题通常得到的分数较高,背景更多。集体弃权的得分有时会随着通过预算的缩减而上升。我们还在一项有明确对话状态目标的可控任务中测试了信件保留问题",
+    "97fffcd516f86958b1848c56f4e4c763bb413162c865ff6b21b424c99ad618ff": "每周为设计者——思想家和制造者——提供资源。“随着大赦国际更有能力从既定模式汇集接口,这种区分值得更多注意。我们越来越能告诉哪些是属于我们产品的工具。我们还需要决定什么属于瞬间。”是什么让它值得关心?校对:Soup●最难的设计决定发生在自治结束的地方。由Michağ Krztoń 设计 数字 –是AI破坏 UX还是只是把汽油倒在火上?由罗素粉丝公司制作",
+    "67214b2b7ca0a553da35f2066f52638aaf060486eebefa2228bd4b73d42174d1": "Son Lux 的音乐录影带,",
+    "cdc22b2d63a18af6fb5c9d6e8a16da651bffeb9550dc88e1f600a8045445b8d6": "由MASS MOCA和Pioneer Works与制片人Alex Cook合作的联合委员会中,最近的音乐录影带是一款大气迷你画.",
+    "de1c3f19a4caf6624181da919ec60808115c9971a2229b6122208045fd27c5eb": "页:1",
+    "fbf914f8c62a08d8d93eace2c6fb2dea0655261d19e17b08b466599a7d6ab0f1": "Riple Preview Riple Preview from Ricursive Intelligence是用于代理编码的65B密集模型.ollama 运行 ripple-preview What's Changed Quen3.8 Flash Next在苹果硅奥拉玛发射上使用约27个GiB减内存 Claude 总是将 Claude Code 引导到选定的 model ollama 发射时解释,当一个云模型已退役 /v1/reswers 尊重断流,并且默认 /v1/models 不再默默中断 /v1/models 返回一个空列表,而不是当没有模型安装 CUDA 13.5 支持 Windows在 ARM Upendd lama.cpp 上.Full Changelog : v0.40.15...v0.40.16 (英语).",
+    "8e727b109859bc04d2138046276b30a9309cfe0f4b71c7389dc53e6f36332660": "加勒比超现实主义和祖传记忆合并,凯利·辛纳帕赫·玛丽的Lush Portraits",
+    "dc0de78a3ba832588e9ad383aa7af0737e00dfd33bc33f69c62a9deabe02ee72": "凯莉·辛纳帕赫·玛丽的肖像画中中央人物的纹身带有维尔丹叶片,从她周围的植物生活中涌现出来.",
+    "8749f58b71bd7ed83b475914fe48ede8bf6a788a3fb748a5d9e703cc1a52b204": "连锁消防车 = 1.7.3",
+    "13b36f96d4d33eae9806e734991ca35303808ff2c69b7c4385c83e1b4b951a42": "自 langchain-fireworks == 1.7.2 发布(fireworks): 1.7.3 (#41773) 固定(fireworks): 模型剖面图的默认最大值 (#41772) chore(model-profiles):刷新模型剖面图数据 (#41745)",
+    "a118f64d82fe8a58b4e1902f2d4cb0d6ab7d1ecc43d9d8a1a493377814e072fd": "Amy Liu通过Glitz、Mystique和Opera探索光明和黑暗",
+    "100852fd346e78e3a6e441ceb75fd5adcc18ec39a14e15775b3cc50f5a51db3b": "在她在哈珀的独奏展览\"Pearled Chiaroscuro\"中,刘从不止一个方面敲击文艺复兴.",
+    "f5efd218f7b44f3af957403b17d1b0e237bb04f875d58405ecfb9194bdbb2a37": "v0.34.0rc0: [转换器后端] Migrate Gemma and StableLM (# 66393)",
+    "928333072e3a5ca36e0fa805bf5576a55ae62d58e0b50af17cf6f61375e8b1ce": "作者:Harry Mellor 19981378+hmellor@users.noreply.github.com 作者:克劳德·奥普斯·5.5 noreply@harmic.com",
+    "68a594f6a5d32504744d432e6d6c7a0a5b0ddac5d7e8d434a1550402ffa49264": "联邦储备委员会宣布批准联邦互助银行、MHC和MFB Bancorp公司的两项申请。",
+    "769511c3cb270fe3a1401d6668240a11641876be9f369204ed3197f79bb64e38": "Claude Fable 5.2的UI设计:更好,但成本是什么?.",
+    "02be7924234d9bd75194e2ad35d9e31d1e009a5c4e51e89d4823a7c52d4babb3": "我用真正的产品设计任务,我在UX星球上继续阅读,",
+    "770b36a4f9aa59b2d5e0567784f783390ac3fed74bcd892ea86a8f1283d04841": "ChatGPT 企业公司现可在 AWS 市场获得",
+    "0e275c8226af03fb3f437608fcf270dae44c7c14ec792d49791f37cfea3e9fc1": "ChatGPT Entertainment现在通过AWS Marketplace提供,帮助各组织通过现有的AWS采购和计费关系简化采购.",
+    "ead9de9bf0b1703fdd5f504fc202a243823b5be9c9cdc49f29621c661e8edd11": "控制室:一个跟踪和停止我们研究基础设施的模型工作量的中央系统",
+    "59592802d1cf1133bdb44014ec61640db846392123228eb48862221d20a5a0d7": "OpenAI控制室如何追踪我们研究基础设施的模型工作量,",
+    "9a8cfe628ce0fa47de2e02fb39086aee8b35b7d6148e4e1f0ed3ce1156f3b8f6": "Kuken工业在几分钟内就搜索了70年的图纸",
+    "418118b46e383290f5f93c97e960cbae439a060f15012662602d99c9f25bc00c": "库肯工业公司使用OpenAI API搜索70年的冷却塔图纸.工程师可以在4.5分钟后找到修复图纸,从近一个小时开始.",
+    "f36a4a7c132383596c7b659bb56c856dc500173d1f113887f62f55a70f07ae1d": "CodeRabbit 比例尺代理软件开发及船舶",
+    "6805431d79080f3f9d21d6d936c61d23220e48a2c82cd6e786c3784ebfe44d0a": "CodeRabbit使用OpenAI模型来管理和信任AI生成的代码和Codex,将20倍多的软件运送给同一个工程团队."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -19102,6 +19126,78 @@
       "image": "https://arxiv.org/html/2611.09662v1/answerability.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2611.09662"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.16": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.16 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.16"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc0": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.34.0rc0: [Transformers backend] Migrate Gemma and StableLM (#66393) · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc0"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "description": "The Federal Reserve Board on Monday announced its approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc., both of Chicago, Illinois",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm"
+    },
+    "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/control-room": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/kuken": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/coderabbit-codex-daybreak": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/11/508603.html": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "description": "11月5日，基元律动（TokenRhythm）发布Agent原生模型NeoHorse-1.5-Flash Preview。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/45f444b886b5662ddf6c70d850f8ed5b.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508603.html"
+    },
+    "https://www.qbitai.com/2026/11/508586.html": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "description": "“让人放心，把人放大。”",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/2debeb5dab13ab982f085a53b9a53244.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508586.html"
+    },
+    "https://www.qbitai.com/2026/11/508566.html": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "description": "11月6日，清华大学举行“新技术激发文化新活力，用AI讲好中国故事”鲸锐AI创作大赛大咖对谈活动",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/acd1a5f73043269e5b0cffa1fc2f4265.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508566.html"
+    },
+    "https://www.qbitai.com/2026/11/508498.html": {
+      "checkedAt": "2026-11-10T01:28:17.154778+00:00",
+      "description": "英伟达暗盘跌2%",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/195efa151a6c7d5351ac14a3c9c87e0f.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/508498.html"
     }
   }
 }
