@@ -1530,7 +1530,10 @@
       "author": "Emerson Melo",
       "contentLanguage": "en",
       "titleZh": "分布性强力",
-      "translationStatus": "partial"
+      "translationStatus": "ready",
+      "summaryZh": "我们研究一种理性的无意识模式,即决策者选择一个有条理的选择规则,同时面对关于先前各州分布的模糊性。模糊性通过分布稳健的配体来模型化,其中前一种配体属于由一般的双活体所定义的不确定性.我们的主要结果确定拉格朗格人将由此产生的最大-最小问题作为有限-维集合优化问题的双重表述。这种定性产生必要而充分的条件,以便出现一套强有力的考虑,并能够促进",
+      "translationProvider": "Argos 英中离线模型",
+      "translationModel": "argos-en-zh-1.9-ct2-v1"
     },
     {
       "id": "feed-7b69d2e54b35554051f5",
@@ -2439,7 +2442,8 @@
       "summaryTruncated": false,
       "author": "github-actions[bot]",
       "contentLanguage": "en",
-      "translationStatus": "unavailable"
+      "translationStatus": "partial",
+      "summaryZh": "自 langchain \\ n1.4.9 发布后的变化(langchain): 1.4.10 (# 41778) 固定(langchain): 保持中端软件-内部模型调出消息流(# 41579) chore(deps): 补丁更新平通安全锁解析(# 41585) 固定(langchain):从 Model RefusalMiddleware (# 411689) 中省略出微量输入."
     },
     {
       "id": "feed-c3518d21c7ab0c57e248",

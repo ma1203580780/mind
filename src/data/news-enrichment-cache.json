@@ -3793,7 +3793,83 @@
     "ef33f1b86c833571ae5bdced5c7a490b33f62f91db994c4de96fb5afacf128c3": "ChatGPT 退伍军人和服务成员附加项目",
     "fb5bdf423d37d9e10a09ed784b1a0bd13bc4cde7be1b8ab6be870a6666e4e5e6": "超过20000名退伍军人和过渡服务成员声称拥有ChatGPT Plus的自由年.看看他们如何用它来准备平民生涯.",
     "fbd230e1d263ed4f742ca67853fc7d1feb9c9ae29ceb1dcb211e7f48bb434c26": "新加坡航空公司利用OpenAI技术提升旅行和工作水平",
-    "d9ed40e9d34aac94d3c651a94099ed7949cd893c7174c5f9ac4d2298f34630db": "发现新加坡航空如何使用OpenAI模型和API来增强客户支持,旅行发现,员工生产率,将CSAT为其Kris聊天机翻一番."
+    "d9ed40e9d34aac94d3c651a94099ed7949cd893c7174c5f9ac4d2298f34630db": "发现新加坡航空如何使用OpenAI模型和API来增强客户支持,旅行发现,员工生产率,将CSAT为其Kris聊天机翻一番.",
+    "75865fb7d42eec31387fccdc63560587b834505ebc41b8864072fc958d7d8498": "v. 3.4.0rc1 维基月球",
+    "3f91ec49622c6302978498c55148e2f717117df52b2f2273e56f367feffe81b8": "[Bugfix][Spec Decode][XPU]贪心_argmax:将NaN当作-f在到.",
+    "4970a9baf49b22637d306dd26e715f660104483b11797fc6820181aae92cd945": "为什么没人在谈论克洛德5.2",
+    "2a07d7a9701577b19ae42ca6deedc79d02facfadc81d5a827664f41198461d6b": "Klaude Fable 5.2没有继续阅读UX星球,",
+    "ba3922df7f57d1fdd12fce0ac945b65990cf9c03f9b4385f8e6ae7073bf1a5c8": "HEDGE Bias:用小组LP-IV识别动态部分平衡效应",
+    "74c5c812c1afe05eeb8e72ac244df49c56c8131d0363e14b1b6eaf7c6dbda8d4": "跨部门设计被广泛用于估计一种综合治疗的活性局部-平衡效应.我们分析表明,当接触治疗和聚合致幻剂时,或者当致幻剂反馈到治疗中时,这些估计是偏颇的。本文开发了多相 -- -- 曝光局部 -- -- 投影工具变量(HELP-IV)框架,该框架将单位进行比较,同时将处理仪器固定的混凝土道和这一道与曝光加权休克代位进行对比。我们证明,帮助四 确定部分平衡",
+    "aad7c577657164f2728852037bcf3547fd790c95263877dbcdd53a27ff42c854": "(原始内容存档于2017-10-02). Langchain-type sei=.",
+    "346a060fe8c9a177dcd0ac6ecc019ba91c97afdb158a3c8c90ceaf0d6c00a1c1": "langchain-typesafe 0.1.0 滴入支持Python 3.10,已到报废.最低支持的版本现在为Python 3.11,最低langchain-core版本现在为1.8.0 (langchain 1.5.0为实验外加).Python 3.10上的用户将继续解决langchain-type safe 0.0.x.自 langchain-type-sea == 0.0.2 发布(typesafe):0.1.0 (# 41800) refactor(typesafe):去皮化实验中件 (#41768) feat(typesafe):将TypeSafeClassifer作为决定模型(#41767)实施.",
+    "af4e76b006c742dc002eddf01c59d147d33f68ab926f2b37ff53990c41c2822e": "想用克洛德密码创作动画吗?尝试此 5 GitHub 仓库",
+    "24d0a2b81b9eef91e7e49562801ab76375f004a3edb031fc3cba0f305ce924b6": "如果你想用克洛德密码制作惊人的动画或动作效果,这5个GitHub寄存器可以帮助你做到这一点.在 UX 星球上继续读取 。“",
+    "6bd8ea8e2a7d39c845db3211ac1377e8b361332f6d528218465395ae9cdbd629": "具有交互式和高维解析的面板数据的半参数推论",
+    "49fb1c9ef443fae5c7339f3112593bcae925206048442524a5b45618c22f5523": "本文对部分线性面板模型中的低维处理系数进行推论,高维观测到共变和潜在的相互作用混淆.对观察到的共变物进行灵活调整,可留下治疗和结果后遗症中的相关因素成分,使标准的双相/偏差机器学习无效(DML).我们提议采用因数强化DML(FA-DML),估计第一阶段残留物的处理方和减式因子空间。估计器结合了一种可行的双投影,并有三重,单位级的相接相接.杜尔",
+    "1b604e3010866c38cb462e739e62ff55e065dc29d9a1e99f6ebaf7a4e74a78b0": "Langchain 1. 5.0 放弃了对Python 3.10的支持,后者已经到去寿.最低支持版本现在是Python 3.11,最低langchain-core版本现在是1.8.Python 3.10上的用户将继续解决langchain 1.4.x.自 langchain \\ n 1.4.10 发布后的变化(langchain): 1. 5.0 (# 41798) 固定 (langchain): 标记 Model RouterMiddleware为 β (# 41797) feat (langchain):从 langchain_v1 (# 41301) feat(langchain): 添加 model 路由器和自动模式 中间软件 (# 41766) Docs(langchain): 解释 Baseten 最小版本 (# 41777)",
+    "181e1fe39b98b2cb1c99b6860a77edac06e61eac6f54ec0eef6330257009d843": "医疗影像分解:基础模型 适应与特定任务培训",
+    "ff56343f65fb63121e7f0fd8bc2111be215b7daddea3153b105880948c0e0126": "在大型自然图像收集上预先培训的基础模型越来越多地适应医疗图像的分解,期望它们能取代为每项任务培训的模型。然而,大多数比较使用来自培训分配的数据和单一的任务具体基准,其配置很少合理,因此在新的临床地点提供的业绩证据有限。还不清楚必须调整多少基础模型,以及决定这一点的是什么。我们调整了一个基础模型,DINOv2, 战略范围从调整它的偏好",
+    "d0fdfe1fff00d8d27e3a1afea251334b6cab9419698fe92f003209758e3f3712": "估计北马其顿在不完全数据下的多层面贫穷情况",
+    "bd2ddd9eb0f350f98b59487c226754a8b34298a4526efddb57b60aa1cbcc84be": "有100多个国家提供了多层面贫穷指数,但很少低于国家或区域一级。当地估计要求知道家庭内部的匮乏是如何重叠的,但普查和地理空间数据等覆盖每个地方的来源不能在家庭一级联系起来。我们以北马其顿为案例研究,说明如何根据这种不完整的数据衡量当地多层面的贫穷。我们把定居点一级获得服务与市镇人口普查数据相结合,将基于独立的点数估计数与所有joi的分界线结合起来",
+    "0deb65651b71a7c5e3c15199852a1191a7a140efacfdfea07aff0973069bbf99": "朗链-正数=1.8.",
+    "c58fe56643aaea827bd6bf84c518641c774cdc967b9f0a5f0a75a056420d297f": "langchain-core 1.8.0降低对Python 3.10的支持,已到报废.最低支持的版本现在为Python 3.11.Python 3.10上的用户将继续解决langchain-core 1.7.x.自langchain-core == 1.7.7 发布(core): 1.8.0 (# 41796) 成就(core):去掉 EOL Python 3.10 支持(# 41267) 成就(core):加入决定模型(# 41765)",
+    "5e307ddd57e480ad080abcdb6d7b6e0122e7315e595e789db9f0b0e775e38194": "通过基于示例的EM-DETR基础检测模型",
+    "4147613f1a87202f721b7a2d42bee78d337ea0c945f8d3fef5b53c4289f2a6cb": "基于DeepLearning(DL)的计算机辅助诊断(CAD)系统在支持临床医生方面表现出了巨大的希望,但是其性能很大程度上取决于是否有大型的,精心说明的数据集.在医学损伤检测中,缺乏全面而有分量的说明和现有数据集的异质性限制了稳健的基础模型的发展.在这部作品中,我们引入了一种新的方法,通过整合对解剖结构和异常现象都附加说明的多种医学图像数据集,来构建一个多领域检测le sion的基础模型.",
+    "584f65ce50be79bd009a78d9fcf43bd1e1f43b7b7735a91368ae2b24ab2b5c10": "后期测试",
+    "3cc09de3909d1a74468bc582ab6713ac3a80dea1a9b959fe94ad9a9315d6136f": "预测评价越来越多地使用高维度预测器,但大型预测模型的估算和规范化会扭曲传统的回溯测试.这个问题对于预测信号与噪音比率较低的下行风险特别重要。我们开发出模拟外预期不足(ES)反向测试,去除估算高维值-在风险,ES,以及评价仪器的大型一阶偏差效应.在线性ES规格中,建议的方法很容易被作为\"双拉索\"(Double Lasso)来被执行,其尾部大小调整分数为生成的depe.",
+    "023b458a85bc620f68f3f3d2573928295b4b0757f4d99ea4c884497392715a23": "自动脚手架:强化学习语言模型的AI-Guided脚手架",
+    "f67d7cf28b5cd15fbc2fc7a8e89be7c3cddc37fe51d5c5d3f0e53b897b2a8489": "以可核查的奖励加强学习(RLVR)可产生丰富的培训经验,但成果奖励却将每次尝试减少到一个数字并留下大部分这些信息被忽略.培训时间脚手架,如在培训期间添加到提示的策略或提示,提供了将这些信息转化为指导的自然方式,但其设计和适应性基本上留给了人类,并适合特定领域.我们引入AutoScaffold,一个统一的AI-for-AI框架,将学生的训练经验转化为适应性脚手架,拥有最低限度的域特有信息.",
+    "bcc2a694e70ab31fe6ffec91b6ddf6feead50182232a57d5a0ebbcdb467daa19": "瑞士跨界电力贸易和国内电力生产的经济效益",
+    "21ad733258c56787c343bc4bf2a2be1f46fca1460bedac525109222bece4008f": "本文件在能源价格上涨和地缘政治不确定性的背景下评估了跨界电力贸易的经济效益。瑞士提供了一个特别令人信服的案例,因为它的地理位置和融入欧盟电力市场的程度有限。我们首先利用Nexus-e框架模拟自闭式和自由贸易设想方案所要求的发电能力和传输网扩张。基于这些能力配置,一个基本动力市场模型模拟了预计需求和生产条件下的批发市场结果",
+    "074e4c9f4563b292e31b0be3a9b637f988069ed2656318930589ba3dc5327fd6": "矛盾发现:关于竞争解释的无端科学发现",
+    "7d3e0c3a669313efe849447447abe76590b73cea89212eefb3244fd5f9d164ff": "LLM剂越来越多地用于无限制的、由数据驱动的科学发现,但大多数LLM剂是按指针评价假设,测试一项经验性索赔,仅以美元为补充。当证据拒绝支付美元时,代理商知道一种解释不太可能,但证据所支持的不是另一种解释。为了恢复这一选择,我们引入了Contrastic Discovery,它用一个对照组合取代了单一的假说,一个科学问题与相互排斥和集体详尽无遗的相互竞争的解释相结合。每个实验都是用证据来评分的",
+    "db666e204416517c396c4a401d9cc7a972d28cbf3cd9d16a646b97c09dd6137a": "拥有隐藏网络的优化监管和信息机构",
+    "2bf4f45c3fa43b09005b8072b01f237087e962c6f24efa078c25fc17b2c13be1": "综合结果可能隐藏网络配置,使家庭面临无法保险的风险,需要不同的公共服务。我们研究监管者联合选择一个矫正活动收费和两个人口网络游戏中的信息机构.虽然综合行为遵循确切的稳定法则,但不同的专业化平衡需要不同的针对性干预。由于购买了高斯监测,原始条件意味着在没有购买信息的情况下,在有力的监管和知情的专门化之间不中断地转换。监管者可以交替",
+    "f6ffd763372bc72d90c55fa7e8eaf5020b325535c912e6eb572b081215c11ddf": "物剂评价框架的比较分析:企业分析剂的稳定、检测和发现",
+    "64a173c0fb43ecc1f090f3a95a74d91eef93809ecbe7c625c55068cb2f0935e9": "在企业环境中部署基于LLM的分析代理商,要求评价框架能够可靠地发现复杂多工具工作流程的故障。我们提出了对三个评价框架的分三阶段比较研究,每个框架代表一个不同的评价范式(基于追踪的LLM判断,仅以文字的LLM判断红色的队伍,以及决定性的休眠),在使用被冻结的行刑痕迹的可控研究环境中适用于两个分析剂。第1阶段通过反复测量量化评价利用稳定性,发现97%的配置符合t.",
+    "58eac2962d70aa8721726aa3b694bab287021dfec8b17affe08b4abf4229ed0a": "向多个国家放牧:事前事项时",
+    "641f2a09a96b9d38bb6ec19b2ae693d0b374732a01ea21132c553af4acb7a77f": "在具有两个以上状态的相继观测学习中,同样的信息结构和偏好可以使一些完全支持的前科产生学习效果,而另一些则产生放牧效果.这反驳了卡尔蒂克,李克用,刘克用和拉波波特的猜想(2024年,工作文件版本).在反例中,级联区域有非空地内部,然而对于它以外的通用全支持前科,学习却发生.我们注重信息和偏好,为学习创造两个必要条件。可逃逸性要求信号能够任意提供强有力的证据,证明任何行动都是e.",
+    "1e950cf9144becf584adc54edfbf66f6bc67d36ff1585fc89b7597e8e7f021b8": "ReTracing: 将工具使用剂分解为无计划工作流",
+    "0a27b003d43ba36755ac8054a219489f9abe2a5367ad8b2af6162f7d5909e6c4": "业务流程自动化在新投入上反复运行相同的\"标准作业程序\"(SOP).大语言模型(LLM)代理可以跟随用自然语言写成的SOP,但他们调用LLM来选择每个运行的每个步骤,这在规模上增加了耐久性和成本.我们呈现 ReTrace,它将一个 SOP 和几个登录代理运行到一个可重复使用的工作流程中,其中代码而不是LLM选择下一步.代理商的推理,它用每个工具调用书写的解释,经常说明它为什么采取行动;工具单调不调用.ReTrace 提取 ea 后面的条件",
+    "1715d327c285681272e97fb84b2bb38d8bb90968edb8e2af825f9eed04bc3b6d": "区块链上的最佳交易速度",
+    "6a7f1a779a03c0f8a5709d00c8a7d1fc1df23294bf442516a621977218bf2681": "在以区块链为基础的交易所上,较快的区块会削弱套利者之间的优先收费竞争,并将租金从区块生产商转移到它们.平衡流动性以内地块速度达到峰值;超过阈值,主动流动性提供者奶油-skim和被动资本收缩.Base Flashblocks升级的证据,十倍的阻力速度提升,证实了预测.优先收费投标急剧减少,套利公司的净利润也有所增加。活性流动资金提供者更快地重新平衡,避免了有毒流量,赚取了更高的利润.池子深度下降和有效分布",
+    "ad7d47b4aeebd1372570d136b74d807eccd4f416cc21b7d18721495da181ed43": "重新搜索:通过双层游戏解析 LLM 设定",
+    "90655f06c1f128e736f93eb08cde9f7f02c1d2155c981532f71455cf14133947": "研究思想是迭代的:研究者根据反馈逐步完善思想.然而,现有的评价掩盖了这一搜索过程,使得人们难以理解法学硕士如何探索研究想法的空间以及这些想法的进展受到哪些限制。我们引入了\"再搜索\"(Re-Search),它使\"二十个问题\"的格式适应了研究思想:鉴于只有发表论文的研究问题,一个模型必须通过问\"是\"或\"否\"的问题重新发现论文的核心思想.由200 ICML 2026 相纸所建, Re-Search 跟踪模型的想法如何在提问和接收二进制 o 时演变",
+    "6f8397df617a3f6759b063bd4ec1ca6359de7e4bc77f30ba9ea5e03c20099b49": "明显的群体操纵和顶级交易循环",
+    "0035901cd46ad5b5da743c8173c6122b16706b34a360bf3f4c11224e5e6cb3bf": "我们引入了集团版非明显的可操纵性,它比特洛伊安和莫瑞尔(2020年)的原始定义更强,也比集团战略防守更弱,并研究其在沙普利-斯卡尔夫住房市场的影响.我们利用新的条件对顶级贸易循环机制作了若干定性。",
+    "d4df70cf62e1a574cd3820c77a15e0ae9fc3a552f6ace3036e0fcfcc9f8b3bbb": "机械解释需要推理",
+    "82f361aaf1cdf52c9a4ca857d6e5005ca27e6e94b16ce802005cbb215c022c68": "神经网络不仅被越来越多地研究为预测系统,而且被研究为复杂的系统,其内部计算本身就是科学调查的对象.最近在机械解释性(MI)上的进展使得能够识别神经元,特征,电路,人口结构,以及与模型行为相关的动态规律.随着这些工具的改进,人们的注意力正在从模型内可观察到的东西转移到这些观测如何支持机械解释。我们研究神经科学和MI为解决这一问题和解决",
+    "5488e866f624e6bfd57ed8a7b0f44936c76d746feadf54f251cae0bdb28b1fb9": "战略传播阴影中的反馈设计",
+    "a9d99ed977d9a577aa01bd7666a0855d72b5297303d5ef822a660efc3aa6e4b9": "当评价影响各组织内部随后的战略交流时,我们研究最佳反馈设计。企业在员工向经理通报有关项目具体情况的私人信息之前,先设计关于员工潜力的公众反馈.虽然更翔实的反馈有助于管理者做出更好的决定,但也可能加剧偏好冲突并破坏后续沟通的可信度.我们描述最佳反馈政策的特点。首先,全面披露要么对所有先前的信仰来说是最佳的,要么对所有信仰来说都是次最佳",
+    "2610833f1079c8313202b9a3e1f6aa4c9dcbfd5488d409839bc4eea3f29c7039": "Pterodactyl:推进高效自动翻译评价的局限性",
+    "f7c7b65eb2b61bd19627a471878fc85db466ad61ffbb4f2c6f714899f4de3e2b": "在本文中,我们介绍了1020个小组向WMT26提出的自动化质量评价共同任务。我们的系统Pterodactyl是专门为第2分任务和第3分任务设计的,即分级质量分数预测和检测无出错分数.Pterodactyl是一个高度自定义的,超低成本的系统,在翻译分类和数据校正中为二进制分类进行了优化.它以LLM-as-a-judge方法为基础,在ROC分析的指导下进行即时工程和模型选择.我们还开发出几个特地适应的Pterodactyl变体",
+    "aae0ddbcfd337a08238366779d605aaf691a45058dff426ba9eed3614a098038": "有处理集群的仪器变量",
+    "e8f59082920e715ebe4a5e7e6e70bf6297ba3114a026d910815a32bb16211acc": "许多政策评价包括多种无序治疗。一种常见的方法是在治疗集群一级将这些治疗方法汇总为集群,并应用工具变量(IV)方法: 集群作为二进制处理处理,IV假设在集群一级被引用.本文显示,有治疗集群的IV根据一组非集群治疗水平的假设,确定了当地平均治疗效果的加权平均值(LATEs).在获得关于非集群治疗选择的数据时,我们建议对ca进行测试的必要条件。",
+    "33d3db2d471b3d17b6057bdc9180dbc1aabf1ca2fa42b0e930b7967fc1129921": "FERN: 跨伯希马克表 文本到SQL的检索",
+    "7d7a079eb8731311abb134287d99e2fc59dc1dec0798035fe249e79183d7b9f6": "文字到SQL系统在大型集合目录上必须首先取回表格中需要的问题。我们比较了RASL公布的表格召回,其中使用克洛德3.5模型取出关键词,并选取表格,关于集合的BIRD,蜘蛛和Fiben目录.FERN(Feature-Engineered Ranking with no generalive LLM)取而代之,将3个被冷冻的取回器装入100个入选者,描述每个入选者最多有120个特征,并重新排列它们,在BIRD的训练题上安装过一次的LightGBM分级器.在Spider上,没有安装它, 其候选的游泳池 单独到RASL的出版召回在fif",
+    "981ecaeeac673d051bbda7fffe6442197e20c190f60520b7c128d5830126f7e4": "选择的复杂性:认知能力、过度自信和任务选择",
+    "ecd170d2e0462bf3d4ebcbcaac40557ca9e49edc2cf1bf27db1bd4af96d51bc4": "工人和组织通常在他们成功支付权衡的复杂任务之间作出选择。我们研究认知能力和过度自信是如何在理论上和实验上 塑造这种任务复杂性的选择的。根据我们的模型,我们发现 认知能力更强的个人 选择更复杂的任务。在认知能力方面,我们发现更多的过度自信的个人也选择了更复杂的任务.在大约75%的决定中,受试者选择了他们的酬劳最大化的任务,而更高的认知能力与更高效的胆汁联系不大。",
+    "3c026d98ab6820e4e406c4e3842ea7893d4a8a4da2f788a55f5bd67cf5310519": "文字编码何时对语言建模很重要?.",
+    "ecc158b1bcc18ef6940c4c1e29fe1041eb471aa5bcac01aeacf4abfa84cbb1b9": "UTF-8作为语言模型中事实上的编码标准,由于其可变长度设计,引入了跨语言的不平等.然而,这种编码选择对模型性能的影响基本上仍未得到审查。在这项工作中,我们调查了文本编码如何影响字节级语言模型的性能,将UTF-8与其他广泛的编码策略进行比较,包括其他以Unicode为基础的方法,语言特有编码,以及我们自己的定制编码.为了方便我们的分析,我们提议了以太:一个使用脚本-光谱的混合编码方案",
+    "0e24c51ba62a42cc769679dedfbbfcc1872f5c40a6b1bdfe9dfd3162597d5705": "团队的动态投资和协调:理论和实验证据",
+    "455cd7e12b96fb80c9e47d09b3ae91722f8c10e86e41534e1c026229753c5149": "团队工作需要的不仅仅是团队成员带来的一般技能.在成功的团队中,成员投资于团队特有的技能或资本,这些技能或资本在团队内部积累并提升协调生产的回报.我们对这种团队技能的动态投资进行了第一次系统分析。我们采用动态游戏方法,开发了一种新的理论框架,即对团队技能的投资产生持续的利益,但风险很大,因为收益取决于成功的团队协调。然后我们把这个框架带到实验室 以实证方式研究我",
+    "32e75d6ba70af50fa34d9a74969614b1fc13c6b100544183ff0e62669bf0b611": "100个家庭任务的一项政策:2026年BEHAVIOR挑战的解决方案",
+    "4b6ce3f0a01a1a2c38f868658e2fa065a26363c8d0724ad8f947f13964f59eb6": "我们描述了2026年BEHAVIOR挑战的解决方案:OmniGibson模拟器中的100个长视距家庭任务.我们把第9名放在了最后的领跑板上,是前10名中唯一的独立队伍.解决方案的核心是一个单一的视觉语言行动(VLA)模式,一个检查点,用于所有100个任务,基于我们的第一个位置2025解决方案,基于$\\pi_{0.5}$.在与2025年共同承担的50项任务上,它的Q从0.260上升到0.371;在所有100项任务中,它的分数为0.392分.我们从2025年开始的主要结论是,模型训练不足,所以2026年的大部分工作都投入了Mod的训练.",
+    "7ac4c81bcf89f87604fa3d0360e57cd2b3bddcf834c36a963e0143a512209052": "关于实际波动预测的混合模型的预测推论",
+    "d6e9199ab9f4819a7399a519ae40fc3859287bcbc68f4907760c6e46255f49cc": "GARCH-LSTM混合模型在起伏性预测文献中越来越受欢迎.迄今为止,这些模型几乎完全侧重于点估计和精确度测量,如RMSE和MAPE,同时未能评估这些点估计的不确定性.我们以两种方式处理这一差距。首先,我们扩展现有的GARCH-LSTM模型,用ARMA结构来建模有条件的平均值.其次,我们开发出一种前方靴子算法,为未来实现的波动建立多步前行的预测间隔.为了对付臭名昭著的卧底",
+    "a6722fc16e915e3c569530b4ace9c73e1dab8efcae698057241cfb1a8a2e2e0d": "两个社区,一个问题:分会和分会 v.A* 资源限制项目时间安排",
+    "a690df52c44840d0db07b64a867d4cd3ffe901960f8a2b0ecf055e87e9dc1942": "分公司和Bond(B&B)和$A^*$是流行的精确搜索方法,分别出自业务研究和人工智能.虽然这两种方法都具有基本的搜索原理,但是它们探索搜索空间的不同方式可以导致计算性能大相径庭.我们利用资源限制项目日程安排问题(RCPSP)来调查这些差异,以此作为示范性问题。我们首先确定了混合整数线性编程,状态行动,以及定时的Petri-net表示之间的关系.由于B&B和$A",
+    "65bd5cdc746d29e24494f9d393693b8b3178e4e1caa5a5d7a430fed75c2d85e0": "口味还是战略?图花样滑冰判断中的民族主义偏见和竞争者惩罚",
+    "98a23c1d3c34cbb6b56f59118a691094224a4ee886664fb8b8b15aa52d030b58": "许多决定取决于专家小组,其成员与一些候选人有联系,从分享口味或更好的信息中很难看出偏袒。利用从花样滑冰中获得的丰富数据,我们发现有证据表明,同胞的亲密对手受到战略性的同胞奖励和定向惩罚。溢价随随机抽取的起步顺序而下降,在2022/23之前,当亲密对手在评委中有自己的评委时,溢价会上升.惩罚随着同胞的安置机会而增加,一旦她失去争议,惩罚就会逐渐消失。反事实分析显示,这些偏差可以形成血块",
+    "0fd7bd76c4e33ce8e0dce455a438bb1b622ceed14fba938429e7ac849d2229ed": "量化传感器数据应用时序基础模型的抽样频率变化",
+    "25cf4f664cd703eb45604687ed17f57407285505da56f2ce6e5d2784b266d6c6": "时间线基础模型(TSFM)越来越多地被用在传感器应用上,在传感器,设备,操作模式(如节能)的采样频率(SF)不同.理想的情况是,在这种SF变化中,只要SF保留关键任务带宽,TSFMs就必须保持有效.在本文中,我们通过压力测试4个突出的TSFMs:Moment,Chronos-2,Moirai-MoE,以及TimersFM,以量化其SF-invation,并调查他们的行为是否跟踪由此而来的信息带宽损失,而不是SF值本身.我们的压力测试探测器 3 维度:(一) 转变",
+    "685db117c96afb0aa7f3638e2fef00efd364c46a150c8ebbec522f322e48e3e6": "核心不空:连接合作游戏和资产定价",
+    "a122d124820b0cfd10cca6ade22dbb0bc1b23adee1c3ac71a0dbf5a73d8a081c": "我们显示,无限合作游戏的\"邦达雷瓦-沙普利定理\"可以从资产定价的基本定理的一个版本中衍生出来.链接是一款游戏的Choquet扩展,被视为关于可测量的简单还款空间的一项可能的非线性定价规则.在这个识别下,平衡性转化为无套利,以定价规则为主的线性函数在反核心中产生分配;核心语句接踵而来.运用Cornet(2025年)的无套利定价定理,我们恢复t的非挥发性特征",
+    "4a85cf1af07904e672f263d5eb535d3221dac9caf7c94943b41bfb5c366cc0a0": "JioStar关于人工智能发现的首席建筑师,",
+    "53f98407b2a8643a553122aa595d719ab879b2ad58824a8dddcd73013c73afbe": "JioStar的\"Vijay Seshadri\"以500M用户规模解释AI发现.读他的课关于evalls,护栏, 并带AI生产。",
+    "f6c058185dbf7d044010decd77a87495e7578b374cd0576079f4e2dbac523b43": "多变量嵌入模型的 Token 聚合-智能培训",
+    "aa581d2860cf8313af426fcdb79dde5c78ec28e23856c3e4ee2b9ae1fce3c562": "我们研究一种理性的无意识模式,即决策者选择一个有条理的选择规则,同时面对关于先前各州分布的模糊性。模糊性通过分布稳健的配体来模型化,其中前一种配体属于由一般的双活体所定义的不确定性.我们的主要结果确定拉格朗格人将由此产生的最大-最小问题作为有限-维集合优化问题的双重表述。这种定性产生必要而充分的条件,以便出现一套强有力的考虑,并能够促进",
+    "dd32b1091730a7212721b8330ac618574dd928696c0f97391e992cca5650dec8": "自 langchain \\ n1.4.9 发布后的变化(langchain): 1.4.10 (# 41778) 固定(langchain): 保持中端软件-内部模型调出消息流(# 41579) chore(deps): 补丁更新平通安全锁解析(# 41585) 固定(langchain):从 Model RefusalMiddleware (# 411689) 中省略出微量输入."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -19808,6 +19884,305 @@
     "https://openai.com/index/singapore-airlines-travel-work": {
       "checkedAt": "2026-11-11T14:06:17.314769+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.34.0rc1 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc1"
+    },
+    "https://w2solo.com/topics/8710": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8710"
+    },
+    "https://arxiv.org/abs/2611.14434": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0"
+    },
+    "https://www.ithome.com/1/025/810.htm": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "当地时间 11 月 11 日，DeepL 推出语音 AI 翻译模型 Aure，官方称这是其迄今最具动态感、表现最逼真的语音 AI 模型。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/025/810.htm"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-11/": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "Alsona：将购买信号转化为已预定销售电话的人工智能助手；Maxma：24小时无休的AI助手，助力提升你的付费广告表现；TK by Medium：一本助你提升思维的主动笔记本；Latch.ai：无需任何提示，自动化复杂的会计工作。；Seldon：像客户一样使用您产品的行为质量保证（QA）代理。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-11/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-11/"
+    },
+    "https://arxiv.org/abs/2611.14385": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.14385"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0"
+    },
+    "https://arxiv.org/abs/2611.14519": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14519v1/figs/fig_design.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14519"
+    },
+    "https://arxiv.org/abs/2611.14146": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0"
+    },
+    "https://arxiv.org/abs/2611.14518": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14518v1/images/foundation_model.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14518"
+    },
+    "https://w2solo.com/topics/8708": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8708"
+    },
+    "https://arxiv.org/abs/2611.13882": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.13882"
+    },
+    "https://arxiv.org/abs/2611.14515": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.14515"
+    },
+    "https://solo.xin/topic/6219": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "2017 年夏天，Superhuman 已经开发两年，团队有十四个人，Rahul Vohra 仍不觉得可以正式推出。大家继续写代码，却缺少一套能说明“还差什么”的共同语言。这是他在 2018 年回顾中描述的处境。[1] 他采用了一个调查办法：请已经体验过核心功能的用户，说明如果不能继续使用产品，会有多失望。第一轮只有…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6219"
+    },
+    "https://arxiv.org/abs/2611.13866": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.13866v1/Solar_radiation_corr.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.13866"
+    },
+    "https://arxiv.org/abs/2611.14514": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14514v1/main-figure.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14514"
+    },
+    "https://solo.xin/topic/6217": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "2025 年 2 月 20 日，Obsidian 发布了一则关于收费的公告：商用许可变成可选项，在工作中使用这款笔记软件，也可以免费。 此前，一部分工作使用场景需要购买商用许可。调整后，组织仍可付费支持开发，但购买这项许可不再是使用前提。团队给出的理由很直接：原来的条款让人困惑，也让定价多了一层不必要的复杂度。 这是…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6217"
+    },
+    "https://arxiv.org/abs/2611.13715": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.13715"
+    },
+    "https://arxiv.org/abs/2611.14493": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14493v1/plot_stability_heatmap.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14493"
+    },
+    "https://solo.xin/topic/6215": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "Wade Foster 找到那条帖子时，它已经旧了大约八个月。 发帖的人是 Mixergy 的 Andrew Warner。他想把 PayPal 里的资料自动带到 Highrise。Wade 当时正在为刚起步的 Zapier 寻找用户，这看上去很合适：有人公开说出了需求，也能明确指出需要连接哪两个工具。 但 Wade…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6215"
+    },
+    "https://arxiv.org/abs/2611.13632": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.13632"
+    },
+    "https://arxiv.org/abs/2611.14492": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.14492"
+    },
+    "https://solo.xin/topic/6213": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "先看到升级的人数，Baremetrics 那次免费方案试验似乎相当不错。 按创始人 Josh Pigford 对 2015 年经历的复盘，11 周里出现了 1,000 多个免费账户。按当时业务条件筛选，461 个属于可能成为付费客户的账户，其中 53 个升级。用这 461 个作分母，转化率约为 11.5%。 但同一份…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6213"
+    },
+    "https://arxiv.org/abs/2611.13616": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.13616",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.13616"
+    },
+    "https://arxiv.org/abs/2611.14487": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14487v1/fig1_climb.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14487"
+    },
+    "https://arxiv.org/abs/2611.13469": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.13469"
+    },
+    "https://arxiv.org/abs/2611.14483": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14483v1/main.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14483"
+    },
+    "https://arxiv.org/abs/2611.13450": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.13450v1/figure_7.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.13450"
+    },
+    "https://arxiv.org/abs/2611.14480": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14480",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14480"
+    },
+    "https://arxiv.org/abs/2611.13313": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.13313v1/FiguresTables/robustness_late.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.13313"
+    },
+    "https://arxiv.org/abs/2611.14477": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.14477"
+    },
+    "https://arxiv.org/abs/2611.13259": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.13259v1/Figs/Task_01.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.13259"
+    },
+    "https://arxiv.org/abs/2611.14459": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.14459"
+    },
+    "https://arxiv.org/abs/2611.13230": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.13230"
+    },
+    "https://arxiv.org/abs/2611.14432": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14432v1/media/architecture.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14432"
+    },
+    "https://arxiv.org/abs/2611.13212": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.13212"
+    },
+    "https://arxiv.org/abs/2611.14426": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.14426"
+    },
+    "https://arxiv.org/abs/2611.13194": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.13194v1/figures/figure_A_A_1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.13194"
+    },
+    "https://arxiv.org/abs/2611.14425": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.14425v1/figures/tsne_bearing_12k_compact_row.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.14425"
+    },
+    "https://arxiv.org/abs/2611.13189": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.13189"
+    },
+    "https://openai.com/index/jiostar-vijay-seshadri": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://huggingface.co/blog/token-pooling": {
+      "checkedAt": "2026-11-11T21:22:49.224106+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/train-sentence-transformers/st-hf-thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/token-pooling"
     }
   }
 }
