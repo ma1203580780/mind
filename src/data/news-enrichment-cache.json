@@ -3785,7 +3785,15 @@
     "c8039172bcc264ff4d77b8f3ca4dfc463edc04ada2a252348b56b1b53b5cb53c": "ChatGPT 介绍企业",
     "f6bd125c2096ffa07c7a6247398a50490c3ac25580934fe010c3a61436a862eb": "管理您的商业信息, 了解您的商业表现, 将兴趣转化为行动。",
     "e995f3755813a596d2b66ab6bd295f8f5818d4631b8de93c944288ba086917f5": "Cogent和OpenAI为企业建造网络防御工厂",
-    "55a40641ae5a605b074794edd5a7cba0df995f0db74eb0899872628265e1759d": "Cogent将OpenAI模型与企业上下文相结合,以帮助与代理商自动弥补脆弱性."
+    "55a40641ae5a605b074794edd5a7cba0df995f0db74eb0899872628265e1759d": "Cogent将OpenAI模型与企业上下文相结合,以帮助与代理商自动弥补脆弱性.",
+    "9285314045acbf6e355a2e86e8d91931ad1dc502a93b9e6e10872ed4c9af6b6b": "ChatGPT的100个最受欢迎品牌(2026年11月)",
+    "9fd06feea4b3f726dd01acc9d170ff40b4a179c74e9f8872b6d2ce4852f92c97": "我们计算了550万个美国查特GPT的回答中有多少提到每个品牌.沃尔玛最先登场,以95,605个答案命名,几乎是第二位目标数的两倍.商店占前十位中的六位.车匠占15个...",
+    "81bfbbf8850855930247e86155708f4e818ee937d072d6f6184c92a876b87e91": "我们正在进行一个A/B测试,",
+    "dee497ea5da7c1b694b5643a27d4c73e7a1ca2cc9e5056a17cad3536419e3dc4": "我们花了许多时间辩论AI在何时、何地以及如何融入我们的聘用过程。作为一支雄心壮志的小型队伍,我们正努力提升水平,招聘工作已经成熟.",
+    "ef33f1b86c833571ae5bdced5c7a490b33f62f91db994c4de96fb5afacf128c3": "ChatGPT 退伍军人和服务成员附加项目",
+    "fb5bdf423d37d9e10a09ed784b1a0bd13bc4cde7be1b8ab6be870a6666e4e5e6": "超过20000名退伍军人和过渡服务成员声称拥有ChatGPT Plus的自由年.看看他们如何用它来准备平民生涯.",
+    "fbd230e1d263ed4f742ca67853fc7d1feb9c9ae29ceb1dcb211e7f48bb434c26": "新加坡航空公司利用OpenAI技术提升旅行和工作水平",
+    "d9ed40e9d34aac94d3c651a94099ed7949cd893c7174c5f9ac4d2298f34630db": "发现新加坡航空如何使用OpenAI模型和API来增强客户支持,旅行发现,员工生产率,将CSAT为其Kris聊天机翻一番."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -19763,6 +19771,42 @@
     },
     "https://openai.com/index/cogent-security": {
       "checkedAt": "2026-11-11T05:59:38.496054+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://ahrefs.com/blog/most-mentioned-brands-chatgpt/": {
+      "checkedAt": "2026-11-11T14:06:17.314769+00:00",
+      "description": "Walmart, Target, Apple, Amazon and The Home Depot are the brands ChatGPT names most. See the 100 most-mentioned brands across 5.5M US ChatGPT answers.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/most-mentioned-brands-chatgpt-top20-202611.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/most-mentioned-brands-chatgpt/"
+    },
+    "https://openai.com/index/chatgpt-plus-for-veterans": {
+      "checkedAt": "2026-11-11T14:06:17.314769+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.qbitai.com/2026/11/509146.html": {
+      "checkedAt": "2026-11-11T14:06:17.314769+00:00",
+      "description": "价格、门槛全打穿",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/e6763a865a1ac76ba704e1dfe4fc374a.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/509146.html"
+    },
+    "https://www.qbitai.com/2026/11/509088.html": {
+      "checkedAt": "2026-11-11T14:06:17.314769+00:00",
+      "description": "10月30日，“科技有「联想」·Token畅想曲”线下沙龙在京举行。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/50a10d75ae85f5de0105a3851931e601.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/509088.html"
+    },
+    "https://www.qbitai.com/2026/11/509085.html": {
+      "checkedAt": "2026-11-11T14:06:17.314769+00:00",
+      "description": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d1f2da013887fe1528605e5bc64c5732.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/509085.html"
+    },
+    "https://openai.com/index/singapore-airlines-travel-work": {
+      "checkedAt": "2026-11-11T14:06:17.314769+00:00",
       "error": "HTTP Error 403: Forbidden"
     }
   }
