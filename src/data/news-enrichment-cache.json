@@ -3889,7 +3889,20 @@
     "7269472755a4bd7528e1803e9e10ed05c9ce5a4c5a02ba2ff6e8317fc8bffbfc": "Gilbert + Tobin 与AI重新思考法律事务",
     "aa3225e39851c94a086efec6856ec1d2c8aeb705e17a3f77310ca459cfc5e631": "与Gilbert + Tobin的合伙人兼首席执行官Sam Nickless的谈话.",
     "1baf0a0f64fe5e8aab0f6f9f555b072c0d100bb219f5ccfba34ae83a4553fecd": "支持关于AI和儿童安全的研究",
-    "772c656f40f65394848cf6883294d2100447da5093caade2ac10a680455d441a": "OpenAI承诺200万美元用于AI和儿童安全的研究.这项工作支持采用共同的工具来衡量青年人的风险和机会。"
+    "772c656f40f65394848cf6883294d2100447da5093caade2ac10a680455d441a": "OpenAI承诺200万美元用于AI和儿童安全的研究.这项工作支持采用共同的工具来衡量青年人的风险和机会。",
+    "0149a96e3ad1c0d328dd970d8354fbefd2ca15405187babb60ca1d7968ce2e7a": "LLMON: LLM- Native Markup 语言,现使用Granite 4.1 3B和 8B",
+    "70ddda187975d87d73a530669791bfd513961fb231755aef8bcd63c6975cb709": "Anthropic 刚刚放下克劳德白板,工作表和数据",
+    "e8c3b1bfdc4caae973f6dc6fd90480742bcea3f497e14b33ba3e26b85a51de59": "Anthropic刚刚发布了3种新型文物:白板,工作表和数据.继续在 UX Planet 上阅读“ ”",
+    "e05e6fc17b7fca90416e02c5e0965b898149bce65f46551a48231e919c3c0566": "彼得·莫里斯建筑师(Peter Morris Architectors) 伦敦西北的Pastel Pink `Cloud House ' Billows",
+    "47fa9424647f66363853604664abbd770de17850ff52204548b3bfd5b8599c38": "制作十年,\"云楼\"是对其环绕的邻居建筑的狂喜反应.",
+    "480947171da682e33fd78a878cfb386d0fb91a16583a3917c90a8e2031e56fec": "联邦储备委员会宣布从2027年1月1日起对联邦储备银行向银行和信用社提供的支付服务进行定价,并修改精简和调整其支票服务",
+    "e83a21ba47b434ee63d89f157247cc76a20faa8108ffd40486fb0905a8071457": "在Nikon Small World Photomicraphics大赛中,",
+    "625c6bd1fbf5e3d91eb4aed2185fb05b4eec267a1dd9bee9c87186ce3278044d": "是一个大舞台,适合这个小东西",
+    "30e8b59a648a3b38dc2d9b1476f360c2a5fa991055a813c8233751f1ca9696d1": "美联储宣布2027年联邦开放市场委员会会议的订正暂定时间表",
+    "388999b3f62df11847dbe1894688ef9fa25d8ea9e312826abf846461ba5dfb1c": "你真的应该添加AI吗?产品小组四问题审计",
+    "7f8ec266b47d840761946ff340b26f234153cbf90e69faeb6004bbbbd24cb704": "一个AI特性可以节省用户在任务上的时间,只能让他们花在检查结果上.这一实际审计有助于产品团队决定AI在什么地方获得地位,以及用户需要哪些验证其产出.",
+    "0a61027203a65507b73e84799603b67ba441f1bfc09b338414cd5cf0922d3fc7": "联邦储备委员会向联合共同体银行前雇员发布强制执行行动",
+    "491d39a42785b48a916dff2cfdbe87f1bcc5b8d05e11947d1adee7b133182d83": "3D 生成模型的确定精细图解指南"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -20313,6 +20326,90 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/beafb13675340a025b01bd20a57ddeea.jpeg",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/509214.html"
+    },
+    "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "A Blog post by IBM Granite on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "The Federal Reserve Board on Thursday announced pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm"
+    },
+    "https://solo.xin/topic/6210": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "有人愿意贡献代码，是开源项目令人高兴的时刻。贡献者多起来以后，谁来决定下一步，却会成为另一项工作。 2023 年 7 月 20 日刊出的采访中，Lichess 创始人 Thibault Duplessis 回顾了项目如何从浏览器实时通信实验逐渐吸引使用者与志愿者。有人短暂参与，有人留下多年。这个在线国际象棋服务后来成…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6210"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "The Federal Reserve on Thursday announced a revised tentative schedule of Federal Open Market Committee meetings in 2027. The Committee plans to meet on the d",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm"
+    },
+    "https://www.ithome.com/1/026/437.htm": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "与英伟达竞争的另外两家 AI 芯片制造商 AMD 和博通逆势上涨，涨幅分别为 3.7% 和 5.6%。投资者预期，英伟达陷入动荡可能为竞争对手创造机会。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/026/437.htm"
+    },
+    "https://solo.xin/topic/6209": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "2012 年底，Segment 的四位合伙人对接下来做什么没有达成一致。此前的分析产品没有找到真正的客户，钱也正在减少。Ian 提议，把精力转向他们顺手做出来的开源库 analytics.js。Peter Reinhardt 很怀疑：一份已经公开、只有几百行的代码，能支撑一门生意吗？这是 Reinhardt 在 20…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6209"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "The Federal Reserve Board on Thursday announced the execution of the enforcement action listed below: Consent prohibition against Katilyn M. Robinson Former e",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm"
+    },
+    "https://www.ithome.com/1/026/386.htm": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "科大讯飞今日宣布，讯飞星火语音基座大模型 SparkAudio 1.0 已在讯飞开放平台上线 API 服务，开发者可直接接入调用。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/026/386.htm"
+    },
+    "https://solo.xin/topic/6208": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "做了七年 Android 应用之后，iA 在 2024 年 9 月 26 日发出一则公告：iA Writer 的这个版本要暂时下架，停止增加新功能。公司表示，既有用户仍保留访问，关键更新会在平台允许的条件下提供。[1] 公告描述的困难，很大一部分发生在编辑器之外。按 iA 的自述，Google Drive 访问受阻以…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6208"
+    },
+    "https://solo.xin/topic/6206": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "GitLab.com 无法使用时，GitLab 自己也受到了影响。公司平时在这个平台上开发产品，事故发生后，一些协作工作只能停下来，面向用户的公告却仍然需要发布。[1] 团队当时用上了另一套私有 GitLab 实例。它平常用于安全发布等敏感工作，这次帮助团队继续构建和部署官网，把事故说明发出去。这个细节写在 2017…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6206"
+    },
+    "https://www.qbitai.com/2026/11/509440.html": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "「CAD拆解」",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-10.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/509440.html"
+    },
+    "https://huggingface.co/blog/3d-lora-finetuning": {
+      "checkedAt": "2026-11-12T20:25:24.534023+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/3d-lora-finetuning/thumbnail.gif",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/3d-lora-finetuning"
     }
   }
 }
