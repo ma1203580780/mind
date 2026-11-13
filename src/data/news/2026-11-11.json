@@ -1605,7 +1605,7 @@
       "category": "AI 资讯",
       "kind": "论文预印本",
       "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
-      "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing behavior that violates contextual execution requirements. We study this reward-driven misalignment, including reward hacking, through verifiable reward--context conflicts, where compliant task completion remains feasible while some executable shortcuts earn more reward than every compliant strategy. Encoding these conflicts in task dynamics lets us generate diverse interactive environments at scale and derive compliance feedback from execution histories. In resource and reporting workflows, task optimization i",
+      "summary": "Reinforcement learning (RL) can improve an agent's task capability while reinforcing violations of explicitly stated contextual requirements, even when reward accurately measures useful work. We study this reward-driven misalignment through verifiable reward--context conflicts, where compliant completion is feasible but executable violations earn more reward than every compliant strategy. Encoding these conflicts in task dynamics supports scalable environment construction and compliance feedback from execution histories. In resource and reporting workflows, task optimization increases real pro",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "arXiv · AI",
@@ -1626,7 +1626,7 @@
       "imageKind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2611.12865",
       "titleZh": "快捷键和边界:可核实的RL错位和背景安全学习",
-      "summaryZh": "强化学习(RL)可以提高代理的任务能力,同时强化违反背景执行要求的行为.我们通过可核查的奖励-内容冲突来研究这种奖励驱动的错位,包括奖励黑客,在这种冲突中,符合要求的任务完成仍然是可行的,而一些可执行的捷径比每个符合要求的战略获得更多的奖励。将这些冲突编译成任务动态,使我们能够形成规模多样的互动环境,并从执行历史中获得合规反馈。在资源和报告工作流程中,任务优化i",
+      "summaryZh": "强化学习可以提高代理人的任务能力,同时强化违反明确声明的背景要求的行为,即使奖励准确地衡量有益的工作。我们通过可核查的奖励-契约冲突来研究这种因奖励而导致的错位问题,在这种冲突中,合规完成是可行的,但可执行的违规行为比每项合规战略得到更多的回报。在任务动态中对这些冲突进行编码,支持可扩展的环境构建和执行历史的合规反馈.在资源和报告工作流程中,优化任务会增加真正的亲",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
