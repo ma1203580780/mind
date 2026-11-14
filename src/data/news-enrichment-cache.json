@@ -4077,7 +4077,9 @@
     "e7dbff1c626aaddb2d4f0de2a6850505e7a991f991a2367c72a4d3eab158f934": "Shield使用OpenAI帮助IT技术人员在遗产门户中交接工作.它的Forge代理导航系统,以便技术人员能够专注于需要他们判断的问题.",
     "4a3dece94843629ac462abecaa4476539121b4421c915ed2cecdc93620ee81c0": "v0.34.0rc4 维基月球",
     "6fff5dd5574cad9de3773d69dce174359daeaf45b5f6f77230f65572c3c8f2d2": "[释放][试验]给予#67296热门试验跑车num_speculat...",
-    "93ef33a64c90b88c0d8e648e18ecaae0fc9fb89b207cc57a825f95515270ef3d": "仔细看一眼日常的浴室缺陷 就会毁了你的日常生活我停下来,离开浴室。发生了奇怪的事情,但是什么?有个女人坐在轮椅上 洗完手了她似乎卡住了,她不停地伸手伸手,我鼓起勇气去问, 意识到她一定认为我是最尴尬的人,“我想”她走得更远了一点,“我可以得到。”"
+    "93ef33a64c90b88c0d8e648e18ecaae0fc9fb89b207cc57a825f95515270ef3d": "仔细看一眼日常的浴室缺陷 就会毁了你的日常生活我停下来,离开浴室。发生了奇怪的事情,但是什么?有个女人坐在轮椅上 洗完手了她似乎卡住了,她不停地伸手伸手,我鼓起勇气去问, 意识到她一定认为我是最尴尬的人,“我想”她走得更远了一点,“我可以得到。”",
+    "7091007f934cf5e2d6e82e6e0de38e1219d61af8fa9e4ef25c0be52865e342cd": "QQ社区智慧:当你成为你的AI代理的瓶颈时,PMs的PULL框架,产品增长对.增长营销,提高反馈率,等等",
+    "7735c5580a1e31f34ad625ce5f5d5e581ca618c33c4b7d1d5bc60a744cc57e81": "社区智慧305"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -21302,6 +21304,34 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-5.webp",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/510003.html"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-14/": {
+      "checkedAt": "2026-11-14T23:51:07.310823+00:00",
+      "description": "Templify AI：强大的内容编辑工具，专为非专业编辑的人士设计。；Filament by Galaxy：通过终端或代理快速移动数据，且是开源的。；Claude Meetings：把Claude添加到你的电话会议中，边聊边开始工作。；Replicate：将Webflow/Framer应用程序转变为Claude/Codex项目，且无需付费。；Trainn MCP：从任何AI聊天中创建产品视频和课程。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-14/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-14/"
+    },
+    "https://w2solo.com/topics/8712": {
+      "checkedAt": "2026-11-14T23:51:07.310823+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8712"
+    },
+    "https://w2solo.com/topics/8711": {
+      "checkedAt": "2026-11-14T23:51:07.310823+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8711"
+    },
+    "https://w2solo.com/topics/8707": {
+      "checkedAt": "2026-11-14T23:51:07.310823+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8707"
     }
   }
 }
