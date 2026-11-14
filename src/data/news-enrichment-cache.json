@@ -4060,7 +4060,21 @@
     "bc74eaa305d15cd867c9e1738c9d3fdec12623ee2bbb4fa839b84e97ae62b2fb": "社会准则和信息披露",
     "dced24c800d4117f035237914bd26319d43efc7d8b6645111ca376f2df0f8b01": "社会信息信息被广泛用于影响规范感知和规范相关行为,但其影响可能取决于其报告的内容和披露方式.本文通过推论潜在的适当性标准,发展了一个基于信仰的框架,将个人价值观和所感知的社会规范联系起来。该框架通过两种机制,表明信息如何影响所感知的社会规范,对随后的行为有潜在影响:第一,个人价值和感知规范统计对先前参与者的私人信息编码不同,因为",
     "a50843402d9d0b287fd076d35b508ec601a9f9c919b53ac14f3be96ee81552db": "Al-Ghasali:通过Finite State Automata和大语言模型模拟伊斯兰判例的计算框架",
-    "672c552ef00238871c742669eeca0f4acb8e567c1f15569317f538d198ed8c7a": "本文件介绍了Al Ghasali,这是一个计算框架,旨在正式确定和模拟伊斯兰法理裁决。在最近对al sabr wa al Taqsim 的理论形式化的基础上, 将最低限度操作规则提取为简单的 Horn 条款逻辑程序,我们建立了正式的计算层次,表明将形式化限制在有限命题合恩理论上,保证了可裁定性和不变时间(O(1))判决e"
+    "672c552ef00238871c742669eeca0f4acb8e567c1f15569317f538d198ed8c7a": "本文件介绍了Al Ghasali,这是一个计算框架,旨在正式确定和模拟伊斯兰法理裁决。在最近对al sabr wa al Taqsim 的理论形式化的基础上, 将最低限度操作规则提取为简单的 Horn 条款逻辑程序,我们建立了正式的计算层次,表明将形式化限制在有限命题合恩理论上,保证了可裁定性和不变时间(O(1))判决e",
+    "3cb497f690db0a6dbab4577d4639c574151d5bc78ecf64d63a1e4c823d2ee840": "v0.34.0rc3 (中文(简体) ).",
+    "4c05ed7d91eea8f22be43ab67bd14d93ed51cd82bf4cbe07ffc714f1f6485e7f": "[KVconnector] 指定可扩展的 KV 缓存可导出用于 Exports...",
+    "b98d02e69cfff526a9b702e849f9b1ea1380b0922618a22caf85ab83fcca22e7": "决策场还是决策设计?",
+    "463a99e1594fb56ea40771cb17b5f3ae1f4033a8cb7e7b851cf0b54fee9e650c": "大赦国际使信息变得简单,但它并没有使决定变得简单。随着机器的产量超过我们所能读到的,我们的工作正在从积累知识转向自主决策.准备好了吗?在BetterUp Labs和斯坦福社会媒体实验室2025年的一项调查中,40%的美国办公桌工人说,他们上个月收到过工作记录:人工智能生成的工作看起来很光滑,但并没有推进这项工作。答复者报告说,平均每起事件要花将近两个小时。想象一下,一个10人的团队, 每人每月收到一块工作底片。大约20小时,多一点",
+    "9ed371a4e50c88d415a778ff1626f82747560bc9404df8ba382f801120740a25": "Schödinger的黄:Nvidia不可能是每个人的一切",
+    "4dd085b5abae9a71a90d059bea96370260d6e854b4fb7a2570906c2e3bd96b44": "亚洲资本试图在太平洋两岸同时经营科技企业,",
+    "23e37f88a526ecd591ae86fd9aa4061d762a2f7d8d1021df473363d47faff284": "研究-In-The-Loop:UXR如何以AI速度适应发展",
+    "5fc89962503cc637a954ee552019bee1b14ee33a72b7314b6b570fb45590412c": "随着AI加速开发,它可以成为研究适应的挑战.研究可以确定每次发布必须衡量什么,以及它能帮助团队发现什么.",
+    "8168f3453a133e2aaf280dd6f554e6535af6e4711174043941ca306f0d0c2d65": "地图绘制 101",
+    "56fd8dc828da89ea029dad61f7b6828c7ca695db684c29a28745f0e1a662acce": "行程图(英語:Travelmap)是指一个人为了实现一个目标而经历的过程的可视化.",
+    "86dc50ef821e9a7d0329bd3e3a30dd2b0162fc28c4d35ff525660a6a1226b76e": "各机构延长拟议第三方风险管理指导的评论意见期",
+    "36a79df9635f38b88cd29b02707e9d9cc6d05da92ae9cbf4a7005de9b60ded25": "使用 SimReady 资产构建一个机器人 Pick- place 模拟",
+    "3d3c5c026519feb815e14fb90e0f31054b9101fc07b3c2e3cae0bd215a765d70": "Shield帮助技术员与OpenAI合作,",
+    "e7dbff1c626aaddb2d4f0de2a6850505e7a991f991a2367c72a4d3eab158f934": "Shield使用OpenAI帮助IT技术人员在遗产门户中交接工作.它的Forge代理导航系统,以便技术人员能够专注于需要他们判断的问题."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -21169,6 +21183,52 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://arxiv.org/html/2611.17235"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc3": {
+      "checkedAt": "2026-11-14T06:08:58.774437+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.34.0rc3 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc3"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-13/": {
+      "checkedAt": "2026-11-14T06:08:58.774437+00:00",
+      "description": "Plurai Simulation：一个模拟世界，让你的智能体在每次运行中不断提升。；YouArt Desktop App：创意团队的指南；Omnigraph：开源图形数据库，专为你的人工智能代理设计；⌘+L：像 Figma 一样编辑你的网站！；Spacefast by Automattic：为你的人工智能代理提供一个可以构建、运行和交付的平台。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-13/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-13/"
+    },
+    "https://www.nngroup.com/articles/research-in-the-loop/": {
+      "checkedAt": "2026-11-14T06:08:58.774437+00:00",
+      "description": "As AI speeds up development, it can be a challenge for research to adapt. Research can define what each release must measure and what it can help teams discover.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/Research-In-The-Loop__How_UXR_Adapts__to_Development_at__AI_Speed.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/research-in-the-loop/"
+    },
+    "https://www.nngroup.com/articles/journey-mapping-101/": {
+      "checkedAt": "2026-11-14T06:08:58.774437+00:00",
+      "description": "A journey map is a visualization of the process that a person goes through in order to accomplish a goal.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/JourneyMapping101_Social-Media-Posts_2021-27.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/journey-mapping-101/"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm": {
+      "checkedAt": "2026-11-14T06:08:58.774437+00:00",
+      "description": "The Federal Deposit Insurance Corporation, the Federal Reserve Board, the National Credit Union Administration, and the Office of the Comptroller of the Curren",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm"
+    },
+    "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place": {
+      "checkedAt": "2026-11-14T06:08:58.774437+00:00",
+      "description": "A Blog post by NVIDIA on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+    },
+    "https://openai.com/business/customer-stories/shield": {
+      "checkedAt": "2026-11-14T06:08:58.774437+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
