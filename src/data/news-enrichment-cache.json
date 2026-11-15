@@ -4079,7 +4079,9 @@
     "6fff5dd5574cad9de3773d69dce174359daeaf45b5f6f77230f65572c3c8f2d2": "[释放][试验]给予#67296热门试验跑车num_speculat...",
     "93ef33a64c90b88c0d8e648e18ecaae0fc9fb89b207cc57a825f95515270ef3d": "仔细看一眼日常的浴室缺陷 就会毁了你的日常生活我停下来,离开浴室。发生了奇怪的事情,但是什么?有个女人坐在轮椅上 洗完手了她似乎卡住了,她不停地伸手伸手,我鼓起勇气去问, 意识到她一定认为我是最尴尬的人,“我想”她走得更远了一点,“我可以得到。”",
     "7091007f934cf5e2d6e82e6e0de38e1219d61af8fa9e4ef25c0be52865e342cd": "QQ社区智慧:当你成为你的AI代理的瓶颈时,PMs的PULL框架,产品增长对.增长营销,提高反馈率,等等",
-    "7735c5580a1e31f34ad625ce5f5d5e581ca618c33c4b7d1d5bc60a744cc57e81": "社区智慧305"
+    "7735c5580a1e31f34ad625ce5f5d5e581ca618c33c4b7d1d5bc60a744cc57e81": "社区智慧305",
+    "676a698273432c86ef8a87c6b36ddec1fc47ef8ebfaa91755758ef38c752e9bb": "Meta的Muse:我们如何推出今年最成功的消费产品?",
+    "1c0d0504e03a2dd4fcc3c9c329f7183f58c509f3d35c540f74ccf80e491a2416": "听好,莫娜・萨兰塔科斯从一个周末和OpenClaw一起 运输有史以来增长最快的 AI 消费产品"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -21332,6 +21334,41 @@
       "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://w2solo.com/topics/8707"
+    },
+    "https://www.toodaylab.com/84292": {
+      "checkedAt": "2026-11-15T14:16:15.828293+00:00",
+      "description": "理想生活实验室是一家关注创意设计与生活消费的媒体。我们致力于：以国际的视野去关注品质生活发展的驱动力；把品牌、设计师与普通人群真正联结起来。",
+      "image": "https://files.toodaylab.com/head/36wsy_1400416406.250x250.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.toodaylab.com/84292"
+    },
+    "https://www.ithome.com/1/027/453.htm": {
+      "checkedAt": "2026-11-15T14:16:15.828293+00:00",
+      "description": "韩国第 63 届税务师考试第一名考生承认使用微型摄像头拍摄题目、借助 AI 获取答案，当局决定取消其成绩并禁考五年，同时将对今年所有国家资格考试展开 AI 作弊排查，并计划年内出台引入红外线探测器等防作弊综合措施。#AI作弊# #韩国国家资格考试#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/027/453.htm"
+    },
+    "https://www.ithome.com/1/027/423.htm": {
+      "checkedAt": "2026-11-15T14:16:15.828293+00:00",
+      "description": "谷歌宣布，随着人工智能辅助漏洞挖掘与利用技术的兴起，当前形势已发生根本性变化，现有披露政策所设定的修复周期已难以适应需求。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/027/423.htm"
+    },
+    "https://www.ithome.com/1/027/395.htm": {
+      "checkedAt": "2026-11-15T14:16:15.828293+00:00",
+      "description": "嫌疑人控制数十个漫画爱好者群，以 5-20 元 / 份售卖 AI 生成的国漫色情图片，还推出投票、众筹、定制玩法牟利，一年多售图 13 万余张获利 16 万余元，最终均被判刑并适用缓刑。#AI涉黄获刑#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/027/395.htm"
+    },
+    "https://www.ithome.com/1/027/357.htm": {
+      "checkedAt": "2026-11-15T14:16:15.828293+00:00",
+      "description": "韩国税务师第一名考生因 160 道题仅错 1 题的异常成绩被质疑，随后自首承认用微型摄像头拍摄考题传输给生成式 AI 作弊，青瓦台将召开会议商讨应对措施，#韩国AI作弊事件#正值韩国高考前引发对考试公平的担忧。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/027/357.htm"
     }
   }
 }
