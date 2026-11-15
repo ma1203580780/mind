@@ -4081,7 +4081,22 @@
     "7091007f934cf5e2d6e82e6e0de38e1219d61af8fa9e4ef25c0be52865e342cd": "QQ社区智慧:当你成为你的AI代理的瓶颈时,PMs的PULL框架,产品增长对.增长营销,提高反馈率,等等",
     "7735c5580a1e31f34ad625ce5f5d5e581ca618c33c4b7d1d5bc60a744cc57e81": "社区智慧305",
     "676a698273432c86ef8a87c6b36ddec1fc47ef8ebfaa91755758ef38c752e9bb": "Meta的Muse:我们如何推出今年最成功的消费产品?",
-    "1c0d0504e03a2dd4fcc3c9c329f7183f58c509f3d35c540f74ccf80e491a2416": "听好,莫娜・萨兰塔科斯从一个周末和OpenClaw一起 运输有史以来增长最快的 AI 消费产品"
+    "1c0d0504e03a2dd4fcc3c9c329f7183f58c509f3d35c540f74ccf80e491a2416": "听好,莫娜・萨兰塔科斯从一个周末和OpenClaw一起 运输有史以来增长最快的 AI 消费产品",
+    "f8569240ceebd1f39253ea0eb65fd6ae2a8f4c4a0b2ca41c3c006480be203710": "(原始内容存档于2017-09-29). Langchain-Mistralai = 1.2.0",
+    "f4c603017713d5d2a21c079497d66feaf3287779e8cbb8aa4b4c4c0d0eac2db9": "langchain-mistralai = 1.1.6 fix(mistralai):为推理模型固定流线行为 (#41887) fix(groq,mistralai,xai):凸起的deps(#41884)chore(型号简介):刷新型号简介数据 (#41861)发布(mistralai):1.2.0(#41859) feat(mistralai):通过LangSmith网关(#41840)chore(型号简介):刷新型号简介数据 (#41828) feat(伙伴):从伙伴包中删除EOL'd Python 3.10(#41268) Chore(型):补新型-pyon安全锁(#41585)chore(型号简介):刷新模型剖面图数据 (# 41573)",
+    "f28ca606b7b3c0ae631962c008fc985d5f4c6d224892d04a58201751ef14eade": "界定标准模式的一步骤",
+    "47764ffdba98933f393504766ff6c62c724d5175ece731eb3eabc5aa517c76c8": "探索标准模型的候选非扰动纹章定义,以及GPT-6 Astra如何帮助将该想法转化为详细证明.",
+    "baf542422f5cb1b4abd5fb01229c1f905b8b3be3fb0cbacf58aa92d8c253f2bc": "闪光数据",
+    "118e706bc0d867cc3d56e3ff6151e5ad4dd7644548abab6b8ed9caee151b07f8": "(原始内容存档于2019-03-02). Langchain-groq = 1.2.0.",
+    "816cfaa8cf0aff75e19bfe22696ba9cf5caf5515905c9b1ca69707699911fb20": "langchain-groq = 1.1.3 fix(groq):在集成测试中指定推理_effort(#41886) 固定(groq,mistralai,xai):凸起deps(#41884) 发布(groq):1.2.0(#41856) feat(groq):途径ChatGroq通过LangSmith网关(#41837) feat(合作伙伴):从伙伴包中移除EOL'd Python 3.10(#41268) chore(模型简介):刷新模型配置数据(#41432) chore(以下):放松第三方依赖性上限(#41407)chore(模型简介):刷新模型配置数据(#41354)chore(dps):2025.8.3至2026.10.19 in /libs/partners/groq (# 41386) 固定",
+    "88a2af36c7318b17033db4d6564048321cec906b5dc1c3c9aae2df301608ed95": "我们的新科学博客",
+    "748dc52de86fb44b84a9b03b5c2acae0af7d2ec1a1d222dbf85ba1dcdea8be1e": "OpenAI科学博客分享了新发现,实用方法,以及研究人员利用AI推进科学发现的第一手资料.",
+    "bd35d3673c0be0dd81bbca8e3fad8daeb5e2357be9ea77fc111745e98381ae6e": "朗链-xai==1.",
+    "15989a12b1f383277fe29b1e61bb118f67fc226b1b4e57873c61007e3c39dc52": "自 Langchain-xai == 1.3.0 fix(groq,mistralai,xai): hump deps(#41884)发布(xai): 1.4.0(#41857) feat(xai): ChatXAI途径 LangSmith网关(#41838) feat(合作伙伴):从伙伴包(#41268)中移除EOL'd Python 3.10(模式-简介):刷新模型剖面数据(#41651) Chore(以下):放松第三方依赖性上限(#41407)chore(deps): hum aiohttp从3.14.4到3.14.5,在/libs/partners/xai(#41374):chore(deps): certififi从2025.8.3到2026.10.19在/libs/partners/xai(#41371)chore(deps):在/libs中从3.14.3到3.14.4",
+    "045eb5522420fb11d033081d94dd15340172803da21737ebdf08de1c2494b744": "(原始内容存档于2019-03-03). Langchain-deepseek = 1.2.0",
+    "ef00076980676816fe358f66e46e0a2d12df58af5a534b6c74710221185e39aa": "自 Langchain-deepseek = 1.1.1 发布(deepseek): 1.2.0 (#41858) feat(deepseek): 途径 LangSmith网关的 ChatDeepseek (#41839) feat(合作伙伴):从伙伴包中删除 EOL'd Python 3.10 (#41268) Chore(以下): 放松第三方依赖性上限(#41407)chore(ps): 2025.8.3至2026.10.19在/libs/partners/deepseek (#41389)中: 更新模型配置数据(#41325)chore(模式配置): 更新模型配置数据(#41283) 固定部分依赖性伙伴包 (# 41266) chore( adps): ump urlib3从 2.7. 0到",
+    "6039f2940dc2e5b53f4bcc503e4304c60d8ebd101844ce74905b7af02fd29f81": "长链-核心=1.8.1",
+    "411312d5c0f0622fdad11b90683327ddac56eb199361a1c6b4829c71f2800c57": "langchain-core ==1.8.0 发布(核心): 1.8.1 (#41855) chore(deps):在/libs/core(#41850) feat(core):通过langsmith_gateway(#41836)的context LangSmith网关覆盖(context):在/libs/core(#41833)中,shumtomsieve从2.9到4.0."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -21369,6 +21384,70 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/027/357.htm"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0"
+    },
+    "https://openai.com/index/step-toward-defining-the-standard-model": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://w2solo.com/topics/8723": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8723"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0"
+    },
+    "https://openai.com/index/our-new-blog-for-science": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://w2solo.com/topics/8722": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8722"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-15/": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "description": "HiringNow：AI职位代理人，可以在其他人之前找到并申请工作。；Businesses in ChatGPT：通过ChatGPT帮助客户发现您的业务；Dex Semantics：让你的代理在分析中减少25%的错误。；Gemini Robotics 2.5：双子机器人2.5：谷歌最强大的机器人模型；Blender 5.3：3D高斯点云，现在已成为Blender原生功能。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-15/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-15/"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1": {
+      "checkedAt": "2026-11-15T23:56:41.621505+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1"
     }
   }
 }
