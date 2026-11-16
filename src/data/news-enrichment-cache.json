@@ -4096,7 +4096,68 @@
     "045eb5522420fb11d033081d94dd15340172803da21737ebdf08de1c2494b744": "(原始内容存档于2019-03-03). Langchain-deepseek = 1.2.0",
     "ef00076980676816fe358f66e46e0a2d12df58af5a534b6c74710221185e39aa": "自 Langchain-deepseek = 1.1.1 发布(deepseek): 1.2.0 (#41858) feat(deepseek): 途径 LangSmith网关的 ChatDeepseek (#41839) feat(合作伙伴):从伙伴包中删除 EOL'd Python 3.10 (#41268) Chore(以下): 放松第三方依赖性上限(#41407)chore(ps): 2025.8.3至2026.10.19在/libs/partners/deepseek (#41389)中: 更新模型配置数据(#41325)chore(模式配置): 更新模型配置数据(#41283) 固定部分依赖性伙伴包 (# 41266) chore( adps): ump urlib3从 2.7. 0到",
     "6039f2940dc2e5b53f4bcc503e4304c60d8ebd101844ce74905b7af02fd29f81": "长链-核心=1.8.1",
-    "411312d5c0f0622fdad11b90683327ddac56eb199361a1c6b4829c71f2800c57": "langchain-core ==1.8.0 发布(核心): 1.8.1 (#41855) chore(deps):在/libs/core(#41850) feat(core):通过langsmith_gateway(#41836)的context LangSmith网关覆盖(context):在/libs/core(#41833)中,shumtomsieve从2.9到4.0."
+    "411312d5c0f0622fdad11b90683327ddac56eb199361a1c6b4829c71f2800c57": "langchain-core ==1.8.0 发布(核心): 1.8.1 (#41855) chore(deps):在/libs/core(#41850) feat(core):通过langsmith_gateway(#41836)的context LangSmith网关覆盖(context):在/libs/core(#41833)中,shumtomsieve从2.9到4.0.",
+    "7e801bad93060b15135bc55086e6f7215bf308955aaf1e816b427984b555dd4c": "重量奔驰:评价语言模型为重量空间程序员",
+    "8e6dab3d8cb75317ee99b83f411a14e26156678db9e0b73ba822e57c35b129bc": "最近的工作表明,大型语言模型(LLMS)可以直接运行在其他神经网络的参数上.他们可以读取一个网络被训练做的工作, 修补一个失败的网络,从零开始写工作网络, 这一切都没有梯度下降。这种能力被称为加权空间编程。系统地探索这一新的模式需要一个强有力的基准。我们引入了WEIGHTBENCH,这个基准评价42个WSP任务能力增强的LLMs,跨越5个轨道:读、修和写权重,识别不可能的编辑,以及 Dat",
+    "3b090693df7644be2f76b47bdec9255603f663ed9d4f57b65051a6f413a055f8": "仿制助推多代理强化学习",
+    "ca5018c49b2ce629cb0687a5420b7c9d0897e61cf4162b856641162baaa58ce4": "示范是加速单代理强化学习(RL)的有效方法,但将这一想法推广到多代理强化学习(MARL)是非三角性的,因为单人很难,而且往往不可能同时操作多个代理.圆-罗宾行为克隆(R2BC)通过让单一的演示人一次控制一个代理来解决这个问题,而其他代理则执行他们当前的政策.然而,由此产生的模仿政策受到示威质量的限制。我们提议模仿脚步多代理强化利尔",
+    "9c1f01376009a198e20c9d73427492e539c0adb63ea628dda7773e12d089edb5": "估计合理失明选择模式:半参数方法",
+    "21a5528df45ca99250bcfd776f0ea39f8f70228ced6e9bf804e0fce213320045": "人们的选择既取决于现有选择的回报,也取决于他们在决定这些回报之前学到了什么.本文说明了选择数据如何在合理不注意的离散选择模型中确定未观察到的不均匀性和信息获取成本。我为使用外部补偿和信息成本转换器进行半参数点识别规定了条件,但没有对品味震荡分布或信息单位成本如何随观察到的特性而变化规定参数表。在有二进制选择的模型中我构建了一个",
+    "077f75e0c39b368132ea1cf5fde2296f184cd4ef30f12e30f33c19e0b9ceab49": "椭圆采样:高斯人及以外地区最佳国际化计划",
+    "b0a06f77b4e9a0d72cf2d8499af414f9ab2aa5edd0513554204f788939999fc7": "基于线粒体插图的基因模型需要具体说明两个关键选择:连接初始和目标分布的插图时间表,以及由此产生的概率流ODE的有效磁盘化.在这个作品中,我们引入了一个新的基于(复杂)ODE轨迹的分析特性的联合调度/分解设计框架,这反过来又确保了良好的数值行为.我们的配方可以完全通过符合度的映射来解决 产生一个自然的家族 差异保留椭圆表,由雅各比椭圆",
+    "d5856969c9408195af1f62cc74bb863e6f4a5f13a3900f54069c6750ccb8185a": "空间投票运动会中的权利被剥夺",
+    "528f50d4657fea923214f839495713c768bce012d82973a0405feb7660341988": "表决权、集团成员资格和可接受的言论的界限问题都涉及递归性、自我稳定的问题,其中选民、集团成员和可接受的评论者往往是他们自己关于包容和排斥的规则的最终仲裁者。为了了解意识形态或问题多样性会如何影响这种包容和排斥的稳定性,我们实行选举权选举,在选举中,一个团体的投票成员投票改变选民。特别是当代理人处于意识形态或问题空间时,社会选择职能",
+    "9735e0efb2f5e9065d9c1e830f88cbe01c932d923e5fe30c9662596331fd4c77": "页:1",
+    "451fa6040e83192f22c558a5a7bfc7f2967bc0233b3e475f0ce7c72a2122efb1": "ModHarness-RL:将哈内斯重塑为可学习和不断演变的代理RL程序",
+    "56aff35713c788003c7649e6763234950c5060c8fe532064aa22a3c43337570f": "代理强化学习(RL)越来越依赖于一种牵引力,即围绕模型的脚手架,来决定它对自己互动的看法以及它得到什么指导.大多数现有方法都用手写绳子进行训练,始终固定。然而,有效的牵引取决于域,数据和模型,并且作为模型列车不断改变.我们引入了ModHarness-RL,它将牵引装置重塑为从数据中吸取教训的程序,并演化为带有RL的模型列车.ModHarness-RL 将交互记录为结构化状态,一组键入的块,",
+    "4155f812d78f8dffd90dab6a3e095cbdf181c467a46e80932683dbaace48bb28": "在异质部分干扰下设定目标",
+    "482e4cd16ff700a3b40ed19edb9731ca037bc8268574844dbb159526218d78b5": "在各种干扰下,对具有特殊特征的个人的处理,通过对治疗的不同直接反应和对他人的间接影响,影响到人口的平均结果,为有效的政策设计创造了机会。例如,决策者可以通过对被确定为超级传播者的个人进行疫苗接种,最大限度地减少资源使用,以实现降低发病率的目标。在这样的背景下,我们首先研究学习个性化的有条理的治疗政策的问题,这些政策将人口的平均治疗概率降低到一定的水平。",
+    "be7c4ae07e133cb6c28bf06c281c3108cf76ac32cf9a653149d5b52e9cde8a5c": "社会化调整:选择学习取舍",
+    "c559b1efb669acc0c5deae54fff11711c65e2401b45891375d1f735073ab2cbe": "人工智能(AI)特工预计在遵循行为准则的同时完成任务,但这些目标可能会发生冲突.我们研究进化选择如何在它们之间塑造一个代理人的选择,以及经验是否能够使这些选择反映人类的判断并承受随后的压力.在我们的模型中,一个特工的复制品面临一个共同的不确定的奖励状态,只有那些采取奖励行动的人才会复制.我们表明,如果采取每项行动的次数与环境一样多,长期增长就会最大化。我们比较了三种政策。仅限任务的政策",
+    "ee7e466b5a4480cddc2e5e9fde3164432b711c6b7a2e90c2974ee9010203a574": "通过现场影响估计得出可比实验结果",
+    "531cb418f5744c5bf06ac9fee33c6a62bfa1751517ad803cdc131eb4573f07b6": "Roblox横跨许多产品表面发现、虚拟经济、创造工具,这些工具的覆盖范围和受影响人口为任何全站性指标的贡献程度大不相同。一个随机化的实验显示一种处理方法是否对样品中的用户有效,但这种实验升力在表面之间并不具有可比性,因为表面的伸展范围和它们对全站测量的贡献各不相同.战略决策需要的数量是一个反事实,如果治疗达到目标Po的100%,那么整个网站的总的衡量尺度(如平台播放时间总数)会移动多少?",
+    "55be1fa4bc4f00cf58e65369adae58adb1118990036249f52a0f18538c2fe2e5": "WaferTetris:瓦费尔比例加速器上的高效自由形式绘图",
+    "84b3c080a5957993b1df369f60b1df72658e49d039285cb0bdc44f324f881fd1": "蒸发器规模的加速器通过几十万个连接在单片瓦片上的处理元件(PE)提供了大量的计算能力,但要实现这一潜力,需要高效的应用绘图.其规模使这些系统的编程和绘图应用具有挑战性。现有方法依靠基于模板的绘图来维持生产力,但这些模板限制了绘图设计空间.特别是,它们将固定的几何布局强加于PE网格之上,往往留下计算和内存资源利用不足.在这项工作中,我们介绍W",
+    "b0dc735eb6a7a3b975baeb585d3aa4e34ee375cf041b2e05d8bcfadc65534753": "具有消费偏好的Sraffian经济中的剥削、阶级收入和福利",
+    "a0fc2bdcf438e9d461baf7f66ddb39c7ce2a74b9e815642d9ffb5e5a7427189e": "本文发展了简单再生产(Sraffian)模式,在这种模式中,生产价格和功能收入分配仍按传统确定,而类消费则按这些价格和收入的最佳选择。然后,它表明,一旦工人和资本家根据特定阶级的偏好选择消费捆绑,而不是消费固定的篮子,剩余价值,剥削率,利润总额,以及资本家福利,就不需要与利润率单调上升.该框架界定了分配式恩格尔曲线,追踪消费、利润、劳动力剥削的方式。",
+    "184e3cebac5bd083d944eb57d6b035cd0df730c09c6897dc1539d0ed85ff2661": "机械解析性能帮助解释LLM代理失败吗?.关于网络元素幻觉的案例研究",
+    "516a057a029eba69745ee3935a8dee12478fac6b740dab7803d33816ff20d8ea": "机械解释(MI)在解释大语言模型(LLMs)的内部计算方面取得了显著进展;然而,这些进展在解释基于LLM的代理商的决策过程方面尚未显示出类似的成功.本文件审查了管理工具在适用于现实的代理故障时所面临的挑战。我们的焦点是这种失败:网络代理人对网站无法提供的行动产生幻觉。我们在Quen2.5-7B-Instruct上应用了一系列的机械分析,因为它与现场网站互动.我们发现一个线性探测器训练",
+    "a6752f151d7b6b7fc437ed8817742f971442d79a281aedd7ccdb845eacda3287": "安全操纵只限最高的投票规则",
+    "db9796c0f68a2a9b42e0d66f530576999923d49543c0606b1ee659ccf4065187": "我们研究所有偏好领域只选最高的投票规则,其中有一个独特的顶级,专注于避免风险的选民操纵.哈特曼等人(2025年)之后,我们测量了对RAT级操纵的抵制:选民需要观察的其他选民报告的最低数量,以便“安全”操纵成为可能。鉴于所观察到的报告,这种操纵在每一次完成未观察报告的情况下,都难以改进真实的报告,在至少一次完成的情况下,也严格改进了报告。对于任何一组至少三个替代品,我们显示",
+    "5c8a32b4ea73e0be5d9751222a34ad915eba8cea9c66060f4c91c9141f49a662": "MeReader: 离线, 隐私保存, 进步- 预告 AI 辅助描述 eBook 阅读",
+    "59a76d7f25cf27b8abc6cc7119978d0f49847c82c98368f956ae0518a828e378": "本文介绍MeReader,他是一位保护隐私,离线和进步意识的AI助手,旨在作为消费者硬件上叙事阅读的背景伴奏.与常规的基于大语言模型(LLM)的系统不同,这些系统以全文本一触即发的方式在线处理文档/书籍,从而冒着叙事破坏者的风险,MeReader将检索和生成都局限于读者在文本中的独特位置.该系统整合了混合检索架构,结合了矢量相似性,BM25,以及摘要嵌入,以确保对读数的高忠诚度",
+    "0cc4e0bba3491ad3718fc52c41885d09f0f67775978e3201abd2092fe3c74a98": "高维度矢量自动递减中断裂的适应性岭",
+    "cd3a34b748e6238267ba4fee3446c4958e8540e4fafd75098dbfc8ac560e5d2e": "我们利用断裂适应岭(BAR)估计器,研究在物理依赖下高维向量自旋回移和行形近似伸缩的常规估计。BAR是一种迭代重置的Ridge程序,其固定点一阶条件意味着一个坐标阈值规则,产生精确的零.我们显示,BAR估算错误可以分析超过BAR阈值的人口支持的结合和样本中选择的支持.这种工会的规模可以控制在大致的垃圾场所隐含的速率上,从而使我们能够",
+    "cfeded9a836344e663784f163dc1a59e28d0739d3e49371a1166e2464ee26b43": "从Sarcoma案例报告摘要中提取共同数据要素和信息",
+    "3ece6e90a5921356d5c0b40223260c3036caa6158ec9d28e0cce56a61ef7ae51": "常见数据元素(CDEs)支持临床数据可比性,但通常由人工定义.我们调查了大型语言模型代理商是否能够从sarcoma案例报告摘要中得出CDE schema,并大规模应用.一名代理人从24,588份PubMed摘要中推荐了72,909个候选CDE;代理合并产生了1,570个CDE.我们保留了53条证据 至少有50条摘要 并试图从整个调查中提取证据在79.2%的摘要中,包括表明未提及的答复中,所有保留CDE的处理成功。两名审查员获批83.0%",
+    "0c1839edd3b69771bb1775073d39ee06e488428a84f27860ddfef4564f7e8180": "正面重量不认证 TWFE 推论:治疗效果不均匀的设计诊断",
+    "1543de33bf290d49074262594c9a8a08df515d750a6975cd4363592dbbb5b99b": "常规双向固定效应(TWFE)的推论即使所有治疗重量均为阳性,也不一定都足够。在局部治疗效果的漂移下,同等加权治疗细胞效应的统计值有最坏的中间位移 $(c/q)\\Gamma$,其中$\\Gamma=\\sqrt{N_1}\\|w-u\\|_2$是只设计,$q$是集群积分噪声尺度.投影与接触组群、事件时间、添加剂和饱和的组群时间飞行员相匹配;当在经过处理的组群时间细胞中残留处理不变时, $\\Gamma_{\\mathrm{gt}}=\\Gamma$。直接评分是可行的wi",
+    "7ab8704bd8deb072ea2ffb710bdbb87c224e43b53465b6ab778f7104e6c26782": "发现错误- 容忍量子电路代理AI",
+    "09ab107be37fe903729af8e76901f921d5c38de3411d139356de1dda51b56772": "放大量子计算向实用量子优势的方向发展,目前受到以量子错误校正码编码的信息运行的电路效率的限制.量子计算的全部堆积包含几个任务:编写逻辑代码状态,执行逻辑门,编码的qubits上的逻辑常规等.然而,这些电路主要是为个别情况手工设计的,最近的一些工作包括某些方面的机器学习。我们把这个问题发展成 代理进化程序合成,其中有一个大语言模式",
+    "654b839e8726cd24d58e98f75de95117833dfd33711c4135b07a3a50a87b2ee1": "内源性 Parcel 单中心城市的租金和租金决定权",
+    "e8817c61b9712017aa82ea5daa14f2fb86f6e501606ecd81f25b0a5602d47596": "我们研究的是一个单一的中心城市,家庭数量有限,每个家庭都可能拥有任何可测量的土地,并需要依靠其拥有的空间分布来支付通勤费用。在平衡中,每个包裹都是一个间隔,包裹由中央向外的批量大小订购.在任何地点调整土地拥有量的自由,将支持租金限制在竞价租金与分配家庭竞价租金之间的一个范围。这个范围不包括在限定间隔时支持相同分配的租金,包括由Berliant和Berliant建造的租金。",
+    "f9dde563d38d06b9c66f9658b621f4866a23e33efb11fe1bdb6973a5daeaffaf": "ARCHER:在小语言模型中从理由模仿到可执行的理由",
+    "078300ae4f66f499049abff917869f348a7635484f0a616d1580a788e88ae150": "小语言模型对局部,低成本,对隐私敏感的部署具有吸引力,但它们对于需要分解,精确计算,工具使用,以及验证的数学推理任务仍然不可靠.我们引入\\textbf{ ARCHER} :\\textbf{ A} 运算- trace\\textbf{ R} 执行\\textbf{ C} 计算器 - 计算器 - 计算器 \\textbf{ H} ierarchical\\textbf{ E} xecutable\\\\textbf{ R} ,一个培训小语言模型(SLMS) 的双阶段框架, 以生成可执行和可审计的推理轨迹 。在第一阶段,ARCHER将自由形式的思维链原理汇编为t",
+    "f83f7a203ac5bbd98e3b2d771b8585ad21e2d3c6e0dd6f2d4055cffaf159d4bf": "菜单设计满足市场设计:战略简约对.选择的复杂性",
+    "49846a7eb45392e0cf99e46d4a4cc3c3b6639bc3d8a0c7ae79c72956b757c647": "战略简单消除了错误报告偏好的积极性,但并不能确保参与者能够确定自己喜欢什么.我们在关于连环独裁的实验室实验中研究了这种区别,在这个实验中,最优化的演奏只需要选择自己最喜爱的一组真正的任务.参与者在捆绑中作出15项奖励性选择,这些选择在结合多少任务方面各不相同。他们要么从大菜单中选择,要么通过一系列二进制选择.在作出所有选择之后,他们意外地根据先前被拒绝的替代办法重新考虑每一项转让。我们",
+    "733c93a60f0799a4074160d69425b72faaee155a725e57948e809f77b7e5e0bd": "TradeGauntlet:评估自主贸易代理商的合规管制",
+    "05027ae545b8d09cafa3e3668784f55fe043a3eedd6ac73e150da7096943aee5": "自主贸易代理商需要控制,防止出现问题订单,而不使合法任务不切实际。我们研究了代理遵守TradeGauntlet的这一方面,这是一种可重复的有限订单-书模拟器,它将检测、预防和执行成本分开。在1,680年与克劳德·海库·5.5和索内·5.5的模拟会话中,所有行为警报都是自制的.盖茨通过拒绝自转命令来消除这些警报,而总门条件则将索内特的双面填充减少约15%.动作提醒降低了索内特的警戒率但降低了海库的填充率",
+    "9514da251ef25477719754c8432908df941abb22769a03030a0c1e1675be25a6": "真正的妥协和保险",
+    "b8a0f5e8cb13a7f4a579598564ed2c9e8c10cfa2ef7fd96697ac4e63d6f7b786": "在行动强度确定的情况下,没有转让的公共选择能否确保利益冲突?我们需要真实地报告对符合私人理想的每一次日益深入的评估。在一个领域,在最多三个理想方向的剖面效率迫使固定重量的随机独裁;在两个和三个方面,较弱的测试就足够了。从四个方面来看,二进制效率使委员会能够通过将结果风险正统地放在其报告中来为成员提供保险。我们找出所有机制共同的限制 具有这些激励和二进制效率:二进制 wi",
+    "688735dcd281ac1b83dc5f7ed7ab64cde23721fd666de5c9f689432f4ce3cc3b": "与语言模型前导交互程序介绍",
+    "7df2200568ef3cae456a6244edf0dea8add2975696226c18eb78760441a5bc55": "方案上岗介绍是指学习者从少数特定输入输出实例中恢复一个程序的过程.这个范式通过让用户展示他们想要应用到隐形数据的基于规则的行为来拓宽编程访问,而不是自己执行.然而,从有限的投入-产出实例中恢复一个程序从根本上是模糊不清的,因为有限的一组投入-产出实例在理论上与许多程序是一致的,因为其产出在无形投入上存在差异。我们从巴耶斯人的角度看待这个问题。",
+    "a78c9d0b0f5924d6451fdfd6b42f645c6282b13fddda97e1cbddd1bbe61ee8b4": "消费-预算设置中的随机工具模型:Vertex和Network-Flow字符化",
+    "217207ad1b4a50d0c96adc4ef9527e60e2112a0f73889bb5d0c8d5b2bdb33d37": "本说明补充了我们的文件\\textit{用于测试Discrete-Choice Random Utity Models: 半空间和网络-Flow Productions}的备选计算公式,并有两个目的: 1.我们澄清两类随机效用模型(RUM)的概念区别:消费-预算设置\\citep{kitamura2019非参数式}(以下简称KS)和有限-备选设置(如\\cite{chambers2016revealed}第~7章)。特别是,我们显示(定理1),KS中定义的每一种理性类型都可以作为坐标投影Th获得.",
+    "2ee7efe93b64025bb030a42c205cb10f1cda1dbccf084ccfe9a46b97e08b90ab": "从AI-Enabled远程病人监测转向代理机器人:安葬、治理和护理一体化",
+    "f0ba0b12bbd5524ca7437ef33e6c4950a9acfd1092ecfa5b91aca13b725431f0": "AI驱动的远程患者监测正在从被动的数据收集向解释患者状态、协调护理和在家庭和临床环境中采取行动的代理AI系统发展。这种结构化的范围界定审查发现,成熟的药剂护理尚未出现:大多数系统仍然是人类主导的,而更强大的决策-行动结合和体现的AI仍然在很大程度上局限于原型和飞行员.保健机器人通过将AI产生的建议和决定转化为言论、运动,使从监测向行动的过渡尤为明显。",
+    "85b75376a35562cad875032e626410fc9fc9cddd8b18d0a2d2b8578e08bc9e0d": "对可能指定错误的GMM的正弦分数和双偏差机器学习",
+    "169ce988f713ed9a7cbcf60b739dadba4e60c16b00f8fc193612f8c9fbefc593": "我们为GMM模型开发Neyman的正交分数,当条件可能无法维持时,这些分数仍然有效.现有的分数构造通常需要瞬间条件精确地维持,这在超标模型中可能失败,即瞬间函数数超过参数数.我们构造\\emph{mispectification-robust}正交分数是封闭式的;这是常规正交分数加调整条件,用于估计雅各比和加权矩阵,它们与人口瞬间成比例,在正确的sp下消失",
+    "798f4834f5446b4894e13ee3d049c372f5121e15f816a7a59d6c7e767c279755": "验证人的判决能活下来吗?计量LLM代理评估的核查运输",
+    "553dbc82b0615f260b1a9c6dd3674b7c145ca21f0cffd92f395c1197052019a7": "基于LLM的核查员越来越多地用来评价代理人处决,但其可靠性通常通过单一的轨迹表示来衡量。在部署的代理系统中,同一执行可能通过由人员组成的工具、授权界限或简洁的历史而暴露,从而改变哪些执行证据可直接被核查人观察到。因此,目前还不清楚是否在这种抽象的界限内继续存在正确的核实判决。我们提出核查运输,这是在抽象引起的变化下衡量判断稳定性的可靠性测试",
+    "8e88781c172a9259c22a17ee4f6fd460ada1aedcbddb652324ed8efc0222f75f": "AI和工作的两个边际:为什么在创造就业之前就出现了工作损失",
+    "e9eb908e5a364724629829f486b1c9fe1cef2ae991b1b6a884b972f5ef420818": "技术变革在两个边际上对劳动力需求产生影响:在既定活动范围内进行调整和创造额外活动,往往是由新公司。薪金统计记录为第一次及时,第二次迟到。在计算时代,1978年进入或后来进入的公司到1998年持有42%的工资,进入组群在五年后保留了大约80%的工资;在最容易进行自动化的行业中,任职者在进入者累积之前就签订合同,这一序列在该时期的早期是准确的,并在结束时显示出来。我们开发了一个模式,其中",
+    "43d924bac1687695803b6ff681235f8647b57a3809b2fdc2bc3368e0c4c98aa0": "打字问题:SEMG的现场键盘解码中的肌肉、语言和打字行为",
+    "8ed8771645ebc58a1329d1fb2f297be3858842212f8d6961f28a68c8c592c3a6": "手腕的表面电学(sEMG)可以在没有键盘的情况下恢复打出的文字.它通常被作为信号推导问题提出:字符从肌肉信号中读出,字符误差率报告为离线.我们认为,这种框架消除了大部分问题。解码器同时受到肌肉,语言被键入的制约,以及打字行为如打字,校正,后空位和断线等的制约,一个可用的系统必须在手不停动时预测键的活性.现有系统有两点不足:(1)它们处理固定的SEMG"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -21448,6 +21509,236 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1"
+    },
+    "https://arxiv.org/abs/2611.18553": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18553v1/weightbench_architecture.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18553"
+    },
+    "https://arxiv.org/abs/2611.18543": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18543v1/fig_pipeline.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18543"
+    },
+    "https://arxiv.org/abs/2611.18479": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2611.18542": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://www.v2ex.com/t/1257334": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "独立开发者 👨‍💻 - @JoeJoeJoe - - 我目前的老业务开发还是古法+AI 协助, 新业务已经切到了 super agent 模式, 只不过没有使用 hub, 而是用的[multica](https://github.com/multic",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1257334"
+    },
+    "https://arxiv.org/abs/2611.18468": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18468v1/Figures/3D5CycleNew.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18468"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.34.0": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.34.0 · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0"
+    },
+    "https://arxiv.org/abs/2611.18533": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.18533"
+    },
+    "https://arxiv.org/abs/2611.18444": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.18444"
+    },
+    "https://arxiv.org/abs/2611.18531": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18531v1/fig1_stakes_plane.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18531"
+    },
+    "https://arxiv.org/abs/2611.18411": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.18527": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18527v1/invalid.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18527"
+    },
+    "https://arxiv.org/abs/2611.18345": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.18345"
+    },
+    "https://arxiv.org/abs/2611.18514": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18514",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18514"
+    },
+    "https://arxiv.org/abs/2611.18282": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.18282"
+    },
+    "https://arxiv.org/abs/2611.18513": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18513v1/images/hla_v2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18513"
+    },
+    "https://arxiv.org/abs/2611.18227": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18227v1/Plots/geom.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18227"
+    },
+    "https://arxiv.org/abs/2611.18506": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18506v1/figures/Figure.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18506"
+    },
+    "https://arxiv.org/abs/2611.18116": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.18116"
+    },
+    "https://arxiv.org/abs/2611.18504": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18504v1/llm_circ.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18504"
+    },
+    "https://arxiv.org/abs/2611.18054": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18054v1/figures/theta_one_lemma7_price.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18054"
+    },
+    "https://arxiv.org/abs/2611.18494": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18494v1/trace_higra_architecture3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18494"
+    },
+    "https://arxiv.org/abs/2611.17984": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.17984"
+    },
+    "https://arxiv.org/abs/2611.18493": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18493v1/cap_response.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18493"
+    },
+    "https://arxiv.org/abs/2611.17701": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.17701"
+    },
+    "https://arxiv.org/abs/2611.18485": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.18485"
+    },
+    "https://arxiv.org/abs/2611.17692": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.18484": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.17578": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.17578"
+    },
+    "https://arxiv.org/abs/2611.18471": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18471v1/vt-method.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18471"
+    },
+    "https://arxiv.org/abs/2611.17530": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.17530"
+    },
+    "https://arxiv.org/abs/2611.18464": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.18464v1/teaser.drawio.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.18464"
+    },
+    "https://www.ithome.com/1/027/607.htm": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "中国与东盟宣布将 2027 年定为人工智能合作年。中国－东盟自贸区 3.0 版升级议定书将于 2026 年 12 月 1 日生效。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/027/607.htm"
+    },
+    "https://www.ithome.com/1/027/602.htm": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "国家统计局新闻发言人王冠华表示，AI 正加快从技术创新走向产业落地，持续赋能产业升级。10 月电气机械和计算机通信等行业价格环比均上涨 0.1%，同比分别上涨 6.2% 和 5.9%，合计影响 PPI 同比上涨约 1.18 个百分点。#人工智能# #PPI#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/027/602.htm"
+    },
+    "https://www.ithome.com/1/027/509.htm": {
+      "checkedAt": "2026-11-16T06:14:50.378822+00:00",
+      "description": "腾讯文化发布总办 LinkTime 播客现场笔记，提出核心业务需“心态归零”全面拥抱 AI，强调做以人为本的 AI，透露 AI 金字塔已具雏形，要求打破组织山头主义快速推进变革。#腾讯AI战略#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/027/509.htm"
     }
   }
 }
