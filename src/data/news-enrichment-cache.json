@@ -4265,7 +4265,11 @@
     "9c8233a6be7a8785f71234de1d5912fc187af5d38f530f5030f2a28500939f28": "在假日特派店,点在别人问之前就开始工作",
     "2b488624aa036adf87c5a74a5a687b1fc6ddae8093518fcf974de3c838bbc43c": "Dots发送发射报告时不急,",
     "dc4941ad20c240bc13a5a4a683ff39d101eca80e503a35fc79d04aaf688d3470": "拥抱面部和OpenRouter联合起来,使开放量级模型易于运行",
-    "5b36c563bfc5fcf9782e3e3165796ec1ce4ae6f6d9c2292e8893bca88d88ba63": "从412名捐款者(120名新捐款者)中承付了1 061美元。谢谢!TL;DR 10新型号(Mistral Lig 4,MiniMax-M3.1-Flash,Nemotron-3.5-Trancis,以及更多!) 大量可扩展的 KV缓存默认是:vLLM大小的KV缓存在热身后实际上可以自由使用,所以大多数型号都得到了更大的缓存和更多的吞吐量.模特跑者V1不见了Model Runner V2现在是唯一的GPU跑车手.Blackwell和MI355X上的大提速:最多1.95×解码(Step5 on GB200),1.6×吞吐量(GLM-5.3-Flash),1.24–1.40×更快的长速TTFT(GLM-5.3).升级检查: 默认块大小现在是 64, ROCm 7. 2 图像"
+    "5b36c563bfc5fcf9782e3e3165796ec1ce4ae6f6d9c2292e8893bca88d88ba63": "从412名捐款者(120名新捐款者)中承付了1 061美元。谢谢!TL;DR 10新型号(Mistral Lig 4,MiniMax-M3.1-Flash,Nemotron-3.5-Trancis,以及更多!) 大量可扩展的 KV缓存默认是:vLLM大小的KV缓存在热身后实际上可以自由使用,所以大多数型号都得到了更大的缓存和更多的吞吐量.模特跑者V1不见了Model Runner V2现在是唯一的GPU跑车手.Blackwell和MI355X上的大提速:最多1.95×解码(Step5 on GB200),1.6×吞吐量(GLM-5.3-Flash),1.24–1.40×更快的长速TTFT(GLM-5.3).升级检查: 默认块大小现在是 64, ROCm 7. 2 图像",
+    "d4ac3be7547b187442c1be60412f8e48cc2e76243b1f73babd28f5dfdad99211": "加强北约和盟军的网络防御",
+    "2f5cc3550eef62fa9bbf97c20791c1050013ae4241f7671a6211c3fceb5cd9d5": "OpenAI如何与北约和盟国网络机构合作,帮助受信任的维权者发现弱点,测试修复和保护基本系统.",
+    "cee163cc335abc08f1cc44a2ffc6273ccee9ace2e60d07b9b0da72f7022d03c3": "Revolut如何提高野心而不降低吧",
+    "584318a56874851b1e685f110d5d9695dcf63e46d1f9b585ec21617cf4cd76aa": "发现Revolut如何使用OpenAI模型和Codex将编码时间缩短30-60%,规模化金融犯罪调查,并在不损害安全的情况下创新."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -22218,6 +22222,21 @@
       "image": "https://huggingface.co/blog/assets/openrouter/thumbnail.jpg",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/openrouter"
+    },
+    "https://www.ithome.com/1/028/236.htm": {
+      "checkedAt": "2026-11-17T08:26:32.085511+00:00",
+      "description": "Anthropic 昨日（11 月 16 日）发布公告，宣布自 2027 年 1 月 1 日开始，大幅收紧其“协调漏洞披露”政策，对“高危”（high）以及“关键”（critical）级别漏洞披露期限从 90 天调整到 30 天，而其它级别漏洞收窄到 45 天。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/028/236.htm"
+    },
+    "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": {
+      "checkedAt": "2026-11-17T08:26:32.085511+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/business/customer-stories/revolut": {
+      "checkedAt": "2026-11-17T08:26:32.085511+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
