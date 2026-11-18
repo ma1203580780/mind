@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-18T00:54:34.506095+00:00",
-  "newItems": 20,
+  "checkedAt": "2026-11-18T10:02:19.325190+00:00",
+  "newItems": 22,
   "issueDate": "2026-11-18",
-  "totalItems": 79,
+  "totalItems": 101,
   "sources": [
     {
       "id": "openai",
@@ -11,8 +11,8 @@
       "domain": "AI",
       "language": "en",
       "ok": true,
-      "items": 1406,
-      "sha256": "699df7448713e7b9bbc14ee17ab8d5eb2b8733f2850bdfbbb7517aa139734cac"
+      "items": 1407,
+      "sha256": "dcd702562effd0cdb50ce4e1f19924c954aa0c3e9d2c7e091c613f1e7883cdf4"
     },
     {
       "id": "huggingface",
@@ -31,8 +31,8 @@
       "domain": "AI",
       "language": "en",
       "ok": true,
-      "items": 717,
-      "sha256": "fe6459eb14dd79c044351878f03723c85ed4d3843c56bd85e8a84b635c62c772"
+      "items": 401,
+      "sha256": "4f7e6ec5ec0e239f44e672ff6d0fe293eb3e4bd587e036a75d9abc9012f70d36"
     },
     {
       "id": "arxiv-cl",
@@ -41,8 +41,8 @@
       "domain": "AI",
       "language": "en",
       "ok": true,
-      "items": 353,
-      "sha256": "c6be6127b67d5455456ebca52c3b418de06cba8de734f5caf74c3589f1ae5048"
+      "items": 162,
+      "sha256": "1bbddb4b2bc85e5bd459fb08be8aa5cf3a605bf09859475a1764f2ac3f71a117"
     },
     {
       "id": "arxiv-econ-gn",
@@ -51,8 +51,8 @@
       "domain": "经济",
       "language": "en",
       "ok": true,
-      "items": 17,
-      "sha256": "8abda4eee9b1e208475c0bdb8a751deff26a0530b2697de6bc0ddbc85a3c9244"
+      "items": 7,
+      "sha256": "dc04adf2f64df38447b15c1112de81781ff26ac5ae6376a1a231d7fcd6fe849e"
     },
     {
       "id": "arxiv-econ-em",
@@ -61,8 +61,8 @@
       "domain": "经济",
       "language": "en",
       "ok": true,
-      "items": 29,
-      "sha256": "b34c7dff6b62487a98f8381ddd57470988d6950623da3ebad3c3e48509af50c9"
+      "items": 12,
+      "sha256": "bcd21d007aa190763a9069129ea1183983ccc2b4b8daf64b49098ec9c6e2f700"
     },
     {
       "id": "arxiv-econ-th",
@@ -71,8 +71,8 @@
       "domain": "经济",
       "language": "en",
       "ok": true,
-      "items": 18,
-      "sha256": "9cdfc33d6d335716b9aa1ec1f2d62ed3c2a16f133059066eef1898e1de7132d4"
+      "items": 13,
+      "sha256": "f6f55e9038d16538d0c402e6069c64ee6565ef20e84ca698fa5782a388d70edc"
     },
     {
       "id": "fed",
@@ -92,7 +92,7 @@
       "language": "en",
       "ok": true,
       "items": 15,
-      "sha256": "0c91e2ec93abb54dde11ad565a05e8c5b8cb6c0e2b0b87813ea3a7cdf0c24cfa"
+      "sha256": "b5a78765206be3e1d8ca69843ec8a162fc9cd7423445f876780f8fd3d9e28baf"
     },
     {
       "id": "bis",
@@ -122,7 +122,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "438934bc15f52fe2fba6b419e22c3b415d830b9060734c8159be0beeaeb1c6c9"
+      "sha256": "b34f1f6751eb5732aee0216b518cf8151a2e495a9a6cbd140e97eea95aed01f8"
     },
     {
       "id": "ollama",
@@ -162,7 +162,7 @@
       "language": "zh",
       "ok": true,
       "items": 10,
-      "sha256": "bc3783d8ae0878e7db1a95440bdf1a7f12ae2d746e1835c5b0cc3f15fd23e829"
+      "sha256": "5a04d0a24cfb390d512e974fe4fb254e0c83366e84b8122d4158f09f27638b08"
     },
     {
       "id": "ithome-ai",
@@ -172,7 +172,7 @@
       "language": "zh",
       "ok": true,
       "items": 60,
-      "sha256": "2a9d358d2a2728c7052358a12a2b7ffeafff849f951a865b345107f2ab80fa70"
+      "sha256": "2b83ece6b7ff50d02b849f2b299c8d01d063237811d4c4f13f05d7517847aa9d"
     },
     {
       "id": "eeo",
@@ -200,9 +200,9 @@
       "url": "https://www.nngroup.com/feed/rss/",
       "domain": "产品设计",
       "language": "en",
-      "ok": true,
-      "items": 20,
-      "sha256": "d9b897c4ac7877542fae8c3fddaf4b03f68b66aa0e7323cb736f5c075c1d9901"
+      "ok": false,
+      "items": 0,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "smashing",
@@ -212,7 +212,7 @@
       "language": "en",
       "ok": true,
       "items": 40,
-      "sha256": "d93481be8387736d82e9b8df469133edde4461b898f02a35173a5fbc53ac2f47"
+      "sha256": "3690d43a4a96591729191498688478e21d884eea22d07932bde8c3c715719351"
     },
     {
       "id": "colossal",
@@ -232,7 +232,7 @@
       "language": "en",
       "ok": true,
       "items": 15,
-      "sha256": "60ad71ef5bfeb06162142e397dd87329a41ec4adba32502468d511c141d9a00f"
+      "sha256": "3e2ebca2648be136c71572f771a84ae6328a65a37949d3033f3a05beb4f34840"
     },
     {
       "id": "ahrefs",
@@ -272,7 +272,7 @@
       "language": "zh",
       "ok": true,
       "items": 20,
-      "sha256": "b316dd1158106abe1592b8fb857f18116a1fe38ad2e4eb09db5452e8dea04478"
+      "sha256": "445f27d2e3d5c6d8c4e3002593d742451a901dbc024b72f5acd64e7b6261d7fe"
     },
     {
       "id": "woshipm-design",
@@ -282,7 +282,7 @@
       "language": "zh",
       "ok": true,
       "items": 15,
-      "sha256": "0dfa8da5cb3a55e0b4fd825b32dea373cdeb9f6511e166d4c9e44699b81c51ee"
+      "sha256": "302b089671250504404ed20e0e134e9f769a88b0cd89b1d334ee40f9e3348f08"
     },
     {
       "id": "sspai-workflows",
@@ -292,7 +292,7 @@
       "language": "zh",
       "ok": true,
       "items": 10,
-      "sha256": "4535e97487e14e5ed42e3d1624a3c6db993530ac46e85e665af82c72fdab747d"
+      "sha256": "b13d28f197a5d911b768669431a3d92f50edf41ed3b7d2e0ac475fc627f7896e"
     },
     {
       "id": "ezindie",
@@ -302,7 +302,7 @@
       "language": "zh",
       "ok": true,
       "items": 11,
-      "sha256": "481113f5dac7f1b01e56d206cda6b3533ae6a69fa0fc76897b2ee26914da5838"
+      "sha256": "e21ea22d2128657ac9978a20c50570a7b138128dd4fdeabb607982de6a421a5d"
     },
     {
       "id": "v2ex-isv",
@@ -312,7 +312,7 @@
       "language": "zh",
       "ok": true,
       "items": 50,
-      "sha256": "4b0075bd9d48c2613fde5a389e072e24c34e132e6555177ec3691010baf05867"
+      "sha256": "3f2dd545b67e079b209b6de6c3c9dc9f7dfb1172134e31ddaeb7156717e1a4b5"
     },
     {
       "id": "solo",
@@ -322,7 +322,7 @@
       "language": "zh",
       "ok": true,
       "items": 200,
-      "sha256": "6824658d6c86c5f45e0fefba8a47bd488bf0e7baf9c089a7ca467a048c42b6b6"
+      "sha256": "8b4f25fdff2dc39e3934db08b777d976ce0091b3f2c8d67b43549ee67942a842"
     },
     {
       "id": "w2solo",
@@ -332,7 +332,7 @@
       "language": "zh",
       "ok": true,
       "items": 20,
-      "sha256": "e8f107818579caf3caa55858932e979a8b78c546e7ed97e44fd16264f1e0afda"
+      "sha256": "c979c4b87d49ce2befa89db4aa095f858edee93cf165e689d31fc609dc918cf4"
     },
     {
       "id": "decohack",
@@ -392,7 +392,7 @@
       "language": "zh",
       "ok": true,
       "items": 15,
-      "sha256": "497ee9f8f7613d9f1f72756f8ae3d6a99b1546642d095f947ed92670797141db"
+      "sha256": "5346dba011c6ed7e956aa5bc9926165cec148c99256dd012dea76300f826c6c6"
     },
     {
       "id": "woshipm-ucd",
@@ -402,7 +402,7 @@
       "language": "zh",
       "ok": true,
       "items": 15,
-      "sha256": "64baa8e7455018c1bcb917b50c3ad5db822dc30f53581983080c82efe64bc6fe"
+      "sha256": "a0d738a649974eb35b116ad79d22d1b9918275575d2aed1265ff75569004df0d"
     },
     {
       "id": "ftium4",
@@ -422,7 +422,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "a5b4f4e211e8989e8a421fc39c93be878c5370b5b24a7d9bd2d585f277f5e914"
+      "sha256": "56a776d2effcb90642830bce240ac90bd4b954861a7f57e73d592f956fcfbf3b"
     },
     {
       "id": "baymard",
@@ -432,7 +432,7 @@
       "language": "en",
       "ok": true,
       "items": 50,
-      "sha256": "e2968b83976bbcdfa599e0e2a826277742a52e130b5b22ac6e35f639d4fea1b6"
+      "sha256": "2c8da2cf1e9c4104904040ce24a3c4e2970d9bb5394f568c160cb0ca1b840937"
     },
     {
       "id": "lenny",
@@ -442,7 +442,7 @@
       "language": "en",
       "ok": true,
       "items": 20,
-      "sha256": "b08a5df43005150305b16a20b194aae4df35dc849abad8bc95da71000915816a"
+      "sha256": "3a9190f6d6cc77705e23165500a36ff7ac37c7f07685724c873cad3b3531c61d"
     },
     {
       "id": "svpg",
@@ -462,7 +462,7 @@
       "language": "en",
       "ok": true,
       "items": 10,
-      "sha256": "1ae55196ec0c5ca910f5a7ac622a74cb5f3a4ee303547ddfc42c62990f36108c"
+      "sha256": "f33021e1a59fb3194afc02249ee0d08825fc8b9d213892d277f1e5d0db25d19b"
     },
     {
       "id": "intercom",
@@ -476,12 +476,12 @@
     }
   ],
   "enrichment": {
-    "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+    "checkedAt": "2026-11-18T10:02:28.397635+00:00",
     "translationModel": "argos-en-zh-1.9-ct2-v1",
-    "translated": 151,
-    "english": 152,
-    "images": 151,
-    "stories": 238,
+    "translated": 154,
+    "english": 155,
+    "images": 163,
+    "stories": 260,
     "error": null
   }
 }

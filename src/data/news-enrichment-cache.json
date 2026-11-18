@@ -4372,7 +4372,11 @@
     "6a167b7aa97728d5a60ea57462015a8538d27f10157ade53b9af8d481fa49d6e": "介绍销售的ChatGPT",
     "75a87959044fe3346caac5feb91c97058a2a1bf2582b3d3cabbc52dbac52865c": "在 ChatGPT 中探索新的销售插件和 30+ 新的和扩展的伙伴插件,研究前景,准备投出,更新您的客户关系管理,并推进交易.",
     "00d6e5f3571385e51b4578a9eb9332934fe028afe7b1cebd9a3c69e20a89b7ae": "Astra for Law 领先的法律情报",
-    "231113b81231e71f29af220096e7d0361bce457f80b84effac1f9f971aeccd0a": "Astra for Law在涉及24个法律领域的启动评价中排名第一。每个ChatGPT企业客户现在都可以请求访问."
+    "231113b81231e71f29af220096e7d0361bce457f80b84effac1f9f971aeccd0a": "Astra for Law在涉及24个法律领域的启动评价中排名第一。每个ChatGPT企业客户现在都可以请求访问.",
+    "23b104da0e8a00468a4d9b6c2a2d481b1825b80c0f3cda82ead4448da4908ee8": "AI估值、财政失衡和地理经济紧张的风险影响金融稳定前景",
+    "0320a4a183bf313d82267e57adeca14c040f60843394993996135a6383d33ff3": "鲍里斯·武伊契奇:金融稳定审查 - 2026年11月.",
+    "b49ccdedd985375821757c8ebdc536496b6102471b350d904e14a32cd14c5b53": "Le Groupe Figaro和OpenAI合作将Le Figaro新闻带到ChatGPT",
+    "c95c570860ead26760cd50325fcad4aa1d4e38d7344b90a3093de502059b5c66": "Le Groupe Figaro和OpenAI合作伙伴通过摘要和节选将Le Figaro的新闻报道带给ChatGPT,并与原创故事链接."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -22665,6 +22669,98 @@
     },
     "https://openai.com/index/astra-law-6-2": {
       "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://sspai.com/post/119210": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "iPhone Duo 测试 2D 人脸解锁功能，松下发布紧凑型电影摄影机 SHX1 等。",
+      "image": "https://rssfile.sspai.com/2026/11/18/article/0102a1fa-aac2-6b36-c193-c68075b51c1e.png?imageMogr2/auto-orient/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/119210"
+    },
+    "https://www.v2ex.com/t/1258053": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "独立开发者 👨‍💻 - @AnYi798 - 只要你的 App 会调用大模型 API 来生成回复，基本都包含在这次要求里。App Store Connect 中国大陆合规信息管理：https://developer.apple.com",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1258053"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261118~86f1e8147e.en.pdf": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "error": "Not HTML"
+    },
+    "https://www.ithome.com/1/028/968.htm": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "他透露，早在黄仁勋辞职之前，客户就已经表达了希望拥有更多选择的意愿，而最近的消息确实让人们更加确信，多一些选择是件好事。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/028/968.htm"
+    },
+    "https://www.qbitai.com/2026/11/510914.html": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "OpenAI也终于活成了2022年谷歌的样子",
+      "image": "https://i.qbitai.com/wp-content/uploads/replace/57dea48022174efa7c4b65bb0d15a443-e1738384142380.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/510914.html"
+    },
+    "https://www.qbitai.com/2026/11/510916.html": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "近日，全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/9f73f05bc011bb3333627b171d19ecec.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/510916.html"
+    },
+    "https://www.ithome.com/1/028/836.htm": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "Salesforce 首席运营官米格尔 · 米拉诺在发给员工的邮件中宣布，从本月起，公司将根据岗位设置每月 Token 预算，把 AI 开支集中用于最能为客户和业务创造价值的工作。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/028/836.htm"
+    },
+    "https://www.qbitai.com/2026/11/510811.html": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "入职Meta刚满一年出头，竟然直接提桶跑路了！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/35ee1d6dc9bd5f63a122eb60301cf0ef.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/510811.html"
+    },
+    "https://www.qbitai.com/2026/11/510821.html": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "具身全栈玩家",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-4-8.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/510821.html"
+    },
+    "https://www.qbitai.com/2026/11/510737.html": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "小红书校招沙龙，一群技术高手认真对待年轻人的野心",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/a4735ca8b560b3624fb98522d8e667ec.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/510737.html"
+    },
+    "https://www.qbitai.com/2026/11/510726.html": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "英伟达公布了老黄离职后的首份财报",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-7.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/510726.html"
+    },
+    "https://www.qbitai.com/2026/11/510707.html": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
+      "description": "Sol逼近旗舰性能",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/8562ee9a7576cda9b61e6eb46dd55388.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/510707.html"
+    },
+    "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": {
+      "checkedAt": "2026-11-18T10:02:28.397635+00:00",
       "error": "HTTP Error 403: Forbidden"
     }
   }
