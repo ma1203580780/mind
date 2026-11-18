@@ -4349,7 +4349,30 @@
     "526ebac1d7309fe867dde7a672fcac85bee5f64841b69ed395eb0b9ce8f919c2": "入侵探测器必须识别不断发展的恶意行为,即使确认的攻击标签很少或不完整。我们提出TRACE,一个具有地貌意识的图形对比性学习框架,用于标签高效的入侵探测.TRACE通过将消息传递和地形表达结合起来,从良性系统活动图中学习,然后在同一预测的嵌入空间中分配异常分数,由对比目标优化.这种设计既能捕捉局部的相互作用,又能捕捉图形尺度的结构偏差,在表现学习过程中不使用攻击标签.实验室",
     "756180e7ee90c7d91e16ebcefc4df8b1f3abfb52c1aa1a1a7c393e7b3e896b97": "为智利引入 OpenAI",
     "2f41a7f8094e1a0e49fe78165da520ad5bd62c080e8217b4ee9d5f7ad62e9753": "OpenAI和智利政府正在结成伙伴关系,支持负责任地采用AI,培养公共部门的技能,并帮助当地初创企业开发AI应用程序。",
-    "461f213e4a6fce51ff5649b3b4aa1e3dedff3829f84a1aa363024b5475cf9bda": "每周为设计者——思想家和制造者——提供资源。\"当Ted Change在《纽约客》中写道AI不会创作艺术时,我觉得有道理。我转发的以没有要求的人发誓。他的观点是,艺术是几千个小选择的总和,而一个为你们制造大部分小选择的机器,取消了艺术。在晚宴上我总结了这一点,认为“这是一个有野心的自动售货机 ” ,它有一个眼卷和一些困惑的外表。每个新媒体都被称为作弊—— Nicole Alexandra Michaelis编辑选Nvidia不可能是每个人的一切—— Schrödinge"
+    "461f213e4a6fce51ff5649b3b4aa1e3dedff3829f84a1aa363024b5475cf9bda": "每周为设计者——思想家和制造者——提供资源。\"当Ted Change在《纽约客》中写道AI不会创作艺术时,我觉得有道理。我转发的以没有要求的人发誓。他的观点是,艺术是几千个小选择的总和,而一个为你们制造大部分小选择的机器,取消了艺术。在晚宴上我总结了这一点,认为“这是一个有野心的自动售货机 ” ,它有一个眼卷和一些困惑的外表。每个新媒体都被称为作弊—— Nicole Alexandra Michaelis编辑选Nvidia不可能是每个人的一切—— Schrödinge",
+    "160640c015094e42fd6506879fa151e610c336d6e3c6afb2f8331e250dd4324f": "路由器-v0.1.0",
+    "b532d9193d0c3f3fc61d27f7463446d56e5a9b44f94c81c4b2f5298598c8915e": "[CI] sgl-router:从路由器中释放路由器图像和PyPI轮...",
+    "29f83bfa64c8c9ae5447bf901b7ac9a872c2a4b52ade241226341a20fbeba3f4": "朗链-核心=1.8.2",
+    "c0a49840e504104d698b5d15874022bedab04f0eacaef617f582030f925a79a3": "自langchain-core \\\\ 1.8.1 feat(core):在langsmith_gateway上添加标题并忽略代理(# 41900)docs(core):澄清何时推翻aparse_result(# 41894) fix(core):在创建计划时避免警告-过滤比赛(# 41882)",
+    "d9b4ee09567d77d77cb2fa6b987c331b93c74d1a4f81303ab830f103a3143f10": "创造天赋的花样指南",
+    "d08e4b9a0bf5caa039646b15bdfea7a26db907237b5484677ed8f58da7c763ec": "掌握创作天赋的艺术.",
+    "28a642f398a4552e43b5c948914b5d09cee1dd2530df4ed1278ef5510acaf5a7": "朗链-开口: 1.8.1",
+    "c846bf0b52e5980e088f249b00526e54102a49f40a22a13a2ab9b63826152ec1": "自 langchain-openai \\\\ 1.8.0 发布(openai): 1.8.1 (# 41924) 固定(openai):从已完成的事件中恢复函数调用参数(# 41923)",
+    "c71a4d86ce7929bb9ceefac05e7e60ceafb10655fa4910adb5f9163e3fa5f77f": "在Balming Tiger的“Janjan”音乐视频中,",
+    "30e9cbb0f9ce7dce8cc7752f302f09b50cbb32ab872edfbbf4422978480702f9": "由高桥理库执导并出道于动画\"活生生\"A.k.DOKUZEN,超现实音乐录相带设定为出击节奏.",
+    "e541fb9dcc4c7e6afd9088d0c01ea75401599762b5501dd8511b0392b2fee8a0": "研究者的价值何在?",
+    "3250cfd2d4c09a88cb4d6f3459d7c8bedcbf83707b7ed5ee31af253280b3bfb8": "为何关于研究的争论不是科技故事,由作者所创造的图像,与Midjourney.我们并不陌生。多年来,研究工作者相互谈论了如何使团队“成熟”的问题,以便他们了解我们的工作在使其事业取得成功方面的价值。或者当我们分享我们的研究成果时,我们满满的质疑 发现是否真实, 方法是否太弱或缺乏代表性,或者我们的主体是否在告诉tr",
+    "088b647877ca8219e09ed2b6c15d0d502119c178e51ab75b2f21a930a434aa1e": "每个人都知道闪光意味着AI。用来方便设计审计",
+    "60a3a451e4120eb63001eeee94832e7b53a84a4df271338c3dbb8d26fe82d3c4": "如何在不损失时间的情况下破译首相的人工智能模型,",
+    "f1a394c71cd82adc732966adffac863ee325f13f0d81b902dc82d56f8be41dc2": "Anthropic Just 发布克洛德代码的新规则",
+    "7266c6cf6a0ff9475cd9ff2a69f0322ff23c3d304c844c70fb554f3e7c2bc31b": "在人工智能空间里 事情进展迅速而我们几个月前认为 Claude Code 的最佳做法 可能已经过时了...",
+    "c3a7f21c12b2c05e9cbb8ab20886f1772dc66618df42dce9215e3e9b06343774": "(原始内容存档于2018-10-21). Philip R.Lane:货币政策交流的做法和科学:欧洲央行的经验",
+    "d6f8f65890cf0c5e2420a9ecbc1990bb7ddca95cf7c537601813d3d65ec6530d": "引入 GPT-6.2阿斯特拉和索尔",
+    "131a646e6c4634aeb23054c1644d346eeb1e15452747adef802a2a5f5a5ae2a5": "采用GPT‐6.2 Astra和Sol,在ChatGPT Work, Codex, 和API中以更低的成本提供更好的专业输出,编码,计算机使用和效率.",
+    "6a167b7aa97728d5a60ea57462015a8538d27f10157ade53b9af8d481fa49d6e": "介绍销售的ChatGPT",
+    "75a87959044fe3346caac5feb91c97058a2a1bf2582b3d3cabbc52dbac52865c": "在 ChatGPT 中探索新的销售插件和 30+ 新的和扩展的伙伴插件,研究前景,准备投出,更新您的客户关系管理,并推进交易.",
+    "00d6e5f3571385e51b4578a9eb9332934fe028afe7b1cebd9a3c69e20a89b7ae": "Astra for Law 领先的法律情报",
+    "231113b81231e71f29af220096e7d0361bce457f80b84effac1f9f971aeccd0a": "Astra for Law在涉及24个法律领域的启动评价中排名第一。每个ChatGPT企业客户现在都可以请求访问."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -22598,6 +22621,50 @@
     },
     "https://openai.com/index/introducing-openai-for-chile": {
       "checkedAt": "2026-11-17T17:51:41.345905+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://github.com/sgl-project/sglang/releases/tag/router-v0.1.0": {
+      "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models. - Release router-v0.1.0 · sgl-project/sglang",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/sgl-project/sglang/releases/tag/router-v0.1.0"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2": {
+      "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1": {
+      "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-17/": {
+      "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+      "description": "Zoom Slides：将您的Zoom会议转换为随时可用的演示幻灯片；Boost.space AgentOS：一个操作系统，适用于所有的AI助手；readywhen：你随时随地在邮箱里的个人助手；OpenBot：Grok Bot替代方案：自我托管，完全自定义，支持任何技术栈。；OpenFrame：由人工智能代理管理您的IT系统，所有修复都需您审批。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-17/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-17/"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261117~7f5d3b1a0e.en.pdf": {
+      "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+      "error": "Not HTML"
+    },
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+      "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/introducing-chatgpt-for-sales": {
+      "checkedAt": "2026-11-18T00:54:45.574686+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/astra-law-6-2": {
+      "checkedAt": "2026-11-18T00:54:45.574686+00:00",
       "error": "HTTP Error 403: Forbidden"
     }
   }
