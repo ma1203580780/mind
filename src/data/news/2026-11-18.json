@@ -2400,7 +2400,11 @@
       "summaryZh": "欧洲中央银行是采用欧元的欧洲联盟国家的中央银行。我们的主要任务是维持欧元区的价格稳定,从而保持单一货币的购买力。",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
-      "translationModel": "argos-en-zh-1.9-ct2-v1"
+      "translationModel": "argos-en-zh-1.9-ct2-v1",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "imageAlt": "原文配图：Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability ou",
+      "imageKind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
     },
     {
       "id": "feed-cae0ebe96330058d23f1",
