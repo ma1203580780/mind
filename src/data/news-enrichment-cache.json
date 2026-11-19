@@ -4489,7 +4489,8 @@
     "51f1fcafcafd6e8139bab6c2c2788e2460c8e3850dfd8ca141bf7a910993be03": "Sumitomo Life的领袖如何帮助团队采用ChatGPT企业",
     "0051dd2ee3883b2a866cee37c9f521abbf404da46e2cc409cf249166776054ad": "Sumitomo Life使用ChatGPT Entertainment来研究保险公司,编写提案,并起草投资分析守则.行政主管的早期使用有助于推动收养.",
     "69ca069f691aeba2bd3b31ead296489732869604c51b4c171f3df2e7f14cc7c0": "管理前沿AI风险:从培训到部署",
-    "f5a8982e28bfd88d7dcc4d16347a06e8e84c66b1302b0b2bed8b3d630d5aad91": "OpenAI解释了它如何管理边疆AI的风险:通过部署模式对齐、沙箱、屏蔽保障和监测来进行培训。"
+    "f5a8982e28bfd88d7dcc4d16347a06e8e84c66b1302b0b2bed8b3d630d5aad91": "OpenAI解释了它如何管理边疆AI的风险:通过部署模式对齐、沙箱、屏蔽保障和监测来进行培训。",
+    "8f33ad60a85a3e2af16308b3acb54761dc251ffd0c74e38560ae4a6c97bdbc38": "联邦开放市场委员会会议记录,2026年10月27日至28日"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -23296,6 +23297,83 @@
     "https://openai.com/index/managing-frontier-ai-risk": {
       "checkedAt": "2026-11-19T01:51:36.882674+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "The Federal Reserve on Wednesday released the minutes of the Federal Open Market Committee meeting that was held on October 27–28, 2026. The minutes for",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+    },
+    "https://www.ithome.com/1/029/546.htm": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "4 万亿美元的总额对应 47.5% 的同比增长；份额最大的是约 2.4 万亿美元的人工智能基础设施支出；其中人工智能优化服务器的支出将提升 81%。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/029/546.htm"
+    },
+    "https://www.qbitai.com/2026/11/511258.html": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "「Revaluation 价值，另有答案」",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/f266f1899f2d4f874bba9db8f9bb604b.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511258.html"
+    },
+    "https://www.qbitai.com/2026/11/511180.html": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "媒体均分登顶历史第一，细节多到爆炸",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/13f63f274fd8ba98169977756fc8afc0.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511180.html"
+    },
+    "https://www.qbitai.com/2026/11/511179.html": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "商汤科技日日新 SenseNova U1 Pro 在图片生成与图片编辑两大榜单中均登顶中国第一",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/adbb26bb8314541a2eb1e810c76d8687.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511179.html"
+    },
+    "https://www.ithome.com/1/029/497.htm": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "科技媒体 TechCrunch 昨日（11 月 18 日）发布博文，报道称在《纽约时报》DealBook 峰会上，微软首席执行官萨蒂亚 · 纳德拉（Satya Nadella）表示，能够替用户浏览商品、完成购买的 AI 智能体，可能重塑互联网的商业格局，让依赖用户访问和广告收入的平台面临重新洗牌。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/029/497.htm"
+    },
+    "https://www.ithome.com/1/029/495.htm": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "韩国贸易主管部门今天（19 日）宣布，截至格林尼治时间 5 时 09 分，韩国出口额突破 1 万亿美元。相比之下，去年全年出口额创下的最高纪录为 7,090 亿美元（现汇率约合 4.74 万亿元人民币）。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/029/495.htm"
+    },
+    "https://www.qbitai.com/2026/11/511092.html": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "Kling Image 4.0",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/1818e22dd488275fea05bbd3e7bdbdb1.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511092.html"
+    },
+    "https://www.qbitai.com/2026/11/511088.html": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "全球AI生态链领先企业联想集团今日公布截至2026/27财年第二季度业绩",
+      "image": "https://www.qbitai.com/wp-content/uploads/2019/06/200.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511088.html"
+    },
+    "https://www.qbitai.com/2026/11/511079.html": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "11月18日，安谋科技（中国）有限公司举办Arm® Cortex®-M CPU新品说明会",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/824a37f4c161eefaa010a852a15dc19f.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511079.html"
+    },
+    "https://www.qbitai.com/2026/11/511071.html": {
+      "checkedAt": "2026-11-19T10:12:23.740785+00:00",
+      "description": "语言模型单张3090卡即可运行",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/a83150265926a1d93f9c61c5897ad62f.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511071.html"
     }
   }
 }
