@@ -4468,7 +4468,28 @@
     "9a1855e7d1a8d160235450fd7733df4a583f4eedb5e70a15450ee44f860fcc18": "使用 OpenAI 模型推进芯片设计",
     "35c5c694722a87c9803ae266cfb70243d7c2b30103a8e8e076d1e580fc54b78e": "OpenAI模型优化了Jalapeño硅与改进的RISC‐V核心设计中使用的电路,与GPT‐6 Astra一起显示AI辅助芯片设计的进展.",
     "d27086ffa8e4ba5b7713534313ba3d35b7a1345fa87cb07ff98017478a6fc5fe": "Rumble-2-Flash:40+语言的开放式0.5B语音模型",
-    "e4f878e0a3d764281e8b120368a3063cf3619d8018a714a689c61f30680dccbe": "180B 参数, RAM的 32GB:用变形器推 MoE对限制的推论"
+    "e4f878e0a3d764281e8b120368a3063cf3619d8018a714a689c61f30680dccbe": "180B 参数, RAM的 32GB:用变形器推 MoE对限制的推论",
+    "c050cd415c1e63029ee09c455d2f290b040b2ba884e7479f623e60afa08ce887": "Sylvain Lefebvre的超现实景观",
+    "65759d915cf3157d5bf2fa625c159e090d68e4e02850153597bc5e992a31f796": "'\"游进幽冥森林' 拥抱自然平衡的悖论.",
+    "41eeec267d487f02b54e245657c4bd43dedad8cce50a9ca29287b1f655499758": "MicroConf 战术:为什么大多数 SaaS 创始人永远无法超越 1M ARR",
+    "cbf7e6a523bb2a43b1b9351ea51ef974854d8cec873819b5ef5cb27cf107dd2d": "从$1M到$1000M以完全不同的方式打破创始人——大多数都从未预见到.我和我们SaaS学院的导师之一Julien Marzouk坐下,他已经指导了数百名7号和8号人物SaaS创始人。在所有这些约定中,他看到同样的6种模式反复出现.模式3是我在Drip中掉入的——它把我烧焦了,我会在视频中告诉你这个故事.Pod卫视YouTube上的这段视频链接 订阅Rob Waling YouTube频道TinySeed SaaS研究所",
+    "5ca502ad4adc01a89a1fb34268576d05c6be11dc928084ef697a80ead18eb355": "隐藏的就业市场",
+    "9a25c7d35f02f4dde14b50c9f2afba0201afffe257ca003bee1d652216c59f86": "我所做的每一个重大职业跳跃 都通过个人联系。我和UBC Okanagan合作的节目 讨论学生如何挖掘隐藏的就业市场",
+    "1e34f7bc851108ecc2569fd7fafae0353b11cdfbe1ecc3591404a9627594fcd2": "新的最佳做法",
+    "d6fb72e7c3cc56db41f1ceccef8d66a1c4b8031f4758c86a2abb2a778fdbb9ef": "CLAUDE.md是一个Markdown文件,Claude Code每次在项目上工作时都会加载.在Opus 5.5和Fable 5.2发布之前,这个...继续阅读UX星球上的内容'.",
+    "8ddcb96994efe4da08d1c43bc59b49cffa659592c780821170851e17c8173d8c": "如果AI从任何地方工作,为什么我们通勤看它?",
+    "0d862cb1dcd63d6c5342f048953635000a3b2940077fb692ee62a9f7cb6e89cb": "实际上,他们承诺的合作。公司说,这是垃圾。面对现实,Alexa von Tobel最近的文章,Alexa von Tobel经营着一个早期的基金,并且支持了大量的创始人名单,他贴出了一个小而诚实的问题.也想知道是否有人看到。答复是混合的。数人推后.一个说她已经着陆一个远程角色只是很好没有人有",
+    "cb3fd1fa828a7d605c82cb1e2b906daf6d27ce2e77aa92b23ad090519d1615dd": "太模糊了",
+    "c3423ae6bfd74bb7137f004087b6d37d47c39f4e10a3df53f766a16cc38b7b52": "一个客户拒绝了我的动议工作 寻找机器制造。我五个月前就发表诊断。继续阅读 UX 集体",
+    "a2c5365b623f319895f03f09f004008a320c39273264468b286086eff1851482": "DaisyRose-27B:推动培训后效率的前沿",
+    "802a659e3a9142f977b874505493befedcfed0bcd484fd9f54d50eec258c7ab7": "RadixArk在Hugging Face上的博客文章",
+    "acefab59949448557d04f53da5bab9339a9f0f584200e985b16e3507b627524d": "为什么你的微调工作比FLOP说的时间长",
+    "e5a072f445938aa864cd71d353ac7dea94f1efd49c682c743560ea66f618519a": "研究加速:紧凑的前沿",
+    "ce9998d11cadc16d3e0785c419d2470e02de7ec84d731d0b7df681b9eb437cba": "OpenAI测量编码剂是如何加速AI研究的,其中其性能仍然不均匀,这表示什么是递归自我改进.",
+    "51f1fcafcafd6e8139bab6c2c2788e2460c8e3850dfd8ca141bf7a910993be03": "Sumitomo Life的领袖如何帮助团队采用ChatGPT企业",
+    "0051dd2ee3883b2a866cee37c9f521abbf404da46e2cc409cf249166776054ad": "Sumitomo Life使用ChatGPT Entertainment来研究保险公司,编写提案,并起草投资分析守则.行政主管的早期使用有助于推动收养.",
+    "69ca069f691aeba2bd3b31ead296489732869604c51b4c171f3df2e7f14cc7c0": "管理前沿AI风险:从培训到部署",
+    "f5a8982e28bfd88d7dcc4d16347a06e8e84c66b1302b0b2bed8b3d630d5aad91": "OpenAI解释了它如何管理边疆AI的风险:通过部署模式对齐、沙箱、屏蔽保障和监测来进行培训。"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -23193,6 +23214,88 @@
       "image": "https://huggingface.co/blog/assets/moe-expert-streaming/thumbnail.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/moe-expert-streaming"
+    },
+    "https://microconfpodcast.com/episodes/microconf-tactics-why-most-saas-founders-never-get-past-1m-arr": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "Getting from $1M to $10M breaks founders in a completely different way — and most never see it coming. I sat down with Julien Marzouk, one of our coaches at SaaS Institute, who has coached hundreds of 7 and 8-figure SaaS founders. Across all of those engagements, he sees the same 6 patterns show up again and again. Pattern #3 is the one I fell into myself at Drip — it burned me out, and I'll tell you that story in the video. Links from the Pod Watch this video on YouTube Subscribe to the Rob Walling YouTube Channel TinySeed SaaS Institute",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://microconfpodcast.com/episodes/microconf-tactics-why-most-saas-founders-never-get-past-1m-arr"
+    },
+    "https://justinjackson.ca/hidden-job-market": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "Every major career jump I've made came through a personal connection. My conversation with UBC Okanagan's co-op program on how students can tap the hidden job market.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://justinjackson.ca/hidden-job-market"
+    },
+    "https://solo.xin/topic/6317": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "大家好，我是「餐食记」的开发者，做了一个中文 Android 餐食记录 App。界面走暖色手账风，想让每天记一顿饭这件事轻松一点。 可以拍照记录餐食、查看热量估算，也能记录体重、回看过去的餐食。热量估算仅供参考，不是营养或医疗建议。 最近精简了「我的」页，保留手账封面和最近餐食照片，把账号、隐私和本机记录管理放进单独…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6317"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-18/": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "RankSpot：按需付费的SEO和AI搜索执行层，专为代理商设计。；Creatify Max：你的广告团队成员，从策略制定到创意设计，再到投放上线，全程为你服务。；TheBold：将执行转变为与投资者的会议；Appxiom：AI编程助手的上下文层，用于检测和修复代码中的错误。；EkLine：面向开发者工具和以API为主的公司的AI搜索引擎优化！",
+      "image": "https://decohack.com/producthunt-daily-2026-11-18/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-18/"
+    },
+    "https://www.ithome.com/1/029/158.htm": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "美国当地时间 11 月 18 日周三召开的 DealBook 峰会上，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）表示，其公司正在“安全”与“发展”寻找 AI 平衡点。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/029/158.htm"
+    },
+    "https://www.ithome.com/1/029/154.htm": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "美国当地时间 11 月 18 日在《纽约时报》DealBook 峰会上，微软首席执行官萨提亚 · 纳德拉（Satya Nadella）表示，近期频发的网络中断可能并非偶发事件，随着人工智能系统能力增强，全球数字基础设施的稳定性正面临更复杂的考验。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/029/154.htm"
+    },
+    "https://www.ithome.com/1/029/152.htm": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "据供应链消息，OpenAI 首款 AI 硬件计划年底启动出货，立讯精密独家承担整机制造并供应核心零部件。该产品与 Jony Ive 团队合作开发，或为无屏语音交互设备，定价传闻 300 至 400 美元。#OpenAI首款AI硬件#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/029/152.htm"
+    },
+    "https://www.qbitai.com/2026/11/510947.html": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "国产AI工具实现「一个人就是一个剧组」",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/93f591a9ce0d007d695f17742f29a086.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/510947.html"
+    },
+    "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "A Blog post by RadixArk on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6aeabf9f2efd990530425e58/faP4Su889q_DIgN3wmU9M.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+    },
+    "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "description": "A Blog post by Dharma-AI on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/J6DIf4Len_31Tj-CQlQXY.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+    },
+    "https://openai.com/index/research-acceleration-jagged-frontier": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/business/customer-stories/sumitomo-life": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/index/managing-frontier-ai-risk": {
+      "checkedAt": "2026-11-19T01:51:36.882674+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
