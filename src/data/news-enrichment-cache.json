@@ -4573,7 +4573,19 @@
     "b8271e5400ff439672a1c5385e3ce38b24543684f7c901be4569d44167c852c7": "分配共同价值货物",
     "784dd52e9cf174ab40182a59d2b41dde2e27218b80f5b828776c1155553cb7a5": "我们研究一个分配共同价值商品的简单问题。设计者力求将货物分配给尽可能多的单位需求代理商,而无需货币转账,而代理商拥有部分有关货物的私人信息,只有在货物价值高时才愿意接收.机制利用其他代理人的信息筛选每个代理人的私人信息,从而形成代理人从其他代理人那里学到的货物价值。最佳机制可归纳为两个参数:一是调整分配概率,二是Othe",
     "98c298e43a1d5b7a11bd28017e73f444f7ea751d911ca77edc7473f5ab033c6f": "Choosing What to observation:预算-预测反事实审计,用于对视觉代理进行可信的评价",
-    "ee0ec4a8a8bf93169e0323891ad33072741b03409cede31da5a58d73e5d08d13": "阅读稠密文件的视觉代理商必须在候选区域之间配给有限的观察预算,然而,在代理商的外观、其如何适应残留的读物以及观察停止后如何调整精确度。我们实行预算保证的反事实审计,这是一种评价协议,规定公开证据和区域约束必须固定下来,同时只干扰剩余的预算或已取消的任务参数,并用确切的延续价值抵免每段历史。由此产生的会计将损失的预期准确性细分为逐步购置损失a"
+    "ee0ec4a8a8bf93169e0323891ad33072741b03409cede31da5a58d73e5d08d13": "阅读稠密文件的视觉代理商必须在候选区域之间配给有限的观察预算,然而,在代理商的外观、其如何适应残留的读物以及观察停止后如何调整精确度。我们实行预算保证的反事实审计,这是一种评价协议,规定公开证据和区域约束必须固定下来,同时只干扰剩余的预算或已取消的任务参数,并用确切的延续价值抵免每段历史。由此产生的会计将损失的预期准确性细分为逐步购置损失a",
+    "a888ab313076f27255d230be5eae1018ab1038457474b01e01d4fe05908402da": "一部新的让-米歇尔·巴斯奎特纪录片认为艺术家在作品背后",
+    "025649883a1539502da766b852552fecccf0fb77bd170e6e52d4121d541f653e": "\"他是令人不快的让-米歇尔·巴斯基亚特。\"",
+    "cf357ea319c8e1b4b4a4dd9cfc974c6702f418c3192e1e72b40bbd59eeb1243b": "每个人都有工具。并非每个人都有诡计。",
+    "3164c896d8ebd76fd879855c3e292e76ec185de1dfa228cc4a9f684c75a283c7": "什么样的滑板历史可以提醒设计师关于工具,复刻和即兴.继续阅读 UX 集体",
+    "6ec68f8313f7077f91ac9092e337ebd616c59888e2c2adf01c293a4a1368d0f1": "在操作中看到 PR 扫描",
+    "713781d57daaea922e16eaa207370f39cd85ad28d0b1013c9d10ca3db441d7cd": "观看公关扫描的走过,看看介绍者如何在拉动请求工作流程中审查扫描结果.",
+    "b56cd7dba8e5f66f12108de1c8709af96445c26575a88ea77409b6fff09fbc21": "部署日出红色",
+    "64d6a37e41fd8af63480ffdf66ad483222fe789a126da63c9b46d12b944a5d66": "探索与 \" 黎明红 \" 一起监督安全调查的参考架构,包括安全控制、设置和监测。",
+    "029dbab7385f7046334b26eafa6f57d47ceec6453704c267e1f0b281f9b41db1": "开始使用 Daybreak 蓝",
+    "5118f6d77c786ac23296429d118cdd4fa21c5c9591cf49d7c77adcb8e554cbfb": "观看登上\"黎明蓝\"的漫步历程,更仔细地观察设定体验和如何开始.",
+    "d9727cc55300167c75c465bf01ca40d8e9f8b5181d2fbc29da4a58d686f7d611": "探索代码安全插件",
+    "b885d48881453aaceb212f5134d29dde90119fc707f8cb608cd0a3a18b5abd73": "观看 Codex 安全插件的演示,并看到从开始到审查录制中显示的结果的工作流程在行动中."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -23726,6 +23738,36 @@
       "image": "https://arxiv.org/html/2611.24867v1/failure_examples.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2611.24867"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-19/": {
+      "checkedAt": "2026-11-20T01:45:08.968220+00:00",
+      "description": "S.Space：你的团队和所有人的 AI 助手，在同一个工作空间里。；Bluedot Phone Calls：电话会议的AI记笔记助手；Toone：Grokbot与n8n/zapier相遇；Waldo by Wherobots：加速工程进程的空间数据AI助手；Dippr：一个为你的代理提供的数据平台，只需一个提示。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-19/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-19/"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2": {
+      "checkedAt": "2026-11-20T01:45:08.968220+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.17 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc2"
+    },
+    "https://openai.com/business/learn/pr-scans-demo": {
+      "checkedAt": "2026-11-20T01:45:08.968220+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/business/learn/deploying-daybreak-red": {
+      "checkedAt": "2026-11-20T01:45:08.968220+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo": {
+      "checkedAt": "2026-11-20T01:45:08.968220+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "https://openai.com/business/learn/codex-security-plugin-demo": {
+      "checkedAt": "2026-11-20T01:45:08.968220+00:00",
+      "error": "HTTP Error 403: Forbidden"
     }
   }
 }
