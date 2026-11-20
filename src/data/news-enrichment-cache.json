@@ -4585,7 +4585,12 @@
     "029dbab7385f7046334b26eafa6f57d47ceec6453704c267e1f0b281f9b41db1": "开始使用 Daybreak 蓝",
     "5118f6d77c786ac23296429d118cdd4fa21c5c9591cf49d7c77adcb8e554cbfb": "观看登上\"黎明蓝\"的漫步历程,更仔细地观察设定体验和如何开始.",
     "d9727cc55300167c75c465bf01ca40d8e9f8b5181d2fbc29da4a58d686f7d611": "探索代码安全插件",
-    "b885d48881453aaceb212f5134d29dde90119fc707f8cb608cd0a3a18b5abd73": "观看 Codex 安全插件的演示,并看到从开始到审查录制中显示的结果的工作流程在行动中."
+    "b885d48881453aaceb212f5134d29dde90119fc707f8cb608cd0a3a18b5abd73": "观看 Codex 安全插件的演示,并看到从开始到审查录制中显示的结果的工作流程在行动中.",
+    "e5156335a7e3d93ade718d53816e2ea076c84b207cb1f37e1b8e231b9ce0edff": "3月宣布(3月1日至3月4日)",
+    "0e34b851bbb13806a6d49c817832932bd6fac635ae5a69a1c346f4299121b66d": "参加2个深入的培训班,教授用户体验最佳设计成功经验.在线现场培训侧重于对UX专业人员的长期技能。2027年3月1日至4日(美洲) 205年3月(亚洲/非盟)。",
+    "f5ad56fdc2d925363deed2e3ba20272c0e2c82f6ed5e631135d5504aa625bfdb": "宣布(2月22日至2月26日)",
+    "c344d434e07340833f124acf36076762e660df3e4828dc0e41d419299cdcd985": "接受5个深入的培训课程,教授用户经验最佳设计成功.课程侧重于UX专业人员的长期技能。2027年2月22日 - 2月26日 (中文(简体) ).",
+    "fa84409040d2fe6f6c5f07903d1da89e5f7e9400c50c54f9d59cd40121c6a92e": "克里斯蒂娜·拉加德:及时行动"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -23768,6 +23773,62 @@
     "https://openai.com/business/learn/codex-security-plugin-demo": {
       "checkedAt": "2026-11-20T01:45:08.968220+00:00",
       "error": "HTTP Error 403: Forbidden"
+    },
+    "https://www.nngroup.com/training/nov-asia-au/": {
+      "checkedAt": "2026-11-20T09:56:44.250592+00:00",
+      "description": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. March 1-4, 2027 (Americas) | March 205 (Asia/AU).",
+      "image": "https://media.nngroup.com/media/events/opengraph_images/Mar_Asia__Event_card.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/training/nov-asia-au/"
+    },
+    "https://www.nngroup.com/training/february/": {
+      "checkedAt": "2026-11-20T09:56:44.250592+00:00",
+      "description": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. February 22 - February 26, 2027.",
+      "image": "https://media.nngroup.com/media/events/opengraph_images/Feb_2226__Event_card.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/training/february/"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html": {
+      "checkedAt": "2026-11-20T09:56:44.250592+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html"
+    },
+    "https://www.ithome.com/1/030/127.htm": {
+      "checkedAt": "2026-11-20T09:56:44.250592+00:00",
+      "description": "这次，他在接受采访时强调：“他们买不买股票根本不重要。我们必须阻止递归自我改进。”",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/030/127.htm"
+    },
+    "https://www.qbitai.com/2026/11/511610.html": {
+      "checkedAt": "2026-11-20T09:56:44.250592+00:00",
+      "description": "国产算力的成熟，把具身竞争维度从「芯片有多强」，拉入了一个比拼训练效率、数据规模、部署成本和场景落地速度的多维战场。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/56b374d526909f3f4de6f9832cd268f6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511610.html"
+    },
+    "https://www.qbitai.com/2026/11/511603.html": {
+      "checkedAt": "2026-11-20T09:56:44.250592+00:00",
+      "description": "11月19日，由微博与新浪新闻联合主办的“新浪新闻·2026探索大会”在北京举办。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/7070d3454124616d97d8863754698335.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511603.html"
+    },
+    "https://www.qbitai.com/2026/11/511582.html": {
+      "checkedAt": "2026-11-20T09:56:44.250592+00:00",
+      "description": "已开源Agnes Harness",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-8.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511582.html"
+    },
+    "https://www.qbitai.com/2026/11/511426.html": {
+      "checkedAt": "2026-11-20T09:56:44.250592+00:00",
+      "description": "一批卡可以轮流服务多家公司，一次适配也能让更多团队受益。算力不必家家从头买，工程上的坑也不用家家重新踩。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/7e6655d04bff2d641865e6cc82e21239.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511426.html"
     }
   }
 }
