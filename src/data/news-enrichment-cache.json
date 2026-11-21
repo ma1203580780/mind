@@ -4685,7 +4685,13 @@
     "d6b65f349a7571414865f1ad6480e84e9ae8b570de425408401cecddb2c55145": "Hebbia认为GPT-6 Astra在金融研究方面有所改进。",
     "f5aa593d91b066b3996837c156cf718d97f2847ca17d8b4a7f683129f1312fcc": "赫比亚测试了GPT-6 Astra进行金融研究.其发布前评价发现,在源覆盖面、引用相关性和列报质量方面有所改进。",
     "a8f95e9d301e520be3a1891ba45e4adb3f2d5802a7662593c4df9d689a998b0b": "欢迎您本地设置的 Inkling 2 Mini, 剪切尖端性能",
-    "f0b5c7efd2cc894a6ec8e58f10ab6af9937e1762cdc7461a35c702b85243ac49": "mlxrunner:使用可观察到的内存头室和执行工作空间,而不是固定的8 GiB津贴,将保存的历史适应内存压力 保留金属前缀历史.当系统压缩增长时释放未使用的缓冲和冷历史,保存可重复使用路径和主动请求.覆盖压力回收,快照所有权,内存观察,以及无缓存请求隔离.地址评论"
+    "f0b5c7efd2cc894a6ec8e58f10ab6af9937e1762cdc7461a35c702b85243ac49": "mlxrunner:使用可观察到的内存头室和执行工作空间,而不是固定的8 GiB津贴,将保存的历史适应内存压力 保留金属前缀历史.当系统压缩增长时释放未使用的缓冲和冷历史,保存可重复使用路径和主动请求.覆盖压力回收,快照所有权,内存观察,以及无缓存请求隔离.地址评论",
+    "5b48ed15676ce159285cda10e9143b2c99a5a60c1cd73b550e45247a45ec17aa": "释放v5.24.0",
+    "4d98c635d4905762e493207567f6b012587c7e4e8b1cf5ac740843e7479c1851": "发布 v5.24.0新模式添加的Inkling 2 Mini Inkling 2 Mini是智机实验室的一种多模式模式,它接受文本和图像输入,生成文本输出.墨林2号小号的弟弟,在v5.230.它有24个解码层,而不是48个,并以一个循环机制进行补偿,其中6至17层运行三次.一个学习到的信息传递机制将先前的剩余部分混入每个循环层的注意力和专家的混合投入中。解码器的藏式尺寸为2304,并且每个符向128位专家中的8位.图像 e",
+    "ea0d7cfb181bc8236a085a135a987598ebb84a5bb1903124cf641fca714090fc": "法官曾经是用户",
+    "c80d1dbb2cbc00f15da29e2c47064f32cdaf1dbaf13bc30cb3b7432004bf1125": "AI粉碎了缓慢的建模中间.曾经定义正确的人也随之而去.继续阅读 UX 集体",
+    "f22e5407e0624100b78e41d4a90b41cc24b64e4a481e66c987d0ba82dd9a7b66": "范围",
+    "79a3d1d6a69a3a783e211e2dacb27bb86827de9b3f93729d05bd571c9912ee34": "问题:检查一个站点的权威通常意味着支付一个重量级的SEO套房,只是为了读取一个DR号码.任何审查者都会将前景联系起来,现在在哪里 域域检查任何网站的域域评分免费,并立即以0-100对数尺度进行.添加您自己的域,它保持一个日常的重新测量趋势历史 而不是单一的吵闹读取。您可以在脚印上嵌入一个活的,有风格的 DR 徽章,浏览一个成长最快域的导板,并探索一个 DR d"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -24283,6 +24289,125 @@
       "image": "https://huggingface.co/blog/assets/inkling2mini/thumbnail.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/inkling2mini"
+    },
+    "https://github.com/huggingface/transformers/releases/tag/v5.24.0": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. - Release Release v5.24.0 · huggingface/transformers",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/huggingface/transformers/releases/tag/v5.24.0"
+    },
+    "https://www.ithome.com/1/030/506.htm": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "当地时间 21 日，韩国总统李在明前往韩国东南部城市蔚山，视察当地一座在建数据中心，并敦促韩国加快在全球 AI 竞赛中的步伐。“全世界都在竞相角逐，速度至关重要。”",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/030/506.htm"
+    },
+    "https://w2solo.com/topics/8748": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8748"
+    },
+    "https://w2solo.com/topics/8747": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8747"
+    },
+    "https://www.ithome.com/1/030/459.htm": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "据《商业内幕》，现年 43 岁、曾与黄仁勋共事三年半的前英伟达 AI 应用软件产品管理总监贾马尔，讲述了自己近距离观察黄仁勋及与其共事的经历。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/030/459.htm"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-21/": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "Saparo：购物灵感：优惠叠加！；Tripmojo：一款智能旅行应用，能够帮助你规划、预订和管理你的旅行。；Docker：为了信任而构建，迎接自主时代；Bookella：一个帮助你提高阅读量的阅读追踪器；Currents：Claude 和 Codex 的当前状态可以查看你所有的测试结果。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-21/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-21/"
+    },
+    "https://w2solo.com/topics/8737": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8737"
+    },
+    "https://www.ithome.com/1/030/421.htm": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "美国参议员罗恩 · 怀登、埃德 · 马基和本 · 卢汉指出，苹果和谷歌未能有效识别或下架用于生成未经当事人同意的裸照或色情图像的应用。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/030/421.htm"
+    },
+    "https://www.ithome.com/1/030/387.htm": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "为防范 AI 辅助作弊，韩国在 2026 年高考期间首次用紧急灾害警报系统提醒考生，累计查处 111 名携带违禁设备的违规考生，相关措施引发社会对考试公平与 AI 滥用的广泛讨论。#韩国高考#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/030/387.htm"
+    },
+    "https://www.ithome.com/1/030/378.htm": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "“大空头”迈克尔 · 伯里在 X 平台发文称：“CoreWeave、Nebius、英伟达，还有半导体股，我都试着提醒过大家。我没让你们做空，但我提供的信息足以让你们决定卖出股票。”",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/030/378.htm"
+    },
+    "https://www.qbitai.com/2026/11/511779.html": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "还实现可变形物体操控全球首通",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-28.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511779.html"
+    },
+    "https://www.qbitai.com/2026/11/511570.html": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "专为本地部署而生",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-25.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511570.html"
+    },
+    "https://www.qbitai.com/2026/11/511757.html": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "还透露了不少训练背后的秘诀",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-26.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511757.html"
+    },
+    "https://www.qbitai.com/2026/11/511740.html": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "8B参数，50小时自主运行",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-4.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511740.html"
+    },
+    "https://www.qbitai.com/2026/11/511727.html": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-9.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511727.html"
+    },
+    "https://www.qbitai.com/2026/11/511722.html": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/241d0b5382ffd75bd293ba3be2701eb6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511722.html"
+    },
+    "https://www.qbitai.com/2026/11/511679.html": {
+      "checkedAt": "2026-11-21T16:06:24.690252+00:00",
+      "description": "联合华为昇腾，五年冲刺十万卡",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/acc5f7fae8ab62ca17aafc57c5deed75.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511679.html"
     }
   }
 }
