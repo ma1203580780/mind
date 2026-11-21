@@ -4667,7 +4667,25 @@
     "2c9983d9e03beb868c810f3e25fe3e8a600237c08a5ec17084c225835000d8dd": "培训后是否改变语文模式代表什么,或如何将这种表述理解为答案?我们比较了线性探测器 和模型自己的答案,用信号检测理论分析,在六个开放量基模型 及其训练后的版本。对于判断德文文本是由人类还是由AI编写,探针和n-gm分类词将各类区分得很好,但答案没有而且常常是反向命令文本.培训后平均降低了答案的敏感性(每个模范家庭为0.34美元;3个家庭为0.29美元)。",
     "4ee68f5f3535a9f9a6469970ff2947e5b91fb151502d647dd2af3f1fda8c439f": "美国医疗目录小组:将AI-Assisted和LLMTransferation与手动数据条目进行规模比较",
     "107bb4d28aa3039df2b25ad79c3b89fe5eec03d1fac61fa30d13b9cd4160b9a8": "机器转录与人工重复输入数据是否一致?我们把1912年和1921年版的《美国医学目录》数字化,这是一份美国医生的国家登记册,在两卷中有大约14万和15万个条目,并将五个机器提取工作流程与一个完整的双重输入手抄本进行比较。与许多历史目录一样,AMD是半结构的而非表格的,因此错误产生于对布局和文本的误读.使用编码代理编写的规则来分析商业 OCR 文本的脚本回收了大约 97% o",
-    "622c7f7991af43f929010aea6f3480ce17adaf4a7c6a25636a0fc7ba7a0c9da3": "引入带带适配器:调整你最喜欢的模型与带带,以提高性能和成本"
+    "622c7f7991af43f929010aea6f3480ce17adaf4a7c6a25636a0fc7ba7a0c9da3": "引入带带适配器:调整你最喜欢的模型与带带,以提高性能和成本",
+    "077b3f4d28ca8ab2cb5fbbc5f0b796405dcda79414595bdfc87ffbeb0e13b283": "墨水2 迷你墨水2 Mini from Thinking Machines是一个26B参数模型,有5.4B活动.它的环绕层使其每个符号的计算量比其大小所暗示的要多,它仍然在大约20GB时适合一个Mac.它处理文字和图像,工具呼叫和思维,在SWE-Bench Verife上得分79.2%.ollama run inkling-2-mini Note: inkling-2-mini仅在此发行版中支持苹果硅.PC支持将在即将发布的版本中跟进.改变的 ollama 启动 Claude 支持 Claude 代码的延迟工具加载,所以 MCP 工具在需要时被加载,而不是一次全部加载 Oll",
+    "9d8317442c2a3a738c7ce0797de6561907592f880070471ab0f9a030592ff650": "v0.40.17-rc4 (韩语).",
+    "854ea1735d55b829fdff1cefa5e9e728d8b96bf1d4954dae3b4c70e9e736049a": "将远程跟踪分支“ 上游/主要” 合并为发布_ v0. 40.17",
+    "100dfaf56b3d0519941e0e406a619bb61c0a603ae77a281e7f0b0aa319789d99": "v0.40.17-rc3 (韩语).",
+    "649958f94fc56082dcb43b3b5459150d7a008da36ec859b97288dd7ddd8676df": "mlxrunner: 添加 Inkling 2 迷你",
+    "3411c63e4a6c554afa79f66af434394792876cadb7ee9e0d10c326c7a07248a8": "AI能从 Raw 用户数据生成良好设计吗 ?",
+    "a560ded1a2b2423c206e1d1d15f935d41543b1ba964db7b0317da081e3f8086b": "在我们的研究中,当AI收到综合的调查结果和建议时,AI生成的设计更好,而不只是用户的原始评论.",
+    "7a22e2feaceef214340bb09e91ebb252fa7467be02aac395a5bad8eb2c4e4c9f": "定性用户研究方法:概述",
+    "8b329013e549a5c0d41e7532bc9338292d2f08fbdd30c85740dba70449464411": "想知道用户为什么挣扎还是需要什么?从选择正确方法开始.以下是最流行的定性UX研究方法中的4种.",
+    "e964d3b9033084a998ea51831d183947bd37c239a822e2db7b5ff9f1ffa8d1df": "美联储宣布 学院美联储挑战获胜",
+    "e63ffb1c8955c3753a9d2bd768abbbcd0de7029e77a88519ebdffab599c36944": "对抗性蒸馏",
+    "ce46a1248e56474dffead2f56eca98bce6282095a7f5ea4e00fd99c5acfaf166": "OpenAI对对抗性蒸馏的分层方法结合了模式训练、保障、检测和执行,以防止能力提取。",
+    "a4e03db1c97ff514cb0ee02413748797f10378153b2b254f774407b7eb4aee2f": "AI能帮助科学家确定有前途的药物候选人吗?",
+    "bc0f98e6d03c0c1052f498427a5a3dc3d50f7a17adbb503cf0fc793e10353e41": "MedChem Bench评价AI模型如何很好地解释分子结构,从实验证据中推理,并在早期药物发现中选择化合物.",
+    "d6b65f349a7571414865f1ad6480e84e9ae8b570de425408401cecddb2c55145": "Hebbia认为GPT-6 Astra在金融研究方面有所改进。",
+    "f5aa593d91b066b3996837c156cf718d97f2847ca17d8b4a7f683129f1312fcc": "赫比亚测试了GPT-6 Astra进行金融研究.其发布前评价发现,在源覆盖面、引用相关性和列报质量方面有所改进。",
+    "a8f95e9d301e520be3a1891ba45e4adb3f2d5802a7662593c4df9d689a998b0b": "欢迎您本地设置的 Inkling 2 Mini, 剪切尖端性能",
+    "f0b5c7efd2cc894a6ec8e58f10ab6af9937e1762cdc7461a35c702b85243ac49": "mlxrunner:使用可观察到的内存头室和执行工作空间,而不是固定的8 GiB津贴,将保存的历史适应内存压力 保留金属前缀历史.当系统压缩增长时释放未使用的缓冲和冷历史,保存可重复使用路径和主动请求.覆盖压力回收,快照所有权,内存观察,以及无缓存请求隔离.地址评论"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -24188,6 +24206,83 @@
       "image": "https://huggingface.co/blog/assets/harness-adapters-at-scale/thumbnail.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/harness-adapters-at-scale"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-20/": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "TestSprite 4.0：修好一件事，却把另一件事弄坏？这个工具能一并检查所有问题。；Verse Engine by Ctruh：一键将Blender、Unity或Unreal连接到实时3D。；Netlify Server：运行WebSocket、多人应用和长时间运行的代理程序；Stripo Email Widgets：在你下封邮件中放入一个游戏、测验或调查，不需要编程。；Adside：一支专门的人工智能团队为您管理付费广告。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-20/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-20/"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.17": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.17 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.17"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.17-rc4 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc4"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.17-rc3 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc3"
+    },
+    "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "In our study, AI-generated designs were better when the AI received synthesized findings and recommendations instead of raw user comments alone.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/Can_AI_Card.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/"
+    },
+    "https://www.nngroup.com/articles/qual-research-methods/": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "Want to know why users struggle or what they need? Start by choosing the right method. Here are 4 of the most popular qualitative UX-research methods.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/Qualitative_User_Research_Card.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/qual-research-methods/"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "The University of California, Los Angeles (UCLA) won the 23rd annual national College Fed Challenge on Friday, a team competition that encourages undergradua",
+      "image": "https://www.federalreserve.gov/photogallery/files/DSC_4840pw.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm"
+    },
+    "https://openai.com/index/combatting-adversarial-distillation": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/index/combatting-adversarial-distillation"
+    },
+    "https://openai.com/index/introducing-medchembench": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/37ZvKdwVigsgJ7G3FMr4Nb/12854063a79d19d63278704bf54e3010/introducing-medchembench-social.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/index/introducing-medchembench"
+    },
+    "https://openai.com/business/customer-stories/hebbia": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/70gWqYyqb096it9EoD7OqI/5df8cad1c7fdf2a4e942c3183a10f405/hebbia-smoked-depth-social.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/business/customer-stories/hebbia"
+    },
+    "https://huggingface.co/blog/inkling2mini": {
+      "checkedAt": "2026-11-21T07:40:00.839607+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/inkling2mini/thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/inkling2mini"
     }
   }
 }
