@@ -4693,7 +4693,15 @@
     "f22e5407e0624100b78e41d4a90b41cc24b64e4a481e66c987d0ba82dd9a7b66": "范围",
     "79a3d1d6a69a3a783e211e2dacb27bb86827de9b3f93729d05bd571c9912ee34": "问题:检查一个站点的权威通常意味着支付一个重量级的SEO套房,只是为了读取一个DR号码.任何审查者都会将前景联系起来,现在在哪里 域域检查任何网站的域域评分免费,并立即以0-100对数尺度进行.添加您自己的域,它保持一个日常的重新测量趋势历史 而不是单一的吵闹读取。您可以在脚印上嵌入一个活的,有风格的 DR 徽章,浏览一个成长最快域的导板,并探索一个 DR d",
     "660505e68443d4a2959f4973e39f98c10abb1ac65fef5c7f3e5c3431312fa1e5": "社区智慧:用多个代理处理上下文切换,提供AI生成的设计反馈,让AI少写AI,",
-    "9845deb1348a2d1df3e8ac0bca21c162758bd8d7a2bba1f72f50f821655acc9b": "社区智慧 306"
+    "9845deb1348a2d1df3e8ac0bca21c162758bd8d7a2bba1f72f50f821655acc9b": "社区智慧 306",
+    "5c8960eeee25d6125ab23088d7ba8b43d977fa9fdcdb4138ccef5b9d6d1126fc": "第一原则:在AI时代做一个伟大的产品经理需要什么?",
+    "1550c0820c4b851160f69a24aa10ef7733dc68c0b5c9e2b88550ab40f2dd5280": "Sherif Mansour讲述了为什么首相在AI时代兴起,艺术家PM的优势,以及为什么初等兵现在是你的秘密武器.",
+    "3c7cc8320d378e047037401b722d125c43c07b7fe34d5a42a6ab3e5b04c6507c": "巨型AI设计被打倒的怪物:幸存者指南",
+    "5f95abe097c719c61295a3236afd320460eb4d05c362b8cf70634c55755a3146": "2026年,AI以不可预测和可怕的方式改造了UX设计 巨型AI设计 sloop monster:幸存者指南.今年9月,我再次在伦敦大学圣乔治市人与计算机交互设计年度会议上发言,题为 \" 对抗机器 \" 。这个故事扩展了我在那次会议上的发言。(此故事所伴随的一些图像由AI生成,包括假产品实例——如图像描述所描述.这就是重点所在。但是,案文是100%。",
+    "bd7d7b728ec48a6d8c060c30bb23bc85f518d06922e7dccfddfd9277f8344157": "原型一直是最有效的规格 特别是人工智能",
+    "de8ac3d3dacbf735e2bf95cb0ccc39214cbd25a273d95aa150c5c02d31cebb24": "会议室内一台笔记本电脑打开工作原型,印刷的所需文件仍然关闭。原型一直是最有效的规格——特别是AI在建造工作版本需要一个下午时,原来在工作之前的文物现在却从中掉出.你团队里有人有这个功能的工作版本, 要求的审查还剩三天。他们是在会议之间建造的,没有提及,因为计划说写出要求,签收,然后建造.然后它降落在斯莱克 换了房间",
+    "ac5f97d86c0b2de1db23b71c350eb3638d880b6fd5ca4d3a80a551530a482f2d": "困惑和智力",
+    "21d56b187770ada5f4074599ef3d2da516c55d478fd4d148072265f86d9f3ff0": "复杂度如何衡量AI模型的进展,以及为什么它能帮助开发者建立评估新兴能力的共同方法."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -24417,6 +24425,94 @@
       "image": "https://i.v2ex.co/wq2q97Krl.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.v2ex.com/t/1258625"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-22/": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "AlterContacts：智能客户关系助手，能够主动思考和行动；AI Context Flow MCP：您掌控的记忆，能够与每个代理、工具和团队保持同步。；Codemany：让GitHub Actions速度提升三倍；Glassmail：一款快速的Mac邮件应用，配备人工智能，始终在您的Mac上运行。；Exa Websets V2：从实时网络中构建自定义数据集，速度提升四倍。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-22/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-22/"
+    },
+    "https://w2solo.com/topics/8733": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "",
+      "image": "https://img.way2solo.com/photo/huhailong/3bf314a6-9551-4997-a0d0-9d7b1fc133eb.png?imageView2/2/w/1920/q/100",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8733"
+    },
+    "https://www.ithome.com/1/030/713.htm": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "“现在的常态是，我们先签署一份带有参考价格的合同，等他们交付时，价格就可能被随意抬高，”另一位知情人士表示。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/030/713.htm"
+    },
+    "https://w2solo.com/topics/8732": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8732"
+    },
+    "https://www.ithome.com/1/030/692.htm": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "阿里 Q2 财报显示闲鱼增长强劲，AI 技术补齐普通用户经营短板，智能定价、自动描述等功能降低交易门槛。过去一年超 150 万用户获稳定收入，服务类订单增长 87%。##闲鱼##阿里巴巴财报##AI电商#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/030/692.htm"
+    },
+    "https://www.qbitai.com/2026/11/511904.html": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "用葡萄糖发电控制血糖。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/c41fa2cf7f7b1ba5b052e7c675e972ef.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511904.html"
+    },
+    "https://www.qbitai.com/2026/11/511870.html": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "error": "<urlopen error _ssl.c:994: The handshake operation timed out>"
+    },
+    "https://openai.com/index/perplexity-and-intelligence": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/index/perplexity-and-intelligence"
+    },
+    "https://www.qbitai.com/2026/11/511855.html": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/8395b4016f6e2cb6f061147e04273fbb.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511855.html"
+    },
+    "https://www.qbitai.com/2026/11/511849.html": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/b0b109d081fa9a8baa15deb024ed7241.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511849.html"
+    },
+    "https://www.qbitai.com/2026/11/511841.html": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/dae6522bf0c9d65f5bd658e6d2de452d.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511841.html"
+    },
+    "https://www.qbitai.com/2026/11/511830.html": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/7ea144798f07bb2eceaabbda6daf18af.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511830.html"
+    },
+    "https://www.qbitai.com/2026/11/511791.html": {
+      "checkedAt": "2026-11-22T18:00:38.839630+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/955ee05b127917e7ddad4fc813509c96.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511791.html"
     }
   }
 }
