@@ -4767,7 +4767,94 @@
     "bec4ccb2f973b89eaca626b7afa71031cf87041b10dbc56252e79ef982e7f10a": "双Tier 感官框架:网络搜索中的可扩展多式 UX 归属",
     "e7a9ac14395345bb468e93ab58e8b3097aaed97c355b0b9591aa52205a49eb64": "在大规模网络搜索中保持用户体验(UX)的质量需要可扩展的评价.传统的勘测速度缓慢并瓶颈地快速A/B测试,而自动化度量衡往往缺乏颗粒性来诊断视觉-空间UX异常.为了解决这个问题,我们引入了双Tier感应框架,这是一个用于自动化UX归属的新型工业架构.第一级(Macro System)起到可伸缩的用户情绪回归探测器的作用,使用微调编码器-解码器LLM(基于双子座XS)的遥测特性.通过多任务正规化和背景特征e",
     "9f156f28ef8c35e4ed8ecc35e060af87bbad2cb52102a7f0c8f122f8c062f7ec": "TEA-Bench-BR:编码代理能把分公司临床规格转换成正确的代码吗?",
-    "e7a20c9e88030f2889c5c6f6fd88ede44069745830052bd1224faa12ccb7a9f9": "编码代理越来越多地执行域专家所写的规则,这种代码中的bug是沉默的:它运行并返回一个可信的答案.我们引入了TEA-Bench-BR,这是在巴西早期自闭症筛查路径(TEA)上建立的基准:三个假仪器,其结构是真实的,是一个多专业的转诊流程,出口到FHIR R4,其国家RNDS简介均用葡萄牙语说明。每个任务参数(144个任务,6,798个隐藏案例)的生成器样本,而隐藏的案例会杀死参考文献中所有1,955个非等同的变种.与Gemma 4为t"
+    "e7a20c9e88030f2889c5c6f6fd88ede44069745830052bd1224faa12ccb7a9f9": "编码代理越来越多地执行域专家所写的规则,这种代码中的bug是沉默的:它运行并返回一个可信的答案.我们引入了TEA-Bench-BR,这是在巴西早期自闭症筛查路径(TEA)上建立的基准:三个假仪器,其结构是真实的,是一个多专业的转诊流程,出口到FHIR R4,其国家RNDS简介均用葡萄牙语说明。每个任务参数(144个任务,6,798个隐藏案例)的生成器样本,而隐藏的案例会杀死参考文献中所有1,955个非等同的变种.与Gemma 4为t",
+    "8836c74b3961ca67e666f8416ae2439c65254d67416f6eb55215421ad6dc1ad4": "(原始内容存档于2017-10-03). Langchain - USN = 1.1.0.",
+    "7506c2b1f7e4858000a8301841be0cc55a6d83767cfeb9c9fc36a4bd6957ac72": "langchain-conomic = = 1.0.1 fix(National): 连续运行集成测试以避免证书文件种族(#42034) 发布(National): 1.1.0 (#41993) 发布(标准测试): 1.2.0 (#41996) feat(伙伴):从伙伴包中删除 EOL'd Python 3.10 (#41268) chore(deps): 补丁 较新的 Python 安全锁分辨率(#41585) 返回:补丁 脆弱集成依赖性(#41481) 构建(deps):补丁 脆弱集成依赖性(#41473)chore(fra): 放松第三方依赖性上限(#41407)core(deps): 2025.8.3至2026.10.19 年/libs/par的ump certifi",
+    "42014b33e37a36f91785a5d93e727a4f18abae199d366cd7662baaa9f1a3e315": "机器人跟踪:用于真实世界机器人操纵的点跟踪",
+    "9d631cf1d2b450805f3757433609c08cb28ae903f9c22bcddad989fe117665ca": "社会倾听:它是什么以及如何在5个步骤中做到这一点",
+    "9abc0f60aecfcf7d21d0995e4a005338aaeb27f3d77f26b7bf243bd059d4f577": "社会倾听会告诉你人们对你品牌的看法,学习如何运作,分5步制定自己的策略.",
+    "73d9b7cdc935a052f39c7db19693a1a94cf67719f644c9951182ae0df7f817b1": "Anthropic 刚刚放弃 4 MASSIVE Claude 特性",
+    "983ff4b5b180de406bf79a5bbb1ad0dfcd008912b289c7cbc9a6de2298325b94": "Anthropic最近为Claude Code增加了一套主要的新功能,改变了它的运作方式.在 UX 星球上继续读取 。“",
+    "8153f4332ccedc79f6b0be3e95d513e4913a81bb787c0bc7765b0af543408dc4": "跳舞进入周 与全手画动画奥赛人",
+    "6398f67068d75ac00fd9b7b6e4f43acd4a99b5d34335d7405331ae05c2103a35": "穿上你的裤子",
+    "37dd6ac41da5d31b644797d4f73bf93b0cc4c635558449ac2dfda754c143af77": "飞利浦 R.莱恩:气候变化与货币政策",
+    "b73eac39fe2f53f8f88ba7a1188d0ff7bea05872df93d743452d19624ec6bbd8": "连锁消防队 = 1.8.",
+    "db365c1d93169ae998d2409766d37dcf526e8ef7ebf8ca6b6a6b85f7bc4051c8": "langchain-fireworks == 1.7.3 测试(fireworks):替换已退役的无服务器测试模型(#42032) 发布(fireworks): 1.8.0 (#42000) 发布(标准测试): 1.2.0 (#41996) chore(langhine):要求lang 1.2.16 或更新(#41959) chore(model-profiles):刷新模型配置数据(#41861) fat(partners):从伙伴包中移除 EOL'd Python 3.10 (#41268)",
+    "65caa22b7731615cd8a234210e88b594ecbf7c7a15a615d8209491f62706e885": "决策剧场,Human.MD, 研究人员的价值是什么",
+    "e8dc8df6c1591d52ddf70234914506ea0afaa7962ced6858fb285853423e2813": "每周为设计者——思想家和制造者——提供资源。“与机器接合没有内在的摩擦。它毫不犹豫。它只是回答问题。它不寻找正确的词, 或想知道问题将如何落地, 或准备如何得到答案。它只是回应。 “犹豫不决的纪律 ” 。 “ 16个小UI设计小提示 ” ,这些小提示产生了很大的影响。 [赞助]你的设计被关闭了,但你不知道为什么。这种对真实的应用屏幕的逐步重新设计,显示了通常导致它出现的16个小细节,以及具体如何修复每个细节.编辑选择AI是新旧",
+    "22d35ef342410c3fbb135ad684eab20aa616c93a1b29407c99d1e87567f7d1f7": "欧洲央行扩大对基于DLT的资产作为合格欧洲系统抵押品的接受范围",
+    "c71c38d707cf79f590d7475a7b43f1a09a0c72b6c075a65f342c87bbc1f03a0c": "(原始内容存档于2017-09-22). Langchain-exa = 1.2.0",
+    "3887e11fbaa7ee7290d542d6d47a4d59625dc4ab4637e7f29ab8139dfc38955f": "langchain-exa ==1.1.0 fix(exa): 停止在整合测试(#42031)中坚持已删除的突触_积分(exa): 1.2.0(#41990) 释放(标准测试): 1.2.0(#41996) feat(伙伴):从伙伴包中移除EOL'd Python 3.10(#41268) chore(infra): 放松第三方依赖的上限(#41407) chore(deps): 2025.8.3至2026.10.19在/libs/partners/exa(#41388)中凸起 certifi.19 固定一些伙伴包中的依赖(#41266)chore(deps): urlib3从一些伙伴包中固定依赖(des):2.7.0至2.8.0 in/libs/partners/exa(# 40961)chore(deps):偶联从4.11.0到4.1.4.2",
+    "bff9ad23f8c41e36f1a2aac41a60c35c264722a144ee95527ce9180aab829b4c": "(原始内容存档于2019-09-22). Langchain-chroma = 1.2.0",
+    "2a9894a184bf2312d5e058009fe59b67da327de6940cad7f8ace635922e7eb75": "(原始内容存档于2019-03-0). Langchain-qdrant = 1.2.0",
+    "177b2b556c72a510de50b98bbb26f7e37c946f5aa30314866d756c724decd036": "自 langchain-qdrant == 1.1.0 发布(qdrant): 1.2.0 (# 41992) 发布(标准测试): 1.2.0 (# 41996) chore(deps):在 /libs/partners/qdrant (# 41835) feat(partners):从伙伴包中移除 EOL'd Python 3.10 (# 41268) chore(deps): 补丁新平通安全锁解析(# 41585) 返回: 补丁脆弱整合依赖(# 41481) 构建(deps): 补丁脆弱整合依赖(# 41473)chore(infra): 放松第三方依赖上限(# 41407)crore(deps):2025.8.3至2026.10.19年/libs/pa的ump certifi",
+    "21750cec53ddeb940ade7d2d7db5938667554c7fcb643c3bb7176bdc6b912b8b": "周一早晨事件:你的“主要路线”工作流程停止了路线",
+    "bb6353d56047c7bbb9a9e082b80de6c7128870f416aa88903098162c29af12f4": "N8n的访问控制如何帮助:项目和角色、SSO和2FA执行。每个人在不同的时间点阻止事件发生.",
+    "888199c689335f625231730d2ceb0b64743a77f26a606fc3c3c682ccb2ed92e2": "内部法律情报连接",
+    "03a607e9d4cc867c1f74ae089f6a742240f33072d7bb55a8316eb2558409f15d": "关注OpenAI的Stacey Wang和Craig Bruney,LECG的Mary O'Carroll,以及Cooley的Richard Segal探索AI如何帮助内部法律团队连接业务环境,构建可重复使用的工作流程,并从外部顾问那里获得更多.",
+    "71c06fc77f89b1d57bdbdb8513de01494f11d5d68ec80aba2e3b82466f655c65": "光谱解码比你想的少",
+    "2281234f4b287c50b86eb60b665663ebb49c947ba645fadbaf9b6d33ff0da49e": "光谱解码通过在目标模型生成前准备候选续作来加速语言模型推论.其效率取决于有限的起草计算对目标实际将遵循的道路的预测。预见这条路径涉及到两个不确定的来源:目标模型的预测和随机抽样.然而,前者要求有目标模式前传,而后者在起草之前可以固定。基于这一观察,我们引入了DICE(Draw-Informed Conference Choice),预选并同步Veri.",
+    "2b41e2e92007cf47edce7d166b8f407fb7e51c075762a4df7aa9edbe86dd3cde": "Lesion Agent:无训练剂肿瘤跟踪和纵向反应评估",
+    "ece29180199816617ff660a914a37d08f41069611f60d405432e219675996531": "每几个月,一个癌症患者的CT扫描会决定是否继续治疗.3D基础模型现在可以检测,分解,记录和跟踪损伤,然而没有一个模型像放射学家一样读取扫描.放射科医生决定哪些是损伤,哪些是几个月后同样的损伤,以及一个新的斑点是否意味着进展,并根据临床指南的广泛规则检查每一项决定。我们介绍LesionAgent,一个LLM代理 完成这个读端到结束不进行特定任务的培训。它使用冷冻的3D模型作为工具,通过坐标带进行3D操作",
+    "1aa125c266fb55c8628912e840fd2200597c791114a1d5ce156386ceba2961ea": "Beyond Visual Fieldity:比较分类和连续世界模式",
+    "c65df8102c8a38bb4878e93301e99632deec4ba18f9cb3259564c3e7313ae5b2": "视觉世界模型现在可以产生令人信服的交互世界,但视觉现实主义并不能保证忠实的动态.我们系统地比较了在下一代和迭代式整体框架生成中,绝对和连续的预测形状是如何学习动态的。这些选择往往被捆绑在自动折射符模型和全帧流匹配等方法中.我们设计控制2D和3D环境,并评价动态有效性,校准,以及视觉质量.在2D无损失视觉编码中,绝对模型以更少的trai实现更高的推出有效性",
+    "fbb68d87ed05805e31a96a5acb75c23964ccb91a1b27de83eb43b1c776a4df84": "将基因人工智能与学习风格模式:机会、挑战和未来方向相结合",
+    "ee10724378b70b818d452cda7a03d49f8dd80a575832e898088bd1a68862e765": "基因人工智能(英语:Generative artifical Intelligence)(Generative AI)作为转变学习的强大工具而出现.本评论研究了如何将Generative AI与既定的学习风格模式(VARK,Kolb,Felder-Silverman,以及Honey& Mumford)融合,以支持学生参与大型在线课程.遵循PRISMA 2020指南,我们搜索了Scopus,IEEEXplore,以及Google Scholar (2015–2026),并包括符合资格标准的41项研究.审阅地图显示 Generative AI 能力到学习风格偏好, 综合现有执行, 突出 Benef",
+    "77d108ba4e5823558fe7183ed37ca88dc4838256a4b718a43484d49fe456550a": "SLIR:战略逻辑指导多机构强化学习",
+    "a42b62837dc37879d9d39732c8575c73baa51a350b722a30da8c755a120e1598": "规格制导的强化学习(RL)将代理者理想行为的正式规格转化为成形的奖励.本文介绍了SLICR,这是一个重要的范式转变,在部分可观察性条件下,在对抗性环境下将技术水平提升到规格制导的RL.我们采用战略逻辑(SL),它允许对代理商的战略进行明确的量化,并利用线性时间逻辑(LTL)来规定代理商的目标和限制.这样做不仅可以说明代理人应如何采取行动满足规格要求,而且还可以说明代理人如何满足规格要求。",
+    "19fcb9cb68409416a9a2325f484e03a5fc1863c7acc9f0a7725bf7c2342e0802": "谁给探员分级?编码代理权分离基准",
+    "ae65c9725d0efd0f63cea10322feff08c8e5fee68e96ec2586fe9b08934d85d4": "基于AI的编码代理的基准是当前AI环境的主线,因为它们是衡量LLMs性能的主要途径.他们的分数指导着商业和研究决策.评价编码代理人具有挑战性,因为他们能够操纵其评价基础设施,人为地取得更好的分数。渐渐的代理解决方案往往需要运行其代码,然后可以操纵评价过程.自动基准审计员Benach Jack最近在10个大众代理基准中的9个基准上达到近乎完美的分数,实际上没有Solvi",
+    "34598ccc48d914c653e40fdd6c6d86adeb408cc23e77568e2da81c95dcb037c4": "Beyond Self-Critic:多剂研究验证的Epistemic Convertion控制",
+    "f277f3daa10117865bd85b639d0032f826661db18a9f50391a645ccd5e995f8b": "科学索赔核查的多剂系统越来越依赖作用结构的LLM辩论来测试压力假设。然而,当辩论代理人从同一个基础模型中即时化时,他们有着相同的潜在表述,使得自律偏见在结构上是不可避免的.静态固定喷射协议使这种情况更为复杂,要么在证据稳定之前过早停止,要么在汇合后浪费推论。我们提出\\sys \\ sys\\,一个多代理研究核查框架,解决两种故障模式。首先,我们介绍一种不对称的罗尔",
+    "9cbd51bf315422b700c3fa410da144b877357ad57b3a6afad27ee220b6e53f61": "可审计的财务知识图:Schema-Driven建筑和内在质量评价",
+    "90f910c79f874f2a4957e25ec87eb7829c273645ff07a245af63d828447c1298": "财务文件将叙述性披露、会计衡量标准、机构结构、管理评注和时间依赖的事实结合起来,使它们难以使用传统的块式检索生成系统来表示。本文件介绍了一种可审计、有计划驱动的方法,用以从使用通用文件情报服务解析的页数限制文件中绘制时间性财务知识图表。重叠文档窗口将分阶段进行结构实体的大型语言模型提取、定量观测和特定域",
+    "874fb3308a61f1c3c04f8cc552113dd83029cfb545a079571129d6f96436cd81": "DistDNA: Stochastic 解码下的语言模型指纹",
+    "94717fbde3c18048e6cd92324577167fcdd4a6e242fd3e5816f9b09d454b76bd": "行为指纹从其对一组共享的提示的回复中识别出一个大语言模型(LLM),使应用程序如核实一个部署的模型是否与其声称的检查点对应.然而,部署的模型通常使用有条理的解码,根据这种解码,同一模型可能会根据未知的温度和最高的美元p$设置,对一个相同的提示产生不同的响应。LLMDNA等现有表述对这一变异提供了有限的处理.一种自然的补救办法是用其反应分布来描述模型的特征。",
+    "303a3f20f6500ceff5065d092c53506959d724288157295b3c0cfccf7e16252e": "通过图形-软件扩散模型生成信号",
+    "7244c500f5053c917be519f8cb606658347c7446c9bfce063df72ea1f28e760f": "许多信号在图表的节点上被定义,例如道路传感器的流量或用户购买相关产品.它们往往被部分地观察到,了解它们的分布可以估算缺失的值并预测未来的值。扩散模型学习这种分布,但其前置噪声是独立的跨节点,不依赖于图.我们引入图感扩散(GAD),其前进过程是高斯噪音驱动的图上的热扩散.在图Fourier基础中,前向过渡是每个频率的Scalar Gaussian通道",
+    "4082d6c05eb6f03a617864c367f45f94aad6814adc7171f0c1d3fc592cc941ce": "重新设计神经网络,使其不会被怀疑是错误的,即使是强烈的反面攻击",
+    "f04368d7e461f35b46e31ddd275f2e9a2d823910c4ea488c4325e32013aae331": "早期的深层学习模型试图利用一种在两类层间交替的神经结构来模拟视觉感知:一种是仿制皮质简单细胞(旨在增加选择性),另一种是仿制皮质复合细胞(旨在增加耐受性).我们显示,这种神经网络架构,如果采用新颖的组件,更能学习选择性和宽容的表达方式,就能够准确而有力地进行图像分类,并改进模型行为与感知的机理的结合。",
+    "c47f020ea296d8f7e1b1e5e83c8dd1a49cfac0e3623aa928334d8c73dbbab916": "SLP-Bench:评价和改进临床演讲中理性音频语言模型的音响要求",
+    "b332876fdce7cdc6b39da452372d9d6d5531110354d015b69c2fe8306cb17fe1": "音频语言模型(ALMs)可以从语音中解答临床问题,在手工声学特征上构建的优异基线.理性ALMs在预言前产生一个连锁思想,指说话者语音的属性.需要对照临床医生对同一录音的感知性评分,在临床演讲上,现有的评价只得最后的答案.我们介绍语言病理学家座席(SLP-Bench),这是根据临床医生的观念,在思维链中对每个声学主张进行分级的基准。",
+    "502b5c9338f6a8f234361a4bbadfa68cf08c656e022fffaf4a09c14100648eee": "$\\matht{ DistP} $: 以零同步超参数传输方式放大本地更新培训",
+    "86f03c9ab2eeeb84499285cd436064b6c8d36a017b4abfb0d01bb92a19b9b057": "本地更新方法为分布式数据并行化(\\matht{DDP}$)提供了一个通信效率高的替代方案,但采用了额外的超参数,需要昂贵的调制.对于$\\matht{DDP}$,零发超参数传输通过重用调制小模型的设置来降低这一成本,但其对本地更新培训的适用性仍然不清楚.我们提议 $\\matht{DistP} $,一个理论框架从 $\\matht{DDP} $ 扩展到本地更新训练,平均是外部优化器,$",
+    "621b7f081c53d3ce0f171ef0f7206d4cb46d09bed032700e14603d4163fd1fb6": "评估使用大语言模型进行零热多语言感知分析的快速战略",
+    "d60ad69b56c520eb1e07672c1d601ec32fcaabdecd219788c3e5937853d66a00": "虽然大型语言模型(LLMS)已提升了自然语言理解能力,但它们在零镜头多语种环境中进行复杂的目标-示意图-感应检测(TASD)的能力仍然没有得到充分利用,这是基于方面情绪分析(ABSA)中的一项关键任务.现有的ABSA研究主要以英语为主,或依赖经过微调的任务特定模型,在理解开放量的LLMS如何处理跨越不同语言家庭和领域的复合情绪三重提取方面留下空白.我们提出一个系统评价 零镜头多语种 TASD 跨越12 lan",
+    "8c2a28d116fa63290c8c18485634e031a5c00aef559f2f5131ccc1f01c88e0ad": "ChildAI-Gov:一个证据链接的AI系统,用于评估针对儿童数字权利的政策",
+    "11d836bdd130d0c42acb301d7c48623f33234ee17b2a3be7b4a985dbb8fa3d09": "我们介绍ChildAI-Gov,这是评估教育技术政策是否尊重儿童数字权利的可解释的人工智能系统。基因人工智能对儿童教育的普及速度快于其治理速度,但检查侵犯儿童权利的工具仍然是人工的、依赖专家的和缓慢的。我们提出儿童权利影响评分(CRIS),这是在安全、隐私、透明度、自主和不歧视等五个方面的一项与证据相关的措施。ChildAI-Gov读取EdTech工具的隐私或AI政策,",
+    "da10b03a11d2d390bc31adf0bca4f03a387ef34665fe2111e5e4eacf2ac81807": "神经防护ARCAS 290M:AI-Generated音频检测的强大基础模型",
+    "2bc7abc29cfb6e1ae569a00ce031123d88e9a8b183f41fa5adebfb2d66632a30": "语音克隆现在只需要几秒钟的音频,而调制到一个数据集的探测器在生成器、频道或语言变化时往往会失败。我们引进了ARCAS 290M, 神经防护的检测AI生成音频的基础模型.单一的冷冻生产模式,不进行具体基准的微调,对文本对语音,语音转换,以及编码语言模式生成器,电话和蓝牙通道,记录条件,语言等进行概括.我们通过十项公共基准的完全正式测试来评价它, 评分所有记录都与公布的一样,",
+    "3771c46f49583963f09d75940c76a17f6648de6d209b062f286f4dac741115a1": "面向开放的一套电子设备缉获类型分类的基准议定书和公平性分析",
+    "884700baa20287c87bf3821fdd00af657ea17c43e49872b4d487ee481b6fae70": "电子设备自动化缉获类型分类系统通常在封闭式假设下进行训练和评价,在这种假设下,部署时遇到的所有缉获类型都出现在培训期间。在临床实践中,这种假设失败了:在训练标签空间之外出现有罕见或非典型的抓取型的患者,强迫错误标签的系统比弃权者更糟糕.在坦普尔大学医院查封公司(TUSZ v2.0.3)上,我们引入了第一个EEG查封类型分类的开放式识别协议,确定了已知和未知的类别。",
+    "12f5b020956432636395599b9b7f1d9809e48b30614dacb989f2f6b6e875024a": "搜索-RSI:沿着多式联运代理商的能力边界扩大搜索世界",
+    "c082c6a9f9d025be12b7fbfb44acd846502ea2986475d569f91b306120fae3f5": "多式联运搜索人员通过在检索的证据中定位来回答知识密集的视觉问题,最近的食谱对他们进行多跳任务的培训,这些任务是从知识图表中合成的,并在网上发展,以跟上代理的速度。然而,这些配方将可搜索世界视为固定的:一个新的问题可以很好地形成和可核查,而其证据却在检索后端中缺失,因此代理商发出正确的查询,没有检索到任何东西,并且受到处罚,仿佛其政策有错一样.这种无法达到的负数随着每一轮增长而累积。我们提议海",
+    "d71cac14dea71338adf644f78ae3ba4795ebfe4b1eb2c231729406573ae47ddd": "QuASAR:建立科学计算方面的LLM-Asssociated 框架,用于筛选、原型制作和评估量子-优势机会",
+    "6bc90123d4e5db9335e717523cbfa9a966bca1f3491dd8610558a8140bc37085": "识别能够从量子算法中受益的科学计算,既需要域知识,也需要量子算法设计的流畅度,这些专业知识很少存在于一个人身上.我们报告QuASAR的结果,这是一个实验性的、双剂的、LLM驱动的管道,旨在弥合这一差距。一个代理人用一个合理的量子算术模拟来筛选计算内核的科学文献,并提出候选人,每个候选人都有引用支持。第二代理独立核实这些引用。对于在验证中幸存下来的候选人来说,它重建了源的折合物",
+    "54b290cf49d3063e8c5a6aaf2214b46d8fef2c57e3c080abbe25d9ba8be9619e": "提高高度关注度",
+    "d1481ad8a56d7af8031b6da6051429f7df5bc78d8aa7ff1a5f4db8698d22e281": "目前的解码器大语言模型依赖于注意力,饲料前层和残余层的结合.使用的注意是自动递减的(AR),但正如我们所指出,这并非完全正确。这促使人们采用其他关注方法,虽然这些方法并非严格意义上的AR,但可增强AR的特性。一种是将相互信息分解成一组有条件的MIs(CMI),将密钥符与对对查询符联系起来.第二,更高排序的注意,引入了毗连密钥和查询符之间的关联.第三个引入关联性",
+    "3d8b371a65a7df0a1ff2426bebd6e4964481b1d99cce2300c941c642fb9361b2": "从小说组合到信息缺失:结构许可、交流机会和语言学习选择",
+    "aa1880af3204cba6841cfe80969adf7ebc151adebe1cc9316bc7ac992237d321": "语言学习者必须推断哪些新表达方式在语法上是许可的,如果持续缺席是不利于他们的证据。我们的基因论通过反事实表达机会,把这些能力联合起来,把言论的产生分解为结构允许,交流机会,并形成选择.首先,共享预测续作恢复结构允许在30个人工语法(120句之后的mean AUC 0.945)中进行看不见的词构配对.第二,在等级不确定的情况下,我们得出一项联合证据法,将不作为与不作为联系起来。",
+    "c946e83971ce43c8294e6318a3140eddc0b6332c82c3a7f0c181da146aca6da0": "RoSci:探索科学的强性VLM",
+    "d8f8c4940590a4e62237755e26b83c81de53e8ae8b252e0bcda8b908de6a88fb": "远景-语言模型(VLMs)最近的进步使得科学任务能够取得重大进展。然而,一般认为这些模型提供了完整准确的信息,忽略了野生情景中错误/缺失信息的挑战.为了弥补这一差距,我们提出了科学模型强健性的概念,它定义了模型在面对信息错误(不一致)或信息损失(不足)时检测异常,评估溶解性,并进行自我校准的能力.具体来说,我们介绍RoSci-Bench,一个诊断",
+    "90ac43e7dc9c85e31421c602cc949ea0ce2948c8bf25f7dec17cb136cc6bceba": "人类-AI团队的共同理解:不断发展的工作的连续性",
+    "b7aecedf47a51c6981f6f9e738f11f9aa28bb8cbd5f1e6bacfdc608a3f3ee3ae": "人们越来越多地与AI代理合作,作为扩展,同步工作流程的一部分.在这些情况下,共享信息不能保证行动的共同基础:目标、计划和作用可能继续存在,而其目前的意义却在变化。我们引入了协调的连续性,即合作者在工作进展过程中维持相互依存行动的可行基础的程度。我们利用关于协作工作的研究,以及两个质量小组的研究和我们基于储存库的环境的一个反射案例,提出了一个由三个要素组成的框架:dura",
+    "c5b08d22885fa9251573fcb1b573a3ab9e3fcc178e938714332148b656247359": "视觉-语言模型合成可执行的游戏-播放程序可以吗?",
+    "dc073269f75c7c9db49e83540ef3ed0edbd2b3767119f8869a3cd2eb4273b895": "视觉语言模型(VLMs)的近期进步赋予了多式联运代理商越来越强的视觉感知和长视距推理能力,使得基于VLM的自主游戏游戏变得可行.现有的游戏基准主要评价一个代理商是否能够从不同情景和游戏的当前视觉状态中选择适当的动作.然而,它们大多采用一步步的交互范式,即当前视觉观察在每次动作前发送给代理人.在实际部署中,这一模式提出了两个基本限制:",
+    "9378519879fe151d3f4f73943f1e64d4a56f8509aa34b297b2d322cfd0306cd3": "通过请求- 本地调试执行的平均深度变量",
+    "667ec859f8e3366bd3bb44c418778249ed1554be9df0ab055fbb435cc7319cd3": "跳过层可以降低大型语言模型推断成本,但请求预算没有指定如何在生成的符号之间分配层执行.我们引入\\method \\mathod\\\\\\\\\\ 允许符号执行不同数量层,同时将每个请求的平均执行深度匹配为连续的预算 。在每个路由层上,一个路由器会读取当前符号状态及其请求的预算,并决定是否执行变形器块.跳过块的托肯通过一个轻量级的剩余适配器,并在该层写无密钥/值(K/V)条目.单一检查站",
+    "db1c81217d4bf373fd9e8737567d3cd2b881f48e39c0d76686ab725580e9bcb3": "AutoOntology Bench: 代理知识工程任务组合基准",
+    "f19f3d6c6e226cbb40d077c42b81d603a30259b94153305a0eb4e01308cc0a69": "基金会的模型代理人正在越来越多地超越软件工程(SWE),进入自主的科学研究,在那里获取和整合域知识仍然是一个关键的挑战.最近的工业进步越来越多地采用知识图表和基于肿瘤的语义层,将各种知识组织成可重复使用的表述。我们问:自主的代理人能否构建有助于他们解决真正任务的本体学,它们是否比其他知识表述提供可衡量的好处?现有基准评价本体学正确性或代理性ta",
+    "88f772eb943bf551b5a6c2513542d0830a9c15ba7aa1f13615a3d016538c7a39": "根据车辆摄像头和透视校正对破伤风进行定量测量",
+    "aef98a2966bfa110222589df6b4d482c94b9707a92e4813725150f7277558636": "使用图像数据正在成为高速公路机构自动评估人行道条件的重要方法.然而,大多数研究侧重于提高检测准确性,而不是获得定量测量,如人行道困难的长度或面积.虽然现场照相机校准可以提供这种测量,但对从不同车辆收集的大量机载图像来说是不切实际的。这项研究开发出一种方法,在不进行现场照相机校准的情况下,用车辆内照相机图像直接测量人行道困难。四边形区域",
+    "e4d483fa4d2164fa683a5f5c92d32808c8759fc08a2ec3463eab2b21aad4d093": "Beyond Math, Code, and Logic: 理性模型向科学论证转移吗?.",
+    "1c2983be53e63da18397beb510b9fb8109b6be17bcc59c9543c887913d1aa734": "科学论述取决于论证性推理:确定主张,评价证据,构建连贯的对策.虽然最近在推理能力语言模型方面的进步显示出在数学、编码和逻辑基准方面的有力表现,但它们进行科学论证的能力仍然不明确。我们提出对语言模式的第一次系统评估,涉及7项任务,涉及论证、辩驳生成以及利用研究论文、同行评审和赠款提案进行讨论的推理。我们的研究显示,即使是前卫",
+    "fca347701f4063ae98bf2059f95dd174967a5afb335264f2cb6d3e6ab432740a": "多种语言情感分类决定模式:对照LLMS和编码器进行比较研究",
+    "3bba45a4fc3ceec529e587d976efae4026811fc334c1b35873159d16090064f9": "决策模型收到一个问题,有一个封闭的答案清单,并返回每个答案的概率而不是自由文本.它们保证低延迟和稳健,以迅速措辞,但没有一项研究将其中若干项与各种语言的微调编码器进行比较。我们问,未经培训而使用的数据(零射)系统是否可以取代微调,决定格式在通用大语言模型(LLM)上增加什么。我们比较了三种决定模式(Jev、OpenAI决定书、Strands决定书2B)和两种LLM(GPT-6 Luna、Quen3.5-2B),根据意大利的指示,",
+    "64f84e5749791ef7d4471c02f5049c0625d1d9e95ee84542404298c1db28acf4": "可恢复符号,不稳定执行:可视状态跟踪中审计内部路径和决定身份",
+    "6e882c28ddde4abb4d0394b537c8d8cd35c8e2c2f9af9a859810eda819aac040": "视觉特征可以保留任务需要的每一个符号,而在其上构建的模型在图像的无关部分改变时仍然会改变它的答案.我们研究视觉状态跟踪的这一漏洞,即一个经常性的执行器通过一个被冻结的ViT编码器读取一个符号瓦片的序列,并决定显示的候选人是否等于最终状态.我们的诊断结果将每个输入与捐赠方的视图对齐, 保存每个被询问的瓷砖,用符号监督的解码器检查整个符号链可以从两个特征序列中恢复, 并互换单个内部通道 相同的适切",
+    "0e8a77ef75657e51204b6443cd61c5de1f3b419ff86a4617f7e2f4cd5047757c": "如何建立和维持代理评价",
+    "33e61bba7dc33574e5692ddc7cb38d44a5874389a85fbdabea01635c922ef0ed": "随机饱和设计被广泛用于研究集群人群的外溢效应.在这些设计中,集群首先被分配到处理饱和水平,然后根据指定的饱和度在集群内随机划分单位.本文在外溢分析中自然产生的若干空假说下,为此类实验发展随机化测试.我们首先在两个饱和度水平上比较每个单位的未处理潜在结果: 部分尖锐的无效值要求每个单位的零溢出值,而边框的无效值则强制要求预先指定的上方的bou",
+    "8d2b3e4e3115a801e5d540703d7bdc9fe6a5d8b2ae23cc734b9b8113c88ced8b": "我们研究无限差异体系中的高概率线性回归,其中回归噪声对于一些未知的美元(1,2)来说,只有一定的有条件的 $/alpha$-moment $/nu$,而共变量可能只有有限的时间,直到给定的顺序(如第4分钟).我们给出一个黑箱减法,将有限的变异回归程序转化为弱运动程序.减法以经验性余脉冲为主,可知至时,噪声尺度,共变,设计瞬间.在共变物的有限第四动量条件下,任何"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -24785,6 +24872,359 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://arxiv.org/html/2611.27895"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-nomic%3D%3D1.1.0": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-nomic%3D%3D1.1.0"
+    },
+    "https://huggingface.co/blog/allenai/robotrack": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "A Blog post by Ai2 on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/0KlbITzhyUGtGPyvi09um.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/allenai/robotrack"
+    },
+    "https://w2solo.com/topics/8757": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8757"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261123~b5816801a0.en.pdf": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "error": "Not HTML"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.8.0": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.8.0"
+    },
+    "https://w2solo.com/topics/8756": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8756"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-exa%3D%3D1.2.0": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-exa%3D%3D1.2.0"
+    },
+    "https://w2solo.com/topics/8755": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8755"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-chroma%3D%3D1.2.0": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-chroma%3D%3D1.2.0"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-23/": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "Yoroll：创建可玩的故事，无需游戏引擎；Rankhog：自动化获取来自Reddit的客户；Resurf：个人知识库与书签管理器（适用于Mac）；Daymaker：礼物如此贴心，客户主动来开会。；oovi：您桌面上的专属AI团队",
+      "image": "https://decohack.com/producthunt-daily-2026-11-23/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-23/"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-qdrant%3D%3D1.2.0": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-qdrant%3D%3D1.2.0"
+    },
+    "https://www.qbitai.com/2026/11/512195.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "零Token成本，断网也能自由Vibe Coding",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/f20f2548563133a042909be60f94ea89.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512195.html"
+    },
+    "https://www.qbitai.com/2026/11/512179.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/c747d9ffd53c45179514dca959348141.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512179.html"
+    },
+    "https://openai.com/business/learn/connected-intelligence-for-in-house-legal": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/40q0vnGDp1zwWuJrVjXtu6/79ebb13b84e11ce1711a27adfd6ffafe/connected-intelligence-for-in-house-legal-cover.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+    },
+    "https://www.qbitai.com/2026/11/512017.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "阿福大升级：让模型像医生一样思考",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/1055d07afaa79517a5ff2641a642f3eb.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512017.html"
+    },
+    "https://www.qbitai.com/2026/11/512004.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "一个完全由AI组成的科学家社会，是什么样？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/9f36ee40233b164f3ffe1446fe563377.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512004.html"
+    },
+    "https://arxiv.org/abs/2611.27891": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27891"
+    },
+    "https://arxiv.org/abs/2611.27876": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27876v1/framework_v3.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27876"
+    },
+    "https://arxiv.org/abs/2611.27870": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27870v1/model_architectures_four_colors.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27870"
+    },
+    "https://arxiv.org/abs/2611.27868": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.27865": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27865v1/SLICR-overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27865"
+    },
+    "https://arxiv.org/abs/2611.27860": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27860"
+    },
+    "https://arxiv.org/abs/2611.27839": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27839v1/figures/architecture.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27839"
+    },
+    "https://arxiv.org/abs/2611.27835": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27835"
+    },
+    "https://arxiv.org/abs/2611.27831": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27831v1/main_svm_confusion.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27831"
+    },
+    "https://arxiv.org/abs/2611.27826": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27826"
+    },
+    "https://arxiv.org/abs/2611.27811": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27811",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27811"
+    },
+    "https://arxiv.org/abs/2611.27810": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27810"
+    },
+    "https://arxiv.org/abs/2611.27808": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.27807": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27807"
+    },
+    "https://arxiv.org/abs/2611.27799": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27799"
+    },
+    "https://arxiv.org/abs/2611.27784": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27784"
+    },
+    "https://arxiv.org/abs/2611.27783": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27783"
+    },
+    "https://arxiv.org/abs/2611.27780": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27780v1/intro-motivation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27780"
+    },
+    "https://arxiv.org/abs/2611.27778": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.27764": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.27762": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27762v1/Figure4.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27762"
+    },
+    "https://arxiv.org/abs/2611.27750": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27750v1/moti.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27750"
+    },
+    "https://arxiv.org/abs/2611.27746": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://arxiv.org/abs/2611.27741": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27741v1/script_fig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27741"
+    },
+    "https://arxiv.org/abs/2611.27738": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27738v1/figures/logit_len/llama3.1/omega_0p70_prompt_00000_heatmap.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27738"
+    },
+    "https://arxiv.org/abs/2611.27734": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27734v1/overview_main.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27734"
+    },
+    "https://arxiv.org/abs/2611.27728": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27728v1/media/image2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27728"
+    },
+    "https://arxiv.org/abs/2611.27722": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27722v1/figure1_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27722"
+    },
+    "https://arxiv.org/abs/2611.27721": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.27721"
+    },
+    "https://arxiv.org/abs/2611.27715": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.27715v1/arxiv_wide_paired_examples.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.27715"
+    },
+    "https://www.qbitai.com/2026/11/511998.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "阿福App宣布新一轮升级，解锁越来越多健康服务新本领",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/e998fdc3c6207ea74bfb178443e07c1f.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511998.html"
+    },
+    "https://www.qbitai.com/2026/11/511989.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "AI 的未来将依赖能够在数据全生命周期中平衡性能、可靠性与经济性的存储架构。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/82d0e8bb6e642267fbf6284136d8cf90.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511989.html"
+    },
+    "https://www.qbitai.com/2026/11/511978.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "RoboChallenge正式发布全新评测基准RoboChallenge Zero",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/c773793e41182877c6fc652156267d86.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511978.html"
+    },
+    "https://www.qbitai.com/2026/11/511933.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "豆包工作是目前字节优先级最高的产品",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-10.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511933.html"
+    },
+    "https://www.qbitai.com/2026/11/511921.html": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "还透露了不少训练背后的秘诀",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-9.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/511921.html"
+    },
+    "https://huggingface.co/blog/agentic-evals": {
+      "checkedAt": "2026-11-23T20:05:59.505821+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/agentic-evals"
     }
   }
 }

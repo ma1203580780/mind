@@ -1144,7 +1144,10 @@
       "author": "Jizhou Liu, Azeem M. Shaikh, Liang Zhong",
       "contentLanguage": "en",
       "titleZh": "随机饱和设计中的随机测试",
-      "translationStatus": "partial"
+      "translationStatus": "ready",
+      "summaryZh": "随机饱和设计被广泛用于研究集群人群的外溢效应.在这些设计中,集群首先被分配到处理饱和水平,然后根据指定的饱和度在集群内随机划分单位.本文在外溢分析中自然产生的若干空假说下,为此类实验发展随机化测试.我们首先在两个饱和度水平上比较每个单位的未处理潜在结果: 部分尖锐的无效值要求每个单位的零溢出值,而边框的无效值则强制要求预先指定的上方的bou",
+      "translationProvider": "Argos 英中离线模型",
+      "translationModel": "argos-en-zh-1.9-ct2-v1"
     },
     {
       "id": "feed-846825b40a9954d03c5a",
@@ -1636,7 +1639,10 @@
       "imageKind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2611.27983",
       "titleZh": "无差异地优化线性递减",
-      "translationStatus": "partial"
+      "translationStatus": "ready",
+      "summaryZh": "我们研究无限差异体系中的高概率线性回归,其中回归噪声对于一些未知的美元(1,2)来说,只有一定的有条件的 $/alpha$-moment $/nu$,而共变量可能只有有限的时间,直到给定的顺序(如第4分钟).我们给出一个黑箱减法,将有限的变异回归程序转化为弱运动程序.减法以经验性余脉冲为主,可知至时,噪声尺度,共变,设计瞬间.在共变物的有限第四动量条件下,任何",
+      "translationProvider": "Argos 英中离线模型",
+      "translationModel": "argos-en-zh-1.9-ct2-v1"
     },
     {
       "id": "feed-a8d184b3499edfa12803",
