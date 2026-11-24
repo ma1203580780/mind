@@ -4854,7 +4854,21 @@
     "6e882c28ddde4abb4d0394b537c8d8cd35c8e2c2f9af9a859810eda819aac040": "视觉特征可以保留任务需要的每一个符号,而在其上构建的模型在图像的无关部分改变时仍然会改变它的答案.我们研究视觉状态跟踪的这一漏洞,即一个经常性的执行器通过一个被冻结的ViT编码器读取一个符号瓦片的序列,并决定显示的候选人是否等于最终状态.我们的诊断结果将每个输入与捐赠方的视图对齐, 保存每个被询问的瓷砖,用符号监督的解码器检查整个符号链可以从两个特征序列中恢复, 并互换单个内部通道 相同的适切",
     "0e8a77ef75657e51204b6443cd61c5de1f3b419ff86a4617f7e2f4cd5047757c": "如何建立和维持代理评价",
     "33e61bba7dc33574e5692ddc7cb38d44a5874389a85fbdabea01635c922ef0ed": "随机饱和设计被广泛用于研究集群人群的外溢效应.在这些设计中,集群首先被分配到处理饱和水平,然后根据指定的饱和度在集群内随机划分单位.本文在外溢分析中自然产生的若干空假说下,为此类实验发展随机化测试.我们首先在两个饱和度水平上比较每个单位的未处理潜在结果: 部分尖锐的无效值要求每个单位的零溢出值,而边框的无效值则强制要求预先指定的上方的bou",
-    "8d2b3e4e3115a801e5d540703d7bdc9fe6a5d8b2ae23cc734b9b8113c88ced8b": "我们研究无限差异体系中的高概率线性回归,其中回归噪声对于一些未知的美元(1,2)来说,只有一定的有条件的 $/alpha$-moment $/nu$,而共变量可能只有有限的时间,直到给定的顺序(如第4分钟).我们给出一个黑箱减法,将有限的变异回归程序转化为弱运动程序.减法以经验性余脉冲为主,可知至时,噪声尺度,共变,设计瞬间.在共变物的有限第四动量条件下,任何"
+    "8d2b3e4e3115a801e5d540703d7bdc9fe6a5d8b2ae23cc734b9b8113c88ced8b": "我们研究无限差异体系中的高概率线性回归,其中回归噪声对于一些未知的美元(1,2)来说,只有一定的有条件的 $/alpha$-moment $/nu$,而共变量可能只有有限的时间,直到给定的顺序(如第4分钟).我们给出一个黑箱减法,将有限的变异回归程序转化为弱运动程序.减法以经验性余脉冲为主,可知至时,噪声尺度,共变,设计瞬间.在共变物的有限第四动量条件下,任何",
+    "b232cb955ccae32f8687c4fdc7f583f38daeb362c3f46a15b6c5c09615589273": "Su Blackwell Hunchants 著有民俗故事,",
+    "826da86b02c92fb165e2ab46bd8ec64f446e50644527bab4b21c63eb4f0c9c97": "艺术家在自然界的新展品 和我们从周围世界引来的故事",
+    "31b2f41a1895d3d012506912f91ba8f71c377f215c6205757e7be0c54482e92c": "页:1",
+    "a470c75c35e01dd8abd3b0fb737d92ed99c486d2da726aeecabd79f9c055a6e7": "改变的mlx:由@dhiltgen在#19808mlxrunner中将Inkling残余混合在金属上:由@jaingaurav在#19805 lama.cpp中共享对称器和模型设置,由@jaingaurav在#19805 lama.cpp:版本凸起的b12651+由@pdevine在#19865 墨水中移除喷气包5支持:由@dhiltgen在#19843中更快地解码,预填和草稿回合:Full Changelog:v0.40.17.v0.40.18-rc0",
+    "f1f6cde37b0ef7b1a6b52d3fc08679d029555cd86ba767e638726ce8128abe9e": "产品设计是人民工业还是技术工业?",
+    "5b7d9b7f68a0cb4a86aae978d2b5b081dc0319187b92b1d5cfcab2f23255560e": "现场讲述用户,并聘请原型制作人员.当资金短缺时,一半被作为可选待遇.继续阅读 UX 集体",
+    "bbf54a1126782a23236ed30c4208bbed16ed7918235e88bff278b33fdd98814d": "不要让我读",
+    "21f40961a8c6a691d554434e72e0b5e74c0e43f8ffa2d192f067035be4f06c98": "这些关于人们如何在网络上阅读的最新发现,继续阅读 UX 集体",
+    "1029feeaf9751bd4ef1c61f598a7ff6cae9ea29c30de6fad0d1fe82f556f371a": "5.2 担任克劳德·AI模型顾问",
+    "009196012615c27f95ccf7399a67eed7df9d4cf7b702b58ddaaf35ca9621d83b": "Claude Fable 5.2是可供一般使用的最先进的Claude AI模型.继续阅读UX星球,",
+    "89fb30b23945bbde93412908c92bba8a1ee6fcd219bada62d02d0e4b140ebfd7": "OpenAI和思科介绍Shirudo",
+    "60ced57a45a2458b672499e44095f315034242673e1078b727702159bbe91c73": "OpenAI和思科介绍Shirudo,是Linux的开源运行时间.它帮助队伍在推出补丁时保护运行的系统.",
+    "7d16e323323db3030c158f681e3f7235596ebb11098849e4a5e94b03311620ac": "Richpanel帮助公司在30天内实现50%的支持自动化",
+    "826288c355aba1ba09e0671a818fbedcb65850bff3dfa321746ef683a6d38074": "Richpanel使用GPT-6 Astra和GPT-6.1 Sol为其AI辅助代理配备工具和程序,GPT-6 Luna用于交谈."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -25225,6 +25239,83 @@
       "image": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/agentic-evals"
+    },
+    "https://www.v2ex.com/t/1259307": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "独立开发者 👨‍💻 - @vulgur - # 2026，1116～1122多喝水，喝大水，不得结石！![](https://files.mdnice.com/user/73796/2f0f28b8-2592-4a55-b0",
+      "image": "https://i.v2ex.co/wq2q97Krl.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.v2ex.com/t/1259307"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.18 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0"
+    },
+    "https://www.ftium4.com/ux-weekly-298.html": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周我发现的体验设计和思考，为构建系统知识做准备。",
+      "image": "https://www.ftium4.com/attachments/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/IMG-20261124085224016.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.ftium4.com/ux-weekly-298.html"
+    },
+    "https://www.qbitai.com/2026/11/512329.html": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "12.9 北京，来MEET2027现场",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/cfb9e7482b3ed48185f32888934c9a3a.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512329.html"
+    },
+    "https://www.qbitai.com/2026/11/512305.html": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/3fbce4f7d5bccc4ccf3162d3461c2f06.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512305.html"
+    },
+    "https://www.ithome.com/1/031/326.htm": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "工信部发布前三季度数字产业运行数据，收入达 32.41 万亿元，智能算力规模同比增长 146%，生成式 AI 产品应用普及率超 50%，AI 需求与出口拉动利润大幅提升。#数字产业#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/031/326.htm"
+    },
+    "https://www.qbitai.com/2026/11/512297.html": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/b49ec019eff7e1e981a9a70e371c26fa.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512297.html"
+    },
+    "https://www.qbitai.com/2026/11/512264.html": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "行业苦等多年的预训练通用智能，终于有了答案",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d1790f66e8011fdd9a203fa8705abc62.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512264.html"
+    },
+    "https://www.qbitai.com/2026/11/512252.html": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "离职员工：我可能走早了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-29.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512252.html"
+    },
+    "https://openai.com/index/introducing-shirudo": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/bScTLq9smNJq5XAlaHIQW/fab0e70b1aab8ca8dffb70a747056fd7/guardian-agent-desktop-light.png?w=3840&q=90&fm=webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://openai.com/index/introducing-shirudo"
+    },
+    "https://openai.com/business/customer-stories/richpanel-ai-customer-support": {
+      "checkedAt": "2026-11-24T04:44:08.064415+00:00",
+      "description": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/4aVhQ1EicxWg7i6lIkBrLQ/cdabc180f7e5f780dbb43c302e7163d8/richpanel-social.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
     }
   }
 }
