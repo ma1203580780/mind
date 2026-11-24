@@ -4868,7 +4868,100 @@
     "89fb30b23945bbde93412908c92bba8a1ee6fcd219bada62d02d0e4b140ebfd7": "OpenAI和思科介绍Shirudo",
     "60ced57a45a2458b672499e44095f315034242673e1078b727702159bbe91c73": "OpenAI和思科介绍Shirudo,是Linux的开源运行时间.它帮助队伍在推出补丁时保护运行的系统.",
     "7d16e323323db3030c158f681e3f7235596ebb11098849e4a5e94b03311620ac": "Richpanel帮助公司在30天内实现50%的支持自动化",
-    "826288c355aba1ba09e0671a818fbedcb65850bff3dfa321746ef683a6d38074": "Richpanel使用GPT-6 Astra和GPT-6.1 Sol为其AI辅助代理配备工具和程序,GPT-6 Luna用于交谈."
+    "826288c355aba1ba09e0671a818fbedcb65850bff3dfa321746ef683a6d38074": "Richpanel使用GPT-6 Astra和GPT-6.1 Sol为其AI辅助代理配备工具和程序,GPT-6 Luna用于交谈.",
+    "f0dfb178dc218e3845b2c4fd72f321c32d6dc09e3964ce4d677e97cbd29e1a7e": "补丁释放 v5.24.1",
+    "d6784f189089a9593506958b959519ee4fd764039647e44e10d32cc215f909a7": "补丁发布 v5.24.1 补丁,用于修复 vLLM 的一组内容, 几个分布式问题, 以及一些模型修补( allama4, dory); 参见完整列表 vLLM 相关的 Fix 向后兼容远程代码缓存重命名(# 51085) , 由@hmellor return_attn_mask_utils 用于远程代码( 一次性关闭到解块 vLLLM)(# 51124) 由@hmellor Expose past_key_values in MBartDecoderLayer. Forward 用于远程代码的签名(# 51177) by@hmellor [OmniASR] 支持在音频编码器(# 51100)中保存在CPU上的padding_mask, 由@ El-euchidali Model 修正 Fix Llama4在缺失图像上的前置崩溃_outpu",
+    "2f49deddeda6530ee28eae8c1868e8cd93a88c33bc71fbb23c81bdb9dcfde21b": "Microduck Obstacle 避免:与艾萨克实验室和牛顿的 Sim2 Real 工作流程",
+    "5a5e9dd9b6d47efa7f8702a24984bf77aace866c7985deb459b50d206e6ae560": "墨水设计",
+    "5620d49dca27c4affd335840a2144bd9659ab02341080734ca204f016f059ea9": "墨水设计将一个书面的纹身概念转化为两个纹身概念,你可以与一个纹身艺术家讨论.从11个样式,10个布置,黑色或全色墨水以及三个层次的细节中选择.字母保留在AI图像之外:名字和日期以真实字体排列在设计下方(60个从中选择),因此拼写保持准确的打字状态,生成后可以更改字体.无账号工作的免费工具:一个纹身提示生成器和一个纹身字体生成器,在60个开放许可证字体中预览名称,日期和短引号,下载一个透明的PNG.设计是",
+    "31014ad806324c76b431e37c7f051f9c21c555573df82e98caadb40f999840aa": "谷歌如何获得它的信息?7 方法(2026)",
+    "d6428e9740bee07e56fef54084311e9d2c1b1962da8b4361da5f7db7afea976d": "但这只是答案的一部分。Google搜索得到的信息主要有七种方式:下面,我会向你们展示每个人是如何工作的,都有证据,以及你们可以做些什么(如果有的话)来影响它。回来...",
+    "aa75d94efa66b17536aaa14df69408431d4981ebf95acd13a1f5f798d8eb2a8f": "5自定义主题,您应该尝试 Claude 代码",
+    "0cc39d02ce0c67cfca1f1ad2679126b48d940ff81135259bc71ecea026b82a2c": "自定义主题是将Claude Code个性化并改变其外观和感觉的简单方法之一.自定义主题允许您更改... 继续在 UX Planet 上读取“ ”",
+    "e834183761021dc328ce2c3fecd97080f990b840d00b31a6a00550ce85b866c5": "澳大利亚创世纪街头摄影奖 突出日常生活变幻莫测",
+    "2dc71c962f3fdf3264ea5190a3f3d02fe8590f3b0fb7f1c6203ab4672719d89a": "比赛由AUSSIE STREET(AUSSIE STREET)主持,这个组织由街头摄影师创立,以展示全国各地的作品.",
+    "64a948ba53650fad735a3524e9c76a4c0da9384e21f0775cebd7ab1128a51098": "制作AI Playbook:AI代理的审计和追踪",
+    "cf3c0da8833ad4f33437251948626ba18d1aa491400bbf91b641a39ed057c25e": "重新构建AI决定,保留日后解释所需的记录.五次手动n8n练习:阅读保存的处决,标记决定以进行搜索,用OpenTeleometry追踪工具呼叫,以及证明哪个工作流程版本运行.",
+    "e9ac3a40985e7533f28df905c3551a46612606d38e799fc1dc85a778dce21978": "第860集 MVP死了吗?Steve Blank关于接下来会发生什么",
+    "0f1dc5714f17abc29330953295599f0499c4ab6698f5842df905fb36948ec6fd": "如果AI在与单一客户交谈之前就能制造成品,甚至值得建立MVP吗?在本集中,罗布·沃林(Rob Waling)与客户开发的创始人史提夫·布兰克(Steve Blank)坐下来谈话他为什么将MVP退役,换成“初步未经测试的产品 ” 。 史蒂夫还分享了当他斯坦福班的每个团队在第一天用一个完成的AI制造的产品出现时所发生的情况,这是AI时代问客户的第一个问题,其中合成访谈产生了幻觉,为什么产品市场适中让位于产品结果适中。",
+    "934df0105e23c9d5e510f20ee0174757498be97b51b536fac37949a4833e3f70": "鲍里斯·武伊契奇:冲击时代的复原力:中欧和东欧的经验教训",
+    "aead90ab3e28179cf3033b4e18c66e2bef57bd55e859b333c8b83f50233bfc1b": "零点",
+    "c5cc592d7e564cfcd4a78a1d54f7961929dce8c7966e6a6b3590224d09268fbc": "空间定位政策:意大利内地的证据",
+    "79b461781cc6cb14ab496d3ba82aa63e04599163b9cdd6111427da1f8a229c1b": "本文评价一项基于地点的政策,即意大利的\"内地国家战略\"(SNAI),使用卫星夜间灯光.SNAI以结构脆弱和外围城市为目标,投资于基本服务和经济活动。相差悬殊比较2011-2022年共有941个资助市镇,3 112个有资格控制。供资与灯光面积扩大和每个灯光细胞的光度没有明显变化有关,这表明活动扩大了其足迹,而不是在现有中心得到加强。扩大是相互比较的",
+    "8860ae8e938cca1d9b5de40add4af49567359647964adb36dbadb4fcce6e546f": "v0.34.1rc0: [Perf][Quen4Exp] 添加 SM100 TP=2和 TP=8 瘦的 GEMM 计划(# 69529)",
+    "f347d8c037fd2f65ec1fde1c3e584306c22d50ad67f9cdd7c7cffa3ed3f1dd7b": "作者:Johnsonms lizhaofu@gmail.com 联合作者:vllm-agent craw@inferact.ai.",
+    "d98a2df93669f8e633a866331a17f6a87b01e9ed6a839e566508cbb29a9aee21": "洛菲舒适的房间",
+    "ea23201ee84f50bd7ce424e7d7b98fdc7b953bf5d40acf9dae216718e30867e7": "AI 方案拟订和劳动力需求",
+    "b0a1de2b58576211398855fc4f8b7bfd03b8a41f0d05d35d5182b15b6f881eb0": "generative AI在技术工作任务上展现了人类层面的表现,然而这些任务层面的能力如何改变劳动力需求的证据仍然很少.我们研究公司一级采用GitHub Copilot,一个AI编码助理,共有5 414家多国公司,占美国38%。规划人员队伍。为了确定因果关系,我们利用公司预先确定的软件采购周期所产生的自然实验。在GitHub Copilot推出之前,早期的人工智能采用公司雇用了更多的工人,并拥有更多、更技术性和更老的劳动力。一个之后",
+    "e865132dd08e9429391aa2579b46fbce4ad4e414fce3c211dada800830cea3a2": "蓝链-拥抱脸 = 1.3.0",
+    "0dfc9abe52874cd163dacf3a52bd6224ca33e1110a20531c745f877c70bc894e": "自 langchain-huggingface \\\\ 1.2.3 fix(huggingface):正确的强制工具选择和流动符号计数(#42043)测试(huggingface):积累管道流动输出(#42039)测试(huggingface):使用GPT-OSS进行标准聊天覆盖(#42035)测试(huggingface):使用Novita直播路由进行聊天测试(#42033)发布(huggingface):1.3.0(#41999)发布(标准测试):1.2.0(#41996)chore(模型-剖面):更新模型配置数据(#42013) Chore(模型-剖面):更新模型剖面数据(#41955)chore(连锁):要求langraph 1.2.16或更新(#",
+    "f8da97b19a747886514b58bee2ec0ea59dde1266acc55fd634bf6206a55bdc7a": "大型市场上的纯真信息:关于Entropy、相互信息和信息价值的随机矩阵法",
+    "fff9d07c8bff952f53813979bc5f4bfec3aa4e67b82486c331106319e9f34657": "Entropy, Kullback-Leibleer difference and commoninformation 已经成为衡量一组金融变量对另一组变量揭示多少的标准货币.在大截面中,它们几乎总是从样本共变矩阵中计算,这些矩阵中的噪声是随机矩阵理论的对象.本文发展了高斯信息功能的随机矩阵理论,并将其应用于市场.我显示,从美元观察中估计的两个区块的p和r变量之间的插值互换信息,有确切的预期超额,是虚假的。",
+    "9c4638aba0afa0aa1c71d603c188710dfe34dd3f6b44d8e968516236f5b38524": "朗链-复杂度 = 1.5.0",
+    "3b7baa9a995b31a8a313d942ef15a086e42e342b7f9eb0262fb81347a2c092a5": "自 langchain-perplexity = 1.4.2 发布(繁复): 1.5.0 (#42001) 发布(标准测试): 1.2.0 (#41996) feat(伙伴):从伙伴包中移除 EOL'd Python 3.10 (# 41268) 构建(以下): 补丁测试专用 Pillow不丢 Python 3.10 (# 41484) 回归: 补丁脆弱的整合依赖性 (# 41481) 构建(deps): 补丁脆弱的整合依赖性 (# 41473) chore(deps):从2026.10.19到2026.10.23在/libs/partners/perplexity (# 41438)chore(以下): 放松第三方依赖性上限(下限)#41407 (英语).",
+    "d561999375b5047ce3464bc287c6e41a356f0d8375b6cae697f7d8683015decb": "私人生产安全外部选择和保护负担",
+    "2b5b90716b3f28d0b7feab6d2f40ccda2c670ad4248f5e163fcc45cc0381a4cb": "通常根据其预防伤害的能力来评估保护性干预措施。然而,保护也引起了一个独特的问题:谁要承担适应暴力的负担?我在美国利用四种随机干预来审查保护性调整的分配。提供永久住房援助使与基线伙伴的分离与稳定的独立住房相结合增加了12.52个百分点。指派执行中的警察-反应程序减少了观察到的仅受害人离境,增加了仅嫌疑人离境。分配给应急蛋白",
+    "5d16284c7d61a54a73904691a562ea7c848d49efdd0409d86ec9f65a1e0fa9a0": "(原始内容存档于2017-03-01). Langchain-classic = 1.1.0",
+    "440c5ec506da0ecdb2a5b1947ab4fb9bc537f85a918b68a6e07490e82b7df100": "langchain-classic == 1.0.8 fix(infra):在min-version发行检查(#42029)中安装PyPI的Repo-sourced测试deps(langchain-classic): 1.1.0(#41994)发布(标准测试): 1.2.0(#41996)发布(text-spliters): 1.2.0(#41998)chore(deps):在/libs/langchain(#41967)固定(core):保持警告压制背景-本地(#41881)chore(infra):更新脆弱的开发依赖(#41933)chore(deps):在/libs/langchain(#libs/langchain)中从1.45.1到1.452的凸开关系-api(daptetemetem)#41846) 胆汁(deps):从2.9到4.0英寸的汤汁",
+    "f830f5fbd2e35ae3935ffbd73ca3e4fd42f86df65648da1f65054c022e9295d2": "具有社会类型的大型经济体",
+    "fb13ea55f1e1de99c33941312a17e069461b545d5973c8d8a57a106a70914bcb": "本文件为具有社会外部因素的大型经济体制定了新的总体平衡框架,这些经济体的主体既有名称也有社会类型。社会类型定义了外在作用的参照群体(邻里,同龄人,或地位类),是市场结构的原始.我们确定,只有在社会匿名的情况下,每个可接受经济都承认竞争平衡。这一条件要求可观察的社会类型不能充分识别任何不可忽略的次经济中的个人。框架延伸至通用大e",
+    "68fc8f85eb312547b2b3de2b121920aac8477ab1e2277a4712d2f59e153e46b7": "(原始内容存档于2017-03-03). Langchain-ollama = 1.2.0",
+    "8dbe8476b6e3a6a0b81cef7997b5b4a646db85ffc35ffd6e4c1e41b408781452": "自 langchain-ollama = 1.1.0 发布(ollama): 1.2.0 (#41997) 发布(标准测试): 1.2.0 (#41996) feat (合作伙伴):从伙伴包中移除 EOL'd Python 3.10 (#41268) chore(以下): 放松第三方依赖的上限(#41407) chore(deps): 2025.8.3至2026.10.19在/libs/partners/ollama(#41381) 固定: 固定一些伙伴包中的依赖性(#41266) 固定(olama): 将ollama地板提升到0.6.6.3对思维水平(#40986) chore(deps): um urllib3)从2.7.0到2.8.0 in/libs/partners/ollama(# 40953) core(deps): 偶联从4.11.0到4.14",
+    "a9f7cf5fbd686537b95d17d38742ed72d9ee94186d869215ab3d149d59fc20c9": "启示原则的主要启示",
+    "5876d0c775a63d2fe0482a3d447f6e4a33a1d20edd0c966ddbb62c32abcecdbc": "我证明这违背了启示原则,认为这是一个乐观原则:如果它必须坚持所有环境(事实上,甚至只有那些有私人价值和独立类型的环境),则校长必须假定她最喜欢的平衡是由代理人发挥的。当校长只知道 之前的谎言在某套,她必须另外假设这是她最喜欢的。但是,由于私人价值、独立类型和准线性报酬,无限制的转让使本金能够通过一个其独特的等价机制来估计任何机制的均衡报酬。",
+    "cbd5d3256002ecc71f1d7f11104a800e3bffbacead5ea1d8f65b8f80d9fe239e": "(原始内容存档于2019-09-29). Langchain -tests =1.2.0",
+    "268c4b2d2a53f901a38f6e35b92dd208ccddc051ce59ac84b9e55239763c89b2": "langchain-tests == 1.1.9 发布(标准测试): 1.2.0 (#4196) 功绩:从文本_散文中移除EOL'd Python 3.10,模型_简介和标准测试(#41343) chore(ps):小和patch组在2个目录中按4个更新(#41615) chore(deps):在1个目录中按8.3.0到8.5.0/libs/标准测试(#41617) chore(deps):在2个目录中按4个更新(#41464) chore(infra):放松第三方依赖的上限(# 41407) core(deps):2025.11.12至2026.10.19",
+    "cfac8dae419f4e989fe15ad97943a9ae76c7138e7a52895c0c66b061a6bfbe70": "实验措施应该是什么?将短期实验与有根据的观察数据相结合,以确定长期治疗效果",
+    "ce92268f41ceeddbe949c2585862e0744d3b264d660be3cbbb229c58b0d57584": "观测数据往往记录长期结果,但在选择取决于未记录的特性时不识别长期处理效果,而随机化的实验则删除了这一选择,但需要多年的跟踪.我们问,短期试验应如何衡量,以便结合观测数据,确定观测人群的平均长期治疗效果。在我们的主要环境下,观测数据记录了对未记录特征的粗糙的处理后测量,但没有记录可以消除混乱的详细测量。页:1",
+    "b03270e6071b3a393e09870032f4cbf9f75678a1bf928f511765c68ae3617e5b": "用观测数据进行适应性实验:有效的实验设计和长期治疗效果的不对称时间-统一推论",
+    "e4a4d53377db9e3da756c51138615c5f93a765b3b40d8d8b020a6fb666d9fd94": "估计试验中的长期治疗效果需要等待结果的可观察性,这可能会拖延对干预和随后决定的评价。最近的计量经济学工作已经发展出将实验数据与包含长期结果的观测数据相结合的识别方法.本文建议使用实验开始前可获得的观测数据,不仅用于鉴定,还用于设计适应性实验,实验数据依次收集.估计长期平均治疗效果为:",
+    "b0caedf8beb11141dc04a61057a7f4e17dc1a6aeb615a87e4b0b887fed437566": "烛台图够吗?库存收益预测技术指标的递增经济价值",
+    "070963b157ef91cb3355330a1fcd08aeba7db68e71f089ac31e8132722f47ec0": "虽然技术分析在实践中仍然被广泛使用,但是对人工构建的指标的需求越来越受到质疑,因为深层学习模型可以直接从OHLC价格数据中提取特征.本文研究了贸易量和人工构建的技术指标组的独立经济价值,以及将这些组加入OHLC烛台图是否提供了递增的经济价值.利用2013年至2025年中国A股1,707股的日数据,构建了约336万股窗样本,并将其编码为多通道图像conta",
+    "2475f7ad385a01a203b0228587607df4aff2e95a90cc1e1cbfd39100e9b93e43": "采用无陷阱的AI技术:多机构强化学习框架",
+    "e0c08ac69b2b642440273a2bf4ff837734abe7743d27107f795f473b06057917": "AI技术和AI代理在包括教育,经济学和研究在内的人类社会中发挥着越来越重要的作用.采用人工智能技术可以带来直接的、有时是巨大的回报,例如通过提高生产力,但它们也可以带来消极影响,包括但不限于失去工作和培训机会,认知能力下降。因此,必须研究采用AI技术的最佳方法,而不设不同的陷阱。在本文中,我们开发了一个基于多代理马尔科夫决定程序(MDP)的强化程序。",
+    "c77928b7fa0f3c0742aea1cf6aaf981bae7c0e641a2c090c34f02605e74aba79": "Antangled Veil:为什么再分配需要新语言",
+    "d7decec03343df791763dec2d9c8845df174b31ece684d00b11393b719a9634c": "无知的罗尔西亚面纱要求选择正义原则,而不知道人们将占据何种位置、空间、社会或个人。我们认为,在标准经济模式中不能忠实地反映这一目标。忠实的代表性必须满足三个要求:它必须以对称的方式对待各代人,抓住各职位之间不可分离的相互关系,并允许各地点和职业之间的流动成本有所不同。我们显示,标准的最佳税制模式至少违反了一项要求,而且符合所有三个条件的最低限度框架。",
+    "565a81ab3d04340c93a0d32332156d5fdcd366f69e10205c080f6f0c686ca7ec": "优化带有水能储存的太阳干线供水系统:案例研究",
+    "d30db264249d35bd233f1fe2a0905c59ce8a05684d1c743534e8abc1735c8f57": "鉴于电网电池成本很高,发展中和低收入区域需要采用其他能源储存办法。水量的增加往往比电池在经济上更可行。本文为这样一种储能装置提出了双框架模型方法:埃塞俄比亚干旱阿法尔地区太阳电网混合供水系统。该系统利用一个高升的1 900立方米水库作为“氢电池”,取代了传统的电化学储存,大大减少了资本支出。使用 Py",
+    "bb269455475595483427305bb64b2ce06a12cef2626eebfa8fe89f5a2fbfe32d": "语言模型对注入的不确定托肯斯的引导,但失败了 Situ 的自我监控",
+    "137a69a2eff8b1d50a6f086f8f3c0cd1b8f8e1664ea296948698d77ad27a62ee": "催化语言模型在生成过程中将阶梯式数字置信度口头化,是一种在代理推理中引发回溯跟踪和错误校正的日益流行的方法.这一策略以两种能力为前提:(1) 现场监测忠诚度(当发生错误时信任度下降吗? )和(2) 下游方向控制(不确定性是否表示因果引导模型修复错误? ) 。我们评价了4个开放加权模型(Quen2.5-7B、Llama-31-8B、Mistral-7B和Phi-4、14.7B),共进行了15 200次数学基准试验,其中排除了2 017个推理错误。",
+    "86634667297f76576cbccb298980bdb1537f5f40a13b47f065e56c3204a7ae51": "销售培训数据",
+    "27b629254a0974d29460fce940a20ebfd656fdd47672f84eff45a74aabc6c7b4": "本文研究了补充培训数据集的销售情况,以改进预测模型.买方不仅对自己的数据集有私人知识,还可以选择合并这两个数据集的方法.这种灵活性对菜单施加了新的限制,要求买方的净总功用在私人数据集的布莱克韦尔订单中是单调的.有鉴于此,我们表明,在差异虚拟价值条件下,充分信息化数据集的单一公布价格在假设测试中是最佳的。其结果扩大到多类分类,其中私人数据集共享a",
+    "bc475a3d7fae633660feb6eab60cb2643228fdca9447bba68f325f7af82896ee": "CTLink:将放射学报告结果与3D胸口CT扫描链接的文本催化分解模型",
+    "e21366eae01de450aad0ff1d110591e33f21acbeb95a96d5065be51a649bdc0f": "放射学报告只在文字中描述发现,没有在扫描中以视觉标记,因此读者无法直接看到每个报道的发现指的是哪一种异常.我们引入了CTLink,一种文本催化的3D分解模型,它分解了胸前CT报告中描述的发现.CTLink接受了关于4123个非连续胸腔CT扫描的培训,有9547个分块报告结果,包括REXGroundingCTv2,一个新附加说明的数据集,包括1134个扫描和1895个分块每个实例的调查结果。在200 ReXGroundingCT验证扫描中,CTLink实现了0.816的命中率,一英寸",
+    "cc118cb5da11ebbd0abdfe07c72fb1da2bf6069d417dae6d34a1ff58b0eb82ec": "粗劣的价格歧视",
+    "b553b4f8e1716957bf1fc35c688dfbdd3590cdc9bdc7833d37872c61f5777a47": "我们研究了当有独立价值的不同买家竞相购买稀缺的存货时,将销售商限制在美元上市价格的收入成本。我们的大市场假设要求删除任何买主对最佳收入影响不大。我们首先让买家在每份固定库存中任意更换,然后让库存增长。在这一限额内,一项价格保证了最佳机制收入的一半,两项担保大约为73.1美元。对于$L\\ge3美元,相应的担保是1-1(2L-1)美元分数.这些担保照顾到不同买主之间任意的需求差异。",
+    "2217b1b3396ee554a0d451a920f486b9a9872ecf9400c7e7f79a5baf7eb6e6d9": "探索空间:对空间理性的远景-语言模式进行有目的的积极探索",
+    "c4d5928656593b81fde111479f702be5266208f1972e539fd97a23d10f363815": "人类有目的地探索陌生的空间,在收集到一个空间问题所要求的证据之前,决定寻找何处.然而,视觉语言模型(VLMs)—— 其原因越来越过重于描述的图像和视频—— 能否在没有向它们提交证据的情况下在空间中寻找?我们提出ActSpace-Bench,这是在72个真实扫描的室内场景中234个探索点的994个问题的基准,一个模型从单一角度出发,导航真实的捕获框架,在回答前必须收集证据。为了评估这种探索是否有目的,我们介绍",
+    "0a7d4edd498f4e77f665855a0fd1391906fa59b2301944a7e500255ef64fcd42": "混合逻辑估计的计算策略",
+    "fc754fcaaea9b25cd9fc2e46abf459589a5c2f8157cf63a093f6dffa1ef188c7": "随着样本大小和偏好异性程度的增加,混合对数估计在计算上可能要求很高。本研究考察了衍生计算,处理器选择和浮点精度如何影响跨问题大小的估计时间和参数恢复.本文提供了一个可控基准,将有限差异(FD)与自动区分(AD)进行比较,将中央处理单元(CPU)执行与图形处理单元(GPU)执行进行比较,将双精度(FP64)与单精度(FP32)算术使用蒙特卡洛实验h",
+    "33ec2abfb1a158a0e58a38297a9304ea4d80d58a0775268437e3891e155aa298": "ToolSmith:多式联运搜索代理工具自动生成框架",
+    "b6d1d3959fc6089be303a262424705b039e4a724857c7c3e8beca69084e11b81": "近期的多式联运搜索代理商使用推理,视觉,以及跨越许多转折的现场网络搜索,通过组织一个手动搜索和视觉工具的小型图书馆来解答超出参数化知识的问题.然而,当在野外遇到新的查询类型,证据格式,以及故障模式时,图书馆很难创建和维护,并被冻结.相比之下,人类从业者通过从熟悉的部位形成新的工具并重复使用这些工具来应对工具不足的问题。受此启发,我们提出 ToolSmith,一个自动生成工具的框架,它会成长为",
+    "38c6807b38c2589c33cd031283f7438c5eacdd990cbfcfdd488c4808daba50c7": "影子经济是一无所有影子经济的计量理论方法",
+    "a13d3c34344a16edb254bc5fb397180b66702ce4768c0d275cd7ce4e1e711534": "在本文中,我们询问,影子经济是否可以定义为一种用于衡量经济交易的机构措施或传感器的无效套装系统。作为一种答案,设计了一个可计量理论测试的框架,以重新定义和量化影子经济。传统经济定义常常将实际的影子经济与国家机构的观察限制混为一谈。为了解决这个问题,我们把影子经济模拟为相对于体制措施的一无所有,并分析三种相辅相成的经济制度。我们在此探讨标准数学",
+    "958bb084dd9638cf7cc68839b3c578795d27d2ae7c8365b02eabc558498f7a14": "EEG-fMRI合成的学习神经血管代码",
+    "43720c0f5c34603ffb3057639140d74139e58f48c3830185020271eb8765eff8": "在本文中,我们引入了神经血管代码作为fMRI一代共享的EEG表达.我们首先训练一个单独的EEG编码器来预测每个fMRI信号,从同一个EEG窗口学习特定目标的时间和光谱特征.训练后,我们冻结编码器,并将它们被凝固的隐藏特征投射到一个共享的神经血管编码中.以这个代码为条件,Stochtical interpoant将高斯噪声转化为fMRI信号的矢量,允许为同一个EEG窗口对不同的响应进行采样.我们评价我们的方法 8 公开同时 EEG -",
+    "2d8bf3584ea90f7870e7f071627c381332f3b0894b121b1e1cf21dfe49956271": "机器学习后的锐率推论",
+    "e5a04996d03b7b4caa076e7b296ce75304fd6064d40a70bbcd5a8c2d58240c91": "回归信号的经济价值往往根据这些信号使用Sharpe投资组合比率进行评估。在现代资产定价中,回报信号往往取决于许多特征,包括状态变量和公司特有的特征,并且越来越多地使用机器学习方法来估计它们.但是,我们可以对估计的夏普比率有多少信心?我们认为,即使在大型资产小组中,信号-估计错误仍然会影响推断。此外,将各种资产集中观察并不一定会使这种不确定性在预提时变得微不足道。",
+    "f165c6d33470181056ee497875d40ba960c813f2d02ef9ffe18e33477d4e2cce": "Know When to Abstain:对文本到SQL 的正式信任估计",
+    "31ddcb16b90f6e66bfee42d2ed988f5d99ba626b314d9ef3d677587fe9d2f697": "文本到SQL系统经常返回成功执行但回答错误问题的查询.在部署时检测这些错误是很难的,因为执行正确性是根据黄金查询定义的,而黄金查询只存在于标注的数据中.我们在通过黄金-SQL执行在校准时间可观察到并在部署时可观察到的潜在正确性变量下,将Text至SQL的置信性估算为概率查询验证。我们的估测师把世代与验证分开.生成器 LLM 编写并执行查询, 不同的批评者 LLM 判断查询和",
+    "9ada319af9c995206b9538d9c3e8871e41b005ca0c8d55b3cc2dc02bd90125c5": "财政反馈下遵约动态分析模型:临界值、干预费用和歇斯底里",
+    "a1b31ffdc1d77cee56cadc4f25dbf2c34f086a84bd896a33e4670dc263f3a6c3": "遵守税收和其他集体义务往往需要来自遵守者的资源,因此不遵守义务会削弱其自身的威慑力。根据财政反馈,我们开发了一个完全可溶解的动态遵守模式。个人通过模仿做得更好的人来选择支付和逃避,而反对逃税的预算是收入的一部分,在执法和教育之间分配.模型产生对等、倾角阈值及其两边的封闭式表达式、维持遵约和重新做预算所需的预算",
+    "23a7e62b0eae922dd87c46ab1de30e88f0653320a14d212a148191532f381b8d": "CO-GRAFT:通过角色级政策强化搜索人员的学习成果",
+    "fa1b2819e8568ec29f14295dac1e044c055b8144a10389f2df1574a2f7c5328f": "强化学习(RL)改进了大型语言模型搜索代理,在RL初始化前最多可达到32个精确匹配(EM)点,但总体准确度的提高并不能确定哪些基本功能能力在培训期间得到改善或互动.我们引入了CO-GRAFT,这是一个奖励-不可知的干预归属框架,在该框架中,经过RL训练的代理人及其RL前初始化联合产生一个在闭路执行下进行现场检索的单一轨迹.每项政策都控制着四个职能作用的相互排斥的子集:中间推理、搜索或搜索",
+    "772fd07c1d7fe0896d241abf145b3d31b9c0fae4dc37c2ac66578e356c9a15d5": "邻里洪灾扩大抵押违约级联",
+    "fa2752b27186159e70c65a15e398d070af00ae192346348e0e743f201b29d242": "洪水破坏房屋,破坏收入,使周边街区条件恶化,从而威胁到抵押贷款的偿还。然而,这些邻里效应如何将当地损害转化为系统性抵押贷款困境仍然不清楚,因为欧洲的住房危机使失去住房的家庭没有多少负担得起的替代办法。使用一种以荷兰林堡为对象的代理模型,我们显示,对周围财产的破坏可能会在那些仍然能够支付得起的家庭中引发抵押违约,包括那些自己的住房仍未受损的家庭。在最严重的",
+    "5eea45c69cecdd6716f77706fa94ae61b11e002ab4db5d54995e1d51104f5e80": "需要时:来自需要级别打字决定的无世代对话建议",
+    "6ddecbc4e98f0e4920d52d27f334e0e4611de849fddbef583bd1904a0b100c25": "对话推荐者必须根据目录仅部分记录的需求对项目进行排序,而用户则会添加,撤回和逆转需求,并在请求之间切换.LLM 分级符在每个回合重读对话框 :它们很慢,而且它们的命令没有显示需要哪个项目满足 。我们显示,对话推荐器可以用打字的决定来构建:在固定选项上命名问题,用选项概率回答而不是生成文本.每个回合,一个打字请求将信件映射到目录的字段上,保留用户字段中没有表达的内容,",
+    "047567b3298735167c5090f6e15438b67ce73cda9ebd9ef94e4d8776a932d5f0": "概率-易懂历史运输:用于分布式前趋势设计的尖锐边界和伪造测试",
+    "f05bee13e4aa2ebc62d6dc3ad3875fd94ed8af1003dc391b2331fc500307b370": "分布差异研究往往认为,在政策后,被处理群体与比较群体之间的差距是政策前差距的混合。这种历史运输假设可能会以单一统计制检查漏掉的方式失败。当政策事件被集合时,平均反事实可以是一个有效的分布,尽管没有事件的反事实,集合界限可以排除真正的平均效果.过去差距的混合可以给结果分配负概率,截断界限可能不兼容.我们的特征是尖锐的界限 并给断裂的光度,一个gri",
+    "27202c09df60695aace86600a9c31f9ccae124ba61a998c4bcc2eed1782b4668": "降低决策模式中的秩序敏感性",
+    "3001fdffcc96aaa1aa0aa8e6d95ae4230aba1048b9abc03c5c46d9c15dd1c7bc": "决策模型正在成为更大的AI系统的快速组成部分。然而,最近的决定模型,如Jev,按顺序处理选项,从而根据订单得出不同的预测。在10个开放和封闭源代码决策模式中,我们发现\\emph{service-sensitial}是普遍存在的,导致相当程度的准确性下降和不可靠的决策。随着备选办法数量的增加,这些影响会变得更加明显,并可能使跨多步骤的决定复杂化。为了解决这一问题,我们系统地比较了8种减轻秩序敏感性的方法:",
+    "d49feed3f90d5c4d7817798a7c2a5d83aa326d88abfa4d9133751e944fcbeeb0": "如何错配消费者",
+    "79f18d7a7b118206347c11211e0c683bc5b31a8e6b1dc7f27e9d6f6402eef479": "一个平台应该展示所有消费者的所有产品,还是至少他们最喜欢的产品?或者,它能否通过不匹配一些消费者来增加消费者的盈余:只展示较不偏爱的产品,甚至将它们排除在贸易之外?我表明,无论是垄断还是双重垄断,不匹配都可能通过诱导低价而增加消费者的总盈余。在双重垄断中,消费者-最佳配价采用截断政策:在每对等估值差异的对角中,估值较低的消费者仅与偏好程度较低的产品配价,有些随后可能被排除在外。有独立制服的va",
+    "3a9520a6d46c794e6e3467539618090295d3d8c487e4aec496fc82a5792641e0": "每周为设计者——思想家和制造者——提供资源。“与机器接合没有内在的摩擦。它毫不犹豫。它只是回答问题。它不寻找正确的词, 或想知道问题将如何落地, 或准备如何得到答案。它只是回应。”《犹豫不决的纪律》 ——编辑们选AI是新的旧设计材料 ——模型作为下一个材料。由帕特里克·尼曼决定剧场或决定设计?•从积累知识到拥有决策权。帕特里齐娅·贝尔蒂尼为什么还要花钱买软件?为什么设计是答案",
+    "ec1ef54b0f76fc51ae8c5a52c6546bdf09ef624be0306a7321f3d3ab82cffb10": "自 langchain-chroma = 1.1.0 发布(chroma): 1.2.0 (#41991) 发布(标准测试): 1.2.0 (#41996) feat(伙伴):从伙伴包中移除 EOL'd Python 3.10 (#41268)chore(ps): hump oathlib从4.0.0到4.0.1 in /libs/partners/chroma (#41721)chore(ps): hump opleteometer-api从1.45.2 in /libs/partners/chroma (#41588) 构建(infor):避免脆弱的文件锁锁释放而不降低兼容性(#41486) 回归:补合脆弱的整合依赖(#41481) 构建(deps): 补合脆弱集成依赖(# 41473) chore( deps): 凸起",
+    "f1008053c80dccfdd1e4b6738d19d92583606cc38c45213ca290b8f223615bb3": "intkling2:更快的金属解码,预填和草稿 添加只有Inkling的金属内核,每个内核都有一个存量图回落,由GPU生成和大小级加门:短BF16产品,破损的NVFP4/MXFP8 专家与装有引信的SwiGLU,装有引信的环路控制器和剩余混合,相对位置分散注意,装有引信的短缩进,装有更快的全球预填,一个命令的窗口缓存到位,以及一个装有4位词汇头的8位草稿(仅提议;产出保留)当然"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -25316,6 +25409,372 @@
       "image": "https://images.ctfassets.net/kftzwdyauwt9/4aVhQ1EicxWg7i6lIkBrLQ/cdabc180f7e5f780dbb43c302e7163d8/richpanel-social.png?w=1600&h=900&fit=fill",
       "kind": "原文封面",
       "imageSourceUrl": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+    },
+    "https://github.com/huggingface/transformers/releases/tag/v5.24.1": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. - Release Patch release v5.24.1 · huggingface/transformers",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/huggingface/transformers/releases/tag/v5.24.1"
+    },
+    "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "A Blog post by NVIDIA on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6847ab8c06094fa4afb6ee38/M70tUMNd7N4KO5QGI37YZ.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+    },
+    "https://w2solo.com/topics/8762": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8762"
+    },
+    "https://ahrefs.com/blog/how-google-gets-information/": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "That's true, but it's only part of the answer. Google search gets its information in seven main ways: It crawls web pages It ingests public knowledge",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/how-does-google-get-its-information-by-louise-linehan-general-seo-1.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/how-google-gets-information/"
+    },
+    "https://www.eeo.com.cn/2026/1124/1101574.shtml": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/8EAAB5259DF7230CDD8585E4815F973A.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1124/1101574.shtml"
+    },
+    "https://permalink.castos.com/podcast/5031/episode/2696260": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261124~17928e5456.en.html"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.18": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.18 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.18"
+    },
+    "https://w2solo.com/topics/8761": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8761"
+    },
+    "https://arxiv.org/abs/2611.31100": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.31100v1/Figures/plot_map_areas.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.31100"
+    },
+    "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs - Release v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529) · vllm-project/vllm",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0"
+    },
+    "https://www.ithome.com/1/031/867.htm": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "阿尔福赞利用 OpenAI 自家的编程产品改装了一台录音设备。根据 OpenAI 提供的记录，该设备与 OpenAI 此前在一间会议室电视机后发现的设备属于同一类型。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/031/867.htm"
+    },
+    "https://w2solo.com/topics/8760": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8760"
+    },
+    "https://arxiv.org/abs/2611.31083": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.31083v1/figures/cumulative_adoption_paper.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.31083"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.3.0": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-huggingface%3D%3D1.3.0"
+    },
+    "https://www.ithome.com/1/031/838.htm": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "针对生成式人工智能深度伪造、模型“投毒”等全球共性风险，我国已联合多国共同编制《信息技术人工智能生成式人工智能风险应对指南》国际标准，这是全球首个针对生成式人工智能治理的国际标准提案，可为推动形成全球风险管理共识提供重要支撑。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/031/838.htm"
+    },
+    "https://arxiv.org/abs/2611.30998": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.30998"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.5.0": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.5.0"
+    },
+    "https://arxiv.org/abs/2611.30735": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.30735"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.1.0": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.1.0"
+    },
+    "https://arxiv.org/abs/2611.30620": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.30620"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-ollama%3D%3D1.2.0": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-ollama%3D%3D1.2.0"
+    },
+    "https://arxiv.org/abs/2611.30612": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.30612"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.2.0": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.2.0"
+    },
+    "https://arxiv.org/abs/2611.30599": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.30599"
+    },
+    "https://www.qbitai.com/2026/11/512370.html": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/ac92eaa1ec0a923939970ea052731309.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512370.html"
+    },
+    "https://arxiv.org/abs/2611.30595": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://www.qbitai.com/2026/11/512362.html": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "端侧老炮辛米尔，打通物理AI规模化落地之路",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-30.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512362.html"
+    },
+    "https://arxiv.org/abs/2611.30584": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.30584v1/Fig1.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.30584"
+    },
+    "https://www.qbitai.com/2026/11/512354.html": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/6b0890069b7645b19be5a515d6825cda.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512354.html"
+    },
+    "https://arxiv.org/abs/2611.30200": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.30200v1/rhovalue100.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.30200"
+    },
+    "https://www.qbitai.com/2026/11/512348.html": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "11月19日，方程豹钛9上市，售价27.99万元起",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/f6a471df07eaccbd0c7a897dda7fac43.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512348.html"
+    },
+    "https://arxiv.org/abs/2611.30045": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.30045"
+    },
+    "https://www.qbitai.com/2026/11/512343.html": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "2026年11月18日，中国深圳——APEC会议期间，比亚迪仰望U8正式交付巴布亚新几内亚市场",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/a9f0ad9442b253b98a9330a6fe3575af.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512343.html"
+    },
+    "https://arxiv.org/abs/2611.30019": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.30019v1/image2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.30019"
+    },
+    "https://arxiv.org/abs/2611.31228": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.31228v1/runs/fig1_4models.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.31228"
+    },
+    "https://arxiv.org/abs/2611.29971": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.29971"
+    },
+    "https://arxiv.org/abs/2611.31222": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.31222v1/fig1_link.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.31222"
+    },
+    "https://arxiv.org/abs/2611.29933": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.29933"
+    },
+    "https://arxiv.org/abs/2611.31215": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.31215v1/representative_tasks2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.31215"
+    },
+    "https://arxiv.org/abs/2611.29833": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.29833"
+    },
+    "https://arxiv.org/abs/2611.31198": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.31198v1/teaser_v6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.31198"
+    },
+    "https://arxiv.org/abs/2611.29797": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.29797"
+    },
+    "https://arxiv.org/abs/2611.31194": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2611.29747": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.29747v1/characteristic_pair_commonality.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.29747"
+    },
+    "https://arxiv.org/abs/2611.31190": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.31190v1/figures/gpt-oss-120b_kde_feature_distributions.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.31190"
+    },
+    "https://arxiv.org/abs/2611.29688": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.29688"
+    },
+    "https://arxiv.org/abs/2611.31185": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.31185v1/figs/fig_mechanism.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.31185"
+    },
+    "https://arxiv.org/abs/2611.29652": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.29652v1/model_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.29652"
+    },
+    "https://arxiv.org/abs/2611.31175": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.31175"
+    },
+    "https://arxiv.org/abs/2611.29632": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "error": "Article HTML too large"
+    },
+    "https://arxiv.org/abs/2611.31174": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.31174"
+    },
+    "https://arxiv.org/abs/2611.29502": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.29502"
+    },
+    "https://www.qbitai.com/2026/11/512330.html": {
+      "checkedAt": "2026-11-24T17:32:55.977526+00:00",
+      "description": "中国AI数据平台加速崛起",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/a0f1722544c132dee1eed892c960e5e8.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512330.html"
     }
   }
 }
