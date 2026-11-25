@@ -4987,7 +4987,11 @@
     "5a24e5b75e0329bd0eeb5fe984fd68fe3548a479bcfe02b57221d26c81d2e817": "Marina Petrova的点Aria帮助研究网站和建立提案,",
     "825b9b6f6a4735d41f397648b298c885c3e824635294813a990d183d2ee44ac5": "iFood 如何在 15 000 个储存库中进行编码",
     "064bb9318402c8b1efb185bbe69ceead3b44fe1fb4bbb1585992cebc518164a9": "Clay 帮助销售团队在 Codex 和 ChatGPT 中获胜",
-    "0fa95f71b9610bb6583eeb8c8b4e7c38eecceadda8968492a885bce8b6576896": "ChatGPT和Codex集成帮助Clay的用户研究交易,并将数据转化为上市剧,由GPT-6模型处理推理."
+    "0fa95f71b9610bb6583eeb8c8b4e7c38eecceadda8968492a885bce8b6576896": "ChatGPT和Codex集成帮助Clay的用户研究交易,并将数据转化为上市剧,由GPT-6模型处理推理.",
+    "eabcec3b52c9a99f05c28cd7d3488c7b0a867639eda4f083de80b2c17dc3c838": "AI品牌的感知分析:如何跟踪和改进AI对你的描述",
+    "f9ee26e931bfe189f0e1715d7317693489744a185bc17d6e376639aa802f561d": "它能帮助你发现反复出现的反对意见, 了解竞争者得到的赞誉, 并找到方法来改进你的产品, 以及如何解释它们。毕竟AI的知名度并不仅仅在于你的品牌是否出现在AI的答案中.什么,多读一下",
+    "1252d5d2938933376102ab131e9eaca2e1670ddd7b255d02923d9b8c3ba04c09": "卡片支付额超过商店中的现金;欧元区消费者希望两者兼有。",
+    "aab97e246504b15aad8a1ace2b7d1900f9dc7443123b4456c157429913ff82f3": "CUGA的印度语音代理"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -25857,6 +25861,132 @@
       "image": "https://images.ctfassets.net/kftzwdyauwt9/24rUSNlLR8iXQysKA6dq12/38954f25812d30bf772691824f747b84/clay-seo-1920.png?w=1600&h=900&fit=fill",
       "kind": "原文封面",
       "imageSourceUrl": "https://openai.com/business/customer-stories/clay-plugins-openai"
+    },
+    "https://ahrefs.com/blog/ai-sentiment-analysis/": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "AI sentiment analysis shows how AI assistants describe your brand. Learn how to track it, find the pages behind negative answers, and decide what to fix.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/ai-sentiment-chatgpt-what-i-like-subaru-forester.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/ai-sentiment-analysis/"
+    },
+    "https://sspai.com/post/119310": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "Arc 花了很大力气重新设计「人该如何使用浏览器」，YAB 在继承这份交互遗产的同时，又顺手为 AI 打开了另一扇门。",
+      "image": "https://rssfile.sspai.com/2026/11/25/article/4be42e9b-cbc6-9779-a31a-ab1f94d5ea94.jpeg?imageMogr2/auto-orient/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/119310"
+    },
+    "https://www.eeo.com.cn/2026/1125/1103015.shtml": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/95518A6E1FD4CAFFA95968CEC889EC97.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1125/1103015.shtml"
+    },
+    "https://www.eeo.com.cn/2026/1125/1103014.shtml": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/95518A6E1FD4CAFFA95968CEC889EC97.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1125/1103014.shtml"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html"
+    },
+    "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "A Blog post by IBM Research on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+    },
+    "https://www.ithome.com/1/032/225.htm": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "NIO IN 2026 蔚来创新科技日今日举行。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/032/225.htm"
+    },
+    "https://www.qbitai.com/2026/11/512538.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "Fable5.2已经很旧了。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/77cb10d8eb5d296e8e582f83d2f3a128.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512538.html"
+    },
+    "https://www.qbitai.com/2026/11/512532.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "第二十一届中国IDC产业年度大典（IDCC2026）暨2026全球数字基础设施科技展即将举办",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/9af2ce191f27400937d5014facb23939.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512532.html"
+    },
+    "https://www.ithome.com/1/032/195.htm": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "Counterpoint 研究指出，黄仁勋回归 NVIDIA 虽提振市场信心、恢复产品节奏，但在美国收紧出口管制、中美两大 AI 堆栈分化的大背景下，AI 行业格局已无法回到事件之前的状态。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/032/195.htm"
+    },
+    "https://www.qbitai.com/2026/11/512515.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "OpenAI这下要有俩Tibo了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-12.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512515.html"
+    },
+    "https://www.qbitai.com/2026/11/512498.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "复杂场景三维建模成本降至10美元以内",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-31.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512498.html"
+    },
+    "https://www.qbitai.com/2026/11/512478.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "整体效率大约是此前Opus版本的2到3倍。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/5c12de48bec53640f8c46abf004974b8.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512478.html"
+    },
+    "https://www.qbitai.com/2026/11/512454.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "近日，阿里巴巴集团旗下高德正式发布新一代通用交互式世界模型 ABot-World 0.5。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/47855dd9d9291f05d9a7573662cc92fd.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512454.html"
+    },
+    "https://www.qbitai.com/2026/11/512451.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "蚂蚁刚刚发布医疗健康模型全家桶",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/e6c819c513de9ede49fff45c6efdec1d.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512451.html"
+    },
+    "https://www.qbitai.com/2026/11/512423.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "纯代码手搓了一个MV！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/d3824c6a12fe6ecf5535bee9bbe9ff3b.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512423.html"
+    },
+    "https://www.qbitai.com/2026/11/512411.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "2026年11月27日，2027中国AIoT产业年会暨创新私董会将在深圳柏悦酒店举行",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/fa5170ff100a774de4d87d9d762e69c8.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512411.html"
+    },
+    "https://www.qbitai.com/2026/11/512387.html": {
+      "checkedAt": "2026-11-25T11:40:34.397034+00:00",
+      "description": "探讨未来产业布局与结构性新周期下的资产配置机遇。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/da6e588f0b1e3509c8d588739412f749.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512387.html"
     }
   }
 }
