@@ -4961,7 +4961,33 @@
     "79f18d7a7b118206347c11211e0c683bc5b31a8e6b1dc7f27e9d6f6402eef479": "一个平台应该展示所有消费者的所有产品,还是至少他们最喜欢的产品?或者,它能否通过不匹配一些消费者来增加消费者的盈余:只展示较不偏爱的产品,甚至将它们排除在贸易之外?我表明,无论是垄断还是双重垄断,不匹配都可能通过诱导低价而增加消费者的总盈余。在双重垄断中,消费者-最佳配价采用截断政策:在每对等估值差异的对角中,估值较低的消费者仅与偏好程度较低的产品配价,有些随后可能被排除在外。有独立制服的va",
     "3a9520a6d46c794e6e3467539618090295d3d8c487e4aec496fc82a5792641e0": "每周为设计者——思想家和制造者——提供资源。“与机器接合没有内在的摩擦。它毫不犹豫。它只是回答问题。它不寻找正确的词, 或想知道问题将如何落地, 或准备如何得到答案。它只是回应。”《犹豫不决的纪律》 ——编辑们选AI是新的旧设计材料 ——模型作为下一个材料。由帕特里克·尼曼决定剧场或决定设计?•从积累知识到拥有决策权。帕特里齐娅·贝尔蒂尼为什么还要花钱买软件?为什么设计是答案",
     "ec1ef54b0f76fc51ae8c5a52c6546bdf09ef624be0306a7321f3d3ab82cffb10": "自 langchain-chroma = 1.1.0 发布(chroma): 1.2.0 (#41991) 发布(标准测试): 1.2.0 (#41996) feat(伙伴):从伙伴包中移除 EOL'd Python 3.10 (#41268)chore(ps): hump oathlib从4.0.0到4.0.1 in /libs/partners/chroma (#41721)chore(ps): hump opleteometer-api从1.45.2 in /libs/partners/chroma (#41588) 构建(infor):避免脆弱的文件锁锁释放而不降低兼容性(#41486) 回归:补合脆弱的整合依赖(#41481) 构建(deps): 补合脆弱集成依赖(# 41473) chore( deps): 凸起",
-    "f1008053c80dccfdd1e4b6738d19d92583606cc38c45213ca290b8f223615bb3": "intkling2:更快的金属解码,预填和草稿 添加只有Inkling的金属内核,每个内核都有一个存量图回落,由GPU生成和大小级加门:短BF16产品,破损的NVFP4/MXFP8 专家与装有引信的SwiGLU,装有引信的环路控制器和剩余混合,相对位置分散注意,装有引信的短缩进,装有更快的全球预填,一个命令的窗口缓存到位,以及一个装有4位词汇头的8位草稿(仅提议;产出保留)当然"
+    "f1008053c80dccfdd1e4b6738d19d92583606cc38c45213ca290b8f223615bb3": "intkling2:更快的金属解码,预填和草稿 添加只有Inkling的金属内核,每个内核都有一个存量图回落,由GPU生成和大小级加门:短BF16产品,破损的NVFP4/MXFP8 专家与装有引信的SwiGLU,装有引信的环路控制器和剩余混合,相对位置分散注意,装有引信的短缩进,装有更快的全球预填,一个命令的窗口缓存到位,以及一个装有4位词汇头的8位草稿(仅提议;产出保留)当然",
+    "40b7f8db89d793089f905fc46ef77c7c3920199e6ce6b3ae9920c43e1078ec0a": "Kate Jenkins 将美味的 \" 尼塔利安 \" 涂抹在一幅沉思的展览中",
+    "3c68c7842893702bbba692f1da385d828af8da64ead8db4bf9b8d2c26e26a6b6": "你有没有考虑过纱线的口水可能性?",
+    "2f2875b501aea672e0b174a0ba162f4e88990a2d57dcd408c6e472f78989f0da": "这节假日,",
+    "10231cb785314a9d23f000f25719c637555f836fff7dcca1dec0e8741e446f41": "看到一个爱人解开他们从未预料到的 和立即崇拜的东西 简直是无与伦比的快乐",
+    "98a26f413b03f89ee0d5a09f78f1a278dd1d8b154d9e2361ffafd77067826a1a": "未来作为日常设计实践",
+    "984abe2a25c4e25c6d10bed89e8acb43b0c676198666e95fe7873869de6a0ffc": "重新审视三地平线, 探索我们如何组织起来,作为UX社区,我们开发了了解人们需求、提高可用性、吸引受众、连接复杂的系统以及更好地决定新特征的方法。但随着AI重塑我们如何设计, 工程师和提供经验,我相信能够系统而集体地思考未来",
+    "deca6a19dcdac6b386019038c06847cdc040eef650eb73887426ecffefce098a": "有效团队的四个隐藏层面",
+    "a70c88c2ce6ba1d0e1f409c4e286c44f4309a7a4b332f91f23be2225daa31047": "公司的成功并不在于遵循魔法公式,建造这个简单的新工具有助于我验证一个长期的个人信念:不再接受设计师只能通过“化妆品”来创造价值的说法。今年,我有幸参加了在秘鲁利马举行的革命性LATAM设计大会,我在那里应邀谈到设计和团队战略这两个我最热衷的主题。在公约召开前几个月,我思考了如何发出强烈信息,引发问题和e",
+    "2d9dae60656053367fe72408d1ba415fe20e58ec346805f576faa4e9c892bceb": "如果你想超越高级设计师,你必须解决一件事",
+    "a928a5325d11ea867894c6195838a6141157676dc3bbf1e135b36f0593fd044a": "为何退出工作 感觉就像失去你的事业,在设计 和超越 继续阅读UX集体。",
+    "c79e610f8638130b48d48ecbd51116c7cc963937e1642fbacfd60f3905e0239c": "为AI代理客户设计",
+    "59de93643dd66a239332bd75447c9948fe531fc97b41bf24b6e13ecdb4c04585": "个人AI助手已经比较并代你购买.但旨在说服人类的营销策略对代理人没有作用。在 UX 集体上继续读取",
+    "f7a4ab1ef5230691c8d667120eef7897e5bf7fdee91dc9f81a75cb6c8e3cf3c1": "设计过程正在发生变化。我们问的对吗?",
+    "c30b555a66ac33ff7ab1fb0ec4e3ea2766142673e0d55b7a2af4e2e030339f6e": "当设计过程本身变得智能化时会发生什么?在 UX 集体上继续读取",
+    "a5f8c3e5f79f339c1f34c0e4b2b2de03e9b995fee506dd3a7e383dc356a9f625": "谁画中间?",
+    "711dffca876892c9910df187befe82e8b89e74fb6d132f151845628286eadec0": "我们环绕人工智能绘制的每行都测量工具.作者身份一直存在于决定中。由Belleville和幻想家Triplets的动画师Sylvain Chomet执导。在发布一周后,互联网已经做出了判决。人们停了下来,放大了,数出手指,然后决定是AI.https://medium.com/media/b0e597b691aae940498b481aa00feecb/href Chomet和他的制片人Aton Soumache在接受Variety采访时回答.艺术家画的人物,他们说,T",
+    "d6afd6d2fbe7c1e8b8f60c0e49e4891f44956f1e1dd61ed0e1b9567efbebd474": "2026年10月19日和10月28日联委会贴现率会议记录",
+    "7aa1a6603a1775648f0569fa15677a86c65c0f3995b771feded52e29cd14e7f9": "GPT-6模型显示内在蛋白质设计能力",
+    "1d8f6960b030d57a34289ba7b2b09dbfc36bbc4c65572e41f5eb1ae1c314e1cd": "GPT-6模型利用推理和代码设计出蛋白质结构和序列.实验室测试发现5个目标都有约束的证据.",
+    "df3b332d010b10853bf0f25815c21b7501c73318f0247f17e6e51bb88fd2b8ae": "以 Astra 搜索遥远的行星",
+    "cd007d0a50c99bcea8bde5e4f81d435124b156ef830afc444584fa8f19e94d7a": "参见两位业余天文学家如何使用Codex和Astra从美国航天局开普勒和TESS空间望远镜的公共数据中找到潜在的外行星.",
+    "17d963e4b58c54d6a6a21064c34298cde2387de991aebf7f9de5316e47ac1eec": "如何有意利用点来创造更多的增长时间",
+    "5a24e5b75e0329bd0eeb5fe984fd68fe3548a479bcfe02b57221d26c81d2e817": "Marina Petrova的点Aria帮助研究网站和建立提案,",
+    "825b9b6f6a4735d41f397648b298c885c3e824635294813a990d183d2ee44ac5": "iFood 如何在 15 000 个储存库中进行编码",
+    "064bb9318402c8b1efb185bbe69ceead3b44fe1fb4bbb1585992cebc518164a9": "Clay 帮助销售团队在 Codex 和 ChatGPT 中获胜",
+    "0fa95f71b9610bb6583eeb8c8b4e7c38eecceadda8968492a885bce8b6576896": "ChatGPT和Codex集成帮助Clay的用户研究交易,并将数据转化为上市剧,由GPT-6模型处理推理."
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -25775,6 +25801,62 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/a0f1722544c132dee1eed892c960e5e8.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/512330.html"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-24/": {
+      "checkedAt": "2026-11-25T02:20:22.375186+00:00",
+      "description": "Letter Visitors：在你的网站上查看访客信息；Motionflare：将您的网站在几分钟内转变为令人惊艳的启动视频。；Gauth Personal Study Agent：一个能够记住你学习困难的AI学习助手；Dog Translator SuperTranslator：狗用英语说话（真的）；Modem：找到、解决并跟进每一个客户的问题。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-24/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-24/"
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm": {
+      "checkedAt": "2026-11-25T02:20:22.375186+00:00",
+      "description": "The Federal Reserve Board on Tuesday released the minutes from its recent meetings to review and determine the discount rates provided to depository institutio",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm"
+    },
+    "https://www.ithome.com/1/031/942.htm": {
+      "checkedAt": "2026-11-25T02:20:22.375186+00:00",
+      "description": "陈睿在B站三季度财报会上表示，社区是B站最强的壁垒，用户和 UP 主共生连接形成独特基本盘。他认为 AI 能高效创作优质内容并帮好内容更快触达用户，B站将成 AI 时代最大受益者之一。 #B站# #陈睿#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/031/942.htm"
+    },
+    "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": {
+      "checkedAt": "2026-11-25T02:20:22.375186+00:00",
+      "description": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+    },
+    "https://openai.com/index/searching-for-distant-planets-with-astra": {
+      "checkedAt": "2026-11-25T02:20:22.375186+00:00",
+      "description": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/index/searching-for-distant-planets-with-astra"
+    },
+    "https://openai.com/business/customer-stories/intentful-dots": {
+      "checkedAt": "2026-11-25T02:20:22.375186+00:00",
+      "description": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/2DH2aby1xmlzvADCraI7Xi/bbe8b8956578492f2c3fd7326ecbd9e1/intentful-dots-social-c.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/business/customer-stories/intentful-dots"
+    },
+    "https://openai.com/business/customer-stories/ifood": {
+      "checkedAt": "2026-11-25T02:20:22.375186+00:00",
+      "description": "",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/4Ts7RsLLSU4iEOxQwBkGgg/cbf56c075004a9ae2c41af4d5f7b428b/ifood-customer-story-social.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/business/customer-stories/ifood"
+    },
+    "https://openai.com/business/customer-stories/clay-plugins-openai": {
+      "checkedAt": "2026-11-25T02:20:22.375186+00:00",
+      "description": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/24rUSNlLR8iXQysKA6dq12/38954f25812d30bf772691824f747b84/clay-seo-1920.png?w=1600&h=900&fit=fill",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://openai.com/business/customer-stories/clay-plugins-openai"
     }
   }
 }
