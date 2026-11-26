@@ -5075,7 +5075,15 @@
     "7f1189bf583bbf61720541ddf70265167dfd2b91125b383a6bdec30a072102c7": "虽然大语文模型越来越多地作为自动评价员部署在评价和培训管道中,但其判断往往受到与人类偏好相冲突的系统性偏见的影响。虽然先前的工作已经查明了各种偏见,并提出了发现和减轻这些偏见的方法,但较少注意利用人类的偏好为识别和减轻偏见提供信息。此外,这些办法严重依赖预先发现的偏见清单,忽视了偏见的力量并依赖代价高昂的干预措施。在这项工作中,我们提出HUB-J,一个集成",
     "a632cb9cd49d459c914aef1dc8d2dd66d17a34f5616eae77a917b9529264d46d": "巴塞尔委员会公布关于2026年全球系统重要银行评估的更详细资料",
     "9e9f469a49a7776924f2791b9c68393177c97f8af62fc895bec401fa7daca51b": "巴塞尔委员会就2026 G-SIB评估提供了补充资料。进一步的细节包括全球分母和单个银行指标。该发布会与金融稳定委员会更新的G-SIB名单相伴.",
-    "34c914d27b98b18f2fab6fe420d3219102c4c91d5f496f23bfff81357a30f914": "1个RTX PRO 6000的小型推论"
+    "34c914d27b98b18f2fab6fe420d3219102c4c91d5f496f23bfff81357a30f914": "1个RTX PRO 6000的小型推论",
+    "f0f28c47c42fb113276ca973f402f2e072f7a2312cc29c18a946a9f3aa86505e": "长链-核心=1.8.5",
+    "9654c0f8caeb472a6dc73cdd6db9f75533bba66662749a1cb79519873256a354": "自 langchain-core = = 1.8.4 发布(核心): 1.8.5 (# 42103) 固定(核心): 后流块上的再利用提供者消息 id (# 42050) docs(核心): 澄清 v3 运行时警告行为 (# 42040) docs(核心): 澄清支持的流动事件 APIS (# 42038) 发布(标准测试): 1.2.0 (# 41996) 发布(文本-散列器): 1.2.0 (# 41998) chore(dps):在 /libs/core (# 41968) 中从 3.3.3 调整到 3.3.4 。",
+    "e83721e6d8ae48143b6f6c07960b7b261df4efbab075751f4e97619d050ea22d": "(原始内容存档于2018-09-26) (英语). Langchain-harmanic = 1.7.13",
+    "fc2349718bff59f114b150e66dfab5a17f1049bde30e2db99aa17e8e2d52c18a": "自langchain-harmic == 1.7.12 发布(人类):1.7.13(#42102) feat(人类):接受定制的 HTTP 和 SDK 客户端(#42101)chore(模型-简介):刷新模型配置数据(#42085)chore(模型-简介):刷新模型配置数据(#42062) 发布(标准测试):1.2.0(#41996)",
+    "1dbb72c6999f1663f4e7b598b4a14b081441ff2240192f7ead7d128892e06703": "你不应该在LinkedIn上说的话",
+    "7d0846b3f2e64622a1384fa3a8a53ca2ef0637ab5ed9839930d10b45835e0354": "当读者可以雇佣(或解雇)工作时,继续阅读 UX 集体",
+    "d05bda76b3bfa253a488a6be17abd96fee9b9e50580537a31ce7b4fe374b33a2": "未来保镖死了,AI杀了它",
+    "9bb22df13069dab562299d4be8f23fd8d30b75206499062f6a3a032262326cb3": "法国在地球上建造了最有前途的事物,后来反对派绕开了它.我们一直试图建造 超过未来的东西。AI使得这是不可能的。解决办法与你的想法相反。在创建产品时,目标往往在于尝试和将来的防守.创建一个不会在几年内过时的工具。学习机器无法掌握的技能。建筑结构足够灵活,可以生存下去画出行进图 线下仍然有道理。数十年来,"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -26418,6 +26426,76 @@
       "image": "https://huggingface.co/blog/assets/inkling-2-mini-inference-hillclimb/thumbnail.png",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+    },
+    "https://sspai.com/post/119560": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "阿里千问 Go 开放免费代打电话服务、Sand.ai 发布视频生成模型 MAGI-2 等。",
+      "image": "https://rssfile.sspai.com/25/11/2026/article/0f62c075-f25c-bdb9-0bc5-55020a3fd531.jpeg?imageMogr2/auto-orient/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/119560"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.5"
+    },
+    "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub.",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.13"
+    },
+    "https://solo.xin/topic/6339": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "大家好，我是「小谷面试」Web 版的产品参与者，这个账号是 sunrisecraft。 我们做了一款备考练习工具，想先小范围找人试用，收集真正卡住、说不清、没有帮助的地方。这不是包过工具，也不能承诺面试结果；更不是正式面试里的隐蔽代答。需要注册登录后使用。 先说明一下对象，避免说成这里是 Java 专科社区。Solo…",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://solo.xin/topic/6339"
+    },
+    "https://www.eeo.com.cn/2026/1126/1103420.shtml": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/A3057B1DEB30C229AC6982EC2C737D13.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1126/1103420.shtml"
+    },
+    "https://www.ithome.com/1/032/714.htm": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "由我国专家牵头制定的人工智能训练数据质量国际标准（ISO / IEC 5259-4:2024）已被欧洲相关机构采纳，成为 30 余个欧洲国家人工智能合规评估的重要技术参考，将应用于人工智能训练数据采集、标注、质量判断等环节。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/032/714.htm"
+    },
+    "https://www.qbitai.com/2026/11/512897.html": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "李斌坦言：不做AI变革可能活不下去",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/232a5eedc6c91bf09d482433776bac2a.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512897.html"
+    },
+    "https://www.qbitai.com/2026/11/512840.html": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "“灵巧手是人类最后的尊严”",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/fae8212fcc3b3315c365f60022d200ec.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512840.html"
+    },
+    "https://www.qbitai.com/2026/11/512828.html": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "叠满海淀最强AI Buff。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/6a5bb10e34165cebca0e3222443f5cac.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512828.html"
+    },
+    "https://www.qbitai.com/2026/11/512819.html": {
+      "checkedAt": "2026-11-26T04:06:30.965538+00:00",
+      "description": "合着全让A➗揽了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-33.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512819.html"
     }
   }
 }
