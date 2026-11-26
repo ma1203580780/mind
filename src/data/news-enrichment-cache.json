@@ -5083,7 +5083,20 @@
     "1dbb72c6999f1663f4e7b598b4a14b081441ff2240192f7ead7d128892e06703": "你不应该在LinkedIn上说的话",
     "7d0846b3f2e64622a1384fa3a8a53ca2ef0637ab5ed9839930d10b45835e0354": "当读者可以雇佣(或解雇)工作时,继续阅读 UX 集体",
     "d05bda76b3bfa253a488a6be17abd96fee9b9e50580537a31ce7b4fe374b33a2": "未来保镖死了,AI杀了它",
-    "9bb22df13069dab562299d4be8f23fd8d30b75206499062f6a3a032262326cb3": "法国在地球上建造了最有前途的事物,后来反对派绕开了它.我们一直试图建造 超过未来的东西。AI使得这是不可能的。解决办法与你的想法相反。在创建产品时,目标往往在于尝试和将来的防守.创建一个不会在几年内过时的工具。学习机器无法掌握的技能。建筑结构足够灵活,可以生存下去画出行进图 线下仍然有道理。数十年来,"
+    "9bb22df13069dab562299d4be8f23fd8d30b75206499062f6a3a032262326cb3": "法国在地球上建造了最有前途的事物,后来反对派绕开了它.我们一直试图建造 超过未来的东西。AI使得这是不可能的。解决办法与你的想法相反。在创建产品时,目标往往在于尝试和将来的防守.创建一个不会在几年内过时的工具。学习机器无法掌握的技能。建筑结构足够灵活,可以生存下去画出行进图 线下仍然有道理。数十年来,",
+    "fcd6379c2659c759393e9a4408752001b8dd15ef8d23d5bf9a969c6af209d097": "《大赦国际概览》在法国将CTR削减24.4%(更新3个月)",
+    "2ef48412e35f8d89b45d0aac05ccde54a76cd7e896070764f69a0bbc9a53d201": "在我们的第一次研究(2026年8月)中,受AI Overviews影响最大的网站在9天内损失了23.1%的点击率(CTR).随着AI Overviews在法国的比重不断增长,以及它们与它的影响,",
+    "0412aa5c537ec6cb7b1ca47408f380425fe4c1b866d5467ca7cdf5a99a13491c": "Instagram 试卷: 如何工作 +我学到了什么测试",
+    "8aef97c6d76257005d41eae382bebf25fc7fb2294644ada2ef2dda7551e965f9": "Instagram 试镜录影带首先向非跟踪者展示你的取景录.这是他们在2026年的工作方式, 如何张贴和安排,我的测试显示。",
+    "62554611f350a06a5d47c84d2e18637cf2b99a363d709024b709133400321c55": "8 2026年最佳廉价替代品(免费+付费)",
+    "0326c8cc72ca25824551b7e07a9fc4796ce096edeff87c8661c7c9c069c9a137": "寻找无所事事的替代品?比较8个免费付费的定价,批准,分析工具,和X/Twitter支持工具,发现适合你的团队.",
+    "cf9d36e44b49207031a8751e9137c7af98bd0cb1db1ce28e00047088cf764bcb": "v0.40.19-rc0 (韩语).",
+    "32644b7ce60b7d9c8a0d28920b387c3cac417582a0ee66d69b45e473e1355c66": "凸起的拉玛服务器(# 19917)",
+    "0fbd21c8aabac5f067ad6b58ef09eab854b073e14c7173cfed8ea0829dec4b32": "机器试图获得直觉,",
+    "6b328b0572c517aa17cdd947966b43447140e3d8d53ebb191aaf15634e971dc4": "直觉一直被当成第二好的知识现在AI正在自己学习;我们从AI学习,没有人在意这个循环。韦尔普.我对AI有一种感觉。我从未被称作一个以奇异的反面呈现的人。最近我对目前关于口味及其发展方式的论述非常感兴趣。读完研究之后,我一直注意到,所有这些人都在努力 以量化我一直经历的东西",
+    "e1a6839acc3e7c05b4368ca5bcff644cc6e3d08a3aa7046c8ddfc510a73de59c": "2026年10月28日至29日的会议",
+    "bcdcabadb39d7476b916caf524ed05a6fb7eca316b0ffc10f1d799e714625d39": "为AMD Ryzen和Radeon引入了lama.cpp基准仪表板",
+    "898763f1903fcc0cf966619077cb9b7e2a3e17d03987ebe7f45f4d759b99bee3": "依据Nemotron 3.5 解析:开放数据、精细图宁和更快推论"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -26496,6 +26509,111 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-33.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/512819.html"
+    },
+    "https://ahrefs.com/blog/ai-overviews-ctr-france/": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "AI Overviews now show on 88.5% of tracked French keywords. Our follow-up study shows what that has done to CTR & how to gauge your exposure.",
+      "image": "https://ahrefs.com/blog/wp-content/uploads/2026/11/ai-overviews-cut-ctr-by-24-4-by-juliette-begue-ai-search.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://ahrefs.com/blog/ai-overviews-ctr-france/"
+    },
+    "https://sspai.com/post/119563": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "在 AI 工具玲琅满目的今天，用各种方法「写」出一篇论文已经不算难事。但有一个环节依然很让人头疼——论文里的机理图。",
+      "image": "https://rssfile.sspai.com/2026/11/25/afcbfaaf7e161be773c6089616a1b3d4.jpg?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://sspai.com/post/119563"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.19-rc0 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0"
+    },
+    "https://www.eeo.com.cn/2026/1126/1104535.shtml": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/86B06589A6564578E668296EDAE4705F.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1126/1104535.shtml"
+    },
+    "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html"
+    },
+    "https://www.eeo.com.cn/2026/1126/1104523.shtml": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/86B06589A6564578E668296EDAE4705F.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1126/1104523.shtml"
+    },
+    "https://www.ithome.com/1/033/078.htm": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "育碧要求所有新游戏项目提案必须说明生成式 AI 的应用方式，未提及需给出合理解释，否则难以获批。当前正处于业务重组期的育碧，内部因强制推行 AI 士气低迷。##育碧AI开发政策##",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/033/078.htm"
+    },
+    "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "A Blog post by ggml-org on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+    },
+    "https://www.ithome.com/1/033/054.htm": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "国家数据局综合司研究形成了《关于完善数据规则赋能人工智能创新发展的若干意见》（公开征求意见稿），现向社会公开征求意见。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/033/054.htm"
+    },
+    "https://www.qbitai.com/2026/11/512972.html": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "全栈方案破解工业机器人连续作业难题",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/826beb657fe9e9df20a821082ff9abe0.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512972.html"
+    },
+    "https://www.qbitai.com/2026/11/512952.html": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "今天，IF 2027 全议程揭晓。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/e3216a1929f9bff8ccd565f5fd0c50bb.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512952.html"
+    },
+    "https://www.qbitai.com/2026/11/512942.html": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "12月6日，WAIC将携手第六届“海聚英才”全球创新创业峰会，把这场关于“人”的讨论带回现场。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/e497dc1e3c372f81c7a18d4dff3e82d5.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512942.html"
+    },
+    "https://www.qbitai.com/2026/11/512916.html": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "30秒一镜到底，可自动编排镜头",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-6.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/512916.html"
+    },
+    "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "A Blog post by NVIDIA on Hugging Face",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+    },
+    "https://huggingface.co/blog/training-swarms": {
+      "checkedAt": "2026-11-26T13:50:14.185757+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/training-swarms/thumbnail.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/training-swarms"
     }
   }
 }
