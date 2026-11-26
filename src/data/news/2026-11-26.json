@@ -2679,7 +2679,7 @@
       "category": "AI 协作",
       "kind": "版本发布",
       "title": "v0.40.19-rc0",
-      "summary": "bump llama-server ( #19917 )",
+      "summary": "What's Changed inkling2: faster short histories, draft proposals and conv snapshots by @dhiltgen in #19881 mlxrunner: compact Engram history buffers by @pdevine in #19913 bump llama-server by @pdevine in #19917 Full Changelog : v0.40.18...v0.40.19-rc0",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "ollama/ollama",
@@ -2693,10 +2693,10 @@
       "automated": true,
       "sourceLanguage": "en",
       "summaryTruncated": false,
-      "author": "pdevine",
+      "author": "github-actions[bot]",
       "contentLanguage": "en",
       "titleZh": "ollama 版本更新 · v0.40.19-rc0",
-      "summaryZh": "凸起的拉玛服务器(# 19917)",
+      "summaryZh": "变化的\"墨水\"2:更快的短史,建议草案和凸轮快照由@dhiltgen在#19881mlxrunner: 紧凑 Engram历史缓冲由#19913 凸轮拉玛服务器由@pdevine在#19917 Full Changelog:v0.40.18.v0.40.19-rc0.",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2754,11 +2754,7 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "",
-      "contentLanguage": "zh",
-      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/86B06589A6564578E668296EDAE4705F.jpg",
-      "imageAlt": "原文配图：郑州出台商品住房销售新政 分类施策平稳推进销售制度改革",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1126/1104535.shtml"
+      "contentLanguage": "zh"
     },
     {
       "id": "feed-00009a421e4e16476c6f",
@@ -2810,11 +2806,7 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "",
-      "contentLanguage": "zh",
-      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/86B06589A6564578E668296EDAE4705F.jpg",
-      "imageAlt": "原文配图：国投电子：关于变更董事的公告",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1126/1104523.shtml"
+      "contentLanguage": "zh"
     },
     {
       "id": "feed-bea8c2b8e08a76959c1b",
