@@ -5166,7 +5166,86 @@
     "4b639d35868c8feb7bb00cd3e5659b15eceaf5413633abf4fc5d729345e116db": "深层研究代理人从多来源收集信息,并将其综合成关于复杂,开放式问题的报告.现有基准按几个方面评估报告的质量,但缺乏专门的以知识为中心的评价,无法了解报告涉及哪些研究方向,以及报告如何深入探讨这些方向。我们引入了DRBench Pro,这个基准使结构化的知识覆盖成为首要评价目标.我们的自动管道从维基百科建立本地知识树,并使用被抽样的子图生成研究查询和以证据为根据的地标.每个字段c",
     "f7dd9ff660007d3385dff33d6022e0f74cdadbdfc8cdf64033cfc8a1db97d782": "变化的\"墨水\"2:更快的短史,建议草案和凸轮快照由@dhiltgen在#19881mlxrunner: 紧凑 Engram历史缓冲由#19913 凸轮拉玛服务器由@pdevine在#19917 Full Changelog:v0.40.18.v0.40.19-rc0.",
     "4bf69266d1af7e6933c7df869623b60cfef3c2baeffd1b47330d2eb40f353cf1": "改版的书可以毫无错误地打开,仍然读得不好.句子在句子中间断开,一段在一页的脚下停留,并在下一页再次拾起,一个章节标题埋在一行重复的页眉文字下.档案里没有腐败的我想理解的是,为什么同样的原始资料 产生了一本看起来在技术上已经完成的书 并且读起来就像印刷页的传真。为什么改版的书看起来错了一个PDF记录了一个页面在打印时的长相: 每一行都坐在哪里,边距有多宽, 横跨的是什么",
-    "b84f4196f030211bf870d0bb1206e768b7c668aaea7e16a7fa77744bf27d267a": "Swarars, Flocks, Gangs: 如何构建,培训和评价多代理系统"
+    "b84f4196f030211bf870d0bb1206e768b7c668aaea7e16a7fa77744bf27d267a": "Swarars, Flocks, Gangs: 如何构建,培训和评价多代理系统",
+    "395ef6b90775e4fbaae1055921d23dde309f31684a8cd1e5953fc16a7d5f0a40": "过失容忍如何支持可靠的AI工作流程",
+    "208058165ac5f206c0e734e16bf49b05f6080afdf9f3b1eda5181cde0526fd68": "过失容忍可以让一个失败的API呼叫脱离AI工作流程出轨.学会如何在不重复已经成功的行动中规划恢复.",
+    "5488e1631b79d735e9d5867b1167614731d723642b8e7abce94d44f6c2e87671": "ROVeri 1.0 车站",
+    "78f6d2a22e17fd68bb61398ee8047cb61e0a49aeb4a9be3ef2a58c8cd60beea4": "通用性测试 101",
+    "7ceaa9afd099b30c7352c96ac89e6b15c5ae2cdae35939b8dd8443b7e61d60ca": "使用性测试涉及观察人们使用设计来发现问题和机会.产品团队中的任何人都可以学习这个.",
+    "ae5593200756ccbbbce6a012c3417dcdf0494d3da8006222184163333e3297e7": "《人体调查手册》,2000年",
+    "d8bda4837ba2739435c33f9a632577c8ef6e1a1376c89b3f86b00f3a5554b877": "我们早就想了解我们的内幕",
+    "50291b818e66637c6d3c3c4a82f435acf65bf771dd389eff6d26265734ad5c5f": "确定性AI管道的建筑模式",
+    "03b2438a8eaefa8f7d733d56efa3cda679842a65101560d436aacaf242eacb25": "了解什么是决定性AI,它与非决定性AI有何区别,以及哪些建筑模式使得AI管道可靠且可审计.",
+    "4c6ad0cb5a8efd8e7cc6fba7732fc4b5ebf061f36d899d3f18957b4d60cc7ad6": "加一号",
+    "9f002d40cb0e876e12aad79aaa82a988f00174af02feeb54f77f580ce9d788c0": "UX 提示帮助降低电子商务回报率:购买前最佳做法",
+    "b2e90122399b325ccea174cae73df6e1b892a18e97fdad20e8ee9facc86d057e": "如何通过预购UX在图像、描述、尺寸和交付通信方面的最佳做法来降低回报率。",
+    "80e30f71b5b088375c608bb4776d00585858fcc7a92da2f9b7d108cfecc289e4": "白昼",
+    "491d0762e18fb8f58b68c247f17354066455d5b3478c62b37e8077ec8ca39465": "Claude Code 2.0 最佳做法",
+    "0892a39f558b8c453e8f05b1edc15d9311fa3b2b26ae6c2789e6aaafcac65a81": "克劳德代码最重要的规则 继续阅读UX星球",
+    "9bb60956cd8655d5fd0f825849422771f3fe03dba61c34cb271f594e8233ad20": "我怎么用AI做独身设计师的",
+    "8947d40a99d3b22ca6960fe1b4227f437a60ba38aa874704b766aadf3ee0ff5e": "工作顺利,失败了我加入一个30+强力设计团队已有6年,当AI流行后,\"Figma Make\"是自然而然的尝试,因为它生活在\"Figma\"内部,在双子座中有一些用法的斑点并辅助用户采访(Maze),导致对影响的微小的一瞥.情况在一月份发生了很大变化,因为我决定用一个B2Be-comm的缩放作为独奏UXer来迎接新的挑战。突然间,我面对一堵工作墙: 飞行中的支撑功能,驱动发现工作,即兴操作",
+    "523b7178c4b458f6ebcad62e242463bd02e6c723a2d59228ecfd8dfe80c0cc2a": "欧洲央行消费者期望调查结果 -- -- 2026年10月",
+    "3c9d9640d2e2ddbe82904f3085decd5e1f032c45e351fd393c219e028ec58a29": "测试文本到图像模型中的视觉特征",
+    "8fa31e93cead5da2add589dd86d198084238b2bd276d9533aa34d7af61e957d9": "文本到图像(T2I)模型将短文本描述转换为图像,现在领先模型产生具有可比较视觉质量的图像.其产出是否仍然带有特定模式的特性,涉及归属、超出总体质量的模型比较以及匿名评价。我们询问来自前沿T2I模型的图像是否能够仍然按照源头进行分类,以及哪些视觉特性使得这成为可能.在这里,我们显示一个标准的ResNet-50在HiDream-O1-Dev,FLUX.2-dev,Hunyuanimage-3.0和Quen-Image-2512中识别出图像的来源.",
+    "cdf01bd73663bf0b4ed8771c6c5620f20aece89da9ca62172e0e819f1c3c59b6": "知识分层:通过问答进行自我学习",
+    "02e839c957013ddbfabed7b73e7513b2f9dc0559553a158359e2e5969961c813": "我们考虑在大型语言模型的基础上为应用建立知识基础的问题,其中知识基础的结构决定了应用如何检索和连接回答问题所需的信息.我们研究自我结构学习,在这种背景下,问题和预期的答案指导构建一个持久的知识库,其可编辑的结构可以是图表计划或组织链接的知识文件。我们提议 \" 知识加速 \" ,分析预期答复和反应之间的差异。",
+    "342803bac928e516b9797fa3289c4792f7a11fd82c1e6395264a0154b6b0482d": "作为集体处方上的窗口",
+    "c24c11c39479ad8df1e7e1c3983f6c1e7dd859cdd5710a79c13a21a5e4e28aad": "Proverbs作为传统智慧的宝库,为人类的推理提供了上千年的信息.然而,它们所编码的集体处方基本上仍未确定。我们引入了一个计算框架,分析近5万个英语谚语。使用大型语言模型,对照人类判断得到验证,我们绘制出谚语的时事地貌,评估其指令性能,并量化其对人类判断和行为的关键层面的建议.我们发现,大多数谚语都是规范性的,在个别控制的领域提供了指导,例如pr.",
+    "80bd82264ca9d2a8fadf5b30927d885134c7aebc577dddab4309e4a64c255e4c": "修复抖动语言模型的可信赖性",
+    "6c2bddcd8af06d0daefc8cb05c2198dee7e4e4f3a49d52be4c97b231470460e5": "知识分馏可以通过较小的学生模型来部署大型语言模型,但压缩过程可以引入可信赖性的回归,即使下游性能得以保存.修复这种故障具有挑战性,因为通常没有原始的蒸馏器,而直接优化偏好可能会改变教师继承的能力。我们提议在Bregman应急功能(PBRF)的近缘基础上建立一个目标明确的修理框架,以解决这两个局限性。我们估计PBRF使用代孕所需的曲率",
+    "5d70f4b11d31764f4b4e7de9c9483364873ff6f4f3066f050e68ab3d74185c3a": "并非所有世界模型都能够怀疑:培训目标和建筑如何塑造JEPA和RSSM世界模型中的认知不确定性",
+    "5fb3b757e9092086340d09992c1ef1168c1be0bd7c2d274bc06bd9948d2e66a4": "世界模型预测环境如何对行动作出反应,以便在执行之前能够评价候选行动。以这种方式执行的行动,或决定,只是和模型的预测能力一样可靠,而预测反过来只在模型的经验中是可靠的.预测性不确定性(EU)是标志着这种经历结束的信号.在这项工作中,我们提供了广泛的实证研究,说明培训目标和建筑如何塑造世界模型的认知不确定性。更确切地说,我们提出了对后热欧盟的控制性比较(las.",
+    "4fc74d152a1e5636eb79e12ce9b07db297e5d5d61e1a07a93b10d384c7641860": "语言知识基准:语言模型是否知道早期识字的基础?",
+    "6c9cbbd6c7209172b4ef14f830035c9bbf28998c46a16d888e2b42d0c2e40112": "中低收入国家的许多教学语言在用于培训语言模型的数据中代表性不足。在这些模式能够支持这种语言的早期识字之前,我们需要知道它们是否掌握着识字教学所依赖的每一种语言的语言知识。为了检验这一点,我们提出了语言知识基准和可复制的、基本上自动化的管道,将课程文件、教师指南和学生书籍变成一个经过审查的问题集,在九个语言领域和七个年级的固定网格上组织。T级",
+    "10341b9ea2a52a44df8e2da193c3580deafdd39c8ea676fb7758b3f50d445bbc": "VulnSafe:衡量脆弱性 -- --大语言模型中注意关系安全",
+    "47c780ed6bd518176b6a5cfc3f36f70bd26d7d39d56ab67fd9ccd95fbc40ed46": "情感上的支持性互动需要大型语言模型,这不仅是为了避免明显有害的内容,而且也是为了识别与脆弱性相关的风险,调节其关系姿态,保护用户代理,提供适合具体情况的支持.现有的安全基准往往衡量孤立的侵权行为,因此不清楚其分数代表何种基本的应对能力。我们介绍VulnSafe,这是中国的一项能力评估,其中心是脆弱-警觉反应能力。VARC将关系安全组织成五个互补结构:风险感知,Safet",
+    "8ccc77dcf552c48f4d85a5294954a26a769b52d9cfbe5b13fccec73d22926a43": "传输架构为优化前置",
+    "fd362e608e943cad38449f936cc3e0a0832c2213629e3f450cb7c73799f676d9": "初始化决定了一个模型的\"命运\"优化,远远超出了仅仅设定其重量的尺度.它在输入数据上建立了基本的初始几何学,将某些方面,例如哪些例子被认为是接近的,哪些表示梯度下降将自然地先得到完善。在本文中,我们将一个网络的初始几何是前作优化,并询问一个网络是否可以通过引用一个完全不同的架构来先改变其优化.为了调查这个问题,我们使用一个初始化程序 目标",
+    "eb323de579e62efaa812c33ef229c0e01999a98783d8567175930651ad3b9302": "以代码解决视觉: 编码代理比视频模型更强的视觉理性",
+    "b777371ee5895b9a14deb52544b3dff8276fb2d4af14a1c922c4344a6afdfc22": "视频生成模型越来越多地被评价为视觉理性:鉴于第一个帧和自然语言的提示,该模型能否产生执行所指定任务的视频?范式被认为是有利的,因为推理是视觉介质的本能,直接在框架而不是通过语言或代码来进行.事实上,这种本土路线是否是更可靠的视觉推理路线,还没有在同样条件下通过象征性的替代办法来测试。因此,我们的任务相同,投入、产出规格相同",
+    "028f7ee78305d58b644a37fd7d8bcb49d92c1e79a6efcdbb8c800be08a175447": "HOG-WAM:通过未来渐进预测提高视觉自强性",
+    "792bbf4bce740b925be32008895a0608b3e3f65de50fbb0d80eb8e3efad312cc": "世界行动模式共同预测未来的观察和行动,但视觉腐败可能破坏由此产生的政策。我们引入了HOG-WAM,它添加了未来东方渐变图(HOG)作为结构监督,直接取自演示图像.一个辅助的HOG扩散变压器(DIT)模块通过不对称的注意来读取RGB的特性,使其目标能够塑造用于控制的视觉表现.该模块仅在培训期间使用,并在推论中被移除,保留了FastWAM的RGB-to-Action架构.我们评价了四个受控的迷信",
+    "05bb64f42b89ba39eb0531730beebcb6ea8cab501a72c3ffd82d2e888c6fb854": "Persona Factory: Stylistic 用户与合成人银行的快速增强",
+    "a6bf48a9ce49cb082fc89a2fc5e4f42b7bb68bcbcaee6f0a6c203ec9d0c5bec1": "大型语言模式越来越多地取代AI开发管道中的真实人员,因为这些模式被用于形成规模化的训练对话并驱动校正和评价.然而,出箱模型作为合成用户的提示,产生单语言和风格平坦的文本,未能复制真正的用户-AI通信力学.我们介绍PersonaFactory,一个端到端的管道,生成详细的用户人物,并用它们来从他们的角度增强现有的用户提示,生成一个超过740000个结构化合成人的银行,详细描述他们的后向",
+    "88f9cefe2abad8c055971ffafa849dddabb03f570cf51fee7f6a441242d64378": "当每一次推出失败时:将学习者有条件的选项复制到长视代理 RL",
+    "7daf74794e8d617632f67799ad281a5ae2aa8055ae0bd34eb2b486cf2545246e": "基于团体的强化学习具有可核查的奖励,往往让全失败的团体承担长视野的代理任务:每个被抽样的轨迹都得到零奖励,使团体相对的方法没有基于奖励的政策梯度.共同的补救方法从更强大的模型中提供完整的解决方案,但完整的轨迹代价高昂并让学习者接触到长期不政策的历史.我们引入了SPLICE,它从当前政策失败的线上构建出本地培训目标.对于每个全失败的小组,一个建议模型会选择当前政策轨迹中的接点,并且",
+    "e967c76b368e6b286daa19e92043c73cf194443b2f9a2aac3f3088dba4b4f3bd": "DFly2:涡轮充电长串联谱分解通过共享目标平分",
+    "543f4707290db85314f06ce74629672defe1621a18cbf8bf68dff9fa7a74a097": "为了避免在长时间内引起密集关注的四重成本,DeepSeek-V4和Hy4等模型已变成本土稀有,而投机性的解码(在解码最慢的地方最为重要)则越来越多地运行在它们上.然而,他们的起草者仍然保留着他们自己的上下文缓存,覆盖整个快取或滑动窗口.除了内存之外,这样的缓存会花费预填时间,前缀-cache点击并解码通用语.阅读目标缓存的起草者会回避自己的一个,但只结算哪个缓存,而不是哪个位置,仍然会读出所有内容或最近的窗口.也一样",
+    "76608127dc15b7cedc84be1b7b6c7f76e2ff709a3bf8b589c0440316799f0716": "让逆境支出更多:国家欺骗作为AI-Era网络防御的成本交换首选",
+    "16671d8b9f00c254a94f4e1ae3e7c1e4aa031d7d61aa6f6316b35478cfb55831": "大型语言模型(LLMS)正在通过降低攻击者扫描和适应的成本来改变入侵经济学,同时诱导维权者进入无约束的计算.我们主张,网络欺骗应该通过它所施加的成本交换来判断,而不是通过现实主义或检测来判断,而原始的制造有利于交换的就是针对对手的持久状态.每个被认出的对手都重新进入了它认为已妥协的世界,与过去的行动保持一致,并与所有其他对手隔离。",
+    "1d6fd36051cbdc619888b27de25d9280184bbafa8f13b34c0b52efe7b1b21c29": "InterConRank:互联异地网络中的联合节点中心",
+    "d0e14c473a45240749addb9f842a252d7540cafeb033e2d93ff8bd9d9e8f60bf": "如果在另一层的相邻者在网络中占据不同的位置,两个在自己的地层内具有相同连接的节点在重要性上可以有所不同.我们引入了InterConRank,一种中心算法,它计算一个互联互通的网络的每一层的单独节点排名.定向依赖指定了向每个接收层提供哪层分数.InterConRank将每种类型的链接单独地正常化,并一起更新所有各层,因此一个分数可以在一个迭代中交叉成一个分数并沿其内部链接在下一个分数中传播.我们证明这个Joi的趋同",
+    "afa729896600ea22314622eea60fb705be2725b8c4fdfb3c543ab6a8525a0a83": "TASK 内存: 超越文本唯一的内存,用激活引导和知识编辑来对抗记忆幻觉",
+    "4d1f758107f8400ae051066c74ff3ed83a75ddf0bc37459af20ae12d0f9ff48f": "LLM代理越来越依赖外部记忆,然而他们仍然对记忆产生幻觉.通常正确的内存被取出并放入了快取中,但答案与之相矛盾,或者内存被应用到错误的问题上.我们称之为时间记忆幻觉在五个开放模型中,我们发现它们产生于参数化知识和外部内存之间的冲突,并有三种形式: 内存符号化,即模型在权重中返回到一个僵化的事实(高达46%的查询); 内存错误,即将内存归结于无关的实体(上).",
+    "d306dfdc2624beef27797994b63a8dcd44f53eca547151b78da9eff2bb20706f": "一种模式,多种模式: 演化系统 即兴创作集",
+    "8d0cc33ed830e218aa7c6f455c58be23e80272a792626a1a373d094638c5e76b": "偏好相通的LLMs可以显示模式崩溃,将其输出分布集中在一套狭窄的高回报响应上.这限制了创造力,这需要质量、新颖性和多样性。现有的试验时间方法往往强调多样性,较少注意个人反应是否既高质量又新颖.这种区分在实际应用中很重要,用户可以寻求单一的令人信服的原始反应。我们把创造力的生成正规化为一个多目标分布优化问题,并引入SEPO,一个无培训的框架.",
+    "339d07189313db2386e0cceb7d3c44de4c80dc611df2d551606893a15344ca1d": "通过镜头读取 Fine-Tuning Diffs:用于后门检测的模型 Diffing",
+    "1d0bb3cd2464a8474e73141f2e36151f1367e4572f91017b1b1d50a19d488909": "我们采用基于符号读取的通用分分数系统来评价重量,活性以及输出的模型分量方法,用于微调过程中的后门检测.我们还改进了现有的权重和基于激活的方法,将日元贷款及其完善,即日元贷款纳入其中。我们在实验中测试我们的设置,我们比较一个后门模型 与基础模型,从它微调。我们的结果显示,纳入美元-美元-仑可以改善我们所有环境中的权重方法,而美元-仑则提高单层内的权重。T级",
+    "867bd6257256a956a98ed8340385c5ef1eb4815259c3d7d6bb19d82dcc43f26f": "收集报道,重放证据:长视线特工的适应性和高效政策扭曲",
+    "726d1747296856285426d3998551165ca2f2629cbc3db46e7dc15643b67aade5": "全面在线政策蒸馏(OPD)对长视剂来说成本高昂,因为每次更新都取决于新鲜环境的推出.前缀重放提供了一个高效的替代方案,从所储存的历史中取样流子学生的响应,减少长尾展开的闲置时间,并允许所收集的每个轨迹支持多个更新.然而,我们对完整前缀回放管道的分析确定了长视环境的两个局限性.在轨迹收集中,只有教师的轨迹错过了学生引起的历史,而更广泛的历史覆盖面可以减少教师",
+    "76942667687648fc0119d6dea442f1cacf3d22a005d7bd549672735f1cc47be9": "一个理论对LLM解决方案有什么价值?衡量、诱导和合并背景理论",
+    "731158e0f0424a0758bfc854394cdc29810128e5428597fb2b93b6fad427252e": "数学家在知道正确的理论后更快地解决问题.我们问一个已声明的理论对于一个大型语言模型(LLM)的解析器值多少钱,一个模型是否能够自己写出这个理论.在长度匹配的协议中,将正确的理论添加到Qwen3-14B的上下文中,将图案等待时间问题的Pass@1从0.37提升到0.83,并将正确解决方案的中位符从10.2k削减到6.3k,而同样长度的工作实例则无济于事.随着解决者及其象征性预算的增长(+0.46、+0.26、+0.07),收益会减少,而在长期预算中几乎完全来自",
+    "a4e40332d749d34c900fb899f4262ca1a60470227b7a744e644e6208850efb6d": "视觉-语言场景图如何成为健美问答的记忆?",
+    "4efa820c04e67325d27e0d5702c3ff32ede583bc7f5c9647280fd4bae1cfc545": "健美的QA需要内存,但答案精度混合了所保留的证据,读取错误并质疑前题.对于一个模拟的多室场景图管道,我们定义了可答性:一个固定的基于规则的读者单从图中正确回答的分量.基线回收了24.1%的可见物体类型及其房间标签闪烁器。有4个定点修复双还原,将可答率从27.2%提高到37.4%,将QA的再训练率从71.4%提高到75.9%,然而更好的对象F1可以降低可答率.一个问题类型的前置在每一个预想的图表上都比这个读取器强.一个真正的",
+    "d2fcc5b907290b8203a78ab7aa9b4a3e9cb1b180426512d4c52fa92a744ff6a9": "大模型还是大桌子?一个Chorus N-gram模块替换多少后骨",
+    "169b931e47be6343ebb333ed05fc45ddce9e77b60fa50bbde9b73d26fad47673": "我们问一个变压器的骨干有多少Chorus N-gram模块取代.Chorus在其投入和注意力中还加入了散列的符牌大写和三写表.我们在1918年以前印刷的13.4亿个波兰令牌上将16M到349M参数的模型进行训练,并找到同样被搁置损失的平地模型的大小.对每种模型进行单独的学习率搜索,将Chorus在47M的所得削减了大约三分之一.配上约与骨干相大型的表格后,Chorus再与平地型号相匹配,其尺寸为16M的1.34倍,从107M到349M的1.16到1.20倍.有了这些表格,每个表格都增加了爸爸",
+    "0014cb630a2de9ae51ef9208fb51aa134c71fabcd4f47ba62702b6e5e95cd829": "从共享模式到个人证据:新兴实体在临时知识图中的双层理由",
+    "c243671dc74d7031d3fed10a62572338fe63016dcda2239c321595e91dbd13ab": "时空知识图(TKGs)不断引入新兴实体,它们的互动历史从零发起步演变为零发出短发出短发出短发出相轨迹.然而,目前的范式是支离破碎的:模式转移方法缺乏全目录的事件内存,而在线内存模型则会受端点-作用不对称的影响而退化出不见答案的排名.此外,分散的早期相互作用很稀少,在分布偏差的情况下,局部重复。为了应对这些挑战,我们提议整合共享模式和个人证据fo",
+    "e207f24f3e8045d6aa51b66fb80fe6f3dcfceb3b2218ee6ec1eb1bdf3c7b38c0": "当代理错误时:用于适应性数据抽样的错配-校正匪类",
+    "7110bc1c72a25f4af2ddeaccf772027cfb037f750d45fc5bd15dce7932c1b8c4": "数据分配方法经常使用一个小的代理模型来选择培训数据,用于更大的目标模型.然而,这个代名词可以对数据与目标进行不同的排序,导致训练表现不理想.为了解决这个问题,我们模拟代理模式和目标模式之间的不匹配,并将其纳入分配决定.为此,问题被铸成多信仰的强盗,每个臂都是数据干预.代理奖赏每轮都遵守,而目标奖赏只公布于对相同更新的罕见审计.这些对齐的观测显示臂...",
+    "7b0fdad92019a08e3b227be043aa83a0fa198255b1c95cd7e73fd47aeecf8ba4": "Maco-RL:通过混合任务强化学习增强代理能力",
+    "3f38867f5596d1ba3c26082f409ac358d0a908596537c6996008b229980105db": "混合任务强化学习(MixRL)直接培训一个跨领域的统一政策,以不断扩展代理能力,而无需培训单独的专家或需要额外的蒸馏阶段.尽管MixRL具有吸引力,但在实现稳定而高效的混合任务学习、有效分配推出计算和支持持续域扩展方面,其规模化仍构成重大挑战。为了应对这些挑战,我们提出Maco-RL,一种有效衡量MixRL的方法.具体地说,Maco-RL使用一个基于配额的排程器来同步推出多个版本",
+    "e58bc0b89bc413aa09db64765600c0d1867715ead74fdf5617ad5aa8ab96402b": "用于培训后愿景-语言-行动模型的失败驱动数据飞轮",
+    "119d385725e805cb9ed0e68c83611b2789374f61e8c8982f11ec31edd46252b5": "预先训练的视觉-语言动作(VLA)模型很少能满足新平台的所有行为要求,没有大型部署的舰队的队伍缺乏数据来解决由此产生的故障.我们提议采用故障驱动的数据飞行轮,用于这类模型的培训后。它通过将任务相关实体插入重建后的现实世界场景来构建现有数据所没有的目标情景,并根据目标任务的每项行为要求来评价模型.失败率构成跨任务条件和困难程度的失败图,每个任务条件和困难程度后重新评价",
+    "6a1c20741a86a681fed02faf215d109dfbddf582d157dc32479fa63c58ba89d7": "PoVi:具有知识基础和形象理解的代理诗作到视频生成",
+    "fd4303f2b730ee65f43202160faddd8912d4a391617c5c120ff45a0de07e9092": "\"从诗到视频\"的生成需要的不仅仅是将文字翻译成视觉场景.诗歌语言被高度压缩,常常依赖于历史和文化知识,并经常通过比喻,图像等非文学表达来表达意义.我们介绍了PoVi,这是基于诗歌到视频生成的基准和代理框架,评价语义定位、话语一致性和视听实现。PoVi将诗歌语义学重建为以证据为主的表述,并逐渐将其转化为叙事,解释,人物资产,a",
+    "af0cd08e4a39ba0faaf03c6bb1d8b67a31309d23b029cdb3805176280214d5c1": "多场飓风后动态交通网络疏散交通预测:通用图表学习方法",
+    "92178efe8d7213c4a412a5e210cfd34eb64bf4f96c8ccd2f3830dc64ab818e36": "飓风后撤期间的交通需求高,导致主要高速公路严重拥堵,导致疏散人员延误和安全风险.预测实时疏散流量可大大加强疏散管理工作.然而,由于飓风特点不断变化和人口反应多样,疏散交通非常活跃和不确定。每场飓风都有独特的特征和疏散背景,导致不同的时空交通模式.此外,以探测器为基础的运输网络的结构因多个飓风而异。",
+    "f0fa61bcf6062808d153f6e9936da178e5fc9bb85529386aa1cca5dc659824fb": "技术报告MEG2text:超越非侵入性大脑对文本的对齐",
+    "38553db86a0edd9c9a9c93bb2ce50691ad74c07e8b668a925209c9d2d3ed2d4a": "非侵入性脑到文字寻求从脑活性中恢复语言而无需手术.一项核心挑战是将所学的脑语言表述转化为准确的字词预测.我们介绍MEG2text,一种将校正的训练和评价,脑文本对齐,班级平衡的单词读取,以及目标词语言-模型组合相结合的解码系统.在LibriBrain100的文字排位任务上,MEG2text达到了64.12%的TOP-10平衡精度,在公布的MEG-XL上提高了16.92个百分点,在4个Corpora上,每件都取得了收益.控制比较显示t",
+    "779a07fef1089d67467ee03d637e3b43dd0d85a2a82cb27a715e648b518d99e3": "寻找 Clue 而非场景:在视觉语言模型中重新思考实体识别的理由",
+    "5f493e52013613467b195081e5f30173cb1724269d66c5bf92ef71c4cedb8d5d": "回答一个基于知识的视觉问题,首先需要识别图像中的实体,然后回顾有关它的知识.思考视觉-语言模型(VLMs)在回答前有上千个符号的理由,然而,对于这些思考VLMs如何很好地执行这两个步骤,仍然未得到充分的探讨.因此,我们分析关于这项任务的自愿多数意见,并提出两项关键意见。(1) 承认是瓶颈,因为ViQuAE上四个模型的76.3%出错源于对该实体的误解,84.9%的失误一旦在查询中提供实体名称就得到解决。",
+    "22a0f58b35dd67486d28215cad0feda98a91e75a0f0ec92af286c36d8952ae12": "将Trainium3带入音轨:生成带LTX-2.5的视频"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -27025,6 +27104,321 @@
       "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-13.webp",
       "kind": "原文配图",
       "imageSourceUrl": "https://www.qbitai.com/2026/11/513075.html"
+    },
+    "https://www.nngroup.com/articles/usability-testing-101/": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "Usability testing involves watching people use a design to uncover problems and opportunities. Anyone on a product team can learn this.",
+      "image": "https://media.nngroup.com/media/articles/opengraph_images/Usability_Testing_101.png",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://www.nngroup.com/articles/usability-testing-101/"
+    },
+    "https://www.eeo.com.cn/2026/1127/1105812.shtml": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/4A956FAE225B59618F0D5407182C73F8.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1127/1105812.shtml"
+    },
+    "https://www.qbitai.com/2026/11/513352.html": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/2f0d531879d5f01a752bafe659336835.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513352.html"
+    },
+    "https://baymard.com/blog/ux-tips-reduce-ecommerce-return-rates": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "Discover research-backed product page UX tips to close expectation gaps and reduce ecommerce returns.",
+      "image": "https://cdn.sanity.io/images/eu2al0fk/prd/1811d67b96e42252162aec99bed6120f61998474-1656x780.png?fit=max&auto=format",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://baymard.com/blog/ux-tips-reduce-ecommerce-return-rates"
+    },
+    "https://www.eeo.com.cn/2026/1127/1105808.shtml": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/C4E9F966063FB63960ABE736F5818CF1.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1127/1105808.shtml"
+    },
+    "https://www.ithome.com/1/033/748.htm": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "王兴认为，微信 AI 能力叠加美团本地供给与履约能力，有望挖掘微信生态内新的本地服务需求。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/033/748.htm"
+    },
+    "https://w2solo.com/topics/8779": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8779"
+    },
+    "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-27/": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "Hub：运行100个Claude Code或Codex会话，就像进行5个会话一样。；QA.tech MCP：在你使用的集成开发环境（IDE）中，每次修改都要与质量保证（QA）团队的人员进行确认。；ExtraOrbital：✦ 开放的数据库、存储桶和用于智能体的AI密钥；Bifura：从人工智能代理的视角看待你的网站；Pax by Pydantic：一个连编码都可以作为插件的编码助手。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-27/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-27/"
+    },
+    "https://www.eeo.com.cn/2026/1127/1105796.shtml": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/4A956FAE225B59618F0D5407182C73F8.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1127/1105796.shtml"
+    },
+    "https://www.qbitai.com/2026/11/513346.html": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/7a3647daf091af10e2e79f51347774c6.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513346.html"
+    },
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html"
+    },
+    "https://www.qbitai.com/2026/11/513320.html": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "淡泊名利，实至名归🎉",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/fab6d36cb5b84ae27f72b929cf6c99ed.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513320.html"
+    },
+    "https://www.qbitai.com/2026/11/513305.html": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "网页App双端亮出聊天账单",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/5678e40f5f092d2b7c8d3c67846ee4cf.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513305.html"
+    },
+    "https://arxiv.org/abs/2611.34843": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34843v1/fig_framework_v2.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34843"
+    },
+    "https://arxiv.org/abs/2611.34841": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.34841"
+    },
+    "https://arxiv.org/abs/2611.34832": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34832v1/figures/00_schema.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34832"
+    },
+    "https://arxiv.org/abs/2611.34831": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34831v1/figures/Figure-4.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34831"
+    },
+    "https://arxiv.org/abs/2611.34830": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34830v1/fig_landscapes.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34830"
+    },
+    "https://arxiv.org/abs/2611.34823": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34823v1/figures/fig1_pipeline.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34823"
+    },
+    "https://arxiv.org/abs/2611.34819": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34819v1/vulnsafe_framework.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34819"
+    },
+    "https://arxiv.org/abs/2611.34816": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34816v1/figures/new_optimization_prior_concept_figure.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34816"
+    },
+    "https://arxiv.org/abs/2611.34813": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34813v1/fig_teaser.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34813"
+    },
+    "https://arxiv.org/abs/2611.34811": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34811v1/01_hogwam_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34811"
+    },
+    "https://arxiv.org/abs/2611.34785": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34785v1/fig_persona_map.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34785"
+    },
+    "https://arxiv.org/abs/2611.34777": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34777v1/method_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34777"
+    },
+    "https://arxiv.org/abs/2611.34776": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.34776"
+    },
+    "https://arxiv.org/abs/2611.34770": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.34770"
+    },
+    "https://arxiv.org/abs/2611.34763": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34763v1/Pairwise_Correlations.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34763"
+    },
+    "https://arxiv.org/abs/2611.34762": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34762v1/TASK_memory_intro.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34762"
+    },
+    "https://arxiv.org/abs/2611.34760": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34760v1/muse_algorithm_overview.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34760"
+    },
+    "https://arxiv.org/abs/2611.34758": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.34758"
+    },
+    "https://arxiv.org/abs/2611.34756": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34756v1/method_overview_three_seed.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34756"
+    },
+    "https://arxiv.org/abs/2611.34751": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.34751"
+    },
+    "https://arxiv.org/abs/2611.34745": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34745v1/FINAL_DIAGRAM_HOUR.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34745"
+    },
+    "https://arxiv.org/abs/2611.34725": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.34725"
+    },
+    "https://arxiv.org/abs/2611.34708": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34708v1/Figure_1_Motivation.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34708"
+    },
+    "https://arxiv.org/abs/2611.34707": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.34707"
+    },
+    "https://arxiv.org/abs/2611.34703": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34703v1/expanserl-performance-efficiency.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34703"
+    },
+    "https://arxiv.org/abs/2611.34698": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34698v1/framework.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34698"
+    },
+    "https://arxiv.org/abs/2611.34690": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34690v1/intro.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34690"
+    },
+    "https://arxiv.org/abs/2611.34687": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34687v1/fig/active_detectors_plot.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34687"
+    },
+    "https://arxiv.org/abs/2611.34686": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://arxiv.org/html/2611.34686"
+    },
+    "https://arxiv.org/abs/2611.34681": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "",
+      "image": "https://arxiv.org/html/2611.34681v1/fig/supp_case_deadsea.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://arxiv.org/html/2611.34681"
+    },
+    "https://huggingface.co/blog/video-trainium3": {
+      "checkedAt": "2026-11-27T18:26:12.414726+00:00",
+      "description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://huggingface.co/blog/video-trainium3"
     }
   }
 }
