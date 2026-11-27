@@ -3110,7 +3110,10 @@
       "imageSourceUrl": "https://huggingface.co/blog/training-swarms",
       "summaryOrigin": "原文页面描述",
       "summaryZh": "我们正踏上通过开放源代码和开放科学推进和民主化人工智能的旅程。",
-      "translationStatus": "partial"
+      "translationStatus": "ready",
+      "titleZh": "Swarars, Flocks, Gangs: 如何构建,培训和评价多智能体系统",
+      "translationProvider": "Argos 英中离线模型",
+      "translationModel": "argos-en-zh-1.9-ct2-v1"
     }
   ]
 }

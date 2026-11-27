@@ -5164,7 +5164,9 @@
     "69dcd50e1e8b12033e4f8728216690e7f4672f31b60b84c015e3f8aadf44cbe4": "我测试语言模型是否能够使用非对称匹配的硬币和规定选择概率的任务来选择和执行混合策略.一些模型回应了自己的回报,与平衡相反,与人类实验对象类似.没有随机化工具,没有经过测试的模型可靠地执行规定的概率.仅仅用自己的选择历史来激励模型并不能解决这种失败。虽然一个外部随机分析器大大改进了执行,但我发现大多数模型仍然被机会主义对手所利用。这些结果提供了guidan",
     "e92830b137570dded43390538617c538236527bc7ae2798312232004c6d746f3": "DRBench Pro:专业深层研究人员的知识-儿童基准",
     "4b639d35868c8feb7bb00cd3e5659b15eceaf5413633abf4fc5d729345e116db": "深层研究代理人从多来源收集信息,并将其综合成关于复杂,开放式问题的报告.现有基准按几个方面评估报告的质量,但缺乏专门的以知识为中心的评价,无法了解报告涉及哪些研究方向,以及报告如何深入探讨这些方向。我们引入了DRBench Pro,这个基准使结构化的知识覆盖成为首要评价目标.我们的自动管道从维基百科建立本地知识树,并使用被抽样的子图生成研究查询和以证据为根据的地标.每个字段c",
-    "f7dd9ff660007d3385dff33d6022e0f74cdadbdfc8cdf64033cfc8a1db97d782": "变化的\"墨水\"2:更快的短史,建议草案和凸轮快照由@dhiltgen在#19881mlxrunner: 紧凑 Engram历史缓冲由#19913 凸轮拉玛服务器由@pdevine在#19917 Full Changelog:v0.40.18.v0.40.19-rc0."
+    "f7dd9ff660007d3385dff33d6022e0f74cdadbdfc8cdf64033cfc8a1db97d782": "变化的\"墨水\"2:更快的短史,建议草案和凸轮快照由@dhiltgen在#19881mlxrunner: 紧凑 Engram历史缓冲由#19913 凸轮拉玛服务器由@pdevine在#19917 Full Changelog:v0.40.18.v0.40.19-rc0.",
+    "4bf69266d1af7e6933c7df869623b60cfef3c2baeffd1b47330d2eb40f353cf1": "改版的书可以毫无错误地打开,仍然读得不好.句子在句子中间断开,一段在一页的脚下停留,并在下一页再次拾起,一个章节标题埋在一行重复的页眉文字下.档案里没有腐败的我想理解的是,为什么同样的原始资料 产生了一本看起来在技术上已经完成的书 并且读起来就像印刷页的传真。为什么改版的书看起来错了一个PDF记录了一个页面在打印时的长相: 每一行都坐在哪里,边距有多宽, 横跨的是什么",
+    "b84f4196f030211bf870d0bb1206e768b7c668aaea7e16a7fa77744bf27d267a": "Swarars, Flocks, Gangs: 如何构建,培训和评价多代理系统"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -26953,6 +26955,76 @@
       "image": "https://arxiv.org/html/2611.34852v1/main_method_overview.png",
       "kind": "原文配图",
       "imageSourceUrl": "https://arxiv.org/html/2611.34852"
+    },
+    "https://www.qbitai.com/2026/11/513227.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "地图能随时修，记忆能跨任务用",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/cc814859c725813645ca4a26bdd4addb.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513227.html"
+    },
+    "https://www.qbitai.com/2026/11/513194.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "企业需要有用的 AI",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/5f6014d900917429634bdce1c8976834.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513194.html"
+    },
+    "https://www.qbitai.com/2026/11/513211.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/c43384efa08818f220d0d297bf191387.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513211.html"
+    },
+    "https://www.qbitai.com/2026/11/513163.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "Quickwit查询总耗时降31%，最高降87%",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/f57c38a8b59031033bf5facade93e132.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513163.html"
+    },
+    "https://www.qbitai.com/2026/11/513155.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "3D生成的竞争重点正在从“能看”转向“能用”",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-7.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513155.html"
+    },
+    "https://www.qbitai.com/2026/11/513125.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/46bd4891d3c3470eb020e77cf9778d1d.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513125.html"
+    },
+    "https://www.qbitai.com/2026/11/513101.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/383c86708732b1ce57124e9674df7f57.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513101.html"
+    },
+    "https://www.qbitai.com/2026/11/513091.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "倒计时两周，报名从速！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/11f099be8f0b37e55bbe96999af84044.jpeg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513091.html"
+    },
+    "https://www.qbitai.com/2026/11/513087.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "11月26日，“乾崑生态 共赴热爱”华为乾崑生态大会在广州南沙体育馆举行。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/e6cdcde2b0166a1f33da51a9e680b720.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513087.html"
+    },
+    "https://www.qbitai.com/2026/11/513075.html": {
+      "checkedAt": "2026-11-27T08:13:25.608588+00:00",
+      "description": "担心课题被AI抢先，该怎么办？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-13.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513075.html"
     }
   }
 }
