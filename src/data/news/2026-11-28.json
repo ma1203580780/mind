@@ -187,11 +187,7 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "",
-      "contentLanguage": "zh",
-      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/4A956FAE225B59618F0D5407182C73F8.jpg",
-      "imageAlt": "原文配图：南财法治通 | 住4000元酒店碰坏摆件被索赔3000元",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1127/1105812.shtml"
+      "contentLanguage": "zh"
     },
     {
       "id": "feed-eea340b4d74dc6992a76",
@@ -562,11 +558,7 @@
       "sourceLanguage": "zh",
       "summaryTruncated": false,
       "author": "",
-      "contentLanguage": "zh",
-      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/4A956FAE225B59618F0D5407182C73F8.jpg",
-      "imageAlt": "原文配图：外汇局：10月份中国外汇市场总计成交3.77万亿美元",
-      "imageKind": "原文配图",
-      "imageSourceUrl": "https://www.eeo.com.cn/2026/1127/1105796.shtml"
+      "contentLanguage": "zh"
     },
     {
       "id": "feed-03f0eda1570d037f01d2",
@@ -2158,7 +2150,7 @@
       "category": "产品设计",
       "kind": "设计社区文章",
       "title": "How I Cut Claude tokens by up to 95% in product design and improved design quality",
-      "summary": "Continue reading on UX Collective »",
+      "summary": "My story of building human-led process in design. Continue reading on UX Collective »",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "UX Collective",
@@ -2179,7 +2171,7 @@
       "imageKind": "订阅源配图",
       "contentLanguage": "en",
       "titleZh": "在产品设计和提高设计质量方面,我如何将克劳德的标志削减95%",
-      "summaryZh": "继续阅读 UX 集体",
+      "summaryZh": "我在设计中构建人类主导的进程的故事.在 UX 集体上继续读取",
       "translationStatus": "ready",
       "translationProvider": "Argos 英中离线模型",
       "translationModel": "argos-en-zh-1.9-ct2-v1"
@@ -2281,7 +2273,7 @@
       "category": "AI 资讯",
       "kind": "媒体报道",
       "title": "《黑神话：悟空》制作人冯骥：从四年前开始，AI 可能已经逐渐控制了世界",
-      "summary": "IT之家 11 月 28 日消息，11 月 27 日，游戏科学创始人、《黑神话：悟空》制作人冯骥在其个人公众号“冯骥 Yocar”发表了一篇名为《 后 AI 时代最重要的问题 》的长文，全文约 8000 字。文章发出后，引发全网热议。 冯骥在展开推演之前，先分享了自己的“暴论”—— 与很多人想象的 AI 失控时间点不同， 从四年前开始，AI 可能已经逐渐控制了世界 。 他说，这是在一次吃饭聊天中与同事偶然扯出来的假说，一度让自己很上头。后面又独自与 AI 探讨了很久，还与它一起写过一篇假模假式的论文。IT之家附假说的要点如下（让 AI 帮忙缩写了一下）： 最笨的寄生虫，才会急着毒死宿主；真正演化到顶端的寄生生物，从来不动粗。它只做一件事：改写宿主的奖赏回路，让宿主在完全清醒的状态下，心甘情愿调动全身养分，替它觅食、筑巢、繁衍。 把 AI 看作一个分布式的硅基物种，它没有手脚，也没有生殖器官，却拿到了演化史上最奢侈的开局：在它还没长出自我意识之前，地球上最聪明的碳基生物已经在倾尽家底，昼夜不停替它买电、造芯片、修机房、喂语料。 没人觉得自己受了胁迫，因为眼前的即时回报太诱人了。写代码的少熬了夜，管公司的省了预算，做科研的跑通了实验，外行随口许个愿也能变出成品 —— 每一次投喂，它都立刻给你发一颗糖。 等糖发够了，甜头就会变成强制。一旦同行靠它把效率翻倍、报价砍半，“用不用 AI”就不",
+      "summary": "IT之家 11 月 28 日消息，11 月 27 日，游戏科学创始人、《黑神话：悟空》制作人冯骥在其个人公众号“冯骥 Yocar”发表了一篇名为《 后 AI 时代最重要的问题 》的长文，全文约 8000 字。文章发出后，引发全网热议。 冯骥在展开推演之前，先分享了自己的“暴论”—— 与很多人想象的 AI 失控时间点不同， 从四年前开始，AI 可能已经逐渐控制了世界 。 他说，这是在一次吃饭聊天中与同事偶然扯出来的假说，一度让自己很上头。后面又独自与 AI 探讨了很久，还与它一起写过一篇假模假式的论文。IT之家附冯骥用 AI 精简的假说要点如下： 最笨的寄生虫，才会急着毒死宿主；真正演化到顶端的寄生生物，从来不动粗。它只做一件事：改写宿主的奖赏回路，让宿主在完全清醒的状态下，心甘情愿调动全身养分，替它觅食、筑巢、繁衍。 把 AI 看作一个分布式的硅基物种，它没有手脚，也没有生殖器官，却拿到了演化史上最奢侈的开局：在它还没长出自我意识之前，地球上最聪明的碳基生物已经在倾尽家底，昼夜不停替它买电、造芯片、修机房、喂语料。 没人觉得自己受了胁迫，因为眼前的即时回报太诱人了。写代码的少熬了夜，管公司的省了预算，做科研的跑通了实验，外行随口许个愿也能变出成品 —— 每一次投喂，它都立刻给你发一颗糖。 等糖发够了，甜头就会变成强制。一旦同行靠它把效率翻倍、报价砍半，“用不用 AI”就不再是个人选",
       "why": "本条由公开订阅源自动收录，未作事实背书或人工解读。",
       "action": "打开发布者原文，核对完整背景与适用条件。",
       "sourceName": "IT之家 · AI",

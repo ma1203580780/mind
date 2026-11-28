@@ -5255,7 +5255,10 @@
     "4805594d1e3f274051b3e086b933f3acd2c35af27179990dc056c55e265d14f9": "日本没有假期的第二天",
     "adef3450af03c208800da468112bb8fb50bfe40bbfadcd2fe159cfdc72eac2ad": "日本已登记2 600多个周年,并不断进口更多。继续阅读 UX 集体",
     "c893934be07cb89ea58ba517fe5071f377bc80b4e47dc21622b5a4bd9f951c93": "界面的末端是设计的开始",
-    "04af0773e91060355da23bd9eb9e75af9b4ad9b8dcf2db84c97553d22defff75": "AI已经构建了接口,没有设计师推动一个像素.很快,用户甚至不会看到我们设计的接口:他们的代理人会看到.设计可以像流星一样燃烧,或者回到它一直想的:解决问题.设计正在改变。设计Ops正在改变.我们作为人类的作用正在改变。我们的大脑正在被重新连接。我们的工作方式每天都在重新发明。就像现代的Penelopes,我们白天编织, 晚上科技的速度 揭开我们的工作。我们重新开始。我们坚持我们所知道的,坚持我们熟悉的思维和行为方式.我们"
+    "04af0773e91060355da23bd9eb9e75af9b4ad9b8dcf2db84c97553d22defff75": "AI已经构建了接口,没有设计师推动一个像素.很快,用户甚至不会看到我们设计的接口:他们的代理人会看到.设计可以像流星一样燃烧,或者回到它一直想的:解决问题.设计正在改变。设计Ops正在改变.我们作为人类的作用正在改变。我们的大脑正在被重新连接。我们的工作方式每天都在重新发明。就像现代的Penelopes,我们白天编织, 晚上科技的速度 揭开我们的工作。我们重新开始。我们坚持我们所知道的,坚持我们熟悉的思维和行为方式.我们",
+    "eaf8418e0616fa5e6c5f6bb25256ad39fb93eb6ddd314172b4181dc923523dfd": "和人工智能合作是对我们做的",
+    "6fe0acb186a397f22c1a6c934ac06b15bee3656a5bf50623715409072d30d075": "AI风暴中段设计师的论文.大多数关于设计中的AI的对话都是关于如何进行.其他团队如何用它建立原型,AI如何让他们更有成效,它对用户研究做了些什么,以及人们所质疑的“设计过程 ” ( design process ) 。 人类走向了另一条道路,看看做这项工作的人内部正在发生什么变化。这是一个实验性系列, 由设计师撰写,他们像其他人一样生活在这个过程中, 挣扎,学习, 和不学习。从某种意义上说,这也是我们以前在这里出版的UX国的演变",
+    "3ab2209f1d487519d2babb88ad10990bb96c1adade825461a9521dcd79c1c796": "我在设计中构建人类主导的进程的故事.在 UX 集体上继续读取"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -27485,6 +27488,83 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/033/840.htm"
+    },
+    "https://www.qbitai.com/2026/11/513577.html": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "这可能是有史以来，ROI（投资回报率）最高的个人博客。",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/563d37cdfc6c61e0a89a4db3598fe816.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513577.html"
+    },
+    "https://decohack.com/producthunt-daily-2026-11-28/": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "Wizstar R1：Seedance 2.0级产品视频，成本更低。；Depost AI：LinkedIn的人工智能助手，能够学习并了解最适合您品牌的策略。；Contral：这个人工智能编程助手不仅能检查自己的工作，还能教你编程。；Periscope：将任何工作转化为API；Pushary Calls：想念你AI助手的提醒吗？Pushary来帮你了。",
+      "image": "https://decohack.com/producthunt-daily-2026-11-28/opengraph-image?f8ffb0d666431a57",
+      "kind": "原文封面",
+      "imageSourceUrl": "https://decohack.com/producthunt-daily-2026-11-28/"
+    },
+    "https://www.qbitai.com/2026/11/513555.html": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "这两天转投Gemini的有福了！",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/7acb31ea70007a6d0ff8b9e763e53ec6.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513555.html"
+    },
+    "https://w2solo.com/topics/8784": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8784"
+    },
+    "https://www.eeo.com.cn/2026/1128/1106825.shtml": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/jpg/4A956FAE225B59618F0D5407182C73F8.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1128/1106825.shtml"
+    },
+    "https://www.qbitai.com/2026/11/513535.html": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "国产芯片训千亿大模型，终于有人把施工图纸摊开了",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/43dcd2e3d7d3710ef6bda7fec3b7a38f.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513535.html"
+    },
+    "https://www.qbitai.com/2026/11/513507.html": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "这还只是热身",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-15.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513507.html"
+    },
+    "https://w2solo.com/topics/8782": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "",
+      "image": "https://indiehackers-1251406926.cos.ap-chengdu.myqcloud.com/hackers/7cl3u.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://w2solo.com/topics/8782"
+    },
+    "https://www.qbitai.com/2026/11/513484.html": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "六种检查全通过",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/6d82843d9061e3ef271f022380962255.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513484.html"
+    },
+    "https://www.qbitai.com/2026/11/513463.html": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "为了证明黎曼猜想，他已经准备了十几年",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/article-image-1-14.webp",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513463.html"
+    },
+    "https://www.ithome.com/1/033/977.htm": {
+      "checkedAt": "2026-11-28T18:25:16.975410+00:00",
+      "description": "美国多个学区正在采取措施屏蔽谷歌的人工智能功能，并且正在考虑彻底弃用谷歌产品，除非该公司为他们提供一个永久规避 AI 功能的变通方案。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/033/977.htm"
     }
   }
 }
