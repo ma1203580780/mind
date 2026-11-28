@@ -5246,7 +5246,16 @@
     "779a07fef1089d67467ee03d637e3b43dd0d85a2a82cb27a715e648b518d99e3": "寻找 Clue 而非场景:在视觉语言模型中重新思考实体识别的理由",
     "5f493e52013613467b195081e5f30173cb1724269d66c5bf92ef71c4cedb8d5d": "回答一个基于知识的视觉问题,首先需要识别图像中的实体,然后回顾有关它的知识.思考视觉-语言模型(VLMs)在回答前有上千个符号的理由,然而,对于这些思考VLMs如何很好地执行这两个步骤,仍然未得到充分的探讨.因此,我们分析关于这项任务的自愿多数意见,并提出两项关键意见。(1) 承认是瓶颈,因为ViQuAE上四个模型的76.3%出错源于对该实体的误解,84.9%的失误一旦在查询中提供实体名称就得到解决。",
     "22a0f58b35dd67486d28215cad0feda98a91e75a0f0ec92af286c36d8952ae12": "将Trainium3带入音轨:生成带LTX-2.5的视频",
-    "c12a8e8fa44756d921c1c936e5d0700652fcffd3ab9a70590e6eb42aa047c842": "页:1"
+    "c12a8e8fa44756d921c1c936e5d0700652fcffd3ab9a70590e6eb42aa047c842": "页:1",
+    "d271bb684dbe31f6ed54001f19846ce95c40e306d4db9f3ccc6b0e1ff803b984": "v0.40.20-rc0 (韩语).",
+    "23849244a82b9d4772ddc5cebd9a442552e97e7e5be7808b3973cafa15bf3940": "凸起的拉玛服务器(# 19953)",
+    "fb71a03fe5821c4874bcd516ab1e18a7f18d885dabc12fd4ee894469aaed5edb": "鲍里斯·武伊契奇:对库里耶的采访",
+    "4916dac5ca82b17c2fa7d22878a8d893c52e800f19f746f49459210f0f7d5266": "在产品设计和提高设计质量方面,我如何将克劳德的标志削减95%",
+    "f54579bf070092f847ac6a6663417f99b8d0eb6007d26418c98f291450e70fcb": "继续阅读 UX 集体",
+    "4805594d1e3f274051b3e086b933f3acd2c35af27179990dc056c55e265d14f9": "日本没有假期的第二天",
+    "adef3450af03c208800da468112bb8fb50bfe40bbfadcd2fe159cfdc72eac2ad": "日本已登记2 600多个周年,并不断进口更多。继续阅读 UX 集体",
+    "c893934be07cb89ea58ba517fe5071f377bc80b4e47dc21622b5a4bd9f951c93": "界面的末端是设计的开始",
+    "04af0773e91060355da23bd9eb9e75af9b4ad9b8dcf2db84c97553d22defff75": "AI已经构建了接口,没有设计师推动一个像素.很快,用户甚至不会看到我们设计的接口:他们的代理人会看到.设计可以像流星一样燃烧,或者回到它一直想的:解决问题.设计正在改变。设计Ops正在改变.我们作为人类的作用正在改变。我们的大脑正在被重新连接。我们的工作方式每天都在重新发明。就像现代的Penelopes,我们白天编织, 晚上科技的速度 揭开我们的工作。我们重新开始。我们坚持我们所知道的,坚持我们熟悉的思维和行为方式.我们"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -27434,6 +27443,48 @@
       "image": null,
       "kind": null,
       "imageSourceUrl": "https://www.ithome.com/1/033/780.htm"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0": {
+      "checkedAt": "2026-11-28T10:15:25.145806+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.20-rc0 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0"
+    },
+    "https://www.eeo.com.cn/2026/1128/1106524.shtml": {
+      "checkedAt": "2026-11-28T10:15:25.145806+00:00",
+      "description": "",
+      "image": "https://jg-app.obs.cn-north-4.myhuaweicloud.com/prod/upload/0/png/8E6A61A2AC4AFD35FF4B661B9CF3BD35.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.eeo.com.cn/2026/1128/1106524.shtml"
+    },
+    "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html": {
+      "checkedAt": "2026-11-28T10:15:25.145806+00:00",
+      "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+      "image": "https://www.ecb.europa.eu/paym/financial-stability/html/index/fsr_1000x750.jpg",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261128~10e11f78f1.en.html"
+    },
+    "https://www.ithome.com/1/033/920.htm": {
+      "checkedAt": "2026-11-28T10:15:25.145806+00:00",
+      "description": "该计划部署九项重点任务，目标到 2028 年打造标杆场景超 10 个，集聚生态企业超 100 家，建成全国领先的鸿蒙智能体创新高地。同日，2026 开源鸿蒙技术大会在南京举行，余承东视频致辞表示华为将一如既往支持开源鸿蒙生态共建。#开源鸿蒙# #南京#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/033/920.htm"
+    },
+    "https://www.qbitai.com/2026/11/513428.html": {
+      "checkedAt": "2026-11-28T10:15:25.145806+00:00",
+      "description": "这种大模型现做的即时交互工具，能不能来一波知识付费？",
+      "image": "https://i.qbitai.com/wp-content/uploads/2026/11/c4c27fdadb9fc3d715d845ac0a79804a.png",
+      "kind": "原文配图",
+      "imageSourceUrl": "https://www.qbitai.com/2026/11/513428.html"
+    },
+    "https://www.ithome.com/1/033/840.htm": {
+      "checkedAt": "2026-11-28T10:15:25.145806+00:00",
+      "description": "通报涉及侵权盗版、低俗微短剧及 AI 魔改经典影视等三类问题，快手、抖音、爱奇艺、百度网盘、微博、哔哩哔哩等平台均在处置名单中。今年以来已累计下架违规微短剧 7.5 万部，处置违规账号 1500 余个。#广电总局通报# #网络视听治理#",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/033/840.htm"
     }
   }
 }
