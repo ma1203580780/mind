@@ -5245,7 +5245,8 @@
     "38553db86a0edd9c9a9c93bb2ce50691ad74c07e8b668a925209c9d2d3ed2d4a": "非侵入性脑到文字寻求从脑活性中恢复语言而无需手术.一项核心挑战是将所学的脑语言表述转化为准确的字词预测.我们介绍MEG2text,一种将校正的训练和评价,脑文本对齐,班级平衡的单词读取,以及目标词语言-模型组合相结合的解码系统.在LibriBrain100的文字排位任务上,MEG2text达到了64.12%的TOP-10平衡精度,在公布的MEG-XL上提高了16.92个百分点,在4个Corpora上,每件都取得了收益.控制比较显示t",
     "779a07fef1089d67467ee03d637e3b43dd0d85a2a82cb27a715e648b518d99e3": "寻找 Clue 而非场景:在视觉语言模型中重新思考实体识别的理由",
     "5f493e52013613467b195081e5f30173cb1724269d66c5bf92ef71c4cedb8d5d": "回答一个基于知识的视觉问题,首先需要识别图像中的实体,然后回顾有关它的知识.思考视觉-语言模型(VLMs)在回答前有上千个符号的理由,然而,对于这些思考VLMs如何很好地执行这两个步骤,仍然未得到充分的探讨.因此,我们分析关于这项任务的自愿多数意见,并提出两项关键意见。(1) 承认是瓶颈,因为ViQuAE上四个模型的76.3%出错源于对该实体的误解,84.9%的失误一旦在查询中提供实体名称就得到解决。",
-    "22a0f58b35dd67486d28215cad0feda98a91e75a0f0ec92af286c36d8952ae12": "将Trainium3带入音轨:生成带LTX-2.5的视频"
+    "22a0f58b35dd67486d28215cad0feda98a91e75a0f0ec92af286c36d8952ae12": "将Trainium3带入音轨:生成带LTX-2.5的视频",
+    "c12a8e8fa44756d921c1c936e5d0700652fcffd3ab9a70590e6eb42aa047c842": "页:1"
   },
   "articles": {
     "https://blog.cloudflare.com/clef-decision-models/": {
@@ -27419,6 +27420,20 @@
       "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
       "kind": "原文封面",
       "imageSourceUrl": "https://huggingface.co/blog/video-trainium3"
+    },
+    "https://github.com/ollama/ollama/releases/tag/v0.40.19": {
+      "checkedAt": "2026-11-28T01:39:12.683588+00:00",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - Release v0.40.19 · ollama/ollama",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://github.com/ollama/ollama/releases/tag/v0.40.19"
+    },
+    "https://www.ithome.com/1/033/780.htm": {
+      "checkedAt": "2026-11-28T01:39:12.683588+00:00",
+      "description": "《金融时报》昨日（11 月 27 日）发布博文，报道称在苹果公司提起的商业秘密诉讼中，OpenAI 公司已经提出反诉，指控苹果自身窃取了 OpenAI 的商业秘密，并涉嫌胁迫和威胁同时为两家公司供货的供应商。",
+      "image": null,
+      "kind": null,
+      "imageSourceUrl": "https://www.ithome.com/1/033/780.htm"
     }
   }
 }
